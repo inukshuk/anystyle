@@ -6,3 +6,7 @@ group :debug do
 	gem 'ruby-debug', :platforms => [:mri_18, :jruby]
 	gem 'rbx-trepanning', :platforms => [:rbx]
 end
+
+group :osx_test do
+	gem 'autotest-fsevent', :require => false  
+end

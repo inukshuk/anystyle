@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.description = 'A parser for academic references based on conditional random fields.'
   s.license     = 'FreeBSD'
   
-  s.add_runtime_dependency('crfpp', '~>0.0')
+  s.add_runtime_dependency('wapiti', '~>0.0')
   
   s.add_development_dependency('rake', ['~>0.9'])
   s.add_development_dependency('racc', ['~>1.4'])
