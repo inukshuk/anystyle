@@ -9,25 +9,28 @@ module Anystyle
 				:separator => /\s+/
 			}.freeze
 			
+			@features = []
+
+			
 			class << self
 				
-				attr_reader :defaults
+				attr_reader :defaults, :features
 				
 				def load(path)
 					p = new
 					p.model = Wapiti.load(path)
 					p
 				end
-				
+								
 			end
 			
 			attr_reader :options
 			
-			attr_accessor :model, :features
+			attr_accessor :model
 			
 			def initialize(options = {})
 				@options = Parser.defaults.merge(options)
-				@features, @model = Features.new, Wapiti.load(@options[:model])
+				@model = Wapiti.load(@options[:model])
 			end
 			
 			def parse(string)
@@ -48,10 +51,21 @@ module Anystyle
 			
 			def prepare(string)
 				ts = tokenize(string)
-				ts.each { |tk| tk.map! { |t| features.expand(t) } }
+				ts.each { |tk| tk.map! { |t| expand(t) } }
 				ts
 			end
-						
+
+
+			def expand(token)
+				features_for(token).unshift(token).join(' ')
+			end
+			
+			private
+			
+			def features_for(token)
+				Parser.features.map { |f| f.match(token) }
+			end
+				
 		end
 
 	end
