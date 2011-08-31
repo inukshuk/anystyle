@@ -20,13 +20,13 @@ module Anystyle::Parser
 		
 		describe "#prepare" do
 			it 'returns an array of expanded token sequences' do
-				subject.prepare('hello, world!').should == [['hello, ,', 'world! !']]
+				subject.prepare('hello, world!').should == [['hello, , h he hel hell , o, lo, llo, hello other none 0 no no no no no no none 0 internal other', 'world! ! w wo wor worl ! d! ld! rld! world other none 36 no no family no no publisher none 5 terminal other']]
 			end
 		end
 
 		describe "#label" do
 			it 'returns an array of expanded token sequences' do
-				subject.label('hello, world!').should == [[['hello,', 'O'], ['world!', 'O']]]
+				subject.label('hello, world!').should == [[['hello,', 'location'], ['world!', 'location']]]
 			end
 		end
 

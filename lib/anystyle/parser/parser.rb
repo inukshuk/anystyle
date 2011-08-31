@@ -44,26 +44,22 @@ module Anystyle
 			end
 			
 			def tokenize(string)
-				ss = string.split(/[\n\r]+/)
-				ss.map! { |s| s.split(options[:separator]) }				
-				ss
+				string.split(/[\n\r]+/).map { |s| s.split(options[:separator]) }
 			end
 			
 			def prepare(string)
-				ts = tokenize(string)
-				ts.each { |tk| tk.map! { |t| expand(t) } }
-				ts
+				tokenize(string).map { |tk| tk.each_with_index.map { |t,i| expand(t,tk,i) } }
 			end
 
 
-			def expand(token)
-				features_for(token).unshift(token).join(' ')
+			def expand(token, sequence, offset)
+				features_for(token, sequence, offset).unshift(token).join(' ')
 			end
 			
 			private
 			
-			def features_for(token)
-				Parser.features.map { |f| f.match(token) }
+			def features_for(*arguments)
+				Parser.features.map { |f| f.match(*arguments) }
 			end
 				
 		end
