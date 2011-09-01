@@ -18,5 +18,15 @@ module Anystyle::Parser
 			
 		end
 		
+		describe "dict[]" do
+		
+			%w{ philippines italy }.each do |place|
+				it "#{place.inspect} should be a place name" do
+					Feature.dict[place].should == Feature.dict_code[:place]
+				end
+			end
+				
+		end
+				
 	end
 end

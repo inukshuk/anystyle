@@ -20,7 +20,7 @@ module Anystyle::Parser
 		
 		describe "#prepare" do
 			it 'returns an array of expanded token sequences' do
-				subject.prepare('hello, world!').should == [['hello, , h he hel hell , o, lo, llo, hello other none 0 no no no no no no none 0 internal other', 'world! ! w wo wor worl ! d! ld! rld! world other none 36 no no family no no publisher none 5 terminal other']]
+				subject.prepare('hello, world!').should == [['hello, , h he hel hell , o, lo, llo, hello other none 0 no-male no-female no-family no-month no-place no-publisher none 0 internal other', 'world! ! w wo wor worl ! d! ld! rld! world other none 36 no-male no-female family no-month no-place publisher none 5 terminal other']]
 			end
 		end
 

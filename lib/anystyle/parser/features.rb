@@ -3,6 +3,65 @@ module Anystyle
 
 		class Feature
 			
+			@dict_file = File.expand_path('../support/dictionary.txt', __FILE__)
+			
+			@dict_keys = [:male, :female, :family, :month, :place, :publisher].freeze
+
+			@dict_code = Hash[*@dict_keys.zip(0.upto(@dict_keys.length-1).map { |i| 2**i }).flatten]
+			@dict_code.default = 0
+			@dict_code.freeze
+			
+			class << self
+				
+				attr_reader :dict_file, :dict_code, :dict_keys
+				
+				def dictionary
+					@dictionary || load_dictionary
+				end
+				
+				alias dict dictionary
+				
+				def load_dictionary
+					File.open(dict_file, 'r:UTF-8') do |f|
+						d, mode = Hash.new(0), 0
+
+						f.each do |line|
+							line.strip!
+
+							if line.start_with?(?#)
+								case line
+								when /^## male/i
+									mode = dict_code[:male]
+				        when /^## female/i
+				          mode = dict_code[:female]
+				        when /^## (?:last|chinese)/i
+				          mode = dict_code[:family]
+				        when /^## months/i
+				          mode = dict_code[:month]
+				        when /^## place/i
+				          mode = dict_code[:place]
+				        when /^## publisher/i
+				          mode = dict_code[:publisher]
+								else
+									# skip comments
+								end
+							else
+								key, probability = line.split(/\s+/)
+								d[key] += mode if mode > d[key]
+							end
+						end
+						
+						d.freeze
+					end
+				end
+				
+				def free_dictionary
+					@dictionary = nil
+					GC.start
+				end
+				
+			end
+			
 			def self.define(name, &block)
 				Parser.features << new(name, block)
 			end
@@ -13,61 +72,11 @@ module Anystyle
 				@name, @matcher = name, matcher
 			end
 			
-			# TODO add scope binding so that matchers have access to private instance methods
 			def match(*arguments)
 				matcher.call(*arguments)
 			end
 						
 		end
-
-		### TODO refactor and move to separate class/module or to Feature
-		DICT = File.open(File.expand_path('../support/dictionary.txt', __FILE__), 'r:UTF-8') do |f|
-			dict = {}
-			while line = f.gets
-	      line.strip!
-	      case line
-	        when /^\#\# Male/
-	          mode = 1
-	        when /^\#\# Female/
-	          mode = 2
-	        when /^\#\# Last/
-	          mode = 4
-	        when /^\#\# Chinese/
-	          mode = 4
-	        when /^\#\# Months/
-	          mode = 8
-	        when /^\#\# Place/
-	          mode = 16
-	        when /^\#\# Publisher/
-	          mode = 32
-	        when (/^\#/)
-	          # noop
-	        else
-	          key = line
-	          val = 0
-	          # entry has a probability
-	          key, val = line.split(/\t/) if line =~ /\t/
-
-	          # some words in dict appear in multiple places
-	          unless dict[key] && dict[key] >= mode
-	            dict[key] ||= 0
-	            dict[key] += mode
-	          end
-	      end				
-			end
-			dict.freeze
-		end
-
-	  DICT_FLAGS = {
-			:publisher =>  32,
-	    :place     =>  16,
-	    :month     =>  8,
-	    :family    =>  4,
-	    :female    =>  2,
-	    :male      =>  1
-		}.freeze
-	  
-		###
 		
 		
 		# Is the the last character upper-/lowercase, numeric or something else?
@@ -75,11 +84,11 @@ module Anystyle
 		Feature.define :last_character do |token|
 			case char = token.split(//)[-1]
 			when /^[[:upper:]]$/
-				?A
+				:A
 			when /^[[:lower:]]$/
-				?a
+				:a
 			when /^\d$/
-				?0
+				?0.to_sym
 			else
 				char
 			end
@@ -140,12 +149,10 @@ module Anystyle
 		end
 		
 		# [mode, male, female, family, month, place, publisher]
-		Feature.define :dictionary do |token|
-			if m = DICT[token.gsub(/[^\w]/, '').downcase]
-				[m].concat([:male, :female, :family, :month, :place, :publisher].map { |c| m & DICT_FLAGS[c] > 0 ? c : 'no' })
-			else
-				%w{ 0 no no no no no no }
-			end
+		Feature.define :dictionary do |token, stripped|
+			c = Feature.dict[stripped.downcase]
+			f = Feature.dict_keys.map { |k| c & Feature.dict_code[k] > 0 ? k : ['no', k].join('-').to_sym }
+			f.unshift(c.to_s.to_sym)
 		end
 		
 		# TODO sequence features should be called just once per sequence
