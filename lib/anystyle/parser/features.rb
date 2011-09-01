@@ -97,15 +97,12 @@ module Anystyle
 			(0..3).map { |i| c[0..i].reverse.join }			
 		end
 	
-		Feature.define :stripped_lowercase do |token|
-			s = token.gsub(/[^\w]/, '')
-			s.downcase!
-			s = :EMPTY if s.empty?
-			s
+		Feature.define :stripped_lowercase do |token, stripped|
+			stripped.empty? ? :EMPTY : stripped.downcase
 		end
 		
-		Feature.define :capitalization do |token|
-			case token.gsub(/[^\w]/, '')
+		Feature.define :capitalization do |token, stripped|
+			case stripped
 			when /^[[:upper:]]$/
 				:single
 			when /^[[:upper:]][[:lower:]]/
@@ -152,11 +149,11 @@ module Anystyle
 		end
 		
 		# TODO sequence features should be called just once per sequence
-		Feature.define :editors do |token, sequence|
+		Feature.define :editors do |token, stripped, sequence|
 			sequence.any? { |t| t =~ /^(ed|editor|editors|eds|edited)$/i } ? :editors : :none
 		end
 
-		Feature.define :location do |token, sequence, offset|
+		Feature.define :location do |token, stripped, sequence, offset|
 			((offset.to_f / sequence.length) * 10).round
 		end
 		
@@ -181,7 +178,7 @@ module Anystyle
 			end
 		end
 
-		Feature.define :type do |token, sequence|
+		Feature.define :type do |token, stripped, sequence|
 			case sequence.join(' ')
 			when /proceeding/
 				:proceedings

@@ -6,15 +6,16 @@ module Anystyle
 			@defaults = {
 				:model => File.expand_path('../support/anystyle.mod', __FILE__),
 				:pattern => File.expand_path('../support/anystyle.pat', __FILE__),
-				:separator => /\s+/
+				:separator => /\s+/,
+				:stripper => /[^\w]/
 			}.freeze
 			
 			@features = []
-
+			@feature = Hash.new { |h,k| h[k.to_sym] = features.detect { |f| f.name == k.to_sym } }
 			
 			class << self
 				
-				attr_reader :defaults, :features
+				attr_reader :defaults, :features, :feature
 				
 				def load(path)
 					p = new
@@ -53,7 +54,7 @@ module Anystyle
 
 
 			def expand(token, sequence, offset)
-				features_for(token, sequence, offset).unshift(token).join(' ')
+				features_for(token, strip(token), sequence, offset).unshift(token).join(' ')
 			end
 			
 			private
@@ -61,7 +62,11 @@ module Anystyle
 			def features_for(*arguments)
 				Parser.features.map { |f| f.match(*arguments) }
 			end
-				
+			
+			def strip(token)
+				token.gsub(options[:stripper], '')
+			end
+			
 		end
 
 	end
