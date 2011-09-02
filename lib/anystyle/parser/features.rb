@@ -48,7 +48,7 @@ module Anystyle
 									# skip comments
 								end
 							else
-								key, probability = line.split(/\s+/)
+								key, probability = line.split(/\s+(\d+\.\d+)\s*$/)
 								dict[key] += mode if mode > dict[key]
 							end
 						end
@@ -129,7 +129,7 @@ module Anystyle
 			case token
 			when /\d+\s*--?\s*\d+/
 				:page
-			when /^\(\d{4}\)$/, /^(1\d{3}|20\d{2})[\.,;:]?$/
+			when /^\(\d{4}\)\W*$/, /^(1\d{3}|20\d{2})[\.,;:]?$/
 				:year
 			when /\d\(\d+\)/
 				:volume
@@ -141,7 +141,7 @@ module Anystyle
 				:triple
 			when /^\d+$/
 				:digits
-			when /^\d+(th|st|nd|rd)$/i
+			when /\d+(th|st|nd|rd)\W*/i
 				:ordinal
 			when /\d/
 				:numeric
