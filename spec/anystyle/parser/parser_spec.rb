@@ -4,7 +4,7 @@ module Anystyle::Parser
     it { should_not be nil }
     
 		describe "#tokenize" do
-			it "returns [] when given and empty string" do
+			it "returns [] when given an empty string" do
 				subject.tokenize('').should == []
 			end
 			
@@ -16,11 +16,51 @@ module Anystyle::Parser
 				subject.tokenize("hello, world!\ngoodbye!").should == [%w{ hello, world! }, %w{ goodbye! }]
 			end
 			
+			context "when passing a string marked as tagged" do
+				it "returns [] when given an empty string" do
+					subject.tokenize('', true).should == []
+				end
+			
+				it "returns an array of :unknown token sequences when given an untagged single line" do
+					subject.tokenize('hello, world!', true).should == [[['hello,', :unknown], ['world!', :unknown]]]
+				end
+
+				it "returns an array of :unknown token sequences when given two untagged lines" do
+					subject.tokenize("hello,\nworld!", true).should == [[['hello,', :unknown]], [['world!', :unknown]]]
+				end
+
+				it "returns an array of token/tag pair for each line when given a single tagged string" do
+					subject.tokenize('<a>hello</a>', true).should == [[['hello', :a]]]
+				end
+			
+				it "returns an array of token/tag pair for each line when given a string with multiple tags" do
+					subject.tokenize('<a>hello world</a> <b> !</b>', true).should == [[['hello',:a], ['world', :a], ['!', :b]]]
+				end
+			
+				it "raises an argument error if the string contains mismatched tags" do
+					expect { subject.tokenize('<a> hello </b>', true) }.to raise_error(ArgumentError)
+					expect { subject.tokenize('<a> hello <b> world </a>', true) }.to raise_error(ArgumentError)
+				end
+			end
+			
 		end
 		
 		describe "#prepare" do
 			it 'returns an array of expanded token sequences' do
-				subject.prepare('hello, world!').should == [['hello, , h he hel hell , o, lo, llo, hello other none 0 no-male no-female no-family no-month no-place no-publisher none 0 internal other', 'world! ! w wo wor worl ! d! ld! rld! world other none 36 no-male no-female family no-month no-place publisher none 5 terminal other']]
+				subject.prepare('hello, world!').should == [['hello, , h he hel hell , o, lo, llo, hello other none 0 no-male no-female no-surname no-month no-place no-publisher none 0 internal other', 'world! ! w wo wor worl ! d! ld! rld! world other none 36 no-male no-female surname no-month no-place publisher none 5 terminal other']]
+			end
+			
+			context 'when marking the input as being tagged' do
+				let(:input) { %{<author> A. Cau, R. Kuiper, and W.-P. de Roever. </author> <title> Formalising Dijkstra's development strategy within Stark's formalism. </title> <editor> In C. B. Jones, R. C. Shaw, and T. Denvir, editors, </editor> <booktitle> Proc. 5th. BCS-FACS Refinement Workshop, </booktitle> <date> 1992. </date>} }
+
+				it 'returns an array of expaned and labelled token sequences for a tagged string' do
+					subject.prepare(input, true)[0].map { |t| t[/\S+$/] }.should == %w{ author author author author author author author author title title title title title title title editor editor editor editor editor editor editor editor editor editor editor booktitle booktitle booktitle booktitle booktitle date }
+				end
+
+				it 'returns an array of expanded and labelled :unknown token sequences for an untagged input' do
+					subject.prepare('hello, world!', true)[0].map { |t| t[/\S+$/] }.should == %w{ unknown unknown }
+				end
+				
 			end
 		end
 

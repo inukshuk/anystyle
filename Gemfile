@@ -10,3 +10,8 @@ end
 group :osx_test do
 	gem 'autotest-fsevent', :require => false  
 end
+
+group :profile do
+	gem 'ruby-prof'
+	gem 'gnuplot'
+end

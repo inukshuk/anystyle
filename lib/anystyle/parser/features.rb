@@ -5,7 +5,7 @@ module Anystyle
 			
 			@dict_file = File.expand_path('../support/dictionary.txt', __FILE__)
 			
-			@dict_keys = [:male, :female, :family, :month, :place, :publisher].freeze
+			@dict_keys = [:male, :female, :surname, :month, :place, :publisher].freeze
 
 			@dict_code = Hash[*@dict_keys.zip(0.upto(@dict_keys.length-1).map { |i| 2**i }).flatten]
 			@dict_code.default = 0
@@ -16,14 +16,14 @@ module Anystyle
 				attr_reader :dict_file, :dict_code, :dict_keys
 				
 				def dictionary
-					@dictionary || load_dictionary
+					@dictionary ||= load_dictionary
 				end
 				
 				alias dict dictionary
 				
 				def load_dictionary
 					File.open(dict_file, 'r:UTF-8') do |f|
-						d, mode = Hash.new(0), 0
+						dict, mode = Hash.new(0), 0
 
 						f.each do |line|
 							line.strip!
@@ -35,7 +35,7 @@ module Anystyle
 				        when /^## female/i
 				          mode = dict_code[:female]
 				        when /^## (?:last|chinese)/i
-				          mode = dict_code[:family]
+				          mode = dict_code[:surname]
 				        when /^## months/i
 				          mode = dict_code[:month]
 				        when /^## place/i
@@ -47,11 +47,11 @@ module Anystyle
 								end
 							else
 								key, probability = line.split(/\s+/)
-								d[key] += mode if mode > d[key]
+								dict[key] += mode if mode > dict[key]
 							end
 						end
 						
-						d.freeze
+						dict.freeze
 					end
 				end
 				
@@ -150,9 +150,10 @@ module Anystyle
 		
 		# [mode, male, female, family, month, place, publisher]
 		Feature.define :dictionary do |token, stripped|
-			c = Feature.dict[stripped.downcase]
-			f = Feature.dict_keys.map { |k| c & Feature.dict_code[k] > 0 ? k : ['no', k].join('-').to_sym }
-			f.unshift(c.to_s.to_sym)
+			# c = Feature.dict[stripped.downcase]
+			# f = Feature.dict_keys.map { |k| c & Feature.dict_code[k] > 0 ? k : ['no', k].join('-').to_sym }
+			# f.unshift(c.to_s.to_sym)
+			[?0] + Feature.dict_keys
 		end
 		
 		# TODO sequence features should be called just once per sequence
