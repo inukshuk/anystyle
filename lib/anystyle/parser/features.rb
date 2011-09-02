@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 module Anystyle
 	module Parser
 
@@ -88,7 +90,7 @@ module Anystyle
 			when /^[[:lower:]]$/
 				:a
 			when /^\d$/
-				?0.to_sym
+				0
 			else
 				char
 			end
@@ -155,8 +157,9 @@ module Anystyle
 		end
 		
 		# TODO sequence features should be called just once per sequence
+		# TODO improve / disambiguate edition
 		Feature.define :editors do |token, stripped, sequence|
-			sequence.any? { |t| t =~ /^(ed|editor|editors|eds|edited)$/i } ? :editors : :none
+			sequence.any? { |t| t =~ /^(ed|editor|editors|eds|edited)$/i } ? :editors : :'no-editors'
 		end
 
 		Feature.define :location do |token, stripped, sequence, offset|
@@ -165,9 +168,9 @@ module Anystyle
 		
 		Feature.define :punctuation do |token|
 			case token
-			when /^["'`]/
+			when /^["'”’´‘“`]/
 				:quote
-			when /["'`]$/
+			when /["'”’´‘“`]$/
 				:unquote
 			when /-+/
 				:hyphen
@@ -184,10 +187,15 @@ module Anystyle
 			end
 		end
 
-		Feature.define :type do |token, stripped, sequence|
-			case sequence.join(' ')
-			when /proceeding/
+
+		Feature.define :type do |token, stripped, sequence, offset|
+			s = sequence.join(' ')
+			case
+			when s =~ /proceeding/
 				:proceedings
+			when stripped =~ /^in$/i && sequence[offset+1].to_s =~ /^[[:upper:]]/ && sequence[offset-1].to_s =~ /["'”’´‘“`\.;,]$/
+				:collection
+			# TODO thesis article? book unpublished
 			else
 				:other
 			end

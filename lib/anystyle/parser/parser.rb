@@ -3,8 +3,13 @@ module Anystyle
 
 		class Parser
 
+			@models = Hash.new { |h,k| k }.merge(
+				:anystyle => File.expand_path('../support/anystyle.mod', __FILE__),
+				:cora => File.expand_path('../support/anystyle.mod', __FILE__)
+			)
+			
 			@defaults = {
-				:model => File.expand_path('../support/anystyle.mod', __FILE__),
+				:model => :anystyle,
 				:pattern => File.expand_path('../support/anystyle.pat', __FILE__),
 				:separator => /\s+/,
 				:tagged_separator => /\s+|(<\/?[^>]+>)/,
@@ -16,7 +21,7 @@ module Anystyle
 			
 			class << self
 
-				attr_reader :defaults, :features, :feature
+				attr_reader :defaults, :features, :feature, :models
 								
 				def load(path)
 					p = new                                    
@@ -37,7 +42,7 @@ module Anystyle
 			
 			def initialize(options = {})
 				@options = Parser.defaults.merge(options)
-				@model = Wapiti.load(@options[:model])
+				@model = Wapiti.load(Parser.models[@options[:model]])
 			end
 			
 			def parse(string)
