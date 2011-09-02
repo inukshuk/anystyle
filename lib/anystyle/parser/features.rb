@@ -148,12 +148,10 @@ module Anystyle
 			end
 		end
 		
-		# [mode, male, female, family, month, place, publisher]
 		Feature.define :dictionary do |token, stripped|
-			# c = Feature.dict[stripped.downcase]
-			# f = Feature.dict_keys.map { |k| c & Feature.dict_code[k] > 0 ? k : ['no', k].join('-').to_sym }
-			# f.unshift(c.to_s.to_sym)
-			[?0] + Feature.dict_keys
+			c = Feature.dict[stripped.downcase]
+			f = Feature.dict_keys.map { |k| c & Feature.dict_code[k] > 0 ? k : ['no', k].join('-').to_sym }
+			f.unshift(c)
 		end
 		
 		# TODO sequence features should be called just once per sequence
