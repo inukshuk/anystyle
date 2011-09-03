@@ -5,7 +5,10 @@ module Anystyle
 
 		class Feature
 			
-			@dict_file = File.expand_path('../support/dictionary.txt', __FILE__)
+			@defaults = {
+				:dict => File.expand_path('../support/dict.txt.gz', __FILE__),
+				:db => File.expand_path('../support/dict.kch', __FILE__)			
+			}
 			
 			@dict_keys = [:male, :female, :surname, :month, :place, :publisher].freeze
 
@@ -15,19 +18,47 @@ module Anystyle
 			
 			class << self
 				
-				attr_reader :dict_file, :dict_code, :dict_keys
+				attr_reader :dict_code, :dict_keys, :defaults
 				
-				def dictionary
-					@dictionary ||= load_dictionary
+				def dict
+					@dict ||= open_dictionary
 				end
 				
-				alias dict dictionary
+				alias dictionary dict
 				
-				def load_dictionary
-					File.open(dict_file, 'r:UTF-8') do |f|
-						dict, mode = Hash.new(0), 0
+				def dict_open?; !!@dict; end
+				
+				def close_dictionary
+					dict.close if dict_open?
+				end
+				
+				def open_dictionary(file = defaults[:db])
+					create_dictionary(file) unless File.exists?(file)
+					
+					db = KyotoCabinet::DB.new
+					unless db.open(file, KyotoCabinet::DB::OREADER)
+						raise DatabaseError, "failed to open cabinet file #{file}: #{db.error}"
+					end
+					
+					at_exit { ::Anystyle::Parser::Feature.close_dictionary }
+					db
+				end
+				
+				def create_dictionary(db = defaults[:db], file = defaults[:dict])
+					require 'zlib'
+					
+					close_dictionary
+					File.unlink(db) if File.exists?(db)
+						
+					kc = KyotoCabinet::DB.new
+					unless kc.open(db, KyotoCabinet::DB::OWRITER | KyotoCabinet::DB::OCREATE)
+						raise DatabaseError, "failed to create cabinet file #{db}: #{kc.error}"
+					end
+					
+					File.open(file, 'r:UTF-8') do |f|
+						mode = 0
 
-						f.each do |line|
+						Zlib::GzipReader.new(f).each do |line|
 							line.strip!
 
 							if line.start_with?(?#)
@@ -36,7 +67,7 @@ module Anystyle
 									mode = dict_code[:male]
 				        when /^## female/i
 				          mode = dict_code[:female]
-				        when /^## (?:last|chinese)/i
+				        when /^## (?:surname|last|chinese)/i
 				          mode = dict_code[:surname]
 				        when /^## months/i
 				          mode = dict_code[:month]
@@ -49,17 +80,13 @@ module Anystyle
 								end
 							else
 								key, probability = line.split(/\s+(\d+\.\d+)\s*$/)
-								dict[key] += mode if mode > dict[key]
+								value = kc[key].to_i
+								kc[key] = value + mode if value < mode
 							end
 						end
-						
-						dict.freeze
 					end
-				end
-				
-				def free_dictionary
-					@dictionary = nil
-					GC.start
+					
+					kc.close
 				end
 				
 			end
@@ -86,11 +113,11 @@ module Anystyle
 		Feature.define :last_character do |token|
 			case char = token.split(//)[-1]
 			when /^[[:upper:]]$/
-				:A
+				:upper
 			when /^[[:lower:]]$/
-				:a
+				:lower
 			when /^\d$/
-				0
+				:numeric
 			else
 				char
 			end
@@ -151,8 +178,10 @@ module Anystyle
 		end
 		
 		Feature.define :dictionary do |token, stripped|
-			c = Feature.dict[stripped.downcase]
-			f = Feature.dict_keys.map { |k| c & Feature.dict_code[k] > 0 ? k : ['no', k].join('-').to_sym }
+			c = Feature.dict[stripped.downcase].to_i
+			f = Feature.dict_keys.map do |k|
+				c & Feature.dict_code[k] > 0 ? k : ['no',k].join('-').to_sym
+			end
 			f.unshift(c)
 		end
 		

@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     anystyle-parser (0.0.1)
+      kyotocabinet-ruby (~> 1.27)
       wapiti (~> 0.0)
 
 GEM
@@ -24,6 +25,7 @@ GEM
       json (>= 1.4.6)
     gnuplot (2.3.6)
     json (1.5.4)
+    kyotocabinet-ruby (1.27.1)
     linecache (0.46)
       rbx-require-relative (> 0.0.4)
     linecache19 (0.5.12)

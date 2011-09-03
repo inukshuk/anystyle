@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 module Anystyle::Parser
 	describe "Features" do
 	  
@@ -18,14 +20,18 @@ module Anystyle::Parser
 			
 		end
 		
-		describe "dict[]" do
+		describe ".dict" do
 		
 			%w{ philippines italy }.each do |place|
 				it "#{place.inspect} should be a place name" do
-					Feature.dict[place].should == Feature.dict_code[:place]
+					Feature.dict[place].to_i.should == Feature.dict_code[:place]
 				end
 			end
-				
+			
+			it "çela is a surname" do
+				(Feature.dict['çela'].to_i & Feature.dict_code[:surname]).should > 0
+			end
+			
 		end
 				
 	end
