@@ -76,7 +76,7 @@ module Anystyle::Parser
 			let(:citation) { 'Perec, Georges. A Void. London: The Harvill Press, 1995. p.108.' }
 			
 			it 'returns a hash of label/segment pairs by default' do
-				subject.parse(citation)[0].should == { :author => 'Perec, Georges.', :title => 'A Void.', :location => 'London:', :publisher => 'The Harvill Press,', :date => '1995.', :pages => 'p.108.' }
+				subject.parse(citation)[0].should == { :author => 'Perec, Georges', :title => 'A Void', :location => 'London', :publisher => 'The Harvill Press', :year => 1995, :pages => '108' }
 			end
 		end
 

@@ -41,11 +41,12 @@ module Anystyle
 			
 			attr_reader :options
 			
-			attr_accessor :model
+			attr_accessor :model, :normalizer
 			
 			def initialize(options = {})
 				@options = Parser.defaults.merge(options)
 				@model = Wapiti.load(Parser.models[@options[:model]])
+				@normalizer = Normalizer.instance
 			end
 			
 			def parse(string, format = options[:format])
@@ -133,6 +134,17 @@ module Anystyle
 				model.train(data, options)
 			end
 			
+			def normalize(hash)
+				hash.keys.each do |label|
+					normalizer.send("normalize_#{label}", hash)
+				end
+				classify hash
+			end
+			
+			def classify(hash)
+				hash
+			end
+			
 			private
 			
 			def features_for(*arguments)
@@ -153,21 +165,22 @@ module Anystyle
 			
 			def format_hash(labels)
 				labels.map do |line|
-					line.inject({}) do |hash, (label, token)|
-						if hash.has_key?(label)
-							hash[label] = [hash[label]].flatten << token
+					hash = line.inject({}) do |h, (label, token)|
+						if h.has_key?(label)
+							h[label] = [h[label]].flatten << token
 						else
-							hash[label] = token
+							h[label] = token
 						end
-						hash
+						h
 					end
+					normalize hash
 				end
 			end
 			
 			def format_citeproc(labels)
 				format_bibtex(labels).to_citeproc
 			end
-			
+						
 		end
 
 	end
