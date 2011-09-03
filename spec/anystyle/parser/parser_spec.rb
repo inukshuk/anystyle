@@ -65,8 +65,18 @@ module Anystyle::Parser
 		end
 
 		describe "#label" do
-			it 'returns an array of expanded token sequences' do
-				subject.label('hello, world!').should == [[['hello,', 'location'], ['world!', 'location']]]
+			let(:citation) { 'Perec, Georges. A Void. London: The Harvill Press, 1995. p.108.' }
+			
+			it 'returns an array of labelled segments' do
+				subject.label(citation)[0].map(&:first).should == [:author, :title, :location, :publisher, :date, :pages]
+			end
+		end
+
+		describe "#parse" do
+			let(:citation) { 'Perec, Georges. A Void. London: The Harvill Press, 1995. p.108.' }
+			
+			it 'returns a hash of label/segment pairs by default' do
+				subject.parse(citation)[0].should == { :author => 'Perec, Georges.', :title => 'A Void.', :location => 'London:', :publisher => 'The Harvill Press,', :date => '1995.', :pages => 'p.108.' }
 			end
 		end
 

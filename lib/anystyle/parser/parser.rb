@@ -8,12 +8,15 @@ module Anystyle
 				:cora => File.expand_path('../support/anystyle.mod', __FILE__)
 			)
 			
+			@formats = [:bibtex, :hash, :citeproc].freeze
+			
 			@defaults = {
 				:model => :anystyle,
 				:pattern => File.expand_path('../support/anystyle.pat', __FILE__),
 				:separator => /\s+/,
 				:tagged_separator => /\s+|(<\/?[^>]+>)/,
-				:strip => /\W/
+				:strip => /\W/,
+				:format => :hash
 			}.freeze
 			
 			@features = []
@@ -21,7 +24,7 @@ module Anystyle
 			
 			class << self
 
-				attr_reader :defaults, :features, :feature, :models
+				attr_reader :defaults, :features, :feature, :models, :formats
 								
 				def load(path)
 					p = new                                    
@@ -45,14 +48,27 @@ module Anystyle
 				@model = Wapiti.load(Parser.models[@options[:model]])
 			end
 			
-			def parse(string)
-				label(string)
+			def parse(string, format = options[:format])
+				formatter = "format_#{format}".to_sym
+				raise ArgumentError, "format not supported: #{formatter}" unless private_methods.include?(formatter)
+				
+				send(formatter, label(string))
 			end
 			
-			def label(string)
-				model.label(prepare(string)) do |token, label|
-					[token[/\S+/], label]
+			# Returns an array of label/segment pairs for each line in the passed-in string.
+			def label(string, labelled = false)
+				model.label(prepare(string, labelled)).map! do |sequence|
+					sequence.inject([]) do |ts, (token, label)|
+						token, label = token[/^\S+/], label.to_sym
+						if (prev = ts[-1]) && prev[0] == label
+							prev[1] << ' ' << token
+							ts
+						else
+							ts << [label, token]
+						end
+					end
 				end
+				
 			end
 			
 			# Returns an array of tokens for each line of input.
@@ -125,6 +141,27 @@ module Anystyle
 			
 			def strip(token)
 				token.gsub(options[:strip], '')
+			end
+			
+			def format_bibtex(labels)
+				BibTeX::Bibliography.new(format_hash(labels))
+			end
+			
+			def format_hash(labels)
+				labels.map do |line|
+					line.inject({}) do |hash, (label, token)|
+						if hash.has_key?(label)
+							hash[label] = [hash[label]].flatten << token
+						else
+							hash[label] = token
+						end
+						hash
+					end
+				end
+			end
+			
+			def format_citeproc(labels)
+				format_bibtex(labels).to_citeproc
 			end
 			
 		end

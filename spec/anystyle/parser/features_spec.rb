@@ -28,7 +28,7 @@ module Anystyle::Parser
 				end
 			end
 			
-			it "çela is a surname" do
+			it "accepts unicode strins like 'çela' (surname)" do
 				(Feature.dict['çela'].to_i & Feature.dict_code[:surname]).should > 0
 			end
 			

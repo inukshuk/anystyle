@@ -167,7 +167,7 @@ module Anystyle
 		
 		Feature.define :numbers do |token|
 			case token
-			when /\d+\s*--?\s*\d+/
+			when /\d+\s*--?\s*\d+/, /^\W*pp?\.\d*\W*$/
 				:page
 			when /^\(\d{4}\)\W*$/, /^(1\d{3}|20\d{2})[\.,;:]?$/
 				:year
@@ -204,6 +204,8 @@ module Anystyle
 			sequence.any? { |t| t =~ /^(ed|editor|editors|eds|edited)$/i } ? :editors : :'no-editors'
 		end
 
+		# TODO Translated
+		
 		Feature.define :location do |token, stripped, sequence, offset|
 			((offset.to_f / sequence.length) * 10).round
 		end

@@ -1,4 +1,6 @@
 
+autoload :BibTeX, 'bibtex'
+
 require 'wapiti'
 
 # require 'ruby-debug'
