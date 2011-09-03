@@ -4,6 +4,10 @@ module Anystyle
 		Parser::Parser.instance.parse(*arguments)
 	end
 	
+	def self.parser
+		Parser::Parser.instance
+	end
+	
 	module Parser
 		
 		def self.instance

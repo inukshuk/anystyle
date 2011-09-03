@@ -47,7 +47,7 @@ module Anystyle::Parser
 		
 		describe "#prepare" do
 			it 'returns an array of expanded token sequences' do
-				subject.prepare('hello, world!').should == [['hello, , h he hel hell , o, lo, llo, hello other none 0 no-male no-female no-surname no-month no-place no-publisher no-editors 0 internal other', 'world! ! w wo wor worl ! d! ld! rld! world other none 36 no-male no-female surname no-month no-place publisher no-editors 5 terminal other']]
+				subject.prepare('hello, world!').should == [['hello, , h he hel hell , o, lo, llo, hello other none 0 no-male no-female no-surname no-month no-place no-publisher no-journal no-editors 0 internal other', 'world! ! w wo wor worl ! d! ld! rld! world other none 36 no-male no-female surname no-month no-place publisher no-journal no-editors 5 terminal other']]
 			end
 			
 			context 'when marking the input as being tagged' do
@@ -76,7 +76,7 @@ module Anystyle::Parser
 			let(:citation) { 'Perec, Georges. A Void. London: The Harvill Press, 1995. p.108.' }
 			
 			it 'returns a hash of label/segment pairs by default' do
-				subject.parse(citation)[0].should == { :author => 'Perec, Georges', :title => 'A Void', :location => 'London', :publisher => 'The Harvill Press', :year => 1995, :pages => '108' }
+				subject.parse(citation)[0].should == { :author => 'Perec, Georges', :title => 'A Void', :location => 'London', :publisher => 'The Harvill Press', :year => 1995, :pages => '108', :type => :book }
 			end
 		end
 

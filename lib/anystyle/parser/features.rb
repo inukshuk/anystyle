@@ -10,7 +10,7 @@ module Anystyle
 				:db => File.expand_path('../support/dict.kch', __FILE__)
 			}
 			
-			@dict_keys = [:male, :female, :surname, :month, :place, :publisher].freeze
+			@dict_keys = [:male, :female, :surname, :month, :place, :publisher, :journal].freeze
 
 			@dict_code = Hash[*@dict_keys.zip(0.upto(@dict_keys.length-1).map { |i| 2**i }).flatten]
 			@dict_code.default = 0
@@ -78,6 +78,8 @@ module Anystyle
 				          mode = dict_code[:place]
 				        when /^## publisher/i
 				          mode = dict_code[:publisher]
+				        when /^## journal/i
+				          mode = dict_code[:journal]
 								else
 									# skip comments
 								end
@@ -167,12 +169,12 @@ module Anystyle
 		
 		Feature.define :numbers do |token|
 			case token
-			when /\d+\s*--?\s*\d+/, /^\W*pp?\.\d*\W*$/
-				:page
+			when /\d\(\d+(-\d+)?\)/
+				:volume
 			when /^\(\d{4}\)\W*$/, /^(1\d{3}|20\d{2})[\.,;:]?$/
 				:year
-			when /\d\(\d+\)/
-				:volume
+			when /\d+\s*--?\s*\d+/, /^\W*pp?\.\d*\W*$/
+				:page
 			when /^\d$/
 				:single
 			when /^\d{2}$/
@@ -235,7 +237,9 @@ module Anystyle
 		Feature.define :type do |token, stripped, sequence, offset|
 			s = sequence.join(' ')
 			case
-			when s =~ /proceeding/
+			when s =~ /dissertation abstract/i
+				:dissertaion
+			when s =~ /proceeding/i
 				:proceedings
 			when stripped =~ /^in$/i && sequence[offset+1].to_s =~ /^[[:upper:]]/ && sequence[offset-1].to_s =~ /["'”’´‘“`\.;,]$/
 				:collection

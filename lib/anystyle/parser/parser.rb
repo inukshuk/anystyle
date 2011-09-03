@@ -130,8 +130,12 @@ module Anystyle
 				f.join(' ')
 			end
 			
-			def train(data, options = nil)
-				model.train(data, options)
+			def train(string, truncate = false)
+				@model = Wapiti::Model.new(:pattern => options[:pattern]) if truncate
+				@model.train(prepare(string, true))
+				@model.compact
+				@model.path = Parser.models[options[:model]]
+				@model
 			end
 			
 			def normalize(hash)
@@ -141,10 +145,49 @@ module Anystyle
 				classify hash
 			end
 			
+			# :article       => [:author,:title,:journal,:year],
+			# :book          => [[:author,:editor],:title,:publisher,:year],
+			# :booklet       => [:title],
+			# :conference    => [:author,:title,:booktitle,:year],
+			# :inbook        => [[:author,:editor],:title,[:chapter,:pages],:publisher,:year],
+			# :incollection  => [:author,:title,:booktitle,:publisher,:year],
+			# :inproceedings => [:author,:title,:booktitle,:year],
+			# :manual        => [:title],
+			# :mastersthesis => [:author,:title,:school,:year],
+			# :misc          => [],
+			# :phdthesis     => [:author,:title,:school,:year],
+			# :proceedings   => [:title,:year],
+			# :techreport    => [:author,:title,:institution,:year],
+			# :unpublished   => [:author,:title,:note]
+			
 			def classify(hash)
+				return hash if hash.has_key?(:type)
+				
+				keys = hash.keys
+				text = hash.values.flatten.join
+				
+				case
+				when keys.include?(:journal)
+					hash[:type] = :article
+				when keys.include?(:booktitle), keys.include?(:container)
+					hash[:type] = :incollection
+				when keys.include?(:publisher)
+					hash[:type] = :book
+				when keys.include?(:institution)
+					hash[:type] = :techreport
+				when text =~ /proceedings/
+					hash[:type] = :inproceedings
+				when keys.include?(:school)
+					hash[:type] = :mastersthesis
+				when text =~ /unpublished/
+					hash[:type] = :unpublished
+				else
+					hash[:type] = :misc
+				end
+				
 				hash
 			end
-			
+						
 			private
 			
 			def features_for(*arguments)
