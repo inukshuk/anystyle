@@ -1,5 +1,4 @@
 
-require 'kyotocabinet'
 require 'wapiti'
 
 # require 'ruby-debug'

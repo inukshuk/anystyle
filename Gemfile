@@ -15,3 +15,7 @@ group :profile do
 	gem 'ruby-prof'
 	gem 'gnuplot'
 end
+
+group :kyotocabinet do
+	gem 'kyotocabinet-ruby', :require => 'kyotocabinet'
+end

@@ -100,6 +100,9 @@ module Anystyle
 				tokenize(string, tagged).map { |tk| tk.each_with_index.map { |(t,l),i| expand(t,tk,i,l) } }
 			end
 
+			def dump(string, tagged = false)
+				prepare(string, tagged).map { |s| s.join("\n") }.join("\n\n")
+			end
 
 			# Expands the passed-in token string by appending a space separated list
 			# of all features for the token.
@@ -108,6 +111,10 @@ module Anystyle
 				f.unshift(token)
 				f.push(label) unless label.nil?
 				f.join(' ')
+			end
+			
+			def train(data, options = nil)
+				model.train(data, options)
 			end
 			
 			private

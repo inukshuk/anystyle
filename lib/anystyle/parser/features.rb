@@ -7,7 +7,7 @@ module Anystyle
 			
 			@defaults = {
 				:dict => File.expand_path('../support/dict.txt.gz', __FILE__),
-				:db => File.expand_path('../support/dict.kch', __FILE__)			
+				:db => File.expand_path('../support/dict.kch', __FILE__)
 			}
 			
 			@dict_keys = [:male, :female, :surname, :month, :place, :publisher].freeze
@@ -33,6 +33,7 @@ module Anystyle
 				end
 				
 				def open_dictionary(file = defaults[:db])
+					autodetect_dbm
 					create_dictionary(file) unless File.exists?(file)
 					
 					db = KyotoCabinet::DB.new
@@ -49,7 +50,9 @@ module Anystyle
 					
 					close_dictionary
 					File.unlink(db) if File.exists?(db)
-						
+
+					autodetect_dbm					
+
 					kc = KyotoCabinet::DB.new
 					unless kc.open(db, KyotoCabinet::DB::OWRITER | KyotoCabinet::DB::OCREATE)
 						raise DatabaseError, "failed to create cabinet file #{db}: #{kc.error}"
@@ -89,12 +92,22 @@ module Anystyle
 					kc.close
 				end
 				
+				def autodetect_dbm
+					defaults[:dbm] || begin
+						require 'kyotocabinet'
+						defaults[:dbm] = 'kch'
+					rescue LoadError
+						require 'dbm'
+						defaults[:dbm] = 'dbm'
+					end	
+				end
+
+				def define(name, &block)
+					Parser.features << new(name, block)
+				end
+					
 			end
-			
-			def self.define(name, &block)
-				Parser.features << new(name, block)
-			end
-			
+						
 			attr_accessor :name, :matcher
 			
 			def initialize(name, matcher)

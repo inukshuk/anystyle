@@ -2,7 +2,6 @@ PATH
   remote: .
   specs:
     anystyle-parser (0.0.1)
-      kyotocabinet-ruby (~> 1.27)
       wapiti (~> 0.0)
 
 GEM
@@ -66,7 +65,7 @@ GEM
       archive-tar-minitar (>= 0.5.2)
     sys-uname (0.8.6)
     term-ansicolor (1.0.6)
-    wapiti (0.0.3)
+    wapiti (0.0.4)
 
 PLATFORMS
   ruby
@@ -77,6 +76,7 @@ DEPENDENCIES
   autotest-fsevent
   cucumber (~> 1.0)
   gnuplot
+  kyotocabinet-ruby
   racc (~> 1.4)
   rake (~> 0.9)
   rbx-trepanning
