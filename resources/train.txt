@@ -536,4 +536,5 @@
 <author> Holowaty, K. A.-M. </author> <date> (2005). </date> <title> Process characteristics of client-identified helpful events in emotion-focused therapy for adult survivors of childhood abuse (EFT-AS). </title> <container> Dissertation Abstracts International: Section B: The Sciences and Engineering, 65(7-B), 3710. </container>
 <author> Nieuwenhuis, J. A. </author> <date> (2002). </date> <title> Formations, ruptures, rebounds, and repairs:  An intensive investigation of changes in the therapeutic relationship. </title> <container> Dissertation Abstracts International: Section B: The Sciences and Engineering, 62(11-B), 5385. </container>
 <author> Crease, R. </author> <date> (2004). </date> <title> Philosophy of science.  How science moves. </title> <editor> In M. Hendricks (Ed.), </editor> <booktitle> Thinking at the edge: A new philosophical practice </booktitle> <pages> (pp. 32-42). </pages>
-
+<author> Purcell-Lee, C. R. </author> <date> (2000). </date> <title> Dialogue and being. </title> <journal> Gestalt!, </journal> <volume> 4(2), </volume> <pages> NP. </pages>
+<author> Wolford, R. </author> <date> (2000). </date> <title> The spiritual dimensions of Gestalt therapy. </title> <journal> Gestalt!, </journal> <volume> 4(3), </volume> <pages> NP. </pages>

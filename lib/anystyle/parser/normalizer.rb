@@ -35,7 +35,7 @@ module Anystyle
 					hash[:editor] = hash.delete(:author)
 					normalize_editor(hash)
 				else
-		      hash[:etal] = true if !!authors.sub!(/\bet\.?\s*al.*$/i, '')
+		      hash['more-authors'] = true if !!authors.sub!(/\bet\.?\s*al.*$/i, '')
 					authors.gsub!(/^\W+|\W+$/, '')
 					hash[:author] = normalize_names(authors)
 				end
@@ -54,6 +54,8 @@ module Anystyle
 						hash[:edition] = $1.to_i
 					end
 				end
+	
+	      hash['more-editors'] = true if !!editors.sub!(/\bet\.?\s*al.*$/i, '')
 	
 				editors.gsub!(/^\W+|\W+$/, '')
 				editors.gsub!(/^in\s+/i, '')
