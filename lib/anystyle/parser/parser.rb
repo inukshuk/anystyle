@@ -57,7 +57,9 @@ module Anystyle
 			end
 			
 			# Returns an array of label/segment pairs for each line in the passed-in string.
-			def label(string, labelled = false)
+			def label(input, labelled = false)
+				string = input_to_s(input)
+				
 				model.label(prepare(string, labelled)).map! do |sequence|
 					sequence.inject([]) do |ts, (token, label)|
 						token, label = token[/^\S+/], label.to_sym
@@ -113,13 +115,11 @@ module Anystyle
 			# second argument, training labels will be extracted from the string
 			# and appended after feature expansion. The returned sequence arrays
 			# can be used for training or testing the CRF model.
-			def prepare(string, tagged = false)
+			def prepare(input, tagged = false)
+				string = input_to_s(input)
 				tokenize(string, tagged).map { |tk| tk.each_with_index.map { |(t,l),i| expand(t,tk,i,l) } }
 			end
 
-			def dump(string, tagged = false)
-				prepare(string, tagged).map { |s| s.join("\n") }.join("\n\n")
-			end
 
 			# Expands the passed-in token string by appending a space separated list
 			# of all features for the token.
@@ -130,12 +130,13 @@ module Anystyle
 				f.join(' ')
 			end
 			
-			def train(string, truncate = false)
+			def train(input, truncate = false)
+				string = input_to_s(input)
 				@model = Wapiti::Model.new(:pattern => options[:pattern]) if truncate
 				@model.train(prepare(string, true))
 				@model.compact
 				@model.path = Parser.models[options[:model]]
-				@model
+				@model.save
 			end
 			
 			def normalize(hash)
@@ -189,6 +190,24 @@ module Anystyle
 			end
 						
 			private
+			
+			def input_to_s(input)
+				case input
+				when String
+					if input.length < 128 && File.exists?(input)
+						f = File.open(input, 'r:UTF-8')
+						f.read
+					else
+						input
+					end
+				when Array
+					input.join("\n")
+				else
+					raise ArgumentError, "invalid input: #{input.class}"
+				end
+			ensure
+				f.close if f
+			end
 			
 			def features_for(*arguments)
 				Parser.features.map { |f| f.match(*arguments) }

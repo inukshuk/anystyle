@@ -151,7 +151,7 @@ module Anystyle
 
 				extract_edition(booktitle, hash)
 
-				title.gsub!(/[\.,:;\s]+$/, '')			
+				booktitle.gsub!(/[\.,:;\s]+$/, '')			
 				hash[:booktitle] = booktitle
 				
 				hash
