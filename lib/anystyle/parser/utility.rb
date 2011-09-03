@@ -1,7 +1,7 @@
 module Anystyle
 	
-	def self.parse(string)
-		Parser::Parser.instance.parse(string)
+	def self.parse(*arguments)
+		Parser::Parser.instance.parse(*arguments)
 	end
 	
 	module Parser

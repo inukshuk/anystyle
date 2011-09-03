@@ -5,7 +5,7 @@ module Anystyle
 
 			@models = Hash.new { |h,k| k }.merge(
 				:anystyle => File.expand_path('../support/anystyle.mod', __FILE__),
-				:cora => File.expand_path('../support/anystyle.mod', __FILE__)
+				:cora => File.expand_path('../support/cora.mod', __FILE__)
 			)
 			
 			@formats = [:bibtex, :hash, :citeproc].freeze
@@ -144,7 +144,11 @@ module Anystyle
 			end
 			
 			def format_bibtex(labels)
-				BibTeX::Bibliography.new(format_hash(labels))
+				b = BibTeX::Bibliography.new
+				format_hash(labels).each do |hash|
+					b << BibTeX::Entry.new(hash)
+				end
+				b
 			end
 			
 			def format_hash(labels)
