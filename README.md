@@ -29,7 +29,7 @@ recommended to install Kyoto Cabinet and the `kyotocabinet-ruby` gem.
 The database file will be created the first time you access the dictionary;
 note that you will need write permissions in the directory where the file
 is to be created. You can change the Dictionary's default path in the
-Dictrionary's options:
+Dictionary's options:
 
     Anystyle::Parser::Dictionary.instance.options[:path]
 
@@ -72,7 +72,17 @@ The following irb sessions illustrates some parser goodness:
     => "Jorge"
     > b[0].author.to_s
     => "Liu, Dong C. and Nocedal, Jorge"
-
+    > puts Anystyle.parse('Auster, Paul. The Art of Hunger. Expanded. New York: Penguin, 1997.', :bibtex).to_s
+    @book{2162008820,
+      author = {Auster, Paul},
+      title = {The Art of Hunger},
+      location = {New York},
+      publisher = {Penguin},
+      edition = {Expanded},
+      year = {1997}
+    }
+    => nil
+    
 ### Unhappy with the results?
 
 Citation references come in many forms, so, inevitably, you will find data
