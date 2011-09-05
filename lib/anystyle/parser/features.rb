@@ -5,109 +5,21 @@ module Anystyle
 
 		class Feature
 			
-			@defaults = {
-				:dict => File.expand_path('../support/dict.txt.gz', __FILE__),
-				:db => File.expand_path('../support/dict.kch', __FILE__)
-			}
-			
-			@dict_keys = [:male, :female, :surname, :month, :place, :publisher, :journal].freeze
-
-			@dict_code = Hash[*@dict_keys.zip(0.upto(@dict_keys.length-1).map { |i| 2**i }).flatten]
-			@dict_code.default = 0
-			@dict_code.freeze
+			@dict = Dictionary.instance
+			@instances = []
 			
 			class << self
+			
+				attr_reader :dict, :instances
 				
-				attr_reader :dict_code, :dict_keys, :defaults
-				
-				def dict
-					@dict ||= open_dictionary
-				end
-				
-				alias dictionary dict
-				
-				def dict_open?; !!@dict; end
-				
-				def close_dictionary
-					dict.close if dict_open?
-				end
-				
-				def open_dictionary(file = defaults[:db])
-					autodetect_dbm
-					create_dictionary(file) unless File.exists?(file)
-					
-					db = KyotoCabinet::DB.new
-					unless db.open(file, KyotoCabinet::DB::OREADER)
-						raise DatabaseError, "failed to open cabinet file #{file}: #{db.error}"
-					end
-					
-					at_exit { ::Anystyle::Parser::Feature.close_dictionary }
-					db
-				end
-				
-				def create_dictionary(db = defaults[:db], file = defaults[:dict])
-					require 'zlib'
-					
-					close_dictionary
-					File.unlink(db) if File.exists?(db)
-
-					autodetect_dbm					
-
-					kc = KyotoCabinet::DB.new
-					unless kc.open(db, KyotoCabinet::DB::OWRITER | KyotoCabinet::DB::OCREATE)
-						raise DatabaseError, "failed to create cabinet file #{db}: #{kc.error}"
-					end
-					
-					File.open(file, 'r:UTF-8') do |f|
-						mode = 0
-
-						Zlib::GzipReader.new(f).each do |line|
-							line.strip!
-
-							if line.start_with?(?#)
-								case line
-								when /^## male/i
-									mode = dict_code[:male]
-				        when /^## female/i
-				          mode = dict_code[:female]
-				        when /^## (?:surname|last|chinese)/i
-				          mode = dict_code[:surname]
-				        when /^## months/i
-				          mode = dict_code[:month]
-				        when /^## place/i
-				          mode = dict_code[:place]
-				        when /^## publisher/i
-				          mode = dict_code[:publisher]
-				        when /^## journal/i
-				          mode = dict_code[:journal]
-								else
-									# skip comments
-								end
-							else
-								key, probability = line.split(/\s+(\d+\.\d+)\s*$/)
-								value = kc[key].to_i
-								kc[key] = value + mode if value < mode
-							end
-						end
-					end
-					
-					kc.close
-				end
-				
-				def autodetect_dbm
-					defaults[:dbm] || begin
-						require 'kyotocabinet'
-						defaults[:dbm] = 'kch'
-					rescue LoadError
-						require 'dbm'
-						defaults[:dbm] = 'dbm'
-					end	
-				end
-
 				def define(name, &block)
-					Parser.features << new(name, block)
+					instances << new(name, block)
 				end
-					
+				
+				def undefine(name)
+					instances.reject! { |f| f.name == name }
+				end
+				
 			end
 						
 			attr_accessor :name, :matcher
@@ -193,9 +105,9 @@ module Anystyle
 		end
 		
 		Feature.define :dictionary do |token, stripped|
-			c = Feature.dict[stripped.downcase].to_i
-			f = Feature.dict_keys.map do |k|
-				c & Feature.dict_code[k] > 0 ? k : ['no',k].join('-').to_sym
+			c = Feature.dict[stripped.downcase]
+			f = Dictionary.keys.map do |k|
+				c & Dictionary.code[k] > 0 ? k : ['no',k].join('-').to_sym
 			end
 			f.unshift(c)
 		end
@@ -243,7 +155,6 @@ module Anystyle
 				:proceedings
 			when stripped =~ /^in$/i && sequence[offset+1].to_s =~ /^[[:upper:]]/ && sequence[offset-1].to_s =~ /["'”’´‘“`\.;,]$/
 				:collection
-			# TODO thesis article? book unpublished
 			else
 				:other
 			end

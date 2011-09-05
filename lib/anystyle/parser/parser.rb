@@ -19,7 +19,7 @@ module Anystyle
 				:format => :hash
 			}.freeze
 			
-			@features = []
+			@features = Feature.instances
 			@feature = Hash.new { |h,k| h[k.to_sym] = features.detect { |f| f.name == k.to_sym } }
 			
 			class << self

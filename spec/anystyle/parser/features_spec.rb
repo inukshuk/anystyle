@@ -19,20 +19,6 @@ module Anystyle::Parser
 			end
 			
 		end
-		
-		describe ".dict" do
-		
-			%w{ philippines italy }.each do |place|
-				it "#{place.inspect} should be a place name" do
-					Feature.dict[place].to_i.should == Feature.dict_code[:place]
-				end
-			end
-			
-			it "accepts unicode strins like 'çela' (surname)" do
-				(Feature.dict['çela'].to_i & Feature.dict_code[:surname]).should > 0
-			end
-			
-		end
-				
+						
 	end
 end

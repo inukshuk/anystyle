@@ -12,7 +12,7 @@ module Anystyle
 			
 		end
 		
-		class DatabaseError < Error; end
+		class DictionaryError < Error; end
 		class TrainingError < Error; end
 		
 	end
