@@ -37,7 +37,7 @@ module Anystyle
 		
 		# Is the the last character upper-/lowercase, numeric or something else?
 		# Returns A, a, 0 or the last character itself.
-		Feature.define :last_character do |token|
+		Feature.define :last_character do |token, stripped, sequence, offset|
 			case char = token.split(//)[-1]
 			when /^[[:upper:]]$/
 				:upper
@@ -51,22 +51,22 @@ module Anystyle
 		end
 
 		# Sequences of the first four characters
-		Feature.define :first do |token|
+		Feature.define :first do |token, stripped, sequence, offset|
 			c = token.split(//)[0,4]
 			(0..3).map { |i| c[0..i].join }
 		end
 	
 		# Sequences of the last four characters
-		Feature.define :last do |token|
+		Feature.define :last do |token, stripped, sequence, offset|
 			c = token.split(//).reverse[0,4]
 			(0..3).map { |i| c[0..i].reverse.join }			
 		end
 	
-		Feature.define :stripped_lowercase do |token, stripped|
+		Feature.define :stripped_lowercase do |token, stripped, sequence, offset|
 			stripped.empty? ? :EMPTY : stripped.downcase
 		end
 		
-		Feature.define :capitalization do |token, stripped|
+		Feature.define :capitalization do |token, stripped, sequence, offset|
 			case stripped
 			when /^[[:upper:]]$/
 				:single
@@ -79,7 +79,7 @@ module Anystyle
 			end
 		end
 		
-		Feature.define :numbers do |token|
+		Feature.define :numbers do |token, stripped, sequence, offset|
 			case token
 			when /\d\(\d+(-\d+)?\)/
 				:volume
@@ -104,7 +104,7 @@ module Anystyle
 			end
 		end
 		
-		Feature.define :dictionary do |token, stripped|
+		Feature.define :dictionary do |token, stripped, sequence, offset|
 			c = Feature.dict[stripped.downcase]
 			f = Dictionary.keys.map do |k|
 				c & Dictionary.code[k] > 0 ? k : ['no',k].join('-').to_sym
@@ -114,7 +114,7 @@ module Anystyle
 		
 		# TODO sequence features should be called just once per sequence
 		# TODO improve / disambiguate edition
-		Feature.define :editors do |token, stripped, sequence|
+		Feature.define :editors do |token, stripped, sequence, offest|
 			sequence.any? { |t| t =~ /^(ed|editor|editors|eds|edited)$/i } ? :editors : :'no-editors'
 		end
 
@@ -124,7 +124,7 @@ module Anystyle
 			((offset.to_f / sequence.length) * 10).round
 		end
 		
-		Feature.define :punctuation do |token|
+		Feature.define :punctuation do |token, stripped, sequence, offset|
 			case token
 			when /^["'”’´‘“`]/
 				:quote

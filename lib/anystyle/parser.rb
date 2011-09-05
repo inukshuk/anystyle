@@ -4,8 +4,8 @@ require 'singleton'
 require 'bibtex'
 require 'wapiti'
 
-require 'ruby-debug'
-Debugger.start
+# require 'ruby-debug'
+# Debugger.start
 
 require 'anystyle/parser/errors'
 

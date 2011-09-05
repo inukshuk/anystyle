@@ -51,9 +51,9 @@ module Anystyle
 			
 			def parse(input, format = options[:format])
 				formatter = "format_#{format}".to_sym
-				raise ArgumentError, "format not supported: #{formatter}" unless private_methods.include?(formatter)
-				
 				send(formatter, label(input))
+			rescue NoMethodError
+				raise ArgumentError, "format not supported: #{formatter}"
 			end
 			
 			# Returns an array of label/segment pairs for each line in the passed-in string.
