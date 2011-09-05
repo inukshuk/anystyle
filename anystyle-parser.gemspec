@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Sylvester Keil']
   s.email       = ['http://sylvester.keil.or.at']
   s.homepage    = 'http://inukshuk.github.com/anystyle-parser'
-  s.summary     = 'Smart parser for academic references.'
-  s.description = 'A parser for academic references based on conditional random fields.'
+  s.summary     = 'Parser for academic references.'
+  s.description = 'A sophisticated parser for academic references based on conditional random fields.'
   s.license     = 'FreeBSD'
   
   s.add_runtime_dependency('bibtex-ruby', '~>1.3')

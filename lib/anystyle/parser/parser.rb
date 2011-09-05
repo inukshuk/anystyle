@@ -49,11 +49,11 @@ module Anystyle
 				@normalizer = Normalizer.instance
 			end
 			
-			def parse(string, format = options[:format])
+			def parse(input, format = options[:format])
 				formatter = "format_#{format}".to_sym
 				raise ArgumentError, "format not supported: #{formatter}" unless private_methods.include?(formatter)
 				
-				send(formatter, label(string))
+				send(formatter, label(input))
 			end
 			
 			# Returns an array of label/segment pairs for each line in the passed-in string.
@@ -136,7 +136,13 @@ module Anystyle
 				@model.train(prepare(string, true))
 				@model.compact
 				@model.path = Parser.models[options[:model]]
-				@model.save
+				@model
+			end
+			
+			def test(input)
+				string = input_to_s(input)
+				model.options.check!
+				model.label(prepare(string, true))
 			end
 			
 			def normalize(hash)
@@ -145,21 +151,6 @@ module Anystyle
 				end
 				classify hash
 			end
-			
-			# :article       => [:author,:title,:journal,:year],
-			# :book          => [[:author,:editor],:title,:publisher,:year],
-			# :booklet       => [:title],
-			# :conference    => [:author,:title,:booktitle,:year],
-			# :inbook        => [[:author,:editor],:title,[:chapter,:pages],:publisher,:year],
-			# :incollection  => [:author,:title,:booktitle,:publisher,:year],
-			# :inproceedings => [:author,:title,:booktitle,:year],
-			# :manual        => [:title],
-			# :mastersthesis => [:author,:title,:school,:year],
-			# :misc          => [],
-			# :phdthesis     => [:author,:title,:school,:year],
-			# :proceedings   => [:title,:year],
-			# :techreport    => [:author,:title,:institution,:year],
-			# :unpublished   => [:author,:title,:note]
 			
 			def classify(hash)
 				return hash if hash.has_key?(:type)
@@ -170,17 +161,17 @@ module Anystyle
 				case
 				when keys.include?(:journal)
 					hash[:type] = :article
+				when text =~ /proceedings/i
+					hash[:type] = :inproceedings
 				when keys.include?(:booktitle), keys.include?(:container)
 					hash[:type] = :incollection
 				when keys.include?(:publisher)
 					hash[:type] = :book
 				when keys.include?(:institution)
 					hash[:type] = :techreport
-				when text =~ /proceedings/
-					hash[:type] = :inproceedings
 				when keys.include?(:school)
 					hash[:type] = :mastersthesis
-				when text =~ /unpublished/
+				when text =~ /unpublished/i
 					hash[:type] = :unpublished
 				else
 					hash[:type] = :misc
