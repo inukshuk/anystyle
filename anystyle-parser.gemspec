@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Sylvester Keil']
   s.email       = ['http://sylvester.keil.or.at']
   s.homepage    = 'http://inukshuk.github.com/anystyle-parser'
-  s.summary     = 'A parser for academic references.'
+  s.summary     = 'Smart parser for academic references.'
   s.description = 'A parser for academic references based on conditional random fields.'
   s.license     = 'FreeBSD'
   
@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rspec', ['~>2.6'])
   s.add_development_dependency('ZenTest', ['~>4.6'])
 
-  s.files        = `git ls-files`.split("\n")
+  s.files        = `git ls-files`.split("\n") - Dir['resources/**/*']
   s.test_files   = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables  = []
   s.require_path = 'lib'
