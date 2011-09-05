@@ -117,6 +117,8 @@ data again:
     > Anystyle.parse 'John Lafferty, Andrew McCallum, and Fernando Pereira. 2001. Conditional random fields: probabilistic models for segmenting and labeling sequence data. In Proceedings of the International Conference on Machine Learning, pages 282-289. Morgan Kaufmann, San Francisco, CA.'
     => [{:author=>"John Lafferty and Andrew McCallum and Fernando Pereira", :title=>"Conditional random fields: probabilistic models for segmenting and labeling sequence data", :booktitle=>"Proceedings of the International Conference on Machine Learning", :pages=>"282--289", :publisher=>"Morgan Kaufmann", :location=>"San Francisco, CA", :year=>2001, :type=>:inproceedings}]
 
+If you want to make Anystyle-Parser smarter, please consider sending us your
+tagged references (see below). 
 
 Contributing
 ------------
@@ -131,6 +133,10 @@ If you've found a bug or have a question, please open an issue on the
 [Anystyle-Parser issue tracker](http://github.com/inukshuk/anystyle-parser/issues).
 Or, for extra credit, clone the Anystyle-Parser repository, write a failing
 example, fix the bug and submit a pull request.
+
+If you want to contribute tagged references, please either add them to
+`resources/train.txt` or create a new file in the `resources` directory
+and open a pull request on GitHub.
 
 
 License
