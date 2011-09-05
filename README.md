@@ -6,8 +6,8 @@ is inspired by [ParsCit](http://aye.comp.nus.edu.sg/parsCit/) and
 [FreeCite](http://freecite.library.brown.edu/); Anystyle-Parser is designed
 for raw speed (it uses [wapiti](https://github.com/inukshuk/wapiti-ruby) based
 conditional random fields and [Kyoto Cabinet](http://fallabs.com/kyotocabinet/)
-as a key-value store), flexibility (it is easy train the model with
-data data is relevant to your parsing needs), and compatibility (Anystyle-Parser
+as a key-value store), flexibility (it is easy to train the model with
+data that is relevant to your parsing needs), and compatibility (Anystyle-Parser
 exports to Ruby Hashes, BibTeX, or the CiteProc JSON format).
 
 Installation
@@ -20,11 +20,11 @@ on a large feature dictionary; by default, Anystyle-Parser creates a
 [Kyoto Cabinet](http://fallabs.com/kyotocabinet/) file-based hash database
 from the dictionary file that ships with the parser. If Kyoto Cabinet is
 not installed on your system, Anystyle-Parser uses a simple Ruby Hash as a
-fall-back; this Hash has to be re-created every time you restart the parser
+fall-back; this Hash has to be re-created every time you load the parser
 and takes up a lot of memory in your Ruby process; it is therefore strongly
 recommended to install Kyoto Cabinet and the `kyotocabinet-ruby` gem.
 
-   $ [sudo] gem install kyotocabinet-ruby 
+    $ [sudo] gem install kyotocabinet-ruby 
 
 The database file will be created the first time you access the dictionary;
 note that you will need write permissions in the directory where the file
@@ -39,13 +39,13 @@ Usage
 
 ### Parsing
 
-You have access to the main Anystyle-Parser instance at `Anystyle.parser`;
+You can access the main Anystyle-Parser instance at `Anystyle.parser`;
 the `#parse` method is also available via `Anystyle.parse`. For more complex
 requirements (e.g., if you need multiple Parser simultaneously) you can create
 your own instances from the `Anystyle::Parser::Parser` class.
 
-The two fundamental methods you need to know about in order to use Anystyle
-Parser are `#parse` and `#train` that both accept two arguments.
+The two fundamental methods you need to know about in order to use
+Anystyle-Parser are `#parse` and `#train` that both accept two arguments.
 
     Parser#parse(input, format = :hash)
     Parser#train(input, truncate = false)
@@ -141,11 +141,11 @@ Copyright 2011 Sylvester Keil. All rights reserved.
 Some of the code in Anystyle-Parser's post processing (normalizing) routines
 was originally based on the source code of FreeCite and
 
-Copyright (c) 2008 Public Display Inc.
+Copyright 2008 Public Display Inc.
 
 The CRF template is a modified version of ParsCit's original template
 
-This software is copyrighted 2008, 2009, 2010, 2011 by Min-Yen Kan,
+Copyright 2008, 2009, 2010, 2011 Min-Yen Kan,
 Isaac G. Councill, C. Lee Giles, Minh-Thang Luong and Huy Nhat Hoang
 Do.
 
