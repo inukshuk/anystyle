@@ -128,18 +128,22 @@ module Anystyle
 			case token
 			when /^["'”’´‘“`]/
 				:quote
-			when /["'”’´‘“`]$/
+			when /["'”’´‘“`][!\?\."',;:-]?$/
 				:unquote
-			when /-+/
-				:hyphen
+			when /^[\(\[\{<].*[>\}\]\)][\.]$/
+				:'terminal-braces'
+			when /^[\(\[\{<].*[>\}\]\)][,;:-]$/
+				:'internal-braces'
+			when /^[\(\[\{<].*[>\}\]\)]$/
+				:braces
 			when /[,;:-]$/
 				:internal
 			when /[!\?\."']$/
 				:terminal
-			when /^[\(\[\{<].*[>\}\]\)].?$/
-				:braces
 			when /^\d{2,5}\(\d{2,5}\).?$/
 				:volume
+			when /-+/
+				:hyphen
 			else
 				:others
 			end
