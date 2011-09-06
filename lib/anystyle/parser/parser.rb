@@ -171,6 +171,10 @@ module Anystyle
 					hash[:type] = :techreport
 				when keys.include?(:school) || text =~ /master('s)?\s+thesis/i
 					hash[:type] = :mastersthesis
+				when text =~ /interview/i
+					hash[:type] = :interview
+				when text =~ /videotape/i
+					hash[:type] = :videotape
 				when text =~ /unpublished/i
 					hash[:type] = :unpublished
 				else

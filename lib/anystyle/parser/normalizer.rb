@@ -92,7 +92,8 @@ module Anystyle
 	
 				editors.gsub!(/^\W+|\W+$/, '')
 				editors.gsub!(/^in\s+/i, '')
-				editors.gsub!(/\W*[Ee]d(s|itors|ited)?\W*?/, '')
+				editors.gsub!(/\W*[Ee]d(s|itors|ited)?\W*/, '')
+				editors.gsub!(/\W*([Hh]rsg|Herausgeber)\W*/, '')
 				editors.gsub!(/\bby\b/i, '')
 
 				is_trans = !!editors.gsub!(/\W*trans(lated)?\W*/i, '')
@@ -184,7 +185,7 @@ module Anystyle
 			def extract_edition(token, hash)
 				edition = [hash[:edition]].flatten.compact
 				
-				if token.gsub!(/\W*(\d+)(?:st|nd|rd|th)?\s*ed(?:ition|\.)?\W*/i, '')
+				if token.gsub!(/\W*(\d+)(?:st|nd|rd|th)?\s*(?:Aufl(?:age|\.)|ed(?:ition|\.))?\W*/i, '')
 					edition << $1
 				end				
 

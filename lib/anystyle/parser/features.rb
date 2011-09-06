@@ -115,7 +115,7 @@ module Anystyle
 		# TODO sequence features should be called just once per sequence
 		# TODO improve / disambiguate edition
 		Feature.define :editors do |token, stripped, sequence, offest|
-			sequence.any? { |t| t =~ /^(ed|editor|editors|eds|edited)$/i } ? :editors : :'no-editors'
+			sequence.any? { |t| t =~ /^(ed|editor|editors|eds|edited|hrsg)$/i } ? :editors : :'no-editors'
 		end
 
 		# TODO Translated
