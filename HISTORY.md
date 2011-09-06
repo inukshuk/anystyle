@@ -1,4 +1,4 @@
-0.0.3 / 2011-09-06
+0.0.4 / 2011-09-06
 ==================
 * Improves name tokenizing
 * Bugfixes
