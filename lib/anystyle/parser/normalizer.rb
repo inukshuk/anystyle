@@ -141,10 +141,10 @@ module Anystyle
 						n, cc = '', 0
 					when s.scan(/\s+/)
 						n << ' '
-					when s.scan(/,\s*(jr|sr|ph\.?d|m\.?d|esq)\.?/i)
+					when s.scan(/,?\s*(jr|sr|ph\.?d|m\.?d|esq)\.?/i)
 						n << s.matched
 					when s.scan(/,/)
-						if cc > 0 || (n =~ /\w{2,}\s+\w{2,}/ && s.rest !~ /^\s*\w+[\.,]/)
+						if cc > 0 || (n =~ /\S{2,}\s+\S{2,}/ && s.rest !~ /^\s*\w+(\.|,|$)/)
 							ns << n
 							n, cc = '', 0							
 						else

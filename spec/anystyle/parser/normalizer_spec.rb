@@ -37,6 +37,18 @@ module Anystyle
 					Normalizer.instance.tokenize_names('Aa Bb, C D, and E F G').should == ['Aa Bb', ' C D', ' E F G']
 				end
 				
+				[
+					['Poe, Edgar A.', ['Poe, Edgar A.']],
+					['Edgar A. Poe', ['Edgar A. Poe']],
+					['Edgar A. Poe, Herman Melville', ['Edgar A. Poe', ' Herman Melville']],
+					['Poe, Edgar A., Melville, Herman', ['Poe, Edgar A.', ' Melville, Herman']],
+					['Aeschlimann Magnin, E.', ['Aeschlimann Magnin, E.']]
+				].each do |name, tokens|
+					it "tokenizes #{name.inspect}" do
+						Normalizer.instance.tokenize_names(name).should == tokens
+					end
+				end
+				
 			end
 		end
 
