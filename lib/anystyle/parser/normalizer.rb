@@ -136,22 +136,24 @@ module Anystyle
 				s, n, ns, cc = StringScanner.new(names), '', [], 0
 				until s.eos?
 					case
-					when s.scan(/,?\s*and\b|&/)
+					when s.scan(/,?\s*(and\b|&)/)
 						ns << n
 						n, cc = '', 0
 					when s.scan(/\s+/)
 						n << ' '
-					when s.scan(/,?\s*(jr|sr|ph\.?d|m\.?d|esq)\.?/i)
+					when s.scan(/,\s*(jr|sr|ph\.?d|m\.?d|esq)\.?/i)
 						n << s.matched
 					when s.scan(/,/)
-						if cc > 0 || n =~ /\w\w+\s+\w\w+/
+						if cc > 0 || (n =~ /\w{2,}\s+\w{2,}/ && s.rest !~ /^\s*\w+[\.,]/)
 							ns << n
 							n, cc = '', 0							
 						else
 							n << s.matched
 							cc += 1
 						end
-					when s.scan(/\w+/), s.scan(/./)
+					when s.scan(/\w+/)
+						n << s.matched
+					when  s.scan(/./)
 						n << s.matched
 					end
 				end

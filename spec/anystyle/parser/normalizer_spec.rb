@@ -29,6 +29,14 @@ module Anystyle
 					Normalizer.instance.tokenize_names('A, B, C').should == ['A, B', ' C']
 				end
 
+				it "tokenizes 'Aa Bb, C.'" do
+					Normalizer.instance.tokenize_names('Aa Bb, C.').should == ['Aa Bb, C.']
+				end
+				
+				it "tokenizes 'Aa Bb, Cc Dd, and E F G'" do
+					Normalizer.instance.tokenize_names('Aa Bb, C D, and E F G').should == ['Aa Bb', ' C D', ' E F G']
+				end
+				
 			end
 		end
 
