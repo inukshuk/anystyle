@@ -169,7 +169,7 @@ module Anystyle
 					hash[:type] = :book
 				when keys.include?(:institution)
 					hash[:type] = :techreport
-				when keys.include?(:school)
+				when keys.include?(:school) || text =~ /master('s)?\s+thesis/i
 					hash[:type] = :mastersthesis
 				when text =~ /unpublished/i
 					hash[:type] = :unpublished

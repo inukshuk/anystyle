@@ -136,6 +136,14 @@ module Anystyle
 				:'internal-braces'
 			when /^[\(\[\{<].*[>\}\]\)]$/
 				:braces
+			when /^[\(\[\{<]/
+				:'opening-braces'
+			when /[>\}\]\)][\.]$/
+				:'terminal-closing-braces'
+			when /[>\}\]\)][,;:-]$/
+				:'internal-closing-braces'
+			when /^[>\}\]\)]$/
+				:'closing-braces'
 			when /[,;:-]$/
 				:internal
 			when /[!\?\."']$/

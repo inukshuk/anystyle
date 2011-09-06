@@ -311,6 +311,24 @@ module Anystyle
 				warn e.message
 				hash
 			end
+			
+			def normalize_location(hash)
+				location, *dangling = hash[:location]
+				unmatched(:pages, hash, dangling) unless dangling.empty?
+
+				location.gsub!(/^\W+|\W+$/, '')
+
+				if !hash.has_key?(:publisher) && location =~ /:/
+					location, publisher = location.split(/\s*:\s*/)
+					hash[:publisher] = publisher
+				end
+				
+				hash[:location] = location
+				hash
+			rescue => e
+				warn e.message
+				hash
+			end
 
 			private
 			
