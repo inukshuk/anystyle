@@ -1,6 +1,7 @@
-0.0.4 / 2011-09-06
+0.0.5 / 2011-09-06
 ==================
-* Improves name tokenizing
+* Improved punctuation feature elicitation
+* Improved name tokenizing
 * Bugfixes
 
 0.0.1 / 2011-09-05
