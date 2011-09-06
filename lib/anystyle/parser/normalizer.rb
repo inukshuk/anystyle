@@ -95,7 +95,7 @@ module Anystyle
 				editors.gsub!(/\W*[Ee]d(s|itors|ited)?\W*?/, '')
 				editors.gsub!(/\bby\b/i, '')
 
-				is_trans if !!editors.gsub!(/\W*trans(lated)?\W*/i, '')
+				is_trans = !!editors.gsub!(/\W*trans(lated)?\W*/i, '')
 
       	hash[:editor] = normalize_names(editors)
 				hash[:translator] = hash[:editor] if is_trans
