@@ -95,6 +95,10 @@ module Anystyle
 				:triple
 			when /^\d+$/
 				:digits
+			when /^\d+[\d-]+$/
+				:serial
+			when /^-\d+$/
+				:negative			
 			when /\d+(th|st|nd|rd)[^[:alnum:]]*/i
 				:ordinal
 			when /\d/
@@ -185,6 +189,19 @@ module Anystyle
 				:other
 			end
 		end
-				
+		
+		Feature.define :reference do |token, stripped, sequence, offset|
+			case token
+			when /isbn/i
+				:isbn
+			when /^doi/i
+				:doi
+			when /^url|http|www\.[\w\.]+/i
+				:url
+			else
+				:none
+			end
+		end
+		
 	end
 end

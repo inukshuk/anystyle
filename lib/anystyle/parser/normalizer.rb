@@ -137,7 +137,7 @@ module Anystyle
 				s, n, ns, cc = StringScanner.new(names), '', [], 0
 				until s.eos?
 					case
-					when s.scan(/,?\s*(and\b|&)/)
+					when s.scan(/,?\s*(and\b|&|;)/)
 						ns << n
 						n, cc = '', 0
 					when s.scan(/\s+/)
@@ -171,7 +171,7 @@ module Anystyle
 
 				extract_edition(title, hash)
 				
-				title.gsub!(/[\.,:;\s]+$/, '')
+				title.gsub!(/^[\s]+|[\.,:;\s]+$/, '')
 				title.gsub!(/^["'”’´‘“`]|["'”’´‘“`]$/, '')
 					
 				hash[:title] = title
@@ -216,8 +216,21 @@ module Anystyle
 
 				extract_edition(booktitle, hash)
 
-				booktitle.gsub!(/[\.,:;\s]+$/, '')			
+				booktitle.gsub!(/^[\s]+|[\.,:;\s]+$/, '')
 				hash[:booktitle] = booktitle
+				
+				hash
+			rescue => e
+				warn e.message
+				hash
+			end
+
+			def normalize_journal(hash)
+				booktitle, *dangling = hash[:journal]
+				unmatched(:journal, hash, dangling) unless dangling.empty?
+
+				journal.gsub!(/^[\s]+|[\.,:;\s]+$/, '')
+				hash[:journal] = journal
 				
 				hash
 			rescue => e
