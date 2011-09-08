@@ -124,7 +124,7 @@ module Anystyle
 			def normalize_names(names)
 				names = tokenize_names(names).map do |name|
 					name.strip!
-					name.gsub!(/\b([[:upper:]])(\W|$)/) { [$1, $2 == ?. ? nil : ?., $2].compact.join }
+					name.gsub!(/\b([[:upper:]])(\s|$)/) { [$1, $2 == ?. ? nil : ?., $2].compact.join }
 					name
 				end
 				names.join(' and ')
