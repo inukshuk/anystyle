@@ -194,7 +194,7 @@ module Anystyle
 			def extract_edition(token, hash)
 				edition = [hash[:edition]].flatten.compact
 				
-				if token.gsub!(/[^[:alnum:]]*(\d+)(?:st|nd|rd|th)?\s*(?:Aufl(?:age|\.)|ed(?:ition|\.))?[^[:alnum:]]*/i, '')
+				if token.gsub!(/[^[:alnum:]]*(\d+)(?:st|nd|rd|th)?\s*(?:Aufl(?:age|\.)|ed(?:ition|\.)?)[^[:alnum:]]*/i, '')
 					edition << $1
 				end				
 
