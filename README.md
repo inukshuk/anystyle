@@ -73,7 +73,7 @@ The following irb sessions illustrates some parser goodness:
     > b[0].author.to_s
     => "Liu, Dong C. and Nocedal, Jorge"
     > puts Anystyle.parse('Auster, Paul. The Art of Hunger. Expanded. New York: Penguin, 1997.', :bibtex).to_s
-    @book{2162008820,
+    @book{auster1997a,
       author = {Auster, Paul},
       title = {The Art of Hunger},
       location = {New York},
@@ -107,7 +107,7 @@ you should use the same names used to to train the model. You can always ask
 the Parser's model what names (labels) it knows about:
 
     > Anystyle.parser.model.labels
-    => ["author", "booktitle", "container", "date", "edition", "editor", "institution", "journal", "location", "note", "pages", "publisher", "tech", "title", "unknown", "volume"]
+    => ["author", "booktitle", "container", "date", "doi", "edition", "editor", "institution", "isbn", "journal", "location", "note", "pages", "publisher", "retrieved", "tech", "title", "translator", "unknown", "url", "volume"]
 
 Once you have tagged a few references that you want Anystyle-Parser to learn,
 you can train the model as follows:
