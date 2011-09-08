@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Sylvester Keil']
   s.email       = ['http://sylvester.keil.or.at']
-  s.homepage    = 'http://inukshuk.github.com/anystyle-parser'
+  s.homepage    = 'http://github.com/inukshuk/anystyle-parser'
   s.summary     = 'Parser for academic references.'
   s.description = 'A sophisticated parser for academic references based on conditional random fields.'
   s.license     = 'FreeBSD'
