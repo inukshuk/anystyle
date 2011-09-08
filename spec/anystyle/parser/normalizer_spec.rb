@@ -50,6 +50,13 @@ module Anystyle
 				end
 				
 			end
+			
+			describe 'date extraction' do
+				it 'should extract the month and year from a string like (July 2009)' do
+					Normalizer.instance.normalize_date(:date => '(July 2009).').should == { :year => 2009, :month => 7 }
+				end
+			end
+			
 		end
 
 	end

@@ -235,7 +235,7 @@ module Anystyle
 			end
 
 			def normalize_journal(hash)
-				booktitle, *dangling = hash[:journal]
+				journal, *dangling = hash[:journal]
 				unmatched(:journal, hash, dangling) unless dangling.empty?
 
 				journal.gsub!(/^[\s]+|[\.,:;\s]+$/, '')

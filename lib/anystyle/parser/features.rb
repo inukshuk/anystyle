@@ -85,7 +85,7 @@ module Anystyle
 				:volume
 			when /^\(\d{4}\)[^[:alnum:]]*$/, /^(1\d{3}|20\d{2})[\.,;:]?$/
 				:year
-			when /\d+\s*--?\s*\d+/, /^[^[:alnum:]]*pp?\.\d*[^[:alnum:]]*$/
+			when /\d+\s*--?\s*\d+/, /^[^[:alnum:]]*pp?\.\d*[^[:alnum:]]*$/, /^((pp?|s)\.?|pages)$/i
 				:page
 			when /^\d$/
 				:single
