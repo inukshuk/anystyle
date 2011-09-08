@@ -66,7 +66,7 @@ module Anystyle
 				
 				if authors =~ /[^[:alnum:]]*[Ee]d(s|itors)?[^[:alnum:]]*$/ && !hash.has_key?(:editor)
 					hash[:editor] = hash.delete(:author)
-					normalize_editor(hash)
+					hash = normalize_editor(hash)
 				else
 		      hash['more-authors'] = true if !!authors.sub!(/\bet\.?\s*al.*$/i, '')
 					authors.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
@@ -80,11 +80,19 @@ module Anystyle
 			end
 			
 	    def normalize_editor(hash)
-	      editors, edition = hash[:editor]
+				editors, *dangling = hash[:editor]
 	
-				unless edition.nil?
-					if edition =~ /(\d+)/
+				unless dangling.empty?
+					case
+					when !hash.has_key?(:author)
+						hash[:author] = editors
+						hash[:editor] = dangling
+						hash = normalize_author(hash)
+						return normalize_editor(hash)
+					when dangling[0] =~ /(\d+)/
 						hash[:edition] = $1.to_i
+					else
+						unmatched(:editor, hash, dangling)
 					end
 				end
 	
@@ -92,7 +100,7 @@ module Anystyle
 	
 				editors.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
 				editors.gsub!(/^in\s+/i, '')
-				editors.gsub!(/[^[:alpha:]]*[Ee]d(s|itors|ited)?[^[:alpha:]]*/, '')
+				editors.gsub!(/[^[:alpha:]]*[Ee]d(s|itors?|ited)?[^[:alpha:]]*/, '')
 				editors.gsub!(/[^[:alpha:]]*([Hh]rsg|Herausgeber)[^[:alpha:]]*/, '')
 				editors.gsub!(/\bby\b/i, '')
 
@@ -124,6 +132,7 @@ module Anystyle
 			def normalize_names(names)
 				names = tokenize_names(names).map do |name|
 					name.strip!
+					name.gsub!(/\b([[:upper:]]{2,3})\b/) { $1.split(//).join(' ') }
 					name.gsub!(/\b([[:upper:]])(\s|$)/) { [$1, $2 == ?. ? nil : ?., $2].compact.join }
 					name
 				end
@@ -344,6 +353,31 @@ module Anystyle
 				hash
 			end
 
+			def normalize_isbn(hash)
+				isbn, *dangling = hash[:isbn]
+				unmatched(:isbn, hash, dangling) unless dangling.empty?
+
+				isbn = isbn[/[\d-]+/]
+				hash[:isbn] = isbn
+
+				hash
+			rescue => e
+				warn e.message
+				hash
+			end
+			
+			def normalize_url(hash)
+				url, *dangling = hash[:url]
+				unmatched(:url, hash, dangling) unless dangling.empty?
+
+				url.gsub!(/^\s+|[,\s]+$/, '')
+				hash[:isbn] = isbn
+				hash
+			rescue => e
+				warn e.message
+				hash
+			end
+			
 			private
 			
 			def unmatched(label, hash, tokens)

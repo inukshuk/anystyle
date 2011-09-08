@@ -192,9 +192,11 @@ module Anystyle
 		
 		Feature.define :reference do |token, stripped, sequence, offset|
 			case token
+			when /retrieved/i
+				:retrieved
 			when /isbn/i
 				:isbn
-			when /^doi/i
+			when /^doi:/i
 				:doi
 			when /^url|http|www\.[\w\.]+/i
 				:url
