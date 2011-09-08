@@ -1,5 +1,6 @@
-0.0.8 / 2011-09-08
+0.0.9 / 2011-09-08
 ==================
+* Added year-range / page-range feature distinction
 * Improved model and training data
 * Added URL, DOI and ISBN recognition features
 * Improved handling of UTF-8 characters in Regular Expressions
