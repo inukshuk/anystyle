@@ -41,14 +41,14 @@ Usage
 
 You can access the main Anystyle-Parser instance at `Anystyle.parser`;
 the `#parse` method is also available via `Anystyle.parse`. For more complex
-requirements (e.g., if you need multiple Parser simultaneously) you can create
-your own instances from the `Anystyle::Parser::Parser` class.
+requirements (e.g., if you need multiple Parser instances simultaneously) you
+can create your own instances from the `Anystyle::Parser::Parser` class.
 
 The two fundamental methods you need to know about in order to use
 Anystyle-Parser are `#parse` and `#train` that both accept two arguments.
 
     Parser#parse(input, format = :hash)
-    Parser#train(input, truncate = false)
+    Parser#train(input = options[:training_data], truncate = true)
 
 `#parse` parses the passed-in input (either a filename, your reference strings,
 or an array of your reference strings) and returns the parsed data in the
