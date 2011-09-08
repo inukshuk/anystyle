@@ -3,20 +3,16 @@ module Anystyle
 
 		class Parser
 
-			@models = Hash.new { |h,k| k }.merge(
-				:anystyle => File.expand_path('../support/anystyle.mod', __FILE__),
-				:cora => File.expand_path('../support/cora.mod', __FILE__)
-			)
-			
 			@formats = [:bibtex, :hash, :citeproc].freeze
 			
 			@defaults = {
-				:model => :anystyle,
+				:model => File.expand_path('../support/anystyle.mod', __FILE__),
 				:pattern => File.expand_path('../support/anystyle.pat', __FILE__),
 				:separator => /\s+/,
 				:tagged_separator => /\s+|(<\/?[^>]+>)/,
-				:strip => /\W/,
-				:format => :hash
+				:strip => /[^[:alnum:]]/,
+				:format => :hash,
+				:training_data => File.expand_path('../../../../resources/train.txt', __FILE__)
 			}.freeze
 			
 			@features = Feature.instances
@@ -24,7 +20,7 @@ module Anystyle
 			
 			class << self
 
-				attr_reader :defaults, :features, :feature, :models, :formats
+				attr_reader :defaults, :features, :feature, :formats
 								
 				def load(path)
 					p = new                                    
@@ -45,7 +41,7 @@ module Anystyle
 			
 			def initialize(options = {})
 				@options = Parser.defaults.merge(options)
-				@model = Wapiti.load(Parser.models[@options[:model]])
+				@model = Wapiti.load(@options[:model])
 				@normalizer = Normalizer.instance
 			end
 			
@@ -130,12 +126,12 @@ module Anystyle
 				f.join(' ')
 			end
 			
-			def train(input, truncate = false)
+			def train(input = options[:training_data], truncate = true)
 				string = input_to_s(input)
 				@model = Wapiti::Model.new(:pattern => options[:pattern]) if truncate
 				@model.train(prepare(string, true))
 				@model.compact
-				@model.path = Parser.models[options[:model]]
+				@model.path = options[:model]
 				@model
 			end
 			

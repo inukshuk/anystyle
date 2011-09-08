@@ -83,9 +83,9 @@ module Anystyle
 			case token
 			when /\d\(\d+(-\d+)?\)/
 				:volume
-			when /^\(\d{4}\)\W*$/, /^(1\d{3}|20\d{2})[\.,;:]?$/
+			when /^\(\d{4}\)[^[:alnum:]]*$/, /^(1\d{3}|20\d{2})[\.,;:]?$/
 				:year
-			when /\d+\s*--?\s*\d+/, /^\W*pp?\.\d*\W*$/
+			when /\d+\s*--?\s*\d+/, /^[^[:alnum:]]*pp?\.\d*[^[:alnum:]]*$/
 				:page
 			when /^\d$/
 				:single
@@ -95,7 +95,7 @@ module Anystyle
 				:triple
 			when /^\d+$/
 				:digits
-			when /\d+(th|st|nd|rd)\W*/i
+			when /\d+(th|st|nd|rd)[^[:alnum:]]*/i
 				:ordinal
 			when /\d/
 				:numeric
@@ -128,22 +128,36 @@ module Anystyle
 			case token
 			when /^["'”’´‘“`]/
 				:quote
-			when /["'”’´‘“`][!\?\."',;:-]?$/
+			when /["'”’´‘“`][!\?\.]$/
+				:'terminal-unquote'
+			when /["'”’´‘“`][,;:-]$/
+				:'internal-unquote'
+			when /["'”’´‘“`]$/
 				:unquote
-			when /^[\(\[\{<].*[>\}\]\)][\.]$/
-				:'terminal-braces'
-			when /^[\(\[\{<].*[>\}\]\)][,;:-]$/
-				:'internal-braces'
-			when /^[\(\[\{<].*[>\}\]\)]$/
+			when /^[\[\{].*[\}\]][!\?\.,;:-]?$/
 				:braces
-			when /^[\(\[\{<]/
-				:'opening-braces'
-			when /[>\}\]\)][\.]$/
-				:'terminal-closing-braces'
-			when /[>\}\]\)][,;:-]$/
-				:'internal-closing-braces'
-			when /^[>\}\]\)]$/
-				:'closing-braces'
+			when /^<.*>[!\?\.,;:-]?$/
+				:tags
+			when /^[\(].*[\)][!\?\.]$/
+				:'terminal-parens'
+			when /^\(.*\)[,;:-]$/
+				:'internal-parens'
+			when /^\(.*\)$/
+				:parens
+			when /^[\[\{]/
+				:'opening-brace'
+			when /[\}\]][!\?\.,;:-]?$/
+				:'closing-brace'
+			when /^</
+				:'opening-tag'
+			when />[!\?\.,;:-]?$/
+				:'closing-tag'
+			when /^\(/
+				:'opening-parens'				
+			when /\)[,;:-]$/
+				:'internal-closing-parens'
+			when /^\)$/
+				:'closing-parens'
 			when /[,;:-]$/
 				:internal
 			when /[!\?\."']$/

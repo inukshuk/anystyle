@@ -52,7 +52,7 @@ module Anystyle
 				token, *dangling =  hash[key]
 				unmatched(key, hash, dangling) unless dangling.empty?
 
-				token.gsub!(/^\W+|\W+$/, '')
+				token.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
 				hash[key] = token
 				hash
 			rescue => e
@@ -64,12 +64,12 @@ module Anystyle
 				authors, *dangling = hash[:author]
 				unmatched(:author, hash, dangling) unless dangling.empty?
 				
-				if authors =~ /\W*[Ee]d(s|itors)?\W*$/ && !hash.has_key?(:editor)
+				if authors =~ /[^[:alnum:]]*[Ee]d(s|itors)?[^[:alnum:]]*$/ && !hash.has_key?(:editor)
 					hash[:editor] = hash.delete(:author)
 					normalize_editor(hash)
 				else
 		      hash['more-authors'] = true if !!authors.sub!(/\bet\.?\s*al.*$/i, '')
-					authors.gsub!(/^\W+|\W+$/, '')
+					authors.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
 					hash[:author] = normalize_names(authors)
 				end
 				
@@ -90,13 +90,13 @@ module Anystyle
 	
 	      hash['more-editors'] = true if !!editors.sub!(/\bet\.?\s*al.*$/i, '')
 	
-				editors.gsub!(/^\W+|\W+$/, '')
+				editors.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
 				editors.gsub!(/^in\s+/i, '')
-				editors.gsub!(/\W*[Ee]d(s|itors|ited)?\W*/, '')
-				editors.gsub!(/\W*([Hh]rsg|Herausgeber)\W*/, '')
+				editors.gsub!(/[^[:alpha:]]*[Ee]d(s|itors|ited)?[^[:alpha:]]*/, '')
+				editors.gsub!(/[^[:alpha:]]*([Hh]rsg|Herausgeber)[^[:alpha:]]*/, '')
 				editors.gsub!(/\bby\b/i, '')
 
-				is_trans = !!editors.gsub!(/\W*trans(lated)?\W*/i, '')
+				is_trans = !!editors.gsub!(/[^[:alpha:]]*trans(lated)?[^[:alpha:]]*/i, '')
 
       	hash[:editor] = normalize_names(editors)
 				hash[:translator] = hash[:editor] if is_trans
@@ -110,8 +110,8 @@ module Anystyle
 			def normalize_translator(hash)
 				translators = hash[:translator]
 				
-				translators.gsub!(/^\W+|\W+$/, '')
-				translators.gsub!(/\W*trans(lated)?\W*/i, '')
+				translators.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
+				translators.gsub!(/[^[:alpha:]]*trans(lated)?[^[:alpha:]]*/i, '')
 				translators.gsub!(/\bby\b/i, '')
 				
 				hash[:translator] = normalize_names(translators)
@@ -145,14 +145,14 @@ module Anystyle
 					when s.scan(/,?\s*(jr|sr|ph\.?d|m\.?d|esq)\.?/i)
 						n << s.matched
 					when s.scan(/,/)
-						if cc > 0 || (n =~ /\S{2,}\s+\S{2,}/ && s.rest !~ /^\s*\w+(\.|,|$)/)
+						if cc > 0 || (n =~ /\S{2,}\s+\S{2,}/ && s.rest !~ /^\s*[[:alpha:]]+(\.|,|$)/)
 							ns << n
 							n, cc = '', 0							
 						else
 							n << s.matched
 							cc += 1
 						end
-					when s.scan(/\w+/)
+					when s.scan(/[[:alpha:]]+/)
 						n << s.matched
 					when  s.scan(/./)
 						n << s.matched
@@ -185,23 +185,23 @@ module Anystyle
 			def extract_edition(token, hash)
 				edition = [hash[:edition]].flatten.compact
 				
-				if token.gsub!(/\W*(\d+)(?:st|nd|rd|th)?\s*(?:Aufl(?:age|\.)|ed(?:ition|\.))?\W*/i, '')
+				if token.gsub!(/[^[:alnum:]]*(\d+)(?:st|nd|rd|th)?\s*(?:Aufl(?:age|\.)|ed(?:ition|\.))?[^[:alnum:]]*/i, '')
 					edition << $1
 				end				
 
-				if token.gsub!(/(?:\band)?\W*([Ee]xpanded)\W*$/, '')
+				if token.gsub!(/(?:\band)?[^[:alnum:]]*([Ee]xpanded)[^[:alnum:]]*$/, '')
 					edition << $1
 				end					
 
-				if token.gsub!(/(?:\band)?\W*([Ii]llustrated)\W*$/, '')
+				if token.gsub!(/(?:\band)?[^[:alnum:]]*([Ii]llustrated)[^[:alnum:]]*$/, '')
 					edition << $1
 				end					
 
-				if token.gsub!(/(?:\band)?\W*([Rr]evised)\W*$/, '')
+				if token.gsub!(/(?:\band)?[^[:alnum:]]*([Rr]evised)[^[:alnum:]]*$/, '')
 					edition << $1
 				end					
 
-				if token.gsub!(/(?:\band)?\W*([Rr]eprint)\W*$/, '')
+				if token.gsub!(/(?:\band)?[^[:alnum:]]*([Rr]eprint)[^[:alnum:]]*$/, '')
 					edition << $1
 				end
 				
@@ -231,7 +231,7 @@ module Anystyle
 				
 				case container
 				when /dissertation abstracts/i
-					container.gsub!(/\s*section \w: ([\w\s]+).*$/i, '')
+					container.gsub!(/\s*section \w: ([[:alnum:]\s]+).*$/i, '')
 					hash[:category] = $1 unless $1.nil?
 					hash[:type] = :phdthesis
 				end
@@ -317,7 +317,7 @@ module Anystyle
 				location, *dangling = hash[:location]
 				unmatched(:pages, hash, dangling) unless dangling.empty?
 
-				location.gsub!(/^\W+|\W+$/, '')
+				location.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
 
 				if !hash.has_key?(:publisher) && location =~ /:/
 					location, publisher = location.split(/\s*:\s*/)
