@@ -70,6 +70,33 @@ module Anystyle::Parser
 			it 'returns an array of labelled segments' do
 				subject.label(citation)[0].map(&:first).should == [:author, :title, :location, :publisher, :date, :pages]
 			end
+			
+			describe 'when passed more than one line' do
+				it 'returns two arrays' do
+					subject.label("foo\nbar").should have(2).elements
+				end
+			end
+
+			describe 'when passed invalid input' do
+				it 'returns an empty array for an empty string' do
+					subject.label('').should == []
+				end
+				
+				it 'returns an empty array for an empty line' do
+					subject.label("\n").should == []
+					subject.label("\n ").should == [[],[]]
+					subject.label(" \n ").should == [[],[]]
+					subject.label(" \n").should == [[]]
+				end
+
+				it 'does not fail for unrecognizable input' do
+					lambda { subject.label("@misc{70213094902020,\n") }.should_not raise_error
+					lambda { subject.label("doi = {DOI:10.1503/jpn.100140}\n}\n") }.should_not raise_error
+					lambda { subject.label("\n doi ") }.should_not raise_error
+				end
+			end
+
+			
 		end
 
 		describe "#parse" do
