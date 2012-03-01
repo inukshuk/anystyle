@@ -171,7 +171,7 @@ module Anystyle
       def path
         case options[:mode]
         when :kyoto
-          options[:cabinet]
+          options[:cabinet] || options[:path]
         when :redis
           options[:path] || options.values_at(:host, :port).join(':')
         else
