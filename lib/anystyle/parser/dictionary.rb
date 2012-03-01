@@ -19,7 +19,8 @@ module Anystyle
     # Therefore, if you make changes to the dictionary file, you will have
     # to delete the old database file for a new one to be created.
     #
-    # Database creation requires write permissions. By default, the database
+    # Database creation in Kyoto-Cabinet mode requires write permissions.
+    # By default, the database
     # will be created in the support directory of the Parser; if you have
     # installed the gem version of the Parser, you may not have write
     # permissions, but you can change the path in the Dictionary's options.
@@ -36,8 +37,9 @@ module Anystyle
     #
     # Further options include:
     #
-    #     Dictionary.instance.options[:path] # => the database file or socket
-    #     Dictionary.instance.options[:source] # => the (zipped) dictionary file
+    #     Dictionary.instance.options[:source] # => the zipped dictionary file
+    #     Dictionary.instance.options[:cabinet] # => the database file (kyoto)
+    #     Dictionary.instance.options[:path] # => the database socket (redis)
     #     Dictionary.instance.options[:host] # => dictionary host (redis)
     #     Dictionary.instance.options[:part] # => dictionary port (redis)
     #
@@ -76,7 +78,8 @@ module Anystyle
       @defaults = {
         :mode => @modes[0],
         :source => File.expand_path('../support/dict.txt.gz', __FILE__),
-        :path => File.expand_path('../support/dict.kch', __FILE__)
+        :cabinet => File.expand_path('../support/dict.kch', __FILE__),
+        :port => 6379
       }.freeze
       
       
@@ -166,9 +169,16 @@ module Anystyle
       end
       
       def path
-        options[:path]
+        case options[:mode]
+        when :kyoto
+          options[:cabinet]
+        when :redis
+          options[:path] || options.values_at(:host, :port).join(':')
+        else
+          'hash'
+        end
       end
-      
+            
       private
   
       def db
