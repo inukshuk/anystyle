@@ -1,3 +1,7 @@
+0.1.0 / 2012-03-02
+==================
+* Added redis as data store option
+
 0.0.10 / 2012-03-01
 ===================
 * Added new output format: tags (to generate training data)
