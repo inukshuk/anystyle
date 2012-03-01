@@ -53,7 +53,7 @@ Anystyle-Parser are `#parse` and `#train` that both accept two arguments.
 `#parse` parses the passed-in input (either a filename, your reference strings,
 or an array of your reference strings) and returns the parsed data in the
 format specified as the second argument (supported formats include: *:hash*,
-*:bibtex*, and *:citeproc*).
+*:bibtex*, *:citeproc*, and *:tags*).
 
 `#train` allows you to easily train the Parser's CRF model. The first argument
 is either a filename or your data as a string; the format of training data

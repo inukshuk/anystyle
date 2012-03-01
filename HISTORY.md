@@ -1,3 +1,7 @@
+0.0.10 / 2012-03-01
+===================
+* Added new output format: tags (to generate training data)
+
 0.0.9 / 2011-09-08
 ==================
 * Added year-range / page-range feature distinction
