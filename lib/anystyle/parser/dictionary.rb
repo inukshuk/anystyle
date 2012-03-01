@@ -75,6 +75,13 @@ module Anystyle
 					end
 					populate
 					close
+				
+				when :redis
+					truncate
+					@db = Redis.new(options)
+					populate
+					close
+					
 				else
 					# nothing
 				end
@@ -96,6 +103,11 @@ module Anystyle
 					unless @db.open(path, KyotoCabinet::DB::OREADER)
 						raise DictionaryError, "failed to open cabinet file #{path}: #{@db.error}"
 					end
+				
+				when :redis
+					at_exit { ::Anystyle::Parser::Dictionary.instance.close }
+					@db = Redis.new(options)
+					 
 				else
 					@db = Hash.new(0)
 					populate
@@ -107,7 +119,13 @@ module Anystyle
 			def open?; !!@db; end
 			
 			def close
-				@db.close if @db.respond_to?(:close)
+				case
+				when @db.respond_to?(:close)
+					@db.close 
+				when @db.respond_to?(:quit)
+					@db.quit
+				end
+				
 				@db = nil
 			end
 			
@@ -116,7 +134,7 @@ module Anystyle
 			end
 			
 			private
-						
+	
 			def db
 				@db || open
 			end
