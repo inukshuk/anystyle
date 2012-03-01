@@ -92,6 +92,8 @@ module Anystyle::Parser
 				it 'does not fail for unrecognizable input' do
 					lambda { subject.label("@misc{70213094902020,\n") }.should_not raise_error
 					lambda { subject.label("doi = {DOI:10.1503/jpn.100140}\n}\n") }.should_not raise_error
+					
+					pending
 					lambda { subject.label("\n doi ") }.should_not raise_error
 				end
 			end
@@ -104,6 +106,12 @@ module Anystyle::Parser
 			
 			it 'returns a hash of label/segment pairs by default' do
 				subject.parse(citation)[0].should == { :author => 'Perec, Georges', :title => 'A Void', :location => 'London', :publisher => 'The Harvill Press', :year => 1995, :pages => '108', :type => :book }
+			end
+			
+			describe 'using output format "tags"' do
+				it 'returns a tagged string' do
+					subject.parse(citation, :tags)[0].should == '<author>Perec, Georges.</author> <title>A Void.</title> <location>London:</location> <publisher>The Harvill Press,</publisher> <date>1995.</date> <pages>p.108.</pages>'
+				end
 			end
 		end
 

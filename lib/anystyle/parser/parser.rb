@@ -3,7 +3,7 @@ module Anystyle
 
 		class Parser
 
-			@formats = [:bibtex, :hash, :citeproc].freeze
+			@formats = [:bibtex, :hash, :citeproc, :tags].freeze
 			
 			@defaults = {
 				:model => File.expand_path('../support/anystyle.mod', __FILE__),
@@ -233,7 +233,13 @@ module Anystyle
 			def format_citeproc(labels)
 				format_bibtex(labels).to_citeproc
 			end
-						
+			
+			def format_tags(labels)
+				labels.map do |line|
+					line.map { |label, token| "<#{label}>#{token}</#{label}>" }.join(' ')
+				end
+			end
+			
 		end
 
 	end
