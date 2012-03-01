@@ -8,6 +8,10 @@ module Anystyle
     # dictionary in memory at all times. For that reason, Dictionary
     # creates a persistent data store on disk using Kyoto Cabinet; if
     # Kyoto Cabinet is not installed a Ruby Hash is used as a fall-back.
+    #
+    # Starting with version 0.1.0 Redis support was added. If you would
+    # like to use Redis as the dictionary data store you can do so by
+    # 
     # 
     # The database will be automatically created from the dictionary file
     # using the best available DBM the first time it is accessed. Once
@@ -20,17 +24,26 @@ module Anystyle
     # installed the gem version of the Parser, you may not have write
     # permissions, but you can change the path in the Dictionary's options.
     #
-    #     Dictionary.instance.options[:path] # => the database file
+    # ## Configuration
+    #
+    # To set the database mode:
+    #
+    #     Dictionary.instance.options[:mode] # => the database mode
+    #
+    # For a list of database modes available in your environment consult:
+    #
+    #     Dictionary.modes # => [:kyoto, :redis, :hash]
+    #
+    # Further options include:
+    #
+    #     Dictionary.instance.options[:path] # => the database file or socket
     #     Dictionary.instance.options[:source] # => the (zipped) dictionary file
+    #     Dictionary.instance.options[:host] # => dictionary host (redis)
+    #     Dictionary.instance.options[:part] # => dictionary port (redis)
     #
     class Dictionary
 
       include Singleton
-      
-      @defaults = {
-        :source => File.expand_path('../support/dict.txt.gz', __FILE__),
-        :path => File.expand_path('../support/dict.kch', __FILE__)
-      }.freeze
       
       @keys = [:male, :female, :surname, :month, :place, :publisher, :journal].freeze
 
@@ -38,16 +51,38 @@ module Anystyle
       @code.default = 0
       @code.freeze
 
-      @mode = begin
-        require 'kyotocabinet'
-        :kyoto
+      @modes = [:hash]
+
+      begin
+        require 'redis/connection/hiredis'
       rescue LoadError
-        :hash
+        # ignore
       end
+
+      begin
+        require 'redis'
+        @modes.unshift :redis
+      rescue LoadError
+        # info 'no redis support detected'
+      end
+      
+      begin
+        require 'kyotocabinet'
+        @modes.unshift :kyoto
+      rescue LoadError
+        # info 'no kyoto-cabinet support detected'
+      end
+      
+      @defaults = {
+        :mode => @modes[0],
+        :source => File.expand_path('../support/dict.txt.gz', __FILE__),
+        :path => File.expand_path('../support/dict.kch', __FILE__)
+      }.freeze
+      
       
       class << self
         
-        attr_reader :keys, :code, :defaults, :mode
+        attr_reader :keys, :code, :defaults, :modes
         
       end
 
@@ -77,8 +112,7 @@ module Anystyle
           close
         
         when :redis
-          truncate
-          @db = Redis.new(options)
+          @db ||= Redis.new(options)
           populate
           close
           
@@ -93,11 +127,11 @@ module Anystyle
       end
       
       def open
-        create unless File.exists?(path)
-
-        case Dictionary.mode
+        case options[:mode]
         when :kyoto
           at_exit { ::Anystyle::Parser::Dictionary.instance.close }
+
+          create unless File.exists?(path)
   
           @db = KyotoCabinet::DB.new
           unless @db.open(path, KyotoCabinet::DB::OREADER)
@@ -107,6 +141,8 @@ module Anystyle
         when :redis
           at_exit { ::Anystyle::Parser::Dictionary.instance.close }
           @db = Redis.new(options)
+          
+          populate if @db.dbsize.zero?
            
         else
           @db = Hash.new(0)

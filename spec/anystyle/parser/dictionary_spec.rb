@@ -10,6 +10,15 @@ module Anystyle
 			it { Dictionary.should_not respond_to(:new) }		
 			it { dict.should_not be nil }
 
+      describe '.modes' do
+        it 'returns an array' do
+          Dictionary.modes.should be_a(Array)
+        end
+        
+        it 'contains at least :hash' do
+          Dictionary.modes.should include(:hash)
+        end
+      end
 
 			describe "the dictionary" do
 
