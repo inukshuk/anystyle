@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.email       = ['http://sylvester.keil.or.at']
   s.homepage    = 'http://github.com/inukshuk/anystyle-parser'
   s.summary     = 'Parser for academic references.'
-  s.description = 'A sophisticated parser for academic references based on conditional random fields.'
+  s.description = 'A sophisticated parser for academic references based on machine learning algorithms using conditional random fields.'
   s.license     = 'FreeBSD'
   
   s.add_runtime_dependency('bibtex-ruby', '~>2.0')
