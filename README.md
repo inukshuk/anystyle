@@ -5,7 +5,7 @@ Anystyle-Parser is a very fast and smart parser for academic references. It
 is inspired by [ParsCit](http://aye.comp.nus.edu.sg/parsCit/) and
 [FreeCite](http://freecite.library.brown.edu/); Anystyle-Parser uses machine
 learning algorithms and is designed
-for raw speed (it [wapiti](https://github.com/inukshuk/wapiti-ruby) based
+for raw speed (it uses [wapiti](https://github.com/inukshuk/wapiti-ruby) based
 conditional random fields and [Kyoto Cabinet](http://fallabs.com/kyotocabinet/)
 or [Redis](http://redis.io) as a key-value store), flexibility (it is easy to
 train the model with data that is relevant to your parsing needs), and
