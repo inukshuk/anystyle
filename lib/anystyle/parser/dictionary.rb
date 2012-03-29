@@ -104,7 +104,7 @@ module Anystyle
       end
       
       def create
-        case Dictionary.mode
+        case options[:mode]
         when :kyoto
           truncate
           @db = KyotoCabinet::DB.new
