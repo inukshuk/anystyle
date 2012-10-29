@@ -1,14 +1,19 @@
 source :rubygems
 gemspec
 
-group :debug do
-	gem 'ruby-debug19', :require => 'ruby-debug', :platforms => [:mri_19]
-	gem 'ruby-debug', :platforms => [:mri_18, :jruby]
-	gem 'rbx-trepanning', :platforms => [:rbx]
+group :development do
+	gem 'debugger', :platforms => [:mri_19]	
+	gem 'simplecov'
+	gem 'yard'
 end
 
-group :osx_test do
-	gem 'autotest-fsevent', :require => false  
+group :test  do
+	gem 'rake'
+	gem 'racc', '~>1.4'
+
+	gem 'cucumber'
+	gem 'rspec'
+	gem 'ZenTest'
 end
 
 group :profile do
@@ -16,6 +21,7 @@ group :profile do
 	gem 'gnuplot'
 end
 
-group :kyotocabinet do
+group :extra do
 	gem 'kyotocabinet-ruby', :require => 'kyotocabinet'
+	gem 'autotest-fsevent', :require => false  
 end

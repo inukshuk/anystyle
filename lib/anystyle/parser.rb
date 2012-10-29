@@ -3,9 +3,7 @@ require 'singleton'
 
 require 'bibtex'
 require 'wapiti'
-
-# require 'ruby-debug'
-# Debugger.start
+require 'namae'
 
 require 'anystyle/parser/errors'
 

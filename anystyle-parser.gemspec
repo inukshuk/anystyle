@@ -17,12 +17,7 @@ Gem::Specification.new do |s|
   
   s.add_runtime_dependency('bibtex-ruby', '~>2.0')
   s.add_runtime_dependency('wapiti', '~>0.0')
-  
-  s.add_development_dependency('rake', ['~>0.9'])
-  s.add_development_dependency('racc', ['~>1.4'])
-  s.add_development_dependency('cucumber', ['~>1.0'])
-  s.add_development_dependency('rspec', ['~>2.6'])
-  s.add_development_dependency('ZenTest', ['~>4.6'])
+  s.add_runtime_dependency('namae', '~>0.5')
 
   s.files        = `git ls-files`.split("\n") - Dir['resources/**/*']
   s.test_files   = `git ls-files -- {test,spec,features}/*`.split("\n")

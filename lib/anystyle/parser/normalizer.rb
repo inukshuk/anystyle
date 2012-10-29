@@ -130,46 +130,12 @@ module Anystyle
 			end
 			
 			def normalize_names(names)
-				names = tokenize_names(names).map do |name|
-					name.strip!
-					name.gsub!(/\b([[:upper:]]{2,3})\b/) { $1.split(//).join(' ') }
-					name.gsub!(/\b([[:upper:]])(\s|$)/) { [$1, $2 == ?. ? nil : ?., $2].compact.join }
-					name
-				end
-				names.join(' and ')
+				Namae.parse!(names).map(&:sort_order).join(' and ')
 			rescue => e
 				warn e.message
 				hash
 			end
-			
-			def tokenize_names(names)
-				s, n, ns, cc = StringScanner.new(names), '', [], 0
-				until s.eos?
-					case
-					when s.scan(/,?\s*(and\b|&|;)/)
-						ns << n
-						n, cc = '', 0
-					when s.scan(/\s+/)
-						n << ' '
-					when s.scan(/,?\s*(jr|sr|ph\.?d|m\.?d|esq)\.?/i)
-						n << s.matched
-					when s.scan(/,/)
-						if cc > 0 || (n =~ /\S{2,}\s+\S{2,}/ && s.rest !~ /^\s*[[:alpha:]]+(\.|,|$)/)
-							ns << n
-							n, cc = '', 0							
-						else
-							n << s.matched
-							cc += 1
-						end
-					when s.scan(/[[:alpha:]]+/)
-						n << s.matched
-					when  s.scan(/./)
-						n << s.matched
-					end
-				end
-				ns << n		
-			end
-			
+						
 			def normalize_title(hash)
 				title, container = hash[:title]
 				
