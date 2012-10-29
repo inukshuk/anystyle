@@ -129,6 +129,8 @@ module Anystyle
 				hash
 			end
 			
+			Namae::Parser.instance.options[:prefer_comma_as_separator] = true
+
 			def normalize_names(names)
 				Namae.parse!(names).map(&:sort_order).join(' and ')
 			rescue => e
