@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   
   s.add_runtime_dependency('bibtex-ruby', '~>2.0')
   s.add_runtime_dependency('wapiti', '~>0.0')
-  s.add_runtime_dependency('namae', '~>0.7')
+  s.add_runtime_dependency('namae', '~>0.7.1')
 
   s.files        = `git ls-files`.split("\n") - Dir['resources/**/*']
   s.test_files   = `git ls-files -- {test,spec,features}/*`.split("\n")
