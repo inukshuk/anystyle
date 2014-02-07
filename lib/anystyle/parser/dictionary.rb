@@ -1,6 +1,6 @@
 module Anystyle
   module Parser
-    
+
     # Dictionary is a Singleton object that provides a key-value store of
     # the Anystyle Parser dictionary required for feature elicitation.
     # This dictionary acts essentially like a Ruby Hash object, but because
@@ -11,8 +11,8 @@ module Anystyle
     #
     # Starting with version 0.1.0 Redis support was added. If you would
     # like to use Redis as the dictionary data store you can do so by
-    # 
-    # 
+    # installing `redis' gem (and optionally the `hiredis' gem).
+    #
     # The database will be automatically created from the dictionary file
     # using the best available DBM the first time it is accessed. Once
     # database file exists, the database will be restored from file.
@@ -46,7 +46,7 @@ module Anystyle
     class Dictionary
 
       include Singleton
-      
+
       @keys = [:male, :female, :surname, :month, :place, :publisher, :journal].freeze
 
       @code = Hash[*@keys.zip(0.upto(@keys.length-1).map { |i| 2**i }).flatten]
@@ -67,42 +67,40 @@ module Anystyle
       rescue LoadError
         # info 'no redis support detected'
       end
-      
+
       begin
         require 'kyotocabinet'
         @modes.unshift :kyoto
       rescue LoadError
         # info 'no kyoto-cabinet support detected'
       end
-      
+
       @defaults = {
         :mode => @modes[0],
         :source => File.expand_path('../support/dict.txt.gz', __FILE__),
         :cabinet => File.expand_path('../support/dict.kch', __FILE__),
         :port => 6379
       }.freeze
-      
-      
+
+
       class << self
-        
         attr_reader :keys, :code, :defaults, :modes
-        
       end
 
       attr_reader :options
-      
+
       def initialize
         @options = Dictionary.defaults.dup
       end
-      
+
       def [](key)
         db[key.to_s].to_i
       end
-      
+
       def []=(key, value)
         db[key.to_s] = value
       end
-      
+
       def create
         case options[:mode]
         when :kyoto
@@ -113,61 +111,61 @@ module Anystyle
           end
           populate
           close
-        
+
         when :redis
           @db ||= Redis.new(options)
           populate
           close
-          
+
         else
           # nothing
         end
       end
-      
+
       def truncate
         close
-        File.unlink(path) if File.exists?(path)       
+        File.unlink(path) if File.exists?(path)
       end
-      
+
       def open
         case options[:mode]
         when :kyoto
           at_exit { ::Anystyle::Parser::Dictionary.instance.close }
 
           create unless File.exists?(path)
-  
+
           @db = KyotoCabinet::DB.new
           unless @db.open(path, KyotoCabinet::DB::OREADER)
             raise DictionaryError, "failed to open cabinet file #{path}: #{@db.error}"
           end
-        
+
         when :redis
           at_exit { ::Anystyle::Parser::Dictionary.instance.close }
           @db = Redis.new(options)
-          
+
           populate if @db.dbsize.zero?
-           
+
         else
           @db = Hash.new(0)
           populate
         end
-        
+
         @db
       end
-      
+
       def open?; !!@db; end
-      
+
       def close
         case
         when @db.respond_to?(:close)
-          @db.close 
+          @db.close
         when @db.respond_to?(:quit)
           @db.quit
         end
-        
+
         @db = nil
       end
-      
+
       def path
         case options[:mode]
         when :kyoto
@@ -178,13 +176,13 @@ module Anystyle
           'hash'
         end
       end
-            
+
       private
-  
+
       def db
         @db || open
       end
-            
+
       def populate
         require 'zlib'
 
@@ -193,7 +191,7 @@ module Anystyle
 
           Zlib::GzipReader.new(f).each do |line|
             line.strip!
-            
+
             if line.start_with?('#')
               case line
               when /^## male/i
@@ -214,7 +212,7 @@ module Anystyle
                 # skip comments
               end
             else
-              key, probability = line.split(/\s+(\d+\.\d+)\s*$/)
+              key = line.split(/\s+(\d+\.\d+)\s*$/)[0]
               value = self[key]
               self[key] = value + mode if value < mode
             end
@@ -222,8 +220,8 @@ module Anystyle
         end
 
       end
-            
+
     end
-  
+
   end
 end

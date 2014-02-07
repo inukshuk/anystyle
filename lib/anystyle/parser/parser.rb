@@ -3,7 +3,7 @@ module Anystyle
 
     class Parser
 
-      @formats = [:bibtex, :hash, :citeproc, :tags].freeze
+      @formats = [:bibtex, :hash, :citeproc, :tags, :raw].freeze
 
       @defaults = {
         :model => File.expand_path('../support/anystyle.mod', __FILE__),
@@ -47,9 +47,11 @@ module Anystyle
 
       def parse(input, format = options[:format])
         formatter = "format_#{format}".to_sym
+
+        raise ArgumentError, "format not supported: #{formatter}" unless
+          respond_to?(formatter, true)
+
         send(formatter, label(input))
-      rescue NoMethodError
-        raise ArgumentError, "format not supported: #{formatter}"
       end
 
       # Returns an array of label/segment pairs for each line in the passed-in string.
@@ -214,6 +216,14 @@ module Anystyle
           b << BibTeX::Entry.new(hash)
         end
         b
+      end
+
+      def format_raw(labels)
+        labels.map do |line|
+          line.inject([]) do |tokens, (label, segment)|
+            tokens.concat segment.split(' ').map { |token| [label, token] }
+          end
+        end
       end
 
       def format_hash(labels)
