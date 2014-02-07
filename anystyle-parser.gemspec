@@ -14,10 +14,12 @@ Gem::Specification.new do |s|
   s.summary     = 'Parser for academic references.'
   s.description = 'A sophisticated parser for academic references based on machine learning algorithms using conditional random fields.'
   s.license     = 'FreeBSD'
-  
-  s.add_runtime_dependency('bibtex-ruby', '~>2.0')
+
+  s.required_ruby_version = '>= 1.9.3'
+
+  s.add_runtime_dependency('bibtex-ruby', '~>3.0')
   s.add_runtime_dependency('wapiti', '~>0.0')
-  s.add_runtime_dependency('namae', '~>0.7.1')
+  s.add_runtime_dependency('namae', '~>0.8')
 
   s.files        = `git ls-files`.split("\n") - Dir['resources/**/*']
   s.test_files   = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -26,7 +28,7 @@ Gem::Specification.new do |s|
 
   s.rdoc_options      = %w{--line-numbers --inline-source --title "Anystyle\ Parser" --main README.md}
   s.extra_rdoc_files  = %w{README.md LICENSE}
-  
+
 end
 
 # vim: syntax=ruby

@@ -1,0 +1,13 @@
+language: ruby
+bundler_args: --without debug extra redis kyoto
+script: bundle exec rake test_with_coveralls
+rvm:
+  - 2.1.0
+  - 2.0.0
+  - 1.9.3
+  - rbx
+notifications:
+  email:
+    - sylvester@keil.or.at
+  on_success: change
+  on_failure: always

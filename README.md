@@ -1,6 +1,5 @@
 Anystyle-Parser
 ===============
-
 Anystyle-Parser is a very fast and smart parser for academic references. It
 is inspired by [ParsCit](http://aye.comp.nus.edu.sg/parsCit/) and
 [FreeCite](http://freecite.library.brown.edu/); Anystyle-Parser uses machine
@@ -18,7 +17,7 @@ Installation
     $ [sudo] gem install anystyle-parser
 
 During the statistical analysis of reference strings, Anystyle-Parser relies
-on a large feature dictionary; by default, Anystyle-Parser creates a 
+on a large feature dictionary; by default, Anystyle-Parser creates a
 [Kyoto Cabinet](http://fallabs.com/kyotocabinet/) file-based hash database
 from the dictionary file that ships with the parser. If Kyoto Cabinet is
 not installed on your system, Anystyle-Parser uses a simple Ruby Hash as a
@@ -26,7 +25,7 @@ fall-back; this Hash has to be re-created every time you load the parser
 and takes up a lot of memory in your Ruby process; it is therefore strongly
 recommended to install Kyoto Cabinet and the `kyotocabinet-ruby` gem.
 
-    $ [sudo] gem install kyotocabinet-ruby 
+    $ [sudo] gem install kyotocabinet-ruby
 
 The database file will be created the first time you access the dictionary;
 note that you will need write permissions in the directory where the file
@@ -39,8 +38,8 @@ Starting with version 0.1.0, Anystyle-Parser also supports
 [Redis](http://redis.io); to use Redis as the data store you need to install
 the `redis` gem (and, optionally, the `hiredis` gem).
 
-    $ [sudo] gem install hiredis 
-    $ [sudo] gem install redis 
+    $ [sudo] gem install hiredis
+    $ [sudo] gem install redis
 
 To see which data store modes are available in you current environment,
 check the output of `Dictionary.modes`:
@@ -52,7 +51,7 @@ To select one of the available modes, use the dictionary instance options:
 
     > Anystyle::Parser::Dictionary.instance.options[:mode]
     => :kyoto
-    
+
 To use [Redis](http://redis.io) you also need to set the host or unix socket
 where your redis server is available. For example:
 
@@ -113,7 +112,7 @@ The following irb sessions illustrates some parser goodness:
       year = {1997}
     }
     => nil
-    
+
 ### Unhappy with the results?
 
 Citation references come in many forms, so, inevitably, you will find data
@@ -159,7 +158,7 @@ data again:
     => [{:author=>"John Lafferty and Andrew McCallum and Fernando Pereira", :title=>"Conditional random fields: probabilistic models for segmenting and labeling sequence data", :booktitle=>"Proceedings of the International Conference on Machine Learning", :pages=>"282--289", :publisher=>"Morgan Kaufmann", :location=>"San Francisco, CA", :year=>2001, :type=>:inproceedings}]
 
 If you want to make Anystyle-Parser smarter, please consider sending us your
-tagged references (see below). 
+tagged references (see below).
 
 Contributing
 ------------
@@ -182,8 +181,7 @@ and open a pull request on GitHub.
 
 License
 -------
-
-Copyright 2011-2012 Sylvester Keil. All rights reserved.
+Copyright 2011-2014 Sylvester Keil. All rights reserved.
 
 Some of the code in Anystyle-Parser's post processing (normalizing) routines
 was originally based on the source code of FreeCite and

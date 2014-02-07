@@ -1,19 +1,19 @@
 source 'https://rubygems.org'
 gemspec
 
-group :development do
-	gem 'debugger', :platforms => [:mri_19]	
-	gem 'simplecov'
-	gem 'yard'
+group :development, :test do
+  gem 'rake'
+  gem 'cucumber'
+  gem 'rspec'
+  gem 'simplecov', '~>0.8', :require => false
+  gem 'rubinius-coverage', :platform => :rbx
+  gem 'coveralls', :require => false
 end
 
-group :test  do
-	gem 'rake'
-	gem 'racc', '~>1.4'
-
-	gem 'cucumber'
-	gem 'rspec'
-	gem 'ZenTest'
+group :debug do
+  gem 'debugger', '~>1.6', :require => false, :platform => :mri
+  gem 'rubinius-compiler', '~>2.0', :require => false, :platform => :rbx
+  gem 'rubinius-debugger', '~>2.0', :require => false, :platform => :rbx
 end
 
 group :profile do
@@ -22,6 +22,22 @@ group :profile do
 end
 
 group :extra do
+	gem 'autotest-fsevent', :require => false
+  gem 'yard'
+	gem 'ZenTest'
+end
+
+group :redis do
+  gem 'redis'
+  gem 'hiredis'
+end
+
+group :kyoto do
 	gem 'kyotocabinet-ruby', :require => 'kyotocabinet'
-	gem 'autotest-fsevent', :require => false  
+end
+
+platform :rbx do
+  gem 'rubysl', '~>2.0'
+  gem 'json', '~>1.8'
+  gem 'racc'
 end
