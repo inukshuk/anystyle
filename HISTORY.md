@@ -1,3 +1,9 @@
+0.3.0 / 2014-02-14
+==================
+* Update dependencies
+* Added raw output format
+* Enforce Ruby 1.9.3 or later requirement
+
 0.2.0 / 2012-10-29
 ==================
 * Use Namae for name normalization
