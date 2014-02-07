@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Sylvester Keil']
   s.email       = ['http://sylvester.keil.or.at']
   s.homepage    = 'http://github.com/inukshuk/anystyle-parser'
-  s.summary     = 'Parser for academic references.'
-  s.description = 'A sophisticated parser for academic references based on machine learning algorithms using conditional random fields.'
+  s.summary     = 'Smart and fast academic bibliography parser.'
+  s.description = 'A sophisticated parser for academic reference lists and bibliographies based on machine learning algorithms using conditional random fields.'
   s.license     = 'FreeBSD'
 
   s.required_ruby_version = '>= 1.9.3'
