@@ -1,5 +1,8 @@
 Anystyle-Parser
 ===============
+[![Build Status](https://travis-ci.org/inukshuk/anystyle-parser.png?branch=master)](https://travis-ci.org/inukshuk/anystyle-parser)
+[![Coverage Status](https://coveralls.io/repos/inukshuk/anystyle-parser/badge.png)](https://coveralls.io/r/inukshuk/anystyle-parser)
+
 Anystyle-Parser is a very fast and smart parser for academic references. It
 is inspired by [ParsCit](http://aye.comp.nus.edu.sg/parsCit/) and
 [FreeCite](http://freecite.library.brown.edu/); Anystyle-Parser uses machine
@@ -83,7 +86,7 @@ Anystyle-Parser are `#parse` and `#train` that both accept two arguments.
 `#parse` parses the passed-in input (either a filename, your reference strings,
 or an array of your reference strings) and returns the parsed data in the
 format specified as the second argument (supported formats include: *:hash*,
-*:bibtex*, *:citeproc*, and *:tags*).
+*:bibtex*, *:citeproc*, *:tags*, and *:raw*).
 
 `#train` allows you to easily train the Parser's CRF model. The first argument
 is either a filename or your data as a string; the format of training data
@@ -162,7 +165,6 @@ tagged references (see below).
 
 Contributing
 ------------
-
 The Anystyle-Parser source code is
 [hosted on GitHub](http://github.com/inukshuk/anystyle-parser/).
 You can check out a copy of the latest code using Git:
