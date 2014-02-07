@@ -21,7 +21,10 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('wapiti', '~>0.0')
   s.add_runtime_dependency('namae', '~>0.8')
 
-  s.files        = `git ls-files`.split("\n") - Dir['resources/**/*']
+  s.files        = `git ls-files`.split("\n").reject { |path|
+    path.start_with?('.')
+  } - Dir['resources/**/*']
+
   s.test_files   = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables  = []
   s.require_path = 'lib'
