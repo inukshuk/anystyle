@@ -17,8 +17,8 @@ group :debug do
 end
 
 group :profile do
-	gem 'ruby-prof'
-	gem 'gnuplot'
+	gem 'ruby-prof', :require => false, :platform => :mri
+	gem 'gnuplot', :require => false, :platform => :mri
 end
 
 group :extra do
