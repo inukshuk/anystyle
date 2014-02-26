@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 module Anystyle::Parser
   describe Parser do
 
