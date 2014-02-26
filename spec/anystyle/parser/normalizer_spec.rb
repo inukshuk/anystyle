@@ -2,6 +2,7 @@ module Anystyle
   module Parser
 
     describe "Normalizer" do
+      let(:n) { Normalizer.instance }
 
       describe "#tokenize_names" do
 
@@ -51,9 +52,29 @@ module Anystyle
 
       end
 
+      describe 'editors extraction' do
+        it 'recognizes editors in the author field' do
+          n.normalize_author(:author => 'D. Knuth (ed.)').should == { :editor => 'Knuth, D.' }
+        end
+      end
+
       describe 'date extraction' do
-        it 'should extract the month and year from a string like (July 2009)' do
-          Normalizer.instance.normalize_date(:date => '(July 2009).').should == { :year => 2009, :month => 7 }
+        it 'extracts month and year from a string like "(July 2009)"' do
+          h = Normalizer.instance.normalize_date(:date => '(July 2009)')
+          h[:year].should == 2009
+          h[:month].should == 7
+          h.should_not have_key(:date)
+        end
+
+        it 'extracts month and year from a string like "(1997 Sept.)"' do
+          h = Normalizer.instance.normalize_date(:date => '(1997 Sept.)')
+          h[:year].should == 1997
+          h[:month].should == 9
+          h.should_not have_key(:date)
+
+          h = Normalizer.instance.normalize_date(:date => '(1997 Okt.)')
+          h[:year].should == 1997
+          h[:month].should == 10
         end
       end
 

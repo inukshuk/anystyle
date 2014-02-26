@@ -202,7 +202,7 @@ module Anystyle
           raise ArgumentError, "invalid input: #{input.class}"
         end
       ensure
-        f.close if f
+        f.close unless f.nil?
       end
 
       def features_for(*arguments)
