@@ -81,13 +81,13 @@ module Anystyle
 
     Feature.define :numbers do |token, stripped, sequence, offset|
       case token
-      when /\d\(\d+(-\d+)?\)/
+      when /\d\(\d+([—–-]\d+)?\)/
         :volume
       when /^\(\d{4}\)[^[:alnum:]]*$/, /^(1\d{3}|20\d{2})[\.,;:]?$/
         :year
-      when /\d{4}\s*--?\s*\d{4}/
+      when /\d{4}\s*[—–-]+\s*\d{4}/
         :'year-range'
-      when /\d+\s*--?\s*\d+/, /^[^[:alnum:]]*pp?\.\d*[^[:alnum:]]*$/, /^((pp?|s)\.?|pages)$/i
+      when /\d+\s*[—–-]+\s*\d+/, /^[^[:alnum:]]*pp?\.\d*[^[:alnum:]]*$/, /^((pp?|s)\.?|pages?)$/i
         :page
       when /^\d$/
         :single
