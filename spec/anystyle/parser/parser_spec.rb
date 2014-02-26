@@ -82,18 +82,16 @@ module Anystyle::Parser
           subject.label('').should == []
         end
 
-        it 'returns an empty array for an empty line' do
+        it 'returns an empty array for empty lines' do
           subject.label("\n").should == []
-          subject.label("\n ").should == [[],[]]
-          subject.label(" \n ").should == [[],[]]
-          subject.label(" \n").should == [[]]
+          subject.label("\n ").should == []
+          subject.label(" \n ").should == []
+          subject.label(" \n").should == []
         end
 
         it 'does not fail for unrecognizable input' do
           lambda { subject.label("@misc{70213094902020,\n") }.should_not raise_error
           lambda { subject.label("doi = {DOI:10.1503/jpn.100140}\n}\n") }.should_not raise_error
-
-          pending
           lambda { subject.label("\n doi ") }.should_not raise_error
         end
       end

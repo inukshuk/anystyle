@@ -69,7 +69,6 @@ module Anystyle
             end
           end
         end
-
       end
 
       # Returns an array of tokens for each line of input.
@@ -79,7 +78,7 @@ module Anystyle
       # line of input.
       def tokenize(string, tagged = false)
         if tagged
-          string.split(/[\n\r]+/).each_with_index.map do |s,i|
+          lines(string).each_with_index.map do |s,i|
             tt, tokens, tags = s.split(options[:tagged_separator]), [], []
 
             tt.each do |token|
@@ -100,8 +99,12 @@ module Anystyle
             tokens
           end
         else
-          string.split(/[\n\r]+/).map { |s| s.split(options[:separator]) }
+          lines(string).map { |s| s.split(options[:separator]) }
         end
+      end
+
+      def lines(string)
+        string.split(/[ \t]*[\n\r]\s*/)
       end
 
       # Prepares the passed-in string for processing by a CRF tagger. The
