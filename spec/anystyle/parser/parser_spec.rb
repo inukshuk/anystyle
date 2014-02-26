@@ -117,6 +117,13 @@ module Anystyle::Parser
       it 'returns the label/token arrays for format "raw"' do
         subject.parse(citation, :raw)[0][0].should == [:author, 'Perec,']
       end
+
+      it 'returns the token in original order for format "raw"' do
+        subject.parse(citation, :raw)[0].map(&:last).join(' ').should == citation
+
+        difference = 'Derrida, J. (1967). L’écriture et la différence (1 éd.). Paris: Éditions du Seuil.'
+        subject.parse(difference, :raw)[0].map(&:last).join(' ').should == difference
+      end
     end
 
 
