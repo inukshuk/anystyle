@@ -1,3 +1,9 @@
+0.4.0 / 2014-02-26
+==================
+* Update wapiti
+* Improve dash patterns
+* Updated default model
+
 0.3.0 / 2014-02-14
 ==================
 * Update dependencies
