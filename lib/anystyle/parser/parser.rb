@@ -133,11 +133,25 @@ module Anystyle
 
       def train(input = options[:training_data], truncate = true)
         string = input_to_s(input)
-        @model = Wapiti::Model.new(:pattern => options[:pattern]) if truncate
-        @model.train(prepare(string, true))
-        @model.compact
+
+        if truncate
+          @model = Wapiti::Model.new(:pattern => options[:pattern])
+        end
+
+        unless string.nil? || string.empty?
+          @model.train(prepare(string, true))
+          @model.compact
+        end
+
         @model.path = options[:model]
         @model
+      end
+
+      # Trains the model by appending the training data without
+      # truncating the current model.
+      # @see train
+      def learn(input)
+        train(input, false)
       end
 
       def test(input)

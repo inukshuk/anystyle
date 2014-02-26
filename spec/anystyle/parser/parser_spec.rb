@@ -126,6 +126,40 @@ module Anystyle::Parser
       end
     end
 
+    describe "#train" do
+      let(:dps) { File.open(fixture_path('train_dps.txt'), 'r:UTF-8').read.split(/\n/) }
+
+      describe "a pristine model" do
+        before(:each) { subject.train '', true }
+
+        it 'recognizes trained references' do
+          subject.learn dps[0]
+          subject.parse(strip_tags(dps[0]), :tags)[0].should == dps[0]
+        end
+
+        it 'recognizes trained references when learnt in one go' do
+          subject.learn dps
+
+          dps.each do |d|
+            subject.parse(strip_tags(d), :tags)[0].should == d
+          end
+        end
+
+        it 'recognizes trained references when learnt separately' do
+          dps.each do |d|
+            subject.learn d
+          end
+
+          dps.each do |d|
+            subject.parse(strip_tags(d), :tags)[0].should == d
+          end
+        end
+      end
+
+      describe "the default model" do
+
+      end
+    end
 
   end
 end

@@ -22,10 +22,22 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'rspec'
 require 'anystyle/parser'
 
-# Requires supporting files with custom matchers and macros, etc,
-# in ./support/ and its subdirectories.
-Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
+module Fixtures
+	PATH = File.expand_path('../fixtures', __FILE__)
+
+	Dir[File.join(PATH, '*.rb')].each do |fixture|
+		require fixture
+	end
+
+  def fixture_path(path)
+    File.join(PATH, path)
+  end
+end
 
 RSpec.configure do |config|
+  config.include Fixtures
 
+  def strip_tags(string)
+    string.gsub(/<[^>]+>/, '')
+  end
 end
