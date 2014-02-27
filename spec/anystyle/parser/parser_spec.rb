@@ -146,6 +146,8 @@ module Anystyle::Parser
         end
 
         it 'recognizes trained references when learnt separately' do
+          pending
+
           dps.each do |d|
             subject.learn d
           end

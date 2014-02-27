@@ -1,4 +1,4 @@
-0.4.0 / 2014-02-26
+0.4.0 / 2014-02-27
 ==================
 * Update wapiti
 * Improve dash patterns
