@@ -8,6 +8,7 @@ module Anystyle
       @defaults = {
         :model => File.expand_path('../support/anystyle.mod', __FILE__),
         :pattern => File.expand_path('../support/anystyle.pat', __FILE__),
+        :compact => true,
         :separator => /\s+/,
         :tagged_separator => /\s+|(<\/?[^>]+>)/,
         :strip => /[^[:alnum:]]/,
@@ -23,9 +24,7 @@ module Anystyle
         attr_reader :defaults, :features, :feature, :formats
 
         def load(path)
-          p = new
-          p.model = Wapiti.load(path)
-          p
+          new :model => path
         end
 
         # Returns a default parser instance
@@ -41,7 +40,10 @@ module Anystyle
 
       def initialize(options = {})
         @options = Parser.defaults.merge(options)
+
         @model = Wapiti.load(@options[:model])
+        @model.options.update_attributes @options
+
         @normalizer = Normalizer.instance
       end
 
@@ -135,12 +137,11 @@ module Anystyle
         string = input_to_s(input)
 
         if truncate
-          @model = Wapiti::Model.new(:pattern => options[:pattern])
+          @model = Wapiti::Model.new(options.reject { |k,_| k == :model })
         end
 
         unless string.nil? || string.empty?
           @model.train(prepare(string, true))
-          @model.compact
         end
 
         @model.path = options[:model]
