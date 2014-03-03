@@ -63,14 +63,14 @@ module Anystyle
 
       begin
         require 'redis'
-        @modes.unshift :redis
+        @modes.push :redis
       rescue LoadError
         # info 'no redis support detected'
       end
 
       begin
         require 'kyotocabinet'
-        @modes.unshift :kyoto
+        @modes.push :kyoto
       rescue LoadError
         # info 'no kyoto-cabinet support detected'
       end
