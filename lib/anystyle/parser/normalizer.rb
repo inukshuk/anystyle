@@ -55,9 +55,6 @@ module Anystyle
         token.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
         hash[key] = token
         hash
-      rescue => e
-        warn e.message
-        hash
       end
 
       def normalize_author(hash)
@@ -68,14 +65,11 @@ module Anystyle
           hash[:editor] = hash.delete(:author)
           hash = normalize_editor(hash)
         else
-          hash['more-authors'] = true if !!authors.sub!(/\bet\.?\s*al.*$/i, '')
+          hash[:'more-authors'] = true if !!authors.sub!(/\bet\.?\s*al.*$/i, '')
           authors.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
           hash[:author] = normalize_names(authors)
         end
 
-        hash
-      rescue => e
-        warn e.message
         hash
       end
 
@@ -96,9 +90,9 @@ module Anystyle
           end
         end
 
-        hash['more-editors'] = true if !!editors.sub!(/\bet\.?\s*al.*$/i, '')
+        hash[:'more-editors'] = true if !!editors.sub!(/\bet\.?\s*al.*$/i, '')
 
-        editors.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
+        editors.gsub!(/^\W+|\W+$/, '')
         editors.gsub!(/^in\s+/i, '')
         editors.gsub!(/[^[:alpha:]]*[Ee]d(s|itors?|ited)?[^[:alpha:]]*/, '')
         editors.gsub!(/[^[:alpha:]]*([Hh]rsg|Herausgeber)[^[:alpha:]]*/, '')
@@ -107,36 +101,38 @@ module Anystyle
         is_trans = !!editors.gsub!(/[^[:alpha:]]*trans(lated)?[^[:alpha:]]*/i, '')
 
         hash[:editor] = normalize_names(editors)
-        hash[:translator] = hash[:editor] if is_trans
+        hash[:translator] = hash.delete :editor if is_trans
 
-        hash
-      rescue => e
-        warn e.message
         hash
       end
 
       def normalize_translator(hash)
         translators = hash[:translator]
 
-        translators.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
+        editors.gsub!(/^\W+|\W+$/, '')
         translators.gsub!(/[^[:alpha:]]*trans(lated)?[^[:alpha:]]*/i, '')
         translators.gsub!(/\bby\b/i, '')
 
         hash[:translator] = normalize_names(translators)
         hash
-      rescue => e
-        warn e.message
-        hash
       end
-
-      Namae::Parser.instance.options[:prefer_comma_as_separator] = true
 
       def normalize_names(names)
-        Namae.parse!(names).map(&:sort_order).join(' and ')
+        Namae.parse!(names).map { |name|
+          unless name.given.nil? || name.family.nil?
+            name.given.gsub!(/\b([[:upper:]])(\s|$)/, '\1.\2')
+          end
+
+          name.sort_order
+
+        }.join(' and ')
+
       rescue => e
         warn e.message
-        hash
+        names
       end
+
+      Namae.options[:prefer_comma_as_separator] = true
 
       def normalize_title(hash)
         title, container = hash[:title]
@@ -148,14 +144,11 @@ module Anystyle
 
         extract_edition(title, hash)
 
-        title.gsub!(/^[\s]+|[\.,:;\s]+$/, '')
+        title.gsub!(/^\s+|[\.,:;\s]+$/, '')
         title.gsub!(/^["'”’´‘“`]|["'”’´‘“`]$/, '')
 
         hash[:title] = title
 
-        hash
-      rescue => e
-        warn e.message
         hash
       end
 
@@ -189,16 +182,13 @@ module Anystyle
         booktitle, *dangling = hash[:booktitle]
         unmatched(:booktitle, hash, dangling) unless dangling.empty?
 
-        booktitle.gsub!(/^in\s*/i, '')
+        booktitle.gsub!(/^in\s+/i, '')
 
         extract_edition(booktitle, hash)
 
-        booktitle.gsub!(/^[\s]+|[\.,:;\s]+$/, '')
+        booktitle.gsub!(/^\s+|[\.,:;\s]+$/, '')
         hash[:booktitle] = booktitle
 
-        hash
-      rescue => e
-        warn e.message
         hash
       end
 
@@ -209,9 +199,6 @@ module Anystyle
         journal.gsub!(/^[\s]+|[\.,:;\s]+$/, '')
         hash[:journal] = journal
 
-        hash
-      rescue => e
-        warn e.message
         hash
       end
 
@@ -228,9 +215,6 @@ module Anystyle
 
         hash[:container] = container
         hash
-      rescue => e
-        warn e.message
-        hash
       end
 
       def normalize_date(hash)
@@ -246,9 +230,6 @@ module Anystyle
           hash.delete(:date)
         end
 
-        hash
-      rescue => e
-        warn e.message
         hash
       end
 
@@ -277,9 +258,6 @@ module Anystyle
         end
 
         hash
-      rescue => e
-        warn e.message
-        hash
       end
 
       def normalize_pages(hash)
@@ -303,9 +281,6 @@ module Anystyle
         end
 
         hash
-      rescue => e
-        warn e.message
-        hash
       end
 
       def normalize_location(hash)
@@ -321,9 +296,6 @@ module Anystyle
 
         hash[:location] = location
         hash
-      rescue => e
-        warn e.message
-        hash
       end
 
       def normalize_isbn(hash)
@@ -334,9 +306,6 @@ module Anystyle
         hash[:isbn] = isbn
 
         hash
-      rescue => e
-        warn e.message
-        hash
       end
 
       def normalize_url(hash)
@@ -345,9 +314,6 @@ module Anystyle
 
         url.gsub!(/^\s+|[,\s]+$/, '')
         hash[:isbn] = isbn
-        hash
-      rescue => e
-        warn e.message
         hash
       end
 

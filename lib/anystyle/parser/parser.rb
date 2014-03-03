@@ -163,8 +163,13 @@ module Anystyle
 
       def normalize(hash)
         hash.keys.each do |label|
-          normalizer.send("normalize_#{label}", hash)
+          begin
+            normalizer.send("normalize_#{label}", hash)
+          rescue => e
+            warn e.message
+          end
         end
+
         classify hash
       end
 
