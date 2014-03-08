@@ -63,7 +63,7 @@ module Anystyle
 
       begin
         require 'redis'
-        @modes.unshift :redis
+        @modes.push :redis
 
         require 'redis/namespace'
 
@@ -73,7 +73,7 @@ module Anystyle
 
       begin
         require 'kyotocabinet'
-        @modes.unshift :kyoto
+        @modes.push :kyoto
       rescue LoadError
         # info 'no kyoto-cabinet support detected'
       end

@@ -7,11 +7,11 @@ module Anystyle
       describe "#tokenize_names" do
 
         it "tokenizes 'A B'" do
-          Normalizer.instance.normalize_names('A B').should == 'B, A'
+          Normalizer.instance.normalize_names('A B').should == 'B, A.'
         end
 
         it "tokenizes 'A, B'" do
-          Normalizer.instance.normalize_names('A, B').should == 'A, B'
+          Normalizer.instance.normalize_names('A, B').should == 'A, B.'
         end
 
         # it "tokenizes 'A, jr., B'" do
@@ -23,11 +23,11 @@ module Anystyle
         # end
 
         it "tokenizes 'A, B, C, D'" do
-          Normalizer.instance.normalize_names('A, B, C, D').should == 'A, B and C, D'
+          Normalizer.instance.normalize_names('A, B, C, D').should == 'A, B. and C, D.'
         end
 
         it "tokenizes 'A, B, C'" do
-          Normalizer.instance.normalize_names('A, B, C').should == 'A, B and C'
+          Normalizer.instance.normalize_names('A, B, C').should == 'A, B. and C'
         end
 
         it "tokenizes 'Aa Bb, C.'" do
@@ -35,7 +35,7 @@ module Anystyle
         end
 
         it "tokenizes 'Aa Bb, Cc Dd, and E F G'" do
-          Normalizer.instance.normalize_names('Aa Bb, C D, and E F G').should == 'Bb, Aa and D, C and G, E F'
+          Normalizer.instance.normalize_names('Aa Bb, C D, and E F G').should == 'Bb, Aa and D, C. and G, E. F.'
         end
 
         [
