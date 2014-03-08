@@ -64,6 +64,9 @@ module Anystyle
       begin
         require 'redis'
         @modes.unshift :redis
+
+        require 'redis/namespace'
+
       rescue LoadError
         # info 'no redis support detected'
       end
@@ -79,6 +82,7 @@ module Anystyle
         :mode => @modes[0],
         :source => File.expand_path('../support/dict.txt.gz', __FILE__),
         :cabinet => File.expand_path('../support/dict.kch', __FILE__),
+        :namespace => 'anystyle',
         :port => 6379
       }.freeze
 
@@ -91,6 +95,10 @@ module Anystyle
 
       def initialize
         @options = Dictionary.defaults.dup
+      end
+
+      def config(&block)
+        block[options]
       end
 
       def [](key)
@@ -112,11 +120,6 @@ module Anystyle
           populate
           close
 
-        when :redis
-          @db ||= Redis.new(options)
-          populate
-          close
-
         else
           # nothing
         end
@@ -130,7 +133,7 @@ module Anystyle
       def open
         case options[:mode]
         when :kyoto
-          at_exit { ::Anystyle::Parser::Dictionary.instance.close }
+          at_exit { Anystyle.dictionary.close }
 
           create unless File.exists?(path)
 
@@ -140,10 +143,14 @@ module Anystyle
           end
 
         when :redis
-          at_exit { ::Anystyle::Parser::Dictionary.instance.close }
+          at_exit { Anystyle.dictionary.close }
           @db = Redis.new(options)
 
-          populate if @db.dbsize.zero?
+          if options[:namespace] && defined?(Redis::Namespace)
+            @db = Redis::Namespace.new options[:namespace], :redis => @db
+          end
+
+          populate unless populated?
 
         else
           @db = Hash.new(0)
@@ -153,7 +160,7 @@ module Anystyle
         @db
       end
 
-      def open?; !!@db; end
+      def open?() !!@db end
 
       def close
         case
@@ -175,6 +182,10 @@ module Anystyle
         else
           'hash'
         end
+      end
+
+      def populated?
+        !!self['__created_at']
       end
 
       private
@@ -219,6 +230,7 @@ module Anystyle
           end
         end
 
+        self['__created_at'] = Time.now.to_s
       end
 
     end

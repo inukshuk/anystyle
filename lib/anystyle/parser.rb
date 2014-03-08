@@ -5,6 +5,7 @@ require 'bibtex'
 require 'wapiti'
 require 'namae'
 
+require 'anystyle/parser/version'
 require 'anystyle/parser/errors'
 
 require 'anystyle/parser/dictionary'

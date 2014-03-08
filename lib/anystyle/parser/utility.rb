@@ -8,6 +8,10 @@ module Anystyle
     Parser::Parser.instance
   end
 
+  def self.dictionary
+    Parser::Dictionary.instance
+  end
+
   module Parser
 
     def self.instance

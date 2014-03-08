@@ -30,6 +30,7 @@ end
 group :redis do
   gem 'redis'
   gem 'hiredis'
+  gem 'redis-namespace'
 end
 
 group :kyoto do

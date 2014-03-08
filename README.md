@@ -39,10 +39,9 @@ Dictionary's options:
 
 Starting with version 0.1.0, Anystyle-Parser also supports
 [Redis](http://redis.io); to use Redis as the data store you need to install
-the `redis` gem (and, optionally, the `hiredis` gem).
+the `redis` and `redis-namespace` gems (optionally, the `hiredis` gem).
 
-    $ [sudo] gem install hiredis
-    $ [sudo] gem install redis
+    $ [sudo] gem install redis redis-namespace
 
 To see which data store modes are available in you current environment,
 check the output of `Dictionary.modes`:
@@ -52,14 +51,14 @@ check the output of `Dictionary.modes`:
 
 To select one of the available modes, use the dictionary instance options:
 
-    > Anystyle::Parser::Dictionary.instance.options[:mode]
+    > Anystyle.dictionary.options[:mode]
     => :kyoto
 
 To use [Redis](http://redis.io) you also need to set the host or unix socket
 where your redis server is available. For example:
 
-    Anystyle::Parser::Dictionary.instance.options[:mode] = :redis
-    Anystyle::Parser::Dictionary.instance.options[:host] = 'localhost'
+    Anystyle.dictionary.options[:mode] = :redis
+    Anystyle.dictionary.options[:host] = 'localhost'
 
 When the data store is opened using redis-mode and the data store is empty,
 the feature dictionary will be imported automatically. If you want to import
