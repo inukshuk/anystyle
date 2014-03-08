@@ -1,3 +1,7 @@
+0.4.2 / 2014-03-08
+==================
+* Add redis-namespace support
+
 0.4.1 / 2014-03-03
 ==================
 * Normalizer tweaks
