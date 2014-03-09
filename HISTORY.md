@@ -1,3 +1,7 @@
+0.4.3 / 2014-03-09
+==================
+* Add model reload method
+
 0.4.2 / 2014-03-08
 ==================
 * Add redis-namespace support

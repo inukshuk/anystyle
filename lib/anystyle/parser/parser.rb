@@ -41,10 +41,15 @@ module Anystyle
       def initialize(options = {})
         @options = Parser.defaults.merge(options)
 
-        @model = Wapiti.load(@options[:model])
-        @model.options.update_attributes @options
+        reload
 
         @normalizer = Normalizer.instance
+      end
+
+      def reload
+        @model = Wapiti.load(@options[:model])
+        @model.options.update_attributes @options
+        self
       end
 
       def parse(input, format = options[:format])
