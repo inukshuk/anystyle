@@ -215,7 +215,7 @@ module Anystyle
       def input_to_s(input)
         case input
         when String
-          if input.length < 128 && File.exists?(input)
+          if !input.tainted? && input.length < 128 && File.exists?(input)
             f = File.open(input, 'r:UTF-8')
             f.read
           else

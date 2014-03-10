@@ -83,12 +83,14 @@ Anystyle-Parser are `#parse` and `#train` that both accept two arguments.
     Parser#train(input = options[:training_data], truncate = true)
 
 `#parse` parses the passed-in input (either a filename, your reference strings,
-or an array of your reference strings) and returns the parsed data in the
+or an array of your reference strings; files are only opened if the string is
+not tainted) and returns the parsed data in the
 format specified as the second argument (supported formats include: *:hash*,
 *:bibtex*, *:citeproc*, *:tags*, and *:raw*).
 
 `#train` allows you to easily train the Parser's CRF model. The first argument
-is either a filename or your data as a string; the format of training data
+is either a filename (if the string is not tainted) or your data as a string;
+the format of training data
 follows the XML-like syntax of the
 [CORA dataset](http://www.cs.umass.edu/~mccallum/data/cora-ie.tar.gz); the
 optional boolean argument lets you decide whether to train the existing
