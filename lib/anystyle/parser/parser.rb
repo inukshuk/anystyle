@@ -63,9 +63,7 @@ module Anystyle
 
       # Returns an array of label/segment pairs for each line in the passed-in string.
       def label(input, labelled = false)
-        string = input_to_s(input)
-
-        model.label(prepare(string, labelled)).map! do |sequence|
+        model.label(prepare(input, labelled)).map! do |sequence|
           sequence.inject([]) do |ts, (token, label)|
             token, label = token[/^\S+/], label.to_sym
             if (prev = ts[-1]) && prev[0] == label
@@ -139,14 +137,12 @@ module Anystyle
       end
 
       def train(input = options[:training_data], truncate = true)
-        string = input_to_s(input)
-
         if truncate
           @model = Wapiti::Model.new(options.reject { |k,_| k == :model })
         end
 
-        unless string.nil? || string.empty?
-          @model.train(prepare(string, true))
+        unless input.nil? || input.empty?
+          @model.train(prepare(input, true))
         end
 
         @model.path = options[:model]
@@ -161,9 +157,8 @@ module Anystyle
       end
 
       def test(input)
-        string = input_to_s(input)
         model.options.check!
-        model.label(prepare(string, true))
+        model.label(prepare(input, true))
       end
 
       def normalize(hash)

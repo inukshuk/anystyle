@@ -1,5 +1,5 @@
-0.4.4 / 2014-03-10
-==================
+0.4.4 & 0.4.5 / 2014-03-10
+==========================
 * Mitigate potential vulnerability: open files only if string not tainted
 
 0.4.3 / 2014-03-09
