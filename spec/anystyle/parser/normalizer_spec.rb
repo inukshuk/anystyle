@@ -58,6 +58,18 @@ module Anystyle
         end
       end
 
+      describe 'URL extraction' do
+        it 'recognizes full URLs' do
+          n.normalize_url(:url => 'Available at: https://www.example.org/x.pdf').should == { :url => 'https://www.example.org/x.pdf' }
+          n.normalize_url(:url => 'Available at: https://www.example.org/x.pdf [Retrieved today]').should == { :url => 'https://www.example.org/x.pdf' }
+        end
+
+        it 'tries to detect URLs without protocol' do
+          n.normalize_url(:url => 'Available at: www.example.org/x.pdf').should == { :url => 'www.example.org/x.pdf' }
+          n.normalize_url(:url => 'Available at: example.org/x.pdf [Retrieved today]').should == { :url => 'example.org/x.pdf' }
+        end
+      end
+
       describe 'date extraction' do
         it 'extracts month and year from a string like "(July 2009)"' do
           h = Normalizer.instance.normalize_date(:date => '(July 2009)')

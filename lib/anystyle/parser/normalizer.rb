@@ -312,8 +312,7 @@ module Anystyle
         url, *dangling = hash[:url]
         unmatched(:url, hash, dangling) unless dangling.empty?
 
-        url.gsub!(/^\s+|[,\s]+$/, '')
-        hash[:isbn] = isbn
+        hash[:url] = url[/([a-z]+:\/\/)?\w+\.\w+[\w\.\/%-]+/i] || url
         hash
       end
 
