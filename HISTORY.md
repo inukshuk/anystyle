@@ -1,3 +1,7 @@
+0.5.0 / 2014-03-13
+==================
+* Add XML output
+
 0.4.4 & 0.4.5 / 2014-03-10
 ==========================
 * Mitigate potential vulnerability: open files only if string not tainted
