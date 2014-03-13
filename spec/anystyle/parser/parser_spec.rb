@@ -124,6 +124,10 @@ module Anystyle::Parser
         difference = 'Derrida, J. (1967). L’écriture et la différence (1 éd.). Paris: Éditions du Seuil.'
         subject.parse(difference, :raw)[0].map(&:last).join(' ').should == difference
       end
+
+      it 'returns xml document for format "raw"' do
+        subject.parse(citation, :xml).should == '<?xml version="1.0" encoding="UTF-8"?><references><reference><author>Perec, Georges.</author><title>A Void.</title><location>London:</location><publisher>The Harvill Press,</publisher><date>1995.</date><pages>p.108.</pages></reference></references>'
+      end
     end
 
     describe "#train" do

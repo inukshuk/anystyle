@@ -2,6 +2,7 @@
 require 'singleton'
 
 require 'bibtex'
+require 'builder'
 require 'wapiti'
 require 'namae'
 

@@ -3,7 +3,7 @@ module Anystyle
 
     class Parser
 
-      @formats = [:bibtex, :hash, :citeproc, :tags, :raw].freeze
+      @formats = [:bibtex, :hash, :citeproc, :xml, :tags, :raw].freeze
 
       @defaults = {
         :model => File.expand_path('../support/anystyle.mod', __FILE__),
@@ -273,6 +273,20 @@ module Anystyle
         end
       end
 
+      def format_xml(labels)
+        xml = Builder::XmlMarkup.new
+        xml.instruct! :xml, encoding: 'UTF-8'
+
+        xml.references do |rs|
+          labels.each do |line|
+            rs.reference do |r|
+              line.each do |label, segment|
+                r.tag! label, segment
+              end
+            end
+          end
+        end
+      end
     end
 
   end
