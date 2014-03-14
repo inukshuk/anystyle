@@ -1,3 +1,8 @@
+0.5.3 / 2014-03-14
+==================
+* Added source, director, producer and section labels
+* Updated model
+
 0.5.2 / 2014-03-13
 ==================
 * Add XML output
