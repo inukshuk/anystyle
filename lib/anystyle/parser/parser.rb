@@ -180,11 +180,13 @@ module Anystyle
         text = hash.values.flatten.join
 
         case
+        when keys.include?(:medium)
+          hash[:type] = hash[:medium]
         when keys.include?(:journal)
           hash[:type] = :article
         when text =~ /proceedings/i
           hash[:type] = :inproceedings
-        when keys.include?(:booktitle), keys.include?(:container)
+        when keys.include?(:booktitle), keys.include?(:source)
           hash[:type] = :incollection
         when keys.include?(:publisher)
           hash[:type] = :book

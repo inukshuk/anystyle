@@ -88,6 +88,14 @@ module Anystyle
           h[:year].should == 1997
           h[:month].should == 10
         end
+
+        it 'extracts days if month and year are present' do
+          h = n.normalize_date(:date => '(15 May 1984)')
+
+          h[:year].should == 1984
+          h[:month].should == 5
+          h[:day].should == 15
+        end
       end
 
     end

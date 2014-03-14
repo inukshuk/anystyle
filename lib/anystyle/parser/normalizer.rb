@@ -109,7 +109,7 @@ module Anystyle
       def normalize_translator(hash)
         translators = hash[:translator]
 
-        editors.gsub!(/^\W+|\W+$/, '')
+        translators.gsub!(/^\W+|\W+$/, '')
         translators.gsub!(/[^[:alpha:]]*trans(lated)?[^[:alpha:]]*/i, '')
         translators.gsub!(/\bby\b/i, '')
 
@@ -117,7 +117,31 @@ module Anystyle
         hash
       end
 
+      def normalize_director(hash)
+        directors = hash[:director]
+
+        directors.gsub!(/^\W+|\W+$/, '')
+        directors.gsub!(/[^[:alpha:]]*direct(or|ed)?[^[:alpha:]]*/i, '')
+        directors.gsub!(/\bby\b/i, '')
+
+        hash[:director] = normalize_names(directors)
+        hash
+      end
+
+      def normalize_producer(hash)
+        producers = hash[:producer]
+
+        producers.gsub!(/^\W+|\W+$/, '')
+        producers.gsub!(/[^[:alpha:]]*produc(er|ed)?[^[:alpha:]]*/i, '')
+        producers.gsub!(/\bby\b/i, '')
+
+        hash[:director] = normalize_names(producers)
+        hash
+      end
+
       def normalize_names(names)
+        names.gsub!(/\s*(\.\.\.|…)\s*/, '')
+
         Namae.parse!(names).map { |name|
           unless name.given.nil? || name.family.nil?
             name.given.gsub!(/\b([[:upper:]])(\s|$)/, '\1.\2')
@@ -135,11 +159,11 @@ module Anystyle
       Namae.options[:prefer_comma_as_separator] = true
 
       def normalize_title(hash)
-        title, container = hash[:title]
+        title, source = hash[:title]
 
-        unless container.nil?
-          hash[:container] = container
-          normalize(:container, hash)
+        unless source.nil?
+          hash[:source] = source
+          normalize(:source, hash)
         end
 
         extract_edition(title, hash)
@@ -202,18 +226,18 @@ module Anystyle
         hash
       end
 
-      def normalize_container(hash)
-        container, *dangling = hash[:container]
-        unmatched(:container, hash, dangling) unless dangling.empty?
+      def normalize_source(hash)
+        source, *dangling = hash[:source]
+        unmatched(:source, hash, dangling) unless dangling.empty?
 
-        case container
+        case source
         when /dissertation abstracts/i
-          container.gsub!(/\s*section \w: ([[:alnum:]\s]+).*$/i, '')
+          source.gsub!(/\s*section \w: ([[:alnum:]\s]+).*$/i, '')
           hash[:category] = $1 unless $1.nil?
           hash[:type] = :phdthesis
         end
 
-        hash[:container] = container
+        hash[:source] = source
         hash
       end
 
@@ -227,6 +251,11 @@ module Anystyle
 
         if date =~ /(\d{4})/
           hash[:year] = $1.to_i
+
+          if hash.key?(:month) && date =~ /(\d{1,2})\b/
+            hash[:day] = $1.to_i
+          end
+
           hash.delete(:date)
         end
 
@@ -255,6 +284,24 @@ module Anystyle
           when /(\d+)/
             hash[:volume] = $1.to_i
           end
+        end
+
+        hash
+      end
+
+      def normalize_publisher(hash)
+        normalize :publisher, hash
+
+        case hash[:publisher]
+        when /^producers?$/i
+          hash[:publisher] = hash[:producer]
+
+        when /^authors?$/i
+          hash[:publisher] = hash[:author]
+
+        when /^editor?$/i
+          hash[:publisher] = hash[:editor]
+
         end
 
         hash
@@ -313,6 +360,14 @@ module Anystyle
         unmatched(:url, hash, dangling) unless dangling.empty?
 
         hash[:url] = url[/([a-z]+:\/\/)?\w+\.\w+[\w\.\/%-]+/i] || url
+        hash
+      end
+
+      def normalize_medium(hash)
+        medium, *dangling = hash[:medium]
+        unmatched(:medium, hash, dangling) unless dangling.empty?
+
+        hash[:medium] = medium.split(/\W+/).reject(&:empty?).join('-')
         hash
       end
 
