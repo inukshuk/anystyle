@@ -646,3 +646,4 @@
 <author>Devlin, H.</author> <date>(2010, January 28).</date> <title>Neuron breakthrough offers hope on Alzheimer’s and Parkinson’s.</title> <journal>The Times.</journal> <retrieved>Retrieved from</retrieved> <url>http://www.timesonline.co.uk/tol/news/science/medicine/article7005401.ece</url>
 <author>O'Leary, C.</author> <date>(2006, June 29).</date> <title>Landmark study to aid push for public smoking ban.</title> <journal>The West Australian,</journal> <pages>p.14.</pages> <note>Retrieved October 20, 2008, from Factiva.</note>
 <author>Bari, M.</author> <date>(2006).</date> <title>A distributed conceptual model for stream salinity generation processes: A systematic data-based approach.</title> <retrieved>Retrieved from Australasian Digital Theses Program. (WU2006.0058).</retrieved>
+<author>Perec, Georges.</author> <title>A Void.</title> <location>London:</location> <publisher>The Harvill Press,</publisher> <date>1995.</date> <pages>p.108.</pages>
