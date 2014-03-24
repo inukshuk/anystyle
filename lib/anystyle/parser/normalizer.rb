@@ -234,7 +234,7 @@ module Anystyle
         when /dissertation abstracts/i
           source.gsub!(/\s*section \w: ([[:alnum:]\s]+).*$/i, '')
           hash[:category] = $1 unless $1.nil?
-          hash[:type] = :phdthesis
+          hash[:type] = :thesis
         end
 
         hash[:source] = source

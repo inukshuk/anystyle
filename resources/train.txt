@@ -644,9 +644,7 @@
 <author>Murray, G.</author> <date>(2005).</date> <title>A duty of care to children and young people in Western Australia: Report on the quality assurance and review of unsubstantiated allegations of abuse in care: 1 April 2004 to 12 September 2005.</title> <accessed>Retrieved from Western Australia, Department of Child Protection website:</accessed> <url>http://www.community.wa.gov.au/NR/rdonlyres/851183A4-A822-4592-AB66-C410E453AEEC/0/DCDRPTGwennMurrayreportwithcover2006.pdf</url>
 <author>Kissane, K.</author> <date>(1998, September 5).</date> <title>Kiss or kill: Who is the victim when a battered woman kills?</title> <journal>The Age: Extra,</journal> <pages>p. 6.</pages>
 <author>Devlin, H.</author> <date>(2010, January 28).</date> <title>Neuron breakthrough offers hope on Alzheimer’s and Parkinson’s.</title> <journal>The Times.</journal> <accessed>Retrieved from</accessed> <url>http://www.timesonline.co.uk/tol/news/science/medicine/article7005401.ece</url>
-<author>O'Leary, C.</author> <date>(2006, June 29).</date> <title>Landmark
-study to aid push for public smoking ban.</title> <journal>The West
-Australian,</journal> <pages>p.14.</pages> <accessed>Retrieved October 20, 2008, from Factiva.</accessed>
+<author>O'Leary, C.</author> <date>(2006, June 29).</date> <title>Landmark study to aid push for public smoking ban.</title> <journal>The West Australian,</journal> <pages>p.14.</pages> <accessed>Retrieved October 20, 2008, from Factiva.</accessed>
 <author>Bari, M.</author> <date>(2006).</date> <title>A distributed conceptual model for stream salinity generation processes: A systematic data-based approach.</title> <accessed>Retrieved from Australasian Digital Theses Program. (WU2006.0058).</accessed>
 <author>Perec, Georges.</author> <title>A Void.</title> <location>London:</location> <publisher>The Harvill Press,</publisher> <date>1995.</date> <pages>p.108.</pages>
 <producer>Davidson, F. (Producer),</producer> <director>& Davidson, J. (Director).</director> <date>(1999).</date> <title>B. F. Skinner: A fresh appraisal</title> <medium>[Motion picture].</medium> <location>United States:</location> <publisher>Davidson Studio.</publisher>
