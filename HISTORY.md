@@ -1,3 +1,9 @@
+0.6.0 / 2014-03-24
+==================
+* Renamed tech label to genre; institution to authority
+* Updated classifier
+* Updated model
+
 0.5.3 / 2014-03-14
 ==================
 * Added source, director, producer and section labels
