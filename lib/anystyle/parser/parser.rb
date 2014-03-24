@@ -190,10 +190,14 @@ module Anystyle
           hash[:type] = :incollection
         when keys.include?(:publisher)
           hash[:type] = :book
-        when keys.include?(:institution)
+        when text =~ /ph(\.\s*)?d|diss(\.|ertation)|thesis/i
+          hash[:type] = :thesis
+        when text =~ /\b[Pp]atent\b/
+          hash[:type] = :patent
+        when text =~ /\b[Pp]ersonal [Cc]ommunication\b/
+          hash[:type] = :personal_communication
+        when keys.include?(:authority)
           hash[:type] = :techreport
-        when keys.include?(:school) || text =~ /master('s)?\s+thesis/i
-          hash[:type] = :mastersthesis
         when text =~ /interview/i
           hash[:type] = :interview
         when text =~ /videotape/i
