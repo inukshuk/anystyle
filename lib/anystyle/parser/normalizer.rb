@@ -93,7 +93,7 @@ module Anystyle
         hash[:'more-editors'] = true if !!editors.sub!(/\bet\.?\s*al.*$/i, '')
 
         editors.gsub!(/^\W+|\W+$/, '')
-        editors.gsub!(/^in\s+/i, '')
+        editors.gsub!(/^in:?\s+/i, '')
         editors.gsub!(/[^[:alpha:]]*[Ee]d(s|itors?|ited)?[^[:alpha:]]*/, '')
         editors.gsub!(/[^[:alpha:]]*([Hh]rsg|Herausgeber)[^[:alpha:]]*/, '')
         editors.gsub!(/\bby\b/i, '')
@@ -169,7 +169,7 @@ module Anystyle
         extract_edition(title, hash)
 
         title.gsub!(/^\s+|[\.,:;\s]+$/, '')
-        title.gsub!(/^["'”’´‘“`]|["'”’´‘“`]$/, '')
+        title.gsub!(/^["'”’´‘“`](.+)["'”’´‘“`]$/, '\1')
 
         hash[:title] = title
 
@@ -206,7 +206,7 @@ module Anystyle
         booktitle, *dangling = hash[:booktitle]
         unmatched(:booktitle, hash, dangling) unless dangling.empty?
 
-        booktitle.gsub!(/^in\s+/i, '')
+        #booktitle.gsub!(/^in:?\s+/i, '')
 
         extract_edition(booktitle, hash)
 
