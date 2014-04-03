@@ -52,6 +52,22 @@ module Anystyle
 
       end
 
+      describe '#normalize_editor' do
+        it "strips in from beginning" do
+          n.normalize_editor(:editor => 'In D. Knuth (ed.)').should == { :editor => 'Knuth, D.' }
+          n.normalize_editor(:editor => 'In: D. Knuth (ed.)').should == { :editor => 'Knuth, D.' }
+          n.normalize_editor(:editor => 'in: D. Knuth ed.').should == { :editor => 'Knuth, D.' }
+          n.normalize_editor(:editor => 'in D. Knuth (ed)').should == { :editor => 'Knuth, D.' }
+        end
+
+        it "does not strip ed from name" do
+          n.normalize_editor(:editor => 'In Edward Wood').should == { :editor => 'Wood, Edward' }
+          n.normalize_editor(:editor => 'ed by Edward Wood').should == { :editor => 'Wood, Edward' }
+          n.normalize_editor(:editor => 'ed. by Edward Wood').should == { :editor => 'Wood, Edward' }
+          n.normalize_editor(:editor => 'ed by Edward Wood').should == { :editor => 'Wood, Edward' }
+        end
+      end
+
       describe 'editors extraction' do
         it 'recognizes editors in the author field' do
           n.normalize_author(:author => 'D. Knuth (ed.)').should == { :editor => 'Knuth, D.' }

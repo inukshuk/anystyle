@@ -94,8 +94,8 @@ module Anystyle
 
         editors.gsub!(/^\W+|\W+$/, '')
         editors.gsub!(/^in:?\s+/i, '')
-        editors.gsub!(/[^[:alpha:]]*[Ee]d(s|itors?|ited)?[^[:alpha:]]*/, '')
-        editors.gsub!(/[^[:alpha:]]*([Hh]rsg|Herausgeber)[^[:alpha:]]*/, '')
+        editors.gsub!(/[^[:alpha:]]*[Ee]d(s|itors?|ited)?\b[^[:alpha:]]*/, '')
+        editors.gsub!(/[^[:alpha:]]*([Hh]rsg|Herausgeber)\b[^[:alpha:]]*/, '')
         editors.gsub!(/\bby\b/i, '')
 
         is_trans = !!editors.gsub!(/[^[:alpha:]]*trans(lated)?[^[:alpha:]]*/i, '')
@@ -110,7 +110,7 @@ module Anystyle
         translators = hash[:translator]
 
         translators.gsub!(/^\W+|\W+$/, '')
-        translators.gsub!(/[^[:alpha:]]*trans(lated)?[^[:alpha:]]*/i, '')
+        translators.gsub!(/[^[:alpha:]]*trans(lated)?\b[^[:alpha:]]*/i, '')
         translators.gsub!(/\bby\b/i, '')
 
         hash[:translator] = normalize_names(translators)
@@ -121,7 +121,8 @@ module Anystyle
         directors = hash[:director]
 
         directors.gsub!(/^\W+|\W+$/, '')
-        directors.gsub!(/[^[:alpha:]]*direct(or|ed)?[^[:alpha:]]*/i, '')
+        directors.gsub!(/[^[:alpha:]]*direct(or|ed)?\b:w
+                        [^[:alpha:]]*/i, '')
         directors.gsub!(/\bby\b/i, '')
 
         hash[:director] = normalize_names(directors)
