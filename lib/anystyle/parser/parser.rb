@@ -13,6 +13,7 @@ module Anystyle
         :tagged_separator => /\s+|(<\/?[^>]+>)/,
         :strip => /[^[:alnum:]]/,
         :format => :hash,
+        :xml_entities => Hash[*%w{ &amp; & &lt; < &gt; > &apos; ' &quot; " }],
         :training_data => File.expand_path('../../../../resources/train.txt', __FILE__)
       }.freeze
 
@@ -31,7 +32,6 @@ module Anystyle
         def instance
           @instance ||= new
         end
-
       end
 
       attr_reader :options
@@ -97,7 +97,7 @@ module Anystyle
                   raise ArgumentError, "mismatched tags on line #{i}: #{$1.inspect} (current tag was #{tag.inspect})"
                 end
               else
-                tokens << [token, (tags[-1] || :unknown).to_sym]
+                tokens << [decode_xml_text(token), (tags[-1] || :unknown).to_sym]
               end
             end
 
@@ -239,6 +239,16 @@ module Anystyle
         token.gsub(options[:strip], '')
       end
 
+      def decode_xml_text(string)
+        string.gsub(/&(amp|gt|lt);/) do |match|
+          options[:xml_entities][match]
+        end
+      end
+
+      def encode_xml_text(string)
+        string.encode string.encoding, :xml => :text
+      end
+
       def format_bibtex(labels)
         b = BibTeX::Bibliography.new
         format_hash(labels).each do |hash|
@@ -275,7 +285,7 @@ module Anystyle
 
       def format_tags(labels)
         labels.map do |line|
-          line.map { |label, token| "<#{label}>#{token}</#{label}>" }.join(' ')
+          line.map { |label, token| "<#{label}>#{encode_xml_text(token)}</#{label}>" }.join(' ')
         end
       end
 

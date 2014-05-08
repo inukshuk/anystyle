@@ -63,6 +63,9 @@ module Anystyle::Parser
           subject.prepare('hello, world!', true)[0].map { |t| t[/\S+$/] }.should == %w{ unknown unknown }
         end
 
+        it 'converts xml entitites' do
+          subject.prepare("<note>&gt;&gt; &amp; foo</note>", true)[0].map { |t| t[/\S+/] }.should == %w{ >> & foo }
+        end
       end
     end
 
