@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 module Anystyle
   module Parser
 
@@ -14,13 +16,13 @@ module Anystyle
           Normalizer.instance.normalize_names('A, B').should == 'A, B.'
         end
 
-        # it "tokenizes 'A, jr., B'" do
-        #   Normalizer.instance.normalize_names('A, jr., B').should == 'A, jr., B'
-        # end
-        #
-        # it "tokenizes 'A, B, jr.'" do
-        #   Normalizer.instance.normalize_names('A, B, jr.').should == 'A, B, jr.'
-        # end
+        it "tokenizes 'A, jr., Bbb'" do
+          Normalizer.instance.normalize_names('A, jr., B').should == 'A, jr., B.'
+        end
+
+        it "tokenizes 'A, B, jr.'" do
+          Normalizer.instance.normalize_names('A, B, jr.').should == 'A, jr., B.'
+        end
 
         it "tokenizes 'A, B, C, D'" do
           Normalizer.instance.normalize_names('A, B, C, D').should == 'A, B. and C, D.'
@@ -34,8 +36,13 @@ module Anystyle
           Normalizer.instance.normalize_names('Aa Bb, C.').should == 'Aa Bb, C.'
         end
 
+        it "tokenizes 'Plath, L.C., Asgaard, G., ... Botros, N.'" do
+          Normalizer.instance.normalize_names('Plath, L.C., Asgaard, G., ... Botros, N.').should == 'Plath, L.C. and Asgaard, G. and Botros, N.'
+          Normalizer.instance.normalize_names('Plath, L.C., Asgaard, G., … Botros, N.').should == 'Plath, L.C. and Asgaard, G. and Botros, N.'
+        end
+
         it "tokenizes 'Aa Bb, Cc Dd, and E F G'" do
-          Normalizer.instance.normalize_names('Aa Bb, C D, and E F G').should == 'Bb, Aa and D, C. and G, E. F.'
+          Normalizer.instance.normalize_names('Aa Bb, Cc Dd, and E F G').should == 'Bb, Aa and Dd, Cc and G, E. F.'
         end
 
         [

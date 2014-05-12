@@ -9,6 +9,7 @@ module Anystyle
         :model => File.expand_path('../support/anystyle.mod', __FILE__),
         :pattern => File.expand_path('../support/anystyle.pat', __FILE__),
         :compact => true,
+        :threads => 4,
         :separator => /\s+/,
         :tagged_separator => /\s+|(<\/?[^>]+>)/,
         :strip => /[^[:alnum:]]/,
@@ -16,6 +17,8 @@ module Anystyle
         :xml_entities => Hash[*%w{ &amp; & &lt; < &gt; > &apos; ' &quot; " }],
         :training_data => File.expand_path('../../../../resources/train.txt', __FILE__)
       }.freeze
+
+      @defaults[:training_data].untaint
 
       @features = Feature.instances
       @feature = Hash.new { |h,k| h[k.to_sym] = features.detect { |f| f.name == k.to_sym } }
@@ -180,12 +183,16 @@ module Anystyle
         text = hash.values.flatten.join
 
         case
-        when keys.include?(:medium)
-          hash[:type] = hash[:medium]
         when keys.include?(:journal)
           hash[:type] = :article
         when text =~ /proceedings/i
           hash[:type] = :inproceedings
+        when keys.include?(:medium)
+          if hash[:medium].to_s =~ /dvd|video|vhs|motion|television/i
+            hash[:type] = :motion_picture
+          else
+            hash[:type] = hash[:medium]
+          end
         when keys.include?(:booktitle), keys.include?(:source)
           hash[:type] = :incollection
         when keys.include?(:publisher)
