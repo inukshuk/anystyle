@@ -14,6 +14,11 @@ train the model with data that is relevant to your parsing needs), and
 compatibility (Anystyle-Parser exports to Ruby Hashes, BibTeX, or the
 CSL/CiteProc JSON format).
 
+Web Application and Web Service
+-------------------------------
+Anystyle-Parser is avaialble as a web application and a web service at
+[http://anystyle.io](http://anystyle.io).
+
 Installation
 ------------
 
