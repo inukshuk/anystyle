@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Sylvester Keil']
   s.email       = ['http://sylvester.keil.or.at']
-  s.homepage    = 'http://github.com/inukshuk/anystyle-parser'
+  s.homepage    = 'http://anystyle.io'
   s.summary     = 'Smart and fast academic bibliography parser.'
   s.description = 'A sophisticated parser for academic reference lists and bibliographies based on machine learning algorithms using conditional random fields.'
   s.license     = 'FreeBSD'
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('bibtex-ruby', '~>3.0')
   s.add_runtime_dependency('builder', '>=3.0', '<4.0')
   s.add_runtime_dependency('wapiti', '~>0.1')
-  s.add_runtime_dependency('namae', '~>0.8', '>=0.8.6')
+  s.add_runtime_dependency('namae', '~>0.8', '>=0.8.7')
 
   s.files        = `git ls-files`.split("\n").reject { |path|
     path.start_with?('.')

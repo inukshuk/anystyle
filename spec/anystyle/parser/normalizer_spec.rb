@@ -99,6 +99,7 @@ module Anystyle
           h[:year].should == 2009
           h[:month].should == 7
           h.should_not have_key(:date)
+          h.should_not have_key(:day)
         end
 
         it 'extracts month and year from a string like "(1997 Sept.)"' do
@@ -106,10 +107,12 @@ module Anystyle
           h[:year].should == 1997
           h[:month].should == 9
           h.should_not have_key(:date)
+          h.should_not have_key(:day)
 
           h = Normalizer.instance.normalize_date(:date => '(1997 Okt.)')
           h[:year].should == 1997
           h[:month].should == 10
+          h.should_not have_key(:day)
         end
 
         it 'extracts days if month and year are present' do

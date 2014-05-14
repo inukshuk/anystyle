@@ -53,7 +53,27 @@ module Anystyle
         unmatched(key, hash, dangling) unless dangling.empty?
 
         token.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
+
         hash[key] = token
+        hash
+      end
+
+      def normalize_key(hash)
+        token, *dangling =  hash[:key]
+        unmatched(:key, hash, dangling) unless dangling.empty?
+
+        token.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
+        token.gsub!(/^bibitem\{/i, '')
+
+        hash[:key] = token
+        hash
+      end
+
+      def normalize_citation_number(hash)
+        token, *dangling =  hash[:citation_number]
+        unmatched(:citation_number, hash, dangling) unless dangling.empty?
+
+        hash[:citation_number] = token[/\d+/] || token
         hash
       end
 
@@ -253,7 +273,7 @@ module Anystyle
         if date =~ /(\d{4})/
           hash[:year] = $1.to_i
 
-          if hash.key?(:month) && date =~ /(\d{1,2})\b/
+          if hash.key?(:month) && date =~ /\b(\d{1,2})\b/
             hash[:day] = $1.to_i
           end
 
