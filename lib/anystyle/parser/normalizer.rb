@@ -162,6 +162,7 @@ module Anystyle
 
       def normalize_names(names)
         names.gsub!(/\s*(\.\.\.|…)\s*/, '')
+        names.gsub!(/;|:/, ',')
 
         Namae.parse!(names).map { |name|
           unless name.given.nil? || name.family.nil?
