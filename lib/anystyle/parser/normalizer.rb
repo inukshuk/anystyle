@@ -116,7 +116,7 @@ module Anystyle
         editors.gsub!(/^in:?\s+/i, '')
         editors.gsub!(/[^[:alpha:]]*[Ee]d(s|itors?|ited)?\b[^[:alpha:]]*/, '')
         editors.gsub!(/[^[:alpha:]]*([Hh]rsg|Herausgeber)\b[^[:alpha:]]*/, '')
-        editors.gsub!(/\b[Hh]erausgeben von\b/, '')
+        editors.gsub!(/\b[Hh]erausgegeben von\b/, '')
         editors.gsub!(/\bby\b/i, '')
 
         is_trans = !!editors.gsub!(/[^[:alpha:]]*trans(lated)?[^[:alpha:]]*/i, '')
