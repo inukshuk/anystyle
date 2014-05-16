@@ -233,7 +233,8 @@ module Anystyle
         booktitle, *dangling = hash[:booktitle]
         unmatched(:booktitle, hash, dangling) unless dangling.empty?
 
-        #booktitle.gsub!(/^in:?\s+/i, '')
+        booktitle.gsub!(/^in:\s+/i, '')
+        booktitle.gsub!(/^In\s+/i, '')
 
         extract_edition(booktitle, hash)
 
