@@ -85,7 +85,7 @@ module Anystyle
           hash[:editor] = hash.delete(:author)
           hash = normalize_editor(hash)
         else
-          hash[:'more-authors'] = true if !!authors.sub!(/\bet\.?\s*al.*$/i, '')
+          hash[:'more-authors'] = true if strip_et_al(authors)
           authors.gsub!(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
           hash[:author] = normalize_names(authors)
         end
@@ -110,7 +110,7 @@ module Anystyle
           end
         end
 
-        hash[:'more-editors'] = true if !!editors.sub!(/\bet\.?\s*al.*$/i, '')
+        hash[:'more-editors'] = true if strip_et_al(editors)
 
         editors.gsub!(/^\W+|\W+$/, '')
         editors.gsub!(/^in:?\s+/i, '')
@@ -124,6 +124,10 @@ module Anystyle
         hash[:translator] = hash.delete :editor if is_trans
 
         hash
+      end
+
+      def strip_et_al(names)
+        !!names.sub!(/(\bet\s+al\b|\bu\.\s*a\.|(\band|\&)\s+others).*$/, '')
       end
 
       def normalize_translator(hash)

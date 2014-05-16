@@ -74,6 +74,15 @@ module Anystyle
           n.normalize_editor(:editor => 'ed. by Edward Wood').should == { :editor => 'Wood, Edward' }
           n.normalize_editor(:editor => 'ed by Edward Wood').should == { :editor => 'Wood, Edward' }
         end
+
+        it "strips et al" do
+          n.normalize_editor(:editor => 'Edward Wood et al')[:editor].should == 'Wood, Edward'
+          n.normalize_editor(:editor => 'Edward Wood et al.')[:editor].should == 'Wood, Edward'
+          n.normalize_editor(:editor => 'Edward Wood u.a.')[:editor].should == 'Wood, Edward'
+          n.normalize_editor(:editor => 'Edward Wood u. a.')[:editor].should == 'Wood, Edward'
+          n.normalize_editor(:editor => 'Edward Wood and others')[:editor].should == 'Wood, Edward'
+          n.normalize_editor(:editor => 'Edward Wood & others')[:editor].should == 'Wood, Edward'
+        end
       end
 
       describe 'editors extraction' do
