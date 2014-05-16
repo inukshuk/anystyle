@@ -259,6 +259,8 @@ module Anystyle
       def format_bibtex(labels)
         b = BibTeX::Bibliography.new
         format_hash(labels).each do |hash|
+          hash[:address] = hash.delete :location if hash.key?(:location)
+
           b << BibTeX::Entry.new(hash)
         end
         b
