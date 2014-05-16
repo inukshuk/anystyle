@@ -14,6 +14,10 @@ module Anystyle::Parser
         subject.tokenize('hello, world!').should == [%w{ hello, world! }]
       end
 
+      it "tokenizes volume/page-range exception" do
+        subject.tokenize('hello:world! http://abc.com 3:45 3:1-2 23:1').should == [%w{ hello:world! http://abc.com 3: 45 3: 1-2 23: 1 }]
+      end
+
       it "takes two lines and returns an array of token sequences" do
         subject.tokenize("hello, world!\ngoodbye!").should == [%w{ hello, world! }, %w{ goodbye! }]
       end

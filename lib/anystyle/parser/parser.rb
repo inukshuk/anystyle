@@ -10,7 +10,7 @@ module Anystyle
         :pattern => File.expand_path('../support/anystyle.pat', __FILE__),
         :compact => true,
         :threads => 4,
-        :separator => /\s+/,
+        :separator => /\s+|\b(\d+:)/,
         :tagged_separator => /\s+|(<\/?[^>]+>)/,
         :strip => /[^[:alnum:]]/,
         :format => :hash,
@@ -107,7 +107,7 @@ module Anystyle
             tokens
           end
         else
-          lines(string).map { |s| s.split(options[:separator]) }
+          lines(string).map { |s| s.split(options[:separator]).reject(&:empty?) }
         end
       end
 
