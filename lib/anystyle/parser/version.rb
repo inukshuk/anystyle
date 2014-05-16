@@ -1,5 +1,5 @@
 module Anystyle
   module Parser
-    VERSION = '0.6.6'.freeze
+    VERSION = '0.6.7'.freeze
   end
 end
