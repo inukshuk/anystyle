@@ -17,7 +17,9 @@ CSL/CiteProc JSON format).
 Web Application and Web Service
 -------------------------------
 Anystyle-Parser is avaialble as a web application and a web service at
-[http://anystyle.io](http://anystyle.io).
+[http://anystyle.io](http://anystyle.io). For example Ruby code using
+the anystyle.io API, see this [prototype](https://gist.github.com/inukshuk/f1d47aeab1f778bca8ce)
+for a style predictor.
 
 Installation
 ------------
