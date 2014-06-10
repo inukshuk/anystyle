@@ -4,7 +4,7 @@ gemspec
 group :development, :test do
   gem 'rake'
   gem 'cucumber'
-  gem 'rspec'
+  gem 'rspec', '~>2.14'
   gem 'simplecov', '~>0.8', :require => false
   gem 'rubinius-coverage', :platform => :rbx
   gem 'coveralls', :require => false
