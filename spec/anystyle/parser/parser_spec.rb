@@ -15,7 +15,7 @@ module Anystyle::Parser
       end
 
       it "tokenizes volume/page-range exception" do
-        expect(subject.tokenize('hello:world! http://abc.com 3:45 3:1-2 23:1')).to eq([%w{ hello:world! http://abc.com 3: 45 3: 1-2 23: 1 }])
+        expect(subject.tokenize('hello:world! http://abc.com 3:45 3:1-2 23:1 45(3):23–7')).to eq([%w{ hello:world! http://abc.com 3: 45 3: 1-2 23: 1 45(3): 23–7}])
       end
 
       it "takes two lines and returns an array of token sequences" do

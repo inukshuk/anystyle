@@ -10,7 +10,7 @@ module Anystyle
         :pattern => File.expand_path('../support/anystyle.pat', __FILE__),
         :compact => true,
         :threads => 4,
-        :separator => /\s+|\b(\d+:)/,
+        :separator => /\s+|\b(\d\S*:)/,
         :tagged_separator => /\s+|(<\/?[^>]+>)/,
         :strip => /[^[:alnum:]]/,
         :format => :hash,
