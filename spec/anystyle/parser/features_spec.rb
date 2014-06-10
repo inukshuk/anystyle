@@ -8,19 +8,19 @@ module Anystyle::Parser
 
       %w{ (1992) 1992 2011 1776 }.each do |year|
         it "returns :year for #{year.inspect}" do
-          f.match(year).should == :year
+          expect(f.match(year)).to eq(:year)
         end
       end
 
       %w{ (1) (12) (123) }.each do |year|
         it "returns :year for #{year.inspect}" do
-          f.match(year).should == :numeric
+          expect(f.match(year)).to eq(:numeric)
         end
       end
 
       ['pp', 'pp.', '23-4', '6124--19', '48 - 9', '19–27'].each do |page|
         it "returns :page for #{page.inspect}" do
-          f.match(page).should == :page
+          expect(f.match(page)).to eq(:page)
         end
       end
 
