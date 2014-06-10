@@ -170,10 +170,7 @@ module Anystyle
         names.gsub!(/;|:/, ',')
 
         Namae.parse!(names).map { |name|
-          unless name.given.nil? || name.family.nil?
-            name.given.gsub!(/\b([[:upper:]])(\s|$)/, '\1.\2')
-          end
-
+          name.normalize_initials
           name.sort_order
 
         }.join(' and ')

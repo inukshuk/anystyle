@@ -29,7 +29,7 @@ module Anystyle
         end
 
         it "tokenizes 'A, B, C'" do
-          expect(Normalizer.instance.normalize_names('A, B, C')).to eq('A, B. and C')
+          expect(Normalizer.instance.normalize_names('A, B, C')).to eq('A, B. and C.')
         end
 
         it "tokenizes 'Aa Bb, C.'" do
@@ -42,12 +42,16 @@ module Anystyle
         end
 
         it "tokenizes 'Aa Bb, Cc Dd, and E F G'" do
-          expect(Normalizer.instance.normalize_names('Aa Bb, Cc Dd, and E F G')).to eq('Bb, Aa and Dd, Cc and G, E. F.')
+          expect(Normalizer.instance.normalize_names('Aa Bb, Cc Dd, and E F G')).to eq('Bb, Aa and Dd, Cc and G, E.F.')
         end
 
         [
           ['Poe, Edgar A.', 'Poe, Edgar A.'],
           ['Edgar A. Poe', 'Poe, Edgar A.'],
+          ['J Doe', 'Doe, J.'],
+          ['Doe, J', 'Doe, J.'],
+          ['JE Doe', 'Doe, J.E.'],
+          ['Doe, JE', 'Doe, J.E.'],
           ['Edgar A. Poe, Herman Melville', 'Poe, Edgar A. and Melville, Herman'],
           ['Edgar A. Poe; Herman Melville', 'Poe, Edgar A. and Melville, Herman'],
           ['Poe, Edgar A., Melville, Herman', 'Poe, Edgar A. and Melville, Herman'],
