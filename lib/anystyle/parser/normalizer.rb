@@ -58,6 +58,16 @@ module Anystyle
         hash
       end
 
+      def normalize_accessed(hash)
+        token, *dangling =  hash[:accessed]
+        unmatched(:accessed, hash, dangling) unless dangling.empty?
+
+        token.gsub!(/(accessed|retrieved):?\s*/i, '')
+
+        hash[:accessed] = token
+        hash
+      end
+
       def normalize_key(hash)
         token, *dangling =  hash[:key]
         unmatched(:key, hash, dangling) unless dangling.empty?

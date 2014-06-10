@@ -260,6 +260,7 @@ module Anystyle
         b = BibTeX::Bibliography.new
         format_hash(labels).each do |hash|
           hash[:address] = hash.delete :location if hash.key?(:location)
+          hash[:urldate] = hash.delete :accessed if hash.key?(:accessed)
 
           b << BibTeX::Entry.new(hash)
         end
