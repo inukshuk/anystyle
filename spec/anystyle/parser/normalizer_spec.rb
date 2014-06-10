@@ -93,6 +93,19 @@ module Anystyle
         end
       end
 
+      describe '#normalize_translator' do
+        it "strips in from beginning" do
+          expect(n.normalize_translator(:translator => 'Translated by J Doe')).to eq({ :translator => 'Doe, J.' })
+          expect(n.normalize_translator(:translator => 'Trans by J Doe')).to eq({ :translator => 'Doe, J.' })
+          expect(n.normalize_translator(:translator => 'Trans. by J Doe')).to eq({ :translator => 'Doe, J.' })
+          expect(n.normalize_translator(:translator => 'Transl. J Doe')).to eq({ :translator => 'Doe, J.' })
+          expect(n.normalize_translator(:translator => 'übersetzt von J Doe')).to eq({ :translator => 'Doe, J.' })
+          expect(n.normalize_translator(:translator => 'übers. v. J Doe')).to eq({ :translator => 'Doe, J.' })
+          expect(n.normalize_translator(:translator => 'Übersetzung v. J Doe')).to eq({ :translator => 'Doe, J.' })
+          expect(n.normalize_translator(:translator => 'In der Übersetzung von J Doe')).to eq({ :translator => 'Doe, J.' })
+        end
+      end
+
       describe 'editors extraction' do
         it 'recognizes editors in the author field' do
           expect(n.normalize_author(:author => 'D. Knuth (ed.)')).to eq({ :editor => 'Knuth, D.' })

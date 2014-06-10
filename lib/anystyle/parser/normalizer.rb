@@ -134,8 +134,9 @@ module Anystyle
       def normalize_translator(hash)
         translators = hash[:translator]
 
+        translators.gsub!(/\b([Ii]n (d|ein)er )?[Üü]ber(s\.|setzt|setzung|tragen|tragung) v(\.|on\b)/, '')
         translators.gsub!(/^\W+|\W+$/, '')
-        translators.gsub!(/[^[:alpha:]]*trans(lated)?\b[^[:alpha:]]*/i, '')
+        translators.gsub!(/[^[:alpha:]]*\btrans(l(ated)?)?\b[^[:alpha:]]*/i, '')
         translators.gsub!(/\bby\b/i, '')
 
         hash[:translator] = normalize_names(translators)
