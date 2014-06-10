@@ -114,8 +114,8 @@ module Anystyle
 
         editors.gsub!(/^\W+|\W+$/, '')
         editors.gsub!(/^in:?\s+/i, '')
-        editors.gsub!(/[^[:alpha:]]*[Ee]d(s|itors?|ited)?\b[^[:alpha:]]*/, '')
-        editors.gsub!(/[^[:alpha:]]*([Hh]rsg|gg?|Herausgeber)\b[^[:alpha:]]*/, '')
+        editors.gsub!(/\W*\b[Ee]d(s|itors?|ited)?\b\W*/, '')
+        editors.gsub!(/\W*\b([Hh]rsg|gg?|Herausgeber)\b\W*/, '')
         editors.gsub!(/\b[Hh]erausgegeben von\b/, '')
         editors.gsub!(/\bby\b/i, '')
 

@@ -73,6 +73,10 @@ module Anystyle
           expect(n.normalize_editor(:editor => 'ed by Edward Wood')).to eq({ :editor => 'Wood, Edward' })
           expect(n.normalize_editor(:editor => 'ed. by Edward Wood')).to eq({ :editor => 'Wood, Edward' })
           expect(n.normalize_editor(:editor => 'ed by Edward Wood')).to eq({ :editor => 'Wood, Edward' })
+          expect(n.normalize_editor(:editor => 'In Alfred Wood')).to eq({ :editor => 'Wood, Alfred' })
+          expect(n.normalize_editor(:editor => 'ed by Alfred Wood')).to eq({ :editor => 'Wood, Alfred' })
+          expect(n.normalize_editor(:editor => 'ed. by Alfred Wood')).to eq({ :editor => 'Wood, Alfred' })
+          expect(n.normalize_editor(:editor => 'ed by Alfred Wood')).to eq({ :editor => 'Wood, Alfred' })
         end
 
         it "strips et al" do
