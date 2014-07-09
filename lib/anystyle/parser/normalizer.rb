@@ -278,21 +278,20 @@ module Anystyle
       end
 
       def normalize_date(hash)
-        date, *dangling = hash[:date]
-        unmatched(:date, hash, dangling) unless dangling.empty?
+        date = Array(hash[:date]).join(' ')
 
         unless (month = MONTH[date]).nil?
-          hash[:month] = month
+          month = '%02d' % month
         end
 
         if date =~ /(\d{4})/
-          hash[:year] = $1.to_i
+          year = $1
 
-          if hash.key?(:month) && date =~ /\b(\d{1,2})\b/
-            hash[:day] = $1.to_i
+          if month && date =~ /\b(\d{1,2})\b/
+            day = '%02d' % $1.to_i
           end
 
-          hash.delete(:date)
+          hash[:date] = [year, month, day].compact.join('-')
         end
 
         hash

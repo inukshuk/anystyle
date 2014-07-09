@@ -126,32 +126,21 @@ module Anystyle
 
       describe 'date extraction' do
         it 'extracts month and year from a string like "(July 2009)"' do
-          h = Normalizer.instance.normalize_date(:date => '(July 2009)')
-          expect(h[:year]).to eq(2009)
-          expect(h[:month]).to eq(7)
-          expect(h).not_to have_key(:date)
-          expect(h).not_to have_key(:day)
+          h = Normalizer.instance.normalize_date(:date => ['(July 2009)'])
+          expect(h[:date]).to eq('2009-07')
         end
 
         it 'extracts month and year from a string like "(1997 Sept.)"' do
           h = Normalizer.instance.normalize_date(:date => '(1997 Sept.)')
-          expect(h[:year]).to eq(1997)
-          expect(h[:month]).to eq(9)
-          expect(h).not_to have_key(:date)
-          expect(h).not_to have_key(:day)
+          expect(h[:date]).to eq('1997-09')
 
-          h = Normalizer.instance.normalize_date(:date => '(1997 Okt.)')
-          expect(h[:year]).to eq(1997)
-          expect(h[:month]).to eq(10)
-          expect(h).not_to have_key(:day)
+          h = Normalizer.instance.normalize_date(:date => ['(1997 Okt.)'])
+          expect(h[:date]).to eq('1997-10')
         end
 
         it 'extracts days if month and year are present' do
-          h = n.normalize_date(:date => '(15 May 1984)')
-
-          expect(h[:year]).to eq(1984)
-          expect(h[:month]).to eq(5)
-          expect(h[:day]).to eq(15)
+          h = n.normalize_date(:date => ['(15 May 1984)'])
+          expect(h[:date]).to eq('1984-05-15')
         end
       end
 

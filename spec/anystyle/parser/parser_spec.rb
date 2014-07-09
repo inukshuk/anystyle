@@ -112,7 +112,15 @@ module Anystyle::Parser
       let(:citation) { 'Perec, Georges. A Void. London: The Harvill Press, 1995. p.108.' }
 
       it 'returns a hash of label/segment pairs by default' do
-        expect(subject.parse(citation)[0]).to eq({ :author => 'Perec, Georges', :title => 'A Void', :location => 'London', :publisher => 'The Harvill Press', :year => 1995, :pages => '108', :type => :book })
+        expect(subject.parse(citation)[0]).to eq({
+          :author => 'Perec, Georges',
+          :title => 'A Void',
+          :location => 'London',
+          :publisher => 'The Harvill Press',
+          :date => '1995',
+          :pages => '108',
+          :type => :book
+        })
       end
 
       describe 'using output format "tags"' do
