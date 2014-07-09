@@ -3,7 +3,7 @@ module Anystyle
 
     class Parser
 
-      @formats = [:bibtex, :hash, :citeproc, :xml, :tags, :raw].freeze
+      @formats = [:bibtex, :hash, :normalized, :citeproc, :xml, :tags, :raw].freeze
 
       @defaults = {
         :model => File.expand_path('../support/anystyle.mod', __FILE__),
@@ -13,7 +13,7 @@ module Anystyle
         :separator => /\s+|\b(\d\S*:)/,
         :tagged_separator => /\s+|(<\/?[^>]+>)/,
         :strip => /[^[:alnum:]]/,
-        :format => :hash,
+        :format => :normalized,
         :xml_entities => Hash[*%w{ &amp; & &lt; < &gt; > &apos; ' &quot; " }],
         :training_data => File.expand_path('../../../../resources/train.txt', __FILE__)
       }.freeze
@@ -258,7 +258,7 @@ module Anystyle
 
       def format_bibtex(labels)
         b = BibTeX::Bibliography.new
-        format_hash(labels).each do |hash|
+        format_normalized(labels).each do |hash|
           hash[:address] = hash.delete :location if hash.key?(:location)
           hash[:urldate] = hash.delete :accessed if hash.key?(:accessed)
 
@@ -277,7 +277,7 @@ module Anystyle
 
       def format_hash(labels)
         labels.map do |line|
-          hash = line.inject({}) do |h, (label, token)|
+          line.inject({}) do |h, (label, token)|
             if h.has_key?(label)
               h[label] = [h[label]].flatten << token
             else
@@ -285,8 +285,11 @@ module Anystyle
             end
             h
           end
-          normalize hash
         end
+      end
+
+      def format_normalized(labels)
+        format_hash(labels).map { |h| normalize h }
       end
 
       def format_citeproc(labels)
