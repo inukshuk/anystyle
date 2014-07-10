@@ -259,11 +259,14 @@ module Anystyle
       def format_bibtex(labels)
         b = BibTeX::Bibliography.new
         format_normalized(labels).each do |hash|
+          hash[:bibtex_type] = hash.delete :type
+
+          hash[:type] = hash.delete :genre if hash.key?(:genre)
           hash[:address] = hash.delete :location if hash.key?(:location)
           hash[:urldate] = hash.delete :accessed if hash.key?(:accessed)
 
           if hash.key?(:authority)
-            if [:techreport,:thesis].include?(hash[:type])
+            if [:techreport,:thesis].include?(hash[:bibtex_type])
               hash[:institution] = hash.delete :authority
             else
               hash[:organization] = hash.delete :authority
