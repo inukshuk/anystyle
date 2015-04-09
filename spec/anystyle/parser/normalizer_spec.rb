@@ -64,6 +64,33 @@ module Anystyle
 
       end
 
+      describe '#normalize_author' do
+        it "detects editors" do
+          expect(n.normalize_author(:author => 'In D. Knuth (ed.)'))
+            .to eq({ :editor => 'Knuth, D.' })
+
+          expect(n.normalize_author(:author => 'D. Knuth (editor)'))
+            .to eq({ :editor => 'Knuth, D.' })
+
+          expect(n.normalize_author(:author => 'D. Knuth (eds.)'))
+            .to eq({ :editor => 'Knuth, D.' })
+
+          expect(n.normalize_author(:author => 'Ed. by D. Knuth'))
+            .to eq({ :editor => 'Knuth, D.' })
+
+          expect(n.normalize_author(:author => 'Edited by D. Knuth'))
+            .to eq({ :editor => 'Knuth, D.' })
+        end
+
+        it "does not erroneously detect editors" do
+          expect(n.normalize_author(:author => 'Eisenberger, P. and Read, W.A.'))
+            .to eq({ :author => 'Eisenberger, P. and Read, W.A.' })
+
+          expect(n.normalize_author(:author => 'K. S. Sohn, D. G. Dempsey, L. Kleinman and Ed Caruthers'))
+            .to eq({ :author => 'Sohn, K.S. and Dempsey, D.G. and Kleinman, L. and Caruthers, Ed' })
+        end
+      end
+
       describe '#normalize_editor' do
         it "strips in from beginning" do
           expect(n.normalize_editor(:editor => 'In D. Knuth (ed.)')).to eq({ :editor => 'Knuth, D.' })

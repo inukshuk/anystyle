@@ -91,7 +91,7 @@ module Anystyle
         authors, *dangling = hash[:author]
         unmatched(:author, hash, dangling) unless dangling.empty?
 
-        if authors =~ /\b[Ee]d(s|itors)?\b/ && !hash.has_key?(:editor)
+        if authors =~ /\b[Ee]d((s|itors?|ited)\b|\.)/ && !hash.has_key?(:editor)
           hash[:editor] = hash.delete(:author)
           hash = normalize_editor(hash)
         else
