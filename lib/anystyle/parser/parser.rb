@@ -23,6 +23,14 @@ module Anystyle
       @features = Feature.instances
       @feature = Hash.new { |h,k| h[k.to_sym] = features.detect { |f| f.name == k.to_sym } }
 
+      begin
+        require 'language_detector'
+        @language_detector = LanguageDetector.new
+
+      rescue
+        # No language detection
+      end
+
       class << self
 
         attr_reader :defaults, :features, :feature, :formats
@@ -34,6 +42,11 @@ module Anystyle
         # Returns a default parser instance
         def instance
           @instance ||= new
+        end
+
+        def language(string)
+          return unless @language_detector
+          @language_detector.detect string
         end
       end
 
@@ -174,6 +187,17 @@ module Anystyle
         end
 
         classify hash
+        localize hash
+      end
+
+      def localize(hash)
+        return hash if hash.has_key?(:language)
+
+        hash[:language] = Parser.language(
+          hash.values_at(:title, :booktitle, :location, :publisher).join(' ')
+        )
+
+        hash
       end
 
       def classify(hash)

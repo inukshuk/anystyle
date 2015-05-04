@@ -8,6 +8,8 @@ group :development, :test do
   gem 'simplecov', '~>0.8', :require => false
   gem 'rubinius-coverage', :platform => :rbx
   gem 'coveralls', :require => false
+
+  gem 'language_detector', github: 'feedbackmine/language_detector'
 end
 
 group :debug do

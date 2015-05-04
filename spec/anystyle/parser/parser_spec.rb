@@ -118,6 +118,7 @@ module Anystyle::Parser
           :location => 'London',
           :publisher => 'The Harvill Press',
           :date => '1995',
+          :language => 'en',
           :pages => '108',
           :type => :book
         })
