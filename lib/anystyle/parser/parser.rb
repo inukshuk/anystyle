@@ -193,9 +193,11 @@ module Anystyle
       def localize(hash)
         return hash if hash.has_key?(:language)
 
-        hash[:language] = Parser.language(
-          hash.values_at(:title, :booktitle, :location, :publisher).join(' ')
-        )
+        text = hash.values_at(
+          :title, :booktitle, :location, :publisher
+        ).compact.join(' ')
+
+        hash[:language] = Parser.language(text) unless text.empty?
 
         hash
       end
