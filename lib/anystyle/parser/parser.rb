@@ -27,7 +27,7 @@ module Anystyle
         require 'language_detector'
         @language_detector = LanguageDetector.new
 
-      rescue
+      rescue LoadError
         # No language detection
       end
 
