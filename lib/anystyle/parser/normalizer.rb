@@ -83,7 +83,7 @@ module Anystyle
         token, *dangling =  hash[:citation_number]
         unmatched(:citation_number, hash, dangling) unless dangling.empty?
 
-        hash[:citation_number] = token[/\d+/] || token
+        hash[:citation_number] = token[/\d[\w,.-]+/] || token
         hash
       end
 

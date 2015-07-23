@@ -139,6 +139,13 @@ module Anystyle
         end
       end
 
+      describe 'normalize citation numbers' do
+        it 'extracts simple and compund numbers' do
+          expect(n.normalize_citation_number(:citation_number => '[42]')).to eq({ :citation_number => '42' })
+          expect(n.normalize_citation_number(:citation_number => '[1b]')).to eq({ :citation_number => '1b' })
+          expect(n.normalize_citation_number(:citation_number => '[1.1.4.1]')).to eq({ :citation_number => '1.1.4.1' })
+        end
+      end
       describe 'URL extraction' do
         it 'recognizes full URLs' do
           expect(n.normalize_url(:url => 'Available at: https://www.example.org/x.pdf')).to eq({ :url => 'https://www.example.org/x.pdf' })
