@@ -4,10 +4,9 @@ script: bundle exec rake test_with_coveralls
 sudo: false
 cache: bundler
 rvm:
-  - 2.3
   - 2.2
   - 2.1
-  - 2.0
+  - 2
   - rbx-2
 notifications:
   email:
