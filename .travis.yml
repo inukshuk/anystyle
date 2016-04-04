@@ -2,13 +2,11 @@ language: ruby
 bundler_args: --without debug extra redis kyoto
 script: bundle exec rake test_with_coveralls
 rvm:
-  - ruby-head
-  - 2.1.0
-  - 2.0.0
-  - 1.9.3
+  - 2.3
+  - 2.2
+  - 2.1
+  - 2.0
   - rbx-2
-before_install:
-  - gem install bundler
 notifications:
   email:
     - sylvester@keil.or.at
