@@ -183,6 +183,8 @@ module Anystyle
         # Add surname/initial punctuation separator for Vancouver-style names
         # E.g. Rang HP, Dale MM, Ritter JM, Moore PK
         names.gsub!(/\b(\p{Lu}[^\s,.]+)\s+([\p{Lu}][\p{Lu}\-]{0,3})(,|$)/, '\1, \2\3')
+        # Remove the additional comma when we incorrectly generated one for Surname, Given, Initial
+        names.gsub!(/(\p{Ll}[^\s,]+),\s+(\p{Lu}\p{Ll}[^\s,]*),\s+([\p{Lu}][\p{Lu}\-]{0,3})(,|$)/, '\1, \2 \3\4')
 
         Namae.parse!(names).map { |name|
           name.normalize_initials
