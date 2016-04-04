@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://anystyle.io'
   s.summary     = 'Smart and fast academic bibliography parser.'
   s.description = 'A sophisticated parser for academic reference lists and bibliographies based on machine learning algorithms using conditional random fields.'
-  s.license     = 'FreeBSD'
+  s.license     = 'BSD-2-Clause-FreeBSD'
 
   s.required_ruby_version = '>= 1.9.3'
 
