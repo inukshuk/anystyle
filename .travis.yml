@@ -7,7 +7,7 @@ rvm:
   - 2.0.0
   - 1.9.3
   - rbx-2
-+before_install:
+before_install:
   - gem install bundler
 notifications:
   email:
