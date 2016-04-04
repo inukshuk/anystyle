@@ -180,6 +180,10 @@ module Anystyle
         names.gsub!(/\s*(\.\.\.|…)\s*/, '')
         names.gsub!(/;|:/, ',')
 
+        # Add surname/initial punctuation separator for Vancouver-style names
+        # E.g. Rang HP, Dale MM, Ritter JM, Moore PK
+        names.gsub!(/\b(\p{Lu}[^\s,.]+)\s+([\p{Lu}][\p{Lu}\-]{0,3})(,|$)/, '\1, \2\3')
+
         Namae.parse!(names).map { |name|
           name.normalize_initials
           name.sort_order

@@ -52,6 +52,7 @@ module Anystyle
           ['Doe, J', 'Doe, J.'],
           ['JE Doe', 'Doe, J.E.'],
           ['Doe, JE', 'Doe, J.E.'],
+          ['Dendle MT, Sacchettini JC, Kelly JW', 'Dendle, M.T. and Sacchettini, J.C. and Kelly, J.W.'],
           ['Edgar A. Poe, Herman Melville', 'Poe, Edgar A. and Melville, Herman'],
           ['Edgar A. Poe; Herman Melville', 'Poe, Edgar A. and Melville, Herman'],
           ['Poe, Edgar A., Melville, Herman', 'Poe, Edgar A. and Melville, Herman'],
