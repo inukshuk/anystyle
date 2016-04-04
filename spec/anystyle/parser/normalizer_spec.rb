@@ -47,6 +47,8 @@ module Anystyle
 
         [
           ['Poe, Edgar A.', 'Poe, Edgar A.'],
+          ['Poe, Edgar A', 'Poe, Edgar A.'],
+          ['Kates, Robert W', 'Kates, Robert W.'],
           ['Edgar A. Poe', 'Poe, Edgar A.'],
           ['J Doe', 'Doe, J.'],
           ['Doe, J', 'Doe, J.'],
