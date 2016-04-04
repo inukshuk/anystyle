@@ -1,6 +1,8 @@
 language: ruby
 bundler_args: --without debug extra redis kyoto
 script: bundle exec rake test_with_coveralls
+sudo: false
+cache: bundler
 rvm:
   - 2.3
   - 2.2
