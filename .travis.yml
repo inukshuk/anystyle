@@ -8,6 +8,9 @@ rvm:
   - 2.1
   - 2
   - rbx-2
+matrix:
+  allow_failures:
+    - rvm: rbx-2
 notifications:
   email:
     - sylvester@keil.or.at
