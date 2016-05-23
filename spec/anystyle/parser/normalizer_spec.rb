@@ -62,7 +62,8 @@ module Anystyle
           ['Edgar A. Poe, Herman Melville', 'Poe, Edgar A. and Melville, Herman'],
           ['Edgar A. Poe; Herman Melville', 'Poe, Edgar A. and Melville, Herman'],
           ['Poe, Edgar A., Melville, Herman', 'Poe, Edgar A. and Melville, Herman'],
-          ['Aeschlimann Magnin, E.', 'Aeschlimann Magnin, E.']
+          ['Aeschlimann Magnin, E.', 'Aeschlimann Magnin, E.'],
+          ['Yang, Q., Mudambi, R., & Meyer, K. E.', 'Yang, Q. and Mudambi, R. and Meyer, K.E.']
         ].each do |name, normalized|
           it "tokenizes #{name.inspect}" do
             expect(Normalizer.instance.normalize_names(name)).to eq(normalized)
