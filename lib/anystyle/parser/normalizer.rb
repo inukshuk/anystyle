@@ -148,7 +148,7 @@ module Anystyle
         translators.gsub!(/^\W+|\W+$/, '')
         translators.gsub!(/[^[:alpha:]]*\btrans(l(ated)?)?\b[^[:alpha:]]*/i, '')
         translators.gsub!(/\bby\b/i, '')
-        translators.gsub!(/\btrad\.\b/i, '')
+        translators.gsub!(/\btrad\./i, '')
 
         hash[:translator] = normalize_names(translators)
         hash
