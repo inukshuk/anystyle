@@ -125,6 +125,7 @@ module Anystyle
           expect(n.normalize_editor(:editor => 'Edward Wood u. a.')[:editor]).to eq('Wood, Edward')
           expect(n.normalize_editor(:editor => 'Edward Wood and others')[:editor]).to eq('Wood, Edward')
           expect(n.normalize_editor(:editor => 'Edward Wood & others')[:editor]).to eq('Wood, Edward')
+          expect(n.normalize_editor(:editor => 'Edward Wood et coll.')[:editor]).to eq('Wood, Edward')
         end
       end
 
@@ -138,6 +139,8 @@ module Anystyle
           expect(n.normalize_translator(:translator => 'übers. v. J Doe')).to eq({ :translator => 'Doe, J.' })
           expect(n.normalize_translator(:translator => 'Übersetzung v. J Doe')).to eq({ :translator => 'Doe, J.' })
           expect(n.normalize_translator(:translator => 'In der Übersetzung von J Doe')).to eq({ :translator => 'Doe, J.' })
+          expect(n.normalize_translator(:translator => 'Trad. J Doe')).to eq({ :translator => 'Doe, J.' })
+          expect(n.normalize_translator(:translator => 'trad. J Doe')).to eq({ :translator => 'Doe, J.' })
         end
       end
 
