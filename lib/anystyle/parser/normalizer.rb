@@ -138,7 +138,7 @@ module Anystyle
       end
 
       def strip_et_al(names)
-        !!names.sub!(/(\bet\s+al\b|\bu\.\s*a\.|(\band|\&)\s+others).*$/, '')
+        !!names.sub!(/(\bet\s+(al|coll)\b|\bu\.\s*a\.|(\band|\&)\s+others).*$/, '')
       end
 
       def normalize_translator(hash)
@@ -148,6 +148,7 @@ module Anystyle
         translators.gsub!(/^\W+|\W+$/, '')
         translators.gsub!(/[^[:alpha:]]*\btrans(l(ated)?)?\b[^[:alpha:]]*/i, '')
         translators.gsub!(/\bby\b/i, '')
+        translators.gsub!(/\btrad\.\b/i, '')
 
         hash[:translator] = normalize_names(translators)
         hash
