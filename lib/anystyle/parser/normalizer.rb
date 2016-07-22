@@ -312,7 +312,7 @@ module Anystyle
           hash = normalize_pages(hash)
         else
           case volume
-          when /\D*(\d+)\D+(\d+[\s&—–-]+\d+)/
+          when /\D*(\d+)\D+(\d+[\s\/&—–-]+\d+)/
             hash[:volume], hash[:number] = $1.to_i, $2
           when /(\d+)?\D+no\.\s*(\d+\D+\d+)/
             hash[:volume] = $1.to_i unless $1.nil?

@@ -186,6 +186,13 @@ module Anystyle
         end
       end
 
+      describe '#normalize_volume' do
+        it "strips in from beginning" do
+          expect(n.normalize_volume(:volume => '11(2/3)'))
+            .to eq({ :volume => 11, :number => '2/3' })
+        end
+      end
+
     end
 
   end
