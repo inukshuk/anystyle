@@ -197,7 +197,7 @@ module Anystyle
       def populate
         require 'zlib'
 
-        File.open(options[:source], 'r:UTF-8') do |f|
+        File.open(options[:source], 'rb:UTF-8') do |f|
           mode = 0
 
           Zlib::GzipReader.new(f).each do |line|
