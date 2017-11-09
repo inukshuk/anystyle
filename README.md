@@ -192,10 +192,10 @@ and open a pull request on GitHub.
 
 License
 -------
-Copyright 2011-2014 Sylvester Keil. All rights reserved.
+Copyright 2011-2017 Sylvester Keil. All rights reserved.
 
 Some of the code in Anystyle-Parser's post processing (normalizing) routines
-was originally based on the source code of FreeCite and
+was originally based on the source code of FreeCite and is
 
 Copyright 2008 Public Display Inc.
 
@@ -205,4 +205,5 @@ Copyright 2008, 2009, 2010, 2011 Min-Yen Kan,
 Isaac G. Councill, C. Lee Giles, Minh-Thang Luong and Huy Nhat Hoang
 Do.
 
-Anystyle-Parser is distributed under a BSD-style license. See LICENSE for details.
+Anystyle-Parser is distributed under a BSD-style license.
+See LICENSE for details.
