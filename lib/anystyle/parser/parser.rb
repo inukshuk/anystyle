@@ -8,7 +8,6 @@ module Anystyle
       @defaults = {
         :model => File.expand_path('../support/anystyle.mod', __FILE__),
         :pattern => File.expand_path('../support/anystyle.pat', __FILE__),
-        :compact => true,
         :threads => 4,
         :separator => /[[:space:]]+|\b(\d[^[:space:]]*:)/,
         :tagged_separator => /[[:space:]]+|(<\/?[^>]+>)/,
