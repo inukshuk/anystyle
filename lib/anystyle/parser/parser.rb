@@ -47,6 +47,21 @@ module Anystyle
           return unless @language_detector
           @language_detector.detect string
         end
+
+        # Create a new parser with a new model trained on the passed
+        # data. The training data is passed as a String, not a file, and
+        # should be in UTF-8 encoding. If no data is passed, Anystyle's
+        # default training data will be used.
+        def train_new(training_data = nil)
+          parser = new(model: nil)
+          training_data ||= File.read(@defaults[:training_data],
+                                      encoding: 'UTF-8')
+          tokenised = parser.prepare(training_data, true)
+          parser.model = Wapiti::train(tokenised,
+                                       pattern: @defaults[:pattern]) # 
+          parser
+        end
+
       end
 
       attr_reader :options
@@ -55,9 +70,7 @@ module Anystyle
 
       def initialize(options = {})
         @options = Parser.defaults.merge(options)
-
-        reload
-
+        reload if @options[:model]
         @normalizer = Normalizer.instance
       end
 
