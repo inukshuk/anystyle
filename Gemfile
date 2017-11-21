@@ -5,24 +5,14 @@ group :development, :test do
   gem 'rake'
   gem 'cucumber'
   gem 'rspec', '~>3.0'
-  gem 'simplecov', '~>0.8', :require => false
-  gem 'rubinius-coverage', :platform => :rbx
+  gem 'simplecov', :require => false
   gem 'coveralls', :require => false
 
   gem 'language_detector', github: 'feedbackmine/language_detector'
 end
 
 group :debug do
-  if RUBY_VERSION >= '2.0'
-    gem 'byebug', :require => false, :platforms => :mri
-  else
-    gem 'debugger', :require => false, :platforms => :mri
-  end
-
-  gem 'ruby-debug', :require => false, :platforms => :jruby
-
-  gem 'rubinius-compiler', '~>2.0', :require => false, :platform => :rbx
-  gem 'rubinius-debugger', '~>2.0', :require => false, :platform => :rbx
+  gem 'byebug', :require => false
 end
 
 group :profile do
@@ -42,12 +32,6 @@ group :redis do
   gem 'redis-namespace'
 end
 
-group :kyoto do
-	gem 'kyotocabinet-ruby', :require => 'kyotocabinet'
-end
-
-platform :rbx do
-  gem 'rubysl', '~>2.0'
-  gem 'json', '~>1.8'
-  gem 'racc'
+group :lmdb do
+	gem 'lmdb'
 end
