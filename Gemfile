@@ -5,10 +5,13 @@ group :development, :test do
   gem 'rake'
   gem 'cucumber'
   gem 'rspec', '~>3.0'
+  gem 'language_detector', github: 'feedbackmine/language_detector'
+	gem 'lmdb'
+end
+
+group :coverage do
   gem 'simplecov', :require => false
   gem 'coveralls', :require => false
-
-  gem 'language_detector', github: 'feedbackmine/language_detector'
 end
 
 group :debug do
@@ -24,14 +27,7 @@ group :extra do
 	gem 'autotest-fsevent', :require => false
   gem 'yard'
 	gem 'ZenTest'
-end
-
-group :redis do
   gem 'redis'
   gem 'hiredis'
   gem 'redis-namespace'
-end
-
-group :lmdb do
-	gem 'lmdb'
 end
