@@ -197,12 +197,10 @@ module Anystyle
       def populate
         require 'zlib'
 
-        File.open(options[:source], 'r:UTF-8') do |f|
+        File.open(options[:source], 'rb') do |f|
           mode = 0
-
-          Zlib::GzipReader.new(f).each do |line|
+          Zlib::GzipReader.new(f, encoding: "UTF-8").each do |line|
             line.strip!
-
             if line.start_with?('#')
               case line
               when /^## male/i
