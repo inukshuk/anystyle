@@ -6,11 +6,10 @@ module Anystyle
     # This dictionary acts essentially like a Ruby Hash object, but because
     # of the dictionary's size it is not efficient to keep the entire
     # dictionary in memory at all times. For that reason, Dictionary
-    # creates a persistent data store on disk using Kyoto Cabinet; if
-    # Kyoto Cabinet is not installed a Ruby Hash is used as a fall-back.
+    # creates a persistent data store on disk using LMDB; if the `lmdb`
+    # Gem is not installed a Ruby Hash is used as a fall-back.
     #
-    # Starting with version 0.1.0 Redis support was added. If you would
-    # like to use Redis as the dictionary data store you can do so by
+    # Alternatively, you can use Redis as the dictionary data store by
     # installing `redis' gem (and optionally the `hiredis' gem).
     #
     # The database will be automatically created from the dictionary file
@@ -19,11 +18,11 @@ module Anystyle
     # Therefore, if you make changes to the dictionary file, you will have
     # to delete the old database file for a new one to be created.
     #
-    # Database creation in Kyoto-Cabinet mode requires write permissions.
-    # By default, the database
-    # will be created in the support directory of the Parser; if you have
-    # installed the gem version of the Parser, you may not have write
-    # permissions, but you can change the path in the Dictionary's options.
+    # Database creation in LMDB mode requires write permissions.
+    # By default, the database will be created in the support directory of
+    # the Parser; if you have installed the gem version of the Parser, you
+    # may not have write permissions, but you can change the path in the
+    # Dictionary's options.
     #
     # ## Configuration
     #
@@ -33,18 +32,17 @@ module Anystyle
     #
     # For a list of database modes available in your environment consult:
     #
-    #     Dictionary.modes # => [:kyoto, :redis, :hash]
+    #     Dictionary.modes # => [:lmdb, :redis, :hash]
     #
     # Further options include:
     #
     #     Dictionary.instance.options[:source] # => the zipped dictionary file
-    #     Dictionary.instance.options[:cabinet] # => the database file (kyoto)
+    #     Dictionary.instance.options[:file] # => the database file (lmdb)
     #     Dictionary.instance.options[:path] # => the database socket (redis)
     #     Dictionary.instance.options[:host] # => dictionary host (redis)
     #     Dictionary.instance.options[:part] # => dictionary port (redis)
     #
     class Dictionary
-
       include Singleton
 
       @keys = [:male, :female, :surname, :month, :place, :publisher, :journal].freeze
@@ -53,35 +51,24 @@ module Anystyle
       @code.default = 0
       @code.freeze
 
-      @modes = [:hash]
+      @modes = []
 
-      begin
-        require 'redis/connection/hiredis'
-      rescue LoadError
-        # ignore
+      Util.maybe_require 'lmdb' do
+        @modes.push :lmdb
       end
 
-      begin
-        require 'redis'
+      @modes.push :hash
+
+      Util.maybe_require 'redis' do
         @modes.push :redis
-
-        require 'redis/namespace'
-
-      rescue LoadError
-        # info 'no redis support detected'
-      end
-
-      begin
-        require 'kyotocabinet'
-        @modes.push :kyoto
-      rescue LoadError
-        # info 'no kyoto-cabinet support detected'
+        Util.maybe_require 'redis/namespace'
+        Util.maybe_require 'redis/connection/hiredis'
       end
 
       @defaults = {
         :mode => @modes[0],
         :source => File.expand_path('../support/dict.txt.gz', __FILE__),
-        :cabinet => File.expand_path('../support/dict.kch', __FILE__),
+        :path => File.expand_path('../support', __FILE__),
         :namespace => 'anystyle',
         :port => 6379
       }.freeze
@@ -106,20 +93,20 @@ module Anystyle
       end
 
       def []=(key, value)
-        db[key.to_s] = value
+        db[key.to_s] = value.to_s
       end
 
       def create
         case options[:mode]
-        when :kyoto
+        when :lmdb
           truncate
-          @db = KyotoCabinet::DB.new
-          unless @db.open(path, KyotoCabinet::DB::OWRITER | KyotoCabinet::DB::OCREATE)
-            raise DatabaseError, "failed to create cabinet file #{path}: #{@db.error}"
-          end
+          @db = LMDB.new(path,
+            mapsize: 4096 * 1024 * 10,
+            writemap: true,
+            mapasync: true
+          ).database
           populate
           close
-
         else
           # nothing
         end
@@ -127,27 +114,31 @@ module Anystyle
 
       def truncate
         close
-        File.unlink(path) if File.exists?(path)
+        return unless Dir.exists? path
+
+        ['data.mdb', 'lock.mdb'].each do |mdb|
+          mdb = File.join(path, mdb)
+          File.unlink(mdb) if File.exists?(mdb)
+        end
       end
 
       def open
         case options[:mode]
-        when :kyoto
+        when :lmdb
           at_exit { Anystyle.dictionary.close }
-
-          create unless File.exists?(path)
-
-          @db = KyotoCabinet::DB.new
-          unless @db.open(path, KyotoCabinet::DB::OREADER)
-            raise DictionaryError, "failed to open cabinet file #{path}: #{@db.error}"
-          end
+          create unless File.exists?(File.join(path, 'data.mdb'))
+          @db = LMDB.new(path,
+            mapsize: 4096 * 1024 * 10,
+            writemap: true,
+            mapasync: true
+          ).database
 
         when :redis
           at_exit { Anystyle.dictionary.close }
           @db = Redis.new(options)
 
-          if options[:namespace] && defined?(Redis::Namespace)
-            @db = Redis::Namespace.new options[:namespace], :redis => @db
+          if defined?(Redis::Namespace)
+            @db = Redis::Namespace.new namespace, :redis => @db
           end
 
           populate unless populated?
@@ -164,6 +155,8 @@ module Anystyle
 
       def close
         case
+        when @db.respond_to?(:database_env)
+          @db.database_env.close
         when @db.respond_to?(:close)
           @db.close
         when @db.respond_to?(:quit)
@@ -175,8 +168,8 @@ module Anystyle
 
       def path
         case options[:mode]
-        when :kyoto
-          options[:cabinet] || options[:path]
+        when :lmdb
+          options[:path]
         when :redis
           options[:path] || options.values_at(:host, :port).join(':')
         else
@@ -194,14 +187,20 @@ module Anystyle
         @db || open
       end
 
+      def namespace
+        options[:namespace]
+      end
+
       def populate
         require 'zlib'
 
         File.open(options[:source], 'rb') do |f|
           mode = 0
-          Zlib::GzipReader.new(f, encoding: "UTF-8").each do |line|
+          puts 'populating dictionary...'
+          Zlib::GzipReader.new(f, encoding: 'UTF-8').each do |line|
             line.strip!
             if line.start_with?('#')
+              puts line
               case line
               when /^## male/i
                 mode = Dictionary.code[:male]
@@ -229,6 +228,7 @@ module Anystyle
         end
 
         self['__created_at'] = Time.now.to_s
+        puts 'dictionary populated'
       end
 
     end
