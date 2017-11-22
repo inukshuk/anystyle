@@ -79,22 +79,35 @@ Usage
 
 ### Parsing
 
-You can access the main Anystyle-Parser instance at `Anystyle.parser`;
-the `#parse` method is also available via `Anystyle.parse`. For more complex
-requirements (e.g., if you need multiple Parser instances simultaneously) you
-can create your own instances from the `Anystyle::Parser::Parser` class.
+You can access the default Anystyle-Parser instance at `Anystyle.parser`;
+the `#parse` method is also available via `Anystyle.parse`. A very
+simple example in IRB:
 
-The two fundamental methods you need to know about in order to use
-Anystyle-Parser are `#parse` and `#train` that both accept two arguments.
+    > require 'anystyle/parser'
+    > Anystyle.parse 'Poe, Edgar A. Essays and Reviews. New York: Library of America, 1984.'
+    => [{:author=>"Poe, Edgar A.", :title=>"Essays and Reviews",
+    :location=>"New York", :publisher=>"Library of America",
+    :year=>1984, :type=>:book}]
+    
+This uses a default model trained on the example citation strings which
+are shipped with Anystyle (in `/resources/`). Anystyle also provides for
+more complex requirements – for example, if Anystyle's default
+model is not parsing some of your citations correctly, or you need
+multiple different parsers. You can train, save and load your own
+models; see the section immediately below.
+
+For all usage, the fundamental method that you need to know about in
+order to use Anystyle-Parser is `#parse`.
 
     Parser#parse(input, format = :hash)
-    Parser#train(input = options[:training_data], truncate = true)
-
+    
 `#parse` parses the passed-in input (either a filename, your reference strings,
 or an array of your reference strings; files are only opened if the string is
 not tainted) and returns the parsed data in the
 format specified as the second argument (supported formats include: *:hash*,
 *:bibtex*, *:citeproc*, *:tags*, and *:raw*).
+
+    Parser#train(input = options[:training_data], truncate = true)
 
 `#train` allows you to easily train the Parser's CRF model. The first argument
 is either a filename (if the string is not tainted) or your data as a string;
@@ -102,7 +115,9 @@ the format of training data
 follows the XML-like syntax of the
 [CORA dataset](http://www.cs.umass.edu/~mccallum/data/cora-ie.tar.gz); the
 optional boolean argument lets you decide whether to train the existing
-model or to create an entirely new one.
+model or to create an entirely new one. (**Note**: the addition of new
+training data to an existing model may not be working correctly at the
+moment, see https://github.com/inukshuk/anystyle-parser/issues/62). 
 
 The following irb sessions illustrates some parser goodness:
 
@@ -125,7 +140,7 @@ The following irb sessions illustrates some parser goodness:
     }
     => nil
 
-### Unhappy with the results?
+### Unhappy with the results? Training your own model
 
 Citation references come in many forms, so, inevitably, you will find data
 where Anystyle-Parser does not produce satisfying parsing results.
@@ -154,19 +169,22 @@ the Parser's model what names (labels) it knows about:
 Once you have tagged a few references that you want Anystyle-Parser to learn,
 you can train the model as follows:
 
-    > Anystyle.parser.train 'training.txt', false
+    > my_parser = Anystyle.train_parser 'training.txt'
 
-By passing `true` as the second argument, you will discard Anystyle's default
-model; the resulting model will be based entirely on your own data. By default
-the new or altered model will not be saved, but you can do so at any time
-by calling `Anystyle.parser.model.save` to save the model to the default file.
-If you want to save the model to a different file, set the
-`Anystyle.parser.model.path` attribute accordingly.
+The training process may take some time. You can save the results of the
+training process for future use 
+
+    > my_parser.model.save 'my_model.mod'
+    
+And when you wish to re-use this model in the future, you can load it:
+
+    > my_parser = Anystyle.load_parser 'my_model.mod'
+
 
 After teaching Anystyle-Parser with the tagged references, try to parse your
 data again:
 
-    > Anystyle.parse 'John Lafferty, Andrew McCallum, and Fernando Pereira. 2001. Conditional random fields: probabilistic models for segmenting and labeling sequence data. In Proceedings of the International Conference on Machine Learning, pages 282-289. Morgan Kaufmann, San Francisco, CA.'
+    > my_parser.parse 'John Lafferty, Andrew McCallum, and Fernando Pereira. 2001. Conditional random fields: probabilistic models for segmenting and labeling sequence data. In Proceedings of the International Conference on Machine Learning, pages 282-289. Morgan Kaufmann, San Francisco, CA.'
     => [{:author=>"John Lafferty and Andrew McCallum and Fernando Pereira", :title=>"Conditional random fields: probabilistic models for segmenting and labeling sequence data", :booktitle=>"Proceedings of the International Conference on Machine Learning", :pages=>"282--289", :publisher=>"Morgan Kaufmann", :location=>"San Francisco, CA", :year=>2001, :type=>:inproceedings}]
 
 If you want to make Anystyle-Parser smarter, please consider sending us your
