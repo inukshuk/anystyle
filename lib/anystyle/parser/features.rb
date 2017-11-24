@@ -1,16 +1,11 @@
-# -*- encoding: utf-8 -*-
-
 module Anystyle
   module Parser
 
     class Feature
-
-      @dict = Dictionary.instance
       @instances = []
 
       class << self
-
-        attr_reader :dict, :instances
+        attr_reader :instances
 
         def define(name, &block)
           instances << new(name, block)
@@ -20,6 +15,9 @@ module Anystyle
           instances.reject! { |f| f.name == name }
         end
 
+        def dictionary
+          @dictionary ||= Dictionary.create.open
+        end
       end
 
       attr_accessor :name, :matcher
@@ -31,7 +29,6 @@ module Anystyle
       def match(*arguments)
         matcher.call(*arguments)
       end
-
     end
 
 
@@ -111,11 +108,7 @@ module Anystyle
     end
 
     Feature.define :dictionary do |token, stripped, sequence, offset|
-      c = Feature.dict[stripped.downcase]
-      f = Dictionary.keys.map do |k|
-        c & Dictionary.code[k] > 0 ? k : ['no',k].join('-').to_sym
-      end
-      f.unshift(c)
+      Feature.dictionary.tags(stripped.downcase)
     end
 
     # TODO sequence features should be called just once per sequence

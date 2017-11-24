@@ -1,25 +1,8 @@
-# -*- encoding: utf-8 -*-
-
 module Anystyle
 	module Parser
 
 		describe "Dictionary" do
-
-			let(:dict) { Dictionary.instance }
-
-			it { expect(Dictionary).not_to respond_to(:new) }
-			it { expect(dict).not_to be nil }
-
-      describe '.modes' do
-        it 'returns an array' do
-          expect(Dictionary.modes).to be_a(Array)
-        end
-
-        it 'contains at least :hash and :lmdb' do
-          expect(Dictionary.modes).to include(:hash)
-          expect(Dictionary.modes).to include(:lmdb)
-        end
-      end
+      let(:dict) { Dictionary.create.open }
 
 			describe "the dictionary" do
 				%w{ philippines italy }.each do |place|
@@ -32,7 +15,6 @@ module Anystyle
 					expect(dict['çela'] & Dictionary.code[:surname]).to be > 0
 				end
 			end
-
 		end
 
 	end
