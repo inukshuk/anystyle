@@ -17,7 +17,7 @@ data = <<-END_REFERENCES
 END_REFERENCES
 
 
-Anystyle::Parser::Feature.load_dictionary
+Anystyle::Parser::Feature.dictionary
 parser = Anystyle::Parser::Parser.instance
 
 
