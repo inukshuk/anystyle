@@ -6,7 +6,7 @@ module Anystyle
       class LMDB < Dictionary
         @defaults = {
           path: File.expand_path('../../support', __FILE__),
-          mapsize:  2 << 24,
+          mapsize:  1 << 24,
           writemap: true,
           mapasync: true
         }
@@ -24,7 +24,7 @@ module Anystyle
         def open
           unless open?
             @env = ::LMDB.new(path, lmdb_options)
-            @db = @env.database
+            @db = @env.database create: true
           end
 
           self
