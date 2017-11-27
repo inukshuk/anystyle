@@ -15,7 +15,7 @@ module Anystyle
         end
 
         def initialize(options = {})
-          super self.class.defaults.merge(options)
+          super(self.class.defaults.merge(options))
         end
 
         def open
@@ -33,7 +33,7 @@ module Anystyle
         end
 
         def close
-          db.close unless not open?
+          db.close
         end
 
         def open?

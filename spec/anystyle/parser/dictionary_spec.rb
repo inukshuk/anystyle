@@ -24,9 +24,33 @@ module Anystyle
           expect(dict).to be_a(Dictionary)
           expect(dict).to be_instance_of(Dictionary::Redis)
         end
-
       end
-		end
 
+      describe "LMDB Adapter" do
+        require 'fileutils'
+
+        let(:dict) {
+          Dictionary.create({
+            adapter: :lmdb,
+            path: Dir.mktmpdir
+          })
+        }
+
+        after(:each) {
+          dict.close
+          FileUtils.remove_entry dict.path
+        }
+
+        it "is a Dictionary" do
+          expect(dict).to be_a(Dictionary)
+          expect(dict).to be_instance_of(Dictionary::LMDB)
+        end
+
+        it "can be opened" do
+          expect(-> { dict.open }).to change { dict.open? }
+        end
+      end
+
+		end
 	end
 end
