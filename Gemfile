@@ -7,6 +7,8 @@ group :development, :test do
   gem 'rspec', '~>3.0'
   gem 'language_detector', github: 'feedbackmine/language_detector'
 	gem 'lmdb'
+  gem 'redis'
+  gem 'redis-namespace'
 end
 
 group :coverage do
@@ -27,7 +29,5 @@ group :extra do
 	gem 'autotest-fsevent', :require => false
   gem 'yard'
 	gem 'ZenTest'
-  gem 'redis'
   gem 'hiredis'
-  gem 'redis-namespace'
 end
