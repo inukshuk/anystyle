@@ -23,8 +23,9 @@ module Anystyle
 
         def create(options = {})
           options = options.merge defaults
+          adapter = options.delete :adapter
 
-          case options[:adapter]
+          case adapter
           when :hash
             new options
           when :lmdb
@@ -34,7 +35,7 @@ module Anystyle
             require 'lib/anystyle/parser/dictionary/redis'
             Redis.new options
           else
-            raise ArgumentError, "unknown adapter: #{options[:adapter]}"
+            raise ArgumentError, "unknown adapter: #{adapter}"
           end
         end
       end
@@ -46,12 +47,10 @@ module Anystyle
       end
 
       def open
-        begin
-          @db = {} unless open?
-          self
-        ensure
-          populate! if empty?
-        end
+        @db = {} unless open?
+        self
+      ensure
+        populate! if empty?
       end
 
       def close
@@ -63,7 +62,7 @@ module Anystyle
       end
 
       def open?
-        !db.nil?
+        not db.nil?
       end
 
       def empty?
