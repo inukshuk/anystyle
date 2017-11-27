@@ -1,46 +1,60 @@
 module Anystyle
   module Parser
+    class Dictionary
+      require 'redis'
+      Util.maybe_require 'redis/namespace'
 
-    require 'redis'
-    Util.maybe_require 'redis/namespace'
+      class Redis < Dictionary
+        @defaults = {
+          namespace: 'anystyle',
+          port: 6379
+        }
 
-    class RedisDictionary extend Dictionary
-      def open
-        unless open?
-          @db = Redis.new(options)
-
-          unless namespace.nil? or not defined?(Redis::Namespace)
-            @db = Redis::Namespace.new namespace, redis: @db
-          end
+        class << self
+          attr_reader :defaults
         end
 
-        self
-      ensure
-        populate! if empty?
-      end
+        def initialize(options = {})
+          super self.class.defaults.merge(options)
+        end
 
-      def close
-        db.close unless not open?
-      end
+        def open
+          unless open?
+            @db = ::Redis.new(options)
 
-      def open?
-        not db.nil?
-      end
+            unless namespace.nil? or not defined?(::Redis::Namespace)
+              @db = ::Redis::Namespace.new namespace, redis: @db
+            end
+          end
 
-      def empty?
-        open? and db.dbsize == 0
-      end
+          self
+        ensure
+          populate! if empty?
+        end
 
-      def get(key)
-        db[key.to_s].to_i
-      end
+        def close
+          db.close unless not open?
+        end
 
-      def put(key, value)
-        db[key.to_s] = value.to_i
-      end
+        def open?
+          not db.nil?
+        end
 
-      def namespace
-        options[:namespace]
+        def empty?
+          open? and db.dbsize == 0
+        end
+
+        def get(key)
+          db[key.to_s].to_i
+        end
+
+        def put(key, value)
+          db[key.to_s] = value.to_i
+        end
+
+        def namespace
+          options[:namespace]
+        end
       end
     end
   end

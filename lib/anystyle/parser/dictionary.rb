@@ -22,18 +22,18 @@ module Anystyle
         attr_reader :tags, :code, :defaults, :adapters
 
         def create(options = {})
-          options = options.merge defaults
+          options = defaults.merge options
           adapter = options.delete :adapter
 
           case adapter
           when :hash
             new options
           when :lmdb
-            require 'lib/anystyle/parser/dictionary/lmdb'
-            LMDB.new options
+            require 'anystyle/parser/dictionary/lmdb'
+            Dictionary::LMDB.new options
           when :redis
-            require 'lib/anystyle/parser/dictionary/redis'
-            Redis.new options
+            require 'anystyle/parser/dictionary/redis'
+            Dictionary::Redis.new options
           else
             raise ArgumentError, "unknown adapter: #{adapter}"
           end

@@ -2,7 +2,6 @@ Anystyle-Parser
 ===============
 [![Build Status](https://travis-ci.org/inukshuk/anystyle-parser.svg?branch=master)](https://travis-ci.org/inukshuk/anystyle-parser)
 [![Coverage Status](https://coveralls.io/repos/github/inukshuk/anystyle-parser/badge.svg?branch=master)](https://coveralls.io/github/inukshuk/anystyle-parser?branch=master)
-[![Flattr us](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=inukshuk&url=https://anystyle.io&title=AnyStyle&description=Parses%20scholarly%20references%20in%20no%20time!&tags=programming,bibliography,parser,machine%20learning,api&language=en_GB&category=software)
 
 Anystyle-Parser is a very fast and smart parser for academic references. It
 is inspired by [ParsCit](http://aye.comp.nus.edu.sg/parsCit/) and
