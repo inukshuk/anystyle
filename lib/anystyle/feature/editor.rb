@@ -1,8 +1,8 @@
 module Anystyle
   class Feature
     class Editor < Feature
-      def elicit(_, sequence:)
-        sequence.any? { |token| match?(token) ? :editors : :'no-editors' }
+      def elicit(token, alpha, offset, sequence)
+        sequence.any?(&method(:match?)) ? :editors : :'no-editors'
       end
 
       # TODO improve patterns / disambiguate edition?

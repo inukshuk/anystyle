@@ -1,15 +1,32 @@
 
+# TODO remove
 require 'singleton'
 
+# TODO make optional
 require 'bibtex'
+
 require 'builder'
 require 'wapiti'
 require 'namae'
 
+# TODO hoist
 require 'anystyle/parser/version'
 require 'anystyle/parser/errors'
 require 'anystyle/parser/utility'
 require 'anystyle/parser/dictionary'
-require 'anystyle/parser/features'
+
+require 'anystyle/feature'
+require 'anystyle/feature/caps'
+require 'anystyle/feature/category'
+require 'anystyle/feature/dictionary'
+require 'anystyle/feature/downcase'
+require 'anystyle/feature/editor'
+require 'anystyle/feature/locator'
+require 'anystyle/feature/number'
+require 'anystyle/feature/offset'
+require 'anystyle/feature/partial'
+require 'anystyle/feature/pubtype'
+require 'anystyle/feature/punctuation'
+
 require 'anystyle/parser/parser'
 require 'anystyle/parser/normalizer'

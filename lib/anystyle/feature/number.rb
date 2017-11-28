@@ -2,7 +2,7 @@ module Anystyle
   class Feature
     class Number < Feature
       # TODO check/improve patterns
-      def elicit(token)
+      def elicit(token, *args)
         case token
         when /\d\(\d+([—–-]\d+)?\)/
           :volume

@@ -1,9 +1,5 @@
 module Anystyle
   describe "Number Feature" do
-
-    require 'anystyle/feature'
-    require 'anystyle/feature/number'
-
     let(:f) { Feature::Number.new }
 
     %w{ (1992) 1992 2011 1776 }.each do |year|

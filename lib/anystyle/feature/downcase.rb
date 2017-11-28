@@ -1,7 +1,7 @@
 module Anystyle
   class Feature
     class Downcase < Feature
-      def elicit(_, alpha:)
+      def elicit(token, alpha, offset, sequence)
         if alpha.empty?
           :EMPTY
         else
