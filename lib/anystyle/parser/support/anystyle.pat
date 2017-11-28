@@ -1,6 +1,6 @@
 # Feature numbers
-# 0       1 2 3  4   5    6 7  8   9    10      11      12   13 14      15        16      17       18    19           20         21   22 23     24    25
-# England a E En Eng Engl d nd and land england initial none 20 no-male no-female surname no-month place no-publisher no-journal none 0  others other isbn
+# 0       1 2 3  4   5    6 7  8   9    10      11      12   13 14      15       16    17           18         19   20 21     22    23
+# England a E En Eng Engl d nd and land england initial none 20 no-name no-month place no-publisher no-journal none 0  others other isbn
 
 u:%x[-3,0]
 u:%x[-2,0]
@@ -52,25 +52,23 @@ u:%x[0,15]
 u:%x[0,16]
 u:%x[0,17]
 u:%x[0,18]
-u:%x[0,19]
-u:%x[0,20]
 
 # possible editor
-u:%x[0,21]
+u:%x[0,19]
 
 # position
-u:%x[0,22]
+u:%x[0,20]
 
 # punctuation
-u:%x[0,23]
+u:%x[0,21]
 
 # possible chapter
-u:%x[-1,23]/%x[0,24]/%x[0,21]
-u:%x[-1,23]/%x[0,24]/%x[1,11]
+u:%x[-1,21]/%x[0,22]/%x[0,10]
+u:%x[-1,21]/%x[0,22]/%x[1,11]
 
 # reference
-u:%x[0,25]
-u:%x[0,25]/%x[1,12]
+u:%x[0,23]
+u:%x[0,23]/%x[1,12]
 
 # bigram
 b

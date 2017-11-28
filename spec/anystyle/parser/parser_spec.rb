@@ -53,7 +53,10 @@ module Anystyle::Parser
 
     describe "#prepare" do
       it 'returns an array of expanded token sequences' do
-        expect(subject.prepare('hello, world!')).to eq([['hello, , h he hel hell , o, lo, llo, hello other none 0 no-male no-female no-surname no-month no-place no-publisher no-journal no-editors 0 internal other none', 'world! ! w wo wor worl ! d! ld! rld! world other none 36 no-male no-female surname no-month no-place publisher no-journal no-editors 5 terminal other none']])
+        expect(subject.prepare('hello, world!')).to eq([[
+          'hello, , h he hel hell , o, lo, llo, hello other none 0 no-name no-month no-place no-publisher no-journal no-editors 0 internal other none',
+          'world! ! w wo wor worl ! d! ld! rld! world other none 9 name no-month no-place publisher no-journal no-editors 5 terminal other none'
+        ]])
       end
 
       context 'when marking the input as being tagged' do
