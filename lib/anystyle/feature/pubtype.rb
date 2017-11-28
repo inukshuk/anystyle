@@ -1,9 +1,9 @@
-module Ansytyle
+module Anystyle
   class Feature
     class PubType < Feature
       # TODO sequence or token feature?
       # TODO improve or remove?
-      def elicit(_, alpha:, offset:, sequence:)
+      def elicit(token, alpha, offset, sequence)
         s = sequence.join(' ')
         case
         when s =~ /dissertation abstract/i

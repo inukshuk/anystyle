@@ -20,9 +20,7 @@ module Anystyle
 
       @defaults[:training_data].untaint
 
-      @features = Feature.instances
-      @feature = Hash.new { |h,k| h[k.to_sym] = features.detect { |f| f.name == k.to_sym } }
-
+      # TODO move to instance
       begin
         require 'language_detector'
         @language_detector = LanguageDetector.new
@@ -33,7 +31,7 @@ module Anystyle
 
       class << self
 
-        attr_reader :defaults, :features, :feature, :formats
+        attr_reader :defaults, :formats
 
         def load(path)
           new :model => path
@@ -44,18 +42,34 @@ module Anystyle
           @instance ||= new
         end
 
+        # TODO move to instance
         def language(string)
           return unless @language_detector
           @language_detector.detect string
         end
       end
 
-      attr_reader :options
-
+      attr_reader :options, :features, :dictionary
       attr_accessor :model, :normalizer
 
       def initialize(options = {})
         @options = Parser.defaults.merge(options)
+        @dictionary = Dictionary.create.open
+
+        @features = [
+          Feature::Category.new,
+          Feature::Partial.new,
+          Feature::Partial.new(reverse: true),
+          Feature::Downcase.new,
+          Feature::Caps.new,
+          Feature::Number.new,
+          Feature::Dictionary.new(dictionary: @dictionary),
+          Feature::Editor.new,
+          Feature::Offset.new,
+          Feature::Punctuation.new,
+          Feature::PubType.new,
+          Feature::Locator.new
+        ]
 
         reload
 
@@ -146,7 +160,7 @@ module Anystyle
       # Expands the passed-in token string by appending a space separated list
       # of all features for the token.
       def expand(token, sequence = [], offset = 0, label = nil)
-        f = features_for(token, strip(token), sequence, offset)
+        f = features_for(token, strip(token), offset, sequence)
         f.unshift(token)
         f.push(label) unless label.nil?
         f.join(' ')
@@ -265,7 +279,7 @@ module Anystyle
       end
 
       def features_for(*arguments)
-        Parser.features.map { |f| f.match(*arguments) }
+        features.map { |f| f.elicit(*arguments) }
       end
 
       def strip(token)

@@ -1,7 +1,13 @@
 module Anystyle
   class Feature
     class Dictionary < Feature
-      def elicit(alpha:)
+      attr_reader :dictionary
+
+      def initialize(dictionary:)
+        @dictionary = dictionary
+      end
+
+      def elicit(token, alpha, offset, sequence)
         dictionary.tags(alpha.downcase)
       end
     end

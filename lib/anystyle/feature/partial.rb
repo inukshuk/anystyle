@@ -3,12 +3,11 @@ module Anystyle
     class Partial < Feature
       attr_reader :size
 
-      def initialize(size: 4, reverse: false, **options)
-        super(**options)
+      def initialize(size: 4, reverse: false)
         @size, @reverse = size, reverse
       end
 
-      def elicit(token)
+      def elicit(token, *args)
         build(extract(token)) { |chars| join(chars) }
       end
 

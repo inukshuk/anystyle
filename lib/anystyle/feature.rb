@@ -8,14 +8,8 @@ module Anystyle
       end
 
       def feature_name
-        @feature_name || name.downcase.intern
+        @feature_name || name.downcase
       end
-    end
-
-    attr_reader :dictionary
-
-    def initialize(dictionary: nil)
-      @dictionary = dictionary
     end
 
     def name
@@ -27,7 +21,7 @@ module Anystyle
       false
     end
 
-    def elicit
+    def elicit(token, alpha, offset, sequence)
       raise NotImplementedError
     end
   end
