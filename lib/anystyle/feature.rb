@@ -22,6 +22,11 @@ module Anystyle
       self.class.feature_name
     end
 
+    # TODO sequence features should be called just once
+    def sequence?
+      false
+    end
+
     def elicit
       raise NotImplementedError
     end
