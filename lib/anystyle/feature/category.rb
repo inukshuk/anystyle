@@ -9,7 +9,7 @@ module Anystyle
         @index = index
       end
 
-      def elicit(token:)
+      def elicit(token)
         classify(token[index])
       end
 

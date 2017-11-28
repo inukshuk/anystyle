@@ -1,7 +1,7 @@
 module Anystyle
   class Feature
     class Locator < Feature
-      def elicit(token:)
+      def elicit(token)
         case token
         when /retrieved/i
           :retrieved

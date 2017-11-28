@@ -1,7 +1,7 @@
 module Anystyle
   class Feature
     class Caps < Feature
-      def elicit(alpha:)
+      def elicit(_, alpha:)
         case alpha
         when /^\p{Lu}+$/
           :caps

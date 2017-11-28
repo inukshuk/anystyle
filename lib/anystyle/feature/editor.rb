@@ -1,7 +1,7 @@
 module Anystyle
   class Feature
     class Editor < Feature
-      def elicit(sequence:)
+      def elicit(_, sequence:)
         sequence.any? { |token| match?(token) ? :editors : :'no-editors' }
       end
 
