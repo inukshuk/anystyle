@@ -1,10 +1,10 @@
 module Anystyle
   class Feature
-    class Partial < Feature
+    class Affix < Feature
       attr_reader :size
 
-      def initialize(size: 4, reverse: false)
-        @size, @reverse = size, reverse
+      def initialize(size: 4, prefix: true, suffix: false)
+        @size, @suffix = size, (suffix || !prefix)
       end
 
       def elicit(token, *args)
@@ -12,7 +12,7 @@ module Anystyle
       end
 
       def extract(token)
-        if reverse?
+        if suffix?
           token.chars.reverse.take(size)
         else
           token.chars.take(size)
@@ -20,7 +20,7 @@ module Anystyle
       end
 
       def join(chars)
-        if reverse?
+        if suffix?
           chars.reverse.join('')
         else
           chars.join('')
@@ -28,17 +28,15 @@ module Anystyle
       end
 
       def build(chars)
-        (1..size).map { |n|
-          yield chars.take(n).map(&method(:encode))
-        }
+        (1..size).map { |n| yield chars.take(n) }
       end
 
-      def encode(char)
-        char
+      def suffix?
+        !!@suffix
       end
 
-      def reverse?
-        !!@reverse
+      def prefix?
+        !suffix?
       end
     end
   end

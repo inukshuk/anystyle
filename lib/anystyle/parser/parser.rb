@@ -58,8 +58,8 @@ module Anystyle
 
         @features = [
           Feature::Category.new,
-          Feature::Partial.new,
-          Feature::Partial.new(reverse: true),
+          Feature::Affix.new,
+          Feature::Affix.new(suffix: true),
           Feature::Downcase.new,
           Feature::Caps.new,
           Feature::Number.new,

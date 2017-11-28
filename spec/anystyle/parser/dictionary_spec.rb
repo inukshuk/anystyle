@@ -1,6 +1,5 @@
 module Anystyle
 	module Parser
-
 		describe "Dictionary" do
 
 			describe "Hash Adapter" do
