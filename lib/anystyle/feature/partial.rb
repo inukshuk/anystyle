@@ -1,6 +1,6 @@
 module Anystyle
   class Feature
-    class Sequence < Feature
+    class Partial < Feature
       attr_reader :size
 
       def initialize(size: 4, reverse: false, **options)
@@ -8,7 +8,7 @@ module Anystyle
         @size, @reverse = size, reverse
       end
 
-      def elicit(token)
+      def elicit(token:)
         build(extract(token)) { |chars| join(chars) }
       end
 
