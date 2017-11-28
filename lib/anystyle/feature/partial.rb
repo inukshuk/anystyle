@@ -8,7 +8,7 @@ module Anystyle
         @size, @reverse = size, reverse
       end
 
-      def elicit(token:)
+      def elicit(token)
         build(extract(token)) { |chars| join(chars) }
       end
 

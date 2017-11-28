@@ -3,7 +3,7 @@ module Anystyle
     class Punctuation < Feature
       # TODO Fix order
       # TODO Use unicode category patterns
-      def elicit(token:)
+      def elicit(token)
         case token
         when /^["'”’´‘“`]/
           :quote
