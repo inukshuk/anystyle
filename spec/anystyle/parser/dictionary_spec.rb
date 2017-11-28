@@ -12,8 +12,8 @@ module Anystyle
 					end
 				end
 
-				it "accepts unicode strings like 'çela' (surname)" do
-					expect(dict['çela'] & Dictionary.code[:surname]).to be > 0
+				it "accepts unicode strings like 'çela' (name)" do
+					expect(dict['çela'] & Dictionary.code[:name]).to be > 0
 				end
 			end
 

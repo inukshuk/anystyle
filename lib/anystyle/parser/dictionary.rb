@@ -3,7 +3,7 @@ module Anystyle
 
     class Dictionary
       @tags = [
-        :male, :female, :surname, :month, :place, :publisher, :journal
+        :name, :month, :place, :publisher, :journal
       ]
 
       @code = Hash[
@@ -100,7 +100,7 @@ module Anystyle
             if line.start_with?('#')
               case line
               when /^## (?:male|female|surname|last|chinese)/i
-                mode = Dictionary.code[:surname]
+                mode = Dictionary.code[:name]
               when /^## month/i
                 mode = Dictionary.code[:month]
               when /^## place/i
