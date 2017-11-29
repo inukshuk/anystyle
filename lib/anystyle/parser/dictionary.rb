@@ -84,7 +84,7 @@ module AnyStyle
         value = get key
 
         Dictionary.tags.map { |tag|
-          (value & Dictionary.code[tag] > 0) ? tag : :"no-#{tag}"
+          (value & Dictionary.code[tag] > 0) ? 1 : 0
         }.unshift(value)
       end
 
