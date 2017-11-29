@@ -53,8 +53,8 @@ module AnyStyle::Parser
 
     describe "#prepare" do
       it 'returns an array of expanded token sequences' do
-        expect(subject.prepare('hello, world!')).to eq([[
-          'hello, , h he hel hell , o, lo, llo, hello lower none 0 0 0 0 0 0 none 0 internal 0',
+        expect(subject.prepare('Hello, world!')).to eq([[
+          'Hello, , H He Hel Hell , o, lo, llo, hello initial none 0 0 0 0 0 0 none 0 internal 0',
           'world! ! w wo wor worl ! d! ld! rld! world lower none 9 1 0 0 1 0 none 5 terminal 0'
         ]])
       end
