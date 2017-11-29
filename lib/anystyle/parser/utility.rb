@@ -17,15 +17,4 @@ module AnyStyle
       Parser.instance
     end
   end
-
-  module Util
-    module_function
-
-    def maybe_require(mod)
-      require mod
-      yield if block_given?
-    rescue LoadError
-      # ignore
-    end
-  end
 end

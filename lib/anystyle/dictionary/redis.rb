@@ -1,6 +1,6 @@
 module AnyStyle
   require 'redis'
-  Util.maybe_require 'redis/namespace'
+  maybe_require 'redis/namespace'
 
   class Dictionary
     class Redis < Dictionary
