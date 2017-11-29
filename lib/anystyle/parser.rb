@@ -25,7 +25,6 @@ require 'anystyle/feature/editor'
 require 'anystyle/feature/locator'
 require 'anystyle/feature/number'
 require 'anystyle/feature/offset'
-require 'anystyle/feature/pubtype'
 require 'anystyle/feature/punctuation'
 
 require 'anystyle/parser/parser'
