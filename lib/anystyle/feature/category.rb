@@ -3,7 +3,6 @@ module AnyStyle
     class Category < Feature
       attr_reader :index
 
-      # TODO support multiple indices?
       def initialize(index: -1)
         @index = index
       end
@@ -12,17 +11,18 @@ module AnyStyle
         categorize(token.chars[index])
       end
 
-      # TODO use more unicode categories
       def categorize(char)
         case char
-        when /\p{Lu}/
-          :upper
-        when /\p{Ll}/
-          :lower
-        when /\p{N}/
-          :numeric
-        else
+        when /\p{P}/
           char
+        when /\p{N}/
+          :number
+        when /\p{Upper}/
+          :upper
+        when /\p{Lower}/
+          :lower
+        else
+          :other
         end
       end
     end

@@ -54,8 +54,8 @@ module AnyStyle::Parser
     describe "#prepare" do
       it 'returns an array of expanded token sequences' do
         expect(subject.prepare('hello, world!')).to eq([[
-          'hello, , h he hel hell , o, lo, llo, hello other none 0 no-name no-month no-place no-publisher no-journal no-editors 0 internal other none',
-          'world! ! w wo wor worl ! d! ld! rld! world other none 9 name no-month no-place publisher no-journal no-editors 5 terminal other none'
+          'hello, , h he hel hell , o, lo, llo, hello lower none 0 no-name no-month no-place no-publisher no-journal no-editors 0 internal other 0',
+          'world! ! w wo wor worl ! d! ld! rld! world lower none 9 name no-month no-place publisher no-journal no-editors 5 terminal other 0'
         ]])
       end
 
@@ -103,7 +103,6 @@ module AnyStyle::Parser
 
         it 'does not fail for unrecognizable input' do
           expect { subject.label("@misc{70213094902020,\n") }.not_to raise_error
-          expect { subject.label("doi = {DOI:10.1503/jpn.100140}\n}\n") }.not_to raise_error
           expect { subject.label("\n doi ") }.not_to raise_error
         end
       end
