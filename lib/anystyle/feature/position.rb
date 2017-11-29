@@ -1,6 +1,6 @@
 module AnyStyle
   class Feature
-    class Offset < Feature
+    class Position < Feature
       attr_reader :precision
 
       def initialize(precision: 10)

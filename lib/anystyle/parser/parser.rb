@@ -64,8 +64,8 @@ module AnyStyle
           Feature::Caps.new,
           Feature::Number.new,
           Feature::Dictionary.new(dictionary: @dictionary),
-          Feature::Editor.new,
-          Feature::Offset.new,
+          Feature::Keyword.new,
+          Feature::Position.new,
           Feature::Punctuation.new,
           Feature::Locator.new
         ]
