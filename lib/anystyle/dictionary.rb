@@ -12,7 +12,7 @@ module AnyStyle
     @code.freeze
 
     @defaults = {
-      adapter: :memory,
+      adapter: :gdbm,
       source: File.expand_path('../data/dict.txt.gz', __FILE__)
     }
 

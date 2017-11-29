@@ -6,14 +6,7 @@ rescue LoadError
 end
 
 begin
-  case
-  when defined?(RUBY_ENGINE) && RUBY_ENGINE == 'rbx'
-    require 'rubinius/debugger'
-  when RUBY_VERSION < '2.0'
-    require 'debugger'
-  else
-    require 'byebug'
-  end
+  require 'byebug'
 rescue LoadError
   # ignore
 end
@@ -23,6 +16,8 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require 'rspec'
 require 'anystyle/parser'
+
+AnyStyle::Dictionary.defaults[:adapter] = :memory
 
 module Fixtures
 	PATH = File.expand_path('../fixtures', __FILE__)
