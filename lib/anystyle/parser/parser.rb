@@ -67,7 +67,6 @@ module AnyStyle
           Feature::Editor.new,
           Feature::Offset.new,
           Feature::Punctuation.new,
-          Feature::PubType.new,
           Feature::Locator.new
         ]
 
