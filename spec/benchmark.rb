@@ -1,5 +1,4 @@
-require 'anystyle/parser'
-
+require 'anystyle'
 require 'benchmark'
 include Benchmark
 

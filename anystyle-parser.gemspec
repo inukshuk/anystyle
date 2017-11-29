@@ -2,11 +2,11 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
-require 'anystyle/parser/version'
+require 'anystyle/version'
 
 Gem::Specification.new do |s|
   s.name        = 'anystyle-parser'
-  s.version     = AnyStyle::Parser::VERSION.dup
+  s.version     = AnyStyle::VERSION.dup
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Sylvester Keil']
   s.email       = ['http://sylvester.keil.or.at']
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.description = 'A sophisticated parser for academic reference lists and bibliographies based on machine learning algorithms using conditional random fields.'
   s.license     = 'BSD-2-Clause'
 
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.2'
 
   s.add_runtime_dependency('bibtex-ruby', '~>4.0')
   s.add_runtime_dependency('builder', '>=3.0', '<4.0')

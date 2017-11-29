@@ -1,5 +1,4 @@
-require 'anystyle/parser'
-
+require 'anystyle'
 require 'tempfile'
 require 'ruby-prof'
 
