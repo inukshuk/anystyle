@@ -3,7 +3,6 @@ gemspec
 
 group :development, :test do
   gem 'rake'
-  gem 'cucumber'
   gem 'rspec', '~>3.0'
   gem 'language_detector', github: 'feedbackmine/language_detector'
 	gem 'lmdb'
@@ -12,22 +11,21 @@ group :development, :test do
 end
 
 group :coverage do
-  gem 'simplecov', :require => false
-  gem 'coveralls', :require => false
+  gem 'simplecov', require: false
+  gem 'coveralls', require: false
 end
 
 group :debug do
-  gem 'byebug', :require => false
+  gem 'byebug', require: false
 end
 
 group :profile do
-	gem 'ruby-prof', :require => false, :platform => :mri
-	gem 'gnuplot', :require => false, :platform => :mri
+	gem 'ruby-prof', require: false
+	gem 'gnuplot', require: false
 end
 
 group :extra do
-	gem 'autotest-fsevent', :require => false
+	gem 'autotest-fsevent', require: false
   gem 'yard'
 	gem 'ZenTest'
-  gem 'hiredis'
 end
