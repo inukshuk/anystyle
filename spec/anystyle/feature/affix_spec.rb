@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
   describe "Affix Feature" do
     let(:f) { Feature::Affix.new }
     let(:r) { Feature::Affix.new suffix: true }

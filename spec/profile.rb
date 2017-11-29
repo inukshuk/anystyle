@@ -17,8 +17,8 @@ data = <<-END_REFERENCES
 END_REFERENCES
 
 
-Anystyle::Parser::Feature.dictionary
-parser = Anystyle::Parser::Parser.instance
+AnyStyle::Parser::Feature.dictionary
+parser = AnyStyle::Parser::Parser.instance
 
 
 result = RubyProf.profile do

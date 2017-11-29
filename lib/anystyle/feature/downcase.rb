@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
   class Feature
     class Downcase < Feature
       def elicit(token, alpha, offset, sequence)

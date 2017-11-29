@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
   class Feature
     class Dictionary < Feature
       attr_reader :dictionary

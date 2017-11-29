@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
   class Feature
     class Offset < Feature
       def elicit(token, alpha, offset, sequence)

@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
   module Parser
 
     class Error < StandardError

@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
   class Feature
     class Punctuation < Feature
       # TODO Fix order

@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
   class Feature
     class Category < Feature
       attr_reader :index
