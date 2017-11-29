@@ -19,9 +19,7 @@ END_REFERENCES
 data = data * 100
 
 data = data.split("\n")
-
-AnyStyle::Parser::Feature.dictionary
-parser = AnyStyle::Parser::Parser.instance
+parser = AnyStyle.parser
 
 n, k = 100, 5
 
