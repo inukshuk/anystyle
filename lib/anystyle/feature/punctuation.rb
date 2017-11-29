@@ -1,10 +1,11 @@
 module AnyStyle
   class Feature
     class Punctuation < Feature
-      # TODO Fix order
-      # TODO Use unicode category patterns
+      # TODO Review and use unicode category patterns
       def elicit(token, alpha, offset, sequence)
         case token
+        when /^\p{^P}+$/
+          :none
         when /^["'”’´‘“`]/
           :quote
         when /["'”’´‘“`][!\?\.]$/
@@ -46,7 +47,7 @@ module AnyStyle
         when /-+/
           :hyphen
         else
-          :others
+          :other
         end
       end
     end
