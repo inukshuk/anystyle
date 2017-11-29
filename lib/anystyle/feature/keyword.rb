@@ -3,8 +3,8 @@ module AnyStyle
     class Keyword < Feature
       def elicit(token, alpha, *args)
         case alpha
-        when /^(ed|editor|editors|eds|edited)$/i
-        when /^(hrsg|herausgeber)$/i
+        when /^(ed|editor|editors|eds|edited)$/i,
+             /^(hrsg|herausgeber)$/i
           :editor
         when /^(trans|translated)$/i
           :translator

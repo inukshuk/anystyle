@@ -1,7 +1,7 @@
 module AnyStyle
   class Feature
     class Number < Feature
-      # TODO check/improve patterns
+      # TODO Review and improve patterns
       def elicit(token, *args)
         case token
         when /\d\(\d+([—–-]\d+)?\)/
@@ -10,7 +10,8 @@ module AnyStyle
           :year
         when /\d{4}\s*[—–-]+\s*\d{4}/
           :'year-range'
-        when /\d+\s*[—–-]+\s*\d+/, /^[^[:alnum:]]*pp?\.\d*[^[:alnum:]]*$/, /^((pp?|s)\.?|pages?)$/i
+        when /\d+\s*[—–-]+\s*\d+/, /^[^[:alnum:]]*pp?\.\d*[^[:alnum:]]*$/,
+             /^((pp?|s)\.?|pages?)$/i
           :page
         when /^\d$/
           :single
