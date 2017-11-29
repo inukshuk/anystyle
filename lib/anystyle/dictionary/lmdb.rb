@@ -1,6 +1,6 @@
-require 'lmdb'
-
 module AnyStyle
+  require 'lmdb'
+
   class Dictionary
     class LMDB < Dictionary
       @defaults = {
@@ -9,10 +9,6 @@ module AnyStyle
         writemap: true,
         mapasync: true
       }
-
-      class << self
-        attr_reader :defaults
-      end
 
       attr_reader :env
 
@@ -36,7 +32,7 @@ module AnyStyle
       end
 
       def open?
-        not db.nil?
+        !db.nil?
       end
 
       def empty?
@@ -67,6 +63,5 @@ module AnyStyle
         options.reject { |k| [:path, :source].include?(k) }
       end
     end
-
   end
 end

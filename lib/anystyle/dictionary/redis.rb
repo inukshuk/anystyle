@@ -1,18 +1,13 @@
-require 'redis'
-
 module AnyStyle
-  class Dictionary
-    Util.maybe_require 'redis/namespace'
+  require 'redis'
+  Util.maybe_require 'redis/namespace'
 
+  class Dictionary
     class Redis < Dictionary
       @defaults = {
         namespace: 'anystyle',
         port: 6379
       }
-
-      class << self
-        attr_reader :defaults
-      end
 
       def initialize(options = {})
         super(self.class.defaults.merge(options))

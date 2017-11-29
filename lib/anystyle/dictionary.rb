@@ -26,6 +26,9 @@ module AnyStyle
         case adapter
         when :memory, :hash
           new options
+        when :gdbm
+          require 'anystyle/dictionary/gdbm'
+          Dictionary::GDBM.new options
         when :lmdb
           require 'anystyle/dictionary/lmdb'
           Dictionary::LMDB.new options
