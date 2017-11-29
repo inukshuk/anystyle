@@ -13,7 +13,7 @@ require 'namae'
 require 'anystyle/parser/version'
 require 'anystyle/parser/errors'
 require 'anystyle/parser/utility'
-require 'anystyle/parser/dictionary'
+require 'anystyle/dictionary'
 
 require 'anystyle/feature'
 require 'anystyle/feature/affix'

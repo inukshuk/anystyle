@@ -6,8 +6,8 @@ module AnyStyle
       @formats = [:bibtex, :hash, :normalized, :citeproc, :xml, :tags, :raw].freeze
 
       @defaults = {
-        :model => File.expand_path('../support/anystyle.mod', __FILE__),
-        :pattern => File.expand_path('../support/anystyle.pat', __FILE__),
+        :model => File.expand_path('../../data/anystyle.mod', __FILE__),
+        :pattern => File.expand_path('../../data/anystyle.pat', __FILE__),
         :compact => true,
         :threads => 4,
         :separator => /[[:space:]]+|\b(\d[^[:space:]]*:)/,
