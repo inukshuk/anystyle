@@ -1,5 +1,19 @@
 module AnyStyle
   class Feature
+    @available = {}
+
+    class << self
+      attr_reader :available
+
+      def inherited(feature)
+        available[feature.name] = feature
+      end
+    end
+
+    def name
+      self.class.name.downcase.intern
+    end
+
     def elicit(token, alpha, offset, sequence)
       raise NotImplementedError
     end
