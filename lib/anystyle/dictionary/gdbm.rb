@@ -4,7 +4,7 @@ module AnyStyle
   class Dictionary
     class GDBM < Dictionary
       @defaults = {
-        path: File.expand_path('../data/dict.db', __FILE__),
+        path: File.expand_path('../../data/dict.db', __FILE__),
         mode: 0666,
         flags: ::GDBM::WRCREAT # | ::GDBM::NOLOCK
       }
