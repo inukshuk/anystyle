@@ -1,22 +1,16 @@
 module AnyStyle
   class Feature
     class Caps < Feature
-      def elicit(token, alpha, offset, sequence)
+      def elicit(_, alpha, *args)
         case alpha
-        when /^[[:upper:]]$/
+        when /^\p{Upper}$/
           :single
-        when /^[[:upper:]][[:lower:]]/
+        when /^\p{Upper}\p{Lower}/
           :initial
-        when /^[[:upper:]]+$/
-          :all
-        #when /^\p{Lu}+$/
-        #  :caps
-        #when /^\p{Lt}/
-        #  :title
-        #when /^\p{Ll}/
-        #  :lower
-        #when /^\p{Lu}/
-        #  :single # :upper
+        when /^\p{Upper}+$/
+          :caps
+        when /^\p{Lower}+$/
+          :lower
         else
           :other
         end

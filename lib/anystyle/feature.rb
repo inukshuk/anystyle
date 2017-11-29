@@ -16,13 +16,16 @@ module AnyStyle
       self.class.feature_name
     end
 
-    # TODO sequence features should be called just once
-    def sequence?
-      false
-    end
-
     def elicit(token, alpha, offset, sequence)
       raise NotImplementedError
+    end
+
+    def next(offset, sequence)
+      sequence[offset + 1]
+    end
+
+    def prev(offset, sequence)
+      offset == 0 ? nil : sequence[offset - 1]
     end
   end
 end
