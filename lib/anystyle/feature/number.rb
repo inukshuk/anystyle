@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
   class Feature
     class Number < Feature
       # TODO check/improve patterns

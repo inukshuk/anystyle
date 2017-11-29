@@ -6,7 +6,7 @@ require 'anystyle/parser/version'
 
 Gem::Specification.new do |s|
   s.name        = 'anystyle-parser'
-  s.version     = Anystyle::Parser::VERSION.dup
+  s.version     = AnyStyle::Parser::VERSION.dup
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Sylvester Keil']
   s.email       = ['http://sylvester.keil.or.at']
@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.executables  = []
   s.require_path = 'lib'
 
-  s.rdoc_options      = %w{--line-numbers --inline-source --title "Anystyle\ Parser" --main README.md}
+  s.rdoc_options      = %w{--line-numbers --inline-source --title "AnyStyle\ Parser" --main README.md}
   s.extra_rdoc_files  = %w{README.md LICENSE}
 
 end

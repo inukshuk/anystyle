@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
   describe "Category Feature" do
     let(:f) { Feature::Category.new }
     let(:r) { Feature::Partial.new reverse: true }

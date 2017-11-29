@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
   class Feature
     class Affix < Feature
       attr_reader :size

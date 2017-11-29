@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-module Anystyle::Parser
+module AnyStyle::Parser
   describe Parser do
 
     it { should_not be nil }

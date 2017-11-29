@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
   class Feature
     class PubType < Feature
       # TODO sequence or token feature?

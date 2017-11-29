@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
 
   def self.parse(*arguments)
     Parser::Parser.instance.parse(*arguments)

@@ -20,8 +20,8 @@ data = data * 100
 
 data = data.split("\n")
 
-Anystyle::Parser::Feature.dictionary
-parser = Anystyle::Parser::Parser.instance
+AnyStyle::Parser::Feature.dictionary
+parser = AnyStyle::Parser::Parser.instance
 
 n, k = 100, 5
 
@@ -55,7 +55,7 @@ x = 1.step(n,k).to_a
 
 Gnuplot.open do |gp|
 	Gnuplot::Plot.new(gp) do |plot|
-		plot.title 'Anystyle Parser Benchmark'
+		plot.title 'AnyStyle Parser Benchmark'
 		plot.ylabel 't'
 		plot.xlabel 'n'
 

@@ -1,4 +1,4 @@
-module Anystyle
+module AnyStyle
   describe "Number Feature" do
     let(:f) { Feature::Number.new }
 
