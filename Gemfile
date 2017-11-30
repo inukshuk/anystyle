@@ -12,7 +12,7 @@ end
 
 group :coverage do
   gem 'simplecov', require: false
-  gem 'coveralls', require: false
+  gem 'coveralls', require: false if ENV['CI']
 end
 
 group :debug do
@@ -25,7 +25,5 @@ group :profile do
 end
 
 group :extra do
-	gem 'autotest-fsevent', require: false
   gem 'yard'
-	gem 'ZenTest'
 end
