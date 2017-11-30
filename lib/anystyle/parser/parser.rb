@@ -60,7 +60,7 @@ module AnyStyle
           Feature::Category.new,
           Feature::Affix.new,
           Feature::Affix.new(suffix: true),
-          Feature::Downcase.new,
+          Feature::Canonical.new,
           Feature::Caps.new,
           Feature::Number.new,
           Feature::Dictionary.new(dictionary: @dictionary),

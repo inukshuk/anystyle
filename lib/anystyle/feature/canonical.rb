@@ -1,11 +1,11 @@
 module AnyStyle
   class Feature
-    class Downcase < Feature
+    class Canonical < Feature
       def elicit(_, alpha, *args)
         if alpha.empty?
           :BLANK
         else
-          alpha.downcase
+          canonize alpha
         end
       end
     end

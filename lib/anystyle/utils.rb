@@ -6,9 +6,21 @@ module AnyStyle
     rescue LoadError
       # ignore
     end
+  end
 
-    def transliterate(string)
-      string.unicode_normalize(:nfd).gsub(/\p{Mark}/, '')
+  module UnicodeUtils
+    def scrub(string, blacklist: /[\p{^Alnum}\p{Lm}]/)
+      string.scrub.gsub(blacklist, '')
+    end
+
+    def transliterate(string, form: :nfkd)
+      string
+        .unicode_normalize(form)
+        .gsub(/\p{Mark}/, '')
+    end
+
+    def canonize(string)
+      scrub(transliterate(string)).downcase
     end
   end
 
