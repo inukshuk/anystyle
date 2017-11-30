@@ -11,7 +11,7 @@ require 'rake/clean'
 
 $:.unshift(File.join(File.dirname(__FILE__), './lib'))
 
-require 'anystyle/parser/version'
+require 'anystyle/version'
 
 task :default
 task :build => [:clean] do
@@ -19,15 +19,15 @@ task :build => [:clean] do
 end
 
 task :release => [:build] do
-  system "git tag #{Anystyle::Parser::VERSION}"
-  system "gem push anystyle-parser-#{Anystyle::Parser::VERSION}.gem"
+  system "git tag #{AnyStyle::VERSION}"
+  system "gem push anystyle-parser-#{AnyStyle::VERSION}.gem"
 end
 
 task :check_warnings do
   $VERBOSE = true
   require 'anystyle/parser'
 
-  puts Anystyle::Parser::VERSION
+  puts AnyStyle::VERSION
 end
 
 require 'rspec/core'
@@ -36,16 +36,13 @@ RSpec::Core::RakeTask.new(:spec) do |spec|
   spec.pattern = FileList['spec/**/*_spec.rb']
 end
 
-require 'cucumber/rake/task'
-Cucumber::Rake::Task.new(:features)
-
 begin
   require 'coveralls/rake/task'
   Coveralls::RakeTask.new
   task :test_with_coveralls => [:spec, 'coveralls:push']
 rescue LoadError
   # ignore
-end
+end if ENV['CI']
 
 task :default => :spec
 
@@ -56,12 +53,12 @@ rescue LoadError
   # ignore
 end
 
-desc 'Run an IRB session with Anystyle-Parser loaded'
+desc 'Run an IRB session with AnyStyle loaded'
 task :console, [:script] do |t, args|
   ARGV.clear
 
   require 'irb'
-  require 'anystyle/parser'
+  require 'anystyle'
 
   IRB.conf[:SCRIPT] = args.script
   IRB.start
