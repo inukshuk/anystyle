@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('bibtex-ruby', '~>4.0')
   s.add_runtime_dependency('builder', '>=3.0', '<4.0')
   s.add_runtime_dependency('wapiti', '~>0.1')
-  s.add_runtime_dependency('namae', '~>0.9')
+  s.add_runtime_dependency('namae', '~>1.0')
 
   s.files        = `git ls-files`.split("\n").reject { |path|
     path.start_with?('.')
