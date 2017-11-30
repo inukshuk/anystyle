@@ -1,4 +1,6 @@
 module AnyStyle
+  maybe_require 'language_detector'
+
   module Parser
 
     class Parser
@@ -20,15 +22,6 @@ module AnyStyle
 
       @defaults[:training_data].untaint
 
-      # TODO move to instance
-      begin
-        require 'language_detector'
-        @language_detector = LanguageDetector.new
-
-      rescue LoadError
-        # No language detection
-      end
-
       class << self
 
         attr_reader :defaults, :formats
@@ -40,12 +33,6 @@ module AnyStyle
         # Returns a default parser instance
         def instance
           @instance ||= new
-        end
-
-        # TODO move to instance
-        def language(string)
-          return unless @language_detector
-          @language_detector.detect string
         end
       end
 
@@ -71,6 +58,10 @@ module AnyStyle
         ]
 
         reload
+
+        if defined?(LanguageDetector)
+          @lang_detector = LanguageDetector.new
+        end
 
         @normalizer = Normalizer.instance
       end
@@ -190,6 +181,10 @@ module AnyStyle
         model.label(prepare(input, true))
       end
 
+      def language(string)
+        @lang_detector.detect string
+      end
+
       def normalize(hash)
         hash.keys.each do |label|
           begin
@@ -204,13 +199,15 @@ module AnyStyle
       end
 
       def localize(hash)
-        return hash if hash.has_key?(:language)
+        return hash if @lang_detector.nil? || hash.has_key?(:language)
 
-        text = hash.values_at(
+        sample = hash.values_at(
           :title, :booktitle, :location, :publisher
-        ).compact.join(' ')
+        ).join(' ')
 
-        hash[:language] = Parser.language(text) unless text.empty?
+        unless sample.empty?
+          hash[:language] = @lang_detector.detect(sample)
+        end
 
         hash
       end
