@@ -6,12 +6,16 @@ module AnyStyle
       attr_reader :available
 
       def inherited(normalizer)
-        available[normalizer.name] = normalizer
+        available[normalizer.key] = normalizer
+      end
+
+      def key
+        @key || name.downcase.intern
       end
     end
 
     def name
-      self.class.name.downcase.intern
+      self.class.key
     end
 
     def normalize

@@ -6,12 +6,16 @@ module AnyStyle
       attr_reader :available
 
       def inherited(feature)
-        available[feature.name] = feature
+        available[feature.key] = feature
+      end
+
+      def key
+        @key || name.downcase.intern
       end
     end
 
-    def name
-      self.class.name.downcase.intern
+    def key
+      self.class.key
     end
 
     def elicit(token, alpha, offset, sequence)
