@@ -5,8 +5,6 @@ module AnyStyle
 
     class Normalizer
 
-      include Singleton
-
       MONTH = Hash.new do |h,k|
         case k
         when /jan/i

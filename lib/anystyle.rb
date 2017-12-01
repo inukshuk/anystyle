@@ -1,5 +1,3 @@
-# TODO remove
-require 'singleton'
 # TODO make optional
 require 'bibtex'
 

@@ -63,7 +63,7 @@ module AnyStyle
           @lang_detector = LanguageDetector.new
         end
 
-        @normalizer = Normalizer.instance
+        @normalizer = Normalizer.new
       end
 
       def reload

@@ -4,45 +4,45 @@ module AnyStyle
   module Parser
 
     describe "Normalizer" do
-      let(:n) { Normalizer.instance }
+      let(:n) { Normalizer.new }
 
       describe "#tokenize_names" do
 
         it "tokenizes 'A B'" do
-          expect(Normalizer.instance.normalize_names('A B')).to eq('B, A.')
+          expect(n.normalize_names('A B')).to eq('B, A.')
         end
 
         it "tokenizes 'A, B'" do
-          expect(Normalizer.instance.normalize_names('A, B')).to eq('A, B.')
+          expect(n.normalize_names('A, B')).to eq('A, B.')
         end
 
         it "tokenizes 'A, jr., Bbb'" do
-          expect(Normalizer.instance.normalize_names('A, jr., B')).to eq('A, jr., B.')
+          expect(n.normalize_names('A, jr., B')).to eq('A, jr., B.')
         end
 
         it "tokenizes 'A, B, jr.'" do
-          expect(Normalizer.instance.normalize_names('A, B, jr.')).to eq('A, jr., B.')
+          expect(n.normalize_names('A, B, jr.')).to eq('A, jr., B.')
         end
 
         it "tokenizes 'A, B, C, D'" do
-          expect(Normalizer.instance.normalize_names('A, B, C, D')).to eq('A, B. and C, D.')
+          expect(n.normalize_names('A, B, C, D')).to eq('A, B. and C, D.')
         end
 
         it "tokenizes 'A, B, C'" do
-          expect(Normalizer.instance.normalize_names('A, B, C')).to eq('A, B. and C.')
+          expect(n.normalize_names('A, B, C')).to eq('A, B. and C.')
         end
 
         it "tokenizes 'Aa Bb, C.'" do
-          expect(Normalizer.instance.normalize_names('Aa Bb, C.')).to eq('Aa Bb, C.')
+          expect(n.normalize_names('Aa Bb, C.')).to eq('Aa Bb, C.')
         end
 
         it "tokenizes 'Plath, L.C., Asgaard, G., ... Botros, N.'" do
-          expect(Normalizer.instance.normalize_names('Plath, L.C., Asgaard, G., ... Botros, N.')).to eq('Plath, L.C. and Asgaard, G. and Botros, N.')
-          expect(Normalizer.instance.normalize_names('Plath, L.C., Asgaard, G., … Botros, N.')).to eq('Plath, L.C. and Asgaard, G. and Botros, N.')
+          expect(n.normalize_names('Plath, L.C., Asgaard, G., ... Botros, N.')).to eq('Plath, L.C. and Asgaard, G. and Botros, N.')
+          expect(n.normalize_names('Plath, L.C., Asgaard, G., … Botros, N.')).to eq('Plath, L.C. and Asgaard, G. and Botros, N.')
         end
 
         it "tokenizes 'Aa Bb, Cc Dd, and E F G'" do
-          expect(Normalizer.instance.normalize_names('Aa Bb, Cc Dd, and E F G')).to eq('Bb, Aa and Dd, Cc and G, E.F.')
+          expect(n.normalize_names('Aa Bb, Cc Dd, and E F G')).to eq('Bb, Aa and Dd, Cc and G, E.F.')
         end
 
         [
@@ -66,7 +66,7 @@ module AnyStyle
           ['Yang, Q., Mudambi, R., & Meyer, K. E.', 'Yang, Q. and Mudambi, R. and Meyer, K.E.']
         ].each do |name, normalized|
           it "tokenizes #{name.inspect}" do
-            expect(Normalizer.instance.normalize_names(name)).to eq(normalized)
+            expect(n.normalize_names(name)).to eq(normalized)
           end
         end
 
@@ -171,15 +171,15 @@ module AnyStyle
 
       describe 'date extraction' do
         it 'extracts month and year from a string like "(July 2009)"' do
-          h = Normalizer.instance.normalize_date(:date => ['(July 2009)'])
+          h = n.normalize_date(:date => ['(July 2009)'])
           expect(h[:date]).to eq('2009-07')
         end
 
         it 'extracts month and year from a string like "(1997 Sept.)"' do
-          h = Normalizer.instance.normalize_date(:date => '(1997 Sept.)')
+          h = n.normalize_date(:date => '(1997 Sept.)')
           expect(h[:date]).to eq('1997-09')
 
-          h = Normalizer.instance.normalize_date(:date => ['(1997 Okt.)'])
+          h = n.normalize_date(:date => ['(1997 Okt.)'])
           expect(h[:date]).to eq('1997-10')
         end
 
