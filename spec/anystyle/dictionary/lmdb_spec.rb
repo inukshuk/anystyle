@@ -22,5 +22,5 @@ module AnyStyle
     it "can be opened" do
       expect(-> { dict.open }).to change { dict.open? }
     end
-  end
+  end if defined?(::LMDB)
 end

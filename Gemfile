@@ -5,9 +5,6 @@ group :development, :test do
   gem 'rake'
   gem 'rspec', '~>3.0'
   gem 'language_detector', github: 'feedbackmine/language_detector'
-	gem 'lmdb'
-  gem 'redis'
-  gem 'redis-namespace'
 end
 
 group :coverage do
@@ -25,5 +22,8 @@ group :profile do
 end
 
 group :extra do
+	gem 'lmdb'
+  gem 'redis'
+  gem 'redis-namespace'
   gem 'yard'
 end

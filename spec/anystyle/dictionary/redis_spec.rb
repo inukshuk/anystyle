@@ -6,5 +6,5 @@ module AnyStyle
       expect(dict).to be_a(Dictionary)
       expect(dict).to be_instance_of(Dictionary::Redis)
     end
-  end
+  end if defined?(::Redis)
 end
