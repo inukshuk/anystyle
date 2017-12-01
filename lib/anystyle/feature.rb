@@ -16,7 +16,7 @@ module AnyStyle
 
     include UnicodeUtils
 
-    def key
+    def name
       self.class.key
     end
 
