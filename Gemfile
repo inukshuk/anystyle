@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 gemspec
 
 group :development, :test do
+  gem 'wapiti', github: 'inukshuk/wapiti-ruby'
   gem 'rake'
   gem 'rspec', '~>3.0'
   gem 'language_detector', github: 'feedbackmine/language_detector'
