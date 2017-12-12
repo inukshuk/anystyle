@@ -4,6 +4,7 @@ module AnyStyle
   module Parser
 
     class Parser
+      include StringUtils
 
       @formats = [:bibtex, :hash, :normalized, :citeproc, :xml, :tags, :raw].freeze
 
@@ -14,9 +15,7 @@ module AnyStyle
         :threads => 4,
         :separator => /[[:space:]]+|\b(\d[^[:space:]]*:)/,
         :tagged_separator => /[[:space:]]+|(<\/?[^>]+>)/,
-        :strip => /[^[:alnum:]]/,
         :format => :normalized,
-        :xml_entities => Hash[*%w{ &amp; & &lt; < &gt; > &apos; ' &quot; " }],
         :training_data => File.expand_path('../../../../res/train.txt', __FILE__)
       }.freeze
 
@@ -150,7 +149,7 @@ module AnyStyle
       # Expands the passed-in token string by appending a space separated list
       # of all features for the token.
       def expand(token, sequence = [], offset = 0, label = nil)
-        f = features_for(token, strip(token), offset, sequence)
+        f = features_for(token, scrub(token), offset, sequence)
         f.unshift(token)
         f.push(label) unless label.nil?
         f.join(' ')
@@ -276,20 +275,6 @@ module AnyStyle
 
       def features_for(*arguments)
         features.map { |f| f.elicit(*arguments) }
-      end
-
-      def strip(token)
-        token.gsub(options[:strip], '')
-      end
-
-      def decode_xml_text(string)
-        string.gsub(/&(amp|gt|lt);/) do |match|
-          options[:xml_entities][match]
-        end
-      end
-
-      def encode_xml_text(string)
-        string.encode string.encoding, :xml => :text
       end
 
       def format_bibtex(labels)

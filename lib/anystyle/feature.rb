@@ -1,5 +1,7 @@
 module AnyStyle
   class Feature
+    include StringUtils
+
     @available = {}
 
     class << self
@@ -13,8 +15,6 @@ module AnyStyle
         @key || name.downcase.intern
       end
     end
-
-    include UnicodeUtils
 
     def name
       self.class.key
