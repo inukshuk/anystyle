@@ -17,7 +17,7 @@ module AnyStyle
         :strip => /[^[:alnum:]]/,
         :format => :normalized,
         :xml_entities => Hash[*%w{ &amp; & &lt; < &gt; > &apos; ' &quot; " }],
-        :training_data => File.expand_path('../../../../resources/train.txt', __FILE__)
+        :training_data => File.expand_path('../../../../res/train.txt', __FILE__)
       }.freeze
 
       @defaults[:training_data].untaint

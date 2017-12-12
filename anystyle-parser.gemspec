@@ -24,9 +24,9 @@ Gem::Specification.new do |s|
 
   s.files        = `git ls-files`.split("\n").reject { |path|
     path.start_with?('.')
-  } - Dir['resources/**/*']
+  } - Dir['res/**/*']
 
-  s.test_files   = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.test_files   = `git ls-files -- spec/*`.split("\n")
   s.executables  = []
   s.require_path = 'lib'
 

@@ -77,7 +77,6 @@ Usage
 -----
 
 ### Parsing
-
 You can access the main Anystyle-Parser instance at `Anystyle.parser`;
 the `#parse` method is also available via `Anystyle.parse`. For more complex
 requirements (e.g., if you need multiple Parser instances simultaneously) you
@@ -91,9 +90,9 @@ Anystyle-Parser are `#parse` and `#train` that both accept two arguments.
 
 `#parse` parses the passed-in input (either a filename, your reference strings,
 or an array of your reference strings; files are only opened if the string is
-not tainted) and returns the parsed data in the
-format specified as the second argument (supported formats include: *:hash*,
-*:bibtex*, *:citeproc*, *:tags*, and *:raw*).
+not tainted) and returns the parsed data in the format specified as the second
+argument (supported formats include: *:hash*, *:bibtex*, *:citeproc*, *:tags*,
+and *:raw*).
 
 `#train` allows you to easily train the Parser's CRF model. The first argument
 is either a filename (if the string is not tainted) or your data as a string;
@@ -185,24 +184,13 @@ Or, for extra credit, clone the Anystyle-Parser repository, write a failing
 example, fix the bug and submit a pull request.
 
 If you want to contribute tagged references, please either add them to
-`resources/train.txt` or create a new file in the `resources` directory
+`res/train.txt` or create a new file in the `res` directory
 and open a pull request on GitHub.
 
 
 License
 -------
 Copyright 2011-2017 Sylvester Keil. All rights reserved.
-
-Some of the code in Anystyle-Parser's post processing (normalizing) routines
-was originally based on the source code of FreeCite and is
-
-Copyright 2008 Public Display Inc.
-
-The CRF template is a modified version of ParsCit's original template
-
-Copyright 2008, 2009, 2010, 2011 Min-Yen Kan,
-Isaac G. Councill, C. Lee Giles, Minh-Thang Luong and Huy Nhat Hoang
-Do.
 
 Anystyle-Parser is distributed under a BSD-style license.
 See LICENSE for details.
