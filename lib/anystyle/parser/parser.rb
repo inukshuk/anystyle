@@ -96,6 +96,10 @@ module AnyStyle
         end
       end
 
+      def check(input)
+        model.check(prepare(input, true))
+      end
+
       # Returns an array of tokens for each line of input.
       #
       # If the passed-in string is marked as being tagged, extracts labels
