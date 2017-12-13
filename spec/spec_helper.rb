@@ -20,7 +20,7 @@ require 'anystyle'
 AnyStyle::Dictionary.defaults[:adapter] = :memory
 
 module Fixtures
-	PATH = File.expand_path('../fixtures', __FILE__)
+  PATH = File.expand_path('../fixtures', __FILE__).untaint
 
 	Dir[File.join(PATH, '*.rb')].each do |fixture|
 		require fixture

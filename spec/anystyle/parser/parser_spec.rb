@@ -149,7 +149,9 @@ module AnyStyle::Parser
     end
 
     describe "#train" do
-      let(:dps) { File.open(fixture_path('train_dps.txt'), 'r:UTF-8').read.split(/\n/) }
+      let(:dps) {
+        File.open(fixture_path('dps.txt'), 'r:UTF-8').read.split(/\n/)
+      }
 
       describe "a pristine model" do
         before(:each) { subject.train '', true }

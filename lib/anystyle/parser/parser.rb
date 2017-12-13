@@ -1,6 +1,9 @@
 module AnyStyle
   maybe_require 'language_detector'
 
+  DAT = File.expand_path('../../data', __FILE__).untaint
+  RES = File.expand_path('../../../../res', __FILE__).untaint
+
   module Parser
 
     class Parser
@@ -9,17 +12,15 @@ module AnyStyle
       @formats = [:bibtex, :hash, :normalized, :citeproc, :xml, :tags, :raw].freeze
 
       @defaults = {
-        :model => File.expand_path('../../data/anystyle.mod', __FILE__),
-        :pattern => File.expand_path('../../data/anystyle.pat', __FILE__),
+        :model => File.join(DAT, 'anystyle.mod'),
+        :pattern => File.join(DAT, 'anystyle.pat'),
         :compact => true,
         :threads => 4,
         :separator => /[[:space:]]+|\b(\d[^[:space:]]*:)/,
         :tagged_separator => /[[:space:]]+|(<\/?[^>]+>)/,
         :format => :normalized,
-        :training_data => File.expand_path('../../../../res/train.txt', __FILE__)
+        :training_data => File.join(RES, 'train.txt')
       }.freeze
-
-      @defaults[:training_data].untaint
 
       class << self
 
