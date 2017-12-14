@@ -2,8 +2,9 @@
 require 'bibtex'
 
 require 'builder'
-require 'wapiti'
+require 'forwardable'
 require 'namae'
+require 'wapiti'
 
 require 'anystyle/version'
 require 'anystyle/errors'

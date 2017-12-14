@@ -20,14 +20,23 @@ module AnyStyle
       value.to_s <=> other.to_s
     end
 
-    def to_s(separator: ' ', **options)
-      to_a(**options).join(separator)
+    def to_s(delimiter: ' ', **options)
+      to_a(**options).join(delimiter)
     end
 
     def to_a(expand: false, tag: false)
       a = [value]
-      a.concat features if (exapand and features?)
-      a << label if (tag and label?)
+
+      if expand
+        raise Error, 'cannot expand token: missing features' unless features?
+        a.concat features
+      end
+
+      if tag
+        raise Error, 'cannot tag token: missing label' unless label?
+        a << label
+      end
+
       a
     end
   end
