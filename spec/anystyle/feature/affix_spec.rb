@@ -5,15 +5,15 @@ module AnyStyle
     let(:s) { Feature::Affix.new size: 2 }
 
     it "prefix series" do
-      expect(f.elicit('England')).to eq(%w{ E En Eng Engl })
+      expect(f.observe('England')).to eq(%w{ E En Eng Engl })
     end
 
     it "suffix series" do
-      expect(r.elicit('England')).to eq(%w{ d nd and land })
+      expect(r.observe('England')).to eq(%w{ d nd and land })
     end
 
     it "custom size" do
-      expect(s.elicit('England')).to eq(%w{ E En })
+      expect(s.observe('England')).to eq(%w{ E En })
     end
   end
 end

@@ -2,7 +2,7 @@ module AnyStyle
   class Feature
     class Punctuation < Feature
       # TODO Review and use unicode category patterns
-      def elicit(token, alpha, offset, sequence)
+      def observe(token, alpha, offset, sequence)
         case token
         when /^\p{^P}+$/
           :none

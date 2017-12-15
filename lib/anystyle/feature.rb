@@ -20,7 +20,7 @@ module AnyStyle
       self.class.key
     end
 
-    def elicit(token, alpha, offset, sequence)
+    def observe(token, alpha, offset, sequence)
       raise NotImplementedError
     end
 

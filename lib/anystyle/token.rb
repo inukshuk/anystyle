@@ -2,14 +2,14 @@ module AnyStyle
   class Token
     include Comparable
 
-    attr_accessor :value, :label, :features
+    attr_accessor :value, :label, :observations
 
-    def initialize(value: '', label: '', features: [])
-      @value, @label, @features = value, label, features
+    def initialize(value: '', label: '', observations: [])
+      @value, @label, @observations = value, label, observations
     end
 
-    def features?
-      !(features.nil? || features.empty?)
+    def observations?
+      !(observations.nil? || observations.empty?)
     end
 
     def label?
@@ -28,12 +28,14 @@ module AnyStyle
       a = [value]
 
       if expand
-        raise Error, 'cannot expand token: missing features' unless features?
-        a.concat features
+        raise Error,
+          'cannot expand token: missing observations' unless observations?
+        a.concat observations
       end
 
       if tag
-        raise Error, 'cannot tag token: missing label' unless label?
+        raise Error,
+          'cannot tag token: missing label' unless label?
         a << label
       end
 

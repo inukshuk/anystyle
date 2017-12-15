@@ -7,7 +7,7 @@ module AnyStyle
         @precision = precision
       end
 
-      def elicit(token, alpha, offset, sequence)
+      def observe(token, alpha, offset, sequence)
         ((offset.to_f / sequence.length) * precision).round
       end
     end

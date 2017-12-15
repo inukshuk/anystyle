@@ -7,7 +7,7 @@ module AnyStyle
         @size, @suffix = size, (suffix || !prefix)
       end
 
-      def elicit(token, *args)
+      def observe(token, *args)
         build(extract(token)) { |chars| join(chars) }
       end
 

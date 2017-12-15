@@ -1,7 +1,7 @@
 module AnyStyle
   class Feature
     class Keyword < Feature
-      def elicit(token, alpha, *args)
+      def observe(token, alpha, *args)
         case alpha
         when /^(ed|editor|editors|eds|edited)$/i,
              /^(hrsg|herausgeber)$/i

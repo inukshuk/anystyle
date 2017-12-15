@@ -1,7 +1,7 @@
 module AnyStyle
   class Feature
     class Canonical < Feature
-      def elicit(_, alpha, *args)
+      def observe(_, alpha, *args)
         if alpha.empty?
           :BLANK
         else

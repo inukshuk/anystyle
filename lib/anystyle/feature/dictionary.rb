@@ -7,7 +7,7 @@ module AnyStyle
         @dictionary = dictionary
       end
 
-      def elicit(token, alpha, offset, sequence)
+      def observe(token, alpha, offset, sequence)
         dictionary.tags(alpha.downcase)
       end
     end

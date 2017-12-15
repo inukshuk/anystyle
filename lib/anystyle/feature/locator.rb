@@ -3,7 +3,7 @@ require 'uri'
 module AnyStyle
   class Feature
     class Locator < Feature
-      def elicit(token, *args)
+      def observe(token, *args)
         case token
         when /ISBN|Url|URL/
         when /10.\d{4,9}\/[-._;()\/:A-Z0-9]+/i

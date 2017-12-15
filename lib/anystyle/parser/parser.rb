@@ -279,7 +279,7 @@ module AnyStyle
       end
 
       def features_for(*arguments)
-        features.map { |f| f.elicit(*arguments) }
+        features.map { |f| f.observe(*arguments) }
       end
 
       def format_bibtex(labels)

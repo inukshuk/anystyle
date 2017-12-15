@@ -7,7 +7,7 @@ module AnyStyle
         @index = index
       end
 
-      def elicit(token, *args)
+      def observe(token, *args)
         categorize(token.chars[index])
       end
 
