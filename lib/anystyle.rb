@@ -1,7 +1,6 @@
-# TODO make optional
-require 'bibtex'
+require 'bibtex' # TODO optional
+require 'builder' # TODO remove
 
-require 'builder'
 require 'forwardable'
 require 'namae'
 require 'wapiti'
@@ -10,9 +9,6 @@ require 'anystyle/version'
 require 'anystyle/errors'
 require 'anystyle/utils'
 require 'anystyle/dictionary'
-require 'anystyle/token'
-require 'anystyle/sequence'
-require 'anystyle/dataset'
 
 require 'anystyle/feature'
 require 'anystyle/feature/affix'

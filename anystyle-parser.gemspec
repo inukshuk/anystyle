@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.2'
 
   s.add_runtime_dependency('bibtex-ruby', '~>4.0')
-  s.add_runtime_dependency('builder', '~>3.2')
   #s.add_runtime_dependency('wapiti', '~>1.0')
   s.add_runtime_dependency('namae', '~>1.0')
 
