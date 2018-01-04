@@ -1,4 +1,12 @@
 module AnyStyle
+  # The dictionary allows the identification of strings as belonging to
+  # classes of entity. For example, "september" is a month, "london"
+  # is a place, "may" is a month and a woman's name.
+  # 
+  # The default dictionary source is contained in lib/anystyle/data in a
+  # zipped format. This is turned into a hash, whose keys are the known
+  # names and whose values are integers representing the membership of
+  # known classes of entities.
   class Dictionary
     @tags = [
       :name, :month, :place, :publisher, :journal
@@ -115,8 +123,12 @@ module AnyStyle
             end
           else
             key = line.split(/\s+(\d+\.\d+)\s*$/)[0]
+            # Get the current value, and test if we have seen this token
+            # in this mode before. If not, update.
             value = get key
-            put key, value + mode unless value > mode
+            if ( value & mode ).zero?
+              put key, value | mode
+            end
           end
         end
       end
