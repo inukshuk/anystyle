@@ -1,4 +1,12 @@
 module AnyStyle
+  # The dictionary allows the identification of strings as belonging to
+  # classes of entity. For example, "september" is a month, "london"
+  # is a place, "may" is a month and a woman's name.
+  # 
+  # The default dictionary source is contained in lib/anystyle/data in a
+  # zipped format. This is turned into a hash, whose keys are the known
+  # names and whose values are integers representing the membership of
+  # known classes of entities.
   class Dictionary
     @tags = [
       :name, :month, :place, :publisher, :journal
