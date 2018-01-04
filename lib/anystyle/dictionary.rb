@@ -123,8 +123,12 @@ module AnyStyle
             end
           else
             key = line.split(/\s+(\d+\.\d+)\s*$/)[0]
+            # Get the current value, and test if we have seen this token
+            # in this mode before. If not, update.
             value = get key
-            put key, value + mode unless value > mode
+            if ( value & mode ).zero?
+              put key, value | mode
+            end
           end
         end
       end
