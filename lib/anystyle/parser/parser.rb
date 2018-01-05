@@ -43,10 +43,10 @@ module AnyStyle
         @dictionary = Dictionary.create.open
 
         @features = [
+          Feature::Canonical.new,
           Feature::Category.new,
           Feature::Affix.new,
           Feature::Affix.new(suffix: true),
-          Feature::Canonical.new,
           Feature::Caps.new,
           Feature::Number.new,
           Feature::Dictionary.new(dictionary: @dictionary),

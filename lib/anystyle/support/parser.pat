@@ -1,70 +1,54 @@
-# Feature numbers
-# 0       1 2 3  4   5    6 7  8   9    10      11      12   13 14      15       16    17           18         19   20 21     22
-# England a E En Eng Engl d nd and land england initial none 20 no-name no-month place no-publisher no-journal none 0  others 0
+*
 
-u:%x[-3,0]
-u:%x[-2,0]
-u:%x[-1,0]
-u:%x[0,0]
-u:%x[1,0]
-u:%x[2,0]
-u:%x[3,0]
-u:%x[-1,0]/%x[0,0]
-u:%x[0,0]/%x[1,0]
+U:Tok-1 X=%x[ 0,0]
+U:tok-1 X=%x[ 0,1]
 
-# last character type
-u:%x[0,1]
-u:%x[-1,1]
+U:tok-1LL=%X[-2,0]
+U:tok-1 L=%X[-1,0]
+U:tok-1 R=%X[ 1,0]
+U:tok-1RR=%X[ 2,0]
 
-# first 1-4 characters
-u:%x[0,2]
-u:%x[0,3]
-u:%x[0,4]
-u:%x[0,5]
+U:tok-2 L=%X[-1,0]/%X[ 0,0]
+U:tok-2 R=%X[ 0,0]/%X[ 1,0]
 
-# last 1-4 characters
-u:%x[0,6]
-u:%x[0,7]
-u:%x[0,8]
-u:%x[0,9]
+*:Fst-1 X=%x[ 0,2]
+*:Fst-1 R=%x[ 1,2]
+*:Lst-1 L=%x[-1,3]
+*:Lst-1 X=%x[ 0,3]
 
-# no punctuation lower-case
-u:%x[-2,10]
-u:%x[-1,10]
-u:%x[0,10]
-u:%x[1,10]
-u:%x[2,10]
+*:Pre-1 X=%x[ 0,4]
+*:Pre-2 X=%x[ 0,5]
+*:Pre-3 X=%x[ 0,6]
+*:Pre-4 X=%x[ 0,7]
 
-# capitalization
-u:%x[0,11]
+*:Suf-1 X=%x[ 0,8]
+*:Suf-2 X=%x[ 0,9]
+*:Suf-3 X=%x[ 0,10]
+*:Suf-4 X=%x[ 0,11]
 
-# numbers
-u:%x[-1,12]
-u:%x[0,12]
-u:%x[1,12]
-u:%x[-1,12]/%x[0,12]
-u:%x[0,12]/%x[1,12]
+U:Fst-2 X=%x[ 0,4]/%x[ 0,2]
+U:Lst-2 X=%x[ 0,8]/%x[ 0,3]
 
-# dictionary
-u:%x[0,13]
-u:%x[0,14]
-u:%x[0,15]
-u:%x[0,16]
-u:%x[0,17]
-u:%x[0,18]
+*:Cap-1 L=%x[-1,12]
+*:Cap-1 X=%x[ 0,12]
+*:Cap-1 R=%x[ 1,12]
 
-# possible editor
-u:%x[0,19]
+*:Num-1 L=%x[-1,13]
+*:Num-1 X=%x[ 0,13]
+*:Num-1 R=%x[ 1,13]
 
-# position
-u:%x[0,20]
+U:Dct-1 X=%x[ 0,14]
+U:Dct-2 X=%x[ 0,15]
+U:Dct-3 X=%x[ 0,16]
+U:Dct-4 X=%x[ 0,17]
+U:Dct-5 X=%x[ 0,18]
+U:Dct-6 X=%x[ 0,19]
 
-# punctuation
-u:%x[0,21]
+U:Key-1 X=%x[ 0,20]
+U:Pos-1 X=%x[ 0,21]
 
-# reference
-#u:%x[0,22]
-#u:%x[0,22]/%x[1,12]
+*:Pct-1 L=%x[-1,22]
+*:Pct-1 X=%x[ 0,22]
+*:Pct-1 R=%x[ 1,22]
 
-# bigram
-b
+#U:Loc-1 X=%x[ 0,23]
