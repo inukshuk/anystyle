@@ -115,8 +115,7 @@ module AnyStyle
             end
           else
             key = line.split(/\s+(\d+\.\d+)\s*$/)[0]
-            value = get key
-            put key, value + mode unless value > mode
+            put key, get(key) | mode
           end
         end
       end

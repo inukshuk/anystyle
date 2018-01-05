@@ -9,7 +9,7 @@ module AnyStyle
   end
 
   def self.dictionary
-    Parser::Dictionary.instance
+    parser.dictionary
   end
 
   module Parser
