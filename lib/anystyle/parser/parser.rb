@@ -1,7 +1,7 @@
 module AnyStyle
   maybe_require 'language_detector'
 
-  DAT = File.expand_path('../../data', __FILE__).untaint
+  SUPPORT = File.expand_path('../../support', __FILE__).untaint
   RES = File.expand_path('../../../../res', __FILE__).untaint
 
   module Parser
@@ -12,8 +12,8 @@ module AnyStyle
       @formats = [:bibtex, :hash, :citeproc, :wapiti].freeze
 
       @defaults = {
-        model: File.join(DAT, 'anystyle.mod'),
-        pattern: File.join(DAT, 'anystyle.pat'),
+        model: File.join(SUPPORT, 'parser.mod'),
+        pattern: File.join(SUPPORT, 'parser.pat'),
         compact: true,
         threads: 4,
         separator: /(?:\r?\n)+/,
