@@ -94,33 +94,33 @@ module AnyStyle
       # Prepares the passed-in string for processing by a CRF tagger. The
       # string is split into separate lines; each line is tokenized and
       # expanded. Returns a Wapiti::Dataset.
-      def prepare(input,
-        separator: options[:separator],
-        delimiter: options[:delimiter],
-        **opts
-      )
-        dataset = case input
-          when Wapiti::Dataset
-            input
-          when String
-            if !input.tainted? && input.length < 1024 && File.exists?(input)
-              Wapiti::Dataset.open(input, separator: separator, delimiter: delimiter, **opts)
-            else
-              Wapiti::Dataset.parse(input, separator: separator, delimiter: delimiter, **opts)
-            end
-          else
-            Wapiti::Dataset.parse(input, separator: separator, delimiter: delimiter, **opts)
-          end
+      def prepare(input, **opts)
+        opts[:separator] ||= options[:separator]
+        opts[:delimiter] ||= options[:delimiter]
 
+        case input
+        when Wapiti::Dataset
+          expand input
+        when String
+          if !input.tainted? && input.length < 1024 && File.exists?(input)
+            expand Wapiti::Dataset.open(input, opts)
+          else
+            expand Wapiti::Dataset.parse(input, opts)
+          end
+        else
+          expand Wapiti::Dataset.parse(input, opts)
+        end
+      end
+
+      def expand(dataset)
         dataset.each do |seq|
           seq.tokens.each_with_index do |tok, idx|
+            alpha = scrub tok.value
             tok.observations = features.map { |f|
-              f.observe tok.value, scrub(tok.value), idx, seq
+              f.observe tok.value, alpha, idx, seq
             }
           end
         end
-
-        dataset
       end
 
       def train(input = options[:training_data], truncate: true)
