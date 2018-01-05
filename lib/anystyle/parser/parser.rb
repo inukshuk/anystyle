@@ -9,21 +9,20 @@ module AnyStyle
     class Parser
       include StringUtils
 
-      @formats = [:bibtex, :hash, :normalized, :citeproc, :xml, :tags, :raw].freeze
+      @formats = [:bibtex, :hash, :citeproc, :wapiti].freeze
 
       @defaults = {
-        :model => File.join(DAT, 'anystyle.mod'),
-        :pattern => File.join(DAT, 'anystyle.pat'),
-        :compact => true,
-        :threads => 4,
-        :separator => /[[:space:]]+|\b(\d[^[:space:]]*:)/,
-        :tagged_separator => /[[:space:]]+|(<\/?[^>]+>)/,
-        :format => :normalized,
-        :training_data => File.join(RES, 'train.txt')
+        model: File.join(DAT, 'anystyle.mod'),
+        pattern: File.join(DAT, 'anystyle.pat'),
+        compact: true,
+        threads: 4,
+        separator: /(?:\r?\n)+/,
+        delimiter: /\s+|\b(\d[^\S]*:)/,
+        format: :hash,
+        training_data: File.join(RES, 'cora.xml')
       }.freeze
 
       class << self
-
         attr_reader :defaults, :formats
 
         def load(path)
@@ -72,101 +71,65 @@ module AnyStyle
         self
       end
 
-      def parse(input, format = options[:format])
-        formatter = "format_#{format}".to_sym
-
-        raise ArgumentError, "format not supported: #{formatter}" unless
-          respond_to?(formatter, true)
-
-        send(formatter, label(input))
+      def parse(input, format: options[:format])
+        case format
+        when :wapiti
+          label(input)
+        when :hash, :bibtex, :citeproc
+          formatter = "format_#{format}".to_sym
+          send(formatter, label(input))
+        else
+          raise ArgumentError, "format not supported: #{format}"
+        end
       end
 
-      # Returns an array of label/segment pairs for each line in the passed-in string.
-      def label(input, labelled = false)
-        model.label(prepare(input, labelled)).map! do |sequence|
-          sequence.inject([]) do |ts, (token, label)|
-            token, label = token[/^\S+/], label.to_sym
-            if (prev = ts[-1]) && prev[0] == label
-              prev[1] << ' ' << token
-              ts
-            else
-              ts << [label, token]
-            end
-          end
-        end
+      def label(input)
+        model.label prepare(input)
       end
 
       def check(input)
-        model.check(prepare(input, true))
-      end
-
-      # Returns an array of tokens for each line of input.
-      #
-      # If the passed-in string is marked as being tagged, extracts labels
-      # from the string and returns an array of token/label pairs for each
-      # line of input.
-      def tokenize(string, tagged = false)
-        if tagged
-          lines(string).each_with_index.map do |s,i|
-            tt, tokens, tags = s.split(options[:tagged_separator]), [], []
-
-            tt.each do |token|
-              case token
-              when /^$/
-                # skip
-              when /^<([^\/>][^>]*)>$/
-                tags << $1
-              when /^<\/([^>]+)>$/
-                unless (tag = tags.pop) == $1
-                  raise ArgumentError, "mismatched tags on line #{i}: #{$1.inspect} (current tag was #{tag.inspect})"
-                end
-              else
-                tokens << [decode_xml_text(token), (tags[-1] || :unknown).to_sym]
-              end
-            end
-
-            tokens
-          end
-        else
-          lines(string).map { |s| s.split(options[:separator]).reject(&:empty?) }
-        end
-      end
-
-      def lines(string)
-        string.split(/[ \t]*[\n\r]\s*/)
+        model.check prepare(input, tagged: true)
       end
 
       # Prepares the passed-in string for processing by a CRF tagger. The
       # string is split into separate lines; each line is tokenized and
-      # expanded. Returns an array of sequence arrays that can be labelled
-      # by the CRF model.
-      #
-      # If the string is marked as being tagged by passing +true+ as the
-      # second argument, training labels will be extracted from the string
-      # and appended after feature expansion. The returned sequence arrays
-      # can be used for training or testing the CRF model.
-      def prepare(input, tagged = false)
-        string = input_to_s(input)
-        tokenize(string, tagged).map { |tk| tk.each_with_index.map { |(t,l),i| expand(t,tk,i,l) } }
+      # expanded. Returns a Wapiti::Dataset.
+      def prepare(input,
+        separator: options[:separator],
+        delimiter: options[:delimiter],
+        **opts
+      )
+        dataset = case input
+          when Wapiti::Dataset
+            input
+          when String
+            if !input.tainted? && input.length < 1024 && File.exists?(input)
+              Wapiti::Dataset.open(input, separator: separator, delimiter: delimiter, **opts)
+            else
+              Wapiti::Dataset.parse(input, separator: separator, delimiter: delimiter, **opts)
+            end
+          else
+            Wapiti::Dataset.parse(input, separator: separator, delimiter: delimiter, **opts)
+          end
+
+        dataset.each do |seq|
+          seq.tokens.each_with_index do |tok, idx|
+            tok.observations = features.map { |f|
+              f.observe tok.value, scrub(tok.value), idx, seq
+            }
+          end
+        end
+
+        dataset
       end
 
-
-      # Expands the passed-in token string by appending a space separated list
-      # of all features for the token.
-      def expand(token, sequence = [], offset = 0, label = nil)
-        f = features_for(token, scrub(token), offset, sequence)
-        f.unshift(token)
-        f.push(label) unless label.nil?
-        f.join(' ')
-      end
-
-      def train(input = options[:training_data], truncate = true)
+      def train(input = options[:training_data], truncate: true)
         if truncate
           @model = Wapiti::Model.new(options.reject { |k,_| k == :model })
         end
 
         unless input.nil? || input.empty?
-          @model.train(prepare(input, true))
+          @model.train prepare(input, tagged: true)
         end
 
         @model.path = options[:model]
@@ -177,12 +140,7 @@ module AnyStyle
       # truncating the current model.
       # @see train
       def learn(input)
-        train(input, false)
-      end
-
-      def test(input)
-        model.options.check!
-        model.label(prepare(input, true))
+        train(input, truncate: false)
       end
 
       def language(string)
@@ -207,7 +165,7 @@ module AnyStyle
 
         sample = hash.values_at(
           :title, :booktitle, :location, :publisher
-        ).join(' ')
+        ).flatten.join(' ')
 
         unless sample.empty?
           hash[:language] = @lang_detector.detect(sample)
@@ -260,31 +218,9 @@ module AnyStyle
 
       private
 
-      def input_to_s(input)
-        case input
-        when String
-          if !input.tainted? && input.length < 128 && File.exists?(input)
-            f = File.open(input, 'r:UTF-8')
-            f.read
-          else
-            input
-          end
-        when Array
-          input.join("\n")
-        else
-          raise ArgumentError, "invalid input: #{input.class}"
-        end
-      ensure
-        f.close unless f.nil?
-      end
-
-      def features_for(*arguments)
-        features.map { |f| f.observe(*arguments) }
-      end
-
-      def format_bibtex(labels)
+      def format_bibtex(dataset)
         b = BibTeX::Bibliography.new
-        format_normalized(labels).each do |hash|
+        format_hash(dataset).each do |hash|
           hash[:bibtex_type] = hash.delete :type
 
           hash[:type] = hash.delete :genre if hash.key?(:genre)
@@ -304,54 +240,12 @@ module AnyStyle
         b
       end
 
-      def format_raw(labels)
-        labels.map do |line|
-          line.inject([]) do |tokens, (label, segment)|
-            tokens.concat segment.split(' ').map { |token| [label, token] }
-          end
-        end
+      def format_hash(dataset)
+        dataset.map { |seq| normalize(seq.to_h(symbolize_keys: true)) }
       end
 
-      def format_hash(labels)
-        labels.map do |line|
-          line.inject({}) do |h, (label, token)|
-            if h.has_key?(label)
-              h[label] = [h[label]].flatten << token
-            else
-              h[label] = token
-            end
-            h
-          end
-        end
-      end
-
-      def format_normalized(labels)
-        format_hash(labels).map { |h| normalize h }
-      end
-
-      def format_citeproc(labels)
-        format_bibtex(labels).to_citeproc
-      end
-
-      def format_tags(labels)
-        labels.map do |line|
-          line.map { |label, token| "<#{label}>#{encode_xml_text(token)}</#{label}>" }.join(' ')
-        end
-      end
-
-      def format_xml(labels)
-        xml = Builder::XmlMarkup.new
-        xml.instruct! :xml, encoding: 'UTF-8'
-
-        xml.references do |rs|
-          labels.each do |line|
-            rs.reference do |r|
-              line.each do |label, segment|
-                r.tag! label, segment
-              end
-            end
-          end
-        end
+      def format_citeproc(dataset)
+        format_bibtex(dataset).to_citeproc
       end
     end
 

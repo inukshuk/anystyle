@@ -8,7 +8,7 @@ module AnyStyle
       end
 
       def observe(token, alpha, offset, sequence)
-        ((offset.to_f / sequence.length) * precision).round
+        ((offset.to_f / sequence.size) * precision).round
       end
     end
   end

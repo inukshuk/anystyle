@@ -33,8 +33,4 @@ end
 
 RSpec.configure do |config|
   config.include Fixtures
-
-  def strip_tags(string)
-    AnyStyle.parser.send :decode_xml_text, string.gsub(/<[^>]+>/, '')
-  end
 end

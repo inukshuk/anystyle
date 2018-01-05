@@ -357,10 +357,10 @@ module AnyStyle
           hash[:volume] = $1.to_i
           hash[:number] = $2.to_i unless $2.nil?
           hash[:year] = $3.to_i unless $3.nil?
-          hash[:pages] = $4
+          pages = $4
         end
 
-        case hash[:pages]
+        case pages
         when /(\d+)\D+(\d+)/
           hash[:pages] = [$1,$2].join('–') # en-dash
         when  /(\d+)/
