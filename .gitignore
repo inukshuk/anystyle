@@ -9,3 +9,4 @@ Gemfile.lock
 /bin
 /coverage
 .ruby-version
+.byebug_history
