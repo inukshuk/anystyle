@@ -6,8 +6,8 @@ module AnyStyle::Parser
     describe "#prepare" do
       it 'returns expanded dataset' do
         expect(subject.prepare('Hello, world!').to_a).to eq([[
-          'Hello, hello Lu P H He Hel Hell , o, lo, llo, initial none 0 0 0 0 0 0 none 0 internal 0',
-          'world! world Ll P w wo wor worl ! d! ld! rld! lower none 9 1 0 0 1 0 none 5 terminal 0'
+          'Hello, hello Lu P H He Hel Hell , o, lo, llo, initial none 0 0 0 0 0 none 0 internal 0',
+          'world! world Ll P w wo wor worl ! d! ld! rld! lower none 1 0 0 1 0 none 5 terminal 0'
         ]])
       end
 

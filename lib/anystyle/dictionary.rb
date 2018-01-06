@@ -86,7 +86,7 @@ module AnyStyle
 
       Dictionary.tags.map { |tag|
         (value & Dictionary.code[tag] > 0) ? 1 : 0
-      }.unshift(value)
+      }
     end
 
     def populate!
