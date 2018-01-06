@@ -8,6 +8,7 @@ module AnyStyle
 
     class Parser
       include StringUtils
+      include TypeUtils
 
       @formats = [:bibtex, :hash, :citeproc, :wapiti].freeze
 
@@ -156,12 +157,15 @@ module AnyStyle
           end
         end
 
-        classify hash
+        hash[:type] = classify hash
         localize hash
+
+        hash
       end
 
+      # TODO turn into normalizer
       def localize(hash)
-        return hash if @lang_detector.nil? || hash.has_key?(:language)
+        return hash if @lang_detector.nil?
 
         sample = hash.values_at(
           :title, :booktitle, :location, :publisher
@@ -170,50 +174,41 @@ module AnyStyle
         unless sample.empty?
           hash[:language] = @lang_detector.detect(sample)
         end
-
-        hash
       end
 
-      def classify(hash)
-        return hash if hash.has_key?(:type)
-
-        keys = hash.keys
-        text = hash.values.flatten.join
+      # TODO turn into normalizer
+      def classify(item)
+        keys = item.keys
+        text = item.values.flatten.join
 
         case
         when keys.include?(:journal)
-          hash[:type] = :article
+          'article'
         when text =~ /proceedings/i
-          hash[:type] = :inproceedings
+          'paper-conference'
         when keys.include?(:medium)
           if hash[:medium].to_s =~ /dvd|video|vhs|motion|television/i
-            hash[:type] = :motion_picture
+            'motion_picture'
           else
-            hash[:type] = hash[:medium]
+            hash[:medium]
           end
         when keys.include?(:booktitle), keys.include?(:source)
-          hash[:type] = :incollection
+          'chapter'
         when keys.include?(:publisher)
-          hash[:type] = :book
+          'book'
         when text =~ /ph(\.\s*)?d|diss(\.|ertation)|thesis/i
-          hash[:type] = :thesis
-        when text =~ /\b[Pp]atent\b/
-          hash[:type] = :patent
-        when text =~ /\b[Pp]ersonal [Cc]ommunication\b/
-          hash[:type] = :personal_communication
+          'thesis'
         when keys.include?(:authority)
-          hash[:type] = :techreport
+          'report'
+        when text =~ /\b[Pp]atent\b/
+          'patent'
+        when text =~ /\b[Pp]ersonal [Cc]ommunication\b/
+          'personal_communication'
         when text =~ /interview/i
-          hash[:type] = :interview
-        when text =~ /videotape/i
-          hash[:type] = :videotape
-        when text =~ /unpublished/i
-          hash[:type] = :unpublished
-        else
-          hash[:type] = :misc
+          'interview'
+        when text =~ /unpublished|manuscript/i
+          'manuscript'
         end
-
-        hash
       end
 
       private
