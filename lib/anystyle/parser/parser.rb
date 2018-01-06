@@ -19,7 +19,7 @@ module AnyStyle
         separator: /(?:\r?\n)+/,
         delimiter: /\s+|\b(\d[^\S]*:)/,
         format: :hash,
-        training_data: File.join(RES, 'cora.xml')
+        training_data: File.join(RES, 'core.xml')
       }.freeze
 
       class << self
