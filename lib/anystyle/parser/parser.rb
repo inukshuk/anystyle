@@ -8,7 +8,6 @@ module AnyStyle
 
     class Parser
       include StringUtils
-      include TypeUtils
 
       @formats = [:bibtex, :hash, :citeproc, :wapiti].freeze
 

@@ -37,7 +37,7 @@ module AnyStyle
       end
 
       def method_missing(name, *arguments, &block)
-        case name.to_s
+        case name.to_s.tr('-', '_')
         when /^normalize_(.+)$/
           normalize($1.to_sym, *arguments, &block)
         else
@@ -78,10 +78,10 @@ module AnyStyle
       end
 
       def normalize_citation_number(hash)
-        token, *dangling =  hash[:citation_number]
-        unmatched(:citation_number, hash, dangling) unless dangling.empty?
+        token, *dangling =  hash[:'citation-number']
+        unmatched(:'citation-number', hash, dangling) unless dangling.empty?
 
-        hash[:citation_number] = token[/\d[\w,.-]+/] || token
+        hash[:'citation-number'] = token[/\d[\w,.-]+/] || token
         hash
       end
 

@@ -64,5 +64,22 @@ task :console, [:script] do |t, args|
   IRB.start
 end
 
+desc 'Update model using latest source and training data'
+task :train do
+  require 'anystyle'
+  Wapiti.debug!
+  AnyStyle.parser.train
+  AnyStyle.parser.model.save
+end
+
+task :check do
+  require 'anystyle'
+  require 'pp'
+  Dir['./res/*.xml'].each do |xml|
+    pp "Checking #{File.basename(xml)}..."
+    pp AnyStyle.parser.check xml
+  end
+end
+
 CLEAN.include('*.gem')
 CLEAN.include('*.rbc')
