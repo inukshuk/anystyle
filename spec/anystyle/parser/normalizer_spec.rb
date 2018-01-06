@@ -152,9 +152,9 @@ module AnyStyle
 
       describe 'normalize citation numbers' do
         it 'extracts simple and compund numbers' do
-          expect(n.normalize_citation_number(:citation_number => '[42]')).to eq({ :citation_number => '42' })
-          expect(n.normalize_citation_number(:citation_number => '[1b]')).to eq({ :citation_number => '1b' })
-          expect(n.normalize_citation_number(:citation_number => '[1.1.4.1]')).to eq({ :citation_number => '1.1.4.1' })
+          expect(n.normalize_citation_number(:'citation-number' => '[42]')).to eq({ :'citation-number' => '42' })
+          expect(n.normalize_citation_number(:'citation-number' => '[1b]')).to eq({ :'citation-number' => '1b' })
+          expect(n.normalize_citation_number(:'citation-number' => '[1.1.4.1]')).to eq({ :'citation-number' => '1.1.4.1' })
         end
       end
       describe 'URL extraction' do

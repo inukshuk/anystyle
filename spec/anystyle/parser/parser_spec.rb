@@ -86,7 +86,7 @@ module AnyStyle::Parser
           date: '1995',
           language: 'en',
           pages: '108',
-          type: :book
+          type: 'book'
         })
       end
 
