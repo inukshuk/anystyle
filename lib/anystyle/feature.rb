@@ -2,24 +2,6 @@ module AnyStyle
   class Feature
     include StringUtils
 
-    @available = {}
-
-    class << self
-      attr_reader :available
-
-      def inherited(feature)
-        available[feature.key] = feature
-      end
-
-      def key
-        @key || name.downcase.intern
-      end
-    end
-
-    def name
-      self.class.key
-    end
-
     def observe(token, alpha, offset, sequence)
       raise NotImplementedError
     end
