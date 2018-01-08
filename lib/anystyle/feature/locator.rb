@@ -5,9 +5,9 @@ module AnyStyle
     class Locator < Feature
       def observe(token, *args)
         case token
-        when /ISBN|Url|URL/
-        when /10.\d{4,9}\/[-._;()\/:A-Z0-9]+/i
-        when URI.regexp
+        when /ISBN|Url|URL/,
+             /10.\d{4,9}\/[-._;()\/:A-Z0-9]+/i,
+             URI.regexp
           'T'
         else
           'F'
