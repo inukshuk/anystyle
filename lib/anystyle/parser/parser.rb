@@ -1,6 +1,4 @@
 module AnyStyle
-  maybe_require 'language_detector'
-
   SUPPORT = File.expand_path('../../support', __FILE__).untaint
   RES = File.expand_path('../../../../res', __FILE__).untaint
 
@@ -31,11 +29,11 @@ module AnyStyle
 
         # Returns a default parser instance
         def instance
-          @instance ||= new
+          Thread.current[:anystyle] ||= new
         end
       end
 
-      attr_reader :options, :features, :dictionary
+      attr_reader :options, :features, :dictionary, :normalizers
       attr_accessor :model, :normalizer
 
       def initialize(options = {})
@@ -56,13 +54,18 @@ module AnyStyle
           Feature::Locator.new
         ]
 
+        @normalizers = [
+          Normalizer::Quotes.new,
+          Normalizer::Punctuation.new,
+          Normalizer::Page.new,
+          Normalizer::Names.new,
+          Normalizer::Location.new,
+          Normalizer::Locator.new,
+          Normalizer::Locale.new,
+          Normalizer::Type.new
+        ]
+
         reload
-
-        if defined?(LanguageDetector)
-          @lang_detector = LanguageDetector.new
-        end
-
-        @normalizer = Normalizer.new
       end
 
       def reload
@@ -143,73 +146,16 @@ module AnyStyle
         train(input, truncate: false)
       end
 
-      def language(string)
-        @lang_detector.detect string
-      end
-
-      def normalize(hash)
-        hash.keys.each do |label|
+      def normalize(item)
+        normalizers.each do |n|
           begin
-            normalizer.send("normalize_#{label}", hash)
+            n.normalizer item
           rescue => e
-            warn e.message
+            warn "normalizer error: #{e.message}"
           end
         end
 
-        hash[:type] = classify hash
-        localize hash
-
-        hash
-      end
-
-      # TODO turn into normalizer
-      def localize(hash)
-        return hash if @lang_detector.nil?
-
-        sample = hash.values_at(
-          :title, :booktitle, :location, :publisher
-        ).flatten.join(' ')
-
-        unless sample.empty?
-          hash[:language] = @lang_detector.detect(sample)
-        end
-      end
-
-      # TODO turn into normalizer
-      def classify(item)
-        keys = item.keys
-        text = item.values.flatten.join
-
-        case
-        when keys.include?(:journal)
-          'article'
-        when keys.include?(:booktitle)
-          if item[:booktitle].to_s =~ /Proceedings|Proc\./
-            'paper-conference'
-          else
-            'chapter'
-          end
-        when keys.include?(:publisher)
-          'book'
-        when text =~ /ph(\.\s*)?d|diss(\.|ertation)|thesis/i
-          'thesis'
-        when keys.include?(:medium)
-          if item[:medium].to_s =~ /dvd|video|vhs|motion|television/i
-            'motion_picture'
-          else
-            item[:medium]
-          end
-        when keys.include?(:authority)
-          'report'
-        when text =~ /\b[Pp]atent\b/
-          'patent'
-        when text =~ /\b[Pp]ersonal [Cc]ommunication\b/
-          'personal_communication'
-        when text =~ /interview/i
-          'interview'
-        when text =~ /unpublished|manuscript/i
-          'manuscript'
-        end
+        item
       end
 
       private

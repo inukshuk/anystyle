@@ -18,9 +18,11 @@ module AnyStyle
 
       def normalize(item)
         map_values(item) do |value|
-          parse(strip(value))
-        rescue
-          value
+          begin
+            parse(strip(value))
+          rescue
+            value
+          end
         end
       end
 
