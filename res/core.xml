@@ -5122,4 +5122,97 @@
     <pages>216 pp,</pages>
     <date>1987.</date>
   </sequence>
+  <sequence>
+    <author>Ting, Kai Ming,</author>
+    <date>(1996).</date>
+    <title>Discretisation in Lazy Learning.</title>
+    <note>To appear in the special issue on Lazy Learning in Artificial Intelligence Review.</note>
+  </sequence>
+  <sequence>
+    <author>Marshall, Nancy Rose</author>
+    <title>Review of Joseph Crawhill, 1861-1913, One of the Glasgow Boys.</title>
+    <journal>Victorian Studies</journal>
+    <volume>42</volume>
+    <date>(1999/2000):</date>
+    <pages>358-60.</pages>
+  </sequence>
+  <sequence>
+    <author>Zukofsky, Louis.</author>
+    <title>"Sincerity and Objectification."</title>
+    <journal>Poetry</journal>
+    <volume>37</volume>
+    <date>(February 1931):</date>
+    <pages>269.</pages>
+    <note>Quoted in Bonnie Costello, Marianne Moore: Imaginary Possessions (Cambridge: Harvard University Press, 1981), 78.</note>
+  </sequence>
+  <sequence>
+    <author>Tosco, L., Laenen, A., Briganti, A., Gontero, P., Karnes, R., Bastian, P., Chlosta, P., Claessens, F., Chun, F., Everaerts, W., Gratzke, C., Albersen, M., Graefen, M., Kneitz, B., Marchioro, G., Salas, R., Tombal, B., Van den Broeck, T., Van Der Poel, H., Walz, J., De Meerleer, G., Bossi, A., Haustermans, K., Van Poppel, H., Spahn, M., Joniau, S.</author>
+    <date>(2017).</date>
+    <title>The EMPaCT Classifier: A Validated Tool to Predict Postoperative Prostate Cancer-related Death Using Competing-risk Analysis.</title>
+    <journal>European Urology Focus,</journal>
+    <note>Ahead of print,</note>
+    <doi>art.nr. S2405-4569(17)30002-0.</doi>
+  </sequence>
+  <sequence>
+    <author>Sampson P, Buchanan S, Coote S, Demain S, Feys P, Freeman C, Meadmore K, Hughes AM</author>
+    <date>(2015)</date>
+    <title>Using functional electrical stimulation mediated by iterative learning control and robotics to improve arm movement for people with Multiple Sclerosis.</title>
+    <source>IEEE Transactions on Neural Systems and Rehabilitation Engineering</source>
+    <volume>24(2):</volume>
+    <pages>235-48.</pages>
+  </sequence>
+  <sequence>
+    <author>Hodgkins R, Bryant R, Darlington E and Brandon M</author>
+    <date>(2016)</date>
+    <title>Pre-melt-season sediment plume variability at Jökulsárlón, Iceland, a preliminary evaluation using in-situ spectroradiometry and satellite imagery.</title>
+    <journal>Annals of Glaciology.</journal>
+    <volume>57(73),</volume>
+    <pages>39–46</pages>
+    <doi>(doi:10.1017/aog.2016.20)</doi>
+  </sequence>
+  <sequence>
+    <author>Trathan, P. N., A. S. Brierley, M. A. Brandon, D. G. Bone, C. Goss, S. A. Grant, E. J. Murphy and J. L. Watkins</author>
+    <date>(2003).</date>
+    <title>Oceanographic variability and changes in Antarctic krill (Euphausia superba) abundance at South Georgia.</title>
+    <journal>Fisheries Oceanography</journal>
+    <volume>12(6):</volume>
+    <pages>569-583.</pages>
+    <doi>doi: 10.1046/j.1365-2419.2003.00268.x</doi>
+  </sequence>
+  <sequence>
+    <author>Brandon, M. A., E. J. Murphy, P. N. Trathan and D. G. Bone</author>
+    <date>(2000).</date>
+    <title>Physical oceanographic conditions to the northwest of the sub-Antarctic Island of South Georgia.</title>
+    <journal>Journal of Geophysical Research-Oceans</journal>
+    <volume>105(C10):</volume>
+    <pages>23983-23996.</pages>
+    <doi>doi: 10.1029/2000JC900098</doi>
+  </sequence>
+  <sequence>
+    <author>Brierley, A. S., M. A. Brandon and J. L. Watkins</author>
+    <date>(1998).</date>
+    <title>An assessment of the utility of an acoustic Doppler current profiler for biomass estimation.</title>
+    <source>Deep-Sea Research Part I-Oceanographic Research Papers</source>
+    <volume>45(9):</volume>
+    <pages>1555-1573.</pages>
+    <doi>doi: 10.1016/S0967-0637(98)00012-0.</doi>
+  </sequence>
+  <sequence>
+    <author>Sotgiu G, D'Ambrosio L, Centis R, Bothamley G, Cirillo DM, De Lorenzo S, Guenther G, Kliiman K, Muetterlein R, Spinu V, Villar M, Zellweger JP, Sandgren A, Huitric E, Lange C, Manissero D, Migliori GB.</author>
+    <title>Availability of anti-tuberculosis drugs in Europe.</title>
+    <journal>European Respiratory Journal.</journal>
+    <date>2012</date>
+    <volume>;40(2):</volume>
+    <pages>500-3.</pages>
+    <note>IF: 5,895</note>
+  </sequence>
+  <sequence>
+    <author>Fattorini L, Mustazzolu A, Piccaro G, Pardini M, Filippini P, Giannoni F, Migliori GB, Sotgiu G, Borroni E, Cirillo DM; the Italian Multicentre Study on Resistance to Antituberculosis Drugs (SMIRA) Group.</author>
+    <title>Drug-resistant tuberculosis among foreign-born persons in Italy.</title>
+    <journal>European Respiratory Journal.</journal>
+    <date>2012;</date>
+    <volume>40(2):</volume>
+    <pages>497-500.</pages>
+    <note>IF: 5,895</note>
+  </sequence>
 </dataset>
