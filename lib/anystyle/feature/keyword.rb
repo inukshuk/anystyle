@@ -10,8 +10,10 @@ module AnyStyle
           :translator
         when /^(dissertation)$/i
           :thesis
-        when /^(proceedings)/i
+        when /^(proceedings|conference)/i
           :proceedings
+        when /^(journal|zeitschrift|quarterly)/i
+          :journal
         when /^in$/i
           :in
         when /^(retrieved|accessed)$/

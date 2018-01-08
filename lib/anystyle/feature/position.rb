@@ -3,7 +3,7 @@ module AnyStyle
     class Position < Feature
       attr_reader :precision
 
-      def initialize(precision: 10)
+      def initialize(precision: 100)
         @precision = precision
       end
 

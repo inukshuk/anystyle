@@ -1,8 +1,6 @@
 module AnyStyle
   class Dictionary
-    @tags = [
-      :name, :month, :place, :publisher, :journal
-    ]
+    @tags = [:name, :place, :publisher, :journal]
 
     @code = Hash[
       *@tags.zip(0.upto(@tags.length-1).map { |i| 2**i }).flatten
@@ -85,7 +83,7 @@ module AnyStyle
       value = get key
 
       Dictionary.tags.map { |tag|
-        (value & Dictionary.code[tag] > 0) ? 1 : 0
+        (value & Dictionary.code[tag] > 0) ? 'T' : 'F'
       }
     end
 
@@ -102,8 +100,6 @@ module AnyStyle
             case line
             when /^## (?:male|female|surname|last|chinese)/i
               mode = Dictionary.code[:name]
-            when /^## month/i
-              mode = Dictionary.code[:month]
             when /^## place/i
               mode = Dictionary.code[:place]
             when /^## publisher/i
