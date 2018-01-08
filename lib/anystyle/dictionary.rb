@@ -100,16 +100,11 @@ module AnyStyle
 
           if line.start_with?('#')
             case line
-            when /^## (?:male|female|surname|last|chinese)/i
-              mode = Dictionary.code[:name]
-            when /^## month/i
-              mode = Dictionary.code[:month]
-            when /^## place/i
-              mode = Dictionary.code[:place]
-            when /^## publisher/i
-              mode = Dictionary.code[:publisher]
-            when /^## journal/i
-              mode = Dictionary.code[:journal]
+            when /@(\w+)@/
+              mode = Dictionary.code[$1.intern]
+              if mode.nil?
+                raise "Unknown mode #{$1} reading dictionary"
+              end
             else
               # skip comments
             end
