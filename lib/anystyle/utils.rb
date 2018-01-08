@@ -22,18 +22,6 @@ module AnyStyle
     def canonize(string)
       scrub(transliterate(string)).downcase
     end
-
-    XML_ENTITIES = Hash[*%w{
-      &amp; & &lt; < &gt; > &apos; ' &quot; "
-    }].freeze
-
-    def decode_xml_text(string)
-      string.gsub(/&(amp|gt|lt);/) { |entity| XML_ENTITIES[entity] }
-    end
-
-    def encode_xml_text(string)
-      string.encode string.encoding, xml: :text
-    end
   end
 
   extend Utils
