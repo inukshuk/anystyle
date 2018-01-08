@@ -215,6 +215,8 @@ module AnyStyle
       private
 
       def format_bibtex(dataset)
+        require 'bibtex'
+
         b = BibTeX::Bibliography.new
         format_hash(dataset).each do |hash|
           hash[:bibtex_type] = hash.delete :type

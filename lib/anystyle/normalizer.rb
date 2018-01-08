@@ -1,63 +1,48 @@
 module AnyStyle
   class Normalizer
-    @available = {}
-    @labels = []
+    @keys = []
 
     class << self
-      attr_reader :available, :label
-
-      def inherited(normalizer)
-        available[normalizer.key] = normalizer
-      end
-
-      def key
-        @key || name.downcase.intern
-      end
+      attr_reader :keys
     end
 
-    attr_reader :labels
-
-    def initialize(labels: self.class.labels)
-      @labels = labels.uniq
-    end
-
-    def name
-      self.class.key
+    def keys
+      self.class.keys
     end
 
     def normalize(item)
       raise NotImplementedError
     end
 
-    def append(item, label, value)
-      if item.has_key?(label)
-        item[label] << value
+    def append(item, key, value)
+      if item.key?(key)
+        item[key] << value
       else
-        item[label] = [value]
+        item[key] = [value]
       end
     end
 
     def each_value(item)
-      labels_for(item).each do |label|
-        item[label].each do |value|
-          yield label, value
-        end if item.has_key?(label)
+      keys_for(item).each do |key|
+        item[key].each do |value|
+          yield key, value
+        end if item.key?(key)
       end
     end
 
     def map_values(item)
-      labels_for(item).each do |label|
-        item[label] = item[label].map { |value|
-          yield label, value
-        }.flatten.reject(&:empty?) if item.has_key?(label)
+      keys_for(item).each do |key|
+        item[key] = item[key].map { |value|
+          yield key, value
+        }.flatten.reject(&:empty?) if item.key?(key)
       end
     end
 
-    def labels_for(item)
-      if labels.empty?
+    def keys_for(item)
+      if self.class.keys.empty?
         item.keys
       else
-        labels
+        self.class.keys
       end
     end
   end

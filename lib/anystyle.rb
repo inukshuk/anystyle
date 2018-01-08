@@ -1,8 +1,4 @@
-require 'bibtex' # TODO optional
-require 'builder' # TODO remove
-
 require 'forwardable'
-require 'namae'
 require 'wapiti'
 
 require 'anystyle/version'
@@ -21,5 +17,15 @@ require 'anystyle/feature/locator'
 require 'anystyle/feature/number'
 require 'anystyle/feature/position'
 require 'anystyle/feature/punctuation'
+
+require 'anystyle/normalizer'
+require 'anystyle/normalizer/locale'
+require 'anystyle/normalizer/location'
+require 'anystyle/normalizer/locator'
+require 'anystyle/normalizer/names'
+require 'anystyle/normalizer/page'
+require 'anystyle/normalizer/punctuation'
+require 'anystyle/normalizer/quotes'
+require 'anystyle/normalizer/type'
 
 require 'anystyle/parser'

@@ -6,8 +6,8 @@ module AnyStyle
       @keys = [:isbn, :url]
 
       def normalize(item)
-        map_values(item) do |label, value|
-          case label
+        map_values(item) do |key, value|
+          case key
           when :isbn
             value[/[\d-]+/]
           when :url

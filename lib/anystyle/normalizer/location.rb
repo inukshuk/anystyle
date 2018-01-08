@@ -5,15 +5,19 @@ module AnyStyle
 
       def normalize(item)
         map_values(item) do |_, value|
-          location = value.gsub(/^[^[:alnum:]]+|[^[:alnum:]]+$/, '')
+          location = strip value
 
-          if !item.has_key?(:publisher) && location =~ /:/
+          if !item.key?(:publisher) && location.include?(':')
             location, publisher = location.split(/\s*:\s*/)
-            item[:publisher] = [publisher]
+            item[:publisher] = publisher
           end
 
           location
         end
+      end
+
+      def strip(string)
+        string.gsub(/^\p{^Alnum}+|\p{^Alnum}+$/, '')
       end
     end
   end

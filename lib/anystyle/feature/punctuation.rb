@@ -16,8 +16,6 @@ module AnyStyle
           :unquote
         when /^[\[\{].*[\}\]][!\?\.,;:-]?$/
           :braces
-        when /^<.*>[!\?\.,;:-]?$/
-          :tags
         when /^[\(].*[\)][!\?\.]$/
           :'terminal-parens'
         when /^\(.*\)[,;:-]$/
@@ -28,10 +26,6 @@ module AnyStyle
           :'opening-brace'
         when /[\}\]][!\?\.,;:-]?$/
           :'closing-brace'
-        when /^</
-          :'opening-tag'
-        when />[!\?\.,;:-]?$/
-          :'closing-tag'
         when /^\(/
           :'opening-parens'
         when /\)[,;:-]$/
@@ -44,7 +38,7 @@ module AnyStyle
           :terminal
         when /^\d{2,5}\(\d{2,5}\).?$/
           :volume
-        when /-+/
+        when /\p{Pd}/
           :hyphen
         else
           :other

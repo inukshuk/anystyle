@@ -15,12 +15,9 @@ module AnyStyle
             pages = $4
           end
 
-          case pages
-          when /(\d+)\D+(\d+)/
-            pages = [$1, $2].join('–') # en-dash
-          when  /(\d+)/
-            pages = $1
-          end
+          pages.gsub!(/\p{Pd}+/, '–') # en-dash
+          pages.gsub!(/[^\d,–]+'/, ' ')
+          pages.strip!
 
           pages
         end
