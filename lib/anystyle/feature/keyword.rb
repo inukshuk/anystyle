@@ -18,6 +18,9 @@ module AnyStyle
           :in
         when /^(retrieved|accessed)$/
           :retrieved
+        when /^(edition|expanded|revised|p?reprint|illustrated)$/i,
+          /^(aufl(age)?|\p{Alpha}*ausg(abe)?)$/i
+          :edition
         else
           :none
         end

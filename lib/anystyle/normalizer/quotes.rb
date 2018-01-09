@@ -1,9 +1,8 @@
 module AnyStyle
   class Normalizer
     class Quotes < Normalizer
-      QUOTES = /^[«‹»›„‚“‟‘‛”’"❛❜❟❝❞⹂〝〞〟]|[«‹»›„‚“‟‘‛”’"❛❜❟❝❞⹂〝〞〟]$/
-
-      @keys = [:title]
+      QUOTES = /^[«‹»›„‚“‟‘‛”’"❛❜❟❝❞⹂〝〞〟\[]|[«‹»›„‚“‟‘‛”’"❛❜❟❝❞⹂〝〞〟\]]$/
+      @keys = [:title, :'citation-number', :medium]
 
       def normalize(item)
         each_value(item) do |_, value|
@@ -13,4 +12,3 @@ module AnyStyle
     end
   end
 end
-

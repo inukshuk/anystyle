@@ -3,7 +3,9 @@ module AnyStyle
 
   class Normalizer
     class Names < Normalizer
-      @keys = [:author, :editor, :translator, :director]
+      @keys = [
+        :author, :editor, :translator, :director, :producer
+      ]
 
       attr_accessor :namae
 
@@ -38,7 +40,10 @@ module AnyStyle
           .gsub(/\b([Tt]rans(\.|lated|lation)|trad\.)(\s+by)?\s+/, '')
           .gsub(/\b([Dd]ir(\.|ected))(\s+by)?\s+/, '')
           .gsub(/\b([Pp]rod(\.|uce[rd]))(\s+by)?\s+/, '')
+          .gsub(/\b([Pp]erf(\.|orme[rd]))(\s+by)?\s+/, '')
+          .gsub(/\([^\)]*\)/, '')
           .gsub(/[;:]/, ',')
+          .strip
       end
 
       def parse(value)

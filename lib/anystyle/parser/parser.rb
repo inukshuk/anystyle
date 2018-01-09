@@ -57,11 +57,13 @@ module AnyStyle
         @normalizers = [
           Normalizer::Quotes.new,
           Normalizer::Punctuation.new,
+          Normalizer::Container.new,
           Normalizer::Page.new,
           Normalizer::Date.new,
-          Normalizer::Names.new,
+          Normalizer::Volume.new,
           Normalizer::Location.new,
           Normalizer::Locator.new,
+          Normalizer::Names.new,
           Normalizer::Locale.new,
           Normalizer::Type.new
         ]

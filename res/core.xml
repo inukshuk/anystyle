@@ -1433,7 +1433,8 @@
     <author>William G. Cochran.</author>
     <title>Sampling Techniques.</title>
     <publisher>John Wiley and Sons, Inc.,</publisher>
-    <location>New York, New York, 3 edition,</location>
+    <location>New York, New York,</location>
+    <edition>3 edition,</edition>
     <date>1977.</date>
   </sequence>
   <sequence>
@@ -2634,7 +2635,7 @@
     <pages>page 346.</pages>
     <publisher>Morgan Kaufman Publishers Inc.,</publisher>
     <location>San Mateo, California,</location>
-    <note>second edition,</note>
+    <edition>second edition,</edition>
     <date>1994.</date>
     <note>Uncorrected preliminary manuscript.</note>
   </sequence>
@@ -3631,7 +3632,8 @@
   </sequence>
   <sequence>
     <author>Barendregt, H. P.</author>
-    <title>The Lambda Calculus: Its Syntax and Semantics. Revised Edition.</title>
+    <title>The Lambda Calculus: Its Syntax and Semantics.</title>
+    <edition>Revised Edition.</edition>
     <booktitle>Studies in Logic and the Foundations of Mathematics 103.</booktitle>
     <publisher>North-Holland,</publisher>
     <location>Amsterdam,</location>
