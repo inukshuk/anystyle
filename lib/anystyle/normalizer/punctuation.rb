@@ -8,7 +8,7 @@ module AnyStyle
       def normalize(item)
         each_value(item) do |_, value|
           unless value =~ /[!?]$/
-            value.gsub!(/\p{Punct}+$/, '')
+            value.gsub!(/[\p{P}\p{Z}\p{C}]+$/, '')
           end
         end
       end
