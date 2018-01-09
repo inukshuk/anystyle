@@ -7,7 +7,8 @@ module AnyStyle
 
       attr_reader :namae, :connector
 
-      def initialize(connector: ' and ')
+      def initialize(connector: ' and ', **options)
+        super(**options)
         @connector = connector
         @namae = Namae::Parser.new({
           prefer_comma_as_separator: true,
@@ -21,7 +22,7 @@ module AnyStyle
           begin
             parse(strip(value))
           rescue
-            value
+            [{ literal: value }]
           end
         end
       end
@@ -33,7 +34,7 @@ module AnyStyle
       def parse(value)
         namae.parse!(value).map { |name|
           name.normalize_initials
-          name.sort_order
+          name.to_h.reject { |_, v| v.nil? }
         }.join(connector)
       end
     end

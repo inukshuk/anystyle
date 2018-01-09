@@ -19,6 +19,7 @@ require 'anystyle/feature/position'
 require 'anystyle/feature/punctuation'
 
 require 'anystyle/normalizer'
+require 'anystyle/normalizer/date'
 require 'anystyle/normalizer/locale'
 require 'anystyle/normalizer/location'
 require 'anystyle/normalizer/locator'

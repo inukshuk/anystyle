@@ -58,6 +58,7 @@ module AnyStyle
           Normalizer::Quotes.new,
           Normalizer::Punctuation.new,
           Normalizer::Page.new,
+          Normalizer::Date.new,
           Normalizer::Names.new,
           Normalizer::Location.new,
           Normalizer::Locator.new,
@@ -149,9 +150,9 @@ module AnyStyle
       def normalize(item)
         normalizers.each do |n|
           begin
-            n.normalizer item
+            n.normalize item unless n.skip?
           rescue => e
-            warn "normalizer error: #{e.message}"
+            warn "Error in #{n.name} normalizer: #{e.message}"
           end
         end
 

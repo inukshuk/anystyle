@@ -6,8 +6,16 @@ module AnyStyle
       attr_reader :keys
     end
 
-    def keys
-      self.class.keys
+    attr_reader :keys
+    attr_accessor :skip
+
+    def initialize(keys: self.class.keys)
+      @keys = keys
+      @skip = false
+    end
+
+    def name
+      self.class.name
     end
 
     def normalize(item)
@@ -32,9 +40,11 @@ module AnyStyle
 
     def map_values(item)
       keys_for(item).each do |key|
-        item[key] = item[key].map { |value|
-          yield key, value
-        }.flatten.reject(&:empty?) if item.key?(key)
+        if item.key?(key)
+          item[key] = item[key].map { |value|
+            yield key, value
+          }.flatten.reject(&:empty?)
+        end
       end
     end
 
@@ -44,6 +54,10 @@ module AnyStyle
       else
         self.class.keys
       end
+    end
+
+    def skip?
+      @skip
     end
   end
 end
