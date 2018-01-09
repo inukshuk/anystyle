@@ -32,3 +32,17 @@ require 'anystyle/normalizer/type'
 require 'anystyle/normalizer/volume'
 
 require 'anystyle/parser'
+
+module AnyStyle
+  def self.parser
+    Parser.instance
+  end
+
+  def self.parse(*arguments)
+    parser.parse(*arguments)
+  end
+
+  def self.dictionary
+    parser.dictionary
+  end
+end

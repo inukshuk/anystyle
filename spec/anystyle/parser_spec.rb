@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-module AnyStyle::Parser
+module AnyStyle
   describe Parser do
 
     describe "#prepare" do
