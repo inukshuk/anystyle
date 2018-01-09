@@ -4,7 +4,7 @@ module AnyStyle
       @keys = [:date]
 
       def normalize(item)
-        map_values(item) do |value|
+        map_values(item) do |_, value|
           unless (month = MONTH[value]).nil?
             month = '%02d' % month
           end
@@ -15,9 +15,11 @@ module AnyStyle
             if month && value =~ /\b(\d{1,2})\b/
               day = '%02d' % $1.to_i
             end
-          end
 
-          [year, month, day].compact.join('-')
+            [year, month, day].compact.join('-')
+          else
+            value
+          end
         end
       end
 

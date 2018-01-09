@@ -5,11 +5,11 @@ module AnyStyle
     class Names < Normalizer
       @keys = [:author, :editor, :translator, :director]
 
-      attr_reader :namae, :connector
+      attr_accessor :namae
 
-      def initialize(connector: ' and ', **options)
+      def initialize(**options)
         super(**options)
-        @connector = connector
+
         @namae = Namae::Parser.new({
           prefer_comma_as_separator: true,
           appellation: /\A(?!x)x/,
@@ -18,7 +18,7 @@ module AnyStyle
       end
 
       def normalize(item)
-        map_values(item) do |value|
+        map_values(item) do |_, value|
           begin
             parse(strip(value))
           rescue
@@ -28,14 +28,15 @@ module AnyStyle
       end
 
       def strip(value)
-        value.gsub(/^\p{^Alpha}|[\p{Alpha}\.]$/, '')
+        value
+          .gsub(/^\p{^Alpha}|[\p{Alpha}\.]$/, '')
       end
 
       def parse(value)
         namae.parse!(value).map { |name|
           name.normalize_initials
           name.to_h.reject { |_, v| v.nil? }
-        }.join(connector)
+        }
       end
     end
   end

@@ -79,13 +79,13 @@ module AnyStyle::Parser
 
       it 'returns a hash of label/segment pairs by default' do
         expect(subject.parse(perec)[0]).to eq({
-          author: 'Perec, Georges',
-          title: 'A Void',
-          location: 'London',
-          publisher: 'The Harvill Press',
-          date: '1995',
+          author: [{ family: 'Perec', given: 'Georges' }],
+          title: ['A Void'],
+          location: ['London'],
+          publisher: ['The Harvill Press'],
+          date: ['1995'],
+          pages: ['108'],
           language: 'en',
-          pages: '108',
           type: 'book'
         })
       end
