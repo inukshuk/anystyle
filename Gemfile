@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 gemspec
 
+gem 'anystyle-data', github: 'inukshuk/anystyle-data'
+
 group :development, :test do
   gem 'wapiti', github: 'inukshuk/wapiti-ruby'
   gem 'rake'

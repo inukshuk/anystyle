@@ -5,6 +5,8 @@ require 'anystyle/version'
 require 'anystyle/errors'
 require 'anystyle/utils'
 require 'anystyle/dictionary'
+require 'anystyle/dictionary/gdbm'
+require 'anystyle/data'
 
 require 'anystyle/feature'
 require 'anystyle/feature/affix'

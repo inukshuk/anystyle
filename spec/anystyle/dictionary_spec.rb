@@ -4,12 +4,12 @@ module AnyStyle
 
     %w{ philippines italy }.each do |place|
       it "#{place.inspect} should be a place name" do
-        expect(dict[place]).to eq(Dictionary.code[:place])
+        expect(dict[place] & Dictionary.code[:place]).to be > 0
       end
     end
 
-    it "accepts unicode strings like 'çela' (name)" do
-      expect(dict['çela'] & Dictionary.code[:name]).to be > 0
+    it "accepts unicode strings like 'cela' (name)" do
+      expect(dict['cela'] & Dictionary.code[:name]).to be > 0
     end
 	end
 end

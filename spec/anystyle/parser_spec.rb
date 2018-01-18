@@ -7,7 +7,7 @@ module AnyStyle
       it 'returns expanded dataset' do
         expect(subject.prepare('Hello, world!').to_a).to eq([[
           'Hello, hello Lu P H He Hel Hell , o, lo, llo, initial none F F F F none 0 internal F',
-          'world! world Ll P w wo wor worl ! d! ld! rld! lower none T F T F none 50 terminal F'
+          'world! world Ll P w wo wor worl ! d! ld! rld! lower none T F T T none 50 terminal F'
         ]])
       end
 

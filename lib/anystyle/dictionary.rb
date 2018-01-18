@@ -96,19 +96,11 @@ module AnyStyle
         Zlib::GzipReader.new(file, encoding: 'UTF-8').each do |line|
           line.strip!
 
-          if line.start_with?('#')
-            case line
-            when /^## (?:male|female|surname|last|chinese)/i
-              mode = Dictionary.code[:name]
-            when /^## place/i
-              mode = Dictionary.code[:place]
-            when /^## publisher/i
-              mode = Dictionary.code[:publisher]
-            when /^## journal/i
-              mode = Dictionary.code[:journal]
-            else
-              # skip comments
-            end
+          case line
+          when /^#! (\w+)/i
+            mode = Dictionary.code[$1.to_sym]
+          when /^#/
+            # skip comments
           else
             key = line.split(/\s+(\d+\.\d+)\s*$/)[0]
             put key, get(key) | mode
