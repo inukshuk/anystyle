@@ -167,7 +167,7 @@ module AnyStyle
 
       b = BibTeX::Bibliography.new
       format_hash(dataset).each do |hash|
-        hash[:bibtex_type] = hash.delete :type
+        hash[:bibtex_type] = hash.delete(:type) || 'misc'
 
         hash[:type] = hash.delete :genre if hash.key?(:genre)
         hash[:address] = hash.delete :location if hash.key?(:location)
