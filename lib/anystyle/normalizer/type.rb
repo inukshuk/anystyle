@@ -12,32 +12,37 @@ module AnyStyle
         case
         when keys.include?(:journal)
           'article'
-        when keys.include?(:booktitle)
-          if item[:booktitle].to_s =~ /Proceedings|Proc\./
+        when keys.include?(:'container-title')
+          if item[:'container-title'].to_s =~ /Proceedings|Proc\./
             'paper-conference'
           else
             'chapter'
           end
-        when keys.include?(:publisher)
-          'book'
-        when text =~ /ph(\.\s*)?d|diss(\.|ertation)|thesis/i
-          'thesis'
+        when keys.include?(:genre)
+          case item[:genre].to_s
+          when /ph(\.\s*)?d|diss(\.|ertation)|thesis/i
+            'thesis'
+          when /rep(\.|ort)/i
+            'report'
+          when /unpublished|manuscript/i
+            'manuscript'
+          when /patent/i
+            'patent'
+          when /personal communication/i
+            'personal_communication'
+          when /interview/i
+            'interview'
+          end
         when keys.include?(:medium)
-          if item[:medium].to_s =~ /dvd|video|vhs|motion|television/i
+          if item[:medium].to_s =~ /dvd|video|vhs|motion/i
             'motion_picture'
+          elsif item[:medium].to_s =~ /television/i
+            'broadcast'
           else
             item[:medium]
           end
-        when keys.include?(:authority)
-          'report'
-        when text =~ /\b[Pp]atent\b/
-          'patent'
-        when text =~ /\b[Pp]ersonal [Cc]ommunication\b/
-          'personal_communication'
-        when text =~ /interview/i
-          'interview'
-        when text =~ /unpublished|manuscript/i
-          'manuscript'
+        when keys.include?(:publisher)
+          'book'
         end
       end
     end

@@ -129,7 +129,7 @@ Citation references come in many forms, so, inevitably, you will find data
 where Anystyle-Parser does not produce satisfying parsing results.
 
     > Anystyle.parse 'John Lafferty, Andrew McCallum, and Fernando Pereira. 2001. Conditional random fields: probabilistic models for segmenting and labeling sequence data. In Proceedings of the International Conference on Machine Learning, pages 282-289. Morgan Kaufmann, San Francisco, CA.'
-    => [{:author=>"John Lafferty and Andrew McCallum and Fernando Pereira. 2001", :title=>"Conditional random fields: probabilistic models for segmenting and labeling sequence data", :booktitle=>"Proceedings of the International Conference on Machine Learning", :pages=>"282--289", :publisher=>"Morgan Kaufmann", :location=>"San Francisco, CA", :type=>:inproceedings}]
+    => [{:author=>"John Lafferty and Andrew McCallum and Fernando Pereira. 2001", :title=>"Conditional random fields: probabilistic models for segmenting and labeling sequence data", :'container-title'=>"Proceedings of the International Conference on Machine Learning", :pages=>"282--289", :publisher=>"Morgan Kaufmann", :location=>"San Francisco, CA", :type=>:inproceedings}]
 
 This result is not bad, but notice how the year was not picked up as a date
 but interpreted as part of the author name. If you have such a problem
@@ -140,15 +140,14 @@ go about this is to create new file (e.g., 'training.txt'), copy and paste a
 few references, and tag them for training. For example, a tagged version of
 the input from the example above would look like this:
 
-    <author> John Lafferty, Andrew McCallum, and Fernando Pereira. </author> <date> 2001. </date> <title> Conditional random fields: probabilistic models for segmenting and labeling sequence data. </title> <booktitle> In Proceedings of the International Conference on Machine Learning, </booktitle> <pages> pages 282–289. </pages> <publisher> Morgan Kaufmann, </publisher> <location> San Francisco, CA. </location>
+    <author> John Lafferty, Andrew McCallum, and Fernando Pereira. </author> <date> 2001. </date> <title> Conditional random fields: probabilistic models for segmenting and labeling sequence data. </title> <container-title> In Proceedings of the International Conference on Machine Learning, </container-title> <pages> pages 282–289. </pages> <publisher> Morgan Kaufmann, </publisher> <location> San Francisco, CA. </location>
 
 Note that you can pick any tag names, but when working with Anystyle's model
 you should use the same names used to to train the model. You can always ask
 the Parser's model what names (labels) it knows about:
 
     > Anystyle.parser.model.labels
-    => ["author", "booktitle", "container", "date", "doi", "edition", "editor", "institution", "isbn", "journal", "location", "note", "pages", "publisher", "retrieved", "tech", "title", "translator", "unknown", "url", "volume"]
-
+    => ["accessed", "author", "citation-number", "container-title", "date", "director", "doi", "edition", "editor", "genre", "isbn", "journal", "location", "medium", "note", "pages", "producer", "publisher", "source", "title", "translator", "url", "volume"]
 Once you have tagged a few references that you want Anystyle-Parser to learn,
 you can train the model as follows:
 
@@ -165,7 +164,7 @@ After teaching Anystyle-Parser with the tagged references, try to parse your
 data again:
 
     > Anystyle.parse 'John Lafferty, Andrew McCallum, and Fernando Pereira. 2001. Conditional random fields: probabilistic models for segmenting and labeling sequence data. In Proceedings of the International Conference on Machine Learning, pages 282-289. Morgan Kaufmann, San Francisco, CA.'
-    => [{:author=>"John Lafferty and Andrew McCallum and Fernando Pereira", :title=>"Conditional random fields: probabilistic models for segmenting and labeling sequence data", :booktitle=>"Proceedings of the International Conference on Machine Learning", :pages=>"282--289", :publisher=>"Morgan Kaufmann", :location=>"San Francisco, CA", :year=>2001, :type=>:inproceedings}]
+    => [{:author=>"John Lafferty and Andrew McCallum and Fernando Pereira", :title=>"Conditional random fields: probabilistic models for segmenting and labeling sequence data", :'container-title'=>"Proceedings of the International Conference on Machine Learning", :pages=>"282--289", :publisher=>"Morgan Kaufmann", :location=>"San Francisco, CA", :year=>2001, :type=>:inproceedings}]
 
 If you want to make Anystyle-Parser smarter, please consider sending us your
 tagged references (see below).

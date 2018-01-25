@@ -1,7 +1,7 @@
 module AnyStyle
   class Normalizer
     class Container < Normalizer
-      @keys = [:booktitle]
+      @keys = [:'container-title']
 
       def normalize(item)
         map_values(item) do |_, value|

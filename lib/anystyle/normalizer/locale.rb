@@ -11,7 +11,7 @@ module AnyStyle
         return if @ld.nil? || item.key?(:language)
 
         sample = item.values_at(
-          :title, :booktitle, :journal, :location, :publisher
+          :title, :'container-title', :journal, :location, :publisher
         ).flatten.join(' ')
 
         return if sample.empty?

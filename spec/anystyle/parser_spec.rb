@@ -13,12 +13,12 @@ module AnyStyle
 
       context 'when marking the input as being tagged' do
         let(:input) {
-          %{<author>A. Cau, R. Kuiper, and W.-P. de Roever.</author><title>Formalising Dijkstra's development strategy within Stark's formalism. </title> <editor> In C. B. Jones, R. C. Shaw, and T. Denvir, editors, </editor> <booktitle> Proc. 5th. BCS-FACS Refinement Workshop, </booktitle> <date> 1992. </date>}
+          %{<author>A. Cau, R. Kuiper, and W.-P. de Roever.</author><title>Formalising Dijkstra's development strategy within Stark's formalism. </title> <editor> In C. B. Jones, R. C. Shaw, and T. Denvir, editors, </editor> <container-title> Proc. 5th. BCS-FACS Refinement Workshop, </container-title> <date> 1992. </date>}
         }
 
-        pending 'returns an array of expaned and labelled token sequences for a tagged string' do
+        pending 'returns an array of expanded and labelled token sequences for a tagged string' do
           expect(subject.prepare(input, tagged: true)[0].map(&:label)).to eq(
-            %w{ author author author author author author author author title title title title title title title editor editor editor editor editor editor editor editor editor editor editor booktitle booktitle booktitle booktitle booktitle date }
+            %w{ author author author author author author author author title title title title title title title editor editor editor editor editor editor editor editor editor editor editor container-title container-title container-title container-title container-title date }
           )
         end
 
