@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 gemspec
 
-gem 'anystyle-data', github: 'inukshuk/anystyle-data'
 
 group :development, :test do
+  #gem 'anystyle-data', github: 'inukshuk/anystyle-data'
   gem 'wapiti', github: 'inukshuk/wapiti-ruby'
   gem 'rake'
   gem 'rspec', '~>3.0'
