@@ -1,22 +1,6 @@
 module AnyStyle
-  class Parser
+  class ParserCore
     include StringUtils
-
-    SUP = File.expand_path('../support', __FILE__).untaint
-    RES = File.expand_path('../../../res', __FILE__).untaint
-
-    @formats = [:bibtex, :hash, :citeproc, :wapiti].freeze
-
-    @defaults = {
-      model: File.join(SUP, 'parser.mod'),
-      pattern: File.join(SUP, 'parser.pat'),
-      compact: true,
-      threads: 4,
-      separator: /(?:\r?\n)+/,
-      delimiter: /\s+|\b(\d[^\S]*:)/,
-      format: :hash,
-      training_data: File.join(RES, 'core.xml')
-    }.freeze
 
     class << self
       attr_reader :defaults, :formats
@@ -31,11 +15,103 @@ module AnyStyle
       end
     end
 
-    attr_accessor :model
-    attr_reader :options, :features, :normalizers
+    attr_reader :model, :options, :features, :normalizers
 
     def initialize(options = {})
-      @options = Parser.defaults.merge(options)
+      @options = self.class.defaults.merge(options)
+      load_model
+    end
+
+    def load_model
+      @model = Wapiti.load(options[:model])
+      @model.options.update_attributes options
+      self
+    end
+
+    def label(input)
+      model.label prepare(input)
+    end
+
+    def check(input)
+      model.check prepare(input, tagged: true)
+    end
+
+    def train(input = options[:training_data], truncate: true)
+      if truncate
+        @model = Wapiti::Model.new(options.reject { |k,_| k == :model })
+      end
+
+      unless input.nil? || input.empty?
+        @model.train prepare(input, tagged: true)
+      end
+
+      @model.path = options[:model]
+      @model
+    end
+
+    def learn(input)
+      train(input, truncate: false)
+    end
+
+    def normalize(item)
+      normalizers.each do |n|
+        begin
+          n.normalize item unless n.skip?
+        rescue => e
+          warn "Error in #{n.name} normalizer: #{e.message}"
+        end
+      end
+
+      item
+    end
+
+    def expand(dataset)
+      dataset.each do |seq|
+        seq.tokens.each_with_index do |tok, idx|
+          alpha = scrub tok.value
+          tok.observations = features.map { |f|
+            f.observe tok.value, alpha, idx, seq
+          }
+        end
+      end
+    end
+
+    def prepare(input, **opts)
+      opts[:separator] ||= options[:separator]
+      opts[:delimiter] ||= options[:delimiter]
+
+      case input
+      when Wapiti::Dataset
+        expand input
+      when String
+        if !input.tainted? && input.length < 1024 && File.exists?(input)
+          expand Wapiti::Dataset.open(input, opts)
+        else
+          expand Wapiti::Dataset.parse(input, opts)
+        end
+      else
+        expand Wapiti::Dataset.parse(input, opts)
+      end
+    end
+  end
+
+
+  class Parser < ParserCore
+    @formats = [:bibtex, :hash, :citeproc, :wapiti]
+
+    @defaults = {
+      model: File.join(SUPPORT, 'parser.mod'),
+      pattern: File.join(SUPPORT, 'parser.pat'),
+      compact: true,
+      threads: 4,
+      separator: /(?:\r?\n)+/,
+      delimiter: /\s+|\b(\d[^\S]*:)/,
+      format: :hash,
+      training_data: File.join(RES, 'core.xml')
+    }
+
+    def initialize(options = {})
+      super(options)
 
       @features = [
         Feature::Canonical.new,
@@ -64,14 +140,6 @@ module AnyStyle
         Normalizer::Locale.new,
         Normalizer::Type.new
       ]
-
-      reload
-    end
-
-    def reload
-      @model = Wapiti.load(@options[:model])
-      @model.options.update_attributes @options
-      self
     end
 
     def parse(input, format: options[:format])
@@ -84,78 +152,6 @@ module AnyStyle
       else
         raise ArgumentError, "format not supported: #{format}"
       end
-    end
-
-    def label(input)
-      model.label prepare(input)
-    end
-
-    def check(input)
-      model.check prepare(input, tagged: true)
-    end
-
-    # Prepares the passed-in string for processing by a CRF tagger. The
-    # string is split into separate lines; each line is tokenized and
-    # expanded. Returns a Wapiti::Dataset.
-    def prepare(input, **opts)
-      opts[:separator] ||= options[:separator]
-      opts[:delimiter] ||= options[:delimiter]
-
-      case input
-      when Wapiti::Dataset
-        expand input
-      when String
-        if !input.tainted? && input.length < 1024 && File.exists?(input)
-          expand Wapiti::Dataset.open(input, opts)
-        else
-          expand Wapiti::Dataset.parse(input, opts)
-        end
-      else
-        expand Wapiti::Dataset.parse(input, opts)
-      end
-    end
-
-    def expand(dataset)
-      dataset.each do |seq|
-        seq.tokens.each_with_index do |tok, idx|
-          alpha = scrub tok.value
-          tok.observations = features.map { |f|
-            f.observe tok.value, alpha, idx, seq
-          }
-        end
-      end
-    end
-
-    def train(input = options[:training_data], truncate: true)
-      if truncate
-        @model = Wapiti::Model.new(options.reject { |k,_| k == :model })
-      end
-
-      unless input.nil? || input.empty?
-        @model.train prepare(input, tagged: true)
-      end
-
-      @model.path = options[:model]
-      @model
-    end
-
-    # Trains the model by appending the training data without
-    # truncating the current model.
-    # @see train
-    def learn(input)
-      train(input, truncate: false)
-    end
-
-    def normalize(item)
-      normalizers.each do |n|
-        begin
-          n.normalize item unless n.skip?
-        rescue => e
-          warn "Error in #{n.name} normalizer: #{e.message}"
-        end
-      end
-
-      item
     end
 
     private

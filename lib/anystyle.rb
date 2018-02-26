@@ -2,6 +2,7 @@ require 'forwardable'
 require 'wapiti'
 
 require 'anystyle/version'
+require 'anystyle/support'
 require 'anystyle/errors'
 require 'anystyle/utils'
 require 'anystyle/dictionary'
