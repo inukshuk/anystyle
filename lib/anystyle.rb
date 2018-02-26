@@ -43,8 +43,4 @@ module AnyStyle
   def self.parse(*arguments)
     parser.parse(*arguments)
   end
-
-  def self.dictionary
-    parser.dictionary
-  end
 end

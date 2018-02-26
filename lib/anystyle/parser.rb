@@ -32,11 +32,10 @@ module AnyStyle
     end
 
     attr_accessor :model
-    attr_reader :options, :features, :dictionary, :normalizers
+    attr_reader :options, :features, :normalizers
 
     def initialize(options = {})
       @options = Parser.defaults.merge(options)
-      @dictionary = Dictionary.create.open
 
       @features = [
         Feature::Canonical.new,
@@ -45,7 +44,7 @@ module AnyStyle
         Feature::Affix.new(suffix: true),
         Feature::Caps.new,
         Feature::Number.new,
-        Feature::Dictionary.new(dictionary: @dictionary),
+        Feature::Dictionary.new,
         Feature::Keyword.new,
         Feature::Position.new,
         Feature::Punctuation.new,
