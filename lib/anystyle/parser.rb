@@ -11,7 +11,7 @@ module AnyStyle
 
       # Returns a default parser instance
       def instance
-        Thread.current[:anystyle] ||= new
+        Thread.current["anystyle_#{name.downcase}"] ||= new
       end
     end
 
@@ -22,9 +22,15 @@ module AnyStyle
       load_model
     end
 
-    def load_model
-      @model = Wapiti.load(options[:model])
-      @model.options.update_attributes options
+    def load_model(file = options[:model])
+      unless file.nil?
+        @model = Wapiti.load(file)
+        @model.options.update_attributes options
+      else
+        @model = Wapiti::Model.new(options.reject { |k,_| k == :model })
+        @model.path = options[:model]
+      end
+
       self
     end
 
@@ -36,17 +42,14 @@ module AnyStyle
       model.check prepare(input, tagged: true)
     end
 
-    def train(input = options[:training_data], truncate: true)
-      if truncate
-        @model = Wapiti::Model.new(options.reject { |k,_| k == :model })
-      end
+    def train(input = training_data, truncate: true)
+      load_model(nil) if truncate
 
       unless input.nil? || input.empty?
-        @model.train prepare(input, tagged: true)
+        model.train prepare(input, tagged: true)
       end
 
-      @model.path = options[:model]
-      @model
+      model
     end
 
     def learn(input)
@@ -93,6 +96,10 @@ module AnyStyle
         expand Wapiti::Dataset.parse(input, opts)
       end
     end
+
+    def training_data
+      options[:training_data]
+    end
   end
 
 
@@ -101,7 +108,7 @@ module AnyStyle
 
     @defaults = {
       model: File.join(SUPPORT, 'parser.mod'),
-      pattern: File.join(SUPPORT, 'parser.pat'),
+      pattern: File.join(SUPPORT, 'parser.txt'),
       compact: true,
       threads: 4,
       separator: /(?:\r?\n)+/,

@@ -35,6 +35,7 @@ require 'anystyle/normalizer/type'
 require 'anystyle/normalizer/volume'
 
 require 'anystyle/parser'
+require 'anystyle/finder'
 
 module AnyStyle
   def self.parser
@@ -43,5 +44,9 @@ module AnyStyle
 
   def self.parse(*arguments)
     parser.parse(*arguments)
+  end
+
+  def self.finder
+    Finder.instance
   end
 end
