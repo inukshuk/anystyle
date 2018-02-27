@@ -112,7 +112,7 @@ module AnyStyle
       compact: true,
       threads: 4,
       separator: /(?:\r?\n)+/,
-      delimiter: /\s+|\b(\d[^\S]*:)/,
+      delimiter: /\s+/,
       format: :hash,
       training_data: File.join(RES, 'core.xml')
     }
