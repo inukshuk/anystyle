@@ -5,18 +5,18 @@ module AnyStyle
         case token
         when /^[^\(\[\)\]]+$/
           :none
-        when /^\(.*\)[,;:-!\?\.]?$/
+        when /^\(.*\)[,;:\p{Pd}!\?\.]?$/
           :parens
-        when /^\[.*\][,;:-!\?\.]?$/
+        when /^\[.*\][,;:\p{Pd}!\?\.]?$/
           :'square-brackets'
+        when /\)[,;:\p{Pd}!\?\.]?$/
+          :'closing-paren'
         when /^\(/
           :'opening-paren'
-        when /\)[,;:-!\?\.]?$/
-          :'closing-paren'
+        when /\][,;:\p{Pd}!\?\.]?$/
+          :'closing-square-bracket'
         when /^\[/
           :'opening-square-bracket'
-        when /\][,;:-!\?\.]?$/
-          :'closing-square-bracket'
         else
           :other
         end

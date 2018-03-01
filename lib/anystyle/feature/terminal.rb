@@ -3,10 +3,12 @@ module AnyStyle
     class Terminal < Feature
       def observe(token, alpha, offset, sequence)
         case token
-        when /[!\?\.]$/
-          :terminal
-        when /[,;:-]$/
-          :internal
+        when /[\.\)\]]["'”„’‚´«‘“`»」』\)\]]?$/
+          :strong
+        when /[:"'”„’‚´«‘“`»」』][,;:\p{Pd}!\?\.]?$/
+          :moderate
+        when /[!\?,;\p{Pd}]["'”„’‚´«‘“`»」』]?$/
+          :weak
         else
           :none
         end
