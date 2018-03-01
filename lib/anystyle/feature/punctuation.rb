@@ -5,8 +5,6 @@ module AnyStyle
         case token
         when /^\p{^P}+$/
           :none
-        when /:\/\//
-          :uri
         when /.+:.+/
           :colon
         when /.+\p{Pd}.+/
