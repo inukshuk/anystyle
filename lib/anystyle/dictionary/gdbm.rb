@@ -6,7 +6,7 @@ module AnyStyle
       @defaults = {
         path: File.expand_path('../../data/dict.db', __FILE__),
         mode: 0666,
-        flags: ::GDBM::WRCREAT # | ::GDBM::NOLOCK
+        flags: ::GDBM::WRCREAT | ::GDBM::NOLOCK
       }
 
       attr_reader :env

@@ -11,14 +11,14 @@ module AnyStyle
 
     @defaults = {
       adapter: :gdbm,
-      source: File.expand_path('../data/dict.txt.gz', __FILE__)
+      source: nil
     }
 
     class << self
       attr_reader :tags, :code, :defaults, :adapters
 
       def create(options = {})
-        options = defaults.merge options
+        options = defaults.merge(options || {})
         adapter = options.delete :adapter
 
         case adapter

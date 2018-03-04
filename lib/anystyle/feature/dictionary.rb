@@ -3,8 +3,8 @@ module AnyStyle
     class Dictionary < Feature
       attr_reader :dictionary
 
-      def initialize(dictionary: AnyStyle::Dictionary.create.open)
-        @dictionary = dictionary
+      def initialize(options = {})
+        @dictionary = AnyStyle::Dictionary.create(options).open
       end
 
       def observe(token, alpha, offset, sequence)
