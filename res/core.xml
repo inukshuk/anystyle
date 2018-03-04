@@ -252,7 +252,7 @@
   <sequence>
     <author>P. T. Harker and J.-S. Pang.</author>
     <title>Finite-dimensional variational inequality and nonlinear complementarity problems: A survey of theory, algorithms, and applications.</title>
-    <container-title>Mathematical Programming,</container-title>
+    <journal>Mathematical Programming,</journal>
     <volume>48(2),</volume>
     <pages>161-220,</pages>
     <date>September 1990.</date>
@@ -3673,16 +3673,6 @@
     <note>to appear.</note>
   </sequence>
   <sequence>
-    <author>W. Chen.</author>
-    <title>Declarative specification and evaluation of database updates.</title>
-    <container-title>In Intl. Conference on Deductive and Object-Oriented Databases (DOOD),</container-title>
-    <volume>volume 566</volume>
-    <container-title>of Lecture Notes in Computer Science,</container-title>
-    <pages>pages 147-166.</pages>
-    <publisher>Springer-Verlag,</publisher>
-    <date>December 1991.</date>
-  </sequence>
-  <sequence>
     <author>D. Gannon, W. Jalby, and K. Gallivan.</author>
     <title>Strategies for cache and local memory management by global program transformation.</title>
     <journal>Journal of Parallel and Distributed Computing,</journal>
@@ -5132,14 +5122,6 @@
     <note>To appear in the special issue on Lazy Learning in Artificial Intelligence Review.</note>
   </sequence>
   <sequence>
-    <author>Marshall, Nancy Rose</author>
-    <title>Review of Joseph Crawhill, 1861-1913, One of the Glasgow Boys.</title>
-    <journal>Victorian Studies</journal>
-    <volume>42</volume>
-    <date>(1999/2000):</date>
-    <pages>358-60.</pages>
-  </sequence>
-  <sequence>
     <author>Zukofsky, Louis.</author>
     <title>"Sincerity and Objectification."</title>
     <journal>Poetry</journal>
@@ -5217,5 +5199,238 @@
     <volume>40(2):</volume>
     <pages>497-500.</pages>
     <note>IF: 5,895</note>
+  </sequence>
+  <sequence>
+    <author>Ballard, J.</author>
+    <title>“The Concentration City.”</title>
+    <container-title>In The Best Short Stories of J. G. Ballard.</container-title>
+    <location>New York:</location>
+    <publisher>Holt,</publisher>
+    <date>1995,</date>
+    <pages>1–20.</pages>
+  </sequence>
+  <sequence>
+    <author>Bramwell, Anna.</author>
+    <title>Blood and Soil: Richard Walther Darré and Hitler’s “Green Party”.</title>
+    <location>Bourne End, Buckinghamshire, England:</location>
+    <publisher>Kensal Press,</publisher>
+    <date>1985.</date>
+  </sequence>
+  <sequence>
+    <author>Baumgarten, Lothar.</author>
+    <genre>Personal communication,</genre>
+    <date>March 25, 2005.</date>
+  </sequence>
+  <sequence>
+    <author>Bawer, Bruce.</author>
+    <title>“Bad Company.” Review of Gain, by Richard Powers.</title>
+    <journal>New York Times Book Review,</journal>
+    <date>June 21, 1998,</date>
+    <volume>11.</volume>
+  </sequence>
+  <sequence>
+    <author>Berry, Wendell.</author>
+    <title>“The Regional Motive.”</title>
+    <container-title>In A Continuous Harmony: Essays Cultural and Agricultural.</container-title>
+    <location>New York:</location>
+    <publisher>Harcourt Brace Jovanovich,</publisher>
+    <date>1972,</date>
+    <pages>63–70.</pages>
+  </sequence>
+  <sequence>
+    <author>Cage, John.</author>
+    <title>“Overpopulation and Art.”</title>
+    <container-title>In John Cage: Composed in America,</container-title>
+    <editor>edited by Marjorie Perloff and Charles Junkerman.</editor>
+    <location>Chicago:</location>
+    <publisher>University of Chicago Press,</publisher>
+    <date>1994,</date>
+    <pages>14–38.</pages>
+  </sequence>
+  <sequence>
+    <author>Caldwell, Gail.</author>
+    <title>“On the Soapbox.” Review of Gain, by Richard Powers.</title>
+    <journal>Boston Globe,</journal>
+    <date>June 7, 1998,</date>
+    <pages>C1+.</pages>
+  </sequence>
+  <sequence>
+    <author>Calvino, Italo.</author>
+    <title>Invisible Cities.</title>
+    <translator>Translated by William Weaver.</translator>
+    <location>San Diego:</location>
+    <publisher>Harcourt Brace Jovanovich,</publisher>
+    <date>1974.</date>
+  </sequence>
+  <sequence>
+    <author>Castel, R.</author>
+    <title>“From Dangerousness to Risk.”</title>
+    <container-title>In The Foucault Effect: Studies in Governmentality,</container-title>
+    <editor>edited by Graham Burchell, Colin Gordon, and Peter Miller.</editor>
+    <location>London:</location>
+    <publisher>Harvester,</publisher>
+    <date>1991,</date>
+    <pages>281–98.</pages>
+  </sequence>
+  <sequence>
+    <author>Chernobyl Forum 2003–2005.</author>
+    <title>The Legacy of Chernobyl: Health, Environmental, and Socio-economic Impacts and Recommendations to the Governments of Belarus, the Russian Federation and Ukraine.</title>
+    <edition>2nd rev. version.</edition>
+    <location>Vienna:</location>
+    <publisher>International Atomic Energy Agency,</publisher>
+    <date>2006.</date>
+    <url>www.iaea.org/Publications/Booklets/Chernobyl/chernobyl.pdf.</url>
+  </sequence>
+  <sequence>
+    <author>A Civil Action.</author>
+    <director>Dir. Steven Zaillian.</director>
+    <note>Perf. John Travolta, Robert Duvall, Stephen Fry, James Gandolfini.</note>
+    <publisher>Touchstone Pictures,</publisher>
+    <location>Burbank, Calif.,</location>
+    <date>1999.</date>
+  </sequence>
+  <sequence>
+    <author>Deleuze, Gilles, and Félix Guattari.</author>
+    <title>Anti-Oedipus: Capitalism and Schizophrenia.</title>
+    <translator>Translated by Robert Hurley, Helen R. Lane, and Mark Seem.</translator>
+    <location>New York:</location>
+    <publisher>Viking,</publisher>
+    <date>1977.</date>
+  </sequence>
+  <sequence>
+    <author>Dirlik, Arif.</author>
+    <title>“Place-Based Imagination: Globalism and the Politics of Place.”</title>
+    <editor>In Prazniak and Dirlik,</editor>
+    <pages>15–51.</pages>
+  </sequence>
+  <sequence>
+    <author>Page, Walter Hines and Arthur Wilson Page.</author>
+    <date>1912.</date>
+    <title>The World’s Work: A History of Our Time.</title>
+    <volume>Vol. 23</volume>
+    <publisher>Doubleday, Page and Company.</publisher>
+  </sequence>
+  <sequence>
+    <author>Puente, Lucas.</author>
+    <date>2014.</date>
+    <title>“Understanding the Impact of Interest Groups on Monetary Policy During the Great Depression.”</title>
+    <genre>Unpublished Manuscript.</genre>
+  </sequence>
+  <sequence>
+    <author>Rogoff, Ken.</author>
+    <date>2014.</date>
+    <title>“The Exaggerated Death of Inflation.”.</title>
+  </sequence>
+  <sequence>
+    <author>Shull, Bernard.</author>
+    <date>2005.</date>
+    <title>The fourth branch: the Federal Reserve’s unlikely rise to power and influence.</title>
+    <publisher>Praeger.</publisher>
+  </sequence>
+  <sequence>
+    <author>Stewart III, Charles and Jonathan Woon.</author>
+    <date>2009.</date>
+    <title>Congressional Committee Assign- ments, 103rd to 112th Congresses.</title>
+  </sequence>
+  <sequence>
+    <author>Volcker, Paul A and Toyoo Gyohten.</author>
+    <date>1992.</date>
+    <title>Changing fortunes: The world’s money and the threat to American leadership.</title>
+    <publisher>Crown.</publisher>
+  </sequence>
+  <sequence>
+    <author>Wachtel, Katya.</author>
+    <date>2011.</date>
+    <title>“Meet ST OMO: The Top Secret Loan Facility The Fed Used To Loan Money To Banks.”</title>
+    <journal>Business Insider</journal>
+    <date>May(26).</date>
+    <url>URL: http://articles.businessinsider.com/2011-05-26/wall_street/29997602_1_new-york-fed-banks</url>
+  </sequence>
+  <sequence>
+    <author>Yglesias, Matthew.</author>
+    <date>2014.</date>
+    <title>“Obama’s biggest economic policy mistake.”</title>
+    <journal>Vox</journal>
+    <date>Septem- ber(17).</date>
+    <url>URL: http://www.vox.com/2014/9/17/6219247/obamas-biggest-economic-policy-mistake</url>
+  </sequence>
+  <sequence>
+    <author>DeLillo, Don.</author>
+    <title>White Noise: Text and Criticism.</title>
+    <editor>Edited by Mark Osteen.</editor>
+    <edition>Viking critical edition.</edition>
+    <location>New York:</location>
+    <publisher>Penguin,</publisher>
+    <date>1998.</date>
+  </sequence>
+  <sequence>
+    <editor>Clem, Ralph S., Martin Harry Greenberg, and Joseph D. Olander, eds.</editor>
+    <title>No Room for Man: Population and the Future through Science Fiction.</title>
+    <location>Totowa, N.J.:</location>
+    <publisher>Rowman and Littlefield,</publisher>
+    <date>1979.</date>
+  </sequence>
+  <sequence>
+    <editor>Ching, Barbara, and Gerald W. Creed, eds.</editor>
+    <title>Knowing Your Place: Rural Identity and Cultural Hierarchy.</title>
+    <location>New York:</location>
+    <publisher>Routledge,</publisher>
+    <date>1997.</date>
+  </sequence>
+  <sequence>
+    <editor>Bird, Jon, Barry Curtis, Tim Putnam, George Robertson, and Lisa Tickner, eds.</editor>
+    <title>Mapping the Futures: Local Cultures, Global Change.</title>
+    <location>London:</location>
+    <publisher>Routledge,</publisher>
+    <date>1993.</date>
+  </sequence>
+  <sequence>
+    <author>Chang, Chris.</author>
+    <title>“Sound and Lothar Baumgarten.”</title>
+    <journal>Film Comment</journal>
+    <volume>40.1</volume>
+    <date>(January–February 2004):</date>
+    <pages>17.</pages>
+  </sequence>
+  <sequence>
+    <author>Deleuze, Gilles.</author>
+    <title>“Bartleby; or, the Formula.”</title>
+    <container-title>In Essays: Critical and Clinical,</container-title>
+    <translator>translated by Daniel W. Smith,</translator>
+    <pages>68-90.</pages>
+    <location>London:</location>
+    <publisher>Verso,</publisher>
+    <date>1998.</date>
+  </sequence>
+  <sequence>
+    <author>–––––.</author>
+    <title>Wieland; or The Transformation. An American Tale.</title>
+    <editor>Edited by Philip Barnard and Stephen Shapiro.</editor>
+    <location>Indianapolis: Hackett,</location>
+    <date>2009.</date>
+  </sequence>
+  <sequence>
+    <author>Douglass, Frederick.</author>
+    <title>My Bondage and My Freedom.</title>
+    <editor>Ed. William L. Andrews.</editor>
+    <location>Urbana:</location>
+    <publisher>University of Illinois Press,</publisher>
+    <date>1987.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[67]</citation-number>
+    <author>Reynolds, D., Quatieri, T., and Dunn, R.,</author>
+    <title>“Speaker verification using adapted Gaussian mixture models,”</title>
+    <journal>Digital signal processing,</journal>
+    <volume>Vol. 10, No. 1-3,</volume>
+    <date>2000,</date>
+    <pages>pp. 19–41.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[56]</citation-number>
+    <author>Fariello, E.,</author>
+    <title>“Method and Apparatus for Detecting Speech Signals in the Pres- ence of Noise,”</title>
+    <date>Jan. 23 1973,</date>
+    <note>US Patent 3,712,959.</note>
   </sequence>
 </dataset>
