@@ -10,13 +10,19 @@ module AnyStyle
           :translator
         when /^(dissertation)$/i
           :thesis
+        when /^(review)$/i
+          :review
         when /^(proceedings|conference)/i
           :proceedings
         when /^(journal|zeitschrift|quarterly)/i
           :journal
         when /^in$/i
           :in
-        when /^(retrieved|accessed)$/
+        when /^(and|und|&)$/
+          :and
+        when /^(etal)$/
+          :etal
+        when /^(retrieved|accessed)$/i
           :retrieved
         when /^(edition|expanded|revised|p?reprint|illustrated)$/i,
           /^(aufl(age)?|\p{Alpha}*ausg(abe)?)$/i

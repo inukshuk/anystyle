@@ -1,7 +1,7 @@
 module AnyStyle
   class Feature
     class Punctuation < Feature
-      def observe(token, alpha, offset, sequence)
+      def observe(token, *args)
         case token
         when /^\p{^P}+$/
           :none
@@ -11,6 +11,8 @@ module AnyStyle
           :hyphen
         when /.+\..+/
           :period
+        when /&/
+          :amp
         else
           :other
         end
