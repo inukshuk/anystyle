@@ -131,6 +131,8 @@ module AnyStyle
         Feature::Keyword.new,
         Feature::Position.new,
         Feature::Punctuation.new,
+        Feature::Brackets.new,
+        Feature::Terminal.new,
         Feature::Locator.new
       ]
 
