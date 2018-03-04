@@ -20,6 +20,8 @@ require 'anystyle/feature/locator'
 require 'anystyle/feature/number'
 require 'anystyle/feature/position'
 require 'anystyle/feature/punctuation'
+require 'anystyle/feature/brackets'
+require 'anystyle/feature/terminal'
 
 require 'anystyle/normalizer'
 require 'anystyle/normalizer/container'
