@@ -114,7 +114,7 @@ module AnyStyle
       separator: /(?:\r?\n)+/,
       delimiter: /\s+/,
       format: :hash,
-      training_data: File.join(RES, 'core.xml')
+      training_data: File.join(RES, 'parser', 'core.xml')
     }
 
     def initialize(options = {})
