@@ -204,13 +204,6 @@
     <publisher>Gaëtan Morin.</publisher>
   </sequence>
   <sequence>
-    <title>Southern Ecuador,"</title>
-    <journal>Social Forces,</journal>
-    <volume>63: 1</volume>
-    <date>(Sept. 1984),</date>
-    <pages>24-50.</pages>
-  </sequence>
-  <sequence>
     <author>Kennedy, A. D.</author>
     <date>(1990)</date>
     <title>"The theory of hybrid stochastic algorithms",</title>
@@ -236,8 +229,7 @@
     <author>County Health Rankings.</author>
     <date>(2016).</date>
     <title>Alcohol and Drug Use.</title>
-    <accessed>Retrieved March 19, 2016,</accessed>
-    <source>from County Health Rankings &amp; Roadmaps :</source>
+    <accessed>Retrieved March 19, 2016, from County Health Rankings &amp; Roadmaps :</accessed>
     <url>http://www.countyhealthrankings.org/our-approach/health-factors/alcohol-drug-use</url>
   </sequence>
   <sequence>
@@ -316,7 +308,8 @@
   <sequence>
     <author>Grieve, R. A. F., Pilkington, M.,</author>
     <title>The signature of terrestrial impacts.</title>
-    <journal>Aust. Geol. Geophys. J. 16,</journal>
+    <journal>Aust. Geol. Geophys. J.</journal>
+    <volume>16,</volume>
     <pages>pp. 399-420.</pages>
     <date>1996.</date>
   </sequence>
@@ -433,20 +426,6 @@
     <url>http://dx.doi.org/10.1007/s10661-012-2637-6.</url>
   </sequence>
   <sequence>
-    <author>Babu, K.S.J. &amp; Mohan, S.,</author>
-    <date>2012.</date>
-    <title>Extended Period Simulation for Pressure- Deficient Water Distribution Network.</title>
-    <journal>&lt;italic&gt;Journal of Computing in Civil Engineering&lt;/italic&gt;,</journal>
-    <volume>26:4:</volume>
-    <pages>498.</pages>
-    <author>Baranowski, T.M. &amp; LeBoeuf, E.J.,</author>
-    <date>2008.</date>
-    <title>Consequence Management Utilizing Optimization.</title>
-    <journal>&lt;italic&gt;Journal of Water Resources Planning and Management&lt;/italic&gt;,</journal>
-    <volume>134:4:</volume>
-    <pages>386.</pages>
-  </sequence>
-  <sequence>
     <author>Dixon, Brad</author>
     <date>(1992, August 20).</date>
     <title>Substance-free housing option expanded for freshman students.</title>
@@ -484,9 +463,6 @@
     <container-title>in: Studie a texty k náboženským dějinám českým 2,</container-title>
     <date>1915,</date>
     <pages>132-164.</pages>
-  </sequence>
-  <sequence>
-    <title>transcription factors involved in the regulation of secondary cell wall</title>
   </sequence>
   <sequence>
     <author>Carvalho, J.E., Lahaye, F., Croce, J.C., Schubert, M.</author>
@@ -991,7 +967,8 @@
     <pages>pp. 39-60.</pages>
   </sequence>
   <sequence>
-    <author>(7) Pinar L, Enhos A, Ada S, Güngör N.</author>
+    <citation-number>(7)</citation-number>
+    <author>Pinar L, Enhos A, Ada S, Güngör N.</author>
     <title>Can we use nerve gliding exercises in women with carpal tunnel syndrome?.</title>
     <journal>Advances in Therapy.</journal>
     <volume>2005;22(5):</volume>
@@ -1004,7 +981,8 @@
     <journal>J. of Mult.-Valued Logic &amp; Soft Computing,</journal>
     <volume>17,</volume>
     <pages>255–287.</pages>
-    <url>Retirado de http://sci2s.ugr.es/publications/ficheros/2010-JMVLSC-Alcala_Fdez-KEEL-dataset.pdf</url>
+    <accessed>Retirado de</accessed>
+    <url>http://sci2s.ugr.es/publications/ficheros/2010-JMVLSC-Alcala_Fdez-KEEL-dataset.pdf</url>
   </sequence>
   <sequence>
     <author>Machamer, P.</author>
@@ -1469,13 +1447,6 @@
     <journal>Syst. Biol.</journal>
     <volume>55,</volume>
     <pages>703–714.</pages>
-  </sequence>
-  <sequence>
-    <title>Concrete, the material that can do almost anything,</title>
-    <journal>Architectural Forum,</journal>
-    <volume>vol. 117,</volume>
-    <date>settembre 1962,</date>
-    <pages>pp.</pages>
   </sequence>
   <sequence>
     <author>Yong, A.</author>
