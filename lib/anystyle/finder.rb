@@ -7,7 +7,7 @@ module AnyStyle
       pattern: File.join(SUPPORT, 'finder.txt'),
       compact: true,
       threads: 4,
-      separator: /^::: ANYSTYLE SEQUENCE END :::$/,
+      separator: /^::: ANYSTYLE SEQUENCE BREAK :::$/,
       delimiter: /\n/,
       format: :wapiti
     }

@@ -56,10 +56,8 @@ end
 desc 'Run an IRB session with AnyStyle loaded'
 task :console, [:script] do |t, args|
   ARGV.clear
-
   require 'irb'
   require 'anystyle'
-
   IRB.conf[:SCRIPT] = args.script
   IRB.start
 end
@@ -72,12 +70,41 @@ task :train do
   AnyStyle.parser.model.save
 end
 
+desc 'Check all tagged datasets'
 task :check do
   require 'anystyle'
-  require 'pp'
-  Dir['./res/*.xml'].each do |xml|
-    pp "Checking #{File.basename(xml)}..."
-    pp AnyStyle.parser.check xml
+  Dir['./res/parser/*.xml'].each do |xml|
+    print 'Checking %.15s' % "#{File.basename(xml)}............"
+    start = Time.now
+    stats = AnyStyle.parser.check xml.untaint
+    time = Time.now - start
+    if stats[:token][:errors] == 0
+      puts ' ✓ %2ds' % time
+    else
+      puts '%4d seq %5.2f%% %6d tok %5.2f%% %2ds' % [
+        stats[:sequence][:errors],
+        stats[:sequence][:rate],
+        stats[:token][:errors],
+        stats[:token][:rate],
+        time
+      ]
+    end
+  end
+end
+
+desc "Save delta of a tagged dataset with itself"
+task :delta, :xml do |t, args|
+  require 'anystyle'
+  print 'Checking %.15s' % "#{File.basename(args[:xml])}............"
+  input = Wapiti::Dataset.open args[:xml].untaint
+  output = AnyStyle.parser.label input
+  delta = output - input
+  if delta.length == 0
+    puts ' ✓'
+  else
+    name = File.basename(args[:xml], '.xml')
+    delta.save "#{name}.delta.xml", indent: 2
+    puts "delta saved to #{name}.delta.xml (#{delta.length})"
   end
 end
 
