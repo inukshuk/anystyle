@@ -55,7 +55,7 @@
     <date>1726.</date>
     <title>Itinerarium septentrionale: or, A journey thro' most of the counties of Scotland, and those in the north of England. In two parts ... illus- trated with sixty-six copper plates.</title>
     <location>London:</location>
-    <publisher>Printed for the author and sold by G. Strahan etc.</publisher>
+    <note>Printed for the author and sold by G. Strahan etc.</note>
   </sequence>
   <sequence>
     <author>———.</author>
@@ -557,10 +557,6 @@
     <location>Richmond, VA: .</location>
   </sequence>
   <sequence>
-    <title>The Fed vs. Jimmy’s Aides: Seeing slowdown instead of surge, Bill Miller declines to tighten money.</title>
-    <date>1979.</date>
-  </sequence>
-  <sequence>
     <author>Tootell, Geoffrey MB.</author>
     <date>1996.</date>
     <title>“Appointment procedures and FOMC voting behavior.”</title>
@@ -756,7 +752,7 @@
     <citation-number>[39]</citation-number>
     <author>R. A. Hess and Y. Jung,</author>
     <title>“An application of generalized predictive control to rotorcraft terrain-following flight,”</title>
-    <journal>Systems, Man and Cybernetics, IEEE Trans- actions on,</journal>
+    <journal>Systems, Man and Cybernetics, IEEE Transactions on,</journal>
     <volume>vol. 19, no. 5,</volume>
     <pages>pp. 955–962,</pages>
     <date>Sep 1989.</date>
