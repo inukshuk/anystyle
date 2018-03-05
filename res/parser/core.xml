@@ -1113,7 +1113,7 @@
     <author>Emihovich, C., &amp; Miller, G. E.</author>
     <date>(1988).</date>
     <title>Talking to the turtle: A discourse analysis of Logo instruction.</title>
-    <container-title>Discourse Processes,</container-title>
+    <journal>Discourse Processes,</journal>
     <volume>11,</volume>
     <pages>183-201.</pages>
   </sequence>
@@ -3279,7 +3279,7 @@
     <date>March - December 1994.</date>
   </sequence>
   <sequence>
-    <publisher>Sun Microsystems.</publisher>
+    <author>Sun Microsystems.</author>
     <title>Java (tm): Programming for the Internet.</title>
     <url>http://java.sun.com.</url>
   </sequence>
@@ -4641,8 +4641,7 @@
     <title>"200th Birthday of Grimms Celebrated."</title>
     <journal>Los Angeles Times,</journal>
     <date>15 March 1985,</date>
-    <note>sec. 1A,</note>
-    <pages>p. 3.</pages>
+    <pages>sec. 1A, p. 3.</pages>
   </sequence>
   <sequence>
     <author>Neville, Leonora.</author>
@@ -5226,7 +5225,7 @@
     <title>“Bad Company.” Review of Gain, by Richard Powers.</title>
     <journal>New York Times Book Review,</journal>
     <date>June 21, 1998,</date>
-    <volume>11.</volume>
+    <pages>11.</pages>
   </sequence>
   <sequence>
     <author>Berry, Wendell.</author>
@@ -5432,5 +5431,12 @@
     <title>“Method and Apparatus for Detecting Speech Signals in the Pres- ence of Noise,”</title>
     <date>Jan. 23 1973,</date>
     <note>US Patent 3,712,959.</note>
+  </sequence>
+  <sequence>
+    <author>Crossette, Barbara.</author>
+    <title>“How to Fix a Crowded World: Add People.”</title>
+    <journal>New York Times,</journal>
+    <date>November 2, 1997,</date>
+    <pages>sec. 4, 1+.</pages>
   </sequence>
 </dataset>
