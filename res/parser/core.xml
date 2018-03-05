@@ -4307,7 +4307,8 @@
     <doi>doi:10.3998/3336451.0004.203</doi>
   </sequence>
   <sequence>
-    <author>Green, T. (2009).</author>
+    <author>Green, T.</author>
+    <date>(2009).</date>
     <title>"We Need Publishing Standards for Datasets and Data Tables".</title>
     <journal>Research Information.</journal>
     <doi>doi:10.1787/603233448430</doi>
@@ -4881,23 +4882,6 @@
     <accessed>Retrieved January 22, 2010, from LexisNexis AU.</accessed>
   </sequence>
   <sequence>
-    <author>Sillick, T. J., &amp; Schutte, N. S.</author>
-    <date>(2006).</date>
-    <title>Emotional intelligence and self-esteem mediate between perceived early parental love and adult happiness.</title>
-    <journal>E-Journal of Applied Psychology,</journal>
-    <volume>2(2),</volume>
-    <pages>38–48.</pages>
-    <url>Retrieved from http://ojs.lib.swin.edu.au/index.php/ejap/article/view/71/100</url>
-  </sequence>
-  <sequence>
-    <author>Munro, C.</author>
-    <date>(1999).</date>
-    <title>Facing grief.</title>
-    <journal>Synergy,</journal>
-    <volume>3(3).</volume>
-    <url>Retrieved from: http://about.murdoch.edu.au/synergy/0303/grief.html</url>
-  </sequence>
-  <sequence>
     <author>Murray, G.</author>
     <date>(2005).</date>
     <title>A duty of care to children and young people in Western Australia: Report on the quality assurance and review of unsubstantiated allegations of abuse in care: 1 April 2004 to 12 September 2005.</title>
@@ -4910,13 +4894,6 @@
     <title>Kiss or kill: Who is the victim when a battered woman kills?</title>
     <journal>The Age: Extra,</journal>
     <pages>p. 6.</pages>
-  </sequence>
-  <sequence>
-    <author>Devlin, H.</author>
-    <date>(2010, January 28).</date>
-    <title>Neuron breakthrough offers hope on Alzheimer’s and Parkinson’s.</title>
-    <journal>The Times.</journal>
-    <url>Retrieved from http://www.timesonline.co.uk/tol/news/science/medicine/article7005401.ece</url>
   </sequence>
   <sequence>
     <author>O'Leary, C.</author>
