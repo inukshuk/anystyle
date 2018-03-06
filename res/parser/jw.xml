@@ -398,14 +398,6 @@
     <pages>37-79.</pages>
   </sequence>
   <sequence>
-    <author>Wettschereck, Dietrich, and Thomas G. Dietterich,</author>
-    <date>(1995).</date>
-    <title>An Experimental Comparison of Nearest-Neighbor and Nearest-Hyperrectangle Algorithms.</title>
-    <journal>Machine Learning,</journal>
-    <volume>Vol. 19, No. 1,</volume>
-    <pages>pp. 5-28.</pages>
-  </sequence>
-  <sequence>
     <author>T. E. Hull, T. F. Fairgrieve, and P. T. P. Tang.</author>
     <title>Implementing complex elementary functions using exception handling.</title>
     <journal>ACM Trans. Math. Softw.,</journal>
