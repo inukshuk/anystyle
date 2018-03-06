@@ -373,7 +373,7 @@
   <sequence>
     <author>Ostroff, J. S.,</author>
     <title>"Temporal Logic for Real-Time Systems",</title>
-    <container-title>Advanced Software Development Series,</container-title>
+    <collection-title>Advanced Software Development Series,</collection-title>
     <location>England,</location>
     <date>1989.</date>
   </sequence>
@@ -620,7 +620,7 @@
   <sequence>
     <author>J. E. Dennis and R. B. Schnabel.</author>
     <title>Numerical Methods for Unconstrained Optimization and Nonlinear Equations.</title>
-    <container-title>Prentice-Hall Series in Computational Mathematics.</container-title>
+    <collection-title>Prentice-Hall Series in Computational Mathematics.</collection-title>
     <publisher>Prentice-Hall, Inc,</publisher>
     <location>Englewood Cliffs, New Jersey,</location>
     <date>1983.</date>
@@ -3595,13 +3595,6 @@
     <date>1993.</date>
   </sequence>
   <sequence>
-    <author>Ting, Kai Ming,</author>
-    <date>(1996).</date>
-    <title>Discretisation in Lazy Learning.</title>
-    <note>To appear in</note>
-    <journal>the special issue on Lazy Learning in Artificial Intelligence Review.</journal>
-  </sequence>
-  <sequence>
     <author>J. C. Butcher.</author>
     <title>General linear method: A survey.</title>
     <journal>Appl. Numer. Math.,</journal>
@@ -5109,8 +5102,7 @@
     <date>(2017).</date>
     <title>The EMPaCT Classifier: A Validated Tool to Predict Postoperative Prostate Cancer-related Death Using Competing-risk Analysis.</title>
     <journal>European Urology Focus,</journal>
-    <note>Ahead of print,</note>
-    <note>art.nr. S2405-4569(17)30002-0.</note>
+    <note>Ahead of print, art.nr. S2405-4569(17)30002-0.</note>
   </sequence>
   <sequence>
     <author>Sampson P, Buchanan S, Coote S, Demain S, Feys P, Freeman C, Meadmore K, Hughes AM</author>
@@ -5324,7 +5316,7 @@
     <author>Yglesias, Matthew.</author>
     <date>2014.</date>
     <title>“Obama’s biggest economic policy mistake.”</title>
-    <journal>Vox</journal>
+    <source>Vox</source>
     <date>Septem- ber(17).</date>
     <url>URL: http://www.vox.com/2014/9/17/6219247/obamas-biggest-economic-policy-mistake</url>
   </sequence>
@@ -5580,5 +5572,14 @@
     <volume>vol. 51, no. 10,</volume>
     <pages>pp. 1295 – 1306,</pages>
     <date>2004.</date>
+  </sequence>
+  <sequence>
+    <editor>Cove, John J., and George F. MacDonald, eds.</editor>
+    <title>Tsimshian Narratives, Collected by Marius Barbeau and William Beynon.</title>
+    <volume>2 vols.</volume>
+    <collection-title>Mercury Series Directorate Paper 3.</collection-title>
+    <location>Ottawa:</location>
+    <publisher>Canadian Museum of Civilization,</publisher>
+    <date>1987.</date>
   </sequence>
 </dataset>
