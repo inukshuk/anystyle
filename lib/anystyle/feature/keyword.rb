@@ -4,9 +4,12 @@ module AnyStyle
       def observe(token, alpha, *args)
         case alpha
         when /^(ed|editor|editors|eds|edited)$/i,
-             /^(hrsg|herausgeber)$/i
+             /^(hg|hrsg|herausgeber)$/i,
+             /^(compilador)$/i
           :editor
-        when /^(trans|translated)$/i
+        when /^(trans(lated)?|translation)$/i,
+             /^(übers(etzung)?)$/i,
+             /^(trad(uction)?)$/i
           :translator
         when /^(dissertation)$/i
           :thesis
