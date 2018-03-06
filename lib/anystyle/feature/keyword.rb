@@ -27,7 +27,7 @@ module AnyStyle
           :etal
         when /^(retrieved|accessed)$/i
           :retrieved
-        when /^(edition|expanded|revised|p?reprint|illustrated)$/i,
+        when /^(edn|edition|expanded|rev(ised)?|p?reprint|illustrated)$/i,
           /^(aufl(age)?|\p{Alpha}*ausg(abe)?)$/i
           :edition
         else

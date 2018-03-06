@@ -1432,7 +1432,8 @@
     <author>Ruff, H., Narayanan, S., and Draper, M.,</author>
     <title>“Human interaction with levels of automation and decision-aid fidelity in the supervisory control of multiple simu- lated unmanned air vehicles,”</title>
     <journal>Presence: Teleoperators &amp; Virtual Environments,</journal>
-    <volume>Vol. 11, No. 4, 2002,</volume>
+    <volume>Vol. 11, No. 4,</volume>
+    <date>2002,</date>
     <pages>pp. 335–351.</pages>
   </sequence>
   <sequence>
@@ -1498,8 +1499,7 @@
     <citation-number>[62]</citation-number>
     <author>Gish, H. and Schmidt, M.,</author>
     <title>“Text-independent speaker identification,”</title>
-    <container-title>Signal Processing Magazine,</container-title>
-    <publisher>IEEE ,</publisher>
+    <journal>Signal Processing Magazine, IEEE ,</journal>
     <volume>Vol. 11, No. 4,</volume>
     <date>1994,</date>
     <pages>pp. 18–32.</pages>
@@ -2119,8 +2119,7 @@
     <date>1998a.</date>
     <title>Beyond labeling: The role of maternal input in the acquisition of richly structured categories.</title>
     <journal>Monographs of the Society for Research in Child Development</journal>
-    <volume>63</volume>
-    <note>(serial no. 253).</note>
+    <volume>63 (serial no. 253).</volume>
   </sequence>
   <sequence>
     <author>Wong Fillmore, Lily.</author>
@@ -2367,7 +2366,8 @@
     <title>Community Colleges: A Route of Upward Economic Mobil- ity</title>
     <note>(Community Development Report).</note>
     <publisher>Federal Reserve Bank of St. Louis.</publisher>
-    <url>Retrieved from www.stlouisfed.org/community development/assets/pdf/ CommunityColleges.pdf</url>
+    <accessed>Retrieved from</accessed>
+    <url>www.stlouisfed.org/community development/assets/pdf/ CommunityColleges.pdf</url>
   </sequence>
   <sequence>
     <author>Grant, H., &amp; Dweck, C. S.</author>
@@ -2477,7 +2477,7 @@
     <author>Baum, S., Ma, J., &amp; Payea, K.</author>
     <date>(2010).</date>
     <title>Education pays 2010: The benefits of higher education for individuals and society.</title>
-    <note>Trends in Higher Education Series,</note>
+    <collection-title>Trends in Higher Education Series,</collection-title>
     <location>New York, NY.</location>
   </sequence>
   <sequence>
@@ -2652,14 +2652,16 @@
     <author>Spencer Foundation.</author>
     <date>(2011).</date>
     <title>Initiative on data use and educational improve- ment.</title>
-    <url>Retrieved from http://www.spencer.org/content.cfm/data-use-and -educational-improvement-details</url>
+    <accessed>Retrieved from</accessed>
+    <url>http://www.spencer.org/content.cfm/data-use-and -educational-improvement-details</url>
   </sequence>
   <sequence>
     <author>Kolbe, T., Partridge, M., &amp; O’Reilly, F.</author>
     <date>(2011).</date>
     <title>Time and learning in schools: A national profile.</title>
     <location>Boston, MA.</location>
-    <url>Retrieved from http://www.timeandlearning .org/?q=sass</url>
+    <accessed>Retrieved from</accessed>
+    <url>http://www.timeandlearning .org/?q=sass</url>
   </sequence>
   <sequence>
     <author>Derks, B., Scheepers, D., Van Laar, C., &amp; Ellemers, N.</author>
@@ -2774,8 +2776,8 @@
     <pages>1-11.</pages>
   </sequence>
   <sequence>
-    <author>Brown, Henry</author>
-    <title>“Box”. “Narrative of the Life of Henry Box Brown, Written By Himself.”</title>
+    <author>Brown, Henry “Box”.</author>
+    <title>“Narrative of the Life of Henry Box Brown, Written By Himself.”</title>
     <container-title>In American Antislavery Writings: Colonial Beginnings to Emancipation,</container-title>
     <editor>edited by James G. Basker,</editor>
     <pages>532-537.</pages>
@@ -2886,7 +2888,8 @@
     <author>–––––.</author>
     <title>Wieland; or The Transformation. An American Tale.</title>
     <editor>Edited by Philip Barnard and Stephen Shapiro.</editor>
-    <location>Indianapolis: Hackett,</location>
+    <location>Indianapolis:</location>
+    <publisher>Hackett,</publisher>
     <date>2009.</date>
   </sequence>
   <sequence>
@@ -3330,7 +3333,7 @@
     <title>“Bad Company.” Review of Gain, by Richard Powers.</title>
     <journal>New York Times Book Review,</journal>
     <date>June 21, 1998,</date>
-    <volume>11.</volume>
+    <pages>11.</pages>
   </sequence>
   <sequence>
     <author>Beck, Ulrich.</author>
