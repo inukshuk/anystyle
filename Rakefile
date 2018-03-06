@@ -79,9 +79,9 @@ task :check do
     stats = AnyStyle.parser.check xml.untaint
     time = Time.now - start
     if stats[:token][:errors] == 0
-      puts '   ✓                              %2ds' % time
+      puts '   ✓                               %2ds' % time
     else
-      puts '%4d seq %5.2f%% %6d tok %5.2f%% %2ds' % [
+      puts '%4d seq %6.2f%% %6d tok %5.2f%% %2ds' % [
         stats[:sequence][:errors],
         stats[:sequence][:rate],
         stats[:token][:errors],

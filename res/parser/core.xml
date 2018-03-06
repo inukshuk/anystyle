@@ -5372,7 +5372,8 @@
     <author>–––––.</author>
     <title>Wieland; or The Transformation. An American Tale.</title>
     <editor>Edited by Philip Barnard and Stephen Shapiro.</editor>
-    <location>Indianapolis: Hackett,</location>
+    <location>Indianapolis:</location>
+    <publisher>Hackett,</publisher>
     <date>2009.</date>
   </sequence>
   <sequence>
@@ -5581,5 +5582,37 @@
     <location>Ottawa:</location>
     <publisher>Canadian Museum of Civilization,</publisher>
     <date>1987.</date>
+  </sequence>
+  <sequence>
+    <author>LERCHE, A., VYBERG, M., et KIRKEGAARD, E.</author>
+    <title>Acute cholangitis and pancreatitis associated with sulindac (clinoril).</title>
+    <journal>Histopathology,</journal>
+    <date>1987,</date>
+    <volume>vol. 11, no 6,</volume>
+    <pages>p. 647-653.</pages>
+  </sequence>
+  <sequence>
+    <editor>Piveteau, J. (ed.).</editor>
+    <date>1954.</date>
+    <title>*Oeuvres philosophiques de Buffon.*</title>
+    <location>Paris:</location>
+    <publisher>Presses Universitaires de France.</publisher>
+  </sequence>
+  <sequence>
+    <author>Coüasnon, Bertrand, Bernard Rétif,</author>
+    <date>1995,</date>
+    <title>Using a grammar for a reliable full score recognition system,</title>
+    <container-title>International Computer Music Conference</container-title>
+    <pages>187-94.</pages>
+  </sequence>
+  <sequence>
+    <author>Diewald, Gabriele</author>
+    <date>2002.</date>
+    <title>A model for relevant types of contexts in grammaticalization.</title>
+    <editor>In: Ilse Wischer and Gabriele Diewald (eds)</editor>
+    <container-title>New reflections on grammaticalization.</container-title>
+    <location>Amsterdam:</location>
+    <publisher>Benjamins.</publisher>
+    <pages>103–120.</pages>
   </sequence>
 </dataset>
