@@ -618,13 +618,6 @@
     <pages>43 - 102.</pages>
   </sequence>
   <sequence>
-    <author>Dempster, A., Laird, N., and Rubin, D.</author>
-    <date>(1977)</date>
-    <title>Maximum likelihood from incomplete data via the EM algorithm.</title>
-    <journal>Journal of the Royal Statistical Society B39,</journal>
-    <pages>1-38.</pages>
-  </sequence>
-  <sequence>
     <author>Valiant, L. G.</author>
     <date>(1984).</date>
     <title>A theory of the learnable.</title>

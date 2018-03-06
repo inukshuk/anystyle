@@ -568,14 +568,6 @@
     <date>1979.</date>
   </sequence>
   <sequence>
-    <author>Dempster, A. P., Laird, N. M., &amp; Rubin, D. B.</author>
-    <date>(1977).</date>
-    <title>Maximum-likelihood from incomplete data via the EM algorithm.</title>
-    <journal>Journal of Royal Statistical Society B,</journal>
-    <volume>39,</volume>
-    <pages>1-38.</pages>
-  </sequence>
-  <sequence>
     <author>Peter Puschner and Anton Schedl.</author>
     <title>A tool for the computation of worst case task execution times.</title>
     <container-title>In Proc. of the 5th EUROMICRO Workshop on Real-Time Systems,</container-title>
@@ -2018,7 +2010,8 @@
     <author>Dempster, A., Laird, N., and Rubin, D.</author>
     <date>(1977)</date>
     <title>Maximum likelihood from incomplete data via the EM algorithm.</title>
-    <journal>Journal of the Royal Statistical Society B39,</journal>
+    <journal>Journal of the Royal Statistical Society</journal>
+    <volume>B39,</volume>
     <pages>1-38.</pages>
   </sequence>
   <sequence>
