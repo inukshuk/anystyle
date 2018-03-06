@@ -1,7 +1,7 @@
 AnyStyle
 ========
-[![Build Status](https://travis-ci.org/inukshuk/anystyle-parser.svg?branch=master)](https://travis-ci.org/inukshuk/anystyle-parser)
-[![Coverage Status](https://coveralls.io/repos/github/inukshuk/anystyle-parser/badge.svg?branch=master)](https://coveralls.io/github/inukshuk/anystyle-parser?branch=master)
+[![Build Status](https://travis-ci.org/inukshuk/anystyle.svg?branch=master)](https://travis-ci.org/inukshuk/anystyle)
+[![Coverage Status](https://coveralls.io/repos/github/inukshuk/anystyle/badge.svg?branch=master)](https://coveralls.io/github/inukshuk/anystyle?branch=master)
 
 AnyStyle is a very fast and smart parser for academic references. It
 is inspired by [ParsCit](http://aye.comp.nus.edu.sg/parsCit/) and
