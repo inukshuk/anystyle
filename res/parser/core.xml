@@ -5872,4 +5872,29 @@
     <journal>Observer,</journal>
     <date>3 December 2006.</date>
   </sequence>
+  <sequence>
+    <author>Lickint, F.</author>
+    <date>(1935),</date>
+    <title>« Der bronchialkrebs der raucher »,</title>
+    <journal>München med wochenschr,</journal>
+    <volume>n° 82,</volume>
+    <pages>p. 1232-1234.</pages>
+  </sequence>
+  <sequence>
+    <author>Wickham-Crowley, Timothy P.</author>
+    <date>1997.</date>
+    <title>“Structural Theories of Revolution.”</title>
+    <editor>In John Foran (ed.)</editor>
+    <container-title>Theorizing Revolutions.</container-title>
+    <location>New York:</location>
+    <publisher>Routledge.</publisher>
+    <pages>pp. 38-72.</pages>
+  </sequence>
+  <sequence>
+    <author>A. BERTRAND,</author>
+    <title>Les anciennes populations de la Gaule. Résumé du travail de la Commission de la Topographie des Gaules,</title>
+    <journal>Revue archéologique,</journal>
+    <date>1864,</date>
+    <pages>pp. 323_332 et 404_413.</pages>
+  </sequence>
 </dataset>
