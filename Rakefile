@@ -63,9 +63,10 @@ task :console, [:script] do |t, args|
 end
 
 desc 'Update model using latest source and training data'
-task :train do
+task :train, :threads do |t, args|
   require 'anystyle'
   Wapiti.debug!
+  AnyStyle::Parser.defaults[:threads] = (args[:threads] || 4).to_i
   AnyStyle.parser.train
   AnyStyle.parser.model.save
 end
