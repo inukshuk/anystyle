@@ -3458,7 +3458,7 @@
   <sequence>
     <author>Wright, A. K.</author>
     <title>Simple imperative polymorphism.</title>
-    <container-title>Lisp and Symbolic Computation</container-title>
+    <journal>Lisp and Symbolic Computation</journal>
     <volume>8, 4</volume>
     <date>(Dec. 1995),</date>
     <pages>343-356.</pages>
@@ -5614,5 +5614,38 @@
     <location>Amsterdam:</location>
     <publisher>Benjamins.</publisher>
     <pages>103–120.</pages>
+  </sequence>
+  <sequence>
+    <editor>Demarais, S., and P. R. Krausman, editors.</editor>
+    <date>2000.</date>
+    <title>Ecology and management of large mammals in North America.</title>
+    <publisher>Prentice Hall,</publisher>
+    <location>Upper Saddle River, New Jersey, USA</location>
+  </sequence>
+  <sequence>
+    <citation-number>8026.</citation-number>
+    <title>Ecuador indígena: sincretismo e identidad en las culturas nativas de la sierra norte,</title>
+    <author>Carlos Alberto Coba Andrade [et al.];</author>
+    <editor>Hernán Jaramillo Cisneros (compilador),</editor>
+    <edition>1ª ed.</edition>
+    <location>Quito:</location>
+    <publisher>Ediciones Abya-Yala,</publisher>
+    <date>1991.</date>
+    <pages>217 p.</pages>
+  </sequence>
+  <sequence>
+    <author>Lynch, K.</author>
+    <date>(1982).</date>
+    <title>Voir et planifier. L’aménagement qualitatif de l’espace.</title>
+    <translator>Traduction de Chantal Thérond.</translator>
+    <location>Paris :</location>
+    <publisher>Dunod.</publisher>
+  </sequence>
+  <sequence>
+    <author>Anderson, Robert C.</author>
+    <date>1976</date>
+    <title>Directions of a Town: A History of Harvard, Massachusetts.</title>
+    <publisher>The Harvard Common Press,</publisher>
+    <location>Harvard, MA.</location>
   </sequence>
 </dataset>
