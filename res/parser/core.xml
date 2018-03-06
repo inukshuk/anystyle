@@ -2498,9 +2498,7 @@
     <genre>PhD thesis,</genre>
     <publisher>Department of Computer Science, University of Toronto,</publisher>
     <location>Toronto, Canada.</location>
-    <note>Published as</note>
-    <publisher>University of Toronto, Department of Computer Science</publisher>
-    <genre>Technical Report No. 131.</genre>
+    <note>Published as University of Toronto, Department of Computer Science Technical Report No. 131.</note>
   </sequence>
   <sequence>
     <author>Danvy, O. and A. Filinski.</author>
@@ -5649,5 +5647,27 @@
     <title>Directions of a Town: A History of Harvard, Massachusetts.</title>
     <publisher>The Harvard Common Press,</publisher>
     <location>Harvard, MA.</location>
+  </sequence>
+  <sequence>
+    <author>Ruin, I. et Lutoff, C.,</author>
+    <date>2004</date>
+    <title>Vulnérabilité face aux crues rapides et mobilités des populations en temps de crise.</title>
+    <journal>La Houille Blanche,</journal>
+    <volume>6 :</volume>
+    <pages>114 –119.</pages>
+  </sequence>
+  <sequence>
+    <author>Scott, W. B. and E. J. Crossman</author>
+    <date>1973</date>
+    <title>Freshwater Fishes of Canada. Bulletin 184.</title>
+    <publisher>Fisheries Research Board of Canada,</publisher>
+    <location>Ottawa.</location>
+  </sequence>
+  <sequence>
+    <author>Jen Lin-Liu,</author>
+    <title>“Textbook Pirates Find a Huge Market in China,”</title>
+    <journal>Chronicle of Higher Education,</journal>
+    <date>April 2, 2004,</date>
+    <pages>A44.</pages>
   </sequence>
 </dataset>
