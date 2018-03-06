@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset>
   <sequence>
-    <author>Steiner, M. B.,</author>
-    <title>Unusual magnetization characteristics of Manson and Chicxulub impact structures: Implications for post-impact time (abstract),</title>
-    <container-title>Geological Society of America, 1995 Annual Meeting,</container-title>
-    <pages>pp. A-349.</pages>
-    <date>1995.</date>
-  </sequence>
-  <sequence>
     <author>Linley S, Leshuk T, Gu F.</author>
     <title>Synthesis of magnetic rattle-type nanostructures for use in water treatment.</title>
     <journal>ACS Applied Materials &amp; Interfaces.</journal>
@@ -22,13 +15,6 @@
     <location>New York:</location>
     <publisher>Farrar, Straus and Giroux,</publisher>
     <date>1994.</date>
-  </sequence>
-  <sequence>
-    <citation-number>[57]</citation-number>
-    <author>L. Vese and T. Chan,</author>
-    <title>“A multiphase level set framework for image segmentation using the mumford and shah model,”</title>
-    <journal>IJCV,</journal>
-    <date>2002.</date>
   </sequence>
   <sequence>
     <author>Harrell F.</author>
@@ -189,14 +175,6 @@
     <pages>605–11.</pages>
   </sequence>
   <sequence>
-    <author>Liu, Y., Su, C., Song, X., Tang, Y., &amp; Bao, Z.</author>
-    <date>(2009).</date>
-    <title>[Construction of Pichia pastoris strain expressing salivary plasminogen activator from vampire bat (Desmodus rotundus)].</title>
-    <journal>Sheng wu gong cheng xue bao= Chinese journal of biotechnology,</journal>
-    <volume>25(4),</volume>
-    <pages>566-574.</pages>
-  </sequence>
-  <sequence>
     <author>Yu, Jiyuan.</author>
     <date>2006.</date>
     <title>“Yi: Practical wisdom in Confucius’s Analects.”</title>
@@ -291,13 +269,6 @@
     <date>(1987),</date>
   </sequence>
   <sequence>
-    <author>Voyer, Daniel and Janie P. Vu.</author>
-    <title>“Using Sarcasm to Compliment: Context, Intonation, and the Perception of Statements with a Negative Literal Meaning.”</title>
-    <journal>Journal of Psycholinguistic Research</journal>
-    <date>(2015):</date>
-    <pages>1–10.</pages>
-  </sequence>
-  <sequence>
     <author>Charles, M., Glynis Jones, and J. G. Hodgson</author>
     <date>1997</date>
     <title>FIBS in Archaeobotany: Functional Interpretation of Weed Floras in Relation to Husbandry Practices.</title>
@@ -316,30 +287,12 @@
     <date>2004.</date>
   </sequence>
   <sequence>
-    <author>Santos Otero, A. de.</author>
-    <date>1978.</date>
-    <title>Die handschriftliche Überlieferung der altslavischen Apokryphen.</title>
-    <volume>Т. 1.</volume>
-    <title>(Patristische Texte und Studien 20).</title>
-    <location>Berlin:</location>
-    <publisher>Walter de Gruyter</publisher>
-  </sequence>
-  <sequence>
     <author>Griffith, T.</author>
     <date>(13 September 1985).</date>
     <title>Faculty condos near completion.</title>
     <journal>Old Gold and Black,</journal>
     <volume>69(3),</volume>
     <pages>p. 2.</pages>
-  </sequence>
-  <sequence>
-    <author>Candice Nelson,</author>
-    <title>‘Elections’,</title>
-    <editor>in Robert Singh (ed.),</editor>
-    <container-title>Governing America: The Politics of a Divided Democracy</container-title>
-    <location>(Oxford:</location>
-    <publisher>Oxford University Press,</publisher>
-    <date>2003).</date>
   </sequence>
   <sequence>
     <author>Buntine, W.</author>
@@ -8824,7 +8777,8 @@
     <journal>Indian Journal of Gastroenterology,</journal>
     <volume>26(4),</volume>
     <pages>187.</pages>
-    <accessed>Retrieved from www.scopus.com</accessed>
+    <accessed>Retrieved from</accessed>
+    <url>www.scopus.com</url>
   </sequence>
   <sequence>
     <author>Neumann-Gorsolke, Ute, and Peter Riede.</author>
