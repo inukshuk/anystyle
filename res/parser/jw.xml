@@ -1147,25 +1147,11 @@
     <pages>193-224.</pages>
   </sequence>
   <sequence>
-    <author>K. H. Wolf, K. Froitzheim and P. Schulthess,</author>
-    <date>(1995)</date>
-    <title>Multimedia Application Sharing in a Heterogeneous Environment,</title>
-    <journal>ACM Multimedia 95,</journal>
-    <pages>Pages 57-64.</pages>
-  </sequence>
-  <sequence>
     <author>R. Fagin, J. Halpern, and M. Vardi.</author>
     <title>A model-theoretic analysis of knowledge.</title>
     <journal>Journal of the ACM,</journal>
     <volume>38(2),</volume>
     <pages>382-428,</pages>
-    <date>1991.</date>
-  </sequence>
-  <sequence>
-    <author>W. Enkelmann,</author>
-    <title>"Obstacle detection by evaluation of optical flow fields from image sequence,"</title>
-    <journal>Image and Vision Computing 9,</journal>
-    <pages>pp. 160-168,</pages>
     <date>1991.</date>
   </sequence>
   <sequence>
@@ -1244,12 +1230,6 @@
     <volume>14</volume>
     <pages>206-214,</pages>
     <date>1981.</date>
-  </sequence>
-  <sequence>
-    <author>DeWitt, D. J.,</author>
-    <title>"DIRECT A Multiprocessor Organization for Supporting Relational Database Management Systems,"</title>
-    <journal>IEEE Transactions on Computers,</journal>
-    <date>June, 1979.</date>
   </sequence>
   <sequence>
     <author>Koppel, M., Feldman, R., &amp; Segre, A. M.</author>

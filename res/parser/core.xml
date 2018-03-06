@@ -3541,13 +3541,14 @@
     <author>K. H. Wolf, K. Froitzheim and P. Schulthess,</author>
     <date>(1995)</date>
     <title>Multimedia Application Sharing in a Heterogeneous Environment,</title>
-    <journal>ACM Multimedia 95,</journal>
+    <journal>ACM Multimedia</journal>
+    <volume>95,</volume>
     <pages>Pages 57-64.</pages>
   </sequence>
   <sequence>
     <author>P. Perez and F. Heitz,</author>
     <title>"Multiscale Markov Random Fields and Constrained Relaxation in Low Level Image Analysis,"</title>
-    <container-title>IEEE International Conf. on Acoustics, Speech, and Signal Processing,</container-title>
+    <journal>IEEE International Conf. on Acoustics, Speech, and Signal Processing,</journal>
     <volume>Vol. 3,</volume>
     <pages>pp. 61-64,</pages>
     <date>1992.</date>
@@ -3563,7 +3564,8 @@
   <sequence>
     <author>W. Enkelmann,</author>
     <title>"Obstacle detection by evaluation of optical flow fields from image sequence,"</title>
-    <journal>Image and Vision Computing 9,</journal>
+    <journal>Image and Vision Computing</journal>
+    <volume>9,</volume>
     <pages>pp. 160-168,</pages>
     <date>1991.</date>
   </sequence>
@@ -3705,7 +3707,7 @@
   <sequence>
     <author>I. Lee, P. Bremond-Gregoire, and R. Gerber.</author>
     <title>A Process Algebraic Approach to the Specification and Analysis of Resource-Bound Real-Time Systems.</title>
-    <container-title>IEEE Proceedings,</container-title>
+    <journal>IEEE Proceedings,</journal>
     <volume>82(1),</volume>
     <date>January 1994.</date>
   </sequence>
