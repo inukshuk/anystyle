@@ -1,7 +1,7 @@
 module AnyStyle
   class Normalizer
     class Volume < Normalizer
-      @keys = [:volume, :pages]
+      @keys = [:volume, :pages, :date]
 
       def normalize(item)
         # TODO
@@ -25,7 +25,17 @@ module AnyStyle
         #  end
         #end
 
-        item
+        map_values(item, [:volume]) do |_, volume|
+          case volume
+          when /(\d+)\s*\((\d+)\)/
+            append item, :issue, $2
+            $1
+          when /(\d+)/
+            $1
+          else
+            value
+          end
+        end
       end
     end
   end

@@ -30,8 +30,8 @@ module AnyStyle
       end
     end
 
-    def each_value(item)
-      keys_for(item).each do |key|
+    def each_value(item, keys = keys_for(item))
+      keys.each do |key|
         item[key].each do |value|
           yield key, value
         end if item.key?(key)
@@ -39,12 +39,12 @@ module AnyStyle
       item
     end
 
-    def map_values(item)
-      keys_for(item).each do |key|
+    def map_values(item, keys = keys_for(item))
+      keys.each do |key|
         if item.key?(key)
           item[key] = item[key].map { |value|
             yield key, value
-          }.flatten.reject(&:empty?)
+          }.flatten.reject { |v| v.nil? || v.empty? }
         end
       end
       item

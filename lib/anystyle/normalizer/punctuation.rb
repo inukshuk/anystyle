@@ -2,7 +2,13 @@ module AnyStyle
   class Normalizer
     class Punctuation < Normalizer
       @keys = [
-        :date, :title, :'container-title', :publisher, :location, :journal
+        :date,
+        :title,
+        :'container-title',
+        :'collection-title',
+        :publisher,
+        :location,
+        :journal
       ]
 
       def normalize(item)
