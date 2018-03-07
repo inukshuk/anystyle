@@ -334,20 +334,17 @@
     <title>Implementation of the Worst-Case Execution Time Analyser</title>
     <date>June 1992,</date>
     <publisher>York Software Engineering Ltd., University of York:</publisher>
-    <container-title>Task 8 Volume E Deliverable on ESTEC contract 9198/90/NL/SF</container-title>
+    <note>Task 8 Volume E Deliverable on ESTEC contract 9198/90/NL/SF</note>
   </sequence>
   <sequence>
     <author>J. Tromp,</author>
     <title>"How to Construct an Atomic Variable",</title>
-    <container-title>Proceedings of the Third International Workshop on Distributed Algorithms, Lecture Notes in Computer Science 392,</container-title>
+    <container-title>Proceedings of the Third International Workshop on Distributed Algorithms,</container-title>
+    <collection-title>Lecture Notes in Computer Science</collection-title>
+    <volume>392,</volume>
     <publisher>Springer Verlag,</publisher>
     <date>1989,</date>
     <pages>pp. 292-302.</pages>
-  </sequence>
-  <sequence>
-    <publisher>Hughes Network Systems, DirecPC Home Page,</publisher>
-    <url>http://www.direcpc.com/,</url>
-    <date>Oct, 1996.</date>
   </sequence>
   <sequence>
     <author>T. E. Anderson, H. M. Levy, B. N. Bershad, and E. D. Lazowska.</author>
@@ -520,7 +517,7 @@
     <editor>In S. Adian and A. Nerode, editors,</editor>
     <container-title>Logical Foundations of Computer Science. 4th International Symposium, LFCS'97,</container-title>
     <volume>volume 1234,</volume>
-    <container-title>of Lecture Notes in Computer Science,</container-title>
+    <collection-title>of Lecture Notes in Computer Science,</collection-title>
     <pages>pages 56-66,</pages>
     <location>Yaroslavl, Russia,</location>
     <date>July 1997.</date>
@@ -707,7 +704,7 @@
     <editor>In Rohit Parikh, editor,</editor>
     <container-title>Logics of Programs,</container-title>
     <volume>volume 193,</volume>
-    <container-title>of Lecture Notes in Computer Science,</container-title>
+    <collection-title>of Lecture Notes in Computer Science,</collection-title>
     <pages>pages 219-224.</pages>
     <publisher>Springer-Verlag,</publisher>
     <date>1985.</date>
@@ -752,7 +749,7 @@
     <title>Design process improvement case study using process waiver data.</title>
     <container-title>In Proceedings of the Fifth European Conference in Software Engineering,</container-title>
     <volume>volume 989</volume>
-    <container-title>of Lecture Notes in Computer Science,</container-title>
+    <collection-title>of Lecture Notes in Computer Science,</collection-title>
     <pages>pages 44-58.</pages>
     <publisher>Springer-Verlag,</publisher>
     <date>September 1995.</date>
@@ -1073,12 +1070,6 @@
     <volume>12(2),</volume>
     <pages>247-298,</pages>
     <date>June 1987.</date>
-  </sequence>
-  <sequence>
-    <author>Harandi, M. T., Ning, J. Q.,</author>
-    <date>(1990),</date>
-    <title>Knowledge Based Program Analysis",</title>
-    <journal>IEEE Software.</journal>
   </sequence>
   <sequence>
     <author>Vander Linden, K.; Cumming, S.; and Martin, J.</author>
@@ -3201,13 +3192,6 @@
     <date>1998.</date>
   </sequence>
   <sequence>
-    <author>H. Wachter and A. Reuter.</author>
-    <title>The ConTract model.</title>
-    <note>In [24], chapter 7,</note>
-    <pages>pages 220-263.</pages>
-    <date>1992.</date>
-  </sequence>
-  <sequence>
     <author>J. McCarthy.</author>
     <title>Circumscription a form of non-monotonic reasoning.</title>
     <journal>Artificial Intelligence,</journal>
@@ -3294,8 +3278,8 @@
     <author>De Raedt, L., Lavrac, N., &amp; Dzeroski, S.</author>
     <date>(1993).</date>
     <title>Multiple predicate learning.</title>
-    <container-title>In Proceedings of the Third International Workshop on Inductive Logic Programming Bled,</container-title>
-    <location>Slovenia.</location>
+    <container-title>In Proceedings of the Third International Workshop on Inductive Logic Programming</container-title>
+    <location>Bled, Slovenia.</location>
   </sequence>
   <sequence>
     <author>Whitley, D., &amp; Gruau, F.</author>
@@ -5044,7 +5028,8 @@
     <citation-number>[115]</citation-number>
     <author>Hofbauer, K., Petrik, S., and Hering, H.,</author>
     <title>“The ATCOSIM corpus of non- prompted clean air traffic control speech,”</title>
-    <container-title>Proc. Int. Conf. Language Resources and Evaluation (LREC), Marrakech, Morocco,</container-title>
+    <container-title>Proc. Int. Conf. Language Resources and Evaluation (LREC),</container-title>
+    <location>Marrakech, Morocco,</location>
     <date>2008.</date>
   </sequence>
   <sequence>
@@ -6098,5 +6083,72 @@
     <volume>2,</volume>
     <pages>1629-1641.</pages>
     <note>(* Co-first authorship)</note>
+  </sequence>
+  <sequence>
+    <author>Amossy, R.</author>
+    <date>(2010).</date>
+    <title>La présentation de soi.</title>
+    <location>Paris:</location>
+    <publisher>Presses Universitaires de France.</publisher>
+  </sequence>
+  <sequence>
+    <author>Baker, W.L.</author>
+    <date>1972.</date>
+    <title>Eastern forest insects.</title>
+    <journal>Miscellaneous publications, United States Department of Agriculture</journal>
+    <volume>1175:</volume>
+    <pages>1-642</pages>
+  </sequence>
+  <sequence>
+    <author>Arbea, J.I., Mateos, E.</author>
+    <date>1991.</date>
+    <title>A new species of Collembola from northern Spain (Onychiuridae, Tullbergiinae).,</title>
+    <journal>Spixiana</journal>
+    <location>(munich)</location>
+    <volume>14(2)</volume>
+    <date>1991,</date>
+    <pages>p.169-174.</pages>
+  </sequence>
+  <sequence>
+    <author>Jackson, S. W., R. G. Basinger, D. S. Gordon, C. A. Harper, D. S. Buckley, and D. A. Buehler.</author>
+    <date>2007.</date>
+    <title>Influence of silvicultural treatments on eastern wild turkey habitat characteristics in eastern Tennessee.</title>
+    <journal>Proceedings of the National Wild Turkey Symposium</journal>
+    <volume>9:</volume>
+    <pages>199-207.</pages>
+  </sequence>
+  <sequence>
+    <author>Johnson, F. A., B. K. Williams, J. D. Nichols, J. E. Hines, W. E. Kendall, G. W. Smith, and D. F. Caithamer.</author>
+    <date>1993.</date>
+    <title>Developing an adaptive management strategy for harvesting waterfowl in North America.</title>
+    <journal>Transactions of the North American Wildlife and Natural Resources Conference</journal>
+    <volume>58:</volume>
+    <pages>565—583.</pages>
+  </sequence>
+  <sequence>
+    <author>Malik Mufti,</author>
+    <title>‘Democratizing Potential of the ‘Arab Spring’: Some Early Observations’,</title>
+    <journal>Government and Opposition,</journal>
+    <volume>50: 3</volume>
+    <date>(2015),</date>
+    <pages>394-419.</pages>
+  </sequence>
+  <sequence>
+    <author>Jordan, S. L., Indares, A. , Dunning, G.,</author>
+    <title>Partial melting of metapelites in the Gagnon terrane below the high-pressure belt in the Manicouagan area (Grenville Province): pressure-temperature (P-T) and U-Pb age constraints and implications,</title>
+    <journal>Canadian Journal of Earth Sciences,</journal>
+    <volume>38.</volume>
+    <pages>P. 1309 - 1329.</pages>
+    <date>2006.</date>
+  </sequence>
+  <sequence>
+    <citation-number>37.</citation-number>
+    <author>McAndrew PM, Wilken JM, Dingwell JB.</author>
+    <title>Dynamic stability of human walking in visually and mechanically destabilizing environments.</title>
+    <journal>Journal of biomechanics.</journal>
+    <date>2011</date>
+    <volume>44(4)</volume>
+    <pages>644-9.</pages>
+    <note>NIHMSID NIHMS252390 PubMed [journal] PMID 21094944, PMCID PMC3042508</note>
   </sequence>
 </dataset>
