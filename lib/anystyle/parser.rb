@@ -123,8 +123,8 @@ module AnyStyle
       @features = [
         Feature::Canonical.new,
         Feature::Category.new,
-        Feature::Affix.new,
-        Feature::Affix.new(suffix: true),
+        Feature::Affix.new(size: 3),
+        Feature::Affix.new(size: 3, suffix: true),
         Feature::Caps.new,
         Feature::Number.new,
         Feature::Dictionary.new(options[:dictionary]),

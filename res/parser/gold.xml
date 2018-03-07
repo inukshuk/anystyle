@@ -17,13 +17,6 @@
     <pages>75-86.</pages>
   </sequence>
   <sequence>
-    <title>Son honors father with teaching excellence awards,</title>
-    <date>(1994, March).</date>
-    <journal>Wake Forest University Magazine,</journal>
-    <volume>41(3),</volume>
-    <pages>p. 44</pages>
-  </sequence>
-  <sequence>
     <author>Boismard, M.-É.,</author>
     <title>“Le ‘Concile’ de Jerusalem,”</title>
     <journal>ETL</journal>
@@ -242,15 +235,6 @@
     <date>1981.</date>
   </sequence>
   <sequence>
-    <author>Martin Conway,</author>
-    <title>“Left Catholicism in Europe in the 1940s. Elements of an Interpretation,”</title>
-    <container-title>in Left Catholicism, 1943-1955: Catholics and Society in Western Europe at the Point of Liberation,</container-title>
-    <editor>ed. Gerd-Rainer Horn and Emmanuel Gerard</editor>
-    <location>(Leuven:</location>
-    <publisher>Leuven University Press,</publisher>
-    <date>2001)</date>
-  </sequence>
-  <sequence>
     <author>Ernst, W. R.</author>
     <date>1962.</date>
     <title>A Comparative Morphology of the Papaveraceae.</title>
@@ -296,5 +280,87 @@
     <location>Chicago :</location>
     <publisher>University of Chicago,</publisher>
     <date>1979.</date>
+  </sequence>
+  <sequence>
+    <citation-number>20.</citation-number>
+    <author>Sandborn WJ, Colombel JF, Schreiber S, Plevy SE, Pollack PF, Robinson AM, et al.</author>
+    <title>Dosage adjustment during long-term adalimumab treatment for Crohn's disease: clinical efficacy and pharmacoeconomics.</title>
+    <journal>Inflamm Bowel Dis.</journal>
+    <volume>2011;17(1):</volume>
+    <pages>141-51.</pages>
+  </sequence>
+  <sequence>
+    <author>Puzon, G.; Lancaster, J.; Wylie, J.; &amp; Plumb, I.,</author>
+    <date>2009.</date>
+    <title>Rapid Detection of Naegleria fowleri in Water Distribution Pipeline Biofilms and Drinking Water Samples.</title>
+    <journal>Environmental Science and Technology,</journal>
+    <volume>43:17:</volume>
+    <pages>6691.</pages>
+  </sequence>
+  <sequence>
+    <author>Filippo Fonio,</author>
+    <date>2006,</date>
+    <title>«Rassegna bibliografica foscoliana », « Rassegna bibliografica balzachiana »,</title>
+    <journal>Franco-Italica,</journal>
+    <volume>n. 29-30</volume>
+    <date>(2006),</date>
+    <pages>p. 234-237 et 237-241.</pages>
+  </sequence>
+  <sequence>
+    <author>Bao Q *, Zhao Y*, Renner A, Niess H, Seeliger H, Jauch K-W, Bruns CJ.</author>
+    <title>Cancer Stem Cells in Pancreatic Cancer.</title>
+    <journal>Cancers.</journal>
+    <date>2010,</date>
+    <volume>2,</volume>
+    <pages>1629-1641.</pages>
+    <note>(* Co-first authorship)</note>
+  </sequence>
+  <sequence>
+    <editor>Brown, L. E. (Ed.)</editor>
+    <date>(2000).</date>
+    <title>Isokinetics in human performance.</title>
+    <location>Champaign, IL:</location>
+    <publisher>Human Kinetics.</publisher>
+  </sequence>
+  <sequence>
+    <author>Barthes, Roland</author>
+    <date>1988 [1964].</date>
+    <title>“The Kitchen of Meaning.” The Semiotic Challenge.</title>
+    <translator>Trans. Richard Howard.</translator>
+    <location>New York:</location>
+    <publisher>Hill and Wang.</publisher>
+    <pages>157-159.</pages>
+  </sequence>
+  <sequence>
+    <author>ALY (M.I.), NAGEB (R.), DEVAUCHELLE (D.), HERBIN (Fr.-R.),</author>
+    <title>« Présentation des stèles nouvellement découvertes au Sérapéum »,</title>
+    <journal>BSFE</journal>
+    <volume>106,</volume>
+    <date>1986,</date>
+    <pages>p. 31-44.</pages>
+  </sequence>
+  <sequence>
+    <author>Adam Mornement,</author>
+    <title>The second coming,</title>
+    <journal>World architecture,</journal>
+    <volume>No. 83,</volume>
+    <date>2000,</date>
+    <pages>34-37</pages>
+  </sequence>
+  <sequence>
+    <author>Dimendberg, Edward.</author>
+    <title>Film Noir and the Spaces of Modernity.</title>
+    <location>Cambridge, MA:</location>
+    <publisher>Harvard UP,</publisher>
+    <date>2004.</date>
+  </sequence>
+  <sequence>
+    <citation-number>24.</citation-number>
+    <author>Horvath KJ, Oakes JM, Rosser BR, Danilenko G, Vezina H, Amico KR, et al.</author>
+    <title>Feasibility, acceptability and preliminary efficacy of an online peer-to-peer social support ART adherence intervention.</title>
+    <journal>AIDS Behav.</journal>
+    <volume>2013;17(6):</volume>
+    <pages>2031-44.</pages>
+    <note>PMCID: 3674213.</note>
   </sequence>
 </dataset>
