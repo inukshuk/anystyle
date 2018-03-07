@@ -6,8 +6,8 @@ module AnyStyle
     describe "#prepare" do
       it 'returns expanded dataset' do
         expect(subject.prepare('Hello, world!').to_a).to eq([[
-          'Hello, hello Lu P H He Hel , o, lo, initial none F F F F none 0 other none weak F',
-          'world! world Ll P w wo wor ! d! ld! lower none T F T T none 50 other none weak F'
+          'Hello, hello Lu P H He , o, initial none F F F F none 0 other none weak F',
+          'world! world Ll P w wo ! d! lower none T F T T none 50 other none weak F'
         ]])
       end
 

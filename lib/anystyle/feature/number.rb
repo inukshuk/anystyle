@@ -3,7 +3,7 @@ module AnyStyle
     class Number < Feature
       def observe(token, *args)
         case token
-        when /\d[\(\.:;]\d/
+        when /\d[\(:;]\d/
           :volume
         when /\b(1\d|20)\d\d\b/
           :year

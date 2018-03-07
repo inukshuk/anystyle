@@ -542,7 +542,7 @@
   </sequence>
   <sequence>
     <author>Barry Wilkinson,</author>
-    <container-title>Digital System Design</container-title>
+    <title>Digital System Design</title>
     <publisher>Prentice Hall</publisher>
     <date>1987.</date>
   </sequence>
@@ -631,11 +631,7 @@
     <container-title>In Reasoning about Actions and Plans: Proceedings of the 1986 Workshop,</container-title>
     <location>Timberline, OR,</location>
     <date>1987.</date>
-    <note>Reprinted in Readings in Planning,</note>
-    <editor>J. Allen, J. Hendler, A. Tate (eds.),</editor>
-    <publisher>Morgan-Kaufmann,</publisher>
-    <date>1990,</date>
-    <pages>523-530.</pages>
+    <note>Reprinted in Readings in Planning, J. Allen, J. Hendler, A. Tate (eds.), Morgan-Kaufmann, 1990, 523-530.</note>
   </sequence>
   <sequence>
     <author>W. Li.</author>
@@ -739,11 +735,10 @@
     <date>(1996),</date>
     <editor>F. Meyer auf der Heide and B. Monien, Eds.,</editor>
     <volume>vol. 1099,</volume>
-    <container-title>of Lecture Notes in Computer Science,</container-title>
+    <collection-title>of Lecture Notes in Computer Science,</collection-title>
     <publisher>Springer-Verlag,</publisher>
     <pages>pp. 232-243.</pages>
-    <container-title>Proceedings of the 23rd ICALP Conference, Paderborn,</container-title>
-    <date>July 1996.</date>
+    <note>Proceedings of the 23rd ICALP Conference, Paderborn, July 1996.</note>
   </sequence>
   <sequence>
     <author>Lars Ole Andersen.</author>
@@ -1564,16 +1559,7 @@
     <volume>Vol. 1,</volume>
     <pages>pp. 77-84.</pages>
     <publisher>National Physical Laboratory.</publisher>
-    <note>Reprinted in</note>
-    <editor>Minsky`s (ed.)</editor>
-    <container-title>Semantic Information Processing,</container-title>
-    <publisher>MIT Press</publisher>
-    <date>(1968),</date>
-    <pages>403-409.</pages>
-    <note>Also in</note>
-    <author>R. Brachman and H. Levesque,</author>
-    <container-title>Readings in Knowledge Representation,</container-title>
-    <date>1985.</date>
+    <note>Reprinted in Minsky`s (ed.) Semantic Information Processing, MIT Press (1968), 403-409. Also in R. Brachman and H. Levesque, Readings in Knowledge Representation, 1985.</note>
   </sequence>
   <sequence>
     <author>K. D. Cooper,</author>
@@ -6041,5 +6027,76 @@
     <location>Eugene:</location>
     <publisher>Wipf &amp; Stock,</publisher>
     <date>1967.</date>
+  </sequence>
+  <sequence>
+    <author>Nazarov, M. A., Karpenko, S F., Ljalikov, A V., Smolyar, M I., Kolesnikov, E M. and Barsukova,L D.,</author>
+    <title>The Kara impact structure: Nd-Sr isotopic composition of an impact melt (abstract).</title>
+    <journal>Lunar and Planetary Science,</journal>
+    <volume>v. XXIII,</volume>
+    <pages>pp. 973-974.</pages>
+    <date>1992.</date>
+  </sequence>
+  <sequence>
+    <author>Feldman Stanley et Steenberger Marco R.,</author>
+    <title>« The Humanitarian Foundation of Public Support for Social Welfare »,</title>
+    <journal>American Journal of Political Science,</journal>
+    <volume>45-3,</volume>
+    <date>2001,</date>
+    <pages>p. 658‑677.</pages>
+  </sequence>
+  <sequence>
+    <author>Ministère de l’environnement et de la faune (MEF)</author>
+    <date>(1999).</date>
+    <title>Guide de classification des eaux souterraines du Québec, Service des pesticides et des eaux souterraines, Direction des politiques des secteurs agricole et naturel,</title>
+    <pages>12 p.</pages>
+  </sequence>
+  <sequence>
+    <author>Dietz, R. S.,</author>
+    <title>Shatter cones in cryptoexplosion structures.</title>
+    <editor>French, B.M. and Short, N.M., eds.,</editor>
+    <container-title>Shock Metamorphism of Natural Materials,</container-title>
+    <publisher>Mono Book Corp.,</publisher>
+    <location>Baltimore, MD,</location>
+    <pages>pp. 267-285.</pages>
+    <date>1968.</date>
+  </sequence>
+  <sequence>
+    <author>ALY (M.I.), NAGEB (R.), DEVAUCHELLE (D.), HERBIN (Fr.-R.),</author>
+    <title>« Présentation des stèles nouvellement découvertes au Sérapéum »,</title>
+    <journal>BSFE</journal>
+    <volume>106,</volume>
+    <date>1986,</date>
+    <pages>p. 31-44.</pages>
+  </sequence>
+  <sequence>
+    <author>JAMES, W.,</author>
+    <title>« Bartlett's Familiar Quotations. »,</title>
+    <location>Boston -</location>
+    <publisher>Little, Brown &amp; Co.,</publisher>
+    <date>1980,</date>
+    <pages>p. 649.</pages>
+  </sequence>
+  <sequence>
+    <author>de Waal T.,</author>
+    <title>Black Garden: Armenia and Azerbaijan Through Peace and War,</title>
+    <location>New York:</location>
+    <publisher>New York University Press,</publisher>
+    <date>2003,</date>
+    <pages>406 p.</pages>
+  </sequence>
+  <sequence>
+    <title>Calendar of State Papers, Foreign Series, of the reign of Elizabeth, 1561-2.</title>
+    <editor>Edited by Joseph Stephenson.</editor>
+    <location>London,</location>
+    <date>1866.</date>
+  </sequence>
+  <sequence>
+    <author>Bao Q *, Zhao Y*, Renner A, Niess H, Seeliger H, Jauch K-W, Bruns CJ.</author>
+    <title>Cancer Stem Cells in Pancreatic Cancer.</title>
+    <journal>Cancers.</journal>
+    <date>2010,</date>
+    <volume>2,</volume>
+    <pages>1629-1641.</pages>
+    <note>(* Co-first authorship)</note>
   </sequence>
 </dataset>
