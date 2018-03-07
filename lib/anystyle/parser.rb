@@ -59,7 +59,7 @@ module AnyStyle
     def normalize(item)
       normalizers.each do |n|
         begin
-          n.normalize item unless n.skip?
+          item = n.normalize(item) unless n.skip?
         rescue => e
           warn "Error in #{n.name} normalizer: #{e.message}"
         end
@@ -145,6 +145,7 @@ module AnyStyle
         Normalizer::Volume.new,
         Normalizer::Location.new,
         Normalizer::Locator.new,
+        Normalizer::Publisher.new,
         Normalizer::Names.new,
         Normalizer::Locale.new,
         Normalizer::Type.new

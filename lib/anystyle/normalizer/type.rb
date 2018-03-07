@@ -3,11 +3,11 @@ module AnyStyle
     class Type < Normalizer
       def normalize(item)
         item[:type] = classify item
+        item
       end
 
       def classify(item)
         keys = item.keys
-        text = item.values.flatten.join
 
         case
         when keys.include?(:journal)

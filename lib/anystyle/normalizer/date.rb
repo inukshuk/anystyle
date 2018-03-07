@@ -3,6 +3,7 @@ module AnyStyle
     class Date < Normalizer
       @keys = [:date]
 
+      # TODO return seasons/ intervals in ISO/EDTF format
       def normalize(item)
         map_values(item) do |_, value|
           unless (month = MONTH[value]).nil?

@@ -36,6 +36,7 @@ module AnyStyle
           yield key, value
         end if item.key?(key)
       end
+      item
     end
 
     def map_values(item)
@@ -46,6 +47,7 @@ module AnyStyle
           }.flatten.reject(&:empty?)
         end
       end
+      item
     end
 
     def keys_for(item)

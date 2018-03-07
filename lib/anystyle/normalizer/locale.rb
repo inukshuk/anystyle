@@ -8,15 +8,23 @@ module AnyStyle
       end
 
       def normalize(item)
-        return if @ld.nil? || item.key?(:language)
+        return item if @ld.nil? || item.key?(:language)
 
         sample = item.values_at(
-          :title, :'container-title', :journal, :location, :publisher
-        ).flatten.join(' ')
+          :title,
+          :'container-title',
+#          :'collection-title',
+          :journal,
+          :location,
+          :publisher
+#          :note,
+#          :accessed
+        ).flatten.compact.join(' ')
 
-        return if sample.empty?
+        return item if sample.empty?
 
         item[:language] = @ld.detect(sample)
+        item
       end
     end
   end
