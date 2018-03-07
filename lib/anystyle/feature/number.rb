@@ -1,34 +1,22 @@
 module AnyStyle
   class Feature
     class Number < Feature
-      # TODO Review and improve patterns
       def observe(token, *args)
         case token
-        when /\d\(\d+([—–-]\d+)?\)/
-          :volume
-        when /^\(\d{4}\)[^[:alnum:]]*$/, /^(1\d{3}|20\d{2})[\.,;:]?$/
+        when /\b(1\d|20)\d\d\b/
           :year
-        when /\d{4}\s*[—–-]+\s*\d{4}/
-          :'year-range'
-        when /\d+\s*[—–-]+\s*\d+/, /^[^[:alnum:]]*pp?\.\d*[^[:alnum:]]*$/,
-             /^((pp?|s)\.?|pages?)$/i
-          :page
-        when /^\d$/
-          :single
-        when /^\d{2}$/
-          :double
-        when /^\d{3}$/
-          :triple
+        when /\d+[\(\.]\d+/
+          :volume
         when /^\d+$/
           :digits
         when /^\d+[\d-]+$/
           :serial
-        when /^-\d+$/
-          :negative
-        when /\d+(th|st|nd|rd)[^[:alnum:]]*/i
+        when /\d\p{Alpha}{1,3}\b/i
           :ordinal
         when /\d/
           :numeric
+        when /^([IVXLDCM]+|[ivx]+)\b/
+          :roman
         else
           :none
         end

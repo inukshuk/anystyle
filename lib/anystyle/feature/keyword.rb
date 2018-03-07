@@ -11,13 +11,11 @@ module AnyStyle
              /^(übers(etzung)?)$/i,
              /^(trad(uction)?)$/i
           :translator
-        when /^(dissertation)$/i
+        when /^(dissertation|thesis)$/i
           :thesis
-        when /^(review)$/i
-          :review
-        when /^(proceedings|conference)/i
+        when /^(proceedings|conference|meeting)/i
           :proceedings
-        when /^(journal|zeitschrift|quarterly)/i
+        when /^(journal|zeitschrift|quarterly|review|revue)/i
           :journal
         when /^in$/i
           :in
@@ -25,11 +23,19 @@ module AnyStyle
           :and
         when /^(etal)$/
           :etal
-        when /^(retrieved|accessed)$/i
-          :retrieved
+        when /^(pp?|pages?|S(eiten?)?|)$/
+          :page
+        when /^(vol(ume)?s?|issue|n[or]?)$/i
+          :volume
         when /^(edn|edition|expanded|rev(ised)?|p?reprint|illustrated)$/i,
           /^(aufl(age)?|\p{Alpha}*ausg(abe)?)$/i
           :edition
+        when /^(spring|s[uo]mmer|autumn|fall|winter|frühling|herbst)$/i,
+             /^(jan(uary?)?|feb(ruary?)?|mar(ch|z)?|apr(il)?|ma[yi]|jun[ei]?)$/,
+             /^(jul[yi]?|aug(ust)?|sep(tember)?|o[ck]t(ober)?|nov(ember)?|de[cz](ember)?)$/i
+          :date
+        when /^(retrieved|accessed)$/i
+          :retrieved
         else
           :none
         end
