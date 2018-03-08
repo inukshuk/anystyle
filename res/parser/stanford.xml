@@ -1144,7 +1144,8 @@
     <citation-number>[115]</citation-number>
     <author>Hofbauer, K., Petrik, S., and Hering, H.,</author>
     <title>“The ATCOSIM corpus of non- prompted clean air traffic control speech,”</title>
-    <container-title>Proc. Int. Conf. Language Resources and Evaluation (LREC), Marrakech, Morocco,</container-title>
+    <container-title>Proc. Int. Conf. Language Resources and Evaluation (LREC),</container-title>
+    <location>Marrakech, Morocco,</location>
     <date>2008.</date>
   </sequence>
   <sequence>
@@ -1225,7 +1226,7 @@
     <author>Roy, N., Pineau, J., and Thrun, S.,</author>
     <title>“Spoken dialog management for robots,”</title>
     <container-title>The Proceedings of the Association for Computational Linguistics,</container-title>
-    <publisher>Citeseer,</publisher>
+    <source>Citeseer,</source>
     <date>2000.</date>
   </sequence>
   <sequence>

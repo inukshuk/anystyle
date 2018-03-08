@@ -1829,7 +1829,8 @@
     <pages>pages 278-289.</pages>
     <publisher>ACM,</publisher>
     <date>June 1994.</date>
-    <url>Available via WWW from http://wwwbode.informatik.tu-muenchen.de/~wismuell/publications.html</url>
+    <note>Available via WWW from</note>
+    <url>http://wwwbode.informatik.tu-muenchen.de/~wismuell/publications.html</url>
   </sequence>
   <sequence>
     <author>P. Evripidou and J-L. Gaudiot,</author>
@@ -4512,20 +4513,16 @@
     <author>Fenner M</author>
     <date>(2013)</date>
     <title>What can article-level metrics do for you?.</title>
-    <url>Available: http://dx.doi.org/10.1371/journal.pbio.1001687.</url>
+    <note>Available:</note>
+    <url>http://dx.doi.org/10.1371/journal.pbio.1001687.</url>
   </sequence>
   <sequence>
     <author>Fenner M</author>
     <date>(2013)</date>
     <title>Letter from the Guest Content Editor: Altmetrics Have Come of Age.</title>
     <journal>Information Standards Quarterly.</journal>
-    <url>Available: http://dx.doi.org/10.3789/isqv25no2.2013.01.</url>
-  </sequence>
-  <sequence>
-    <author>Fenner M</author>
-    <date>(2008)</date>
-    <title>Targeted therapies for patients with germ cell tumors..</title>
-    <url>Available: http://dx.doi.org/10.1517/13543784.17.4.511.</url>
+    <note>Available:</note>
+    <url>http://dx.doi.org/10.3789/isqv25no2.2013.01.</url>
   </sequence>
   <sequence>
     <author>Boyer, Paul S.</author>
@@ -5274,7 +5271,8 @@
     <title>“Meet ST OMO: The Top Secret Loan Facility The Fed Used To Loan Money To Banks.”</title>
     <journal>Business Insider</journal>
     <date>May(26).</date>
-    <url>URL: http://articles.businessinsider.com/2011-05-26/wall_street/29997602_1_new-york-fed-banks</url>
+    <note>URL:</note>
+    <url>http://articles.businessinsider.com/2011-05-26/wall_street/29997602_1_new-york-fed-banks</url>
   </sequence>
   <sequence>
     <author>Yglesias, Matthew.</author>
@@ -5282,7 +5280,8 @@
     <title>“Obama’s biggest economic policy mistake.”</title>
     <source>Vox</source>
     <date>Septem- ber(17).</date>
-    <url>URL: http://www.vox.com/2014/9/17/6219247/obamas-biggest-economic-policy-mistake</url>
+    <note>URL:</note>
+    <url>http://www.vox.com/2014/9/17/6219247/obamas-biggest-economic-policy-mistake</url>
   </sequence>
   <sequence>
     <author>DeLillo, Don.</author>
@@ -6173,5 +6172,79 @@
     <title>The estimation of animal abundance.</title>
     <publisher>Charles Griffin,</publisher>
     <location>London, United Kingdom.</location>
+  </sequence>
+  <sequence>
+    <citation-number>[82]</citation-number>
+    <author>D. Caress and D. Chayes,</author>
+    <title>“New software for processing sidescan data from sidescan-capable multibeam sonars,”</title>
+    <container-title>in OCEANS ’95. MTS/IEEE. Challenges of Our Changing Global Environment. Conference Proceedings.,</container-title>
+    <volume>vol. 2,</volume>
+    <date>October 1995,</date>
+    <pages>pp. 997–1000</pages>
+    <volume>vol.2.</volume>
+  </sequence>
+  <sequence>
+    <citation-number>[32]</citation-number>
+    <author>Prevot, T.,</author>
+    <title>“NextGen technologies for mid-term and far-term air traffic control operations,”</title>
+    <container-title>Digital Avionics Systems Conference, 2009. DASC’09. IEEE/AIAA 28th,</container-title>
+    <publisher>IEEE,</publisher>
+    <date>2009,</date>
+    <pages>pp. 2–A.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[102]</citation-number>
+    <author>Roy, N., Pineau, J., and Thrun, S.,</author>
+    <title>“Spoken dialog management for robots,”</title>
+    <container-title>The Proceedings of the Association for Computational Linguistics,</container-title>
+    <source>Citeseer,</source>
+    <date>2000.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[10]</citation-number>
+    <title>“Unmanned Aircraft Systems Operations in the U. S. National Airspace Sys- tem,”</title>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <author>King Charles, Melvin Neil,</author>
+    <title>Nations Abroad, Diaspora politics and International Relations in the former Soviet Union,</title>
+    <location>Boulder,</location>
+    <publisher>Westview,</publisher>
+    <date>1998</date>
+  </sequence>
+  <sequence>
+    <author>Gernet, Jacques.</author>
+    <date>1963.</date>
+    <title>La Chine: Aspects and fonctions psychologiques de l’écriture.</title>
+    <editor>In Robert Laffont (éd.),</editor>
+    <container-title>L’écriture et la psychologie des peuples, Centre inernational de synthèse – XXII semaine de synthèse.</container-title>
+    <location>Paris:</location>
+    <publisher>Armand Colin,</publisher>
+    <pages>35–38</pages>
+  </sequence>
+  <sequence>
+    <author>Schnackenburg, Rudolf,</author>
+    <title>The Gospel According to St John:</title>
+    <volume>Vol.3</volume>
+    <translator>(tr. David Smith and G.A. Kon),</translator>
+    <location>London:</location>
+    <publisher>Burns &amp; Oates,</publisher>
+    <date>1987.</date>
+  </sequence>
+  <sequence>
+    <author>DELISLE Léopold,</author>
+    <date>date inconnue :</date>
+    <title>Recueil des actes de Henri</title>
+    <volume>II, n°525,</volume>
+    <pages>p. 554</pages>
+  </sequence>
+  <sequence>
+    <author>Aykut Firat,</author>
+    <date>2003.</date>
+    <title>Information Integration Using Contextual Knowledge and Ontology Merging, Ph.D. Thesis for the Sloan School of Management,</title>
+    <publisher>MIT,</publisher>
+    <pages>151 pp.</pages>
+    <note>See</note>
+    <url>http://www.mit.edu/~bgrosof/paps/phd-thesis-aykut-firat.pdf</url>
   </sequence>
 </dataset>

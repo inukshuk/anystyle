@@ -2020,7 +2020,8 @@
     <date>(2013)</date>
     <title>Letter from the Guest Content Editor: Altmetrics Have Come of Age.</title>
     <journal>Information Standards Quarterly.</journal>
-    <url>Available: http://dx.doi.org/10.3789/isqv25no2.2013.01.</url>
+    <note>Available:</note>
+    <url>http://dx.doi.org/10.3789/isqv25no2.2013.01.</url>
   </sequence>
   <sequence>
     <author>Johnson, Kirk.</author>
@@ -2376,5 +2377,13 @@
     <location>Montréal:</location>
     <publisher>Editions du Cram,</publisher>
     <date>2009.</date>
+  </sequence>
+  <sequence>
+    <author>Horn, W., El Goresy, A.,</author>
+    <title>The Rochechouart crater in France: Stony and not an iron meteorite? (abstract).</title>
+    <journal>Lunar and Planetary Science</journal>
+    <volume>XI,</volume>
+    <pages>pp. 468-470.</pages>
+    <date>1980.</date>
   </sequence>
 </dataset>
