@@ -34,7 +34,7 @@ module AnyStyle
           when /^(edn|edition|expanded|rev(ised)?|p?reprint|illustrated)$/i,
             /^(aufl(age)?|\p{Alpha}*ausg(abe)?)$/i
             :edition
-          when /^(spring|s[uo]mmer|autumn|fall|winter|frühling|herbst)$/i,
+          when /^(nd|date|spring|s[uo]mmer|autumn|fall|winter|frühling|herbst)$/i,
                /^(jan(uary?)?|feb(ruary?)?|mar(ch|z)?|apr(il)?|ma[yi]|jun[ei]?)$/,
                /^(jul[yi]?|aug(ust)?|sep(tember)?|o[ck]t(ober)?|nov(ember)?|de[cz](ember)?)$/i
             :date

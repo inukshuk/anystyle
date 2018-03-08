@@ -427,16 +427,6 @@
     <pages>p. 785-96.</pages>
   </sequence>
   <sequence>
-    <author>Droettboom, Michael, Ichiro Fujinaga, and Karl MacMillan.</author>
-    <date>2002.</date>
-    <title>Optical music interpretation.</title>
-    <container-title>In Structural, Syntactic, and Statistical Pattern Recognition,</container-title>
-    <editor>eds. Terry Caelli, Adnan Amin, Robert Duin, Mohamed Kamel, and Dick de Ridder,</editor>
-    <pages>378–86.</pages>
-    <location>Berlin:</location>
-    <publisher>Springer-Verlag.</publisher>
-  </sequence>
-  <sequence>
     <editor>Gershorn, I. and J. A. Bell, eds.</editor>
     <date>2013.</date>
     <title>Newness of New Media.</title>
@@ -1945,7 +1935,7 @@
     <title>"We Need Publishing Standards for Datasets and Data Tables".</title>
     <journal>Research Information.</journal>
     <doi>doi:10.1787/603233448430</doi>
-    <accessed>Retrieved 2010-08-07.</accessed>
+    <note>Retrieved 2010-08-07.</note>
   </sequence>
   <sequence>
     <author>Fritsch, F. N.; Carlson, R. E.</author>
@@ -2079,7 +2069,7 @@
     <journal>Australian Journal of Family Law,</journal>
     <volume>23,</volume>
     <pages>194.</pages>
-    <accessed>Retrieved January 22, 2010, from LexisNexis AU.</accessed>
+    <note>Retrieved January 22, 2010, from LexisNexis AU.</note>
   </sequence>
   <sequence>
     <author>Sillick, T. J., &amp; Schutte, N. S.</author>
@@ -2088,7 +2078,7 @@
     <journal>E-Journal of Applied Psychology,</journal>
     <volume>2(2),</volume>
     <pages>38–48.</pages>
-    <accessed>Retrieved from</accessed>
+    <note>Retrieved from</note>
     <url>http://ojs.lib.swin.edu.au/index.php/ejap/article/view/71/100</url>
   </sequence>
   <sequence>
@@ -2097,7 +2087,7 @@
     <title>Facing grief.</title>
     <journal>Synergy,</journal>
     <volume>3(3).</volume>
-    <accessed>Retrieved from:</accessed>
+    <note>Retrieved from:</note>
     <url>http://about.murdoch.edu.au/synergy/0303/grief.html</url>
   </sequence>
   <sequence>
@@ -2112,7 +2102,7 @@
     <date>(2010, January 28).</date>
     <title>Neuron breakthrough offers hope on Alzheimer’s and Parkinson’s.</title>
     <journal>The Times.</journal>
-    <accessed>Retrieved from</accessed>
+    <note>Retrieved from</note>
     <url>http://www.timesonline.co.uk/tol/news/science/medicine/article7005401.ece</url>
   </sequence>
   <sequence>
@@ -2121,7 +2111,7 @@
     <title>Landmark study to aid push for public smoking ban.</title>
     <journal>The West Australian,</journal>
     <pages>p.14.</pages>
-    <accessed>Retrieved October 20, 2008, from Factiva.</accessed>
+    <note>Retrieved October 20, 2008, from Factiva.</note>
   </sequence>
   <sequence>
     <author>Gilbert, D. G., Mc Clernon, J. F., Rabinovich, N. E., Sugai, C., Plath, L.C., Asgaard, G., ... Botros, N.</author>
@@ -2385,5 +2375,50 @@
     <volume>XI,</volume>
     <pages>pp. 468-470.</pages>
     <date>1980.</date>
+  </sequence>
+  <sequence>
+    <author>Jones, Philip.</author>
+    <date>2011.</date>
+    <title>"Global Publishing Back on the Front Foot".</title>
+    <source>Bookseller,</source>
+    <date>20 June.</date>
+    <note>Online:</note>
+    <url>http://www.thebookseller.com/news/global-publishing-back-front-foot.html</url>
+    <note>(accessed 3 November 2012).</note>
+  </sequence>
+  <sequence>
+    <author>Carruthers, P.</author>
+    <date>(1998b).</date>
+    <title>Animal Subjectivity.</title>
+    <journal>Psyche,</journal>
+    <volume>4(3),</volume>
+    <pages>2377.</pages>
+    <note>Retrieved from:</note>
+    <url>http://www.theassc.org/files/assc/2377.pdf.</url>
+    <note>[see also “Replies to Critics: Explaining Subjectivity”, (his response to commentators), in Psyche, 6 (3)]</note>
+  </sequence>
+  <sequence>
+    <title>International Medical Products Anti-Counterfeiting Taskforce.</title>
+    <date>(2008).</date>
+    <title>Counterfeit drugs kill! Counterfeits can have harmful effects and kill.</title>
+    <location>Geneva, Switzerland:</location>
+    <publisher>World Health Organization.</publisher>
+    <note>Retrieved January 15, 2010, from</note>
+    <url>http://www.who.int/impact/Final BrochureWHA2008a.pdf</url>
+  </sequence>
+  <sequence>
+    <author>G. Gauthier,</author>
+    <title>Andrei Tarkovski,</title>
+    <publisher>Edilig,</publisher>
+    <location>Paris,</location>
+    <date>1988</date>
+  </sequence>
+  <sequence>
+    <author>Rouse, H.,</author>
+    <date>1946.</date>
+    <title>Elementary Fluid Mechanics,</title>
+    <publisher>Wiley,</publisher>
+    <location>New York,</location>
+    <date>1946.</date>
   </sequence>
 </dataset>
