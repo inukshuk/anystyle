@@ -1,0 +1,2319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <sequence>
+    <author>Baker, J. W.</author>
+    <date>(2011).</date>
+    <title>Conditional Mean Spectrum: Tool for ground motion selection.</title>
+    <journal>Journal of Structural Engineering,</journal>
+    <volume>137(3):322–331.</volume>
+  </sequence>
+  <sequence>
+    <author>McGuire, R. K.</author>
+    <date>(2004).</date>
+    <title>Seismic Hazard and Risk Analysis.</title>
+    <publisher>Earthquake Engineering Research Institute,</publisher>
+    <location>Berkeley, CA.</location>
+  </sequence>
+  <sequence>
+    <author>Thráinsson, H. and Kiremidjian, A. S.</author>
+    <date>(2002).</date>
+    <title>Simulation of digital earthquake ac-celerograms using the inverse discrete Fourier transform.</title>
+    <journal>Earthquake Engineering &amp; Structural Dynamics,</journal>
+    <volume>31(12):2023–2048.</volume>
+  </sequence>
+  <sequence>
+    <author>Abrahamson, N. A. and Al Atik, L.</author>
+    <date>(2010).</date>
+    <title>Scenario Spectra for Design Ground Motions and Risk Calculation.</title>
+    <container-title>In 9th US National and 10th Canadian Conference on Earthquake Engineering,</container-title>
+    <location>Toronto, Canada.</location>
+  </sequence>
+  <sequence>
+    <author>Abrahamson, N. A. and Yunatci, A. A.</author>
+    <date>(2010).</date>
+    <title>Ground Motion Occurrence Rates for Scenario Spectra.</title>
+    <container-title>In Fifth International Conference on Recent Advances in Geotechnical Earthquake Engineering and Soil Dynamics,</container-title>
+    <location>San Diego, CA.</location>
+  </sequence>
+  <sequence>
+    <author>Yeh, C. H. and Wen, Y. K.</author>
+    <date>(1990).</date>
+    <title>Modeling of nonstationary ground motion and analysis of inelastic structural response.</title>
+    <journal>Structural Safety,</journal>
+    <volume>8(1-4):281–298.</volume>
+  </sequence>
+  <sequence>
+    <author>OpenSEES</author>
+    <date>(2012).</date>
+    <title>Open system for earthquake engineering simulation.</title>
+    <url>http://opensees.berkeley.edu/,</url>
+    <location>Berkeley, CA.</location>
+  </sequence>
+  <sequence>
+    <author>Ibarra, L. F., Medina, R. A., and Krawinkler, H.</author>
+    <date>(2005).</date>
+    <title>Hysteretic models that incor-porate strength and stiffness deterioration.</title>
+    <journal>Earthquake Engineering &amp; Structural Dynamics,</journal>
+    <volume>34(12):1489–1511.</volume>
+  </sequence>
+  <sequence>
+    <author>Suárez, L. E. and Montejo, L. A.</author>
+    <date>(2005).</date>
+    <title>Generation of artificial earthquakes via the wavelet transform.</title>
+    <journal>International Journal of Solids and Structures,</journal>
+    <volume>42(21-22):5905–5919.</volume>
+  </sequence>
+  <sequence>
+    <author>Han, S. W. and Wen, Y. K.</author>
+    <date>(1994).</date>
+    <title>Method of reliability-based calibration of seismic structural parameters.</title>
+    <genre>Technical report,</genre>
+    <location>Champaign, IL.</location>
+  </sequence>
+  <sequence>
+    <author>Grant, D. N.</author>
+    <date>(2011).</date>
+    <title>Response Spectral Matching of Two Horizontal Ground-Motion Components.</title>
+    <journal>Journal of Structural Engineering,</journal>
+    <volume>137(3):289–297.</volume>
+  </sequence>
+  <sequence>
+    <author>Chandramohan, R., Lin, T., Baker, J. W., and Deierlein, G. G.</author>
+    <date>(2013).</date>
+    <title>Influence of ground motion spectral shape and duration on seismic collapse risk.</title>
+    <container-title>In 10th International Conference on Urban Earthquake Engineering,</container-title>
+    <location>Tokyo, Japan.</location>
+  </sequence>
+  <sequence>
+    <author>McGuire, R. K., Silva, W. J., and Constantino, C. J.</author>
+    <date>(2002).</date>
+    <title>Technical Basis for Revi-sion of Regulatory Guidance on Design Ground Motions: Development of Hazard- and Risk-consistent Seismic Spectra for Two Sites.</title>
+    <genre>Technical report,</genre>
+    <location>Washington, D.C.</location>
+  </sequence>
+  <sequence>
+    <author>Welch, B. L.</author>
+    <date>(1947).</date>
+    <title>The Generalization of Student’s Problem when Several Different Population Variances are Involved.</title>
+    <journal>Biometrika,</journal>
+    <volume>34(1/2):28–35.</volume>
+  </sequence>
+  <sequence>
+    <author>Department of Defense</author>
+    <date>(2010).</date>
+    <title>Seismic Design for Buildings.</title>
+    <note>United Facilities Criteria 3-310-04.</note>
+    <location>Washington, D.C.</location>
+  </sequence>
+  <sequence>
+    <author>Aagaard, B. T., Graves, R. W., Rodgers, A., Brocher, T. M., Simpson, R. W., Dreger, D., Petersson, N. A., Larsen, S. C., Ma, S., and Jachens, R. C.</author>
+    <date>(2010).</date>
+    <title>Ground-Motion Modeling of Hayward Fault Scenario Earthquakes, Part II: Simulation of Long-Period and Broadband Ground Motions.</title>
+    <journal>Bulletin of the Seismological Society of America,</journal>
+    <volume>100(6):2945–2977.</volume>
+  </sequence>
+  <sequence>
+    <author>Haselton, C. B. and Deierlein, G. G.</author>
+    <date>(2007).</date>
+    <title>Assessing seismic collapse safety of modern reinforced concrete moment frame buildings.</title>
+    <note>PEER Report 2007/08.</note>
+    <publisher>Pacific Earthquake Engineering Research Center,</publisher>
+    <location>Berkeley, CA.</location>
+  </sequence>
+  <sequence>
+    <author>Wang, G.</author>
+    <date>(2011).</date>
+    <title>A ground motion selection and modification method capturing response spectrum characteristics and variability of scenario earthquakes.</title>
+    <journal>Soil Dy-namics and Earthquake Engineering,</journal>
+    <volume>31(4):611–625.</volume>
+  </sequence>
+  <sequence>
+    <author>Bazzurro, P. and Luco, N.</author>
+    <date>(2006).</date>
+    <title>Do scaled and spectrum-matched near-source records produce biased nonlinear structural responses?</title>
+    <container-title>In 8th U.S. National Con-ference on Earthquake Engineering,</container-title>
+    <location>San Francisco, CA.</location>
+  </sequence>
+  <sequence>
+    <author>Kaul, M. K.</author>
+    <date>(1978).</date>
+    <title>Spectrum-consistent time-history generation.</title>
+    <journal>Journal of the Engineering Mechanics Division,</journal>
+    <volume>104(4):781–788.</volume>
+  </sequence>
+  <sequence>
+    <author>Chopra, A. K.</author>
+    <date>(2011).</date>
+    <title>Dynamics of structures: theory and applications to earthquake engineering,</title>
+    <volume>volume 4th.</volume>
+    <publisher>Prentice Hall,</publisher>
+    <location>Upper Saddle River, NJ.</location>
+  </sequence>
+  <sequence>
+    <author>Lin, T., Harmsen, S. C., Baker, J. W., and Luco, N.</author>
+    <date>(2013).</date>
+    <title>Conditional Spectrum Computation Incorporating Multiple Causal Earthquakes and Ground Motion Pre-diction Models.</title>
+    <journal>Bulletin of the Seismological Society of America,</journal>
+    <volume>103(2A):1103–1116.</volume>
+  </sequence>
+  <sequence>
+    <author>Buratti, N., Stafford, P., and Bommer, J.</author>
+    <date>(2011).</date>
+    <title>Earthquake Accelerogram Selection and Scaling Procedures for Estimating the Distribution of Drift Response.</title>
+    <journal>Journal of Structural Engineering,</journal>
+    <volume>137(3):345–357.</volume>
+  </sequence>
+  <sequence>
+    <author>Vamvatsikos, D. and Cornell, C. A.</author>
+    <date>(2002).</date>
+    <title>Incremental dynamic analysis.</title>
+    <journal>Earthquake Engineering &amp; Structural Dynamics,</journal>
+    <volume>31(3):491–514.</volume>
+  </sequence>
+  <sequence>
+    <author>Petersen, M. D., Frankel, A. D., Harmsen, S. C., Mueller, C. S., Haller, K. M., Wheeler, R. L., Wesson, R. L., Zeng, Y., Boyd, O. S., Perkins, D. M., Luco, N., Field, E. H., Wills, C. J., and Rukstales, K. S.</author>
+    <date>(2008).</date>
+    <title>Documentation for the 2008 update of the United States national seismic hazard maps.</title>
+    <genre>Technical report.</genre>
+  </sequence>
+  <sequence>
+    <author>Kennedy, R. P., Kincaid, R. H., and Short, S. A.</author>
+    <date>(1985).</date>
+    <title>Prediction of inelastic response from elastic response spectra considering localized nonlinearities and soil-structure interaction.</title>
+    <container-title>In 8th SMIRT,</container-title>
+    <location>Brussels, Belgium.</location>
+  </sequence>
+  <sequence>
+    <author>Douglas, J. and Aochi, H.</author>
+    <date>(2008).</date>
+    <title>A Survey of Techniques for Predicting Earthquake Ground Motions for Engineering Purposes.</title>
+    <journal>Surv. Geophys.,</journal>
+    <volume>29(3):187–220.</volume>
+  </sequence>
+  <sequence>
+    <author>Vamvatsikos, D. and Cornell, C. A.</author>
+    <date>(2005).</date>
+    <title>Developing efficient scalar and vector intensity measures for IDA capacity estimation by incorporating elastic spectral shape information.</title>
+    <journal>Earthquake Engineering &amp; Structural Dynamics,</journal>
+    <volume>34(13):1573–1600.</volume>
+  </sequence>
+  <sequence>
+    <author>Somerville, P. G. and Hamburger, R. O.</author>
+    <date>(2009).</date>
+    <title>Development of ground motion time histories for design.</title>
+    <container-title>In Seismic Mitigation for Museum Collection: Papers from the J. Paul Getty Museum - National Museum of Western Art (Tokyo) Jointly Sponsored Symposium,</container-title>
+    <location>Tokyo, Japan.</location>
+  </sequence>
+  <sequence>
+    <author>Iervolino, I. and Cornell, C. A.</author>
+    <date>(2005).</date>
+    <title>Record Selection for Nonlinear Seismic Anal-ysis of Structures.</title>
+    <journal>Earthquake Spectra,</journal>
+    <pages>21(3):685–713.</pages>
+  </sequence>
+  <sequence>
+    <author>ACI</author>
+    <date>(2006).</date>
+    <title>Building Code Requirements for Structural Concrete.</title>
+    <note>ACI 318-02.</note>
+    <publisher>Amer-ican Concrete Institute,</publisher>
+    <location>Farmington Hills, MI.</location>
+  </sequence>
+  <sequence>
+    <author>ASCE</author>
+    <date>(2005).</date>
+    <title>Seismic Design Criteria for Structures, Systems, and Components in Nuclear Facilities.</title>
+    <note>ASCE/SEI 43-05.</note>
+    <publisher>American Society of Civil Engineers,</publisher>
+    <location>Reston, VA.</location>
+  </sequence>
+  <sequence>
+    <author>Hancock, J., Bommer, J. J., and Stafford, P. J.</author>
+    <date>(2008).</date>
+    <title>Numbers of scaled and matched accelerograms required for inelastic dynamic analyses.</title>
+    <journal>Earthquake Engi-neering &amp; Structural Dynamics,</journal>
+    <volume>37(14):1585–1607.</volume>
+  </sequence>
+  <sequence>
+    <author>AASHTO</author>
+    <date>(2010).</date>
+    <title>AASHTO LRFD Bridge Design Specifications.</title>
+    <publisher>American Associa-tion of State Highway and Transportation Officials (AASHTO),</publisher>
+    <location>Washington D.C.</location>
+  </sequence>
+  <sequence>
+    <author>Baker, J. W. and Cornell, C. A.</author>
+    <date>(2005).</date>
+    <title>A vector-valued ground motion intensity measure consisting of spectral acceleration and epsilon.</title>
+    <journal>Earthquake Engineering &amp; Structural Dynamics,</journal>
+    <volume>34(10):1193–1217.</volume>
+  </sequence>
+  <sequence>
+    <author>Huang, Y.-N., Whittaker, A. S., Luco, N., and Hamburger, R. O.</author>
+    <date>(2011).</date>
+    <title>Scal-ing Earthquake Ground Motions for Performance-Based Assessment of Buildings.</title>
+    <journal>Journal of Structural Engineering,</journal>
+    <volume>137(3):311–321.</volume>
+  </sequence>
+  <sequence>
+    <author>Grant, D. N., Greening, P. D., Taylor, M. L., and Ghosh, B.</author>
+    <date>(2008).</date>
+    <title>Seed record selection for spectral matching with RSPMatch2005.</title>
+    <container-title>In 14th World Conference on Earthquake Engineering,</container-title>
+    <location>Beijing, China.</location>
+  </sequence>
+  <sequence>
+    <author>Graves, R., Jordan, T. H., Callaghan, S., Deelman, E., Field, E., Juve, G., Kesselman, C., Maechling, P., Mehta, G., Milner, K., and others</author>
+    <date>(2010).</date>
+    <title>CyberShake: A physics-based seismic hazard model for southern California.</title>
+    <journal>Pure and Applied Geophysics,</journal>
+    <volume>168(3-4):367–381.</volume>
+  </sequence>
+  <sequence>
+    <author>Kottke, A. and Rathje, E. M.</author>
+    <date>(2008).</date>
+    <title>A Semi-Automated Procedure for Selecting and Scaling Recorded Earthquake Motions for Dynamic Analysis.</title>
+    <journal>Earthquake Spectra,</journal>
+    <date>24(4):911–932.</date>
+  </sequence>
+  <sequence>
+    <author>Lilhanand, K. and Tseng, W. S.</author>
+    <date>(1988).</date>
+    <title>Development and application of realistic earthquake time histories compatible with multiple-damping design spectra.</title>
+    <container-title>In 9th World Conference on Earthquake Engineering,</container-title>
+    <location>Tokyo, Japan.</location>
+  </sequence>
+  <sequence>
+    <author>Kramer, S. L.</author>
+    <date>(1996).</date>
+    <title>Geotechnical earthquake engineering.</title>
+    <publisher>Prentice Hall,</publisher>
+    <location>Upper Saddle River, N.J.</location>
+  </sequence>
+  <sequence>
+    <author>Krawinkler, H. and Miranda, E.</author>
+    <date>(2004).</date>
+    <title>Performance-based earthquake engineer-ing. Earthquake Engineering: From Engineering Seismology to Performance-Based Engineering</title>
+    <editor>(edited by Y. Bozorgnia and VV Bertero)”,</editor>
+    <publisher>CRC Press,</publisher>
+    <location>Boca Raton, USA.</location>
+  </sequence>
+  <sequence>
+    <author>ICC</author>
+    <date>(2011).</date>
+    <title>2012 International Building Code.</title>
+    <publisher>Interational Code Council.</publisher>
+  </sequence>
+  <sequence>
+    <author>Aslani, H. and Miranda, E.</author>
+    <date>(2005).</date>
+    <title>Probability-based seismic response analysis.</title>
+    <journal>En-gineering Structures,</journal>
+    <volume>27(8):1151–1163.</volume>
+  </sequence>
+  <sequence>
+    <author>Bradley, B. A.</author>
+    <date>(2012).</date>
+    <title>A ground motion selection algorithm based on the generalized conditional intensity measure approach.</title>
+    <journal>Soil Dynamics and Earthquake Engineer-ing,</journal>
+    <volume>40(c):48–61.</volume>
+  </sequence>
+  <sequence>
+    <author>Baker, J. W. and Cornell, C. A.</author>
+    <date>(2006a).</date>
+    <title>Spectral shape, epsilon and record selection.</title>
+    <journal>Earthquake Engineering &amp; Structural Dynamics,</journal>
+    <volume>35(9):1077–1095.</volume>
+  </sequence>
+  <sequence>
+    <author>Wang, J., Fan, L., Qian, S., and Zhou, J.</author>
+    <date>(2002).</date>
+    <title>Simulations of non-stationary fre-quency content and its importance to seismic assessment of structures.</title>
+    <journal>Earthquake Engineering &amp; Structural Dynamics,</journal>
+    <volume>31(4):993–1005.</volume>
+  </sequence>
+  <sequence>
+    <author>Cornell, C. A.</author>
+    <date>(1968).</date>
+    <title>Engineering seismic risk analysis.</title>
+    <journal>Bulletin of the Seismological Society of America,</journal>
+    <volume>58(5):1583–1606.</volume>
+  </sequence>
+  <sequence>
+    <author>U.S. Army Corps of Engineers</author>
+    <date>(2009).</date>
+    <title>Selection of Design Earthquakes and Associated Ground Motions.</title>
+    <note>EC 1110-2-6000.</note>
+    <location>Washington, D.C.</location>
+  </sequence>
+  <sequence>
+    <author>Watson-Lamprey, J. and Abrahamson, N.</author>
+    <date>(2006a).</date>
+    <title>Bias caused by use of spectrum compatible motions.</title>
+    <container-title>In 8th U.S. National Conference on Earthquake Engineering,</container-title>
+    <location>San Francisco, CA.</location>
+  </sequence>
+  <sequence>
+    <author>Zwicky, A.</author>
+    <date>(1970).</date>
+    <title>Auxiliary reduction in English.</title>
+    <journal>Linguistic Inquiry,</journal>
+    <volume>1 (3),</volume>
+    <pages>323-336.</pages>
+  </sequence>
+  <sequence>
+    <author>Frank, A., &amp; Jaeger, T.</author>
+    <date>(2008).</date>
+    <title>Speaking rationally: Uniform information density as an optimal strategy for language production.</title>
+    <container-title>In Proceedings of the 30th annual meeting of the cognitive science society (cogsci08)</container-title>
+    <pages>(p. 939-994).</pages>
+    <location>Washington, D. C..</location>
+  </sequence>
+  <sequence>
+    <author>Cedergren, H. J., &amp; Sankoff, D.</author>
+    <date>(1974).</date>
+    <title>Variable rules: Performance as a statistical reflection of competence.</title>
+    <journal>Language,</journal>
+    <volume>50 (2),</volume>
+    <pages>333-355.</pages>
+  </sequence>
+  <sequence>
+    <author>Dailey-O’Cain, J.</author>
+    <date>(2000).</date>
+    <title>The sociolinguistic distribution of attitudes toward focuser “like” and quotative “like”.</title>
+    <journal>Journal of Sociolinguistics,</journal>
+    <volume>4 (1),</volume>
+    <pages>60-80.</pages>
+  </sequence>
+  <sequence>
+    <author>Shannon, C. E.</author>
+    <date>(1948).</date>
+    <title>A mathematical theory of communication.</title>
+    <journal>The Bell System Technical Journal ,</journal>
+    <volume>27 ,</volume>
+    <pages>379-423.</pages>
+  </sequence>
+  <sequence>
+    <author>Kaisse, E. M.</author>
+    <date>(1983).</date>
+    <title>The syntax of auxiliary reduction in English.</title>
+    <journal>Language,</journal>
+    <volume>59 (1),</volume>
+    <pages>93-122.</pages>
+  </sequence>
+  <sequence>
+    <author>Erker, D., &amp; Guy, G.</author>
+    <date>(2012).</date>
+    <title>Variable subject personal pronoun expression in Spanish.</title>
+    <journal>Language,</journal>
+    <volume>88 (3),</volume>
+    <pages>526-557.</pages>
+  </sequence>
+  <sequence>
+    <author>Yaeger-Dror, M., Hall-Lew, L., &amp; Deckert, S.</author>
+    <date>(2002).</date>
+    <title>It’s not or isn’t it? using large corpora to determine the influences on contraction strategies.</title>
+    <journal>Language Variation and Change,,</journal>
+    <volume>14 ,</volume>
+    <pages>79-118.</pages>
+  </sequence>
+  <sequence>
+    <author>Chomsky, N., &amp; Halle, M.</author>
+    <date>(1968).</date>
+    <title>The Sound Pattern of English.</title>
+    <location>New York:</location>
+    <publisher>Harper and Row.</publisher>
+  </sequence>
+  <sequence>
+    <author>Kiesling, S., Dilley, L., &amp; Raymond, W. D.</author>
+    <date>(2006).</date>
+    <title>The Varation in Conversation Project: Creation of the Buckeye Corpus of Conversational Speech.</title>
+  </sequence>
+  <sequence>
+    <author>Coetzee, A., &amp; Kawahara, S.</author>
+    <date>(2013).</date>
+    <title>Frequency biases in phonological variation.</title>
+    <journal>Natural Language and Linguisic Theory,</journal>
+    <volume>31 ,</volume>
+    <pages>47-89.</pages>
+  </sequence>
+  <sequence>
+    <author>Blyth Jr., C., Recktenwald, S., &amp; Wang, J.</author>
+    <date>(1990).</date>
+    <title>I’m like, “Say what?!”: A new quotative in American oral narrative.</title>
+    <journal>American Speech,</journal>
+    <volume>65 (3),</volume>
+    <pages>215-227.</pages>
+  </sequence>
+  <sequence>
+    <author>Bresnan, J.</author>
+    <date>(1978).</date>
+    <title>Contraction and the Transformational Cycle in English.</title>
+    <publisher>The Indiana University Linguistics Club.</publisher>
+  </sequence>
+  <sequence>
+    <author>Tagliamonte, S., &amp; Baayen, R. H.</author>
+    <date>(2012).</date>
+    <title>Models, forests, and trees of York English: Was/were variation as a case study for statistical practice.</title>
+    <journal>Language Variation and Change,</journal>
+    <volume>24 (2),</volume>
+    <pages>135-178.</pages>
+  </sequence>
+  <sequence>
+    <author>Anttila, A.</author>
+    <date>(2013).</date>
+    <title>Stress and auxiliary reduction in English.</title>
+    <container-title>In Presented at the MSPI Workshop.</container-title>
+  </sequence>
+  <sequence>
+    <author>Romaine, S., &amp; Lange, D.</author>
+    <date>(1991).</date>
+    <title>The use of “like” as a marker of reported speech and thought: A case of grammaticalization in progress.</title>
+    <journal>American Speech,</journal>
+    <volume>66 (3),</volume>
+    <pages>227-279.</pages>
+  </sequence>
+  <sequence>
+    <author>Ogden, R.</author>
+    <date>(1999).</date>
+    <title>A declarative account of strong and weak auxiliaries in English.</title>
+    <journal>Phonology,</journal>
+    <volume>16 ,</volume>
+    <pages>55-92.</pages>
+  </sequence>
+  <sequence>
+    <author>Drager, K.</author>
+    <date>(2011).</date>
+    <title>Sociophonetic variation and the lemma.</title>
+    <journal>Journal of Phonetics,</journal>
+    <volume>39 ,</volume>
+    <pages>694-707.</pages>
+  </sequence>
+  <sequence>
+    <author>Massam, D.</author>
+    <date>(1999).</date>
+    <title>“Thing is” contsructions: The thing is, it what’s the right analysis?</title>
+    <journal>English Language and Linguistics,</journal>
+    <volume>3 ,</volume>
+    <pages>335-352.</pages>
+  </sequence>
+  <sequence>
+    <author>Tamminga, M.</author>
+    <date>(2014).</date>
+    <title>The dynamic production of variation</title>
+    <genre>(Unpublished doctoral dissertation).</genre>
+    <publisher>University of Pennsylvania.</publisher>
+  </sequence>
+  <sequence>
+    <author>McElhinny, B. S.</author>
+    <date>(1993).</date>
+    <title>Copula and auxiliary contraction in the speech of Whie Americans.</title>
+    <journal>American Speech,</journal>
+    <volume>68 (4),</volume>
+    <pages>371-399.</pages>
+  </sequence>
+  <sequence>
+    <author>Bayley, R., Holland, C., &amp; Ware, K.</author>
+    <date>(2012, October).</date>
+    <title>Lexical frequency and syntactic variation: A test of a linguistic hypothesis.</title>
+    <note>Paper presented at NWAV 41.</note>
+  </sequence>
+  <sequence>
+    <author>Tagliamonte, S., &amp; Smith, J.</author>
+    <date>(2002).</date>
+    <title>Either it isn’t or it’s not: Neg/aux contraction in British dialects.</title>
+    <journal>English World-Wide,</journal>
+    <volume>23 (2),</volume>
+    <pages>251-281.</pages>
+  </sequence>
+  <sequence>
+    <author>Sag, I. A., Wasow, T., &amp; Bender, E. M.</author>
+    <date>(2003).</date>
+    <title>Syntactic Theory, A Formal Intro-duction</title>
+    <edition>(2nd ed.).</edition>
+    <publisher>CSLI Publications.</publisher>
+  </sequence>
+  <sequence>
+    <author>MacKenzie, L. E.</author>
+    <date>(2012).</date>
+    <title>Locating Variation Above the Phonology</title>
+    <genre>(Unpublished doctoral dissertation).</genre>
+    <publisher>University of Pennsylvania,</publisher>
+    <location>Philadelphia, PA.</location>
+  </sequence>
+  <sequence>
+    <author>Labov, W.</author>
+    <date>(2006).</date>
+    <title>The Social Stratification of English in New York City.</title>
+    <location>New York:</location>
+    <publisher>Cambridge University Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Sells, P.</author>
+    <date>(1983).</date>
+    <title>Juncture and the phonology of auxiliary reduction in English.</title>
+    <journal>University of Massachusetts Occasional Papers in Linguistics,</journal>
+    <volume>8 ,</volume>
+    <pages>76-105.</pages>
+  </sequence>
+  <sequence>
+    <author>Jurafsky, D., Bell, A., Gregory, M., &amp; Raymond, W. D.</author>
+    <date>(2000).</date>
+    <title>Probabilistic relations between words: evidence from reduction in lexical production.</title>
+    <editor>In J. Bybee &amp; P. Hopper (Eds.),</editor>
+    <container-title>Frequency and the emergence of linguistic structure</container-title>
+    <pages>(p. 229-254).</pages>
+  </sequence>
+  <sequence>
+    <author>Bender, E. M.</author>
+    <date>(2000).</date>
+    <title>Syntactic variation and linguistic competence: The case of AAVE copula absence</title>
+    <genre>(Unpublished doctoral dissertation).</genre>
+    <publisher>Stanford University.</publisher>
+  </sequence>
+  <sequence>
+    <author>Spencer, A.</author>
+    <date>(1991).</date>
+    <title>Morphological Theory: An Introduction to Word Structure in Generative Grammar.</title>
+    <publisher>Basil Blackwell.</publisher>
+  </sequence>
+  <sequence>
+    <author>Labov, W.</author>
+    <date>(1969).</date>
+    <title>Contraction, deletion, and inherent variability of the English copula.</title>
+    <journal>Language,</journal>
+    <volume>45 (4),</volume>
+    <pages>715-762.</pages>
+  </sequence>
+  <sequence>
+    <author>Pitt, M. A., Dilley, L., Johnson, K., Kiesling, S., Raymond, W., &amp; Hume, E.</author>
+    <date>(2007).</date>
+    <title>Buckeye Corpus of Conversational Speech.</title>
+  </sequence>
+  <sequence>
+    <author>Chomsky, N.</author>
+    <date>(1957).</date>
+    <title>Syntactic Structures.</title>
+    <location>Berlin:</location>
+    <publisher>Mouton de Gruyter.</publisher>
+  </sequence>
+  <sequence>
+    <author>D’Arcy, A.</author>
+    <date>(2007).</date>
+    <title>“Like” and language ideology: disentangling fact from fiction.</title>
+    <journal>American Speech,</journal>
+    <volume>82 (4),</volume>
+    <pages>386-416.</pages>
+  </sequence>
+  <sequence>
+    <author>Szmrecsanyi, B.</author>
+    <date>(2005).</date>
+    <title>Language users as creatures of habit: A corpus-based analysis of persistence in spoken English.</title>
+    <journal>Corpus Linguistics and Linguistic Theory,</journal>
+    <volume>1 (1),</volume>
+    <pages>113-150.</pages>
+  </sequence>
+  <sequence>
+    <author>Bybee, J.</author>
+    <date>(2006).</date>
+    <title>From usage to grammar: the mind’s response to repetition.</title>
+    <journal>Lan-guage,</journal>
+    <volume>82 (4),</volume>
+    <pages>711-33.</pages>
+  </sequence>
+  <sequence>
+    <author>Buchstaller, I.</author>
+    <date>(2013).</date>
+    <title>Quotatives: New Trends and Sociolinguistic Implications.</title>
+    <location>New York:</location>
+    <publisher>Wiley-Blackwell.</publisher>
+  </sequence>
+  <sequence>
+    <author>Shih, S.</author>
+    <date>(2014).</date>
+    <title>Towards Optimal Rhythm</title>
+    <genre>(Unpublished doctoral dissertation).</genre>
+    <publisher>Stan-ford University.</publisher>
+  </sequence>
+  <sequence>
+    <author>Wilder, C.</author>
+    <date>(1997).</date>
+    <title>English finite auxiliaries in syntax and phonology.</title>
+    <container-title>Clitics, Pro-nouns, and Movement,</container-title>
+    <pages>321-362.</pages>
+  </sequence>
+  <sequence>
+    <author>Mikkelsen, L.</author>
+    <date>(2005).</date>
+    <title>Copular Clauses: Specification, Predication, and Equation.</title>
+    <location>Amsterdam:</location>
+    <publisher>John Benjamins.</publisher>
+  </sequence>
+  <sequence>
+    <author>Coetzee, A., &amp; Pater, J.</author>
+    <date>(2011).</date>
+    <title>The place of variation in phonological theory.</title>
+    <editor>In J. A. Goldsmith, J. Riggle, &amp; A. C. L. Yu (Eds.),</editor>
+    <container-title>The Handbook of Phonological Theory,</container-title>
+    <edition>2nd Edition</edition>
+    <pages>(p. 401-434).</pages>
+    <location>Malden, MA:</location>
+    <publisher>Blackwell.</publisher>
+  </sequence>
+  <sequence>
+    <author>Ferrara, K., &amp; Bell, B.</author>
+    <date>(1995).</date>
+    <title>Sociolinguistic variation and discourse function of constructed dialogue introducers: The case of BE + LIKE.</title>
+    <journal>American Speech,</journal>
+    <volume>70 (3),</volume>
+    <pages>265-289.</pages>
+  </sequence>
+  <sequence>
+    <author>Anderson, S. R.</author>
+    <date>(2008).</date>
+    <title>English reduced auxiliaries really are simple clitics.</title>
+    <journal>Lingue e Linguaggio,</journal>
+    <volume>7 (1),</volume>
+    <pages>1-18.</pages>
+  </sequence>
+  <sequence>
+    <author>Sadler, L.</author>
+    <date>(1998).</date>
+    <title>English auxiliaries as tense inflections.</title>
+    <container-title>In Essex research reports on linguistics</container-title>
+    <volume>(Vol. 24,</volume>
+    <pages>p. 1-15).</pages>
+  </sequence>
+  <sequence>
+    <author>Tagliamonte, S., &amp; Hudson, R.</author>
+    <date>(1999).</date>
+    <title>“Be like” et al. beyond America: The quotative system in British and Canadian youth.</title>
+    <journal>Journal of Sociolinguistics,</journal>
+    <volume>3 (2),</volume>
+    <pages>147-172.</pages>
+  </sequence>
+  <sequence>
+    <author>Krug, M.</author>
+    <date>(1998).</date>
+    <title>String frequency : A cognitive motivating factor in coalescence,.</title>
+    <journal>Journal of English Linguistics,</journal>
+    <volume>26 ,</volume>
+    <pages>286-320.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(16)</citation-number>
+    <author>Childs, W.; Boxer, S. G.</author>
+    <title>“Solvation response along the reaction coordinate in the active site of ketosteroid isomerase.”</title>
+    <journal>J. Am. Chem. Soc</journal>
+    <date>2010,</date>
+    <volume>132,</volume>
+    <pages>6474–6480.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(20)</citation-number>
+    <author>Suydam, I. T.; Snow, C. D.; Pande, V. S.; Boxer, S. G.</author>
+    <journal>Science</journal>
+    <date>2006,</date>
+    <volume>313,</volume>
+    <pages>200–204.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(36)</citation-number>
+    <author>Alfieri, K. N.; Vienneau, A. R.; Londergan, C. H.</author>
+    <title>“Using infrared spectroscopy of cyanylated cysteine to map the membrane binding structure and orientation of the hybrid antimicrobial peptide CM15.”</title>
+    <journal>Biochemistry</journal>
+    <date>2011,</date>
+    <volume>50,</volume>
+    <pages>11097–11108.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(6)</citation-number>
+    <author>Koshland Jr., D. E.</author>
+    <title>"The Comparison of Non-Enzymic and Enzymic Reaction Velocities."</title>
+    <journal>J. Thoret. Biol.</journal>
+    <date>1962,</date>
+    <volume>2,</volume>
+    <pages>75–86.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(35)</citation-number>
+    <author>Sigala, P. A.; Caaveiro, J. M. M.; Ringe, D.; Petsko, G. A.; Herschlag, D.</author>
+    <title>"Hydrogen Bond Coupling in the Ketosteroid Isomerase Active Site."</title>
+    <journal>Biochemistry</journal>
+    <date>2009,</date>
+    <volume>48,</volume>
+    <pages>6932–6939.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(22)</citation-number>
+    <author>Fafarman, A.; Sigala, P.; Herschlag, D.; Boxer, S.</author>
+    <title>"Decomposition of Vibrational Shifts of Nitriles Into Electrostatic and Hydrogen-Bonding Effects."</title>
+    <journal>J. Am. Chem. Soc.</journal>
+    <date>2010,</date>
+    <volume>132,</volume>
+    <pages>12811–12813.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(66)</citation-number>
+    <author>Lindquist, B. A.; Furse, K. E.; Corcelli, S. A.</author>
+    <title>“Nitrile groups as vibrational probes of biomolecular structure and dynamics: an overview.”</title>
+    <journal>Phys. Chem. Chem. Phys.</journal>
+    <date>2009,</date>
+    <volume>11,</volume>
+    <pages>8119–8132.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(10)</citation-number>
+    <author>Pey, A. L.; Rodriguez-Larrea, D.; Gavira, J. A.; Garcia-Moreno, B.; Sanchez-Ruiz, J. M.</author>
+    <title>“Modulation of Buried Ionizable Groups in Proteins with Engineered Surface Charge.”</title>
+    <journal>J. Am. Chem. Soc</journal>
+    <date>2010,</date>
+    <volume>132,</volume>
+    <pages>1218–1219.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(8)</citation-number>
+    <author>Michaelis, L.; Menten, M. L.</author>
+    <title>“Die Kinetik der Invertinwirkung.”</title>
+    <journal>Biochemische Zeitschrift</journal>
+    <date>1913,</date>
+    <volume>49,</volume>
+    <pages>333–369.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(78)</citation-number>
+    <author>NIST Mass Spec Data Center, Stein, S. E.,</author>
+    <title>"Infrared Spectra"</title>
+    <container-title>in NIST Chemistry WebBook,</container-title>
+    <note>NIST Standard Reference Database Number 69,</note>
+    <editor>Eds. Linstrom, P. J.; Mallard W. G.</editor>
+    <url>(http://webbook.nist.gov,</url>
+    <note>retrieved August 13, 2013). Note that this reference reports acetophenone's gas-phase C=O frequency as 1703 cm–1, whereas ref. 75 reports it as 1709 cm–1.</note>
+  </sequence>
+  <sequence>
+    <citation-number>(12)</citation-number>
+    <author>Vauthey, E.; Voss, J.; De Caro, C.; Renn, A.; Wild, U. P.</author>
+    <journal>Chem. Phys.</journal>
+    <date>1994,</date>
+    <volume>184,</volume>
+    <pages>347–356.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(55)</citation-number>
+    <author>Boehr, D. D.; Dyson, H. J.; Wright, P. E.</author>
+    <title>"An NMR Perspective on Enzyme Dynamics."</title>
+    <journal>Chem. Rev.</journal>
+    <date>2006,</date>
+    <volume>106,</volume>
+    <pages>3055–3079.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(44)</citation-number>
+    <author>Jencks, W. P.</author>
+    <title>"Binding Energy, Specificity, and Enzymic Catalysis: The Circe Effect."</title>
+    <journal>Adv. Enzym.</journal>
+    <date>1975,</date>
+    <volume>43,</volume>
+    <pages>219–410.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(42)</citation-number>
+    <author>Pierdominici-Sottile, G.; Roitberg, A. E.</author>
+    <title>"Proton Transfer Facilitated by Ligand Binding. an Energetic Analysis of the Catalytic Mechanism of Trypanosoma Cruzi Trans-Sialidase."</title>
+    <journal>Biochemistry</journal>
+    <date>2011,</date>
+    <volume>50,</volume>
+    <pages>836–842.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(84)</citation-number>
+    <author>Vauthey, E.; Voss, J.; De Caro, C.; Renn, A.; Wild, U. P.</author>
+    <title>“Spectral hole-burning and stark effect: frequency dependence of the induced dipole moment of a squaraine dye in polymers.”</title>
+    <journal>Chem. Phys.</journal>
+    <date>1994,</date>
+    <volume>184,</volume>
+    <pages>347–356.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(29)</citation-number>
+    <author>Schwans, J. P.; Kraut, D. A.; Herschlag, D.</author>
+    <title>"Determining the Catalytic Role of Remote Substrate Binding Interactions in Ketosteroid Isomerase."</title>
+    <journal>Proc. Natl. Acad. Sci. USA</journal>
+    <date>2009,</date>
+    <volume>106,</volume>
+    <pages>14271–14275.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(46)</citation-number>
+    <author>Wu, N.; Mo, Y.; Gao, J.; Pai, E. F.</author>
+    <title>"Electrostatic Stress in Catalysis: Structure and Mechanism of the Enzyme Orotidine Monophosphate Decarboxylase."</title>
+    <journal>Proc. Natl. Acad. Sci. USA</journal>
+    <date>2000,</date>
+    <volume>97,</volume>
+    <pages>2017–2022.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(47)</citation-number>
+    <author>Carey, P. R.; Tonge, P. J.</author>
+    <title>"Unlocking the Secrets of Enzyme Power Using Raman Spectroscopy."</title>
+    <journal>Acc. Chem. Res.</journal>
+    <date>1995,</date>
+    <volume>38,</volume>
+    <pages>8–13.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(32)</citation-number>
+    <author>Fafarman, A. T.; Sigala, P. A.; Schwans, J. P.; Fenn, T. D.; Herschlag, D.; Boxer, S. G.</author>
+    <title>"Quantitative, Directional Measurement of Electric Field Heterogeneity in the Active Site of Ketosteroid Isomerase."</title>
+    <journal>Proc. Natl. Acad. Sci. USA</journal>
+    <date>2012,</date>
+    <volume>109,</volume>
+    <pages>E299–E308.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(39)</citation-number>
+    <author>Webb, L. J.; Boxer, S. G.</author>
+    <title>“Electrostatic fields near the active site of human aldose reductase: 1. New inhibitors and vibrational stark effect measurements.”</title>
+    <journal>Biochemistry</journal>
+    <date>2008,</date>
+    <volume>47,</volume>
+    <pages>1588–1598.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(5)</citation-number>
+    <author>McIntosh, L.; Hand, G.; Johnson, P.; Joshi, M.; Korner, M.; Plesniak, L.; Ziser, L.; Wakarchuk, W.; Withers, S.</author>
+    <title>“The pKa of the General Acid/Base Carboxyl Group of a Glycosidase Cycles During Catalysis: a 13C-NMR Study of Bacillus Circulans Xylanase.”</title>
+    <journal>Biochemistry</journal>
+    <date>1996,</date>
+    <volume>35,</volume>
+    <pages>9958–9966.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(23)</citation-number>
+    <author>Zhou, P.-P.; Qiu, W.-Y.; Jin, N.-Z.</author>
+    <journal>J. Chem. Phys.</journal>
+    <date>2012,</date>
+    <volume>137,</volume>
+    <pages>084311.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(10)</citation-number>
+    <author>Kuntz, I. D.; Chen, K.; Sharp, K. A.; Kollman, P. A.</author>
+    <title>"The maximal affinity of ligands."</title>
+    <journal>Proc. Natl. Acad. Sci. USA</journal>
+    <date>1999,</date>
+    <volume>96,</volume>
+    <pages>9997–10002.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(40)</citation-number>
+    <author>Chandler, D.; Wolynes, P. G.</author>
+    <title>“Exploiting the Isomorphism between Quantum Theory and Classical Statistical Mechanics of Polyatomic Fluids.”</title>
+    <journal>J. Chem. Phys.</journal>
+    <date>1981,</date>
+    <volume>74,</volume>
+    <pages>4078.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(43)</citation-number>
+    <author>Boekelheide, N.; Salomón-Ferrer, R.; Miller, T. F.</author>
+    <title>“Dynamics and Dissipation in Enzyme Catalysis.”</title>
+    <journal>Proc. Natl. Acad. Sci. USA</journal>
+    <date>2011,</date>
+    <volume>108,</volume>
+    <pages>16159–16163.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(63)</citation-number>
+    <author>Adamo, C.; Cossi, M.; Rega, N.; Barone, V.</author>
+    <title>In Theoretical Biochemistry: Processes and Properties of Biological Systems,</title>
+    <journal>Theoretical and Computational Chemistry,</journal>
+    <volume>Vol. 9;</volume>
+    <publisher>Elsevier:</publisher>
+    <location>New York,</location>
+    <date>1990.</date>
+  </sequence>
+  <sequence>
+    <citation-number>(8)</citation-number>
+    <author>Sham, Y.; Chu, Z.; Warshel, A.</author>
+    <title>“Consistent Calculations of pKa's of Ionizable Residues in Proteins: Semi-Microscopic and Microscopic Approaches.”</title>
+    <journal>J. Phys. Chem. B</journal>
+    <date>1997,</date>
+    <volume>101,</volume>
+    <pages>4458–4472.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(28)</citation-number>
+    <author>Bolvig, S.; Hansen, P.</author>
+    <title>“Deuterium-Induced Isotope Effects on 13C Chemical Shifts as a Probe for Tautomerism in Enolic Β-Diketones.”</title>
+    <journal>Magn. Res. Chem.</journal>
+    <date>1996,</date>
+    <volume>34,</volume>
+    <pages>467–478.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(14)</citation-number>
+    <author>Vocadlo, D.; Davies, G.; Laine, R.; Withers, S.</author>
+    <title>“Catalysis by hen egg-white lysozyme proceeds via a covalent intermediate.”</title>
+    <journal>Nature</journal>
+    <date>2001,</date>
+    <volume>412,</volume>
+    <pages>835–838.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(55)</citation-number>
+    <author>Fafarman, A.; Sigala, P.; Herschlag, D.; Boxer, S. G.</author>
+    <title>“Decomposition of Vibrational Shifts of Nitriles into Electrostatic and Hydrogen-Bonding Effects.”</title>
+    <journal>J. Am. Chem. Soc.</journal>
+    <date>2010,</date>
+    <volume>132,</volume>
+    <pages>12811–12813.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(28)</citation-number>
+    <author>Chen, F. P.; Hanson, D. M.; Fox, D.</author>
+    <journal>J. Chem. Phys</journal>
+    <date>1975,</date>
+    <volume>63,</volume>
+    <pages>3878–3885.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(17)</citation-number>
+    <author>Krezel, A.; Bal, W.</author>
+    <title>“A Formula for Correlating pKa Values Determined in D2O and H2O.”</title>
+    <author>J. Inorg. Biochem.</author>
+    <date>2004,</date>
+    <volume>98,</volume>
+    <pages>161–166.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(22)</citation-number>
+    <author>Wang, S.; Kawahara, F.; Talalay, P.</author>
+    <title>“The Mechanism of the Δ5-3-Ketosteroid isomerase reaction: absorption and fluorescence spectra of enzyme-steroid complexes.”</title>
+    <journal>J. Biol. Chem.</journal>
+    <date>1963,</date>
+    <volume>238,</volume>
+    <pages>576–585.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(15)</citation-number>
+    <author>Radzicka, A.; Wolfenden, R.</author>
+    <title>“A proficient enzyme.”</title>
+    <journal>Science</journal>
+    <date>1995,</date>
+    <volume>267,</volume>
+    <pages>90–93.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(33)</citation-number>
+    <author>Petrounia, I.; Pollack, R.</author>
+    <title>“Substituent effects on the binding of phenols to the D38N mutant of 3-oxo-Δ5-steroid isomerase. A probe for the nature of hydrogen bonding to the intermediate.”</title>
+    <journal>Biochemistry</journal>
+    <date>1998,</date>
+    <volume>37,</volume>
+    <pages>700–705.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(48)</citation-number>
+    <author>Marsalek, O.; Chen, P.-Y.; Dupuis, R.; Benoit, M.; Méheut, M.; Bacic, Z.; Tuckerman, M. E.</author>
+    <title>“Efficient Calculation of Free Energy Differences Associated with Isotopic Substitution Using Path-Integral Molecular Dynamics.”</title>
+    <journal>J. Chem. Theory Comput.</journal>
+    <date>2014,</date>
+    <volume>10,</volume>
+    <pages>1440–1453.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(63)</citation-number>
+    <author>Kamerlin, S. C. L.; Warshel, A.</author>
+    <title>"At the Dawn of the 21st Century: Is Dynamics the Missing Link for Understanding Enzyme Catalysis?"</title>
+    <journal>Proteins</journal>
+    <date>2010,</date>
+    <volume>78,</volume>
+    <pages>1339–1375.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(88)</citation-number>
+    <author>Fried, S. D.; Wang, L.-P.; Boxer, S. G.; Ren, P.; Pande, V. S.</author>
+    <title>“Calculations of the Electric Fields in Liquid Solutions.”</title>
+    <journal>J. Phys. Chem. B.</journal>
+    <date>2013,</date>
+    <volume>117,</volume>
+    <pages>16236–16248.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(42)</citation-number>
+    <author>Ponder, J. W.; et al.</author>
+    <title>“Current Status of the AMOEBA Polarizable Force Field.”</title>
+    <journal>J. Phys. Chem. B</journal>
+    <date>2010,</date>
+    <volume>114,</volume>
+    <pages>2549–2564.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(65)</citation-number>
+    <author>Phillips, G. N.; Teodoro, M. L.; Li, T.; Smith, B.; Olson, J. S.</author>
+    <title>“Bound CO Is A Molecular Probe of Electrostatic Potential in the Distal Pocket of Myoglobin.”</title>
+    <journal>J. Phys. Chem. B</journal>
+    <date>1999,</date>
+    <volume>103,</volume>
+    <pages>8817–8829.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(60)</citation-number>
+    <author>Stephens, P. J.; Devlin, F. J.; Chabalowski, C. F.; Frisch, M. J.</author>
+    <title>"Ab Initio Calculation of Vibrational Absorption and Circular Dichroism Spectra Using Density Functional Force Fields."</title>
+    <journal>J. Phys. Chem.</journal>
+    <date>1994,</date>
+    <volume>98,</volume>
+    <pages>11623–11627.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(13)</citation-number>
+    <author>Kim, S. W.; Cha, S. S.; Cho, H. S.; Kim, J. S.; Ha, N. C.; Cho, M. J.; Joo, S.; Kim, K. K.; Choi, K. Y.; Oh, B. H.</author>
+    <title>"High-Resolution Crystal Structures of Δ5-3-Ketosteroid Isomerase with and Without a Reaction Intermediate Analogue."</title>
+    <journal>Biochemistry</journal>
+    <date>1997,</date>
+    <volume>36,</volume>
+    <pages>14030–14036.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(30)</citation-number>
+    <author>Kraut, D. A.; Sigala, P. A.; Pybus, B.; Liu, C. W.; Ringe, D.; Petsko, G. A.; Herschlag, D.</author>
+    <title>"Testing Electrostatic Complementarity in Enzyme Catalysis: Hydrogen Bonding in the Ketosteroid Isomerase Oxyanion Hole."</title>
+    <journal>PLoS Biol.</journal>
+    <date>2006,</date>
+    <volume>4,</volume>
+    <pages>e99.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(51)</citation-number>
+    <author>Rowe, W. F.; Duerst, R. W.; Wilson, E. B.</author>
+    <title>“The intramolecular hydrogen bond in malonaldehyde.”</title>
+    <journal>J. Am. Chem. Soc.</journal>
+    <date>1976,</date>
+    <volume>98,</volume>
+    <pages>4021–4023.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(46)</citation-number>
+    <author>Fried, S. D.; Boxer, S. G.</author>
+    <title>“Evaluation of the energetics of the concerted acid-base mechanism in enzymatic catalysis: the case of ketosteroid isomerase.”</title>
+    <journal>J. Phys. Chem. B</journal>
+    <date>2012,</date>
+    <volume>116,</volume>
+    <pages>690–697.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(11)</citation-number>
+    <author>Kuliopulos, A.; Mildvan, A.; Shortle, D.; Talalay, P.</author>
+    <title>"Kinetic and Ultraviolet Spectroscopic Studies of Active-Site Mutants of Δ5-3-Ketosteroid Isomerase."</title>
+    <journal>Biochemistry</journal>
+    <date>1989,</date>
+    <volume>28,</volume>
+    <pages>149–159.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(17)</citation-number>
+    <author>Childs, W.; Boxer, S. G.</author>
+    <title>"Solvation Response Along the Reaction Coordinate in the Active Site of Ketosteroid Isomerase."</title>
+    <journal>J. Am. Chem. Soc.</journal>
+    <date>2010,</date>
+    <volume>132,</volume>
+    <pages>6474–6480.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(32)</citation-number>
+    <author>Lee, H.; Lee, G.; Jeon, J.; Cho, M.</author>
+    <title>“Vibrational spectroscopic determination of local solvent electric field, solute-solvent electrostatic interaction energy, and their fluctuation amplitudes.”</title>
+    <journal>J. Phys. Chem. A</journal>
+    <date>2012,</date>
+    <volume>116,</volume>
+    <pages>347–357.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(32)</citation-number>
+    <author>Houck, W. J.; Pollack, R. M.</author>
+    <title>"Temperature Effects on the Catalytic Activity of the D38E Mutant of 3-Oxo-Δ5-Steroid Isomerase: Favorable Enthalpies and Entropies of Activation Relative to the Nonenzymatic Reaction Catalyzed by Acetate Ion."</title>
+    <journal>J. Am. Chem. Soc.</journal>
+    <date>2004,</date>
+    <volume>126,</volume>
+    <pages>16416–16425.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>(1)</citation-number>
+    <author>Arunan, E.; et al.</author>
+    <title>“Definition of the hydrogen bond (IUPAC Recommendations 2011)”.</title>
+    <journal>Pure Appl. Chem.</journal>
+    <date>2011,</date>
+    <volume>83,</volume>
+    <pages>1637–1641.</pages>
+  </sequence>
+  <sequence>
+    <author>Björklund, A., and Dunnett, S.B.</author>
+    <date>(2007).</date>
+    <title>Dopamine neuron systems in the brain: an update.</title>
+    <journal>Trends in Neurosciences</journal>
+    <volume>30,</volume>
+    <pages>194–202.</pages>
+  </sequence>
+  <sequence>
+    <author>Jensen, J., Smith, A.J., Willeit, M., Crawley, A.P., Mikulis, D.J., Vitcu, I., and Kapur, S.</author>
+    <date>(2007).</date>
+    <title>Separate brain regions code for salience vs. valence during reward prediction in humans.</title>
+    <journal>Hum. Brain Mapp.</journal>
+    <volume>28,</volume>
+    <pages>294–302.</pages>
+  </sequence>
+  <sequence>
+    <author>McClure, S.M., Berns, G.S., and Montague, P.R.</author>
+    <date>(2003).</date>
+    <title>Temporal prediction errors in a passive learning task activate human striatum.</title>
+    <journal>Neuron</journal>
+    <volume>38,</volume>
+    <pages>339–346.</pages>
+  </sequence>
+  <sequence>
+    <author>Ungless, M.A.</author>
+    <date>(2004).</date>
+    <title>Uniform Inhibition of Dopamine Neurons in the Ventral Tegmental Area by Aversive Stimuli.</title>
+    <journal>Science</journal>
+    <volume>303,</volume>
+    <pages>2040–2042.</pages>
+  </sequence>
+  <sequence>
+    <author>Berridge, K.C., and Robinson, T.E.</author>
+    <date>(2003).</date>
+    <title>Parsing reward.</title>
+    <journal>Trends in Neurosciences</journal>
+    <volume>26,</volume>
+    <pages>507–513.</pages>
+  </sequence>
+  <sequence>
+    <author>Berns, G.S., McClure, S.M., Pagnoni, G., and Montague, P.R.</author>
+    <date>(2001).</date>
+    <title>Predictability modulates human brain response to reward.</title>
+    <journal>J. Neurosci.</journal>
+    <volume>21,</volume>
+    <pages>2793–2798.</pages>
+  </sequence>
+  <sequence>
+    <author>Guarraci, F.A., and Kapp, B.S.</author>
+    <date>(1999).</date>
+    <title>An electrophysiological characterization of ventral tegmental area dopaminergic neurons during differential pavlovian fear conditioning in the awake rabbit.</title>
+    <journal>Behav Brain Res</journal>
+    <volume>99,</volume>
+    <pages>169–179.</pages>
+  </sequence>
+  <sequence>
+    <author>Holroyd, C.B., and Yeung, N.</author>
+    <date>(2012).</date>
+    <title>Motivation of extended behaviors by anterior cingulate cortex.</title>
+    <journal>Trends in Cognitive Sciences</journal>
+    <volume>16,</volume>
+    <pages>122–128.</pages>
+  </sequence>
+  <sequence>
+    <author>Halliday, G.M., and Törk, I.</author>
+    <date>(1986).</date>
+    <title>Comparative anatomy of the ventromedial mesencephalic tegmentum in the rat, cat, monkey and human.</title>
+    <journal>Journal of Comparative Neurology</journal>
+    <volume>252,</volume>
+    <pages>423–445.</pages>
+  </sequence>
+  <sequence>
+    <author>Cohen, M.X., Schoene-Bake, J.-C., Elger, C.E., and Weber, B.</author>
+    <date>(2008).</date>
+    <title>Connectivity-based segregation of the human striatum predicts personality characteristics.</title>
+    <journal>Nature Neuroscience</journal>
+    <volume>12,</volume>
+    <pages>32–34.</pages>
+  </sequence>
+  <sequence>
+    <author>Sherbondy, A.J., Dougherty, R.F., Ben-Shachar, M., Napel, S., and Wandell, B.A.</author>
+    <date>(2008).</date>
+    <title>ConTrack: Finding the most likely pathways between brain regions using diffusion tractography.</title>
+    <journal>Journal of Vision</journal>
+    <volume>8,</volume>
+    <pages>15–15.</pages>
+  </sequence>
+  <sequence>
+    <author>Oades, R.D., and Halliday, G.M.</author>
+    <date>(1987).</date>
+    <title>Ventral tegmental (A10) system: neurobiology. 1. Anatomy and connectivity.</title>
+    <journal>Brain Research Reviews</journal>
+    <volume>12,</volume>
+    <pages>117–165.</pages>
+  </sequence>
+  <sequence>
+    <author>Saal, D., Dong, Y., Bonci, A., and Malenka, R.C.</author>
+    <date>(2003).</date>
+    <title>Drugs of abuse and stress trigger a common synaptic adaptation in dopamine neurons.</title>
+    <journal>Neuron</journal>
+    <volume>37,</volume>
+    <pages>577–582.</pages>
+  </sequence>
+  <sequence>
+    <author>Hikosaka, O.</author>
+    <date>(2010).</date>
+    <title>The habenula: from stress evasion to value-based decision-making.</title>
+    <journal>Nat. Rev. Neurosci.</journal>
+    <volume>11,</volume>
+    <pages>503–513.</pages>
+  </sequence>
+  <sequence>
+    <author>Marinelli, M., and White, F.J.</author>
+    <date>(2000).</date>
+    <title>Enhanced vulnerability to cocaine self-administration is associated with elevated impulse activity of midbrain dopamine neurons.</title>
+    <journal>The Journal of Neuroscience</journal>
+    <volume>20,</volume>
+    <pages>8876–8885.</pages>
+  </sequence>
+  <sequence>
+    <author>Matsumoto, M., and Hikosaka, O.</author>
+    <date>(2007).</date>
+    <title>Lateral habenula as a source of negative reward signals in dopamine neurons.</title>
+    <journal>Nature</journal>
+    <volume>447,</volume>
+    <pages>1111–1115.</pages>
+  </sequence>
+  <sequence>
+    <author>Nair-Roberts, R.G., Chatelain-Badie, S.D., Benson, E., White-Cooper, H., Bolam, J.P., and Ungless, M.A.</author>
+    <date>(2008).</date>
+    <title>Stereological estimates of dopaminergic, GABAergic and glutamatergic neurons in the ventral tegmental area, substantia nigra and retrorubral field in the rat.</title>
+    <journal>Neuroscience</journal>
+    <volume>152,</volume>
+    <pages>1024–1031.</pages>
+  </sequence>
+  <sequence>
+    <author>Matsumoto, M., and Hikosaka, O.</author>
+    <date>(2009).</date>
+    <title>Two types of dopamine neuron distinctly convey positive and negative motivational signals.</title>
+    <journal>Nature</journal>
+    <volume>459,</volume>
+    <pages>837–841.</pages>
+  </sequence>
+  <sequence>
+    <author>Tom, S.M., Fox, C.R., Trepel, C., and Poldrack, R.A.</author>
+    <date>(2007).</date>
+    <title>The Neural Basis of Loss Aversion in Decision-Making Under Risk.</title>
+    <journal>Science</journal>
+    <volume>315,</volume>
+    <pages>515–518.</pages>
+  </sequence>
+  <sequence>
+    <author>Zweifel, L.S., Parker, J.G., Lobb, C.J., Rainwater, A., Wall, V.Z., Fadok, J.P., Darvas, M., Kim, M.J., Mizumori, S.J., and Paladini, C.A.</author>
+    <date>(2009).</date>
+    <title>Disruption of NMDAR-dependent burst firing by dopamine neurons provides selective assessment of phasic dopamine-dependent behavior.</title>
+    <journal>Proc Natl Acad Sci U S A</journal>
+    <volume>106,</volume>
+    <pages>7281–7288.</pages>
+  </sequence>
+  <sequence>
+    <author>Friston, K.J., and Ashburner, J.</author>
+    <date>(2004).</date>
+    <title>Generative and recognition models for neuroanatomy.</title>
+    <journal>NeuroImage</journal>
+    <volume>23,</volume>
+    <pages>21–24.</pages>
+  </sequence>
+  <sequence>
+    <author>O’Doherty, J.P.</author>
+    <date>(2004b).</date>
+    <title>Reward representations and reward-related learning in the human brain: insights from neuroimaging.</title>
+    <journal>Current Opinion in Neurobiology</journal>
+    <volume>14,</volume>
+    <pages>769–776.</pages>
+  </sequence>
+  <sequence>
+    <author>Delgado, M.R., Nystrom, L.E., Fissell, C., Noll, D.C., and Fiez, J.A.</author>
+    <date>(2000).</date>
+    <title>Tracking the hemodynamic responses to reward and punishment in the striatum.</title>
+    <journal>J. Neurophysiol.</journal>
+    <volume>84,</volume>
+    <pages>3072–3077.</pages>
+  </sequence>
+  <sequence>
+    <author>Matsumoto, M., and Hikosaka, O.</author>
+    <date>(2008).</date>
+    <title>Representation of negative motivational value in the primate lateral habenula.</title>
+    <journal>Nature Neuroscience</journal>
+    <volume>12,</volume>
+    <pages>77–84.</pages>
+  </sequence>
+  <sequence>
+    <author>Mora, F., Rolls, E.T., Burton, M.J., and Shaw, S.G.</author>
+    <date>(1976).</date>
+    <title>Effects of dopamine-receptor blockade on self-stimulation in the monkey.</title>
+    <journal>Pharmacology Biochemistry and Behavior</journal>
+    <volume>4,</volume>
+    <pages>211–216.</pages>
+  </sequence>
+  <sequence>
+    <author>Naidich, T.P., Haacke, E.M., Kollias, S.S., Sorensen, A.G., Duvernoy, H.M., and Delman, B.N.</author>
+    <date>(2009).</date>
+    <title>Duvernoy’s Atlas of the Human Brain Stem and Cerebellum</title>
+    <location>(Vienna:</location>
+    <publisher>Springer).</publisher>
+  </sequence>
+  <sequence>
+    <author>Fiorillo, C.D.</author>
+    <date>(2013).</date>
+    <title>Two Dimensions of Value: Dopamine Neurons Represent Reward But Not Aversiveness.</title>
+    <journal>Science</journal>
+    <volume>341,</volume>
+    <pages>546–549.</pages>
+  </sequence>
+  <sequence>
+    <author>Zald, D.H., Cowan, R.L., Riccardi, P., Baldwin, R.M., Ansari, M.S., Li, R., Shelby, E.S., Smith, C.E., McHugo, M., and Kessler, R.M.</author>
+    <date>(2008).</date>
+    <title>Midbrain Dopamine Receptor Availability Is Inversely Associated with Novelty-Seeking Traits in Humans.</title>
+    <journal>Journal of Neuroscience</journal>
+    <volume>28,</volume>
+    <pages>14372–14378.</pages>
+  </sequence>
+  <sequence>
+    <author>Seymour, B., Daw, N., Dayan, P., Singer, T., and Dolan, R.</author>
+    <date>(2007).</date>
+    <title>Differential Encoding of Losses and Gains in the Human Striatum.</title>
+    <journal>J Neurosci</journal>
+    <volume>27,</volume>
+    <pages>4826–4831.</pages>
+  </sequence>
+  <sequence>
+    <author>Hong, S., Jhou, T.C., Smith, M., Saleem, K.S., and Hikosaka, O.</author>
+    <date>(2011).</date>
+    <title>Negative Reward Signals from the Lateral Habenula to Dopamine Neurons Are Mediated by Rostromedial Tegmental Nucleus in Primates.</title>
+    <journal>J Neurosci</journal>
+    <volume>31,</volume>
+    <pages>11457–11471.</pages>
+  </sequence>
+  <sequence>
+    <author>Lynd-Balta, E., and Haber, S.N.</author>
+    <date>(1994a).</date>
+    <title>The organization of midbrain projections to the striatum in the primate: sensorimotor-related striatum versus ventral striatum.</title>
+    <journal>Neuroscience</journal>
+    <volume>59,</volume>
+    <pages>625–640.</pages>
+  </sequence>
+  <sequence>
+    <author>Lynd-Balta, E., and Haber, S.N.</author>
+    <date>(1994b).</date>
+    <title>The organization of midbrain projections to the ventral striatum in the primate.</title>
+    <journal>Neuroscience</journal>
+    <volume>59,</volume>
+    <pages>609–623.</pages>
+  </sequence>
+  <sequence>
+    <author>Thierry, A.M., Tassin, J.P., Blanc, G., and Glowinski, J.</author>
+    <date>(1976).</date>
+    <title>Selective activation of the mesocortical DA system by stress.</title>
+    <journal>Nature</journal>
+    <volume>263,</volume>
+    <pages>242–244.</pages>
+  </sequence>
+  <sequence>
+    <author>Parent, A., and Hazrati, L.-N.</author>
+    <date>(1995).</date>
+    <title>Functional anatomy of the basal ganglia. I. The cortico-basal ganglia-thalamo-cortical loop.</title>
+    <journal>Brain Research Reviews</journal>
+    <volume>20,</volume>
+    <pages>91–127.</pages>
+  </sequence>
+  <sequence>
+    <author>Paxinos, G., &amp; Huang, X. F.</author>
+    <date>(2013).</date>
+    <title>Atlas of the human brainstem.</title>
+    <publisher>Elsevier.</publisher>
+  </sequence>
+  <sequence>
+    <author>Poirier, L.J., Giguére, M., and Marchand, R.</author>
+    <date>(1983).</date>
+    <title>Comparative morphology of the substantia nigra and ventral tegmental area in the monkey, cat and rat.</title>
+    <journal>Brain Research Bulletin</journal>
+    <volume>11,</volume>
+    <pages>371–397.</pages>
+  </sequence>
+  <sequence>
+    <author>Goto, Y., and Grace, A.A.</author>
+    <date>(2005).</date>
+    <title>Dopaminergic modulation of limbic and cortical drive of nucleus accumbens in goal-directed behavior.</title>
+    <journal>Nature Neuroscience</journal>
+    <volume>8,</volume>
+    <pages>805–812.</pages>
+  </sequence>
+  <sequence>
+    <author>Brischoux, F., Chakraborty, S., Brierley, D.I., and Ungless, M.A.</author>
+    <date>(2009).</date>
+    <title>Phasic excitation of dopamine neurons in ventral VTA by noxious stimuli.</title>
+    <journal>Proc Natl Acad Sci U S A</journal>
+    <volume>106,</volume>
+    <pages>4894–4899.</pages>
+  </sequence>
+  <sequence>
+    <author>Wise, R. A.</author>
+    <date>(2008).</date>
+    <title>Dopamine and reward: the anhedonia hypothesis 30 years on.</title>
+    <journal>Neurotoxicity research,</journal>
+    <volume>14(2-3),</volume>
+    <pages>169-183.</pages>
+  </sequence>
+  <sequence>
+    <author>Bogdan, R., and Pizzagalli, D.A.</author>
+    <date>(2006).</date>
+    <title>Acute Stress Reduces Reward Responsiveness: Implications for Depression.</title>
+    <journal>Biological Psychiatry</journal>
+    <volume>60,</volume>
+    <pages>1147–1154.</pages>
+  </sequence>
+  <sequence>
+    <author>Braver, T. S., &amp; Cohen, J. D.</author>
+    <date>(2000).</date>
+    <title>On the control of control: The role of dopamine in regulating prefrontal function and working memory. Control of cognitive processes: Attention and performance XVIII,</title>
+    <pages>713-737.</pages>
+  </sequence>
+  <sequence>
+    <author>Schultz, W.</author>
+    <date>(2013).</date>
+    <title>Updating dopamine reward signals.</title>
+    <journal>Curr. Opin. Neurobiol.</journal>
+    <volume>23,</volume>
+    <pages>229–238.</pages>
+  </sequence>
+  <sequence>
+    <author>Menza, M.A., Golbe, L.I., Cody, R.A., and Forman, N.E.</author>
+    <date>(1993).</date>
+    <title>Dopamine-related personality traits in Parkinson’s disease.</title>
+    <journal>Neurology</journal>
+    <volume>43,</volume>
+    <pages>505–505.</pages>
+  </sequence>
+  <sequence>
+    <author>Di Chiara, G., Loddo, P., and Tanda, G.</author>
+    <date>(1999).</date>
+    <title>Reciprocal changes in prefrontal and limbic dopamine responsiveness to aversive and rewarding stimuli after chronic mild stress: implications for the psychobiology of depression.</title>
+    <journal>Biological Psychiatry</journal>
+    <volume>46,</volume>
+    <pages>1624–1633.</pages>
+  </sequence>
+  <sequence>
+    <author>Mirenowicz, J., and Schultz, W.</author>
+    <date>(1996).</date>
+    <title>Preferential activation of midbrain dopamine neurons by appetitive rather than aversive stimuli.</title>
+    <journal>Nature</journal>
+    <volume>379,</volume>
+    <pages>449–451.</pages>
+  </sequence>
+  <sequence>
+    <author>Nestler, E.J., and Carlezon, W.A.</author>
+    <date>(2006).</date>
+    <title>The Mesolimbic Dopamine Reward Circuit in Depression.</title>
+    <journal>Biological Psychiatry</journal>
+    <volume>59,</volume>
+    <pages>1151–1159.</pages>
+  </sequence>
+  <sequence>
+    <author>Lammel, S., Ion, D.I., Roeper, J., and Malenka, R.C.</author>
+    <date>(2011).</date>
+    <title>Projection-Specific Modulation of Dopamine Neuron Synapses by Aversive and Rewarding Stimuli.</title>
+    <journal>Neuron</journal>
+    <volume>70,</volume>
+    <pages>855–862.</pages>
+  </sequence>
+  <sequence>
+    <author>O’Doherty, J.P., Buchanan, T.W., Seymour, B., and Dolan, R.J.</author>
+    <date>(2006).</date>
+    <title>Predictive Neural Coding of Reward Preference Involves Dissociable Responses in Human Ventral Midbrain and Ventral Striatum.</title>
+    <journal>Neuron</journal>
+    <volume>49,</volume>
+    <pages>157–166.</pages>
+  </sequence>
+  <sequence>
+    <author>Fadok, J.P., Dickerson, T.M.K., and Palmiter, R.D.</author>
+    <date>(2009).</date>
+    <title>Dopamine Is Necessary for Cue-Dependent Fear Conditioning.</title>
+    <journal>J Neurosci</journal>
+    <volume>29,</volume>
+    <pages>11089–11097.</pages>
+  </sequence>
+  <sequence>
+    <author>Lammel, S., Hetzel, A., Häckel, O., Jones, I., Liss, B., and Roeper, J.</author>
+    <date>(2008).</date>
+    <title>Unique Properties of Mesoprefrontal Neurons within a Dual Mesocorticolimbic Dopamine System.</title>
+    <journal>Neuron</journal>
+    <volume>57,</volume>
+    <pages>760–773.</pages>
+  </sequence>
+  <sequence>
+    <author>McRitchie, D.A., Hardman, C.D., and Halliday, G.M.</author>
+    <date>(1996).</date>
+    <title>Cytoarchitectural distribution of calcium binding proteins in midbrain dopaminergic regions of rats and humans.</title>
+    <journal>The Journal of Comparative Neurology</journal>
+    <volume>364,</volume>
+    <pages>121–150.</pages>
+  </sequence>
+  <sequence>
+    <author>Darvas, M., Fadok, J.P., and Palmiter, R.D.</author>
+    <date>(2011).</date>
+    <title>Requirement of dopamine signaling in the amygdala and striatum for learning and maintenance of a conditioned avoidance response.</title>
+    <journal>Learning &amp; Memory</journal>
+    <volume>18,</volume>
+    <pages>136–143.</pages>
+  </sequence>
+  <sequence>
+    <author>Düzel, E., Bunzeck, N., Guitart-Masip, M., Wittmann, B., Schott, B. H., &amp; Tobler, P. N.</author>
+    <date>(2009).</date>
+    <title>Functional imaging of the human dopaminergic midbrain.</title>
+    <journal>Trends in Neurosciences,</journal>
+    <volume>32(6),</volume>
+    <pages>321–328.</pages>
+  </sequence>
+  <sequence>
+    <author>Eapen, M., Zald, D.H., Gatenby, J.C., Ding, Z., and Gore, J.C.</author>
+    <date>(2011).</date>
+    <title>Using High-Resolution MR Imaging at 7T to Evaluate the Anatomy of the Midbrain Dopaminergic System.</title>
+    <journal>AJNR Am J Neuroradiol</journal>
+    <volume>32,</volume>
+    <pages>688–694.</pages>
+  </sequence>
+  <sequence>
+    <author>Fiorillo, C.D., Yun, S.R., and Song, M.R.</author>
+    <date>(2013b).</date>
+    <title>Diversity and Homogeneity in Responses of Midbrain Dopamine Neurons.</title>
+    <journal>J Neurosci</journal>
+    <volume>33,</volume>
+    <pages>4693–4709.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[16]</citation-number>
+    <author>Sajal K Das, Diane J Cook, Amiya Battacharya, Edwin O Heierman, and Tze-Yun Lin.</author>
+    <title>The role of prediction algorithms in the mavhome smart home architecture.</title>
+    <journal>IEEE Wireless Communications,</journal>
+    <volume>9(6):77–84,</volume>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[65]</citation-number>
+    <author>Robert Tibshirani.</author>
+    <title>Regression shrinkage and selection via the lasso.</title>
+    <journal>J. R. Stat. Soc. B,</journal>
+    <volume>58(1):267–288,</volume>
+    <date>1996.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[62]</citation-number>
+    <author>Matt Taddy.</author>
+    <title>Document classification by inversion of distributed language representations.</title>
+    <note>arXiv preprint arXiv:1504.07295,</note>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[6]</citation-number>
+    <author>Dimitris Bertsimas and Robert Weismantel.</author>
+    <title>Optimization over integers.</title>
+    <publisher>Athena Scientific,</publisher>
+    <date>2005.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[74]</citation-number>
+    <author>Jacob Ziv and Abraham Lempel.</author>
+    <title>A universal algorithm for sequential data compression.</title>
+    <journal>TIT,</journal>
+    <volume>23(3):337–343,</volume>
+    <date>1977.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[54]</citation-number>
+    <author>Konrad Rieck and Pavel Laskov.</author>
+    <title>Linear-time computation of similarity measures for sequential data.</title>
+    <journal>The Journal of Machine Learning Research,</journal>
+    <volume>9:23–48,</volume>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[9]</citation-number>
+    <author>Eric Brown, Eddie Epstein, J William Murdock, and Tong-Haing Fin.</author>
+    <title>Tools and methods for building watson.</title>
+  </sequence>
+  <sequence>
+    <citation-number>[46]</citation-number>
+    <author>U.S. National Library of Medicine.</author>
+    <title>The cancer genome atlas,</title>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[47]</citation-number>
+    <author>U.S. National Library of Medicine.</author>
+    <title>National center for biotechnology information,</title>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[42]</citation-number>
+    <author>Julian McAuley and Jure Leskovec.</author>
+    <title>From amateurs to connoisseurs: Modeling the evolution of user expertise through online reviews.</title>
+    <container-title>In Proceedings of the 22Nd International Conference on World Wide Web, WWW ’13,</container-title>
+    <pages>pages 897–908,</pages>
+    <location>Republic and Canton of Geneva, Switzerland,</location>
+    <date>2013.</date>
+    <publisher>International World Wide Web Conferences Steering Committee.</publisher>
+  </sequence>
+  <sequence>
+    <citation-number>[50]</citation-number>
+    <author>Hristo Paskov, Robert West, John Mitchell, and Trevor Hastie.</author>
+    <title>Compressive feature learning.</title>
+    <container-title>In NIPS,</container-title>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[29]</citation-number>
+    <author>Toru Kasai, Hiroki Arimura, and Setsuo Arikawa.</author>
+    <title>Efficient substring traversal with suffix arrays.</title>
+  </sequence>
+  <sequence>
+    <citation-number>[24]</citation-number>
+    <author>Dan Gusfield.</author>
+    <title>Algorithms on Strings, Trees, and Sequences - Computer Science and Computational Biology.</title>
+    <publisher>Cambridge University Press,</publisher>
+    <date>1997.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[2]</citation-number>
+    <title>Protein classification benchmark collection.</title>
+    <url>http://hydra.icgeb.trieste.it/benchmark/index.php?page=00.</url>
+  </sequence>
+  <sequence>
+    <citation-number>[27]</citation-number>
+    <author>Laurent Hyafil and Ronald L Rivest.</author>
+    <title>Constructing optimal binary decision trees is np-complete.</title>
+    <journal>Infor-mation Processing Letters,</journal>
+    <volume>5(1):15–17,</volume>
+    <date>1976.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[7]</citation-number>
+    <author>Stephen Boyd, Neal Parikh, Eric Chu, Borja Peleato, and Jonathan Eckstein.</author>
+    <title>Distributed optimization and statistical learning via the alternating direction method of multipliers.</title>
+    <container-title>Foundations and Trends in Machine Learning,</container-title>
+    <volume>3(1):1–122,</volume>
+    <date>2011.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[18]</citation-number>
+    <author>Rong-En Fan, Kai-Wei Chang, Cho-Jui Hsieh, Xiang-Rui Wang, and Chih-Jen Lin.</author>
+    <title>LIBLINEAR: A library for large linear classification.</title>
+    <journal>Journal of Machine Learning Research,</journal>
+    <volume>9:1871–1874,</volume>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[25]</citation-number>
+    <author>Trevor Hastie, Robert Tibshirani, and J. H. Friedman.</author>
+    <title>The elements of statistical learning: data mining, inference, and prediction: with 200 full-color illustrations.</title>
+    <location>New York:</location>
+    <publisher>Springer-Verlag,</publisher>
+    <date>2001.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[26]</citation-number>
+    <author>John Houvardas and Efstathios Stamatatos.</author>
+    <title>N-gram feature selection for authorship identification.</title>
+    <container-title>In Proceedings of the 12th International Conference on Artificial Intelligence: Methodology, Systems, and Applications, AIMSA’06,</container-title>
+    <pages>pages 77–86,</pages>
+    <location>Berlin, Heidelberg,</location>
+    <date>2006.</date>
+    <publisher>Springer-Verlag.</publisher>
+  </sequence>
+  <sequence>
+    <citation-number>[10]</citation-number>
+    <author>Peter Brucker.</author>
+    <title>An O(n) algorithm for quadratic knapsack problems.</title>
+    <journal>Operations Research Letters,</journal>
+    <volume>3(3):163–166,</volume>
+    <date>1984.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[17]</citation-number>
+    <author>J.W. Demmel.</author>
+    <title>Applied Numerical Linear Algebra.</title>
+    <note>Miscellaneous Bks.</note>
+    <publisher>Society for Industrial and Ap-plied Mathematics,</publisher>
+    <date>1997.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[64]</citation-number>
+    <author>Choon Hui Teo and S. V. N. Vishwanathan.</author>
+    <title>Fast and space efficient string kernels using suffix arrays.</title>
+    <container-title>In In Proceedings, 23rd ICMP,</container-title>
+    <pages>pages 929–936.</pages>
+    <publisher>ACM Press,</publisher>
+    <date>2006.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[67]</citation-number>
+    <author>R. S. Varga.</author>
+    <title>Gershgorin and His Circles.</title>
+    <note>ser. Springer Series in Computational Mathematics.</note>
+    <location>Berlin, Germany:</location>
+    <publisher>Springer-Verlag,</publisher>
+    <date>2004,</date>
+    <volume>no. 36.</volume>
+  </sequence>
+  <sequence>
+    <citation-number>[21]</citation-number>
+    <author>Evgeniy Gabrilovich and Shaul Markovitch.</author>
+    <title>Text categorization with many redundant features: Using aggressive feature selection to make SVMs competitive with C4.5.</title>
+    <container-title>In ICML,</container-title>
+    <date>2004.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[63]</citation-number>
+    <author>Adi L Tarca, Vincent J Carey, Xue-wen Chen, Roberto Romero, and Sorin Drăghici.</author>
+    <title>Machine learning and its applications to biology.</title>
+    <journal>PLoS Comput Biol,</journal>
+    <volume>3(6):e116,</volume>
+    <date>2007.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[28]</citation-number>
+    <author>Juhani Kähärä and Harri Lähdesmäki.</author>
+    <title>Evaluating a linear k-mer model for protein-dna interactions using high-throughput selex data.</title>
+    <journal>BMC Bioinformatics,</journal>
+    <volume>14(S-10):S2,</volume>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[53]</citation-number>
+    <author>Jason Rennie.</author>
+    <title>20 Newsgroups dataset,</title>
+    <date>2008.</date>
+    <url>http://qwone.com/˜jason/20Newsgroups</url>
+    <note>(accessed May 31, 2013).</note>
+  </sequence>
+  <sequence>
+    <citation-number>[60]</citation-number>
+    <author>Margaret A Shipp, Ken N Ross, Pablo Tamayo, Andrew P Weng, Jeffery L Kutok, Ricardo CT Aguiar, Michelle Gaasenbeek, Michael Angelo, Michael Reich, Geraldine S Pinkus, et al.</author>
+    <title>Diffuse large b-cell lymphoma outcome prediction by gene-expression profiling and supervised machine learning.</title>
+    <journal>Nature medicine,</journal>
+    <volume>8(1):68–74,</volume>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[23]</citation-number>
+    <author>Inc. Gurobi Optimization.</author>
+    <title>Gurobi optimizer reference manual,</title>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[14]</citation-number>
+    <author>Rudi Cilibrasi and Paul MB Vitányi.</author>
+    <title>Clustering by compression.</title>
+    <journal>TIT,</journal>
+    <volume>51(4):1523–1545,</volume>
+    <date>2005.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[34]</citation-number>
+    <author>Ken Lang.</author>
+    <title>Newsweeder: Learning to filter netnews.</title>
+    <container-title>In ICML,</container-title>
+    <date>1995.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[40]</citation-number>
+    <author>Shu Lu and Stephen M Robinson.</author>
+    <title>Normal fans of polyhedral convex sets.</title>
+    <journal>Set-Valued Analysis,</journal>
+    <volume>16(2-3):281–305,</volume>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[71]</citation-number>
+    <author>Frank Wood, Jan Gasthaus, Cédric Archambeau, Lancelot James, and Yee Whye Teh.</author>
+    <title>The sequence memoizer.</title>
+    <journal>Communications of the ACM,</journal>
+    <volume>54(2):91–98,</volume>
+    <date>2011.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[58]</citation-number>
+    <author>A. Schrijver.</author>
+    <title>Combinatorial Optimization - Polyhedra and Efficiency.</title>
+    <publisher>Springer,</publisher>
+    <date>2003.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[4]</citation-number>
+    <author>Manda Banerji, Ofer Lahav, Chris J Lintott, Filipe B Abdalla, Kevin Schawinski, Steven P Bamford, Dan Andreescu, Phil Murray, M Jordan Raddick, Anze Slosar, et al.</author>
+    <title>Galaxy zoo: reproducing galaxy morphologies via machine learning.</title>
+    <journal>Monthly Notices of the Royal Astronomical Society,</journal>
+    <volume>406(1):342–353,</volume>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[57]</citation-number>
+    <author>Bernhard Scholkopf and Alexander J Smola.</author>
+    <title>Learning with kernels: support vector machines, regular-ization, optimization, and beyond.</title>
+    <date>2001.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[66]</citation-number>
+    <author>Robert Tibshirani, Jacob Bien, Jerome Friedman, Trevor Hastie, Noah Simon, Jonathan Taylor, and Ryan J. Tibshirani.</author>
+    <title>Strong rules for discarding predictors in lasso-type problems.,</title>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[73]</citation-number>
+    <author>Gunter M. Ziegler.</author>
+    <title>Lectures on Polytopes.</title>
+    <note>Graduate texts in mathematics.</note>
+    <publisher>Springer-Verlag,</publisher>
+    <date>1995.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[5]</citation-number>
+    <author>Dario Benedetto, Emanuele Caglioti, and Vittorio Loreto.</author>
+    <title>Language trees and zipping.</title>
+    <journal>PRL,</journal>
+    <volume>88(4):048702,</volume>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[43]</citation-number>
+    <author>Julian McAuley and Jure Leskovec.</author>
+    <title>Hidden factors and hidden topics: understanding rating dimensions with review text.</title>
+    <container-title>In Proceedings of the 7th ACM conference on Recommender systems,</container-title>
+    <pages>pages 165–172.</pages>
+    <publisher>ACM,</publisher>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[56]</citation-number>
+    <author>Ruslan Salakhutdinov.</author>
+    <title>Learning deep generative models,</title>
+    <date>2009.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[30]</citation-number>
+    <author>Eamonn Keogh, Stefano Lonardi, and Chotirat Ann Ratanamahatana.</author>
+    <title>Towards parameter-free data mining.</title>
+    <container-title>In KDD,</container-title>
+    <date>2004.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[15]</citation-number>
+    <author>F.H. Clarke.</author>
+    <title>Optimization and nonsmooth analysis.</title>
+    <note>Canadian Mathematical Society series of mono-graphs and advanced texts.</note>
+    <publisher>Wiley,</publisher>
+    <date>1983.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[51]</citation-number>
+    <title>1000 Genomes Project.</title>
+    <note>1000 genomes project, a deep catalog of human genetic variation.,</note>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[33]</citation-number>
+    <author>Man Lan, ChewLim Tan, and HweeBoon Low.</author>
+    <title>Proposing a new term weighting scheme for text cate-gorization.</title>
+    <container-title>In AAAI,</container-title>
+    <date>2006.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[70]</citation-number>
+    <author>Sida Wang and Christopher D Manning.</author>
+    <title>Baselines and bigrams: Simple, good sentiment and topic clas-sification.</title>
+    <container-title>In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers-Volume 2,</container-title>
+    <pages>pages 90–94.</pages>
+    <publisher>Association for Computational Linguistics,</publisher>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[72]</citation-number>
+    <author>Dell Zhang.</author>
+    <title>Extracting key-substring-group features for text classification.</title>
+    <container-title>In In Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD 06,</container-title>
+    <pages>pages 474–483.</pages>
+    <publisher>ACM Press,</publisher>
+    <date>2006.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[35]</citation-number>
+    <author>Hugo Larochelle and Yoshua Bengio.</author>
+    <title>Classification using discriminative restricted Boltzmann ma-chines.</title>
+    <container-title>In ICML,</container-title>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[75]</citation-number>
+    <author>Jacob Ziv and Abraham Lempel.</author>
+    <title>Compression of individual sequences via variable-rate coding,</title>
+    <date>1978.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[36]</citation-number>
+    <author>Yann LeCun, Sumit Chopra, Raia Hadsell, Marc’Aurelio Ranzato, and Fu-Jie Huang.</author>
+    <title>A tutorial on energy-based learning.</title>
+    <editor>In G. Bakir, T. Hofman, B. Schölkopf, A. Smola, and B. Taskar, editors,</editor>
+    <container-title>Pre-dicting Structured Data.</container-title>
+    <publisher>MIT Press,</publisher>
+    <date>2006.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[29]</citation-number>
+    <author>Yuning Chai, Victor Lempitsky, and Andrew Zisserman.</author>
+    <title>Bicos: A bi-level co-segmentation method for image classification.</title>
+    <container-title>In ICCV,</container-title>
+    <date>2011.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[117]</citation-number>
+    <author>Subhransu Maji, Esa Rahtu, Juho Kannala, Matthew Blaschko, and Andrea Vedaldi.</author>
+    <title>Fine-grained visual classification of aircraft.</title>
+    <genre>Technical report,</genre>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[103]</citation-number>
+    <author>Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner.</author>
+    <title>Gradient-based learning applied to document recognition.</title>
+    <journal>Proceedings of the IEEE,</journal>
+    <volume>86(11):2278–2324,</volume>
+    <date>1998.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[180]</citation-number>
+    <author>Catherine Wah, Steve Branson, Pietro Perona, and Serge Belongie.</author>
+    <title>Multiclass recognition and part localization with humans in the loop.</title>
+    <container-title>In ICCV’11.</container-title>
+  </sequence>
+  <sequence>
+    <citation-number>[124]</citation-number>
+    <author>Metropolitan Area Planning Council.</author>
+    <title>The Massachusetts vehicle census.</title>
+    <url>http: //www.37billionmilechallenge.org/.</url>
+  </sequence>
+  <sequence>
+    <citation-number>[187]</citation-number>
+    <author>James Q Wilson and George L Kelling.</author>
+    <title>Broken windows.</title>
+    <journal>Atlantic monthly,</journal>
+    <volume>249(3):29–38,</volume>
+    <date>1982.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[34]</citation-number>
+    <author>Guang Chen, Jianchao Yang, Hailin Jin, Jonathan Brandt, Eli Shechtman, Aseem Agarwala, and Tony X Han.</author>
+    <title>Large-scale visual font recognition.</title>
+    <container-title>In Computer Vision and Pattern Recognition (CVPR).</container-title>
+    <publisher>IEEE,</publisher>
+    <date>2014.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[179]</citation-number>
+    <author>Catherine Wah and Serge Belongie.</author>
+    <title>Attribute-based detection of unfamiliar classes with humans in the loop.</title>
+    <container-title>In Computer Vision and Pattern Recognition (CVPR),</container-title>
+    <pages>pages 779–786.</pages>
+    <publisher>IEEE,</publisher>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[88]</citation-number>
+    <author>Aditya Khosla, Nityananda Jayadevaprakash, Bangpeng Yao, and Fei-fei Li.</author>
+    <title>Novel dataset for fine-grained image categorization.</title>
+    <container-title>In First Workshop on Fine-Grained Visual Categorization, CVPR.</container-title>
+    <publisher>Citeseer,</publisher>
+    <date>2011.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[206]</citation-number>
+    <author>Yu Zhang, Xiu-shen Wei, Jianxin Wu, Jianfei Cai, Jiangbo Lu, Viet-Anh Nguyen, and Minh N Do.</author>
+    <title>Weakly supervised fine-grained image categoriza-tion.</title>
+    <note>arXiv preprint arXiv:1504.04943, 2015.</note>
+  </sequence>
+  <sequence>
+    <citation-number>[65]</citation-number>
+    <author>Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik.</author>
+    <title>Rich feature hierarchies for accurate object detection and semantic segmentation.</title>
+    <container-title>In Pro-ceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR),</container-title>
+    <date>2014.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[106]</citation-number>
+    <author>David D Lewis and Jason Catlett.</author>
+    <title>Heterogeneous uncertainty sampling for supervised learning.</title>
+    <container-title>In International Conference on Machine Learning (ICML),</container-title>
+    <pages>pages 148–156,</pages>
+    <date>1994.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[153]</citation-number>
+    <author>Wilbur Lang Schramm.</author>
+    <title>The story of human communication: Cave painting to microchip.</title>
+    <publisher>Harpercollins College Division,</publisher>
+    <date>1988.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[70]</citation-number>
+    <author>Paritosh Gupta, Sai Sankalp Arrabolu, Mathew Brown, and Silvio Savarese.</author>
+    <title>Video scene categorization by 3d hierarchical histogram matching.</title>
+    <container-title>In ICCV,</container-title>
+    <date>2009.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[177]</citation-number>
+    <author>Ramakrishna Vedantam, C Lawrence Zitnick, and Devi Parikh.</author>
+    <title>CIDEr: Consensus-based image description evaluation.</title>
+    <container-title>In CVPR,</container-title>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[7]</citation-number>
+    <title>TIGER/Line - Geography - U.S. Census Bureau.</title>
+    <url>https://www.census.gov/ geo/maps-data/data/tiger-line.html.</url>
+  </sequence>
+  <sequence>
+    <citation-number>[39]</citation-number>
+    <author>David Cline, Stefan Jeschke, K White, Anshuman Razdan, and Peter Wonka.</author>
+    <title>Dart throwing on surfaces.</title>
+    <container-title>In Eurographics,</container-title>
+    <date>2009.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[198]</citation-number>
+    <author>Bangpeng Yao, Aditya Khosla, and Li Fei-Fei.</author>
+    <title>Combining randomization and discrimination for fine-grained image categorization.</title>
+    <container-title>In CVPR’11.</container-title>
+  </sequence>
+  <sequence>
+    <citation-number>[134]</citation-number>
+    <author>Maria-Elena Nilsback and Andrew Zisserman.</author>
+    <title>Automated flower classification over a large number of classes.</title>
+    <container-title>In ICVGIP,</container-title>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[129]</citation-number>
+    <author>Joann Muller.</author>
+    <title>What The Rich People Really Drive.</title>
+    <url>http://www.forbes.com/ sites/joannmuller/2011/12/30/what-the-rich-people-really-drive/.</url>
+  </sequence>
+  <sequence>
+    <citation-number>[199]</citation-number>
+    <author>Li Yao, Atousa Torabi, Kyunghyun Cho, Nicolas Ballas, Christopher Pal, Hugo Larochelle, and Aaron Courville.</author>
+    <title>Describing videos by exploiting temporal structure.</title>
+    <container-title>In ICCV,</container-title>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[150]</citation-number>
+    <author>Michael Rubinstein, Armand Joulin, Johannes Kopf, and Ce Liu.</author>
+    <title>Unsupervised joint object discovery and segmentation in internet images.</title>
+    <container-title>In Computer Vision and Pattern Recognition (CVPR),</container-title>
+    <pages>pages 1939–1946.</pages>
+    <publisher>IEEE,</publisher>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[169]</citation-number>
+    <author>Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbig-niew Wojna.</author>
+    <title>Rethinking the inception architecture for computer vision.</title>
+    <container-title>In Computer Vision and Pattern Recognition (CVPR).</container-title>
+    <publisher>IEEE,</publisher>
+    <date>2016.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[113]</citation-number>
+    <author>Tsung-Yu Lin, Aruni RoyChowdhury, and Subhransu Maji.</author>
+    <title>Bilinear cnn models for fine-grained visual recognition.</title>
+    <container-title>In International Conference on Computer Vision (ICCV).</container-title>
+    <publisher>IEEE.</publisher>
+  </sequence>
+  <sequence>
+    <citation-number>[48]</citation-number>
+    <author>Santosh K Divvala, Alireza Farhadi, and Carlos Guestrin.</author>
+    <title>Learning everything about anything: Webly-supervised visual concept learning.</title>
+    <container-title>In Computer Vision and Pattern Recognition (CVPR),</container-title>
+    <pages>pages 3270–3277.</pages>
+    <publisher>IEEE,</publisher>
+    <date>2014.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[174]</citation-number>
+    <author>Grant Van Horn, Steve Branson, Ryan Farrell, Scott Haber, Jessie Barry, Panos Ipeirotis, Pietro Perona, and Serge Belongie.</author>
+    <title>Building a bird recognition app and large scale dataset with citizen scientists: The fine print in fine-grained dataset collection.</title>
+    <container-title>In Computer Vision and Pattern Recognition (CVPR).</container-title>
+    <publisher>IEEE,</publisher>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[56]</citation-number>
+    <author>Ryan Farrell, Om Oza, Ning Zhang, Vlad I Morariu, Trevor Darrell, and Larry S Davis.</author>
+    <title>Birdlets: Subordinate categorization using volumetric primitives and pose-normalized appearance.</title>
+    <container-title>In ICCV,</container-title>
+    <date>2011.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[81]</citation-number>
+    <author>Sergey Ioffe and Christian Szegedy.</author>
+    <title>Batch normalization: Accelerating deep network training by reducing internal covariate shift.</title>
+    <container-title>In International Confer-ence on Machine Learning (ICML),</container-title>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[85]</citation-number>
+    <author>Justin Johnson, Andrej Karpathy, and Li Fei-Fei.</author>
+    <title>DenseCap: Fully convolu-tional localization networks for dense captioning.</title>
+    <container-title>In CVPR,</container-title>
+    <date>2016.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[193]</citation-number>
+    <author>Kelvin Xu, Jimmy Ba, Ryan Kiros, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, and Yoshua Bengio.</author>
+    <title>Show, attend and tell: Neural image cap-tion generation with visual attention.</title>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[4]</citation-number>
+    <note>Rapping 2 u lyrics.</note>
+    <url>http://genius.com/77142/Das-racist-rapping-2-u/ White-people-love-me-like-they-love-subarus.</url>
+  </sequence>
+  <sequence>
+    <citation-number>[37]</citation-number>
+    <author>Xinlei Chen and C Lawrence Zitnick.</author>
+    <title>Minds eye: A recurrent visual representa-tion for image caption generation.</title>
+    <container-title>In Computer Vision and Pattern Recognition (CVPR),</container-title>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[78]</citation-number>
+    <author>Gary B Huang, Honglak Lee, and Erik Learned-Miller.</author>
+    <title>Learning hierarchical representations for face verification with convolutional deep belief networks.</title>
+    <container-title>In CVPR,</container-title>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[91]</citation-number>
+    <author>Adam DI Kramer, Jamie E Guillory, and Jeffrey T Hancock.</author>
+    <title>Experimental evidence of massive-scale emotional contagion through social networks.</title>
+    <journal>Pro-ceedings of the National Academy of Sciences,</journal>
+    <volume>111(24):8788–8790,</volume>
+    <date>2014.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[16]</citation-number>
+    <author>Serge Belongie, Jitendra Malik, and Jan Puzicha.</author>
+    <title>Shape matching and ob-ject recognition using shape contexts.</title>
+    <journal>Transactions on Pattern Analysis and Machine Intelligence,</journal>
+    <volume>24(4):509–522,</volume>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[77]</citation-number>
+    <author>David Hoiem, Alexei Efros, and Martial Hebert.</author>
+    <title>Putting objects in perspective.</title>
+    <journal>IJCV,</journal>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[102]</citation-number>
+    <author>Svetlana Lazebnik, Cordelia Schmid, and Jean Ponce.</author>
+    <title>Beyond bags of features: Spatial pyramid matching for recognizing natural scene categories.</title>
+    <container-title>In CVPR,</container-title>
+    <date>2006.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[13]</citation-number>
+    <author>Sean M Arietta, Alexei A Efros, Ravi Ramamoorthi, and Maneesh Agrawala.</author>
+    <title>City forensics: Using visual elements to predict non-visual city attributes.</title>
+    <date>2014.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[23]</citation-number>
+    <author>William Brangham.</author>
+    <title>Running on renewable energy, Burlington, Ver-mont powers green movement forward.</title>
+    <url>http://www.pbs.org/newshour/bb/ vermont-city-come-rely-100-percent-renewable-energy/.</url>
+  </sequence>
+  <sequence>
+    <citation-number>[104]</citation-number>
+    <author>Jennifer Lees-Marshment, Brian Conley, and Kenneth Cosgrove.</author>
+    <title>Political Mar-keting in the United States.</title>
+    <publisher>Routledge,</publisher>
+    <date>2014.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[98]</citation-number>
+    <author>Daniel Kuettel, Matthieu Guillaumin, and Vittorio Ferrari.</author>
+    <title>Segmentation prop-agation in imagenet.</title>
+    <container-title>In European Conference on Computer Vision (ECCV),</container-title>
+    <pages>pages 459–473.</pages>
+    <publisher>Springer,</publisher>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[18]</citation-number>
+    <author>Thomas Berg and Peter N Belhumeur.</author>
+    <title>Poof: Part-based one-vs.-one features for fine-grained categorization, face verification, and attribute estimation.</title>
+    <container-title>In Computer Vision and Pattern Recognition (CVPR),</container-title>
+    <pages>pages 955–962.</pages>
+    <publisher>IEEE,</publisher>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[155]</citation-number>
+    <author>Pierre Sermanet, Andrea Frome, and Esteban Real.</author>
+    <title>Attention for fine-grained categorization.</title>
+    <note>arXiv preprint arXiv:1412.7054,</note>
+    <date>2014.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[111]</citation-number>
+    <author>Rui Lin, Shujie Liu, Muyun Yang, Mu Li, Ming Zhou, and Sheng Li.</author>
+    <title>Hierar-chical recurrent neural network for document modeling.</title>
+    <container-title>In EMNLP,</container-title>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[205]</citation-number>
+    <author>Ning Zhang, Ryan Farrell, Forrest Iandola, and Trevor Darrell.</author>
+    <title>Deformable part descriptors for fine-grained recognition and attribute prediction.</title>
+    <container-title>In ICCV,</container-title>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[97]</citation-number>
+    <author>Alex Krizhevsky, Ilya Sutskever, and Geoff Hinton.</author>
+    <title>Imagenet classification with deep convolutional neural networks.</title>
+    <container-title>In NIPS,</container-title>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[76]</citation-number>
+    <author>Micah Hodosh, Peter Young, and Julia Hockenmaier.</author>
+    <title>Framing image description as a ranking task: Data, models and evaluation metrics.</title>
+    <journal>JAIR,</journal>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[52]</citation-number>
+    <author>Salah El Hihi and Yoshua Bengio.</author>
+    <title>Hierarchical recurrent neural networks for long-term dependencies.</title>
+    <container-title>In NIPS,</container-title>
+    <date>1995.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[107]</citation-number>
+    <author>David Lanier Lewis and Laurence Goldstein.</author>
+    <title>The automobile and American culture.</title>
+    <publisher>University of Michigan Press,</publisher>
+    <date>1983.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[12]</citation-number>
+    <author>Relja Arandjelovic and Andrew Zisserman.</author>
+    <title>Three things everyone should know to improve object retrieval.</title>
+    <container-title>In CVPR,</container-title>
+    <date>2012.</date>
+  </sequence>
+</dataset>
