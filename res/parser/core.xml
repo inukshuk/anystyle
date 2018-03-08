@@ -6151,4 +6151,27 @@
     <pages>644-9.</pages>
     <note>NIHMSID NIHMS252390 PubMed [journal] PMID 21094944, PMCID PMC3042508</note>
   </sequence>
+  <sequence>
+    <citation-number>[59]</citation-number>
+    <author>E. Vaghefi, K. Walker, B. P. Pontre, M. D. Jacobs, and P. J. Donaldson,</author>
+    <title>“Magnetic resonance and confocal imaging of solute penetration into the lens reveals a zone of restricted extracellular space diffusion,”</title>
+    <journal>Am. J. Physiol. - Regul. Integr. Comp. Physiol.,</journal>
+    <volume>vol. 302, no. 11,</volume>
+    <pages>pp. R1250–R1259,</pages>
+    <date>Jun. 2012.</date>
+  </sequence>
+  <sequence>
+    <editor>Comaroff, J. and J. L. Comaroff, eds.</editor>
+    <date>(1993)</date>
+    <title>Modernity and Its Malcontents: Ritual and Power in Africa.</title>
+    <location>Chicago:</location>
+    <publisher>University of Chicago Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Seber, G. A. F.</author>
+    <date>1982.</date>
+    <title>The estimation of animal abundance.</title>
+    <publisher>Charles Griffin,</publisher>
+    <location>London, United Kingdom.</location>
+  </sequence>
 </dataset>
