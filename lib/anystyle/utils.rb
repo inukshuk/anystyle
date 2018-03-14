@@ -9,6 +9,8 @@ module AnyStyle
   end
 
   module StringUtils
+    module_function
+
     def scrub(string, blacklist: /[\p{^Alnum}\p{Lm}]/)
       string.scrub.gsub(blacklist, '')
     end
@@ -21,6 +23,14 @@ module AnyStyle
 
     def canonize(string)
       scrub(transliterate(string)).downcase
+    end
+
+    def page_break?(string)
+      string =~ /\f/
+    end
+
+    def display_width(string)
+      string.gsub(/\p{Mn}|\p{Me}|\p{C}/, '').length
     end
   end
 
