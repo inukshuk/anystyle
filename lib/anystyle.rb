@@ -37,6 +37,7 @@ require 'anystyle/normalizer/quotes'
 require 'anystyle/normalizer/type'
 require 'anystyle/normalizer/volume'
 
+require 'anystyle/document'
 require 'anystyle/parser'
 require 'anystyle/finder'
 
