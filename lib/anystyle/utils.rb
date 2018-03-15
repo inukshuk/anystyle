@@ -34,5 +34,23 @@ module AnyStyle
     end
   end
 
+  module PdfUtils
+    module_function
+
+    def pdf_to_text(path)
+      %x{pdftotext -layout -eol unix -q "#{path}" -}
+    end
+
+    def pdf_info(path)
+      Hash[%x{pdfinfo -isodates "#{path}"}.split("\n").map { |ln|
+        ln.split(/:\s+/, 2)
+      }]
+    end
+
+    def pdf_meta(path)
+      %x{pdfinfo -meta -isodates "#{path}"}
+    end
+  end
+
   extend Utils
 end

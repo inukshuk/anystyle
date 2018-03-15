@@ -1,9 +1,8 @@
 module AnyStyle
   class Document < Wapiti::Sequence
-
-    alias_method :lines, :tokens
-
     class << self
+      include PdfUtils
+
       def parse(string, delimiter: /\n/, tagged: false)
         new(string.split(delimiter).map { |line|
           label, line = line.split(/\s*:/, 2) if tagged
@@ -11,12 +10,36 @@ module AnyStyle
         })
       end
 
-      def open(path)
+      def open(path, format: File.extname(path), tagged: false)
         raise ArgumentError,
-          "cannot open document from tainted path: '#{path}'" if path.tainted?
-        parse File.read(path, encoding: 'utf-8')
+          "cannot open tainted path: '#{path}'" if path.tainted?
+        raise ArgumentError,
+          "document not found: '#{path}'" unless File.exist?(path)
+
+        path = File.absolute_path(path)
+
+        case format.downcase
+        when '.pdf'
+          meta = pdf_meta path
+          info = pdf_info path
+          input = pdf_to_text path
+        when '.ttx'
+          tagged = true
+          input = File.read(path, encoding: 'utf-8')
+        when '.txt'
+          input = File.read(path, encoding: 'utf-8')
+        end
+
+        doc = parse input, tagged: tagged
+        doc.path = path
+        doc.meta = meta
+        doc.info = info
+        doc
       end
     end
+
+    alias_method :lines, :tokens
+    attr_accessor :meta, :info, :path, :pages
 
     def pages
       @pages ||= Page.parse(lines)
