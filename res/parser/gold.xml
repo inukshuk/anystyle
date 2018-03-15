@@ -2421,4 +2421,21 @@
     <location>New York,</location>
     <date>1946.</date>
   </sequence>
+  <sequence>
+    <author>Hogue, Christopher W. V.</author>
+    <title>“Structure Databases.”</title>
+    <container-title>Bioinformatics,</container-title>
+    <editor>edited by Andreas D. Baxevanis and B. F. Francis Ouellette,</editor>
+    <edition>2nd ed.,</edition>
+    <source>Wiley-Interscience,</source>
+    <date>2001,</date>
+    <pages>pp. 83–109.</pages>
+  </sequence>
+  <sequence>
+    <author>Sambrook, Joe, and David William Russell.</author>
+    <title>Molecular Cloning: A Laboratory Manual.</title>
+    <edition>3rd ed.,</edition>
+    <publisher>CSHL Press,</publisher>
+    <date>2001.</date>
+  </sequence>
 </dataset>

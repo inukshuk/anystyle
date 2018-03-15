@@ -6257,4 +6257,24 @@
     <location>Berlin:</location>
     <publisher>Springer-Verlag.</publisher>
   </sequence>
+  <sequence>
+    <author>Hisakata, Rumi, et al.</author>
+    <title>“An Adaptable Metric Shapes Perceptual Space.”</title>
+    <journal>Current Biology,</journal>
+    <volume>vol. 26, no. 14,</volume>
+    <date>July 2016,</date>
+    <pages>pp. 1911–15.</pages>
+    <url>www.cell.com,</url>
+    <doi>doi:10.1016/j.cub.2016.05.047.</doi>
+  </sequence>
+  <sequence>
+    <author>Musk, Elon.</author>
+    <title>“The Secret Tesla Motors Master Plan (Just between You and Me).”</title>
+    <container-title>Tesla Blog,</container-title>
+    <pages>N.p.,</pages>
+    <date>2 Aug. 2006,</date>
+    <genre>Web.</genre>
+    <note>29 Sept. 2016,</note>
+    <url>&lt;https://www.tesla.com/blog/secret-tesla-motors-master-plan-just-between-you-and-me.&gt;.</url>
+  </sequence>
 </dataset>
