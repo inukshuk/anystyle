@@ -104,7 +104,10 @@ module AnyStyle
 
 
   class Parser < ParserCore
-    @formats = [:bibtex, :hash, :citeproc, :wapiti]
+    include Format::BibTeX
+    include Format::CSL
+
+    @formats = [:bibtex, :citeproc, :csl, :hash, :wapiti]
 
     @defaults = {
       model: File.join(SUPPORT, 'parser.mod'),
@@ -156,7 +159,7 @@ module AnyStyle
       case format
       when :wapiti
         label(input)
-      when :hash, :bibtex, :citeproc
+      when :hash, :bibtex, :citeproc, :csl
         formatter = "format_#{format}".to_sym
         send(formatter, label(input))
       else
@@ -164,39 +167,9 @@ module AnyStyle
       end
     end
 
-    private
-
-    # TODO move
-    def format_bibtex(dataset)
-      require 'bibtex'
-
-      b = BibTeX::Bibliography.new
-      format_hash(dataset).each do |hash|
-        hash[:bibtex_type] = hash.delete(:type) || 'misc'
-
-        hash[:type] = hash.delete :genre if hash.key?(:genre)
-        hash[:address] = hash.delete :location if hash.key?(:location)
-        hash[:urldate] = hash.delete :accessed if hash.key?(:accessed)
-
-        if hash.key?(:authority)
-          if [:techreport,:thesis].include?(hash[:bibtex_type])
-            hash[:institution] = hash.delete :authority
-          else
-            hash[:organization] = hash.delete :authority
-          end
-        end
-
-        b << BibTeX::Entry.new(hash)
-      end
-      b
-    end
 
     def format_hash(dataset)
       dataset.map { |seq| normalize(seq.to_h(symbolize_keys: true)) }
-    end
-
-    def format_citeproc(dataset)
-      format_bibtex(dataset).to_citeproc
     end
   end
 end
