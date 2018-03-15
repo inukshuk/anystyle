@@ -1,6 +1,2375 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset>
   <sequence>
+    <author>Nixon, David C.</author>
+    <date>2005.</date>
+    <title>The Independent Regulatory Commissioner Database.</title>
+    <genre>Tech- nical report</genre>
+    <publisher>University of Hawaii</publisher>
+    <location>Honolulu, HI: .</location>
+  </sequence>
+  <sequence>
+    <author>Nordhaus, William D.</author>
+    <date>1975.</date>
+    <title>“The political business cycle.”</title>
+    <journal>The Review of Economic Studies</journal>
+    <pages>pp. 169–190.</pages>
+  </sequence>
+  <sequence>
+    <author>Nyhan, Brendan.</author>
+    <date>2014.</date>
+    <title>“Scandal Potential: How Political Context and News Con- gestion Affect the President’s Vulnerability to Media Scandal.”</title>
+    <journal>British Journal of Political Science</journal>
+    <pages>pp. 1–32.</pages>
+  </sequence>
+  <sequence>
+    <author>Orphanides, Athanasios.</author>
+    <date>2003.</date>
+    <title>“Monetary policy evaluation with noisy information.”</title>
+    <journal>Journal of Monetary economics</journal>
+    <volume>50(3):</volume>
+    <pages>605–631.</pages>
+  </sequence>
+  <sequence>
+    <author>Page, Walter Hines and Arthur Wilson Page.</author>
+    <date>1912.</date>
+    <title>The World’s Work: A History of Our Time.</title>
+    <volume>Vol. 23</volume>
+    <publisher>Doubleday, Page and Company.</publisher>
+  </sequence>
+  <sequence>
+    <author>Palmer, Damon B.</author>
+    <date>2010.</date>
+    <title>Regulating Finance: Expert Cognitive Frameworks, Adap- tive Learning, and Interests in Financial Regulatory Change</title>
+    <genre>PhD thesis</genre>
+    <publisher>Duke Uni- versity.</publisher>
+  </sequence>
+  <sequence>
+    <author>Patrick, Sue Carol.</author>
+    <date>1993.</date>
+    <title>Reform of the Federal Reserve System in the early 1930s: the politics of money and banking.</title>
+    <publisher>Garland Pub.</publisher>
+  </sequence>
+  <sequence>
+    <author>Peterson, Erik.</author>
+    <date>2015.</date>
+    <title>“The Rich are Different: The Effect of Wealth on Partisanship.”</title>
+    <journal>Political Behavior</journal>
+    <pages>pp. 1–22.</pages>
+  </sequence>
+  <sequence>
+    <author>Phillips, Ronnie J.</author>
+    <date>1994.</date>
+    <title>“An end to private banking: early New Deal proposals to alter the role of the federal government in credit allocation.”</title>
+    <journal>Journal of Money, Credit and Banking</journal>
+    <pages>pp. 552–568.</pages>
+  </sequence>
+  <sequence>
+    <author>Polillo, Simone and Mauro F Guill ́en.</author>
+    <date>2005.</date>
+    <title>“Globalization Pressures and the State: The Worldwide Spread of Central Bank Independence1.”</title>
+    <journal>American Journal of So- ciology</journal>
+    <volume>110(6):</volume>
+    <pages>1764–1802.</pages>
+  </sequence>
+  <sequence>
+    <author>Poole, Keith T and Howard Rosenthal.</author>
+    <date>2000.</date>
+    <title>Congress: A political-economic history of roll call voting.</title>
+    <publisher>Oxford University Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Puente, L.</author>
+    <date>2012.</date>
+    <title>“Political Influence and TARP: An Analysis of Treasury’s Disposi- tion of CPP Warrants.”</title>
+    <journal>PS: Political Science &amp; Politics</journal>
+    <volume>45(02):</volume>
+    <pages>211–217.</pages>
+  </sequence>
+  <sequence>
+    <author>Puente, Lucas.</author>
+    <date>2014.</date>
+    <title>“Understanding the Impact of Interest Groups on Monetary Policy During the Great Depression.”</title>
+    <genre>Unpublished Manuscript.</genre>
+  </sequence>
+  <sequence>
+    <author>Puente, Lucas and Linus Wilson.</author>
+    <date>2013.</date>
+    <title>“Minority Ownership and TARP Invest- ments.”</title>
+    <note>Available at SSRN 2247043 .</note>
+  </sequence>
+  <sequence>
+    <author>Roberts, Brian E.</author>
+    <date>1990.</date>
+    <title>“A Dead Senator Tells No Lies: Seniority and the Distribution of Federal Benefits.”</title>
+    <journal>American Journal of Political Science</journal>
+    <volume>34(1):</volume>
+    <pages>pp. 31–58.</pages>
+  </sequence>
+  <sequence>
+    <author>Rogoff, Ken.</author>
+    <date>2014.</date>
+    <title>“The Exaggerated Death of Inflation.”.</title>
+  </sequence>
+  <sequence>
+    <author>Rogoff, Kenneth et al.</author>
+    <date>1990.</date>
+    <title>“Equilibrium Political Budget Cycles.”</title>
+    <journal>American Eco- nomic Review</journal>
+    <volume>80(1):</volume>
+    <pages>21–36.</pages>
+  </sequence>
+  <sequence>
+    <author>Samuelson, Paul A and Jeannette Hopkins.</author>
+    <date>1977.</date>
+    <title>“Some dilemmas of economic pol- icy.”</title>
+    <journal>Challenge</journal>
+    <pages>pp. 28–35.</pages>
+  </sequence>
+  <sequence>
+    <author>Sandilands, Roger J.</author>
+    <date>2004.</date>
+    <title>“The relation of government to monetary control [1] March 29, 1935.”</title>
+    <journal>Journal of Economic Studies</journal>
+    <volume>31(3/4):</volume>
+    <pages>270–279.</pages>
+  </sequence>
+  <sequence>
+    <author>Schlesinger, Arthur M.</author>
+    <date>2003.</date>
+    <title>The Politics of Upheaval: 1935-1936, The Age of Roo- sevelt.</title>
+    <volume>Vol. 3</volume>
+    <publisher>Houghton Mifflin Harcourt.</publisher>
+  </sequence>
+  <sequence>
+    <author>Schwartz, Anna J.</author>
+    <date>1982.</date>
+    <title>Statistical compendium to The Report of the Commission on the Role of Gold in the Domestic and International Monetary Systems.</title>
+    <volume>Vol. 1</volume>
+    <publisher>US Treasury Department.</publisher>
+  </sequence>
+  <sequence>
+    <author>Shull, Bernard.</author>
+    <date>2005.</date>
+    <title>The fourth branch: the Federal Reserve’s unlikely rise to power and influence.</title>
+    <publisher>Praeger.</publisher>
+  </sequence>
+  <sequence>
+    <author>Small, Kenneth A and Cheng Hsiao.</author>
+    <date>1985.</date>
+    <title>“Multinomial Logit Specification Tests.”</title>
+    <journal>International Economic Review</journal>
+    <volume>26(3):</volume>
+    <pages>619–27.</pages>
+  </sequence>
+  <sequence>
+    <author>Stefanescu, C, VW Berger and SL Hershberger.</author>
+    <date>2005.</date>
+    <title>“Yates’ correction. Encyclope- dia of Statistics in Behavioral Science.”.</title>
+  </sequence>
+  <sequence>
+    <author>Stewart III, Charles and Jonathan Woon.</author>
+    <date>2009.</date>
+    <title>Congressional Committee Assign- ments, 103rd to 112th Congresses.</title>
+  </sequence>
+  <sequence>
+    <author>Swank, Job, Otto H Swank and Bauke Visser.</author>
+    <date>2008.</date>
+    <title>“How committees of experts interact with the outside world: some theory, and evidence from the FOMC.”</title>
+    <journal>Journal of the European Economic Association</journal>
+    <volume>6(2-3):</volume>
+    <pages>478–486.</pages>
+  </sequence>
+  <sequence>
+    <author>Tallman, Ellis W and Jon R Moen.</author>
+    <date>1999.</date>
+    <title>“Why Didnt the United States Establish a Central Bank Until After the Panic of 1907.”</title>
+    <journal>Federal Reserve Bank of Atlanta, Economic Review .</journal>
+  </sequence>
+  <sequence>
+    <author>Tempelman, Jerry H.</author>
+    <date>2007.</date>
+    <title>“A commentary on “Does the Fed contribute to a political business cycle?”.”</title>
+    <journal>Public Choice</journal>
+    <volume>132(3-4):</volume>
+    <pages>433–436.</pages>
+  </sequence>
+  <sequence>
+    <title>The 50th Anniversary of the Treasury-Federal Reserve Accord: 1951-2001.</title>
+    <date>2013.</date>
+    <genre>Spe- cial reports</genre>
+    <publisher>Federal Reserve Bank of Richmond</publisher>
+    <location>Richmond, VA: .</location>
+  </sequence>
+  <sequence>
+    <author>Tootell, Geoffrey MB.</author>
+    <date>1996.</date>
+    <title>“Appointment procedures and FOMC voting behavior.”</title>
+    <journal>Southern Economic Journal</journal>
+    <pages>pp. 191–204.</pages>
+  </sequence>
+  <sequence>
+    <author>Tufte, Edward R.</author>
+    <date>1980.</date>
+    <title>Political control of the economy.</title>
+    <publisher>Princeton University Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Uchitelle, Louis.</author>
+    <date>2004.</date>
+    <title>“Economic View: Beyond a President’s Control.”</title>
+    <journal>The New York Times</journal>
+    <date>July(11).</date>
+    <url>URL: http://www.nytimes.com/2004/07/11/business/economic-view-beyond-a-president-s-control.html</url>
+  </sequence>
+  <sequence>
+    <author>Veronesi, P. and L. Zingales.</author>
+    <date>2010.</date>
+    <title>“Paulson’s gift.”</title>
+    <journal>Journal of Financial Economics</journal>
+    <volume>97(3):</volume>
+    <pages>339–368.</pages>
+  </sequence>
+  <sequence>
+    <author>Volcker, Paul A and Toyoo Gyohten.</author>
+    <date>1992.</date>
+    <title>Changing fortunes: The world’s money and the threat to American leadership.</title>
+    <publisher>Crown.</publisher>
+  </sequence>
+  <sequence>
+    <author>Wachtel, Katya.</author>
+    <date>2011.</date>
+    <title>“Meet ST OMO: The Top Secret Loan Facility The Fed Used To Loan Money To Banks.”</title>
+    <journal>Business Insider</journal>
+    <date>May(26).</date>
+    <url>URL: http://articles.businessinsider.com/2011-05-26/wall_street/29997602_1_new-york-fed-banks</url>
+  </sequence>
+  <sequence>
+    <author>Waller, Christopher J.</author>
+    <date>2011.</date>
+    <title>“Independence+ accountability: Why the Fed is a well- designed Central Bank.”</title>
+    <journal>Federal Reserve Bank of St. Louis Review</journal>
+    <volume>93(Septem- ber/October 2011).</volume>
+  </sequence>
+  <sequence>
+    <author>Warburg, Paul Moritz.</author>
+    <date>1914.</date>
+    <title>Essays on Banking Reform in the United States.</title>
+    <volume>Vol. 4</volume>
+    <publisher>Academy of Political Science.</publisher>
+  </sequence>
+  <sequence>
+    <author>Weldin, Sandra J.</author>
+    <date>2000.</date>
+    <title>A.P. Giannini, Marriner Stoddard Eccles, and the changing landscape of American banking</title>
+    <genre>PhD thesis</genre>
+    <publisher>University of North Texas.</publisher>
+  </sequence>
+  <sequence>
+    <author>West, R.C.</author>
+    <date>1977.</date>
+    <title>Banking reform and the Federal Reserve, 1863-1923.</title>
+    <publisher>Cornell Uni- versity Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Westerfield, Ray B.</author>
+    <date>1933.</date>
+    <title>“The Banking Act of 1933.”</title>
+    <journal>The Journal of Political Economy</journal>
+    <pages>pp. 721–749.</pages>
+  </sequence>
+  <sequence>
+    <author>White, Eugene Nelson.</author>
+    <date>2014.</date>
+    <title>The regulation and reform of the American banking system, 1900-1929.</title>
+    <publisher>Princeton University Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Wiebe, Robert H.</author>
+    <date>1962.</date>
+    <title>Businessmen and Reform: A Study of the Progressive Reform.</title>
+    <publisher>Harvard University Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Williams, Richard.</author>
+    <date>2006.</date>
+    <title>“Generalized ordered logit/partial proportional odds models for ordinal dependent variables.”</title>
+    <journal>Stata Journal</journal>
+    <volume>6(1):</volume>
+    <pages>58–82.</pages>
+  </sequence>
+  <sequence>
+    <author>Williams, Richard.</author>
+    <date>2014.</date>
+    <title>Generalized Logistic Regression/ Partial Proportional Odds Models for Ordinal Dependent Variables.</title>
+    <genre>Technical report</genre>
+    <publisher>University of Notre Dame</publisher>
+    <location>South Bend, IN: .</location>
+  </sequence>
+  <sequence>
+    <author>Willis, Henry Parker.</author>
+    <date>1923.</date>
+    <title>The Federal Reserve System: Legislations, Organization and Operation.</title>
+    <location>New York, NY:</location>
+    <publisher>Ronald Press Co.</publisher>
+  </sequence>
+  <sequence>
+    <author>Wolff, Edward Nathan.</author>
+    <date>1979.</date>
+    <title>“The Distributional Effects of the 1969-75 Inflation on Holdings of Household Wealth in the United States.”</title>
+    <journal>Review of Income and Wealth</journal>
+    <volume>25(2):</volume>
+    <pages>195–207.</pages>
+  </sequence>
+  <sequence>
+    <author>Wood, B.D. and R.W. Waterman.</author>
+    <date>1994.</date>
+    <title>Bureaucratic dynamics: The role of bureau- cracy in a democracy.</title>
+    <publisher>Westview Press</publisher>
+    <location>Boulder, CO.</location>
+  </sequence>
+  <sequence>
+    <author>Woolley, John T.</author>
+    <date>1986.</date>
+    <title>Monetary politics: The Federal Reserve and the politics of monetary policy.</title>
+    <publisher>Cambridge University Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Yglesias, Matthew.</author>
+    <date>2014.</date>
+    <title>“Obama’s biggest economic policy mistake.”</title>
+    <journal>Vox</journal>
+    <date>Septem- ber(17).</date>
+    <url>URL: http://www.vox.com/2014/9/17/6219247/obamas-biggest-economic-policy-mistake</url>
+  </sequence>
+  <sequence>
+    <citation-number>[47]</citation-number>
+    <author>E. N. Johnson, J. G. Mooney, C. Ong, V. Sahasrabudhe, and J. Hartman,</author>
+    <title>“Flight testing of Nap-of-the-Earth unmanned helicopter systems,”</title>
+    <container-title>67th Amer- ican Helicopter Society International Annual Forum,</container-title>
+    <location>Virginia Beach, Virginia,</location>
+    <date>May 2011.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[65]</citation-number>
+    <author>A. Ruszczyński,</author>
+    <title>“Probabilistic programming with discrete distributions and precedence constrained knapsack polyhedra,”</title>
+    <journal>Mathematical Programming,</journal>
+    <volume>vol. 93, no. 2,</volume>
+    <pages>pp. 195–215,</pages>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[14]</citation-number>
+    <author>M. M. Hammond and S. M. Rock,</author>
+    <title>“A SLAM-based approach for underwater mapping using AUVs with poor inertial information,”</title>
+    <container-title>in Autonomous Under- water Vehicles (AUV), 2014 IEEE/OES,</container-title>
+    <date>Oct 2014,</date>
+    <pages>pp. 1–8.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[41]</citation-number>
+    <author>R. E. Zelenka, P. N. Smith, R. A. Coppenbarger, C. E. Njaka, and B. Sridhar,</author>
+    <title>“Results from the NASA automated Nap-of-the-Earth program,”</title>
+    <journal>Journal of the American Helicopter Society,</journal>
+    <volume>vol. 42, no. 2,</volume>
+    <pages>pp. 107–115,</pages>
+    <date>1997.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[17]</citation-number>
+    <author>M. Caccia, R. Bono, G. Bruzzone, and G. Veruggio,</author>
+    <title>“Bottom-following for re- motely operated vehicles,”</title>
+    <journal>Control Engineering Practice,</journal>
+    <volume>vol. 11, no. 4,</volume>
+    <pages>pp. 461–470,</pages>
+    <date>2003.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[66]</citation-number>
+    <author>L. Blackmore,</author>
+    <title>“A probabilistic particle control approach to optimal, robust pre- dictive control,”</title>
+    <container-title>in Proceedings of the AIAA Guidance, Navigation and Control Conference,</container-title>
+    <volume>no. 10,</volume>
+    <date>2006.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[39]</citation-number>
+    <author>R. A. Hess and Y. Jung,</author>
+    <title>“An application of generalized predictive control to rotorcraft terrain-following flight,”</title>
+    <journal>Systems, Man and Cybernetics, IEEE Transactions on,</journal>
+    <volume>vol. 19, no. 5,</volume>
+    <pages>pp. 955–962,</pages>
+    <date>Sep 1989.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[42]</citation-number>
+    <author>M. B. Milam,</author>
+    <title>“Real-time optimal trajectory generation for constrained dynam- ical systems,”</title>
+    <genre>Ph.D. dissertation,</genre>
+    <publisher>California Institute of Technology,</publisher>
+    <date>2003.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[27]</citation-number>
+    <author>V. Creuze, B. Jouvencel, and P. Baccou,</author>
+    <title>“Seabed following for small autonomous underwater vehicles,”</title>
+    <container-title>in OCEANS, 2001. MTS/IEEE Conference and Exhibi- tion,</container-title>
+    <volume>vol. 1.</volume>
+    <publisher>IEEE,</publisher>
+    <date>2001,</date>
+    <pages>pp. 369–374.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[36]</citation-number>
+    <author>V. H. L. Cheng and B. Sridhar,</author>
+    <title>“Technologies for automating rotorcraft Nap- of-the-Earth flight,”</title>
+    <journal>Journal of the American Helicopter Society,</journal>
+    <volume>vol. 38, no. 2,</volume>
+    <pages>pp. 78–87,</pages>
+    <date>1993.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[86]</citation-number>
+    <author>L. Piegl and W. Tiller,</author>
+    <title>The NURBS Book.</title>
+    <publisher>Springer</publisher>
+    <location>Berlin,</location>
+    <date>1997.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[81]</citation-number>
+    <author>S. Rock, B. Hobson, and S. Houts,</author>
+    <title>“Return-to-site of an AUV using terrain- relative navigation: Field trials,”</title>
+    <container-title>in 2014 IEEE/OES Autonomous Underwater Vehicles (AUV),</container-title>
+    <date>October 2014,</date>
+    <pages>pp. 1–8.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[44]</citation-number>
+    <author>T. R. Lapp,</author>
+    <title>“Guidance and control using model predictive control for low alti- tude real-time terrain following flight,”</title>
+    <genre>Master’s thesis,</genre>
+    <publisher>Massachusetts Institute of Technology,</publisher>
+    <date>2004.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[3]</citation-number>
+    <author>S. K. Go↵redi, C. K. Paull, K. Fulton-Bennett, L. A. Hurtado, and R. C. Vrijen- hoek,</author>
+    <title>“Unusual benthic fauna associated with a whale fall in Monterey Canyon, California ,”</title>
+    <journal>Deep Sea Research Part I: Oceanographic Research Papers,</journal>
+    <volume>vol. 51, no. 10,</volume>
+    <pages>pp. 1295 – 1306,</pages>
+    <date>2004.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[62]</citation-number>
+    <author>D. H. van Hessem,</author>
+    <title>“Stochastic inequality constrained closed-loop model predic- tive control with application to chemical process operation,”</title>
+    <genre>Ph.D. dissertation,</genre>
+    <publisher>TU Delft,</publisher>
+    <date>2004.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[32]</citation-number>
+    <author>D. P. Horner, A. J. Healey, and S. P. Kragelund,</author>
+    <title>“AUV experiments in obstacle avoidance,”</title>
+    <container-title>in OCEANS, 2005. Proceedings of MTS/IEEE,</container-title>
+    <date>September 2005,</date>
+    <pages>pp. 1464–1470.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[9]</citation-number>
+    <author>J. P. Golden,</author>
+    <title>“Terrain contour matching (TERCOM): A cruise missile guidance aid,”</title>
+    <container-title>Proc. SPIE,</container-title>
+    <volume>vol. 0238,</volume>
+    <pages>pp. 10–18,</pages>
+    <date>1980.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[53]</citation-number>
+    <author>D. Mayne, J. Rawlings, C. Rao, and P. Scokaert,</author>
+    <title>“Constrained model predictive control: Stability and optimality,”</title>
+    <journal>Automatica,</journal>
+    <volume>vol. 36, no. 6,</volume>
+    <pages>pp. 789 –</pages>
+    <date>814, 2000.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[58]</citation-number>
+    <author>D. H. van Hessem, C. W. Scherer, and O. H. Bosgra,</author>
+    <title>“LMI-based closed-loop economic optimization of stochastic process operation under state and input constraints,”</title>
+    <container-title>in Decision and Control, 2001. Proceedings of the 40th IEEE Con- ference on,</container-title>
+    <volume>vol. 5,</volume>
+    <date>2001,</date>
+    <pages>pp. 4228–4233</pages>
+    <volume>vol.5.</volume>
+  </sequence>
+  <sequence>
+    <citation-number>[22]</citation-number>
+    <author>F. S. Hover, R. M. Eustice, A. Kim, B. Englot, H. Johannsson, M. Kaess, and J. J. Leonard,</author>
+    <title>“Advanced perception, navigation and planning for autonomous in-water ship hull inspection,”</title>
+    <journal>The International Journal of Robotics Research,</journal>
+    <volume>vol. 31, no. 12,</volume>
+    <pages>pp. 1445–1464,</pages>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[11]</citation-number>
+    <author>B. Claus and R. Bachmayer,</author>
+    <title>“Terrain-aided navigation for an underwater glider,”</title>
+    <journal>Journal of Field Robotics,</journal>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[31]</citation-number>
+    <author>K. Murthy,</author>
+    <title>“A trajectory optimization method for close range surveys of non- planar surfaces,”</title>
+    <genre>Ph.D. dissertation,</genre>
+    <publisher>Stanford University,</publisher>
+    <date>March 2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[40]</citation-number>
+    <author>P. Menon, V. Cheng, and E. Kim,</author>
+    <title>“Optimal trajectory synthesis for terrain- following flight,”</title>
+    <journal>Journal of Guidance, Control, and Dynamics,</journal>
+    <volume>vol. 14, no. 4,</volume>
+    <pages>pp. 807–813,</pages>
+    <date>1991.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[20]</citation-number>
+    <author>E. Galceran, N. Palomeras, and M. Carreras,</author>
+    <title>“Profile following for inspection of underwater structures,”</title>
+    <journal>Paladyn, Journal of Behavioral Robotics,</journal>
+    <volume>vol. 4, no. 4,</volume>
+    <pages>pp. 211–222,</pages>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[10]</citation-number>
+    <author>D. Meduna,</author>
+    <title>“Terrain relative navigation for sensor-limited systems with appli- cation to underwater vehicles,”</title>
+    <genre>Ph.D. dissertation,</genre>
+    <publisher>Stanford University,</publisher>
+    <date>August 2011.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[6]</citation-number>
+    <author>H. Singh, R. Armstrong, F. Gilbes, R. Eustice, C. Roman, O. Pizarro, and J. Torres,</author>
+    <title>“Imaging coral I: Imaging coral habitats with the SeaBED AUV,”</title>
+    <journal>Subsurface Sensing Technologies and Applications,</journal>
+    <volume>vol. 5,</volume>
+    <pages>pp. 25–42,</pages>
+    <date>2004.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[8]</citation-number>
+    <author>K. Richmond,</author>
+    <title>“Real-Time Visual Mosaicking and Navigation on the Seafloor,”</title>
+    <genre>Ph.D. dissertation,</genre>
+    <publisher>Stanford University,</publisher>
+    <location>Stanford, CA,</location>
+    <date>March 2009.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[4]</citation-number>
+    <author>L. Lundsten, K. L. Schlining, K. Frasier, S. B. Johnson, L. A. Kuhnz, J. B. Harvey, G. Clague, and R. C. Vrijenhoek,</author>
+    <title>“Time-series analysis of six whale-fall communities in Monterey Canyon, California, USA,”</title>
+    <journal>Deep Sea Research Part I: Oceanographic Research Papers,</journal>
+    <volume>vol. 57, no. 12,</volume>
+    <pages>pp. 1573 – 1584,</pages>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[33]</citation-number>
+    <author>C. Silvestre, R. Cunha, N. Paulino, and A. Pascoal,</author>
+    <title>“A bottom-following preview controller for autonomous underwater vehicles,”</title>
+    <journal>Control Systems Technology, IEEE Transactions on,</journal>
+    <volume>vol. 17, no. 2,</volume>
+    <pages>pp. 257–266,</pages>
+    <date>2009.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[74]</citation-number>
+    <author>P. E. Missiuro and N. Roy,</author>
+    <title>“Adapting probabilistic roadmaps to handle un- certain maps,”</title>
+    <container-title>in Proceedings 2006 IEEE International Conference on Robotics and Automation, 2006. ICRA 2006.,</container-title>
+    <date>May 2006,</date>
+    <pages>pp. 1261–1267.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[77]</citation-number>
+    <author>J. P. Gonzalez and A. Stentz,</author>
+    <title>“Using linear landmarks for path planning with uncertainty in outdoor environments,”</title>
+    <container-title>in 2009 IEEE/RSJ International Con- ference on Intelligent Robots and Systems,</container-title>
+    <date>Oct 2009,</date>
+    <pages>pp. 1203–1210.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[71]</citation-number>
+    <author>S. M. LaValle and J. J. Ku↵ner,</author>
+    <title>“Randomized kinodynamic planning,”</title>
+    <journal>The International Journal of Robotics Research,</journal>
+    <volume>vol. 20, no. 5,</volume>
+    <pages>pp. 378–400,</pages>
+    <date>2001.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[67]</citation-number>
+    <author>L. Blackmore, M. Ono, A. Bektassov, and B. C. Williams,</author>
+    <title>“A probabilistic particle-control approximation of chance-constrained stochastic predictive con- trols,”</title>
+    <journal>IEEE Transactions on Robotics,</journal>
+    <volume>vol. 26, no. 3,</volume>
+    <pages>pp. 502–517,</pages>
+    <date>June 2010.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[72]</citation-number>
+    <author>S. Karaman and E. Frazzoli,</author>
+    <title>“Sampling-based algorithms for optimal motion planning,”</title>
+    <journal>The International Journal of Robotics Research,</journal>
+    <volume>vol. 30, no. 7,</volume>
+    <pages>pp. 846–894,</pages>
+    <date>2011.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[73]</citation-number>
+    <author>L. Janson, E. Schmerling, A. Clark, and M. Pavone,</author>
+    <title>“Fast marching tree: A fast marching sampling-based method for optimal motion planning in many dimensions,”</title>
+    <journal>The International Journal of Robotics Research,</journal>
+    <volume>vol. 34, no. 7,</volume>
+    <pages>pp. 883–921,</pages>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[43]</citation-number>
+    <author>T. Lapp and L. Singh,</author>
+    <title>“Model predictive control based trajectory optimization for Nap-of-the-Earth (NOE) flight including obstacle avoidance,”</title>
+    <container-title>in American Control Conference, 2004. Proceedings of the</container-title>
+    <date>2004,</date>
+    <volume>vol. 1,</volume>
+    <date>June 2004,</date>
+    <pages>pp. 891– 896.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[46]</citation-number>
+    <author>S. Scherer, S. Singh, L. Chamberlain, and M. Elgersma,</author>
+    <title>“Flying fast and low among obstacles: Methodology and experiments,”</title>
+    <journal>The International Journal of Robotics Research,</journal>
+    <volume>vol. 27, no. 5,</volume>
+    <pages>pp. 549–574,</pages>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[1]</citation-number>
+    <author>B. W. Hobson.</author>
+    <date>(2014)</date>
+    <title>Mosaic from mbari’s imaging AUV.</title>
+    <url>http://www.mbari.org/auv/IAUV.htm.</url>
+  </sequence>
+  <sequence>
+    <citation-number>[38]</citation-number>
+    <author>N. J. Pekelsma,</author>
+    <title>“Optimal guidance with obstacle avoidance for Nap-of-the-Earth flight,”</title>
+    <publisher>NASA,</publisher>
+    <genre>Tech. Rep.,</genre>
+    <date>1988.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[54]</citation-number>
+    <author>A. Ben-Tal, L. El Ghaoui, and A. Nemirovski,</author>
+    <title>Robust optimization.</title>
+    <publisher>Princeton University Press,</publisher>
+    <date>2009.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[29]</citation-number>
+    <author>S. D. McPhail, M. Furlong, and M. Pebody,</author>
+    <title>“Low-altitude terrain following and collision avoidance in a flight-class autonomous underwater vehicles,”</title>
+    <journal>Proceed- ings of the Institution of Mechanical Engineers, Part M: Journal of Engineering for the Maritime Environment,</journal>
+    <volume>vol. 224, no. 4,</volume>
+    <pages>pp. 279–292,</pages>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[82]</citation-number>
+    <author>D. Caress and D. Chayes,</author>
+    <title>“New software for processing sidescan data from sidescan-capable multibeam sonars,”</title>
+    <container-title>in OCEANS ’95. MTS/IEEE. Challenges of Our Changing Global Environment. Conference Proceedings.,</container-title>
+    <volume>vol. 2,</volume>
+    <date>October 1995,</date>
+    <pages>pp. 997 –1000</pages>
+    <volume>vol.2.</volume>
+  </sequence>
+  <sequence>
+    <citation-number>[50]</citation-number>
+    <author>B. L. Miller and H. M. Wagner,</author>
+    <title>“Chance constrained programming with joint constraints,”</title>
+    <journal>Operations Research,</journal>
+    <volume>vol. 13, no. 6,</volume>
+    <pages>pp. 930–945,</pages>
+    <date>1965.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[57]</citation-number>
+    <author>A. Ben-Tal and A. Nemirovski,</author>
+    <title>“Robust solutions of linear programming prob- lems contaminated with uncertain data,”</title>
+    <journal>Mathematical Programming,</journal>
+    <volume>vol. 88, no. 3,</volume>
+    <pages>pp. 411–424,</pages>
+    <date>2000.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[25]</citation-number>
+    <author>D. R. Yoerger, M. Jakuba, A. M. Bradley, and B. Bingham,</author>
+    <title>“Techniques for deep sea near bottom survey using an autonomous underwater vehicle,”</title>
+    <journal>The International Journal of Robotics Research,</journal>
+    <volume>vol. 26, no. 1,</volume>
+    <pages>pp. 41–54,</pages>
+    <date>2007.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[75]</citation-number>
+    <author>R. Platt Jr, R. Tedrake, L. Kaelbling, and T. Lozano-Perez,</author>
+    <title>“Belief space planning assuming maximum likelihood observations,”</title>
+    <container-title>in Proceedings of the Robotics: Science and Systems Conference (RSS),</container-title>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[2]</citation-number>
+    <author>R. McEwen and K. Streitlien,</author>
+    <title>“Modeling and control of a variable-length AUV,”</title>
+    <container-title>in Unmanned Untethered Submersible Technology 2001,</container-title>
+    <date>2001.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[84]</citation-number>
+    <author>D. W. Caress.</author>
+    <title>Seafloor mapping AUV.</title>
+    <url>http://www.mbari.org/at- sea/vehicles/autonomous-underwater-vehicles/seafloor-mapping-auv/toggle-id- 6.</url>
+  </sequence>
+  <sequence>
+    <citation-number>[13]</citation-number>
+    <author>P. W. Kimball and S. M. Rock,</author>
+    <title>“Mapping of translating, rotating icebergs with an autonomous underwater vehicle,”</title>
+    <journal>Oceanic Engineering, IEEE Journal of,</journal>
+    <volume>vol. 40, no. 1,</volume>
+    <pages>pp. 196–208,</pages>
+    <date>Jan 2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[76]</citation-number>
+    <author>V. A. Huynh and N. Roy,</author>
+    <title>“icLQG: Combining local and global optimization for control in information spaces,”</title>
+    <container-title>in Robotics and Automation, 2009. ICRA ’09. IEEE International Conference on,</container-title>
+    <date>May 2009,</date>
+    <pages>pp. 2851–2858.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[97]</citation-number>
+    <author>Huang, X., Acero, A., Hon, H., et al.,</author>
+    <title>Spoken language processing,</title>
+    <volume>Vol. 15,</volume>
+    <publisher>Prentice Hall PTR</publisher>
+    <location>New Jersey,</location>
+    <date>2001.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[85]</citation-number>
+    <author>Minker, W. and Bennacef, S.,</author>
+    <title>Speech and human-machine dialog,</title>
+    <volume>Vol. 770,</volume>
+    <publisher>Springer,</publisher>
+    <date>2004.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[115]</citation-number>
+    <author>Hofbauer, K., Petrik, S., and Hering, H.,</author>
+    <title>“The ATCOSIM corpus of non- prompted clean air traffic control speech,”</title>
+    <container-title>Proc. Int. Conf. Language Resources and Evaluation (LREC),</container-title>
+    <location>Marrakech, Morocco,</location>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[77]</citation-number>
+    <author>Deller, J., Proakis, J., and Hansen, J.,</author>
+    <title>“Discrete-time processing of speech signals,”</title>
+    <publisher>Institute of Electrical and Electronics Engineers,</publisher>
+    <date>2000.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[107]</citation-number>
+    <author>Allen, J., Hunnicutt, M., and Klatt, D.,</author>
+    <title>“From text to speech: The MITalk system.”</title>
+    <pages>216 pp,</pages>
+    <date>1987.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[80]</citation-number>
+    <author>Picone, J.,</author>
+    <title>“Signal modeling techniques in speech recognition,”</title>
+    <journal>Proceedings of the IEEE ,</journal>
+    <volume>Vol. 81, No. 9,</volume>
+    <date>1993,</date>
+    <pages>pp. 1215–1247.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[67]</citation-number>
+    <author>Reynolds, D., Quatieri, T., and Dunn, R.,</author>
+    <title>“Speaker verification using adapted Gaussian mixture models,”</title>
+    <journal>Digital signal processing,</journal>
+    <volume>Vol. 10, No. 1-3,</volume>
+    <date>2000,</date>
+    <pages>pp. 19–41.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[71]</citation-number>
+    <author>Brand, M., Oliver, N., and Pentland, A.,</author>
+    <title>“Coupled hidden Markov models for complex action recognition,”</title>
+    <container-title>Computer Vision and Pattern Recognition, 1997. Proceedings., 1997 IEEE Computer Society Conference on,</container-title>
+    <publisher>IEEE,</publisher>
+    <date>1997,</date>
+    <pages>pp. 994–999.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[16]</citation-number>
+    <title>“Aeronautical Information Manual,”</title>
+    <date>February 2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[6]</citation-number>
+    <author>Association, I. A. T.,</author>
+    <title>“World air transport statistics,”</title>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[20]</citation-number>
+    <author>Karlsson, J.,</author>
+    <title>“The Integration of Automatic Speech Recognition into the Air Traffic Control System,”</title>
+    <date>1990.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[56]</citation-number>
+    <author>Fariello, E.,</author>
+    <title>“Method and Apparatus for Detecting Speech Signals in the Pres- ence of Noise,”</title>
+    <date>Jan. 23 1973,</date>
+    <note>US Patent 3,712,959.</note>
+  </sequence>
+  <sequence>
+    <citation-number>[116]</citation-number>
+    <author>Godfrey, J. J.,</author>
+    <title>ATC0 ,</title>
+    <publisher>Linguistic Data Consortium,</publisher>
+    <location>Palo Alto, California,</location>
+    <date>1994.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[102]</citation-number>
+    <author>Roy, N., Pineau, J., and Thrun, S.,</author>
+    <title>“Spoken dialog management for robots,”</title>
+    <container-title>The Proceedings of the Association for Computational Linguistics,</container-title>
+    <source>Citeseer,</source>
+    <date>2000.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[32]</citation-number>
+    <author>Prevot, T.,</author>
+    <title>“NextGen technologies for mid-term and far-term air traffic control operations,”</title>
+    <container-title>Digital Avionics Systems Conference, 2009. DASC’09. IEEE/AIAA 28th,</container-title>
+    <publisher>IEEE,</publisher>
+    <date>2009,</date>
+    <pages>pp. 2–A.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[17]</citation-number>
+    <author>Connolly, D. W.,</author>
+    <title>“Voice Data Entry in Air Traffic Control,”</title>
+    <date>1979.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[98]</citation-number>
+    <author>Clancy, W.,</author>
+    <title>“Dialogue management for rule-based tutorials,”</title>
+    <date>1979.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[42]</citation-number>
+    <author>Vortac, O., Edwards, M., Fuller, D., and Manning, C.,</author>
+    <title>“Automation and cog- nition in air traffic control: An empirical investigation,”</title>
+    <journal>Applied cognitive psy- chology,</journal>
+    <volume>Vol. 7, No. 7,</volume>
+    <date>1993,</date>
+    <pages>pp. 631–651.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[27]</citation-number>
+    <author>Metzger, U. and Parasuraman, R.,</author>
+    <title>“Automation in future air traffic manage- ment: Effects of decision aid reliability on controller performance and mental workload,”</title>
+    <journal>Human Factors: The Journal of the Human Factors and Ergonomics Society,</journal>
+    <volume>Vol. 47, No. 1,</volume>
+    <date>2005,</date>
+    <pages>pp. 35–49.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[117]</citation-number>
+    <title>“LiveATC,”</title>
+    <url>http://www.liveatc.net,</url>
+    <date>December 2010.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[79]</citation-number>
+    <author>Waibel, A.,</author>
+    <title>“Modular construction of time-delay neural networks for speech recognition,”</title>
+    <journal>Neural computation,</journal>
+    <volume>Vol. 1, No. 1,</volume>
+    <date>1989,</date>
+    <pages>pp. 39–46.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[39]</citation-number>
+    <author>Danaher, J.,</author>
+    <title>“Human error in ATC system operations,”</title>
+    <journal>Human Factors: The Journal of the Human Factors and Ergonomics Society,</journal>
+    <volume>Vol. 22, No. 5,</volume>
+    <date>1980,</date>
+    <pages>pp. 535–545.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[70]</citation-number>
+    <author>Juang, B. and Rabiner, L.,</author>
+    <title>“Hidden Markov models for speech recognition,”</title>
+    <journal>Technometrics,</journal>
+    <date>1991,</date>
+    <pages>pp. 251–272.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[26]</citation-number>
+    <author>Wickens, C., Mavor, A., and McGee, J.,</author>
+    <title>Flight to the future: Human factors in air traffic control ,</title>
+    <publisher>Natl Academy</publisher>
+    <location>Pr,</location>
+    <date>1997.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[58]</citation-number>
+    <author>Tanyer, S. and Ozer, H.,</author>
+    <title>“Voice activity detection in nonstationary noise,”</title>
+    <journal>Speech and Audio Processing, IEEE Transactions on,</journal>
+    <volume>Vol. 8, No. 4,</volume>
+    <date>2000,</date>
+    <pages>pp. 478–482.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[9]</citation-number>
+    <author>Anderson, C.,</author>
+    <title>“Fred Smith: FedEx Wants UAVs,”</title>
+    <url>http://diydrones.com/ profiles/blogs/fred-smith-fedex-wants-uavs,</url>
+    <date>February 2009.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[43]</citation-number>
+    <author>Endsley, M. and Rodgers, M.,</author>
+    <title>“Distribution of attention, situation awareness, and workload in a passive air traffic control task: Implications for operational errors and automation,”</title>
+    <genre>Tech. rep., DTIC Document,</genre>
+    <date>1997.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[11]</citation-number>
+    <author>Dillingham, G.,</author>
+    <title>“Federal Actions Needed to Ensure Safety and Expand Their Potential Uses within the National Airspace System,”</title>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[126]</citation-number>
+    <author>Bilgin, A., Ellson, J., Gansner, E., Hu, Y., Koren, Y., and North, S.,</author>
+    <title>“Graphviz- Graph Visualization Software,”</title>
+    <url>http://www.graphviz.org,</url>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[2]</citation-number>
+    <author>Langton, L.,</author>
+    <title>“Aviation Units in Large Law Enforcement Agencies,”</title>
+    <date>2007.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[35]</citation-number>
+    <author>Roske-Hofstrand, R. and Murphy, R.,</author>
+    <title>Human information processing in air traffic control.,</title>
+    <publisher>Academic Press,</publisher>
+    <date>1998.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[118]</citation-number>
+    <author>Reynolds, D.,</author>
+    <title>“Experimental evaluation of features for robust speaker identi- fication,”</title>
+    <journal>Speech and Audio Processing, IEEE Transactions on,</journal>
+    <volume>Vol. 2, No. 4,</volume>
+    <date>1994,</date>
+    <pages>pp. 639–643.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[100]</citation-number>
+    <author>Litman, D. and Pan, S.,</author>
+    <title>“Designing and evaluating an adaptive spoken dialogue system,”</title>
+    <journal>User Modeling and User-Adapted Interaction,</journal>
+    <volume>Vol. 12, No. 2,</volume>
+    <date>2002,</date>
+    <pages>pp. 111–137.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[95]</citation-number>
+    <author>Goddeau, D., Brill, E., Glass, J., Pao, C., Phillips, M., Polifroni, J., Seneff, S., and Zue, V.,</author>
+    <title>“Galaxy: A human-language interface to on-line travel informa- tion,”</title>
+    <container-title>Third International Conference on Spoken Language Processing,</container-title>
+    <date>1994.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[41]</citation-number>
+    <author>Debelack, A., Dehn, J., Muchinsky, L., and Smith, D.,</author>
+    <title>“Next generation air traffic control automation,”</title>
+    <journal>IBM Systems Journal ,</journal>
+    <volume>Vol. 34, No. 1,</volume>
+    <date>1995,</date>
+    <pages>pp. 63– 77.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[22]</citation-number>
+    <author>Nolan, M.,</author>
+    <title>Fundamentals of air traffic control ,</title>
+    <publisher>Delmar Pub,</publisher>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[18]</citation-number>
+    <author>Trikas, T.,</author>
+    <title>“Automated Speech Recognition in Air Traffic Control,”</title>
+    <date>January 1987.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[37]</citation-number>
+    <author>Reason, J.,</author>
+    <title>“Human error: models and management,”</title>
+    <journal>Bmj ,</journal>
+    <volume>Vol. 320, No. 7237,</volume>
+    <date>2000,</date>
+    <pages>pp. 768–770.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[45]</citation-number>
+    <author>Stansbury, R., Vyas, M., and Wilson, T.,</author>
+    <title>“A survey of uas technologies for command, control, and communication (c3),”</title>
+    <journal>Journal of Intelligent &amp; Robotic Systems,</journal>
+    <volume>Vol. 54, No. 1,</volume>
+    <date>2009,</date>
+    <pages>pp. 61–78.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[110]</citation-number>
+    <author>Duddington, J.,</author>
+    <title>“eSpeak Text to Speech,”</title>
+    <date>2007.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[46]</citation-number>
+    <author>Ruff, H., Narayanan, S., and Draper, M.,</author>
+    <title>“Human interaction with levels of automation and decision-aid fidelity in the supervisory control of multiple simu- lated unmanned air vehicles,”</title>
+    <journal>Presence: Teleoperators &amp; Virtual Environments,</journal>
+    <volume>Vol. 11, No. 4,</volume>
+    <date>2002,</date>
+    <pages>pp. 335–351.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[28]</citation-number>
+    <author>Metzger, U. and Parasuraman, R.,</author>
+    <title>“The role of the air traffic controller in future air traffic management: An empirical study of active control versus passive mon- itoring,”</title>
+    <journal>Human Factors: The Journal of the Human Factors and Ergonomics Society,</journal>
+    <volume>Vol. 43, No. 4,</volume>
+    <date>2001,</date>
+    <pages>pp. 519–528.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[86]</citation-number>
+    <author>Pietquin, O. and Dutoit, T.,</author>
+    <title>“A probabilistic framework for dialog simulation and optimal strategy learning,”</title>
+    <journal>Audio, Speech, and Language Processing, IEEE Transactions on,</journal>
+    <volume>Vol. 14, No. 2,</volume>
+    <date>2006,</date>
+    <pages>pp. 589–599.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[10]</citation-number>
+    <title>“Unmanned Aircraft Systems Operations in the U. S. National Airspace Sys- tem,”</title>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[75]</citation-number>
+    <author>Gales, M. and of Cambridge. Engineering Dept, U.,</author>
+    <title>“Maximum likelihood lin- ear transformations for HMM-based speech recognition,”</title>
+    <journal>Computer speech and language,</journal>
+    <volume>Vol. 12, No. 2,</volume>
+    <date>1998.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[12]</citation-number>
+    <title>“FAA Modernization and Reform Act H.R. 658 112th Congress,”</title>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[3]</citation-number>
+    <author>Goure, D.,</author>
+    <title>“Modernizing the Department of Homeland Security’s Aerial Fleets,”</title>
+    <date>February 2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[106]</citation-number>
+    <author>Klatt, D. et al.,</author>
+    <title>“Review of text-to-speech conversion for English,”</title>
+    <journal>Journal of the Acoustical Society of America,</journal>
+    <volume>Vol. 82, No. 3,</volume>
+    <date>1987,</date>
+    <pages>pp. 737–793.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[33]</citation-number>
+    <author>Kopardekar, P., Bilimoria, K., and Sridhar, B.,</author>
+    <title>“Airspace configuration con- cepts for the next generation air transportation system,”</title>
+    <journal>Air Traffic Control Quarterly,</journal>
+    <volume>Vol. 16, No. 4,</volume>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[62]</citation-number>
+    <author>Gish, H. and Schmidt, M.,</author>
+    <title>“Text-independent speaker identification,”</title>
+    <journal>Signal Processing Magazine, IEEE ,</journal>
+    <volume>Vol. 11, No. 4,</volume>
+    <date>1994,</date>
+    <pages>pp. 18–32.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[7]</citation-number>
+    <author>A. S. Helmy, P. Abolghasem, J. Stewart Aitchison, B. Bijlani, J. Han, B. Holmes, D. Hutchings, U. Younis, and S. Wagner,</author>
+    <title>“Recent advances in phase matching of second-order nonlinearities in monolithic semiconductor waveg- uides,”</title>
+    <journal>Laser &amp; Photonics Reviews</journal>
+    <volume>5,</volume>
+    <pages>272–286</pages>
+    <date>(2011).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[124]</citation-number>
+    <author>H. M. Gibbs,</author>
+    <title>“Optical Switching: Controlling light with light,”</title>
+    <container-title>in “Optical Bistability: Controlling Light with Light,”</container-title>
+    <publisher>(Academic Press,</publisher>
+    <date>1985),</date>
+    <note>chap. 5,</note>
+    <pages>pp. 195–239.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[46]</citation-number>
+    <author>K. Fiedler, S. Schiller, R. Paschotta, P. Kürz, and J. Mlynek,</author>
+    <title>“Highly efficient frequency doubling with a doubly resonant monolithic total-internal-reflection ring resonator,”</title>
+    <journal>Optics Letters</journal>
+    <volume>18,</volume>
+    <pages>1786–1788</pages>
+    <date>(1993).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[65]</citation-number>
+    <author>C. Matheisen, M. Waldow, B. Chmielak, S. Sawallich, T. Wahlbrink, J. Bolten, M. Nagel, and H. Kurz,</author>
+    <title>“Electro-optic light modulation and THz generation in locally plasma-activated silicon nanophotonic devices,”</title>
+    <journal>Optics Express</journal>
+    <volume>22,</volume>
+    <pages>5252–5259</pages>
+    <date>(2014).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[163]</citation-number>
+    <author>S. Zaske, A. Lenhard, and C. Becher,</author>
+    <title>“Efficient frequency downconversion at the single photon level from the red spectral range to the telecommunications C-band,”</title>
+    <journal>Optics Express</journal>
+    <volume>19,</volume>
+    <pages>12825–12836</pages>
+    <date>(2011).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[6]</citation-number>
+    <author>L. Caspani, D. Duchesne, K. Dolgaleva, S. J. Wagner, M. Ferrera, L. Razzari, A. Pasquazi, M. Peccianti, D. J. Moss, J. S. Aitchison, and R. Morandotti,</author>
+    <title>“Optical frequency conversion in integrated devices [Invited],”</title>
+    <journal>Journal of the Optical Society of America B</journal>
+    <volume>28,</volume>
+    <pages>A67–A82</pages>
+    <date>(2011).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[41]</citation-number>
+    <author>W. H. Louisell,</author>
+    <title>“Correspondence between Pierce’s Coupled Mode Amplitudes and Quantum Operators,”</title>
+    <journal>Journal of Applied Physics</journal>
+    <volume>33,</volume>
+    <pages>2435</pages>
+    <date>(1962).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[119]</citation-number>
+    <author>K. Rivoire, S. Buckley, A. Majumdar, H. Kim, P. Petroff, and J. Vučković,</author>
+    <title>“Fast quantum dot single photon source triggered at telecommunications wavelength,”</title>
+    <journal>Applied Physics Letters</journal>
+    <volume>98,</volume>
+    <pages>083105–3</pages>
+    <date>(2011).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[102]</citation-number>
+    <author>J. D. Jackson,</author>
+    <title>Classical Electrodynamics</title>
+    <publisher>(Wiley,</publisher>
+    <date>1998),</date>
+    <edition>3rd ed.</edition>
+  </sequence>
+  <sequence>
+    <citation-number>[130]</citation-number>
+    <author>H. S. Lee, S. Kiravittaya, S. Kumar, J. D. Plumhof, L. Balet, L. H. Li, M. Fran- cardi, A. Gerardino, A. Fiore, A. Rastelli, and O. G. Schmidt,</author>
+    <title>“Local tuning of photonic crystal nanocavity modes by laser-assisted oxidation,”</title>
+    <journal>Applied Physics Letters</journal>
+    <volume>95,</volume>
+    <pages>191109–3</pages>
+    <date>(2009).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[168]</citation-number>
+    <author>A. Ugur, F. Hatami, W. T. Masselink, A. N. Vamivakas, L. Lombez, and M. Atatüre,</author>
+    <title>“Single-dot optical emission from ultralow density well-isolated InP quantum dots,”</title>
+    <journal>Applied Physics Letters</journal>
+    <volume>93,</volume>
+    <pages>143111–3</pages>
+    <date>(2008).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[21]</citation-number>
+    <author>L. Razzari, D. Duchesne, M. Ferrera, R. Morandotti, S. Chu, B. E. Little, and D. J. Moss,</author>
+    <title>“CMOS-compatible integrated optical hyper-parametric oscillator,”</title>
+    <journal>Nature Photonics</journal>
+    <volume>4,</volume>
+    <pages>41–45</pages>
+    <date>(2010).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[145]</citation-number>
+    <author>S. Groblacher, J. T. Hill, A. H. Safavi-Naeini, J. Chan, and O. Painter,</author>
+    <title>“Highly efficient coupling from an optical fiber to a nanoscale silicon optomechanical cavity,”</title>
+    <genre>Tech. Rep.</genre>
+    <volume>18</volume>
+    <date>(2013).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[144]</citation-number>
+    <author>Z.-F. Bi, A. W. Rodriguez, H. Hashemi, D. Duchesne, M. Lončar, K.-M. Wang, and S. G. Johnson,</author>
+    <title>“High-efficiency second-harmonic generation in doubly- resonant χ(2) microring resonators,”</title>
+    <journal>Optics Express</journal>
+    <volume>20,</volume>
+    <pages>7526–7543</pages>
+    <date>(2012).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[19]</citation-number>
+    <author>P. Del’Haye, A. Schliesser, O. Arcizet, T. Wilken, R. Holzwarth, and T. J. Kippenberg,</author>
+    <title>“Optical frequency comb generation from a monolithic microres- onator,”</title>
+    <journal>Nature</journal>
+    <volume>450,</volume>
+    <pages>1214–1217</pages>
+    <date>(2007).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[131]</citation-number>
+    <author>A. R. A. Chalcraft, S. Lam, D. OBrien, T. F. Krauss, M. Sahin, D. Szymanski, D. Sanvitto, R. Oulton, M. S. Skolnick, A. M. Fox, D. M. Whittaker, H.-Y. Liu, and M. Hopkinson,</author>
+    <title>“Mode structure of the L3 photonic crystal cavity,”</title>
+    <journal>Applied Physics Letters</journal>
+    <volume>90,</volume>
+    <pages>241117</pages>
+    <date>(2007).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[167]</citation-number>
+    <author>B. Ellis, M. A. Mayer, G. Shambat, T. Sarmiento, J. Harris, E. E. Haller, and J. Vučković,</author>
+    <title>“Ultralow-threshold electrically pumped quantum-dot photonic- crystal nanocavity laser,”</title>
+    <journal>Nature Photonics</journal>
+    <volume>5,</volume>
+    <pages>297–300</pages>
+    <date>(2011).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[123]</citation-number>
+    <author>B. Bennett, R. A. Soref, and J. del Alamo,</author>
+    <title>“Carrier-induced change in refractive index of InP, GaAs and InGaAsP,”</title>
+    <journal>IEEE Journal of Quantum Electronics</journal>
+    <volume>26,</volume>
+    <pages>113–122</pages>
+    <date>(1990).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[29]</citation-number>
+    <author>Y. Zhang, M. W. McCutcheon, I. B. Burgess, and M. Lončar,</author>
+    <title>“Ultra-high- Q TE/TM dual-polarized photonic crystal nanocavities,”</title>
+    <journal>Optics Letters</journal>
+    <volume>34,</volume>
+    <pages>2694–2696</pages>
+    <date>(2009).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[116]</citation-number>
+    <author>Y. Ota, K. Watanabe, S. Iwamoto, and Y. Arakawa,</author>
+    <title>“Nanocavity-based self- frequency conversion laser,”</title>
+    <journal>Optics Express</journal>
+    <volume>21,</volume>
+    <pages>19778–19789</pages>
+    <date>(2013).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[121]</citation-number>
+    <author>K. Rivoire, Z. Lin, F. Hatami, and J. Vučković,</author>
+    <title>“Sum-frequency generation in doubly resonant GaP photonic crystal nanocavities,”</title>
+    <journal>Applied Physics Letters</journal>
+    <volume>97,</volume>
+    <pages>043103–3</pages>
+    <date>(2010).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[183]</citation-number>
+    <author>E. Kuramochi, K. Nozaki, A. Shinya, K. Takeda, T. Sato, S. Matsuo, H. Taniyama, H. Sumikura, and M. Notomi,</author>
+    <title>“Large-scale integration of wavelength-addressable all-optical memories on a photonic crystal chip,”</title>
+    <journal>Na- ture Photonics</journal>
+    <volume>8,</volume>
+    <pages>474–481</pages>
+    <date>(2014).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[15]</citation-number>
+    <author>D. Gerace and V. Savona,</author>
+    <title>“Unconventional photon blockade in doubly reso- nant microcavities with second-order nonlinearity,”</title>
+    <note>arXiv:1402.4587 [cond-mat, physics:physics, physics:quant-ph]</note>
+    <date>(2014).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[78]</citation-number>
+    <author>N. W. Ashcroft and N. D. Mermin,</author>
+    <title>Solid State Physics</title>
+    <publisher>(Cengage Learning;</publisher>
+    <edition>1 edition,</edition>
+    <date>1976).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[10]</citation-number>
+    <author>C. Langrock, E. Diamanti, R. V. Roussev, Y. Yamamoto, M. M. Fejer, and H. Takesue,</author>
+    <title>“Highly efficient single-photon detection at communication wave- lengths by use of upconversion in reverse-proton-exchanged periodically poled LiNbO3 waveguides,”</title>
+    <journal>Optics Letters</journal>
+    <volume>30,</volume>
+    <pages>1725–1727</pages>
+    <date>(2005).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[133]</citation-number>
+    <author>A. Taflove and S. C. Hagness,</author>
+    <title>Computational electrodynamics: the finite- difference time-domain method</title>
+    <publisher>(Artech House,</publisher>
+    <location>Boston,</location>
+    <date>2005).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[146]</citation-number>
+    <author>I. J. Luxmoore, E. D. Ahmadi, A. M. Fox, M. Hugues, and M. S. Skolnick,</author>
+    <title>“Unpolarized H1 photonic crystal nanocavities fabricated by stretched lattice design,”</title>
+    <journal>Applied Physics Letters</journal>
+    <volume>98,</volume>
+    <pages>041101</pages>
+    <date>(2011).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[104]</citation-number>
+    <author>K. Rivoire, Z. Lin, F. Hatami, W. T. Masselink, and J. Vučković,</author>
+    <title>“Second har- monic generation in gallium phosphide photonic crystal nanocavities with ul- tralow continuous wave pump power,”</title>
+    <journal>Optics Express</journal>
+    <volume>17,</volume>
+    <pages>22609–22615</pages>
+    <date>(2009).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[176]</citation-number>
+    <author>K. Eberl, A. Kurtenbach, K. Häusler, F. Noll, and W. W. Rühle,</author>
+    <title>“Preparation and Time Resolved Photoluminescence of Nanoscale InP Islands in In0. 48Ga0. 52P,”</title>
+    <container-title>in “MRS Proceedings,”</container-title>
+    <volume>, vol. 379</volume>
+    <date>(1995),</date>
+    <volume>vol. 379.</volume>
+  </sequence>
+  <sequence>
+    <citation-number>[64]</citation-number>
+    <author>M. W. Puckett, J. S. T. Smalley, M. Abashin, A. Grieco, and Y. Fainman,</author>
+    <title>“Tensor of the second-order nonlinear susceptibility in asymmetrically strained silicon waveguides: analysis and experimental validation,”</title>
+    <journal>Optics Letters</journal>
+    <volume>39,</volume>
+    <pages>1693–1696</pages>
+    <date>(2014).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[175]</citation-number>
+    <author>M. Vollmer, E. J. Mayer, W. W. Rühle, A. Kurtenbach, and K. Eberl,</author>
+    <title>“Exci- ton relaxation dynamics in quantum dots with strong confinement,”</title>
+    <journal>Physical Review B</journal>
+    <volume>54,</volume>
+    <pages>R17292–R17295</pages>
+    <date>(1996).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[178]</citation-number>
+    <author>E. B. Flagg, A. Muller, J. W. Robertson, S. Founta, D. G. Deppe, M. Xiao, J. Salamo, C. K. Shih, W. Ma, and G. J. Salamo,</author>
+    <title>“Resonantly driven coher- ent oscillations in a solid-state quantum emitter,”</title>
+    <journal>Nature Physics</journal>
+    <volume>5,</volume>
+    <pages>203–207</pages>
+    <date>(2009).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[36]</citation-number>
+    <author>E. Garmire,</author>
+    <title>“Resource Letter NO- 1: Nonlinear Optics,”</title>
+    <journal>American Journal of Physics</journal>
+    <volume>79,</volume>
+    <pages>245–255</pages>
+    <date>(2011).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[70]</citation-number>
+    <author>R. Sanatinia, M. Swillo, and S. Anand,</author>
+    <title>“Surface Second-Harmonic Generation from Vertical GaP Nanopillars,”</title>
+    <journal>Nano Letters</journal>
+    <volume>12,</volume>
+    <pages>820–826</pages>
+    <date>(2012).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[115]</citation-number>
+    <author>M. Galli, D. Gerace, K. Welna, T. F. Krauss, L. O’Faolain, G. Guizzetti, and L. C. Andreani,</author>
+    <title>“Low-power continuous-wave generation of visible harmonics in silicon photonic crystal nanocavities.”</title>
+    <journal>Optics express</journal>
+    <volume>18,</volume>
+    <pages>26613–24</pages>
+    <date>(2010).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[35]</citation-number>
+    <author>S. Buckley, K. Rivoire, F. Hatami, and J. Vučković,</author>
+    <title>“Quasiresonant excitation of InP/InGaP quantum dots using second harmonic generated in a photonic crystal cavity,”</title>
+    <journal>Applied Physics Letters</journal>
+    <volume>101,</volume>
+    <pages>161116–4</pages>
+    <date>(2012).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[99]</citation-number>
+    <author>Z. Zhang and M. Qiu,</author>
+    <title>“Small-volume waveguide-section high Q microcavities in 2D photonic crystal slabs,”</title>
+    <journal>Optics Express</journal>
+    <volume>12,</volume>
+    <pages>3988</pages>
+    <date>(2004).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[22]</citation-number>
+    <author>J. Witzens, T. Baehr-Jones, and M. Hochberg,</author>
+    <title>“Silicon photonics: On-chip OPOs,”</title>
+    <journal>Nature Photonics</journal>
+    <volume>4,</volume>
+    <pages>10–12</pages>
+    <date>(2010).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[108]</citation-number>
+    <author>K. Rivoire,</author>
+    <title>“Nonlinear Frequency Conversion in III-V Semiconductor Photonic Crystals,”</title>
+    <genre>Ph.D. thesis,</genre>
+    <publisher>Stanford University</publisher>
+    <date>(2012).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[73]</citation-number>
+    <author>C. Xiong, W. Pernice, K. K. Ryu, C. Schuck, K. Y. Fong, T. Palacios, and H. X. Tang,</author>
+    <title>“Integrated GaN photonic circuits on silicon (100) for second harmonic generation,”</title>
+    <journal>Optics Express</journal>
+    <volume>19,</volume>
+    <pages>10462–10470</pages>
+    <date>(2011).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[129]</citation-number>
+    <author>P. Fan, U. K. Chettiar, L. Cao, F. Afshinmanesh, N. Engheta, and M. L. Brongersma,</author>
+    <title>“An invisible metal-semiconductor photodetector,”</title>
+    <journal>Nature Pho- tonics</journal>
+    <date>(2012).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[33]</citation-number>
+    <author>S. Buckley, M. Radulaski, J. L. Zhang, J. Petykiewicz, K. Biermann, and J. Vučković,</author>
+    <title>“Nonlinear frequency conversion using high quality modes in GaAs nanobeam cavities,”</title>
+    <note>arXiv 1407.1446, 4</note>
+    <date>(2014).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[63]</citation-number>
+    <author>F. Bianco,</author>
+    <title>“Second order nonlinear optical phenomena in strained silicon waveg- uides,”</title>
+    <genre>Ph.D. thesis</genre>
+    <date>(2013).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[161]</citation-number>
+    <author>H. Takesue,</author>
+    <title>“Single-photon frequency down-conversion experiment,”</title>
+    <journal>Physical Review A</journal>
+    <volume>82,</volume>
+    <pages>013833</pages>
+    <date>(2010).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[113]</citation-number>
+    <author>S. Diziain, R. Geiss, M. Zilk, F. Schrempel, E.-B. Kley, A. Tünnermann, and T. Pertsch,</author>
+    <title>“Second harmonic generation in free-standing lithium niobate pho- tonic crystal L3 cavity,”</title>
+    <journal>Applied Physics Letters</journal>
+    <volume>103,</volume>
+    <pages>051117–4</pages>
+    <date>(2013).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[151]</citation-number>
+    <author>J. Lu and J. Vučković,</author>
+    <title>“Nanophotonic computational design,”</title>
+    <journal>Optics Express</journal>
+    <volume>21,</volume>
+    <pages>13351–13367</pages>
+    <date>(2013).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[100]</citation-number>
+    <author>M. Nomura, N. Kumagai, S. Iwamoto, Y. Ota, and Y. Arakawa,</author>
+    <title>“Laser os- cillation in a strongly coupled single-quantum-dot-nanocavity system,”</title>
+    <journal>Nature Physics</journal>
+    <volume>6,</volume>
+    <pages>279–283</pages>
+    <date>(2010).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[171]</citation-number>
+    <author>A. Beveratos, R. Brouri, T. Gacoin, A. Villing, J.-P. Poizat, and P. Grangier,</author>
+    <title>“Single Photon Quantum Cryptography,”</title>
+    <journal>Physical Review Letters</journal>
+    <volume>89,</volume>
+    <pages>187901</pages>
+    <date>(2002).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[74]</citation-number>
+    <author>W. H. P. Pernice, C. Xiong, C. Schuck, and H. X. Tang,</author>
+    <title>“High-Q aluminum ni- tride photonic crystal nanobeam cavities,”</title>
+    <journal>Applied Physics Letters</journal>
+    <volume>100,</volume>
+    <pages>091105</pages>
+    <date>(2012).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[181]</citation-number>
+    <author>M. Schmidbauer, F. Hatami, M. Hanke, P. Schäfer, K. Braune, W. T. Masselink, R. Köhler, and M. Ramsteiner,</author>
+    <title>“Shape-mediated anisotropic strain in self- assembled InP/In0.48Ga0.52P quantum dots,”</title>
+    <journal>Physical Review B</journal>
+    <volume>65,</volume>
+    <pages>125320</pages>
+    <date>(2002).</date>
+  </sequence>
+  <sequence>
+    <author>Kolesnikova, N.</author>
+    <date>(2009).</date>
+    <title>Community Colleges: A Route of Upward Economic Mobil- ity</title>
+    <note>(Community Development Report).</note>
+    <publisher>Federal Reserve Bank of St. Louis.</publisher>
+    <note>Retrieved from</note>
+    <url>www.stlouisfed.org/community development/assets/pdf/ CommunityColleges.pdf</url>
+  </sequence>
+  <sequence>
+    <author>Grant, H., &amp; Dweck, C. S.</author>
+    <date>(2003).</date>
+    <title>Clarifying achievement goals and their impact.</title>
+    <journal>Journal of Personality and Social Psychology,</journal>
+    <volume>85 (3),</volume>
+    <pages>541–53.</pages>
+  </sequence>
+  <sequence>
+    <author>Stone, J., Lynch, C. I., Sjomeling, M., &amp; Darley, J. M.</author>
+    <date>(1999).</date>
+    <title>Stereotype threat e↵ects on Black and White athletic performance.</title>
+    <journal>Journal of Personality and Social Psychology,</journal>
+    <volume>77 (6),</volume>
+    <pages>1213–1227.</pages>
+  </sequence>
+  <sequence>
+    <author>Cameron, A. C., &amp; Trivedi, P. K.</author>
+    <date>(1998).</date>
+    <title>Regression analysis of count data.</title>
+    <location>New York, NY:</location>
+    <publisher>Cambridge University Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Wentzel, K. R.</author>
+    <date>(1997).</date>
+    <title>Student motivation in middle school: The role of perceived pedagogical caring.</title>
+    <journal>Journal of Educational Psychology,</journal>
+    <volume>89 (3),</volume>
+    <pages>411–419.</pages>
+  </sequence>
+  <sequence>
+    <author>Dweck, C. S., &amp; Elliott, E. S.</author>
+    <date>(1983).</date>
+    <title>Achievement motivation.</title>
+    <editor>In E. M. Hethering- ton (Ed.),</editor>
+    <container-title>Handbook of child psychology: Socialization, personality, and social development</container-title>
+    <volume>(Vol. 4,</volume>
+    <pages>pp. 643–691).</pages>
+    <location>New York, NY:</location>
+    <publisher>Wiley.</publisher>
+  </sequence>
+  <sequence>
+    <author>Dweck, C. S., Walton, G. M., &amp; Cohen, G.</author>
+    <date>(2011).</date>
+    <title>Academic tenacity.</title>
+    <note>White paper prepared for the Gates Foundation,</note>
+    <location>Seattle, WA.</location>
+  </sequence>
+  <sequence>
+    <author>Good, C., Aronson, J., &amp; Harder, J. A.</author>
+    <date>(2008).</date>
+    <title>Problems in the pipeline: Stereotype threat and women’s achievement in high-level math courses.</title>
+    <journal>Journal of Applied Developmental Psychology,</journal>
+    <volume>29 (1),</volume>
+    <pages>17–28.</pages>
+  </sequence>
+  <sequence>
+    <author>Bryk, A. S., &amp; Schneider, B. L.</author>
+    <date>(2002).</date>
+    <title>Trust in schools: A core resource for im- provement.</title>
+    <location>New York, NY:</location>
+    <publisher>Russell Sage Foundation Publications.</publisher>
+  </sequence>
+  <sequence>
+    <author>Mullin, C. M.</author>
+    <date>(2012).</date>
+    <title>Why access matters: The community college student body</title>
+    <note>(Pol- icy Brief 2012-01PBL).</note>
+    <location>Washington, DC:</location>
+    <publisher>American Association of Community Colleges.</publisher>
+  </sequence>
+  <sequence>
+    <author>Hulleman, C. S., Schrager, S. M., Bodmann, S. M., &amp; Harackiewicz, J. M.</author>
+    <date>(2010).</date>
+    <title>A meta-analytic review of achievement goal measures: Di↵erent labels for the same constructs or di↵erent constructs with similar labels?</title>
+    <journal>Psychological bulletin,</journal>
+    <volume>136 (3),</volume>
+    <pages>422–49.</pages>
+  </sequence>
+  <sequence>
+    <author>Stake, J. E., &amp; Mares, K. R.</author>
+    <date>(2001).</date>
+    <title>Science enrichment programs for gifted high school girls and boys: Predictors of program impact on science confidence and motivation.</title>
+    <journal>Journal of Research in Science Teaching,</journal>
+    <volume>38 (10),</volume>
+    <pages>1065–1088.</pages>
+  </sequence>
+  <sequence>
+    <author>Festinger, L.</author>
+    <date>(1954).</date>
+    <title>A theory of social comparison processes.</title>
+    <journal>Human Relations,</journal>
+    <volume>7 (2),</volume>
+    <pages>117–140.</pages>
+  </sequence>
+  <sequence>
+    <author>Day, J., &amp; Newburger, E.</author>
+    <date>(2002).</date>
+    <title>The big payo↵: Educational attainment and syn- thetic estimates of work-life earnings.</title>
+    <note>Current population reports.</note>
+    <location>Washington, DC:</location>
+    <publisher>U.S. Census Bureau.</publisher>
+  </sequence>
+  <sequence>
+    <author>Baum, S., Ma, J., &amp; Payea, K.</author>
+    <date>(2010).</date>
+    <title>Education pays 2010: The benefits of higher education for individuals and society.</title>
+    <collection-title>Trends in Higher Education Series,</collection-title>
+    <location>New York, NY.</location>
+  </sequence>
+  <sequence>
+    <author>Petty, R. E., &amp; Cacioppo, J. T.</author>
+    <date>(1986).</date>
+    <title>Communication and persuasion: Central and peripheral routes to attitude change.</title>
+    <location>New York, NY:</location>
+    <publisher>Springer-Verlag.</publisher>
+  </sequence>
+  <sequence>
+    <author>Gainor, K. A., &amp; Lent, R. W.</author>
+    <date>(1998).</date>
+    <title>Social cognitive expectations and racial identity attitudes in predicting the math choice intentions of Black college students.</title>
+    <journal>Journal of Counseling Psychology,</journal>
+    <volume>45 ,</volume>
+    <pages>403–413.</pages>
+  </sequence>
+  <sequence>
+    <author>Hiltz, S. R.</author>
+    <date>(1997).</date>
+    <title>Impacts of college-level courses via asynchronous learning net- works: Some preliminary results.</title>
+    <journal>Journal of Asynchronous Learning Networks,</journal>
+    <volume>1 (1).</volume>
+  </sequence>
+  <sequence>
+    <author>Berman, P., &amp; McLaughlin, M. W.</author>
+    <date>(1976).</date>
+    <title>Implementation of educational innovation.</title>
+    <journal>The Educational Forum,</journal>
+    <volume>40</volume>
+    <pages>(345–370).</pages>
+  </sequence>
+  <sequence>
+    <author>Simmons, J. P., Nelson, L. D., &amp; Simonsohn, U.</author>
+    <date>(2011).</date>
+    <title>False-positive psychology: Undisclosed flexibility in data collection and analysis allows presenting anything as significant.</title>
+    <journal>Psychological Science,</journal>
+    <volume>22 (11),</volume>
+    <pages>1359–1366.</pages>
+  </sequence>
+  <sequence>
+    <author>Harlow, C. W.</author>
+    <date>(2003).</date>
+    <title>Education and correctional populations</title>
+    <note>(Bureau of Justice statistics special report).</note>
+    <location>Washington, DC:</location>
+    <publisher>U.S. Department of Justice.</publisher>
+  </sequence>
+  <sequence>
+    <author>Inzlicht, M., &amp; Ben-Zeev, T.</author>
+    <date>(2000).</date>
+    <title>A threatening intellectual environment: Why females are susceptible to experiencing problem-solving deficits in the presence of males.</title>
+    <journal>Psychological Science,</journal>
+    <volume>11 (5),</volume>
+    <pages>365–371.</pages>
+  </sequence>
+  <sequence>
+    <author>Hovland, C. I., Janis, I. L., &amp; Kelley, H. H.</author>
+    <date>(1953).</date>
+    <title>Communication and persuasion; psychological studies of opinion change.</title>
+    <location>New Haven, CT:</location>
+    <publisher>Yale University Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Farrington, C. A., Roderick, M., Allensworth, E., Nagaoka, J., Keyes, T. S., Johnson, D. W., &amp; Beechum, N. O.</author>
+    <date>(2012).</date>
+    <title>Teaching adolescents to become learners: The role of noncognitive factors in shaping school performance.</title>
+    <location>Chicago, IL:</location>
+    <publisher>University of Chicago,</publisher>
+    <note>Consortium on Chicago School Research.</note>
+  </sequence>
+  <sequence>
+    <author>Romero, C., Paunesku, D., &amp; Dweck, C.</author>
+    <date>(2011).</date>
+    <title>Brainology in the classroom: An online growth mindset intervention a↵ects GPA, conduct, and implicit theories.</title>
+    <note>Poster session presented at Society for Research in Child Development Biennial Meeting,</note>
+    <location>Montreal, Canada.</location>
+  </sequence>
+  <sequence>
+    <author>Molden, D. C., &amp; Dweck, C. S.</author>
+    <date>(2006).</date>
+    <title>Finding “meaning” in psychology: A lay theories approach to self-regulation, social perception, and social development.</title>
+    <journal>American Psychologist,</journal>
+    <volume>61 (3),</volume>
+    <pages>192–203.</pages>
+  </sequence>
+  <sequence>
+    <author>Vansteenkiste, M., Simons, J., Lens, W., Sheldon, K. M., &amp; Deci, E. L.</author>
+    <date>(2004).</date>
+    <title>Motivating learning, performance, and persistence: The synergistic e↵ects of intrinsic goal contents and autonomy-supportive contexts.</title>
+    <journal>Journal of Person- ality and Social Psychology,</journal>
+    <volume>87 (2),</volume>
+    <pages>246–260.</pages>
+  </sequence>
+  <sequence>
+    <author>Damon, W., Menon, J., &amp; Bronk, K.</author>
+    <date>(2003).</date>
+    <title>The development of purpose during adolescence.</title>
+    <journal>Applied Developmental Science,</journal>
+    <volume>7 (3),</volume>
+    <pages>119–128.</pages>
+  </sequence>
+  <sequence>
+    <author>Hulleman, C. S., Godes, O., Hendricks, B. L., &amp; Harackiewicz, J. M.</author>
+    <date>(2009).</date>
+    <title>En- hancing interest and performance with a utility value intervention.</title>
+    <journal>Journal of Education Psychology,</journal>
+    <volume>102 (4),</volume>
+    <pages>880–895.</pages>
+  </sequence>
+  <sequence>
+    <author>Hembee, R.</author>
+    <date>(1990).</date>
+    <title>The nature, e↵ects, and relief of mathematics anxiety.</title>
+    <journal>Journal for Research in Mathematics Education,</journal>
+    <volume>21 (1).</volume>
+  </sequence>
+  <sequence>
+    <author>Walton, G. M., &amp; Cohen, G. L.</author>
+    <date>(2007).</date>
+    <title>A question of belonging: Race, social fit, and achievement.</title>
+    <journal>Journal of Personality and Social Psychology,</journal>
+    <volume>92 (1),</volume>
+    <pages>82–96.</pages>
+  </sequence>
+  <sequence>
+    <author>Jamieson, J. P., Harkins, S. G., &amp; Williams, K. D.</author>
+    <date>(2010).</date>
+    <title>Need threat can motivate performance after ostracism.</title>
+    <note>Personality and social psychology bulletin.</note>
+  </sequence>
+  <sequence>
+    <author>Boykin, A. W., Albury, A., Tyler, K. M., Hurley, E. A., Bailey, C. T., &amp; Miller, O. A.</author>
+    <date>(2005).</date>
+    <title>Culture-based perceptions of academic achievement among low-income elementary students.</title>
+    <journal>Cultural Diversity &amp; Ethnic Minority Psychology,</journal>
+    <volume>11 (4),</volume>
+    <pages>339–50.</pages>
+  </sequence>
+  <sequence>
+    <author>Durik, A. M., &amp; Harackiewicz, J. M.</author>
+    <date>(2007).</date>
+    <title>Di↵erent strokes for di↵erent folks: How individual interest moderates the e↵ects of situational factors on task interest.</title>
+    <journal>Journal of Educational Psychology,</journal>
+    <volume>99 (3),</volume>
+    <pages>597.</pages>
+  </sequence>
+  <sequence>
+    <author>Walton, G. M., &amp; Cohen, G. L.</author>
+    <date>(2011).</date>
+    <title>A brief social-belonging intervention improves academic and health outcomes of minority students.</title>
+    <journal>Science,</journal>
+    <volume>331 (6023),</volume>
+    <pages>1447– 1451.</pages>
+  </sequence>
+  <sequence>
+    <author>Tyack, D. B., &amp; Cuban, L.</author>
+    <date>(1995).</date>
+    <title>Tinkering toward utopia: A century of public school reform.</title>
+    <location>Cambridge, MA:</location>
+    <publisher>Harvard University Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Sherman, D. K., Cohen, G., Nelson, L., Nussbaum, A., Bunyan, D., &amp; Garcia, J.</author>
+    <date>(2009).</date>
+    <title>Affirmed yet unaware: Exploring the role of awareness in the process of self-affirmation.</title>
+    <journal>Journal of Personality and Social Psychology,</journal>
+    <volume>97 (5),</volume>
+    <pages>745–764.</pages>
+  </sequence>
+  <sequence>
+    <author>Spencer Foundation.</author>
+    <date>(2011).</date>
+    <title>Initiative on data use and educational improve- ment.</title>
+    <note>Retrieved from</note>
+    <url>http://www.spencer.org/content.cfm/data-use-and -educational-improvement-details</url>
+  </sequence>
+  <sequence>
+    <author>Kolbe, T., Partridge, M., &amp; O’Reilly, F.</author>
+    <date>(2011).</date>
+    <title>Time and learning in schools: A national profile.</title>
+    <location>Boston, MA.</location>
+    <note>Retrieved from</note>
+    <url>http://www.timeandlearning .org/?q=sass</url>
+  </sequence>
+  <sequence>
+    <author>Derks, B., Scheepers, D., Van Laar, C., &amp; Ellemers, N.</author>
+    <date>(2011).</date>
+    <title>The threat vs challenge of car parking for women: How self- and group affirmation a↵ect cardiovascular responses.</title>
+    <journal>Journal of Experimental Social Psychology,</journal>
+    <volume>47 (1),</volume>
+    <pages>178–183.</pages>
+  </sequence>
+  <sequence>
+    <author>Miyake, A., Kost-Smith, L. E., Finkelstein, N. D., Pollock, S. J., Cohen, G. L., &amp; Ito, T. A.</author>
+    <date>(2010).</date>
+    <title>Reducing the gender achievement gap in college science: a classroom study of values affirmation.</title>
+    <journal>Science,</journal>
+    <volume>330 ,</volume>
+    <pages>1234–1237.</pages>
+  </sequence>
+  <sequence>
+    <author>Carnevale, A. P., Smith, N., &amp; Strohl, J.</author>
+    <date>(2010).</date>
+    <title>Help wanted: Projections of jobs and education requirements through 2018.</title>
+    <location>Washington, DC:</location>
+    <publisher>Georgetown University,</publisher>
+    <note>Center on Education and the Workforce.</note>
+  </sequence>
+  <sequence>
+    <author>Boggiano, A. K., &amp; Katz, P.</author>
+    <date>(1991).</date>
+    <title>Maladaptive achievement patterns in students: The role of teachers’ controlling strategies.</title>
+    <journal>Journal of Social Issues,</journal>
+    <volume>47 (4),</volume>
+    <pages>35–51.</pages>
+  </sequence>
+  <sequence>
+    <author>Osborne, J. W.</author>
+    <date>(1997).</date>
+    <title>Race and academic disidentification.</title>
+    <journal>Journal of Educational Psychology,</journal>
+    <volume>89 (4),</volume>
+    <pages>728–735.</pages>
+  </sequence>
+  <sequence>
+    <author>Reis, H. T., &amp; Gosling, S. D.</author>
+    <date>(2010).</date>
+    <title>Social psychological methods outside the laboratory.</title>
+    <editor>In S. Fiske, D. Gilbert, &amp; G. Lindzey (Eds.),</editor>
+    <container-title>Handbook of social psychology</container-title>
+    <pages>(pp. 82–114).</pages>
+    <location>New York, NY:</location>
+    <publisher>Wiley.</publisher>
+  </sequence>
+  <sequence>
+    <author>Godes, O., Hulleman, C. S., &amp; Harackiewicz, J. M.</author>
+    <date>(2007).</date>
+    <title>Boosting students’ interest in math with utility value: Two experimental tests.</title>
+    <note>Paper presented at the meeting of the American Educational Research Association,</note>
+    <location>Chicago, IL.</location>
+  </sequence>
+  <sequence>
+    <author>Allensworth, E. M., &amp; Easton, J. Q.</author>
+    <date>(2007).</date>
+    <title>What matters for staying on track and graduating in Chicago public high schools.</title>
+    <location>Chicago, IL:</location>
+    <publisher>University of Chicago,</publisher>
+    <note>Consortium on Chicago School Research.</note>
+  </sequence>
+  <sequence>
+    <author>Alliance for Excellent Education.</author>
+    <date>(2007).</date>
+    <title>The high cost of high school dropouts: What the nation pays for inadequate high schools</title>
+    <note>(Report).</note>
+    <location>Washington, DC:</location>
+    <publisher>Author.</publisher>
+  </sequence>
+  <sequence>
+    <author>Steele, C. M., &amp; Aronson, J.</author>
+    <date>(1995).</date>
+    <title>Stereotype threat and the intellectual test per- formance of African Americans.</title>
+    <journal>Journal of Personality and Social Psychology,</journal>
+    <volume>69 (5),</volume>
+    <pages>797–811.</pages>
+  </sequence>
+  <sequence>
+    <author>Pinheiro, J. C., &amp; Bates, D. M.</author>
+    <date>(2000).</date>
+    <title>Mixed-e↵ects models in S and S-PLUS.</title>
+    <location>New York, NY:</location>
+    <publisher>Springer.</publisher>
+  </sequence>
+  <sequence>
+    <author>Hawthorne, Nathaniel.</author>
+    <title>The Blithedale Romance.</title>
+    <location>Boston:</location>
+    <publisher>Ticknor, Reed, and Fields,</publisher>
+    <date>1852.</date>
+  </sequence>
+  <sequence>
+    <author>Doyle, Arthur Conan.</author>
+    <title>“The Resident Patient.”</title>
+    <container-title>In The Complete Sherlock Holmes,</container-title>
+    <pages>422-434.</pages>
+    <location>New York:</location>
+    <publisher>Doubleday,</publisher>
+    <date>1960.</date>
+  </sequence>
+  <sequence>
+    <author>Krach, Soren, Frank Hegel, Britta Wrede, Gerhard Sagerer, Ferdinand Binkofski, and Tilo Kircher.</author>
+    <title>“Can Machines Think? Interaction and Perspective Taking with Robots Investigated via fMRI.”</title>
+    <journal>PLoS ONE</journal>
+    <volume>3.7</volume>
+    <date>(2008):</date>
+    <pages>1-11.</pages>
+  </sequence>
+  <sequence>
+    <author>Brown, Henry “Box”.</author>
+    <title>“Narrative of the Life of Henry Box Brown, Written By Himself.”</title>
+    <container-title>In American Antislavery Writings: Colonial Beginnings to Emancipation,</container-title>
+    <editor>edited by James G. Basker,</editor>
+    <pages>532-537.</pages>
+    <location>New York:</location>
+    <publisher>Library of America,</publisher>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <author>McGurl, Mark.</author>
+    <title>The Novel Art: Elevations of American Fiction After Henry James.</title>
+    <location>Princeton, N.J.:</location>
+    <publisher>Princeton University Press,</publisher>
+    <date>2001.</date>
+  </sequence>
+  <sequence>
+    <author>Gendler, Tamar Szabó.</author>
+    <title>“Alief and Belief.”</title>
+    <journal>Journal of Philosophy</journal>
+    <volume>105, no. 10</volume>
+    <date>(2008):</date>
+    <pages>634-663.</pages>
+  </sequence>
+  <sequence>
+    <author>–––––.</author>
+    <title>“Against Literary Darwinism.”</title>
+    <journal>Critical Inquiry</journal>
+    <volume>37.2</volume>
+    <date>(2011):</date>
+    <pages>315-347.</pages>
+  </sequence>
+  <sequence>
+    <author>Warner, Susan.</author>
+    <title>The Wide, Wide World.</title>
+    <location>New York:</location>
+    <publisher>The Feminist Press at the City University of New York,</publisher>
+    <date>1987.</date>
+  </sequence>
+  <sequence>
+    <author>Deleuze, Gilles.</author>
+    <title>“Bartleby; or, the Formula.”</title>
+    <container-title>In Essays: Critical and Clinical,</container-title>
+    <translator>translated by Daniel W. Smith,</translator>
+    <pages>68-90.</pages>
+    <location>London:</location>
+    <publisher>Verso,</publisher>
+    <date>1998.</date>
+  </sequence>
+  <sequence>
+    <author>Stein, Jordan Alexander.</author>
+    <title>“Are ‘American Novels’ Novels? Mardi and the Problem of Boring Books.”</title>
+    <container-title>In The Oxford Handbook of Nineteenth-Century American Literature,</container-title>
+    <pages>42-58.</pages>
+  </sequence>
+  <sequence>
+    <author>Grandin, Temple, and Richard Panek.</author>
+    <title>The Autistic Brain: Helping Different Kinds of Mind Succeed.</title>
+    <location>New York:</location>
+    <publisher>Houghton Mifflin,</publisher>
+    <date>2014.</date>
+  </sequence>
+  <sequence>
+    <author>Sharpe, Jenny.</author>
+    <title>Ghosts of Slavery: A Literary Archaeology of Black Women’s Lives.</title>
+    <location>Minneapolis:</location>
+    <publisher>University of Minnesota Press,</publisher>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <author>Watts, Steven.</author>
+    <title>The Romance of Real Life: Charles Brockden Brown and the Origins of American Culture.</title>
+    <location>Baltimore:</location>
+    <publisher>Johns Hopkins University Press,</publisher>
+    <date>1994.</date>
+  </sequence>
+  <sequence>
+    <author>–––––.</author>
+    <title>Things as They Are; or the Adventures of Caleb Williams.</title>
+    <location>London:</location>
+    <publisher>Penguin,</publisher>
+    <date>2005.</date>
+  </sequence>
+  <sequence>
+    <author>–––––.</author>
+    <title>The Scarlet Letter.</title>
+    <location>New York:</location>
+    <publisher>Random House,</publisher>
+    <date>2003.</date>
+  </sequence>
+  <sequence>
+    <author>–––––.</author>
+    <title>“Charles Baudelaire.”</title>
+    <container-title>In Literary Criticism,</container-title>
+    <volume>Volume Two,</volume>
+    <pages>152-158.</pages>
+    <location>New York:</location>
+    <publisher>Library of America,</publisher>
+    <date>1984.</date>
+  </sequence>
+  <sequence>
+    <author>Burroughs, Stephen.</author>
+    <title>The Memoirs of the Notorious Stephen Burroughs of New Hampshire.</title>
+    <location>New York:</location>
+    <publisher>The Dial Press,</publisher>
+    <date>1924.</date>
+    <note>Reprinted from 1811 edition (Albany).</note>
+  </sequence>
+  <sequence>
+    <author>–––––.</author>
+    <title>Wieland; or The Transformation. An American Tale.</title>
+    <editor>Edited by Philip Barnard and Stephen Shapiro.</editor>
+    <location>Indianapolis:</location>
+    <publisher>Hackett,</publisher>
+    <date>2009.</date>
+  </sequence>
+  <sequence>
+    <author>White, Jeannette S.</author>
+    <title>“Baring Slavery’s Darkest Secrets: Charles Chesnutt’s ‘Conjure Tales’ as Masks of Truth.”</title>
+    <journal>The Southern Literary Journal</journal>
+    <volume>27, no. 1</volume>
+    <date>(1994):</date>
+    <pages>85-103.</pages>
+  </sequence>
+  <sequence>
+    <author>Matheson, Neil.</author>
+    <title>“History and Survival: Charles Chesnutt and the Time of Conjure.”</title>
+    <journal>American Literary Realism</journal>
+    <volume>43, no. 1</volume>
+    <date>(2010):</date>
+    <pages>1-22.</pages>
+  </sequence>
+  <sequence>
+    <author>Halttunen, Karen.</author>
+    <title>Confidence Men and Painted Women: A Study of Middle-Class Culture in America, 1830-1870.</title>
+    <location>New Haven:</location>
+    <publisher>Yale University Press,</publisher>
+    <date>1982.</date>
+  </sequence>
+  <sequence>
+    <author>Fine, Cordelia.</author>
+    <title>Delusions of Gender: The Real Science Behind Sex Differences.</title>
+    <location>London:</location>
+    <publisher>Icon Books,</publisher>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <author>Roth, Marty.</author>
+    <title>Foul and Fair Play: Reading Genre in Classic Detective Fiction.</title>
+    <location>Athens, Ga.:</location>
+    <publisher>University of Georgia Press,</publisher>
+    <date>1995.</date>
+  </sequence>
+  <sequence>
+    <author>Stowe, Harriet Beecher.</author>
+    <title>Uncle Tom’s Cabin or, Life Among the Lowly.</title>
+    <editor>Edited by Ann Douglas.</editor>
+    <location>New York:</location>
+    <publisher>Penguin,</publisher>
+    <date>1986.</date>
+  </sequence>
+  <sequence>
+    <author>Reynolds, David S.</author>
+    <title>Beneath the American Renaissance: The Subversive Imagination in the Age of Emerson and Melville.</title>
+    <location>New York:</location>
+    <publisher>Oxford University Press,</publisher>
+    <date>2011.</date>
+  </sequence>
+  <sequence>
+    <author>–––––.</author>
+    <title>“Melodramas of Beset Manhood.”</title>
+    <container-title>In Feminism and American Literary History.</container-title>
+    <location>New Brunswick, N.J.:</location>
+    <publisher>Rutgers University Press,</publisher>
+    <date>1992.</date>
+  </sequence>
+  <sequence>
+    <author>–––––.</author>
+    <title>“The Man of the Crowd.”</title>
+    <container-title>Complete Tales and Poems,</container-title>
+    <pages>475-481.</pages>
+  </sequence>
+  <sequence>
+    <author>James, Henry.</author>
+    <title>The Ambassadors.</title>
+    <location>Mineola, N.Y.:</location>
+    <publisher>Dover,</publisher>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <author>Carpio, Glenda.</author>
+    <title>Laughing Fit to Kill: Black Humor in the Fictions of Slavery.</title>
+    <location>New York:</location>
+    <publisher>Oxford University Press,</publisher>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <author>Sundquist, Eric.</author>
+    <title>To Wake the Nations: Race in the Making of American Literature.</title>
+    <location>Cambridge, Mass.:</location>
+    <publisher>Harvard University Press,</publisher>
+    <date>1993.</date>
+  </sequence>
+  <sequence>
+    <author>Alber, Jan, and Rüdiger Heinze.</author>
+    <title>“Introduction.”</title>
+    <container-title>In Unnatural Narratives, Unnatural Narratology,</container-title>
+    <pages>1-19.</pages>
+    <location>Berlin:</location>
+    <publisher>De Gruyter,</publisher>
+    <date>2011.</date>
+  </sequence>
+  <sequence>
+    <author>Davidson, Cathy N.</author>
+    <title>Revolution and the Word.</title>
+    <location>New York:</location>
+    <publisher>Oxford University Press,</publisher>
+    <date>1986.</date>
+  </sequence>
+  <sequence>
+    <author>–––––.</author>
+    <title>“Conjectures on World Literature.”</title>
+    <journal>New Left Review</journal>
+    <volume>1</volume>
+    <date>(2000):</date>
+    <pages>54-68.</pages>
+  </sequence>
+  <sequence>
+    <author>Levine, Robert S.</author>
+    <title>Conspiracy and Romance: Studies in Brockden Brown, Cooper, Hawthorne, and Melville.</title>
+    <location>Cambridge:</location>
+    <publisher>Cambridge University Press,</publisher>
+    <date>1989.</date>
+  </sequence>
+  <sequence>
+    <author>Faulkner, Paul.</author>
+    <title>“Lying and Deceit.”</title>
+    <container-title>In The International Encyclopedia of Ethics,</container-title>
+    <editor>edited by Hugh LaFollette,</editor>
+    <pages>3101-3109.</pages>
+    <location>Malden, Mass.:</location>
+    <publisher>Wiley-Blackwell,</publisher>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <author>Dayan, Joan.</author>
+    <title>“Poe, Persons, and Property.”</title>
+    <container-title>In Romancing the Shadow: Poe and Race,</container-title>
+    <editor>edited by J. Gerald Kennedy and Liliane Weissberg,</editor>
+    <pages>106-126.</pages>
+    <location>New York:</location>
+    <publisher>Oxford University Press,</publisher>
+    <date>2001.</date>
+  </sequence>
+  <sequence>
+    <author>–––––.</author>
+    <title>“‘The Silhouette of a Content’: Bartleby and American Literary Specificity.”</title>
+    <container-title>In Melville and Aesthetics,</container-title>
+    <editor>edited by Samuel Otter and Geoffrey Sanborn,</editor>
+    <pages>137-55.</pages>
+    <location>New York:</location>
+    <publisher>Palgrave Macmillan,</publisher>
+    <date>2011.</date>
+  </sequence>
+  <sequence>
+    <author>Cooper, James Fenimore.</author>
+    <title>The Deerslayer.</title>
+    <location>New York:</location>
+    <publisher>Random House,</publisher>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <author>Brickhouse, Anna.</author>
+    <title>“Transatlantic vs. Hemispheric: Toni Morrison’s Long Nineteenth Century.”</title>
+    <container-title>In The Oxford Handbook of Nineteenth-Century American Literature,</container-title>
+    <editor>edited by Russ Castronovo,</editor>
+    <pages>137-159.</pages>
+    <location>New York:</location>
+    <publisher>Oxford University Press,</publisher>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <author>Stokke, Andreas.</author>
+    <title>“Lying and Asserting.”</title>
+    <journal>Journal of Philosophy</journal>
+    <volume>110.1</volume>
+    <date>(2013):</date>
+    <pages>33-60.</pages>
+  </sequence>
+  <sequence>
+    <author>Douglass, Frederick.</author>
+    <title>My Bondage and My Freedom.</title>
+    <editor>Ed. William L. Andrews.</editor>
+    <location>Urbana:</location>
+    <publisher>University of Illinois Press,</publisher>
+    <date>1987.</date>
+  </sequence>
+  <sequence>
+    <author>Fredrickson, George M.</author>
+    <title>The Black Image in the White Mind: The Debate on Afro-American Character and Destiny, 1817-1914.</title>
+    <location>New York:</location>
+    <publisher>Harper,</publisher>
+    <date>1971.</date>
+  </sequence>
+  <sequence>
+    <author>Twain, Mark.</author>
+    <title>Adventures of Huckleberry Finn.</title>
+    <editor>Edited by Sculley Bradley, Richmond Croom Beatty, E. Hudson Long, and Thomas Cooley.</editor>
+    <location>New York:</location>
+    <publisher>Norton,</publisher>
+    <date>1977.</date>
+  </sequence>
+  <sequence>
+    <author>Fiedler, Leslie.</author>
+    <title>Love and Death in the American Novel.</title>
+    <location>Champaign:</location>
+    <publisher>Dalkey Archive,</publisher>
+    <date>2003.</date>
+  </sequence>
+  <sequence>
+    <author>Rzepka, Charles.</author>
+    <title>Detective Fiction.</title>
+    <location>Cambridge:</location>
+    <publisher>Polity Press,</publisher>
+    <date>2005.</date>
+  </sequence>
+  <sequence>
+    <author>–––––.</author>
+    <title>The Wings of the Dove.</title>
+    <location>New York:</location>
+    <publisher>Random House,</publisher>
+    <date>2003.</date>
+  </sequence>
+  <sequence>
+    <author>Gallagher, Catherine.</author>
+    <title>“The Rise of Fictionality.”</title>
+    <container-title>In The Novel,</container-title>
+    <volume>volume 1.</volume>
+    <editor>Ed. Franco Moretti.</editor>
+    <location>Princeton:</location>
+    <publisher>Princeton University Press,</publisher>
+    <date>2006.</date>
+    <pages>336-363.</pages>
+  </sequence>
+  <sequence>
+    <author>–––––.</author>
+    <title>The Confidence-Man: His Masquerade.</title>
+    <location>Champaign:</location>
+    <publisher>Dalkey Archive,</publisher>
+    <date>2006.</date>
+  </sequence>
+  <sequence>
+    <author>Goldstein, Jan.</author>
+    <title>Console and Classify: The French Psychiatric Profession in the Nineteenth Century.</title>
+    <location>New York:</location>
+    <publisher>Cambridge University Press,</publisher>
+    <date>1987.</date>
+  </sequence>
+  <sequence>
+    <author>Shiffrin, Seana Valentine.</author>
+    <title>Speech Matters: On Lying, Morality, and the Law.</title>
+    <location>Princeton:</location>
+    <publisher>Princeton University Press,</publisher>
+    <date>2014.</date>
+  </sequence>
+  <sequence>
     <author>Baker, J. W.</author>
     <date>(2011).</date>
     <title>Conditional Mean Spectrum: Tool for ground motion selection.</title>
