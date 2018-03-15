@@ -5278,7 +5278,7 @@
     <author>Yglesias, Matthew.</author>
     <date>2014.</date>
     <title>“Obama’s biggest economic policy mistake.”</title>
-    <source>Vox</source>
+    <container-title>Vox</container-title>
     <date>Septem- ber(17).</date>
     <note>URL:</note>
     <url>http://www.vox.com/2014/9/17/6219247/obamas-biggest-economic-policy-mistake</url>
@@ -5883,9 +5883,9 @@
     <author>Cheshire, Tom.</author>
     <date>2011.</date>
     <title>"How Rovio Made Angry Birds a Winner".</title>
-    <source>Wired,</source>
+    <container-title>Wired,</container-title>
     <date>7 March.</date>
-    <note>Online:</note>
+    <genre>Online:</genre>
     <url>http://www.wired.co.uk/magazine/archive/2011/04/features/howrovio-made-angry-birds-a-winner?page=all</url>
     <note>(accessed 20 March 2012).</note>
   </sequence>
@@ -6276,5 +6276,196 @@
     <genre>Web.</genre>
     <note>29 Sept. 2016,</note>
     <url>&lt;https://www.tesla.com/blog/secret-tesla-motors-master-plan-just-between-you-and-me.&gt;.</url>
+  </sequence>
+  <sequence>
+    <author>Thompson, Wayne.</author>
+    <date>(1996, November 13).</date>
+    <title>WFU Begins New Construction Program.</title>
+    <genre>Press release.</genre>
+  </sequence>
+  <sequence>
+    <author>Renne, P. R., Reimold, W.U., Koeberl, C., Hough, R., Claeys,P.,</author>
+    <title>Comment on: "K-Ar evidence from illitic clays of a Late Devonian age for the 120 km diameter Woodleigh impact structure, Southern Carnarvon Basin, Western Australia", by I.T. Uysal, S.D. Golding, A.Y. Glikson, A.J.Mory and M.Glikson, A.Y. Glikson, A.J….</title>
+    <journal>Earth and Planetary Science Letters,</journal>
+    <volume>v.201,</volume>
+    <pages>p.247-252.</pages>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <author>Forsé M., Tronca L.,</author>
+    <date>2005,</date>
+    <title>« Interazionismo strutturale e capitale sociale,</title>
+    <journal>Sociologia e Politiche Sociali,</journal>
+    <volume>Vol. 8, n° 1,</volume>
+    <pages>p. 7-22.</pages>
+  </sequence>
+  <sequence>
+    <author>Cédric Durand, Tristan Auvray,</author>
+    <date>2015</date>
+    <title>“Is there a European Capital?”</title>
+    <container-title>CES Conference, Sc Po,</container-title>
+    <location>Paris,</location>
+    <date>July 7-10.</date>
+  </sequence>
+  <sequence>
+    <author>Erisman, A. Bleeker, A. Hensen, and A. Vermeulen :</author>
+    <title>Agricultural air quality in Europe and the future perspectives,</title>
+    <journal>Atm. Environ.,</journal>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <author>Axters, Stephanus.</author>
+    <date>1971.</date>
+    <title>De imitatione Christi: een handschriften-inventaris bij het vijfhonderdste verjaren van Thomas Hemerken van Kempen d. 1471</title>
+    <collection-title>(Schriftenreihe des Kreises Kempen-Krefeld 27).</collection-title>
+    <location>Kempen-Niederrhein:</location>
+    <publisher>Thomas Druckerei.</publisher>
+  </sequence>
+  <sequence>
+    <author>FRIARD, Dominique.</author>
+    <title>"Je voudrais que vous parliez à ma mère" - Carnet de route en psychiatrie : Vers une pratique éclairée de l'entretien infirmier.</title>
+    <publisher>JANSSEN-CILAG</publisher>
+    <date>2010,</date>
+    <pages>40 p.</pages>
+  </sequence>
+  <sequence>
+    <author>Cumming, William P.</author>
+    <date>1962.</date>
+    <title>The Southeast in Early Maps.</title>
+    <publisher>University of North Carolina Press.</publisher>
+    <location>Chapel Hill, NC.</location>
+  </sequence>
+  <sequence>
+    <title>CIA World Factbook.</title>
+    <note>Available at</note>
+    <url>https://www.cia.gov/ library/publications/the-world-factbook/index.html</url>
+  </sequence>
+  <sequence>
+    <author>Fraassen, B.</author>
+    <date>(1976).</date>
+    <title>Probabilities of Conditionals.</title>
+    <editor>In W. Harper &amp; C. Hooker (Eds.),</editor>
+    <container-title>Foundations of Probability Theory, Statistical Inference and Statistical Theories of Science</container-title>
+    <pages>(pp. 261-301).</pages>
+    <location>Dordrecht:</location>
+    <publisher>D. Reidel.</publisher>
+  </sequence>
+  <sequence>
+    <author>Carporzen, L., Gilder, S.A and Hart,R.J.,</author>
+    <title>Palaeomagnetism of the Vredefort meteorite crater and implications for craters on Mars,</title>
+    <journal>Nature,</journal>
+    <volume>v. 435 , n. 7039 ,</volume>
+    <pages>p. 198.</pages>
+    <date>2005.</date>
+  </sequence>
+  <sequence>
+    <author>G. Gauthier,</author>
+    <title>Andrei Tarkovski,</title>
+    <publisher>Edilig,</publisher>
+    <location>Paris,</location>
+    <date>1988</date>
+  </sequence>
+  <sequence>
+    <author>Jones, Philip.</author>
+    <date>2011.</date>
+    <title>"Global Publishing Back on the Front Foot".</title>
+    <container-title>Bookseller,</container-title>
+    <date>20 June.</date>
+    <genre>Online:</genre>
+    <url>http://www.thebookseller.com/news/global-publishing-back-front-foot.html</url>
+    <note>(accessed 3 November 2012).</note>
+  </sequence>
+  <sequence>
+    <title>International Medical Products Anti-Counterfeiting Taskforce.</title>
+    <date>(2008).</date>
+    <title>Counterfeit drugs kill! Counterfeits can have harmful effects and kill.</title>
+    <location>Geneva, Switzerland:</location>
+    <publisher>World Health Organization.</publisher>
+    <note>Retrieved January 15, 2010, from</note>
+    <url>http://www.who.int/impact/Final BrochureWHA2008a.pdf</url>
+  </sequence>
+  <sequence>
+    <author>Wood, Geoffrey E. "Ruth."</author>
+    <title>Jerome Biblical Commentary.</title>
+    <location>Englewood Cliffs:</location>
+    <publisher>Prentice,</publisher>
+    <date>1968.</date>
+    <pages>603-09.</pages>
+  </sequence>
+  <sequence>
+    <author>Kinsland, Gary L., Manuel Hurtado and Kevin O. Pope.,</author>
+    <title>Detection of groundwater conduits in limestones with gravity surveys: Data from the area of the Chicxulub Impact Crater, Yucatan Peninsula, Mexico.</title>
+    <journal>Geophysical Research Letters,</journal>
+    <volume>v. 27, no. 8, April,</volume>
+    <pages>pp. 1223-1226.</pages>
+    <date>2000.</date>
+  </sequence>
+  <sequence>
+    <author>Boas, Franz</author>
+    <date>1935.</date>
+    <title>Kwakiutl Culture as Reflected in Mythology. Memoirs of the American Folk-lore Society 28.</title>
+    <location>New York:</location>
+    <publisher>Stechert.</publisher>
+  </sequence>
+  <sequence>
+    <author>Lindquist, E.E., Krantz, G.W., Walter, D.E.,</author>
+    <date>2009.</date>
+    <title>Orden Mesostigmata.</title>
+    <container-title>In: A Manual of Acarology,</container-title>
+    <editor>Krantz G.W and D.E. Walter Eds.,</editor>
+    <edition>Third Edition.</edition>
+    <publisher>Texas Tech University Press,</publisher>
+    <location>Lubbock,</location>
+    <pages>pp.124-232.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[3]</citation-number>
+    <title>“MRI Market | Size | Share | Analysis | Future Scope (2017-2022).”</title>
+    <genre>[Online].</genre>
+    <note>Available:</note>
+    <url>https://www.mordorintelligence.com/industry-reports/global-mri-market-industry.</url>
+    <note>[Accessed: 19-Oct-2017].</note>
+  </sequence>
+  <sequence>
+    <author>Hogue, Christopher W. V.</author>
+    <date>(2001):</date>
+    <title>Structure Databases.</title>
+    <editor>In: Andreas D. Baxevanis, B. F. Francis Ouellette (Hrsg.):</editor>
+    <container-title>Bioinformatics</container-title>
+    <edition>(2. Aufl.,</edition>
+    <pages>S. 83–109).</pages>
+    <location>New York, NY:</location>
+    <publisher>Wiley-Interscience</publisher>
+  </sequence>
+  <sequence>
+    <author>S.G. Calabresi,</author>
+    <title>« Federalism and the Rehnquist Court : a normative defense »,</title>
+    <journal>The Annals,</journal>
+    <volume>574,</volume>
+    <date>2001,</date>
+    <pages>pp. 24-35</pages>
+    <note>(il manque pp.28-29).</note>
+  </sequence>
+  <sequence>
+    <author>Baes Jr., C. F., Mesmer, R. E.</author>
+    <title>The Hydrolysis of Cations,</title>
+    <date>1976,</date>
+    <location>New York:</location>
+    <publisher>Wiley Interscience.</publisher>
+  </sequence>
+  <sequence>
+    <author>Horn, W., El Goresy, A.,</author>
+    <title>The Rochechouart crater in France: Stony and not an iron meteorite? (abstract).</title>
+    <journal>Lunar and Planetary Science</journal>
+    <volume>XI,</volume>
+    <pages>pp. 468-470.</pages>
+    <date>1980.</date>
+  </sequence>
+  <sequence>
+    <author>ANQUETIN, FREYERMUTH,</author>
+    <date>2009,</date>
+    <title>La figure de l’« habitant ». Sociologie politique de la demande sociale,</title>
+    <location>Rennes :</location>
+    <publisher>PUR</publisher>
   </sequence>
 </dataset>

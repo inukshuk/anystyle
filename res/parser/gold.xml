@@ -254,13 +254,6 @@
     <pages>2906–2908.</pages>
   </sequence>
   <sequence>
-    <author>ANQUETIN, FREYERMUTH,</author>
-    <date>2009,</date>
-    <title>La figure de l’« habitant ». Sociologie politique de la demande sociale,</title>
-    <location>Rennes :</location>
-    <publisher>PUR</publisher>
-  </sequence>
-  <sequence>
     <citation-number>96.</citation-number>
     <author>Buxton MJ, Lacey LA, Feagan BG, Niecko T, Miller DW, Townsend RJ.</author>
     <title>Mapping from disease-specific measures to utility: an analysis of the relationships between the Inflammatory Bowel Disease Questionnaire and Crohn's Disease Activity Index in Crohn's disease and measures of utility.</title>
@@ -2369,24 +2362,6 @@
     <date>2009.</date>
   </sequence>
   <sequence>
-    <author>Horn, W., El Goresy, A.,</author>
-    <title>The Rochechouart crater in France: Stony and not an iron meteorite? (abstract).</title>
-    <journal>Lunar and Planetary Science</journal>
-    <volume>XI,</volume>
-    <pages>pp. 468-470.</pages>
-    <date>1980.</date>
-  </sequence>
-  <sequence>
-    <author>Jones, Philip.</author>
-    <date>2011.</date>
-    <title>"Global Publishing Back on the Front Foot".</title>
-    <source>Bookseller,</source>
-    <date>20 June.</date>
-    <note>Online:</note>
-    <url>http://www.thebookseller.com/news/global-publishing-back-front-foot.html</url>
-    <note>(accessed 3 November 2012).</note>
-  </sequence>
-  <sequence>
     <author>Carruthers, P.</author>
     <date>(1998b).</date>
     <title>Animal Subjectivity.</title>
@@ -2396,22 +2371,6 @@
     <note>Retrieved from:</note>
     <url>http://www.theassc.org/files/assc/2377.pdf.</url>
     <note>[see also “Replies to Critics: Explaining Subjectivity”, (his response to commentators), in Psyche, 6 (3)]</note>
-  </sequence>
-  <sequence>
-    <title>International Medical Products Anti-Counterfeiting Taskforce.</title>
-    <date>(2008).</date>
-    <title>Counterfeit drugs kill! Counterfeits can have harmful effects and kill.</title>
-    <location>Geneva, Switzerland:</location>
-    <publisher>World Health Organization.</publisher>
-    <note>Retrieved January 15, 2010, from</note>
-    <url>http://www.who.int/impact/Final BrochureWHA2008a.pdf</url>
-  </sequence>
-  <sequence>
-    <author>G. Gauthier,</author>
-    <title>Andrei Tarkovski,</title>
-    <publisher>Edilig,</publisher>
-    <location>Paris,</location>
-    <date>1988</date>
   </sequence>
   <sequence>
     <author>Rouse, H.,</author>
@@ -2427,7 +2386,7 @@
     <container-title>Bioinformatics,</container-title>
     <editor>edited by Andreas D. Baxevanis and B. F. Francis Ouellette,</editor>
     <edition>2nd ed.,</edition>
-    <source>Wiley-Interscience,</source>
+    <publisher>Wiley-Interscience,</publisher>
     <date>2001,</date>
     <pages>pp. 83–109.</pages>
   </sequence>
@@ -2437,5 +2396,70 @@
     <edition>3rd ed.,</edition>
     <publisher>CSHL Press,</publisher>
     <date>2001.</date>
+  </sequence>
+  <sequence>
+    <author>Schultz, P. H., D'Hondt, S.,</author>
+    <title>Cretaceous-Tertiary (Chicxulub) impact angle and its consequences,</title>
+    <journal>Geology,</journal>
+    <volume>vol. 24, No. 11,</volume>
+    <pages>pp. 963-967.</pages>
+    <date>1996.</date>
+  </sequence>
+  <sequence>
+    <author>Mayle, B. A., A. J. Peace, and R. M. A. Gill.</author>
+    <date>1999.</date>
+    <title>How many deer? A field guide to estimating deer population size.</title>
+    <publisher>Forestry Commission,</publisher>
+    <location>Edinburgh, Scotland, United Kingdom.</location>
+  </sequence>
+  <sequence>
+    <author>Alireza Shameli-Sendi , Michel Dagenais,</author>
+    <title>ARITO: Cyber-attack response system using accurate risk impact tolerance,</title>
+    <journal>International Journal of Information Security,</journal>
+    <volume>v.13 n.4,</volume>
+    <pages>p.367-390,</pages>
+    <date>August 2014</date>
+    <doi>[doi&gt;10.1007/s10207-013-0222-9]</doi>
+  </sequence>
+  <sequence>
+    <author>Tracy, N.</author>
+    <date>(2012, January 16).</date>
+    <title>Effects of Drug Addiction (physical and psychological).</title>
+    <note>Retrieved March 23, 2016, from Healthy Place:</note>
+    <url>http://www.healthyplace.com/addictions/drug-addiction/effects-of-drug-addiction-physical-and-psychological/</url>
+  </sequence>
+  <sequence>
+    <author>David B. Quinn,</author>
+    <title>« The First Pilgrims »,</title>
+    <journal>The William and Mary Quarterly,</journal>
+    <volume>3e série, vol. 23, 3</volume>
+    <date>(1966)</date>
+  </sequence>
+  <sequence>
+    <author>Younan PM, Polacino P, Kowalski JP, Peterson CW, Maurice NJ, Williams NP, Ho O, Trobridge GD, Von Laer D, Prlic M, Beard BC, DeRosa S, Hu SL, Kiem HP.</author>
+    <title>Positive selection of mC46-expressing CD4+ T cells and maintenance of virus specific immunity in a primate AIDS model.</title>
+    <journal>Blood</journal>
+    <volume>2013;122(2):</volume>
+    <pages>179-187</pages>
+    <note>[PMCID: PMC3709653].</note>
+  </sequence>
+  <sequence>
+    <citation-number>[23]</citation-number>
+    <author>W. Kang and M. T. A. Saif,</author>
+    <title>“A novel method for in situ uniaxial tests at the micro/nano scale part I: Theory,”</title>
+    <journal>Journal of Microelectromechanical Systems,</journal>
+    <volume>vol. 19,</volume>
+    <pages>pp. 1309– 1321,</pages>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
+    <author>Taylor, C.</author>
+    <date>(1987).</date>
+    <title>Overcoming epistemology.</title>
+    <editor>In K. Baynes, J. Bohman, &amp; T. McCarthy (Eds.),</editor>
+    <container-title>After philosophy: End or transformation?</container-title>
+    <pages>(pp. 464–488).</pages>
+    <location>Cambridge:</location>
+    <publisher>Massachusetts Institute of Technology Press.</publisher>
   </sequence>
 </dataset>
