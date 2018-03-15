@@ -45,8 +45,25 @@ module AnyStyle
       @pages ||= Page.parse(lines)
     end
 
+    def each
+      if block_given?
+        pages.each.with_index do |page, idx|
+          page.lines.each do |line|
+            yield line, page, idx
+          end
+        end
+        self
+      else
+        to_enum
+      end
+    end
+
     def to_a(encode: true, **options)
       super encode: encode, **options
+    end
+
+    def inspect
+      "#<AnyStyle::Document lines={#{size}}>"
     end
 
 
@@ -80,6 +97,10 @@ module AnyStyle
       def initialize(lines = [], width: 0)
         @lines = lines
         @width = width
+      end
+
+      def inspect
+        "#<AnyStyle::Document::Page lines={#{lines.length}} width={#{width}}>"
       end
     end
   end
