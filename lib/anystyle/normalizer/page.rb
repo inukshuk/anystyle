@@ -9,7 +9,7 @@ module AnyStyle
             when /(\d+)(?:\.(\d+))?(?:\((\d{4})\))?:(\d.*)/
               # "volume.issue(year):pp"
               append(item, :volume, $1.to_i)
-              append(item, :number, $2.to_i) unless $2.nil?
+              append(item, :issue, $2.to_i) unless $2.nil?
               append(item, :year, $3.to_i) unless $3.nil?
               $4
             else

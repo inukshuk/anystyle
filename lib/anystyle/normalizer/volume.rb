@@ -33,7 +33,7 @@ module AnyStyle
           when /(\d+)/
             $1
           else
-            value
+            volume
           end
         end
       end
