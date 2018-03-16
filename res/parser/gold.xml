@@ -469,14 +469,6 @@
     <publisher>Cambridge University Press).</publisher>
   </sequence>
   <sequence>
-    <author>Dressler, B. O., Crabtree, D. and Schuraytz,B.C.,</author>
-    <title>Incipient melt formation and devitrification at the Wanapitei impact structure, Ontario, Canada.</title>
-    <journal>Meteoritics and Planetary Science,</journal>
-    <volume>v. 32,</volume>
-    <pages>pp. 249-258.</pages>
-    <date>1997.</date>
-  </sequence>
-  <sequence>
     <author>Guttmann, A.,</author>
     <title>Rabbinic Judaism in the Making: A Chapter in the History of the Halakhah from Ezra to Judah I</title>
     <location>(Detroit, MI:</location>
@@ -2329,15 +2321,6 @@
     <pages>291–299.</pages>
   </sequence>
   <sequence>
-    <citation-number>35.</citation-number>
-    <author>Ferguson, JN. Aldag, JM. Insel, TR. Young, LJ.</author>
-    <date>(2001).</date>
-    <title>Oxytocin in the medial amygdala is essential for social recognition in the mouse.</title>
-    <journal>Journal of Neuroscience,</journal>
-    <volume>21:</volume>
-    <pages>8278-8285.</pages>
-  </sequence>
-  <sequence>
     <citation-number>45.</citation-number>
     <author>Friis-Møller A,, Lemming LE,, Valerius NH,, Bruun B.</author>
     <date>2004.</date>
@@ -2442,5 +2425,110 @@
     <pages>(pp. 464–488).</pages>
     <location>Cambridge:</location>
     <publisher>Massachusetts Institute of Technology Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>SKURNIK, David.</author>
+    <title>Maladies infectieuses.</title>
+    <location>Issy-les-Moulineaux :</location>
+    <publisher>ELSEVIER MASSON,</publisher>
+    <date>2008.</date>
+    <pages>117 p.</pages>
+    <note>(mémo INFIRMIER).</note>
+  </sequence>
+  <sequence>
+    <author>Kring, D.A.,</author>
+    <title>Hypervelocity collisions into continental crust composed of sediments and an underlying crystalline basement: Comparing the Ries (?24 km) and Chicxulub (?180 km) impact craters,</title>
+    <journal>Chemie der Erde - Geochemistry,</journal>
+    <volume>v. 65,</volume>
+    <pages>pp. 1-46,</pages>
+    <date>2005</date>
+  </sequence>
+  <sequence>
+    <author>SIERVO (M.), GREY (P.), NYAN (O.A.), PRENTICE (A.M.)</author>
+    <date>2006,</date>
+    <title>A pilot study on body image, attractiveness and body size in Gambians living in an urban community.</title>
+    <journal>Eating and Weight Disorders</journal>
+    <volume>11(2):</volume>
+    <pages>100-109.</pages>
+  </sequence>
+  <sequence>
+    <author>Cowman, G.A. &amp; Singer, P.C.,</author>
+    <date>1995.</date>
+    <title>Effect of Bromide Ion on Haloacetic Acid Speciation Resulting From Chlorination and Chloramination of Aquatic Humic Substances.</title>
+    <journal>&lt;italic&gt;Environmental Science &amp; Technology&lt;/italic&gt;,</journal>
+    <volume>30:1:</volume>
+    <pages>16.</pages>
+    <url>http://dx.doi.org/10.1021/es9406905.</url>
+  </sequence>
+  <sequence>
+    <author>H. Fensterheim e H.G. Birch,</author>
+    <title>A Case Study of Group Ideology and Individual Adjustment,</title>
+    <journal>“Journal of Abnormal Psychology”,</journal>
+    <volume>45/4</volume>
+    <date>(1950),.</date>
+    <pages>710-720.</pages>
+  </sequence>
+  <sequence>
+    <author>Cristina La Rocca, Luigi Provero,</author>
+    <title>The Dead and Their Gifts. The Will of Eberhard, Count of Frioul, and His Wife Gisela, Daughter of Louis the Pious (863-864),</title>
+    <container-title>Rituals of Power. From Late Antiquity to the Early Middle Ages,</container-title>
+    <location>Leiden,</location>
+    <date>2000,</date>
+    <pages>225-280.</pages>
+  </sequence>
+  <sequence>
+    <author>Dawson, Chester.</author>
+    <date>(2012).</date>
+    <title>A Nuclear Free Town Fades Away in Japan.</title>
+    <journal>Wall Street Journal</journal>
+    <date>4 January.</date>
+  </sequence>
+  <sequence>
+    <author>McCarthy, Kathleen.</author>
+    <title>Slaves, Masters, and the Art of Authority in Plautine Comedy.</title>
+    <location>Princeton:</location>
+    <publisher>Princeton University Press,</publisher>
+    <date>2000.</date>
+  </sequence>
+  <sequence>
+    <author>Levine, Robert</author>
+    <date>1977</date>
+    <title>Kwak'wala.</title>
+    <journal>In International Journal of American Linguistics, Native American Texts Series,</journal>
+    <volume>2,3:</volume>
+    <pages>98-126.</pages>
+    <editor>Edited by Barry Carlson.</editor>
+  </sequence>
+  <sequence>
+    <author>COLLECTIF.</author>
+    <title>Processus inflammatoires et infectieux - L’essentiel pour réviser.</title>
+    <location>Malakoff :</location>
+    <publisher>FOUCHER,</publisher>
+    <date>2013.</date>
+    <pages>218 p.</pages>
+    <note>(Sup’ Foucher Infirmier).</note>
+  </sequence>
+  <sequence>
+    <author>Barrington Moore,</author>
+    <title>Social Origins of Dictatorship and Democracy: Lord and Peasant in the Making of the Modern World</title>
+    <location>(Harmondsworth:</location>
+    <publisher>Penguin,</publisher>
+    <date>1967).</date>
+  </sequence>
+  <sequence>
+    <author>Alan Yuhas and Mazin Sidahmed,</author>
+    <title>‘Is this a Muslim ban? Trump's executive order explained,’</title>
+    <journal>The Guardian,</journal>
+    <date>31 January 2017,</date>
+    <url>https://www.theguardian.com/us-news/2017/jan/28/trump-immigration-ban-syria-muslims-reaction-lawsuits,</url>
+    <note>accessed 19 February, 2017.</note>
+  </sequence>
+  <sequence>
+    <author>Marras WS, Lavender SA, Ferguson SA, Splittstoesser RE, Yang G.</author>
+    <title>Quantitative biomechanical workplace exposure measures: distribution centers.</title>
+    <journal>J Electromyogr Kinesiol.</journal>
+    <date>2010;</date>
+    <volume>20(5):</volume>
+    <pages>813-22.</pages>
   </sequence>
 </dataset>
