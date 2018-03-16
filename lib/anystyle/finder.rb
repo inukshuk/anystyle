@@ -15,5 +15,15 @@ module AnyStyle
     def initialize(options = {})
       super(options)
     end
+
+    def expand(dataset)
+      dataset.each do |doc|
+        doc.each_with_index do |(line, page, pn), ln|
+          line.observations = features.map { |f|
+            f.observe line.value, page: page, doc: doc, pn: pn, ln: ln
+          }
+        end
+      end
+    end
   end
 end

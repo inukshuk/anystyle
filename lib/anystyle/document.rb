@@ -4,13 +4,15 @@ module AnyStyle
       include PdfUtils
 
       def parse(string, delimiter: /\n/, tagged: false)
+        current_label = nil
         new(string.split(delimiter).map { |line|
           label, line = line.split(/\s*:/, 2) if tagged
-          Wapiti::Token.new line, label: label.to_s
+          current_label = label || current_label
+          Wapiti::Token.new line, label: current_label.to_s
         })
       end
 
-      def open(path, format: File.extname(path), tagged: false)
+      def open(path, format: File.extname(path), tagged: false, **options)
         raise ArgumentError,
           "cannot open tainted path: '#{path}'" if path.tainted?
         raise ArgumentError,
@@ -20,8 +22,8 @@ module AnyStyle
 
         case format.downcase
         when '.pdf'
-          meta = pdf_meta path
-          info = pdf_info path
+          meta = pdf_meta path if options[:parse_meta]
+          info = pdf_info path if options[:parse_info]
           input = pdf_to_text path
         when '.ttx'
           tagged = true

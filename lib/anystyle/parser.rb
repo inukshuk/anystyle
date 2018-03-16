@@ -69,14 +69,7 @@ module AnyStyle
     end
 
     def expand(dataset)
-      dataset.each do |seq|
-        seq.tokens.each_with_index do |tok, idx|
-          alpha = scrub tok.value
-          tok.observations = features.map { |f|
-            f.observe tok.value, alpha, idx, seq
-          }
-        end
-      end
+      raise NotImplementedError
     end
 
     def prepare(input, **opts)
@@ -86,6 +79,8 @@ module AnyStyle
       case input
       when Wapiti::Dataset
         expand input
+      when Wapiti::Sequence
+        expand Wapiti::Dataset.new([input])
       when String
         if !input.tainted? && input.length < 1024 && File.exists?(input)
           expand Wapiti::Dataset.open(input, opts)
@@ -155,6 +150,21 @@ module AnyStyle
       ]
     end
 
+    def expand(dataset)
+      dataset.each do |seq|
+        seq.tokens.each_with_index do |tok, idx|
+          alpha = scrub tok.value
+          tok.observations = features.map { |f|
+            f.observe tok.value, alpha, idx, seq
+          }
+        end
+      end
+    end
+
+    def format_hash(dataset)
+      dataset.map { |seq| normalize(seq.to_h(symbolize_keys: true)) }
+    end
+
     def parse(input, format: options[:format])
       case format
       when :wapiti
@@ -165,11 +175,6 @@ module AnyStyle
       else
         raise ArgumentError, "format not supported: #{format}"
       end
-    end
-
-
-    def format_hash(dataset)
-      dataset.map { |seq| normalize(seq.to_h(symbolize_keys: true)) }
     end
   end
 end
