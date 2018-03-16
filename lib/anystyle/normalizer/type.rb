@@ -13,7 +13,8 @@ module AnyStyle
         when keys.include?(:journal)
           'article'
         when keys.include?(:'container-title')
-          if item[:'container-title'].to_s =~ /Proceedings|Proc\./
+          case item[:'container-title'].to_s
+          when /proceedings|proc\.|conference|meeting|symposi(on|um)/i
             'paper-conference'
           else
             'chapter'
@@ -32,14 +33,15 @@ module AnyStyle
             'personal_communication'
           when /interview/i
             'interview'
+          when /web|online|en ligne/
+            'webpage'
           end
         when keys.include?(:medium)
-          if item[:medium].to_s =~ /dvd|video|vhs|motion/i
+          case item[:medium].to_s
+          when /dvd|video|vhs|motion/i
             'motion_picture'
-          elsif item[:medium].to_s =~ /television/i
+          when /television/i
             'broadcast'
-          else
-            item[:medium]
           end
         when keys.include?(:publisher)
           'book'
