@@ -74,8 +74,8 @@ end
 desc 'Check all tagged datasets'
 task :check do
   require 'anystyle'
-  Dir['./res/parser/*.xml'].each do |xml|
-    print 'Checking %.15s' % "#{File.basename(xml)}............"
+  Dir['./res/parser/*.xml'].sort.each do |xml|
+    print 'Checking %.25s' % "#{File.basename(xml)}....................."
     start = Time.now
     stats = AnyStyle.parser.check xml.untaint
     time = Time.now - start
@@ -96,7 +96,7 @@ end
 desc "Save delta of a tagged dataset with itself"
 task :delta, :xml do |t, args|
   require 'anystyle'
-  print 'Checking %.15s' % "#{File.basename(args[:xml])}............"
+  print 'Checking %.25s' % "#{File.basename(args[:xml])}....................."
   input = Wapiti::Dataset.open args[:xml].untaint
   output = AnyStyle.parser.label input
   delta = output - input
