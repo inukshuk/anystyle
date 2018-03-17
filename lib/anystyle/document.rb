@@ -62,6 +62,16 @@ module AnyStyle
       end
     end
 
+    def to_s(delimiter: "\n", encode: false, tagged: false, **options)
+      if tagged
+        lines.map { |ln|
+          '%.14s| %s' % ["#{ln.label}              ", ln.value]
+        }.join(delimiter)
+      else
+        super delimiter: delimiter, encode: encode, tagged: tagged, **options
+      end
+    end
+
     def to_a(encode: true, **options)
       super encode: encode, **options
     end
