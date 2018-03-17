@@ -4,10 +4,12 @@ module AnyStyle
       include PdfUtils
 
       def parse(string, delimiter: /\n/, tagged: false)
-        current_label = nil
+        current_label = ''
         new(string.split(delimiter).map { |line|
-          label, line = line.split(/\s*:/, 2) if tagged
-          current_label = label || current_label
+          if tagged
+            label, line = line.split(/\s*\| /, 2)
+            current_label = label unless label.empty?
+          end
           Wapiti::Token.new line, label: current_label.to_s
         })
       end
