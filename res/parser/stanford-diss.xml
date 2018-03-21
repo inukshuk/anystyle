@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<oxml version="1.0" encoding="UTF-8"?>
 <dataset>
   <sequence>
     <author>Leftwich, Richard H.</author>
@@ -78,8 +78,7 @@
   <sequence>
     <author>Johnston, Robert.</author>
     <title>"Rebirth of Commercial Paper,"</title>
-    <journal>Monthly Review,</journal>
-    <publisher>The Federal Reserve Bank of San Francisco</publisher>
+    <journal>Monthly Review, The Federal Reserve Bank of San Francisco</journal>
     <date>(July, 1968).</date>
   </sequence>
   <sequence>
