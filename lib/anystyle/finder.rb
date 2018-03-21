@@ -14,13 +14,18 @@ module AnyStyle
 
     def initialize(options = {})
       super(options)
+
+      @features = [
+        Feature::Position.new(idx: :pn),
+        Feature::Position.new(seq: :page, idx: :ln)
+      ]
     end
 
     def expand(dataset)
       dataset.each do |doc|
-        doc.each_with_index do |(line, page, pn), ln|
+        doc.each.with_index do |(line, ln, page, pn), idx|
           line.observations = features.map { |f|
-            f.observe line.value, page: page, doc: doc, pn: pn, ln: ln
+            f.observe line.value, page: page, seq: doc, pn: pn, ln: ln, idx: idx
           }
         end
       end

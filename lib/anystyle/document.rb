@@ -51,9 +51,9 @@ module AnyStyle
 
     def each
       if block_given?
-        pages.each.with_index do |page, idx|
-          page.lines.each do |line|
-            yield line, page, idx
+        pages.each.with_index do |page, pn|
+          page.lines.each.with_index do |line, ln|
+            yield line, ln, page, pn
           end
         end
         self
@@ -113,8 +113,12 @@ module AnyStyle
         @width = width
       end
 
+      def size
+        lines.size
+      end
+
       def inspect
-        "#<AnyStyle::Document::Page lines={#{lines.length}} width={#{width}}>"
+        "#<AnyStyle::Document::Page size={#{size}} width={#{width}}>"
       end
     end
   end
