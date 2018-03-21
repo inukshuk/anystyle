@@ -8,7 +8,19 @@ module AnyStyle
       end
 
       def observe(token, **opts)
-        ((opts[idx].to_f / opts[seq].size) * precision).round
+        i = opts[idx]
+        n = opts[seq].size
+
+        case
+        when i == 0 && i == n - 1
+          :only
+        when i == 0
+          :first
+        when i = n - 1
+          :last
+        else
+          ((i.to_f / n) * precision).round
+        end
       end
     end
   end
