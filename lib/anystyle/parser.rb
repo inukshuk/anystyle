@@ -144,6 +144,7 @@ module AnyStyle
         Normalizer::Location.new,
         Normalizer::Locator.new,
         Normalizer::Publisher.new,
+        Normalizer::PubMed.new,
         Normalizer::Names.new,
         Normalizer::Locale.new,
         Normalizer::Type.new
