@@ -1,7 +1,7 @@
 module AnyStyle
   class Feature
     class Caps < Feature
-      def observe(_, alpha, *args)
+      def observe(_, alpha:, **opts)
         case alpha
         when /^\p{Upper}$/
           :single

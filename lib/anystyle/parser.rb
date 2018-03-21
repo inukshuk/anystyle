@@ -155,7 +155,7 @@ module AnyStyle
         seq.tokens.each_with_index do |tok, idx|
           alpha = scrub tok.value
           tok.observations = features.map { |f|
-            f.observe tok.value, alpha, idx, seq
+            f.observe tok.value, alpha: alpha, idx: idx, seq: seq
           }
         end
       end

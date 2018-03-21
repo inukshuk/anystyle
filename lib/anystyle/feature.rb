@@ -2,16 +2,16 @@ module AnyStyle
   class Feature
     include StringUtils
 
-    def observe(token, alpha, offset, sequence)
+    def observe(token, **opts)
       raise NotImplementedError
     end
 
-    def next(offset, sequence)
+    def next(offset, seq)
       sequence[offset + 1]
     end
 
-    def prev(offset, sequence)
-      offset == 0 ? nil : sequence[offset - 1]
+    def prev(offset, seq)
+      offset == 0 ? nil : seq[offset - 1]
     end
   end
 end

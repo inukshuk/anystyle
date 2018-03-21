@@ -7,7 +7,7 @@ module AnyStyle
         @dictionary = AnyStyle::Dictionary.create(options).open
       end
 
-      def observe(token, alpha, offset, sequence)
+      def observe(token, alpha:, **opts)
         dictionary.tags(alpha.downcase)
       end
     end

@@ -1,7 +1,7 @@
 module AnyStyle
   class Feature
     class Terminal < Feature
-      def observe(token, *args)
+      def observe(token, **opts)
         case token
         when /[\.\)\]]["'”„’‚´«‘“`»」』\)\]]?$/,
              /,["'”„’‚´«‘“`»」』\)\]]|["'”„’‚´«‘“`»」』\)\]],$/

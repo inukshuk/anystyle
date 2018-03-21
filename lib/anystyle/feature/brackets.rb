@@ -1,7 +1,7 @@
 module AnyStyle
   class Feature
     class Brackets < Feature
-      def observe(token, alpha, offset, sequence)
+      def observe(token, **opts)
         case token
         when /^[^\(\[<>\)\]]+$/
           :none

@@ -7,7 +7,7 @@ module AnyStyle
         @index = index
       end
 
-      def observe(token, *args)
+      def observe(token, **opts)
         index.map { |idx| categorize token.chars[idx] }
       end
 

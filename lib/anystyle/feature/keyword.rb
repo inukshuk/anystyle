@@ -1,7 +1,7 @@
 module AnyStyle
   class Feature
     class Keyword < Feature
-      def observe(token, alpha, *args)
+      def observe(token, alpha: token, **opts)
         case token
         when '&'
           :and
