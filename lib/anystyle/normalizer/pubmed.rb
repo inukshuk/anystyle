@@ -4,7 +4,7 @@ module AnyStyle
       @keys = [:note]
 
       def normalize(item)
-        each_value(note) do |_, value|
+        each_value(item) do |_, value|
           if (value =~ /PMID:?\s*(\d+)/)
             append :pmid, $1
           end
