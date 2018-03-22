@@ -16,7 +16,7 @@ module AnyStyle
           :only
         when i == 0
           :first
-        when i = n - 1
+        when i == n - 1
           :last
         else
           ((i.to_f / n) * precision).round
