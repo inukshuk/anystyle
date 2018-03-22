@@ -5,7 +5,11 @@ module AnyStyle
         i = indent(token)
         p = prev(idx, seq)
         j = p.nil? ? 0 : indent(p.value)
-        (i < j) ? '-' : (i > j) ? '+' : '='
+
+        [
+          (i > 0) ? 'T' : 'F',
+          (i < j) ? '-' : (i > j) ? '+' : '=',
+        ]
       end
 
       def indent(token)
