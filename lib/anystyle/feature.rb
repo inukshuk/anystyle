@@ -6,12 +6,12 @@ module AnyStyle
       raise NotImplementedError
     end
 
-    def next(offset, seq)
-      sequence[offset + 1]
+    def next(idx, seq)
+      sequence[idx + 1]
     end
 
-    def prev(offset, seq)
-      offset == 0 ? nil : seq[offset - 1]
+    def prev(idx, seq)
+      idx == 0 ? nil : seq[idx - 1]
     end
   end
 end

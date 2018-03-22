@@ -16,6 +16,9 @@ module AnyStyle
       super(options)
 
       @features = [
+        Feature::Chars.new(precision: 10),
+        Feature::Words.new,
+        Feature::Indent.new,
         Feature::Position.new(idx: :pn),
         Feature::Position.new(seq: :page, idx: :ln)
       ]
@@ -24,8 +27,8 @@ module AnyStyle
     def expand(dataset)
       dataset.each do |doc|
         doc.each.with_index do |(line, ln, page, pn), idx|
-          line.observations = features.map { |f|
-            f.observe line.value, page: page, seq: doc, pn: pn, ln: ln, idx: idx
+          line.observations = features.map.with_index { |f, fn|
+            f.observe line.value, page: page, seq: doc, pn: pn, ln: ln, fn: fn, idx: idx
           }
         end
       end

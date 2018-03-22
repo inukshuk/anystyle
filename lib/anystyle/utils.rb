@@ -30,7 +30,14 @@ module AnyStyle
     end
 
     def display_width(string)
-      string.gsub(/\p{Mn}|\p{Me}|\p{C}/, '').length
+      string
+        .gsub(/\p{Mn}|\p{Me}|\p{C}/, '')
+        .rstrip
+        .length
+    end
+
+    def count(string, pattern)
+      string.to_enum(:scan, pattern).inject(0) { |c| c + 1 }
     end
   end
 

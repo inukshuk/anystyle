@@ -109,13 +109,13 @@ blank         |
               |                                           v
 heading       | Contents
 blank         | 
-toc           | Abstract                                                                                iv
+text          | Abstract                                                                                iv
 blank         | 
-toc           | Acknowledgments                                                                         v
+text          | Acknowledgments                                                                         v
 blank         | 
-toc           | 1 Introduction                                                                          1
+text          | 1 Introduction                                                                          1
 blank         | 
-toc           | 2 Mergers in two-sided markets: Case of U.S. radio industry                             5
+text          | 2 Mergers in two-sided markets: Case of U.S. radio industry                             5
               |   2.1   Preface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    5
               |   2.2   Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    6
               |   2.3   Radio as a two-sided market . . . . . . . . . . . . . . . . . . . . . . .        9
@@ -135,11 +135,11 @@ toc           | 2 Mergers in two-sided markets: Case of U.S. radio industry     
               |         2.7.1   Impact of mergers on consumer surplus . . . . . . . . . . . . .         29
 blank         | 
 footer        |                                            vi
-toc           |         2.7.2   Effects of product variety and market power . . . . . . . . . .         31
+text          |         2.7.2   Effects of product variety and market power . . . . . . . . . .         31
               |   2.8   Robustness analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . .     32
               |   2.9   Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    33
 blank         | 
-toc           | 3 Estimation of cost synergies from mergers without cost data: Ap-
+text          | 3 Estimation of cost synergies from mergers without cost data: Ap-
               |   plication to U.S. radio                                                               35
               |   3.1   Preface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   35
               |   3.2   Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    36
@@ -158,11 +158,11 @@ toc           | 3 Estimation of cost synergies from mergers without cost data: A
               |         3.5.4   Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   53
               |   3.6   Conclusions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     56
 blank         | 
-toc           | A Additional material to Chapter 2                                                      57
+text          | A Additional material to Chapter 2                                                      57
               |   A.1 Advertising demand: Micro foundations . . . . . . . . . . . . . . . . .           57
               |   A.2 Numerical considerations . . . . . . . . . . . . . . . . . . . . . . . . .        59
 blank         | 
-toc           | B Additional material to Chapter 3                                                      61
+text          | B Additional material to Chapter 3                                                      61
               |   B.1 Estimation without acquisition prices . . . . . . . . . . . . . . . . . .         61
               |   B.2 Radio acquisition and format switching algorithms . . . . . . . . . . .           62
               |   B.3 Policy function covariates . . . . . . . . . . . . . . . . . . . . . . . .        63
@@ -170,7 +170,7 @@ toc           | B Additional material to Chapter 3                              
 blank         | 
 blank         | 
 footer        |                                            vii
-toc           | Bibliography          68
+text          | Bibliography          68
 blank         | 
 blank         | 
 blank         | 
@@ -178,7 +178,7 @@ blank         |
 footer        |                viii
 heading       | List of Tables
 blank         | 
-toc           |  2.1   Simple example of advertising weights . . . . . . . . . . . . . . . . . .      15
+text          |  2.1   Simple example of advertising weights . . . . . . . . . . . . . . . . . .      15
               |  2.2   Panel data descriptive statistics . . . . . . . . . . . . . . . . . . . . .    18
               |  2.3   Estimates of mean and random effects of demand for radio program-
               |        ming. Stars indicate parameter significance when testing with 0.1, 0.05
@@ -196,7 +196,7 @@ toc           |  2.1   Simple example of advertising weights . . . . . . . . . .
               |  2.11 Slope of the inverse demand for ads θ2A , by market size . . . . . . . .        33
               |  2.12 Robustness of counterfactuals . . . . . . . . . . . . . . . . . . . . . .       33
 blank         | 
-toc           |  3.1   Change in the local ownership caps introduced by the 1996 Telecom Act. 49
+text          |  3.1   Change in the local ownership caps introduced by the 1996 Telecom Act. 49
               |  3.2   Savings when two stations are owned by the same firm vs. operating
               |        separately . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   55
               |  3.3   Total cost savings created by mergers after 1996, compared to demand
@@ -204,7 +204,7 @@ toc           |  3.1   Change in the local ownership caps introduced by the 1996
               |  3.4   Format switching cost for chosen markets . . . . . . . . . . . . . . . .       55
 blank         | 
 footer        |                                           ix
-toc           | B.1 Covariates for the format switching strategy multinomial logic regression. 63
+text          | B.1 Covariates for the format switching strategy multinomial logic regression. 63
               | B.2 Covariates for the purchase strategy logic regression. . . . . . . . . .    64
               | B.3 Station purchase policy estimates - buyer/seller dummies . . . . . . .      65
               | B.4 Station purchase policy estimates - other variables . . . . . . . . . . .   65
@@ -218,7 +218,7 @@ blank         |
 footer        |                                        x
 heading       | List of Figures
 blank         | 
-toc           |  3.1   Dynamics of station acquisition and format switching . . . . . . . . .   50
+text          |  3.1   Dynamics of station acquisition and format switching . . . . . . . . .   50
 blank         | 
 blank         | 
 blank         | 
