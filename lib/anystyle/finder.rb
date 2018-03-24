@@ -19,7 +19,7 @@ module AnyStyle
         Feature::Indent.new,
         Feature::Ref.new,
         Feature::Position.new(seq: :page, idx: :ln, precision: 10),
-        Feature::Position.new(seq: :pages, idx: :pn)
+        Feature::Position.new(seq: :pages, idx: :pn, precision: 10)
       ]
     end
 

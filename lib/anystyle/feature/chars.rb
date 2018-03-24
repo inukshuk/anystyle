@@ -1,12 +1,6 @@
 module AnyStyle
   class Feature
     class Chars < Feature
-      attr_reader :precision
-
-      def initialize(precision: 100)
-        @precision = precision
-      end
-
       def observe(token, page:, **opts)
         chars = count(token, /\p{L}/)
         upper = count(token, /\p{Lu}/)
@@ -22,10 +16,6 @@ module AnyStyle
           ratio(punct, chars),
           ratio(width, page.width)
         ]
-      end
-
-      def ratio(x, y)
-        (y > 0) ? ((x.to_f / y) * precision).round : 0
       end
     end
   end

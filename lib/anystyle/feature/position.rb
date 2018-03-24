@@ -1,10 +1,11 @@
 module AnyStyle
   class Feature
     class Position < Feature
-      attr_reader :precision, :idx, :seq
+      attr_reader :idx, :seq
 
-      def initialize(precision: 100, idx: :idx, seq: :seq)
-        @precision, @idx, @seq = precision, idx, seq
+      def initialize(idx: :idx, seq: :seq, **opts)
+        super(opts)
+        @idx, @seq = idx, seq
       end
 
       def observe(token, **opts)
@@ -19,7 +20,7 @@ module AnyStyle
         when i == n - 1
           :last
         else
-          ((i.to_f / n) * precision).round
+          ratio i, n
         end
       end
     end
