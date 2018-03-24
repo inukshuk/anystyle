@@ -4,7 +4,7 @@ module AnyStyle
 
     describe 'pages' do
       it 'returns an array of pages' do
-        expect(phd.pages.length).to eq(83)
+        expect(phd.pages.length).to eq(84)
         expect(phd.pages[42]).to be_a(Document::Page)
         expect(phd.pages[42].width).to eq(87)
       end
