@@ -3,7 +3,7 @@ module AnyStyle
     @formats = [:wapiti]
 
     @defaults = {
-      #model: File.join(SUPPORT, 'finder.mod'),
+      model: File.join(SUPPORT, 'finder.mod'),
       pattern: File.join(SUPPORT, 'finder.txt'),
       compact: true,
       threads: 4,
@@ -37,6 +37,25 @@ module AnyStyle
               idx: idx
           }
         end
+      end
+    end
+
+    def label(input)
+      dataset = prepare(input)
+      output = model.label(dataset)
+      Wapiti::Dataset.new(dataset.map.with_index { |doc, idx|
+        doc.label(output[idx])
+      })
+    end
+
+    def prepare(input, **opts)
+      case input
+      when String
+        super Document.open(input, opts), opts
+      when Array
+        super Wapiti::Dataset.new(input.map { |f| Document.open(f, opts) }), opts
+      else
+        super input, opts
       end
     end
   end

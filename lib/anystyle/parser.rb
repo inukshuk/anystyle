@@ -73,9 +73,6 @@ module AnyStyle
     end
 
     def prepare(input, **opts)
-      opts[:separator] ||= options[:separator]
-      opts[:delimiter] ||= options[:delimiter]
-
       case input
       when Wapiti::Dataset
         expand input
@@ -176,6 +173,12 @@ module AnyStyle
       else
         raise ArgumentError, "format not supported: #{format}"
       end
+    end
+
+    def prepare(input, **opts)
+      opts[:separator] ||= options[:separator]
+      opts[:delimiter] ||= options[:delimiter]
+      super(input, opts)
     end
   end
 end

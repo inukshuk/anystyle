@@ -62,6 +62,12 @@ module AnyStyle
       end
     end
 
+    def label(other)
+      Document.new(lines.map.with_index { |line, idx|
+        Wapiti::Token.new line.value, label: other[idx].label.to_s
+      })
+    end
+
     def to_s(delimiter: "\n", encode: false, tagged: false, **options)
       if tagged
         lines.map { |ln|
