@@ -7,8 +7,6 @@ module AnyStyle
       pattern: File.join(SUPPORT, 'finder.txt'),
       compact: true,
       threads: 4,
-      separator: /^::: ANYSTYLE SEQUENCE BREAK :::$/,
-      delimiter: /\n/,
       format: :wapiti
     }
 
@@ -19,8 +17,9 @@ module AnyStyle
         Feature::Chars.new(precision: 10),
         Feature::Words.new,
         Feature::Indent.new,
-        Feature::Position.new(seq: :pages, idx: :pn),
-        Feature::Position.new(seq: :page, idx: :ln)
+        Feature::Ref.new,
+        Feature::Position.new(seq: :page, idx: :ln, precision: 10),
+        Feature::Position.new(seq: :pages, idx: :pn)
       ]
     end
 

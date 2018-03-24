@@ -11,12 +11,16 @@ module AnyStyle
         chars = count(token, /\p{L}/)
         upper = count(token, /\p{Lu}/)
         white = count(token, /\s/)
+        punct = count(token, /[\p{Pd}:.,&\(\)"'”„’‚´«「『‘“`»」』]/)
+        width = display_width(token)
 
         [
           chars,
+          width,
           ratio(upper, chars),
           ratio(white, chars),
-          ratio(display_width(token), page.width)
+          ratio(punct, chars),
+          ratio(width, page.width)
         ]
       end
 

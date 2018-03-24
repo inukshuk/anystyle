@@ -5,11 +5,11 @@ module AnyStyle
         case token
         when /^\p{^P}+$/
           :none
-        when /.+:.+/
+        when /:/
           :colon
-        when /.+\p{Pd}.+/
+        when /\p{Pd}/
           :hyphen
-        when /.+\..+/
+        when /\./
           :period
         when /&/
           :amp
