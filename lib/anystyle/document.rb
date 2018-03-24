@@ -102,6 +102,10 @@ module AnyStyle
             end
           end
 
+          unless current.empty?
+            pages << new(current, width: width)
+          end
+
           pages
         end
       end
