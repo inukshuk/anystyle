@@ -1,6 +1,6 @@
 module AnyStyle
   class Feature
-    class Chars < Feature
+    class Line < Feature
       def observe(token, page:, **opts)
         chars = count(token, /\p{L}/)
         upper = count(token, /\p{Lu}/)

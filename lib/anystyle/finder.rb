@@ -14,7 +14,7 @@ module AnyStyle
       super(options)
 
       @features = [
-        Feature::Chars.new(precision: 10),
+        Feature::Line.new(precision: 10),
         Feature::Words.new,
         Feature::Indent.new,
         Feature::Ref.new,
