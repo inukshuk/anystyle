@@ -3,8 +3,9 @@ module AnyStyle
     class Dictionary < Feature
       attr_reader :dictionary
 
-      def initialize(options = {})
-        @dictionary = AnyStyle::Dictionary.create(options).open
+      def initialize(dictionary:, **opts)
+        super(**opts)
+        @dictionary = dictionary
       end
 
       def observe(token, alpha:, **opts)

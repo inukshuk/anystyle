@@ -18,6 +18,8 @@ module AnyStyle
       attr_reader :tags, :code, :defaults, :adapters
 
       def create(options = {})
+        return options if options.is_a?(Dictionary)
+
         options = defaults.merge(options || {})
         adapter = options.delete :adapter
 
@@ -36,6 +38,10 @@ module AnyStyle
         else
           raise ArgumentError, "unknown adapter: #{adapter}"
         end
+      end
+
+      def instance
+        Thread.current['anystyle_dictionary'] ||= create.open
       end
     end
 
@@ -85,6 +91,17 @@ module AnyStyle
       Dictionary.tags.map { |tag|
         (value & Dictionary.code[tag] > 0) ? 'T' : 'F'
       }
+    end
+
+    def tag_counts(keys)
+      counts = Dictionary.tags.map { 0 }
+      keys.each do |key|
+        value = get(key)
+        Dictionary.tags.each.with_index do |tag, idx|
+          counts[idx] += 1 if (value & Dictionary.code[tag] > 0)
+        end if value > 0
+      end
+      counts
     end
 
     def populate!

@@ -17,7 +17,7 @@ module AnyStyle
       @features = [
         Feature::Line.new,
         Feature::Category.new(strip: true),
-        Feature::Words.new,
+        Feature::Words.new(dictionary: options[:dictionary] || Dictionary.instance),
         Feature::Indent.new,
         Feature::Ref.new,
         Feature::Position.new(seq: :page, idx: :ln),
