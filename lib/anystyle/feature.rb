@@ -4,7 +4,7 @@ module AnyStyle
 
     attr_reader :precision
 
-    def initialize(precision: 100, **opts)
+    def initialize(precision: 10, **opts)
       @precision = precision
     end
 

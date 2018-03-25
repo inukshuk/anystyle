@@ -15,12 +15,12 @@ module AnyStyle
       super(options)
 
       @features = [
-        Feature::Line.new(precision: 10),
+        Feature::Line.new,
         Feature::Words.new,
         Feature::Indent.new,
         Feature::Ref.new,
-        Feature::Position.new(seq: :page, idx: :ln, precision: 10),
-        Feature::Position.new(seq: :pages, idx: :pn, precision: 10)
+        Feature::Position.new(seq: :page, idx: :ln),
+        Feature::Position.new(seq: :pages, idx: :pn)
       ]
     end
 
