@@ -7,7 +7,8 @@ module AnyStyle
       pattern: File.join(SUPPORT, 'finder.txt'),
       compact: true,
       threads: 4,
-      format: :wapiti
+      format: :wapiti,
+      training_data: Dir[File.join(RES, 'finder', '*.ttx')].map(&:untaint)
     }
 
     def initialize(options = {})

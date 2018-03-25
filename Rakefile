@@ -63,12 +63,21 @@ task :console, [:script] do |t, args|
 end
 
 desc 'Update model using latest source and training data'
-task :train, :threads do |t, args|
+task :train, :model, :threads do |t, args|
+  model = args[:model] || 'parser'
+  threads = args[:threads] || 4
   require 'anystyle'
   Wapiti.debug!
-  AnyStyle::Parser.defaults[:threads] = (args[:threads] || 4).to_i
-  AnyStyle.parser.train
-  AnyStyle.parser.model.save
+  case model
+  when 'finder'
+    AnyStyle::Finder.defaults[:threads] = threads
+    AnyStyle.finder.train
+    AnyStyle.finder.model.save
+  else
+    AnyStyle::Parser.defaults[:threads] = threads
+    AnyStyle.parser.train
+    AnyStyle.parser.model.save
+  end
 end
 
 desc 'Check all tagged datasets'

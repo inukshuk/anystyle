@@ -42,13 +42,11 @@ module AnyStyle
       model.check prepare(input, tagged: true)
     end
 
-    def train(input = training_data, truncate: true)
+    def train(input = options[:training_data], truncate: true)
       load_model(nil) if truncate
-
       unless input.nil? || input.empty?
         model.train prepare(input, tagged: true)
       end
-
       model
     end
 
@@ -56,16 +54,15 @@ module AnyStyle
       train(input, truncate: false)
     end
 
-    def normalize(item)
+    def normalize(hash)
       normalizers.each do |n|
         begin
-          item = n.normalize(item) unless n.skip?
+          hash = n.normalize(hash) unless n.skip?
         rescue => e
           warn "Error in #{n.name} normalizer: #{e.message}"
         end
       end
-
-      item
+      hash
     end
 
     def expand(dataset)
@@ -87,10 +84,6 @@ module AnyStyle
       else
         expand Wapiti::Dataset.parse(input, opts)
       end
-    end
-
-    def training_data
-      options[:training_data]
     end
   end
 
