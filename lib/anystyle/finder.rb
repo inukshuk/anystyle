@@ -16,6 +16,7 @@ module AnyStyle
 
       @features = [
         Feature::Line.new,
+        Feature::Category.new(strip: true),
         Feature::Words.new,
         Feature::Indent.new,
         Feature::Ref.new,

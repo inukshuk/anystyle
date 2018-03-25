@@ -3,12 +3,20 @@ module AnyStyle
     class Category < Feature
       attr_reader :index
 
-      def initialize(index: [0, -1])
-        @index = index
+      def initialize(index: [0, -1], strip: false)
+        @index, @strip = index, !!strip
       end
 
       def observe(token, **opts)
-        index.map { |idx| categorize token.chars[idx] }
+        chars(token).values_at(*index).map { |char| categorize char }
+      end
+
+      def chars(token)
+        if strip?
+          token.strip.chars
+        else
+          token.chars
+        end
       end
 
       def categorize(char)
@@ -52,6 +60,10 @@ module AnyStyle
         else
           :none
         end
+      end
+
+      def strip?
+        @strip
       end
     end
   end
