@@ -3,7 +3,7 @@ module AnyStyle
     class << self
       include PdfUtils
 
-      def parse(string, delimiter: /\n/, tagged: false)
+      def parse(string, delimiter: /\r?\n/, tagged: false)
         current_label = ''
         new(string.split(delimiter).map { |line|
           if tagged
@@ -70,8 +70,11 @@ module AnyStyle
 
     def to_s(delimiter: "\n", encode: false, tagged: false, **options)
       if tagged
+        prev_label = nil
         lines.map { |ln|
-          '%.14s| %s' % ["#{ln.label}              ", ln.value]
+          label = (ln.label == prev_label) ? '' : ln.label
+          prev_label = ln.label
+          '%.14s| %s' % ["#{label}              ", ln.value]
         }.join(delimiter)
       else
         super delimiter: delimiter, encode: encode, tagged: tagged, **options
