@@ -42,8 +42,8 @@ module AnyStyle
       end
     end
 
+    attr_accessor :meta, :info, :path, :pages, :tokens
     alias_method :lines, :tokens
-    attr_accessor :meta, :info, :path, :pages
 
     def pages
       @pages ||= Page.parse(lines)
@@ -63,9 +63,13 @@ module AnyStyle
     end
 
     def label(other)
-      Document.new(lines.map.with_index { |line, idx|
-        Wapiti::Token.new line.value, label: other[idx].label.to_s
-      })
+      doc = dup
+      doc.tokens = lines.map.with_index { |line, idx|
+        Wapiti::Token.new line.value,
+          label: other[idx].label.to_s,
+          observations: other[idx].observations.dup
+      }
+      doc
     end
 
     def to_s(delimiter: "\n", encode: false, tagged: false, **opts)
@@ -77,7 +81,7 @@ module AnyStyle
           '%.14s| %s' % ["#{label}              ", ln.value]
         }.join(delimiter)
       else
-        super(delimiter: delimiter, encode: encode, tagged: tagged, **opts)
+        super(delimiter: delimiter, encode: encode, tagged: tagged, expanded: false, **opts)
       end
     end
 

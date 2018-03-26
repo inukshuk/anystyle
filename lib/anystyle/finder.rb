@@ -81,5 +81,14 @@ module AnyStyle
         super(input, **opts)
       end
     end
+
+    def save_each(dataset, dir: '.', tagged: false, **opts)
+      dataset.each.with_index do |doc, idx|
+        name = doc.path.nil? ? idx : File.basename(doc.path, File.extname(doc.path))
+        file = "#{name}.#{tagged ? 'ttx' : 'txt'}"
+        File.write(File.join(dir, file), doc.to_s(tagged: tagged, **opts))
+      end
+    end
+
   end
 end
