@@ -400,14 +400,6 @@
     <pages>p. 785-96.</pages>
   </sequence>
   <sequence>
-    <editor>Gershorn, I. and J. A. Bell, eds.</editor>
-    <date>2013.</date>
-    <title>Newness of New Media.</title>
-    <journal>Special Issue, Culture Theory and Critique</journal>
-    <volume>54(3):</volume>
-    <pages>259-393.</pages>
-  </sequence>
-  <sequence>
     <citation-number>31.</citation-number>
     <author>Corning, Peter A.</author>
     <date>(1995).</date>
@@ -698,14 +690,6 @@
     <pages>pp. 54-67.</pages>
   </sequence>
   <sequence>
-    <author>J. Borenstein and Y. Koren,</author>
-    <title>"Obstacle avoidance with ultrasonic sensors,"</title>
-    <journal>IEEE J. Robotics Automation</journal>
-    <volume>4,</volume>
-    <pages>pp. 213-218,</pages>
-    <date>1988.</date>
-  </sequence>
-  <sequence>
     <author>A. S. Acampora and M. J. Karol,</author>
     <title>"An Overview of Lightwave Packet Network."</title>
     <journal>IEEE Network Mag.</journal>
@@ -733,7 +717,8 @@
     <author>S. E. Conry, K. Kuwabara, V. R. Lesser and R. A. Meyer.</author>
     <date>(1991)</date>
     <title>Multistage Negotiation for Distributed Satisfaction,</title>
-    <journal>IEEE Transactions on Systems, Man, and Cybernetics, Special Issue on Distributed Artificial Intelligence,</journal>
+    <journal>IEEE Transactions on Systems, Man, and Cybernetics,</journal>
+    <note>Special Issue on Distributed Artificial Intelligence,</note>
     <volume>21(6),</volume>
     <pages>1462-1477</pages>
   </sequence>
@@ -1113,7 +1098,8 @@
   <sequence>
     <author>A. Garvey and V. R. Lesser,</author>
     <title>"Design-to-time Real-Time Scheduling",</title>
-    <journal>IEEE Transactions on Systems, Man, and Cybernetics: Special Issue on Scheduling, Planning, and Control,</journal>
+    <journal>IEEE Transactions on Systems, Man, and Cybernetics:</journal>
+    <note>Special Issue on Scheduling, Planning, and Control,</note>
     <volume>23(6),</volume>
     <date>1993.</date>
   </sequence>
@@ -1254,14 +1240,6 @@
     <journal>Fundamenta Informaticae,</journal>
     <volume>23 (2, 3, 4),</volume>
     <pages>303-353.</pages>
-  </sequence>
-  <sequence>
-    <author>I. Koren and A. D. Singh,</author>
-    <title>"Fault Tolerance in VLSI Circuits,"</title>
-    <journal>Computer, Special Issue on Fault-Tolerant Systems,</journal>
-    <volume>Vol. 23, No. 7,</volume>
-    <pages>pp. 73-83,</pages>
-    <date>July 1990.</date>
   </sequence>
   <sequence>
     <author>S. P. Amarasinghe, J. M. Anderson, C. S. Wilson, S.-W. Liao, B. M. Murphy, R. S. French, M. S. Lam, and M. W. Hall.</author>
@@ -2537,5 +2515,243 @@
     <volume>52(4):</volume>
     <pages>321-330,</pages>
     <date>2014.</date>
+  </sequence>
+  <sequence>
+    <title>Good chemistry.</title>
+    <date>(1996, September).</date>
+    <journal>Wake Forest University Magazine,</journal>
+    <volume>44(1),</volume>
+    <pages>p. 8</pages>
+  </sequence>
+  <sequence>
+    <author>Bowden, S. A., Parnell, J.,</author>
+    <title>Intracrystalline lipids within sulfates from the Haughton Impact Structure - Implications for survival of lipids on Mars,</title>
+    <journal>Icarus,</journal>
+    <volume>187,</volume>
+    <pages>P. 422 - 429.</pages>
+    <date>2007.</date>
+  </sequence>
+  <sequence>
+    <author>- V. GISCARD D'ESTAING,</author>
+    <title>« Le giscardisme »,</title>
+    <journal>Pouvoirs,</journal>
+    <date>1979,</date>
+    <volume>n°9.</volume>
+  </sequence>
+  <sequence>
+    <author>Schindler, D. W., andj. P. Smol.</author>
+    <date>2006.</date>
+    <title>Cumulative effects of climate warming and other human activities on freshwaters of arctic and subarctic North America.</title>
+    <journal>AMBIO: Ajournai of the Human Environment</journal>
+    <volume>35:</volume>
+    <pages>160—168.</pages>
+  </sequence>
+  <sequence>
+    <author>Girard, P.</author>
+    <date>(2006).</date>
+    <title>From Onions to Broccoli Generalizing Lewis' Counterfactual Logic.</title>
+    <journal>Journal of Applied Non-Classical Logic,</journal>
+    <note>Special Issue: Belief Change,</note>
+    <volume>17(3),</volume>
+    <pages>213-29.</pages>
+  </sequence>
+  <sequence>
+    <author>Fischel, Daniel L.</author>
+    <title>“Planning for Book Reprints,”</title>
+    <journal>Journal of Scholarly Publishing</journal>
+    <volume>19, 4</volume>
+    <date>(July 1988):</date>
+    <pages>195–201.</pages>
+  </sequence>
+  <sequence>
+    <author>Wilson, A.</author>
+    <date>1992.</date>
+    <title>The Culture of Nature: North American Landscape from Disney to the Exxon Valdez.</title>
+    <location>Oxford:</location>
+    <publisher>Basil Blackwell.</publisher>
+  </sequence>
+  <sequence>
+    <author>F. Autret,</author>
+    <title>La Cour de Justice des communautés européennes 1952-1964.</title>
+    <note>(Mémoire de recherche IEP Paris)</note>
+  </sequence>
+  <sequence>
+    <author>Youngquist, Paul.</author>
+    <title>Madness and Blake's Myth.</title>
+    <publisher>Pennsylvania State Press,</publisher>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
+    <author>A. Garvey and V. R. Lesser,</author>
+    <title>"Design-to-time Real-Time Scheduling",</title>
+    <journal>IEEE Transactions on Systems, Man, and Cybernetics:</journal>
+    <note>Special Issue on Scheduling, Planning, and Control,</note>
+    <volume>23(6),</volume>
+    <date>1993.</date>
+  </sequence>
+  <sequence>
+    <author>Carroll, G. M., L. S. Parrett, J. C. George, and D. A. Yokel.</author>
+    <date>2005.</date>
+    <title>Calving distribution of the Teshekpuk caribou herd 1994-2003.</title>
+    <journal>Rangifer</journal>
+    <note>Special Issue</note>
+    <volume>16:</volume>
+    <pages>27–35.</pages>
+  </sequence>
+  <sequence>
+    <author>Aleni, G. SJ.</author>
+    <date>(2002).</date>
+    <title>性学觕述 [General Introduction to the Teaching of the Psyche].</title>
+    <editor>In N. Standaert &amp; AD. Dudink (Ed),</editor>
+    <container-title>耶稣会罗马档案馆明清天主教文献 [Chinese Christian texts from the Roman Archives of the Society of Jesus].</container-title>
+    <location>Taipei:</location>
+    <publisher>Ricci Institute.</publisher>
+    <note>(Original work published 1646)</note>
+  </sequence>
+  <sequence>
+    <author>Allio, Cédric.</author>
+    <date>2016.</date>
+    <title>« Interurban population distribution and commute modes ».</title>
+    <journal>The Annals of Regional Science</journal>
+    <volume>57 (1):</volume>
+    <pages>125‑44.</pages>
+    <doi>doi:10.1007/s00168‐016‐0766‐5.</doi>
+  </sequence>
+  <sequence>
+    <author>Klein, N.</author>
+    <date>(2014).</date>
+    <title>This Changes Everything: Capitalism vs. The Climate.</title>
+    <location>New York City, NY,</location>
+    <publisher>Simon and Schuster.</publisher>
+  </sequence>
+  <sequence>
+    <author>————,</author>
+    <title>“Entertainers in the Roman Empire.”</title>
+    <container-title>In Life, Death, and Entertainment in the Roman Empire,</container-title>
+    <editor>edited by David S. Potter and David J. Mattingly,</editor>
+    <pages>256-326.</pages>
+    <location>Michigan:</location>
+    <publisher>University of Michigan Press,</publisher>
+    <date>1999.</date>
+  </sequence>
+  <sequence>
+    <author>Brückner, M.</author>
+    <date>2006.</date>
+    <title>The Geographic Revolution in Early America: Maps, Literacy, and National Identity.</title>
+    <location>Chapel Hill, NC:</location>
+    <publisher>University of North Carolina Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Coakley, Sarah,</author>
+    <title>Powers and Submissions: Spirituality, Philosophy and Gender,</title>
+    <location>Oxford:</location>
+    <publisher>Blackwell,</publisher>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <author>S. E. Conry, K. Kuwabara, V. R. Lesser and R. A. Meyer.</author>
+    <date>(1991)</date>
+    <title>Multistage Negotiation for Distributed Satisfaction,</title>
+    <journal>IEEE Transactions on Systems, Man, and Cybernetics,</journal>
+    <note>Special Issue on Distributed Artificial Intelligence,</note>
+    <volume>21(6),</volume>
+    <pages>1462-1477</pages>
+  </sequence>
+  <sequence>
+    <author>Morag, Raya.</author>
+    <title>“Not a Dirty Secret: On Some Cases of Bulimia in Cinema.”</title>
+    <journal>Camera Obscura: A Journal of Feminism, Culture, and Media Studies,</journal>
+    <volume>vol. 21, no. 61 [1],</volume>
+    <date>2006,</date>
+    <pages>pp. 146-182.</pages>
+  </sequence>
+  <sequence>
+    <author>Pharo, P.</author>
+    <date>(1985).</date>
+    <title>Problèmes empiriques de la sociologie compréhensive.</title>
+    <journal>Revue française de sociologie,</journal>
+    <volume>26(1),</volume>
+    <pages>120-149.</pages>
+  </sequence>
+  <sequence>
+    <author>Davis, Lee.</author>
+    <title>“Intellectual Property Rights, Strategy, and Policy,”</title>
+    <journal>Economic Innovation and New Technology</journal>
+    <volume>13, 5</volume>
+    <date>(2004):</date>
+    <pages>399–415.</pages>
+  </sequence>
+  <sequence>
+    <author>Urban JM, Cryan JR</author>
+    <date>(2007)</date>
+    <title>Evolution of the planthoppers (Insecta : Hemiptera : Fulgoroidea).</title>
+    <journal>Molecular Phylogenetics and Evolution,</journal>
+    <volume>42,</volume>
+    <pages>556–572.</pages>
+  </sequence>
+  <sequence>
+    <author>Imai, S. I., &amp; Guarente, L.</author>
+    <date>(2014).</date>
+    <title>NAD+ and sirtuins in aging and disease.</title>
+    <journal>Trends in cell biology,</journal>
+    <volume>24(8),</volume>
+    <pages>464-471.</pages>
+  </sequence>
+  <sequence>
+    <author>Bourhis, R. Y., Moïse, L. C., Perreault, S. &amp; Senécal, S.</author>
+    <date>(1997).</date>
+    <title>Towards an Interactive Acculturation Model: A Social Psychological Approach.</title>
+    <journal>International Journal of Psychology,</journal>
+    <volume>32(6),</volume>
+    <pages>369-386.</pages>
+  </sequence>
+  <sequence>
+    <author>de Foucault B.,</author>
+    <date>2009.</date>
+    <title>Contribution au prodrome des végétations de France : les Cardaminetea hirsutae Géhu 1999.</title>
+    <journal>J. Bot. Soc. Bot. France,</journal>
+    <volume>48 :</volume>
+    <pages>49-70.</pages>
+  </sequence>
+  <sequence>
+    <author>Chambers, J.K. and Peter Trudgill</author>
+    <date>(1998).</date>
+    <title>Dialectology.</title>
+    <edition>2nd edition.</edition>
+    <location>Cambridge:</location>
+    <publisher>CUP.</publisher>
+  </sequence>
+  <sequence>
+    <author>Chirkov, V.</author>
+    <date>(2009).</date>
+    <title>Introduction to the special issue on Critical Acculturation Psychology.</title>
+    <journal>International Journal of Intercultural Relations,</journal>
+    <volume>33(2),</volume>
+    <pages>87-93.</pages>
+  </sequence>
+  <sequence>
+    <author>John E. Owens,</author>
+    <title>‘Congress’,</title>
+    <editor>in Robert Singh (ed.),</editor>
+    <container-title>Governing America: The Politics of a Divided Democracy</container-title>
+    <location>(Oxford:</location>
+    <publisher>Oxford University Press,</publisher>
+    <date>2003).</date>
+  </sequence>
+  <sequence>
+    <author>Rivers, W. H. R.</author>
+    <title>““The Genealogical Method of Anthropological Inquiry.”</title>
+    <journal>Sociological Review</journal>
+    <volume>3</volume>
+    <date>(1910):</date>
+    <pages>1–12.</pages>
+  </sequence>
+  <sequence>
+    <author>Schulte, P., et al.,</author>
+    <title>The Cretaceous-Paleogene (K-P) boundary at Brazos, Texas: Sequence stratigraphy, depositional events and the Chicxulub impact,</title>
+    <journal>Sedimentary Geology,</journal>
+    <volume>v, 184,</volume>
+    <pages>pp. 77-109,</pages>
+    <date>2006</date>
   </sequence>
 </dataset>

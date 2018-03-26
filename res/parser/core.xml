@@ -713,7 +713,8 @@
     <author>S. E. Conry, K. Kuwabara, V. R. Lesser and R. A. Meyer.</author>
     <date>(1991)</date>
     <title>Multistage Negotiation for Distributed Satisfaction,</title>
-    <journal>IEEE Transactions on Systems, Man, and Cybernetics, Special Issue on Distributed Artificial Intelligence,</journal>
+    <journal>IEEE Transactions on Systems, Man, and Cybernetics,</journal>
+    <note>Special Issue on Distributed Artificial Intelligence,</note>
     <volume>21(6),</volume>
     <pages>1462-1477</pages>
   </sequence>
@@ -1865,7 +1866,8 @@
   <sequence>
     <author>A. Garvey and V. R. Lesser,</author>
     <title>"Design-to-time Real-Time Scheduling",</title>
-    <journal>IEEE Transactions on Systems, Man, and Cybernetics: Special Issue on Scheduling, Planning, and Control,</journal>
+    <journal>IEEE Transactions on Systems, Man, and Cybernetics:</journal>
+    <note>Special Issue on Scheduling, Planning, and Control,</note>
     <volume>23(6),</volume>
     <date>1993.</date>
   </sequence>
@@ -2335,7 +2337,8 @@
   <sequence>
     <author>I. Koren and A. D. Singh,</author>
     <title>"Fault Tolerance in VLSI Circuits,"</title>
-    <journal>Computer, Special Issue on Fault-Tolerant Systems,</journal>
+    <journal>Computer,</journal>
+    <note>Special Issue on Fault-Tolerant Systems,</note>
     <volume>Vol. 23, No. 7,</volume>
     <pages>pp. 73-83,</pages>
     <date>July 1990.</date>
@@ -6934,5 +6937,22 @@
     <translator>Trans. Christine Richardson.</translator>
     <location>Bloomington:</location>
     <publisher>Indiana UP.</publisher>
+  </sequence>
+  <sequence>
+    <editor>Gershorn, I. and J. A. Bell, eds.</editor>
+    <date>2013.</date>
+    <title>Newness of New Media.</title>
+    <note>Special Issue,</note>
+    <journal>Culture Theory and Critique</journal>
+    <volume>54(3):</volume>
+    <pages>259-393.</pages>
+  </sequence>
+  <sequence>
+    <author>H. Geismar and W. Mohns.</author>
+    <date>2010.</date>
+    <title>Database relations: rethinking the database in the Vanuatu Cultural Centre and National Museum.</title>
+    <editor>In C. Pinney and N. Mookherjee (eds)</editor>
+    <container-title>The aesthetics of nations: Anthropological and historical approaches.</container-title>
+    <note>Special Issue of the Journal of the Royal Anthropological Institute</note>
   </sequence>
 </dataset>
