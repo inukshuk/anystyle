@@ -1,13 +1,13 @@
 module AnyStyle
   class Finder < ParserCore
-    @formats = [:wapiti]
+    @formats = [:hash, :references, :wapiti]
 
     @defaults = {
       model: File.join(SUPPORT, 'finder.mod'),
       pattern: File.join(SUPPORT, 'finder.txt'),
       compact: true,
       threads: 4,
-      format: :wapiti,
+      format: :references,
       training_data: Dir[File.join(RES, 'finder', '*.ttx')].map(&:untaint)
     }
 
@@ -42,9 +42,30 @@ module AnyStyle
       end
     end
 
-    def label(input)
-      dataset = prepare(input)
-      output = model.label(dataset)
+    def find(input, format: options[:format], **opts)
+      case format
+      when :references, :ref
+        format_references(label(input, **opts))
+      when :hash
+        format_hash(label(input, **opts))
+      when :wapiti
+        label(input, **opts)
+      else
+        raise ArgumentError, "unknown format '#{format}'"
+      end
+    end
+
+    def format_hash(dataset, **opts)
+      dataset.map { |doc| doc.to_h(**opts) }
+    end
+
+    def format_references(dataset, **opts)
+      dataset.map { |doc| doc.references(**opts) }
+    end
+
+    def label(input, **opts)
+      dataset = prepare(input, **opts)
+      output = model.label(dataset, **opts)
       Wapiti::Dataset.new(dataset.map.with_index { |doc, idx|
         doc.label(output[idx])
       })
@@ -53,11 +74,11 @@ module AnyStyle
     def prepare(input, **opts)
       case input
       when String
-        super Document.open(input, opts), opts
+        super(Document.open(input, **opts), **opts)
       when Array
-        super Wapiti::Dataset.new(input.map { |f| Document.open(f, opts) }), opts
+        super(Wapiti::Dataset.new(input.map { |f| Document.open(f, **opts) }), **opts)
       else
-        super input, opts
+        super(input, **opts)
       end
     end
   end

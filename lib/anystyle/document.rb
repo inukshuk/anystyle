@@ -14,7 +14,7 @@ module AnyStyle
         })
       end
 
-      def open(path, format: File.extname(path), tagged: false, **options)
+      def open(path, format: File.extname(path), tagged: false, **opts)
         raise ArgumentError,
           "cannot open tainted path: '#{path}'" if path.tainted?
         raise ArgumentError,
@@ -24,8 +24,8 @@ module AnyStyle
 
         case format.downcase
         when '.pdf'
-          meta = pdf_meta path if options[:parse_meta]
-          info = pdf_info path if options[:parse_info]
+          meta = pdf_meta path if opts[:parse_meta]
+          info = pdf_info path if opts[:parse_info]
           input = pdf_to_text path
         when '.ttx'
           tagged = true
@@ -68,7 +68,7 @@ module AnyStyle
       })
     end
 
-    def to_s(delimiter: "\n", encode: false, tagged: false, **options)
+    def to_s(delimiter: "\n", encode: false, tagged: false, **opts)
       if tagged
         prev_label = nil
         lines.map { |ln|
@@ -77,12 +77,62 @@ module AnyStyle
           '%.14s| %s' % ["#{label}              ", ln.value]
         }.join(delimiter)
       else
-        super delimiter: delimiter, encode: encode, tagged: tagged, **options
+        super(delimiter: delimiter, encode: encode, tagged: tagged, **opts)
       end
     end
 
-    def to_a(encode: true, **options)
-      super encode: encode, **options
+    def to_a(encode: true, **opts)
+      super(encode: encode, **opts)
+    end
+
+    def to_h(**opts)
+      {
+        info: info,
+        meta: meta,
+        sections: sections(**opts),
+        title: title(**opts),
+        references: references(**opts)
+      }
+    end
+
+    def references(delimiter: " ", **opts)
+      bib, current, delta = [], nil, 0
+
+      lines.each do |ln|
+        case ln.label
+        when 'ref'
+          if current.nil?
+            current, delta = ln.value, 0
+          else
+            if delta < 5
+              current = "#{current}#{delimiter}#{ln.value}"
+            else
+              bib << current.strip.squeeze(delimiter)
+              current, delta = ln.value, 0
+            end
+          end
+        else
+          delta += 1 unless current.nil?
+        end
+      end
+
+      unless current.nil?
+        bib << current.strip.squeeze(delimiter)
+      end
+
+      bib
+    end
+
+    def sections(delimiter: "\n", **opts)
+      []
+    end
+
+    def title(delimiter: " ", **opts)
+      lines.drop_while { |ln|
+        ln.label != 'title'
+      }.take_while { |ln|
+        ln.label == 'title'
+      }.map(&:value).join(delimiter)
     end
 
     def inspect
