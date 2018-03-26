@@ -23,7 +23,7 @@ module AnyStyle
             :journal
           when /^in$/i
             :in
-          when /^(and|und)$/
+          when /^(and|und|y|e)$/
             :and
           when /^(etal)$/
             :etal

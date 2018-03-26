@@ -14,6 +14,7 @@ module AnyStyle
 
         @namae = Namae::Parser.new({
           prefer_comma_as_separator: true,
+          separator: /\s*\b(and|&|;|und|y|e)\b\s*/i,
           appellation: /\A(?!x)x/,
           title: /\A(?!x)x/
         })
