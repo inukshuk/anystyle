@@ -1208,7 +1208,7 @@
     <author>Ripley, B.</author>
     <date>(1992).</date>
     <title>Statistical aspects of neural networks.</title>
-    <genre>Invited lectures for SemStat (Seminaire Europeen de Statistique,</genre>
+    <container-title>Invited lectures for SemStat (Seminaire Europeen de Statistique,</container-title>
     <location>Sandbjerg, Denmark,</location>
     <date>25-30 April 1992).</date>
   </sequence>
@@ -2858,7 +2858,7 @@
   <sequence>
     <author>Tim Berners-Lee, Robert Cailliau, Jean-Francois Groff, and Bernd Pollermann.</author>
     <title>WorldWideWeb: the information universe.</title>
-    <container-title>Electronic Networking: Research, Applications and Policy,</container-title>
+    <journal>Electronic Networking: Research, Applications and Policy,</journal>
     <volume>2(1)</volume>
     <pages>52-58,</pages>
     <date>Spring 1992.</date>
@@ -4658,7 +4658,7 @@
     <director>Davidson, J. (Director).</director>
     <date>(1999).</date>
     <title>B. F. Skinner: A fresh appraisal</title>
-    <medium>[Motion picture].</medium>
+    <genre>[Motion picture].</genre>
     <location>United States:</location>
     <publisher>Davidson Studio.</publisher>
   </sequence>
@@ -4684,7 +4684,7 @@
     <director>&amp; Yates, D. (Director).</director>
     <date>(2009).</date>
     <title>Harry Potter and the half-blood prince</title>
-    <medium>[Motion picture].</medium>
+    <genre>[Motion picture].</genre>
     <location>United Kingdom:</location>
     <publisher>Warner Bros. Pictures.</publisher>
   </sequence>
@@ -4878,7 +4878,7 @@
     <director>&amp; Davidson, J. (Director).</director>
     <date>(1999).</date>
     <title>B. F. Skinner: A fresh appraisal</title>
-    <medium>[Motion picture].</medium>
+    <genre>[Motion picture].</genre>
     <location>United States:</location>
     <publisher>Davidson Studio.</publisher>
   </sequence>
@@ -4901,7 +4901,7 @@
   <sequence>
     <title>Art + soul : a journey into the world of aboriginal art</title>
     <date>2010,</date>
-    <medium>television program,</medium>
+    <genre>television program,</genre>
     <publisher>Australian Broadcasting Corporation,</publisher>
     <location>Sydney,</location>
     <note>4 October.</note>
@@ -4909,7 +4909,7 @@
   <sequence>
     <title>Chains = Cantene/Titanus</title>
     <date>2011,</date>
-    <medium>motion picture,</medium>
+    <genre>motion picture,</genre>
     <publisher>British Film Institute,</publisher>
     <location>London.</location>
   </sequence>
@@ -6954,5 +6954,28 @@
     <editor>In C. Pinney and N. Mookherjee (eds)</editor>
     <container-title>The aesthetics of nations: Anthropological and historical approaches.</container-title>
     <note>Special Issue of the Journal of the Royal Anthropological Institute</note>
+  </sequence>
+  <sequence>
+    <title>Good chemistry.</title>
+    <date>(1996, September).</date>
+    <journal>Wake Forest University Magazine,</journal>
+    <volume>44(1),</volume>
+    <pages>p. 8</pages>
+  </sequence>
+  <sequence>
+    <author>- V. GISCARD D'ESTAING,</author>
+    <title>« Le giscardisme »,</title>
+    <journal>Pouvoirs,</journal>
+    <date>1979,</date>
+    <volume>n°9.</volume>
+  </sequence>
+  <sequence>
+    <author>Carroll, G. M., L. S. Parrett, J. C. George, and D. A. Yokel.</author>
+    <date>2005.</date>
+    <title>Calving distribution of the Teshekpuk caribou herd 1994-2003.</title>
+    <journal>Rangifer</journal>
+    <note>Special Issue</note>
+    <volume>16:</volume>
+    <pages>27–35.</pages>
   </sequence>
 </dataset>
