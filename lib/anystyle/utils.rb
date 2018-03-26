@@ -31,7 +31,8 @@ module AnyStyle
 
     def display_width(string)
       string
-        .gsub(/\p{Mn}|\p{Me}|\p{C}/, '')
+        .gsub(/\p{Mn}|\p{Me}|\p{Cc}/, '')
+        .gsub(/\p{Zs}/, ' ')
         .rstrip
         .length
     end

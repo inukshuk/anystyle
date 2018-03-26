@@ -106,7 +106,7 @@ blank         |
 blank         | 
 blank         | 
 blank         | 
-              |                                           v
+footer        |                                           v
 title         | Contents
 blank         | 
 text          | Abstract                                                                                iv
@@ -758,7 +758,7 @@ text          | where Cj (qj ) is the total cost of selling advertising. I assum
               |     I assume that the markets are in a Cournot Nash Equilibrium. The first order
               | conditions for profit optimization become
 blank         |                                                                           
-              |                          X                       ∂rj 0
+text          |                          X                       ∂rj 0
               |             rj pj +                   qj 0                          A m
               |                                                        pj 0 − rj 0 θ2 ωjj 0 − θC − ηj = 0 ∀k and j ∈ sk                      (2.8)
               |                          j 0 ∈s
@@ -1368,7 +1368,7 @@ text          | To isolate the impact of the Telecom Act on a surplus division b
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                                30
 blank         | 
 blank         | 
-              |                           Consumer                     Advertiser                         Mean price
+text          |                           Consumer                     Advertiser                         Mean price
               |                                      Average ad load                Advertising minutes
               |                            surplus                      surplus                             index
               |         Impact of

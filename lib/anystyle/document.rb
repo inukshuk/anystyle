@@ -128,8 +128,8 @@ module AnyStyle
     end
 
     def join_refs?(a, b, delta = 0, indent = false)
-      delta <= 5 && [
-        indent,
+      delta <= 10 && [
+        indent || delta == 0,
         b.length < a.length || a.length < 100,
         a !~ /[.\]]$/,
         b =~ /^\p{Ll}/
