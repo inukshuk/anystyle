@@ -95,20 +95,20 @@ module AnyStyle
       }
     end
 
-    def references(delimiter: " ", **opts)
+    def references(**opts)
       bib, current, delta = [], nil, 0
 
       lines.each do |ln|
         case ln.label
         when 'ref'
           if current.nil?
-            current, delta = ln.value, 0
+            current, delta = ln.value.strip, 0
           else
-            if delta < 5
-              current = "#{current}#{delimiter}#{ln.value}"
+            if join_refs?(current, ln.value, delta, ln.observations[15] == '+')
+              current = join_refs(current, ln.value.strip)
             else
-              bib << current.strip.squeeze(delimiter)
-              current, delta = ln.value, 0
+              bib << current
+              current, delta = ln.value.strip, 0
             end
           end
         else
@@ -117,10 +117,31 @@ module AnyStyle
       end
 
       unless current.nil?
-        bib << current.strip.squeeze(delimiter)
+        bib << current
       end
 
       bib
+    end
+
+    def join_refs?(a, b, delta = 0, indent = false)
+      delta <= 5 && [
+        indent,
+        b.length < a.length || a.length < 100,
+        a !~ /[.\]]$/,
+        b =~ /^\p{Ll}/
+      ].count(true) > 1
+    end
+
+    def join_refs(a, b)
+      if a[-1] == '-'
+        if b =~ /^\p{Ll}/
+          "#{a[0...-1]}#{b}"
+        else
+          "#{a}#{b}"
+        end
+      else
+        "#{a} #{b}"
+      end
     end
 
     def sections(delimiter: "\n", **opts)
