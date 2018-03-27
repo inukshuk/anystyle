@@ -1,8 +1,8 @@
 title         | ESSAYS ON HORIZONTAL MERGERS AND ANTITRUST
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 title         |                A DISSERTATION
               | SUBMITTED TO THE GRADUATE SCHOOL OF BUSINESS
               |    AND THE COMMITTEE ON GRADUATE STUDIES
@@ -11,64 +11,64 @@ title         |                A DISSERTATION
               |              FOR THE DEGREE OF
               |            DOCTOR OF PHILOSOPHY
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          |                Przemyslaw Jeziorski
-text          |                     June 2010
+              |                     June 2010
               |                 © 2010 by Przemyslaw Jeziorski. All Rights Reserved.
               |          Re-distributed by Stanford University under license with the author.
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          |                          This work is licensed under a Creative Commons Attribution-
               |                          Noncommercial 3.0 United States License.
               |                          http://creativecommons.org/licenses/by-nc/3.0/us/
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          | This dissertation is online at: http://purl.stanford.edu/bb599nz4341
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 footer        |                                           ii
 text          | I certify that I have read this dissertation and that, in my opinion, it is fully adequate
               | in scope and quality as a dissertation for the degree of Doctor of Philosophy.
 blank         | 
 text          |                                                                Peter Reiss, Primary Adviser
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | I certify that I have read this dissertation and that, in my opinion, it is fully adequate
               | in scope and quality as a dissertation for the degree of Doctor of Philosophy.
 blank         | 
 text          |                                                                                 Ali Yurukoglu
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | I certify that I have read this dissertation and that, in my opinion, it is fully adequate
               | in scope and quality as a dissertation for the degree of Doctor of Philosophy.
 blank         | 
 text          |                                                                            C. Lanier Benkard
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          | Approved for the Stanford University Committee on Graduate Studies.
               |                                  Patricia J. Gumport, Vice Provost Graduate Education
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          | This signature page was generated electronically upon submission of this dissertation in
               | electronic format. An original signed hard copy of the signature page is on file in
               | University Archives.
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 footer        |                                           iii
 title         | Abstract
 blank         | 
@@ -84,9 +84,9 @@ text          | This thesis contributes to understanding the economics of merger
               | to many markets, as well as a specific application to the merger wave in the U.S.
               | radio industry.
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 footer        |                                          iv
 title         | Acknowledgments
 blank         | 
@@ -103,9 +103,9 @@ text          | I would like to thank my advisers Lanier Benkard and Peter Reiss
               | community at Stanford University – professors, fellow students and casual friends –
               | for creating a unique environment for my intellectual and personal development.
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 footer        |                                           v
 title         | Contents
 blank         | 
@@ -168,13 +168,13 @@ text          | B Additional material to Chapter 3                              
               |   B.3 Policy function covariates . . . . . . . . . . . . . . . . . . . . . . . .        63
               |   B.4 First stage estimates: Dynamic model . . . . . . . . . . . . . . . . . .          65
 blank         | 
-blank         | 
+              | 
 footer        |                                            vii
 text          | Bibliography          68
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 footer        |                viii
 title         | List of Tables
 blank         | 
@@ -212,17 +212,17 @@ text          | B.1 Covariates for the format switching strategy multinomial lo
               | B.6 Format switching policy estimates - current demographics . . . . . . .      66
               | B.7 Format switching policy estimates - demographic dynamics . . . . . .        67
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 footer        |                                        x
 title         | List of Figures
 blank         | 
 text          |  3.1   Dynamics of station acquisition and format switching . . . . . . . . .   50
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 footer        |                                        xi
 header        | Chapter 1
 blank         | 
@@ -249,12 +249,12 @@ text          | A horizontal merger occurs when two or more competing companies 
               | Levinsohn, and Pakes (1995)) and supply system. The demand system is a function of
               | product characteristics, prices and heterogeneous consumer preferences. The supply
 blank         | 
-blank         | 
+              | 
 footer        |                                          1
 header        | CHAPTER 1. INTRODUCTION                                                                2
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | system is determined by the equilibrium behavior of firms that maximize their profits.
               | In the second step, one exogenously imposes a hypothetical merger and solves for the
               | post-merger equilibrium using the estimates from the first step. The new equilibrium
@@ -288,8 +288,8 @@ text          | system is determined by the equilibrium behavior of firms that m
               | advertising supplied, thereby increasing listener welfare by 1%. However, at the same
 header        | CHAPTER 1. INTRODUCTION                                                                 3
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | time the decrease in ad supply raises prices and lowers advertiser welfare by $300m
               | per year.
               |    A static analysis does not recognize that firms may adjust their product portfolio
@@ -323,8 +323,8 @@ text          | time the decrease in ad supply raises prices and lowers advertis
               | allows for the estimation of cost synergies without any data on cost. The framework
 header        | CHAPTER 1. INTRODUCTION                                                                4
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | is straightforward, easy to implement, and computationally tractable. Application to
               | radio reveals that the 1996-2006 merger wave provided $2.5b per year of cost syn-
               | ergies, which constitutes about 10% of total industry revenue. The scale of those
@@ -352,12 +352,12 @@ text          | This chapter studies the consequences of mergers in two-sided ma
               | total impact of +0.9%) and advertiser welfare by an additional $140m (for a total impact
               | of -$300m).
 blank         | 
-blank         | 
+              | 
 footer        |                                               5
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                              6
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 title         | 2.2     Introduction
 text          | Between 1996 and 2006, the U.S. radio industry experienced an unprecedented merger
               | wave due to the 1996 Telecommucation Act, which raised ownership caps in local
@@ -390,8 +390,8 @@ text          | Between 1996 and 2006, the U.S. radio industry experienced an un
               | Using those estimates, I perform counterfactual policy experiments that quantify the
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                              7
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | impact of consolidation on listener and advertiser surplus. I find that market power
               | on the listener side is similar across geographical markets. In contrast, the amount
               | of market power on the advertiser side depends on market population. In particular,
@@ -425,8 +425,8 @@ text          | impact of consolidation on listener and advertiser surplus. I fi
               | that explicitly predict changes in supplied ad quantity and consumer welfare.
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                      8
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          |       The second contribution of this paper is the decomposition of the total impact of
               | mergers on consumer surplus into changes in product variety and effects of exercising
               | extra market power from joint ownership. This exercise is motivated by the fact
@@ -461,13 +461,13 @@ text          |    When in “dark” format, the station holds the frequency so
               | “Dark” stations typically do not broadcast or broadcast very little non-commercial programming.
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                               9
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | estimation are presented in Section 5. Section 6 describes the results of counterfactual
               | experiments. Robustness checks of different modeling assumptions are contained in
               | Section 7. Section 8 provides the conclusion.
 blank         | 
-blank         | 
+              | 
 title         | 2.3     Radio as a two-sided market
 text          | The radio industry is an example of a two-sided market (other examples include
               | advertising platforms, credit cards or video games). Such markets are usually char-
@@ -496,11 +496,11 @@ text          | where q is the vector of advertising quantities, s are observabl
               | this equation. However, because listeners have disutility for advertising, its effect is
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                              10
 blank         | 
-blank         | 
+              | 
 text          |                          ∂rj
               | similar to price, i.e.   ∂qj
               |                                < 0.
-text          |    The market clearing price of an advertising slot in station j depends on the amount
+              |    The market clearing price of an advertising slot in station j depends on the amount
               | of advertising supplied and the number of listeners to station j. Therefore, the inverse
               | demand curve for advertising slots is
 blank         | 
@@ -516,7 +516,7 @@ blank         |
 text          |                                         max pj (q, rj (q)|q−j )qj                  (2.3)
               |                                           qj
 blank         | 
-blank         | 
+              | 
 text          | In contrast to a differentiated products oligopoly, the firm has just one control (ad
               | quantity) that determines the equilibrium point on both demand curves simultane-
               | ously. The first order conditions for profit maximization are given by
@@ -537,8 +537,8 @@ text          | The important fact is that this condition shares features with b
               | in the Cournot model quantities are strategic substitutes and in the differentiated
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                              11
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | product Bertrand model prices are strategic complements. Without knowing the
               | relative strengths of the direct effects and the feedback loop, we cannot conclude
               | whether a merger leads to an increase or decrease in ad quantity on the margin.
@@ -557,7 +557,7 @@ text          | product Bertrand model prices are strategic complements. Without
               | the direct and feedback effects and perform counterfactuals that quantify the extent
               | of surplus reallocation.
 blank         | 
-blank         | 
+              | 
 title         | 2.3.1     Industry setup
 text          | During each period t, the industry consists of M geographical markets that are char-
               | acterized by a set of demographic covariates d ∈ Dm . Each market m can have up to
@@ -573,8 +573,8 @@ text          | During each period t, the industry consists of M geographical ma
               | portfolio of stations owned by firm k.
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                    12
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          |    The quality of the programming of radio station j is fully characterized by a one-
               | dimensional quality measure ξj ∈ Ξ ⊂ R. The state of the industry at time time t
               | in market m is therefore fully characterized by: a station/format configuration and
@@ -583,7 +583,7 @@ text          |    The quality of the programming of radio station j is fully ch
               | demand, and supply side. Throughout the description I take the triple (stm , ξ tm , dtm )
               | as given and frequently omit market or time subscripts to simplify the notation.
 blank         | 
-blank         | 
+              | 
 title         | 2.3.2     Listeners
 text          | This subsection describes the details of the demand for listenership introduced in
               | equation (2.1). The model will be a variation on the random coefficient discrete
@@ -598,7 +598,7 @@ text          |                                  L        L
               |                           uij = θ1i ιj − θ2i qj + θ3L FMj + ξj + ji                    (2.4)
 blank         | 
 text          |        L
-text          | where θ2i is the individual listener’s demand sensitivity to adverting, qj the amount
+              | where θ2i is the individual listener’s demand sensitivity to adverting, qj the amount
               | of advertising, ξj the unobserved station quality, ji an unobserved preference shock
               |                                                  L
               | (distributed type-1 extreme value), and finally θ1i is a vector of the individual listener’s
@@ -615,8 +615,8 @@ blank         |
 text          | where Σ1 is a diagonal matrix, Fm (Di |d) is an empirical distribution of demographic
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                        13
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | characteristics, νi is unobserved taste shock, and Π is the matrix representing the
               | correlation between demographic characteristics and format preferences. I assume
               | that draws for νi are uncorrelated across time and markets.
@@ -638,12 +638,12 @@ text          | and error term ji .
               | one can derive the expected station rating conditional on a vector of advertising levels
               | q, market structure s, a vector of unobserved station characteristics ξ, and market
               | demographic characteristics d,
-text          |                                     Z Z
+              |                                     Z Z
               |                              L                   exp[δj + µji ]
               |              rj (q|s, ξ, d, θ ) =          P                             dF (νi )dFm (Di |d)
               |                                               j 0 ∈s exp[δj 0 + µj 0 i ]
 blank         | 
-blank         | 
+              | 
 title         | 2.3.3     Advertisers
 text          | In this subsection I present the details of the demand for advertising introduced in
               | equation (2.2). The model captures several important features specific to the radio
@@ -653,12 +653,12 @@ text          | In this subsection I present the details of the demand for adver
               | advertisers, so that CPP is a decreasing function of the ad quantities offered by a
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                    14
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | station and its competitors. The simplest model that captures these features and is
               | a good approximation of the industry is a linear inverse demand for advertising, such
-text          | as                                                                               !
-text          |                                                           X
+              | as                                                                               !
+              |                                                           X
               |                               pj = θ1A rj       1 − θ2A            ωfmf 0 qf 0           (2.5)
               |                                                           f 0 ∈F
 blank         | 
@@ -692,8 +692,8 @@ text          |                                             1       X           
               |                                          a∈A ra|f a∈A
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                 15
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | The formal justification and derivation of this equation is given in Appendix A.1. The
               | intuition behind it is that the total impact on the per-listener price of an ad in format
               | f is a weighted average of impacts on the per-listener value of an ad for different types
@@ -715,7 +715,7 @@ text          |           rf |a                            ra|f                 
               |            Talk     Hits                 Teens    Adults                  Talk   Hits
               |    Teens    1/5     4/5           Talk    1/4      3/4            Talk    0.56   0.44
               |    Adults 3/5       2/5           Hits    2/3      1/3            Hits    0.28   0.72
-text          |                   Table 2.1: Simple example of advertising weights
+              |                   Table 2.1: Simple example of advertising weights
 blank         | 
 text          |    In Table 2.1, the impact of Hits on the price of Talk is greater than the impact of
               | Talk on the price of Hits. This is due to the fact that the quantity supplied in the Hits
@@ -728,17 +728,17 @@ text          |    In Table 2.1, the impact of Hits on the price of Talk is grea
               |    In the next section I will combine demand for programming and advertising to
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                                                        16
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | compose the profits of the radio station owners.
 blank         | 
-blank         | 
+              | 
 title         | 2.3.4       Radio station owners
 text          | In this subsection I will describe a profit maximizing problem for the radio station
               | owners. It will be a version of equation (2.3) that allows for non-zero cost in selling
               | advertising and common radio station ownership. Given the advertising quantity
               | choices of competing owners q−k , the profit of radio station owner k is given by
-text          |                                                        X
+              |                                                        X
               |        π̄k (qk |q−k , ξ, θ) = max                             rj (q|ξ, θL )pj qj − MCj (qj ) =
               |                                          {qj ;j∈sk }
               |                                                        j∈sk
@@ -751,7 +751,7 @@ text          |                                       X                         
               |                      {qj ;j∈sk }
               |                                       j∈sk                                    f 0 ∈F
 blank         | 
-blank         | 
+              | 
 text          | where Cj (qj ) is the total cost of selling advertising. I assume constant marginal cost
               | and allow for a firm level of unobserved cost heterogeneity ηj , i.e. Cj (qj |θA , θC ) =
               | θ1A [θC + ηj ]qj .
@@ -765,8 +765,8 @@ text          |                          X                       ∂rj 0
               |                                                  ∂qj
               |                                   k
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | Additionally, I assume that station unobserved quality is exogenous but serially cor-
               | related. It evolves according an AR(1) process such that
 blank         | 
@@ -775,8 +775,8 @@ blank         |
 text          | where ζjt is an exogenous innovation to station quality.
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                              17
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 title         | 2.4      Data description
 text          | I have constructed a panel of data on radio stations and radio station ownership
               | merging data from two sources: BIA Financial Network Inc. and the SQAD Media
@@ -809,7 +809,7 @@ text          | I have constructed a panel of data on radio stations and radio s
               | list of the 88 markets, along with their populations.
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                                  18
 blank         | 
-blank         | 
+              | 
 text          |                      1996    1997    1998    1999    2000    2001    2002    2003    2004    2005    2006
               |      Number of
               |                      26.75   26.92   27.25   27.53   27.66   27.89   28.48   28.61   28.72   28.78   28.86
@@ -857,8 +857,8 @@ footnote      |   2
 text          |       Source: Arbitron Format Trends Report
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                             19
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 title         | 2.5     Estimation
 text          | The estimation of the model is done in two steps. In the first step, I estimate the
               | demand model that includes parameters of the consumer utility θL (see equation
@@ -866,7 +866,7 @@ text          | The estimation of the model is done in two steps. In the first s
               | the second step, we recover parameters of the inverse demand for advertising θA , wjj 0
               | (see equation (2.5)) and cost parameters θC (see equation (2.7)).
 blank         | 
-blank         | 
+              | 
 title         | 2.5.1     First stage
 text          | This stage provides the estimates of demand for radio programming θL . Estimation is
               | done using the generalized method of simulated moments. I use two sets of moment
@@ -899,8 +899,8 @@ blank         |
 text          | where Fct (Di , m) is a national distribution of people who possess characteristic c at
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                                   20
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | time t. Each person is characterized by the demographic characteristics Di and the
               | market m they belong to.
               |    For each time t and demographic characteristic c, I draw I observation pairs
@@ -935,7 +935,7 @@ text          | where L is a lag operator that converts the vector ξ into one-p
               | the interaction terms µ in the second constraint, I draw one vector νi from the normal
               | distribution for each Dict .
 blank         | 
-blank         | 
+              | 
 title         | 2.5.2       Second stage
 text          | The second stage of the estimation obtains the competition matrix Ω and the pa-
               | rameters of demand for advertising θA . The estimation is done separately for every
@@ -943,8 +943,8 @@ text          | The second stage of the estimation obtains the competition matri
               |    To compute the matrices Ωm for each market I use the specification layed out in
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                                             21
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | section 2.3.3. The elements of the matrix Ω are specified as
 blank         | 
 text          |                                                                  1      X                          
@@ -952,7 +952,7 @@ text          |                                                                 
               |                                                                             ra|f    ra|f rf 0 |a
               |                                                                a∈A ra|f a∈A
 blank         | 
-blank         | 
+              | 
 text          | following equation (2.6). The rf |a are advertisers’ beliefs about listeners’ preferences
               | for formats. These are constant across markets. To recognize that advertisers know
               | the demographic composition of each market I allow for market specific listener arrival
@@ -981,9 +981,9 @@ text          |                                                  ∂rjt 0 t
               |                           j 0 ∈stm
               |                                 k
 blank         | 
-blank         | 
+              | 
 text          |                                        A                              A       C
-text          | Since the equation does not depend on θ1m , I can use it to estimate θ2m and θm . During
+              | Since the equation does not depend on θ1m , I can use it to estimate θ2m and θm . During
               | the estimation, I allow for a different value of marginal cost for each market. I allow
 footnote      |   3
 text          |     Such an approach potentially ignores possible variance of the Ωm estimator. The source of
@@ -991,8 +991,8 @@ text          |     Such an approach potentially ignores possible variance of th
               | estimates.
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                               22
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | for 3 different values for the slope of inverse demand depending on the population of
               | the market (up to 500 people, between 500 and 1500, and 1500 or more). Ratings
               | and derivatives of ratings in the equation (2.14) are calculated using the estimates of
@@ -1022,7 +1022,7 @@ text          | for 3 different values for the slope of inverse demand depending
               | supplied, depending on the market. Those differences are rationalized by a negative
               | value of CPP slope, θ2A .
 blank         | 
-blank         | 
+              | 
 title         | 2.6      Results
 text          | This section presents estimates of the structural parameters. The next subsection
               | discusses listeners’ demand parameters. This is followed by results concerning adver-
@@ -1030,8 +1030,8 @@ text          | This section presents estimates of the structural parameters. Th
               | cost and profit margin (before subtracting fixed cost).
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                23
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 title         | 2.6.1     Listeners’ demand
 text          | Table 2.3 contains estimates of demand parameters for radio programming. The esti-
               | mate of the mean effect of advertising on listeners’ utility is negative and statistically
@@ -1055,7 +1055,7 @@ text          | Table 2.3 contains estimates of demand parameters for radio prog
               | with the the fact that Urban radio stations play mostly rap, hip-hop and soul music
               | performed by black artists.
 blank         | 
-blank         | 
+              | 
 title         | 2.6.2     Advertisers’ demand
 text          | Tables 2.5 presents the weights for selected markets representing large, medium and
               | small listener populations. They were computed using the 1999 edition of Radio
@@ -1065,9 +1065,9 @@ text          | Tables 2.5 presents the weights for selected markets representin
               | AC and News/Talk have the biggest impact on the price of advertising, while Spanish
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                            24
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          |                                Mean Effects (θ1L )   Random Effects (Σ1 )
               |                                   −1.106∗∗∗               0.030∗∗∗
               |                  Advertising         (0.002)                (0.009)
@@ -1104,13 +1104,13 @@ text          |                                     0.568∗∗∗
               |                  ρ                   (0.091)
               |                                                               -
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | Table 2.3: Estimates of mean and random effects of demand for radio programming.
               | Stars indicate parameter significance when testing with 0.1, 0.05 and 0.01 test sizes.
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                                25
 blank         | 
-blank         | 
+              | 
 text          |                                           Demographics characteristics (Π)
               |                      Age            Sex      Education     Income         Black            Spanish
               |     AC,
@@ -1126,7 +1126,7 @@ text          |                   −2.541∗∗∗      0.477∗∗∗       1.
               |     Alternative   −0.817         1.350          0.583         −0.141         3.152         0.267∗∗∗
               |     Urban           (0.008)        (0.018)       (0.025)        (0.002)        (0.005)       (0.027)
 blank         | 
-blank         | 
+              | 
 text          |     News/Talk      0.329∗∗∗      1.228∗∗∗       0.237∗∗∗      0.093∗∗∗       −0.321∗∗∗     −1.649∗∗∗
               |                     (0.002)        (0.012)       (0.009)        (0.005)        (0.001)       (0.005)
 blank         | 
@@ -1139,9 +1139,9 @@ blank         |
 text          |                     0.263        0.624∗∗∗       0.338∗∗∗       −0.031        0.498∗∗∗      0.238∗∗∗
               |     Other           (0.373)        (0.003)       (0.006)        (0.063)        (0.001)       (0.002)
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          | Table 2.4: Interaction terms between listeners’ demographics and taste for radio
               | programming.
 blank         | 
@@ -1162,11 +1162,11 @@ text          | format has the smallest. The values on the diagonals of the matr
               | per-listener price. However, such control significantly drops in markets from 0.5m
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                              26
 blank         | 
-blank         | 
+              | 
 text          |                                         Los Angeles, CA
-text          |                     AC
+              |                     AC
               |                                                Alternative
-text          |                     SmoothJazz   Rock   CHR                  News/Talk   Country   Spanish   Other
+              |                     SmoothJazz   Rock   CHR                  News/Talk   Country   Spanish   Other
               |                                                Urban
               |                     New AC
               |      AC
@@ -1183,9 +1183,9 @@ text          |                     SmoothJazz   Rock   CHR                  New
               |      Other             0.18      0.07   0.06      0.08         0.20       0.17      0.00     0.23
               |      Total impact      1.20      0.79   0.87      0.99         1.15       1.00      0.77     1.23
 blank         | 
-blank         | 
+              | 
 text          |                                           Atlanta, GA
-text          |                     AC
+              |                     AC
               |                                                Alternative
               |                     SmoothJazz   Rock   CHR                  News/Talk   Country   Spanish   Other
               |                                                Urban
@@ -1204,9 +1204,9 @@ text          |                     AC
               |      Other             0.16      0.07   0.06      0.07         0.16       0.23      0.01     0.25
               |      Total impact      1.11      0.78   0.88      0.94         0.95       1.31      0.75     1.29
 blank         | 
-blank         | 
+              | 
 text          |                                          Knoxville, TN
-text          |                     AC
+              |                     AC
               |                                                Alternative
               |                     SmoothJazz   Rock   CHR                  News/Talk   Country   Spanish   Other
               |                                                Urban
@@ -1225,16 +1225,16 @@ text          |                     AC
               |      Other             0.17      0.09   0.11      0.12         0.12       0.18      0.01     0.21
               |      Total impact      1.12      0.90   1.11      1.05         0.74       1.21      0.72     1.14
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          |                Table 2.5: Product closeness matrices for chosen markets
 blank         | 
 text          | to 2m people, and it disappears completely in markets with more than 2m people,
               | making radio stations essentially price takers. I suspect that this phenomenon can be
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                             27
 blank         | 
-blank         | 
+              | 
 text          |    Market population     less than .5m between .5m and 1.5m more than 1.5m
               |                           1.34 (0.046)      0.35 (0.026)     0.00 (0.008)
 blank         | 
@@ -1246,7 +1246,7 @@ text          | explained by the fact that in larger markets there are more outs
               | a primary advertising channel, because other media like the Internet or billboards are
               | not as widespread. This gives radio stations more control over price.
 blank         | 
-blank         | 
+              | 
 title         | 2.6.3    Supply
 text          | The marginal costs of selling advertising minutes are presented in Table 2.7. The
               | values of this cost range from $356 per minute of advertising sold in Los Angeles,
@@ -1312,17 +1312,17 @@ text          |                                                        Marginal 
               |    Tucson, AZ                       870               41.1 (0.93)       27%     San Angelo, TX                         104       26.4 (1.36)    16%
               |    Grand Rapids, MI                 864               37.9 (0.79)       38%     Bismarck, ND                            99       32.8 (1.65)    22%
 blank         | 
-blank         | 
+              | 
 text          | Table 2.7: Estimated marginal cost (in dollars per minute of broadcasted advertising) and profit margins (before
               | subtracting the fixed cost) for a chosen set of markets
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 footer        |                                                                                                                                                         28
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                                 29
 blank         | 
-blank         | 
+              | 
 text          |                            Consumer                     Advertiser                         Mean price
               |                                       Average ad load                Advertising minutes
               |                             surplus                      surplus                             index
@@ -1360,14 +1360,14 @@ text          | In this section I investigate the impact of consolidation on lis
               | quantities and prices. In the next subsection I present the structural counterfactuals
               | that answer this question.
 blank         | 
-blank         | 
+              | 
 title         | 2.7.1     Impact of mergers on consumer surplus
 text          | To isolate the impact of the Telecom Act on a surplus division between advertisers
               | and listeners, I perform a counterfactual in which I recompute new equilibrium ad
               | quantities under the old 1996 ownership structure and 1996 formats. This calculation
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                                30
 blank         | 
-blank         | 
+              | 
 text          |                           Consumer                     Advertiser                         Mean price
               |                                      Average ad load                Advertising minutes
               |                            surplus                      surplus                             index
@@ -1386,7 +1386,7 @@ text          |                           Consumer                     Advertise
               |       ad adjustment
 blank         | 
 text          |         Table 2.9: Counterfactuals for small markets (less than 500k people)
-text          |                           Consumer                     Advertiser                         Mean price
+              |                           Consumer                     Advertiser                         Mean price
               |                                      Average ad load                Advertising minutes
               |                            surplus                      surplus                             index
               |         Impact of
@@ -1422,8 +1422,8 @@ text          | is motivated by the fact that in 1996 many markets were at their
               |    For advertisers, a decrease in quantity supplied leads to about 2.57% increase in
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                                31
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | per-listener prices, or a $300m decrease in advertiser surplus. I therefore conclude
               | that the Telecom Act lead to a reallocation of surplus from advertisers to listenerss.
               | Moreover, because the gain by listeners ($350m) is larger than the surplus lost by
@@ -1443,7 +1443,7 @@ text          | per-listener prices, or a $300m decrease in advertiser surplus. 
               | by almost 2pdm. On balance, this does not affect advertiser surplus. I conclude that
               | listeners gained form the Telecom Act only in small markets.
 blank         | 
-blank         | 
+              | 
 title         | 2.7.2        Effects of product variety and market power
 text          | Berry and Waldfogel (2001) suggest that the negative effects of ownership consolida-
               | tion on listeners might be mitigated by format switching. They find that post-merger
@@ -1458,8 +1458,8 @@ footnote      |   4
 text          |       Similar results obtained using direct analysis of station playlists can be found in Sweeting (2008).
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                             32
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | case, listeners have a 1.3% larger surplus (about 6.6pdm) after consolidation and for-
               | mat switching. Listener surplus grows because of two factors: increased variety and
               | decreased advertising exposure. The latter decreased even though I keep number of
@@ -1469,7 +1469,7 @@ text          | case, listeners have a 1.3% larger surplus (about 6.6pdm) after 
               | out that both listeners and advertisers are worse off due to quantity adjustments.
               | Listeners lose 1.9pdm and advetisers lose additional $150m in surplus.
 blank         | 
-blank         | 
+              | 
 title         | 2.8     Robustness analysis
 text          | This section examines the robustness of my advertising model to different assumptions
               | about competition among station formats. This step is motivated by the fact that
@@ -1493,14 +1493,14 @@ text          | This section examines the robustness of my advertising model to 
               | the one in the baseline model. On the other hand in the perfect substitutes model,
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                                   33
 blank         | 
-blank         | 
+              | 
 text          |            Market population       less than .5m     between .5m and 1.5m        more than 1.5m
               |             Baseline model          1.34 (0.046)          0.35 (0.026)            0.00 (0.008)
               |         Oligopoly within format     1.07 (0.036)          0.28 (0.061)            0.02 (0.009)
               |            Perfect substitutes      1.44 (0.035)          0.32 (0.030)            0.01 (0.009)
 blank         | 
 text          |            Table 2.11: Slope of the inverse demand for ads θ2A , by market size
-text          |                              Consumer                     Advertiser                         Mean price
+              |                              Consumer                     Advertiser                         Mean price
               |                                         Average ad load                Advertising minutes
               |                               surplus                      surplus                             index
               |                               4.7pdm       -4.8pdm         -304.4m         -12,329min
@@ -1530,15 +1530,15 @@ text          | the estimated slope tends to be higher. Despite the fact that th
               | the results of the paper are not sensitive to changes in the assumption about substi-
               | tution between formats.
 blank         | 
-blank         | 
+              | 
 title         | 2.9        Conclusion
 text          | In this paper I analyze mergers in two-sided markets on the example of the 1996-2006
               | consolidation wave in U.S. radio industry. The goal of this study is to describe and
               | quantify how mergers in the two-sided market differ from a differentiated product
 header        | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                             34
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | oligopoly setting. I make two main contributions. First, I recognize the fact two-
               | sided markets consist of two types of consumers, who may be affected by the merger in
               | different ways. For example, if extra market power causes the radio station to increase
@@ -1559,9 +1559,9 @@ text          | oligopoly setting. I make two main contributions. First, I recog
               | effect it totals to the 1% increase) and an additional $153m decrease in advertiser
               | welfare (with the variety effect it totals $300m).
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 footnote      |   5
 text          |       Source: A.Richter (2006)
 header        | Chapter 3
@@ -1583,14 +1583,14 @@ text          | This chapter develops a new way to estimate cost synergies from 
               | between 1996 and 2006 additional ownership concentration generated $2.5b per-year
               | cost savings, which is about 10% of total industry revenue.
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 footer        |                                           35
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                             36
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 title         | 3.2      Introduction
 text          | The extent to which a potential merger generates cost efficiencies is often mentioned
               | by managers as a major motivation to merge. Moreover, potential fixed cost savings
@@ -1623,8 +1623,8 @@ text          | The extent to which a potential merger generates cost efficienci
               | happen sequentially. Such an approach enables me to estimate the cost efficiencies
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                             37
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | of consolidation without any data on cost. It also eliminates the shortcomings men-
               | tioned earlier, because it incorporates the dynamic processes directly into the model.
               | Moreover, endogenizing mergers allows for correction of sample selection by using a
@@ -1658,8 +1658,8 @@ text          | of consolidation without any data on cost. It also eliminates th
               | accounting explicitly for the demand side incentives to merge. On the technical side,
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                               38
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | my model shares some similarities with Sweeting (2007). I concentrate on questions
               | about incentives to merge and the impact of consolidation on welfare, while Sweeting
               | focuses mainly on estimates of the format switching cost. My analysis also extends
@@ -1674,7 +1674,7 @@ text          | my model shares some similarities with Sweeting (2007). I concen
               | discussed in Section 3. Section 4 describes the application of the framework to analyze
               | the merger wave in the U.S. radio industry. Section 5 concludes the paper.
 blank         | 
-blank         | 
+              | 
 title         | 3.3     Merger and repositioning framework
 text          | This section presents the dynamic oligopoly model of an industry with differentiated
               | products in the spirit of Ericson and Pakes (1995). The industry is modeled as a
@@ -1685,7 +1685,7 @@ text          | This section presents the dynamic oligopoly model of an industry
               | tion, by allowing for a large range of different single-period profit functions and cost
               | structures.
 blank         | 
-blank         | 
+              | 
 title         | 3.3.1     Industry basics
 text          | The industry is composed of M different markets that operate in discrete time over
               | an infinite horizon. The payoff relevant market characteristics at time t are fully
@@ -1693,8 +1693,8 @@ text          | The industry is composed of M different markets that operate in 
               | market m, there are up to Km operating firms and up to Jm active products. Let oj ∈
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                     39
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | Km be the owner of the product j. I assume that each product j ∈ Jm is characterized
               | by a triple stj = (fjt , ξjt , otj ). In particular, fjt ∈ F is a discrete characteristic, and
               | ξjt ∈ Ξ is a continuous characteristic of the product. The state of the industry at the
@@ -1703,7 +1703,7 @@ text          | Km be the owner of the product j. I assume that each product j �
               |                     t
               | by the firm k, and O−k to be the number of products owned by its competitors.
 blank         | 
-blank         | 
+              | 
 title         | 3.3.2     Players’ actions
 text          | Firms can undertake two types of actions: product acquisitions and product repo-
               | sitioning. I assume that acquisitions take place first and the results are common
@@ -1733,16 +1733,16 @@ text          | These prices are the outcomes of a bargaining process that is on
               |    In addition to prices, the potential buyer observes a set of additive payoff/cost
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                          40
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | shocks from acquiring any competitor owned product φtk = {φtkj : otj 6= k} that is his
               | private information. A player’s i(k) action involves specifying which subset of stations
               | are to be acquired. I restrict attention to Markov strategies, so the acquisition policy
               | is a mapping
-text          |                                        t                                 t
+              |                                        t                                 t
               |                                 ak : (ωi(k) , φtk , Pkt , dt ) 7→ {0, 1}O−k
               |                                                t
-text          | After the decisions are made, a new ownership ωi(k+1) is determined, and it becomes
+              | After the decisions are made, a new ownership ωi(k+1) is determined, and it becomes
               | common knowledge. Player a(k + 1) proceeds with acquisitions, or if there are no
               | move active players, the game moves to product repositioning.
               |       A product repositioning involves decisions about changing discrete characteristics
@@ -1781,8 +1781,8 @@ footnote      |   1
 text          |       This assumption is made for the simplicity of exposition and might be easily relaxed.
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                                          41
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | where ζt is a mean zero IID random variable.
 blank         | 
 text          |      Moreover, market covariates are also assumed to be exogenous and Markov
@@ -1796,11 +1796,11 @@ text          |      These assumptions are made for simplicity of estimation. Th
               |      When the new industry state is (st+1 , dt+1 ) realized firms then play a static com-
               | petition game that yelds profits given by π̄k (st+1 , dt ).
 blank         | 
-blank         | 
+              | 
 title         | 3.3.3         Payoffs and equilibrium
 text          | Given the realizations of (st , st+1 , P t , ψ t , φt , dt ) the per-period payoff for player k is
               | given by the equation
-text          |                                                                                 X
+              |                                                                                 X
               |     πk (st , st+1 ,P t , ψ t , φt , dt ) = π̄k (st+1 , dt ) − F (stk ) +                       (φtkj − Pkj
               |                                                                                                         t
               |                                                                                                            )+
@@ -1815,13 +1815,13 @@ text          |                                                                 
               |                                  j   6=k                j:ot+1
               |                                                            j   =k
 blank         | 
-blank         | 
+              | 
 text          | where F (stk ) is the fixed cost of owning portfolio stk , and π̄k is a one-shot profit from
               | the portfolio.
               |      Let g = (a1 , . . . , aK , b1 , . . . , bK ) be a Markov strategy profile. It can be shown that
               | this profile and an initial condition (s, d) determine the unique, controlled Markov
               | process over states, acquisition prices P , payoff shocks ψ and φ, and market covariates
-text          | d
+              | d
               |                                 P(g, s, d) ∈ ∆(S × P × Ψ × Φ × D × T )
 blank         | 
 text          | where T is a time horizon, and ∆ is a set of probability measures. P is therefore a
@@ -1829,8 +1829,8 @@ text          | where T is a time horizon, and ∆ is a set of probability measu
               | with a filtration, such that the strategy profile g is measurable.
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                               42
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          |    Each owner is maximizing the expected discounted sum of profits taking the strate-
               | gies of opponents g−k as given. The value function for player k is defined as
 blank         | 
@@ -1839,7 +1839,7 @@ text          |                                                  ∞
               |                Vk (s, d|gk , g−k ) = EP(g,s,d)         β t πk (st , st+1 , P t , ψ t , φt , dt )   (3.3)
               |                                                  t=0
 blank         | 
-blank         | 
+              | 
 text          | It is assumed that the markets are in a Markov Perfect Equilibrium, i.e., firms choose
               | strategy profile g∗ , such that for all k
 blank         | 
@@ -1848,7 +1848,7 @@ blank         |
 text          | For simplicity, I restrict my attention to symmetric equilibria. The next section
               | describes the estimation procedure.
 blank         | 
-blank         | 
+              | 
 title         | 3.4        Estimation
 text          | Consider parameterizations of the fixed cost F (stk |θF ) and the switching cost
               | C(fjt , fjt+1 |θC ). This section outlines a procedure, based on Bajari, Benkard, and
@@ -1859,7 +1859,7 @@ text          | Consider parameterizations of the fixed cost F (stk |θF ) and t
               | eters for a particular industry by imposing the dynamic game equilibrium inequalities
               | 3.4. The following subsection describes the data needed for this procedure to work.
 blank         | 
-blank         | 
+              | 
 title         | 3.4.1      Data
 text          | Consider an industry, or a set of similar industries, operating in M markets over the
               | discrete time span T . Data is given by the set X = {xtm : 1 ≤ m ≤ M, 1 ≤ t ≤ T }.
@@ -1868,8 +1868,8 @@ text          | Consider an industry, or a set of similar industries, operating 
               | transaction prices P mt . The data does not have to contain any direct information on
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                      43
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | the cost. This is convenient since most of the data on cost suffers from accounting
               | issues. Therefore direct cost estimates from the data might be unreliable.
               |    To facilitate the inference process a standard assumption about the data gen-
@@ -1895,18 +1895,18 @@ text          | the cost. This is convenient since most of the data on cost suff
               | latent state variables. For example, one could supply the procedure from this chapter
               | with an EM algorithm proposed by Arcidiacono and Miller (2010).
 blank         | 
-blank         | 
+              | 
 title         | 3.4.2     Policy estimation
 text          | For any strategy profile
-text          |                                 g = (a1 , . . . , aK , b1 , . . . , bK )
+              |                                 g = (a1 , . . . , aK , b1 , . . . , bK )
 blank         | 
 text          | let ProbM                         R
               |         k (ak |ωk , dk ), and Probk (bk |ω̃k , dk ), be the probabilities of taking acquisition
               | and repositioning actions. The former is a probability measure on {0, 1}O−k , and the
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                   44
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | latter on {1, . . . , F }Ok . They are constructed by integrating out unobservable payoff
               | shocks φ and ψ. The goal of this subsection is to provide a procedure that allows us
               | to obtain the estimates of these probability measures. This procedure leverages on
@@ -1923,7 +1923,7 @@ blank         |
 text          |              Y1 = {(ωktm , dtm , atm
               |                                   k ) : 1 ≤ k ≤ K, 1 ≤ m ≤ M, 1 ≤ t ≤ T }
 blank         | 
-blank         | 
+              | 
 text          | where atm
               |        k is a vector of zeros and ones that indicates acquisition decisions for player
               | k. The second set describes acquisition prices
@@ -1935,7 +1935,7 @@ text          | where Pktm is a vector of prices for all acquisitions of player 
 blank         | 
 text          |              Y3 = {(ω̃ktm , dtm , Fkmt ) : 1 ≤ k ≤ K, 1 ≤ m ≤ M, 1 ≤ t ≤ T }
 blank         | 
- text         | where Fkmt is a vector of chosen characteristics for products owned by firm k.
+text          | where Fkmt is a vector of chosen characteristics for products owned by firm k.
               |    Set Y1 is used to estimate the acquisition probability distribution ProbM
               |                                                                            k as a
               | function of (ω, d). In a perfect world, one would like to employ a form of non-
@@ -1946,8 +1946,8 @@ blank         |
               | products/companies that can be acquired).
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                   45
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          |        The solution to the first problem is to employ a flexible parametric form
 blank         | 
 text          |                                          M
@@ -1973,7 +1973,7 @@ text          | Example 3.4.2 (Independent acqusitions). In the case where the a
               | regression directly on Y1 , fixing ωktm for all decisions in ãtm
               |                                                                k .
 blank         | 
-blank         | 
+              | 
 text          |        The next solution makes more assumptions about the structure of the acquisition
               | decision making within the firm.
 blank         | 
@@ -1990,8 +1990,8 @@ text          |        If one were to observe the acquisition prices one could e
               | P (ωkst ) directly from the dataset Y2 . This could be achieved by employing the flexible
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                                             46
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | parametric interpolation2 .
               |        When estimating the repositioning probabilities ProbR
               |                                                            k one faces similar problems,
@@ -2007,7 +2007,7 @@ text          | parametric interpolation2 .
               | that uses the estimators of equilibrium policy and the transition of ξ and dt obtained
               | in the first step above.
 blank         | 
-blank         | 
+              | 
 title         | 3.4.3        Minimum distance estimator
 text          | For the second stage the parameters of the fixed cost θF and repositioning cost θR are
               | estimated using a minimum distance estimator. The estimator is constructed using
@@ -2015,7 +2015,7 @@ text          | For the second stage the parameters of the fixed cost θF and re
               | estimates of the value functions in those inequalities.
               |        The value function Vk (defined on the equation (3.3)) can be separated into four
               | parts.
-text          |                                      Vkt = Atk + θφ Bkt + θψ Ckt + Dkt
+              |                                      Vkt = Atk + θφ Bkt + θψ Ckt + Dkt
 blank         | 
 text          | where                    ∞
               |                          X                                   X                                X
@@ -2030,17 +2030,17 @@ text          |      Sometimes the dataset on prices is sparse, i.e., one does n
               | this case more simplifying assumptions about the pricing process are needed.
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                           47
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | is the expected stream of advertising revenues,
-text          |                                            ∞
+              |                                            ∞
               |                                            X                  X
               |                                 Bkt   =E         β r−t                       φrkj
               |                                            r=t           j:orj 6=k,or+1 =k
               |                                                                     j
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | is the expected stream of acquisition payoff/cost shocks,
 blank         | 
 text          |                                            ∞
@@ -2051,10 +2051,10 @@ text          |                                            ∞
               |                                            r=t           j:or+1 =k
               |                                                             j
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | is the expected stream of repositioning payoff/cost shocks, and
-text          |                                                                                       
+              |                                                                                       
               |                      ∞
               |                      X                           X
               |            Dkt = E         β r−t F (srk |θF ) +   1(fjr+1 6= fjr )C(fjr , fjr+1 |θC )
@@ -2062,8 +2062,8 @@ text          |                                                              
               |                      r=t                         j:or+1 =k
               |                                                     j
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | is the expected stream of fixed costs and repositioning costs. The extra parameters
               | θφ and θψ are needed because the first stage estimation requires normalization of the
               | variances of φ and ψ.
@@ -2088,8 +2088,8 @@ text          |      When using any of the dynamic likelihood estimators propose
               | can be reduced to − log(p) − 1−p p log(1 − p), where p is a probability of acquisition.
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                          48
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | for different parameter values one does not need to re-simulate the industry path
               | (st , dt ); moreover, one does not need to recompute any of Atk , Bkt , Ckt 4 . This saves
               | a large amount of processing power and makes the estimator feasible using today’s
@@ -2104,19 +2104,19 @@ text          |                                           1     X 1
               |                                       K × T × M k,t,m Atm
               |                                                        k
 blank         | 
-blank         | 
+              | 
 text          | According to the results in Bajari, Benkard, and Levin (2004) this estimator is con-
               | sistent and asymptotically normal. This finishes the description of the estimator. An
               | example of its application is contained in the next section.
 blank         | 
-blank         | 
+              | 
 title         | 3.5         Application
 text          | In this section, I describe how to use above framework to estimate merger synergies
               | from ownership consolidation in the U.S. radio industry. In the next subsection I give
               | a brief review of the industry. The second subsection presents the tailored version of
               | the estimation algorithm. The last subsection presents and discusses the results.
 blank         | 
-blank         | 
+              | 
 title         | 3.5.1        Industry and data description
 text          | Radio is an important medium in the U.S., reaching about 94% of Americans twelve
               | years old or older each week. Moreover, the average consumer listens to about 20
@@ -2130,15 +2130,15 @@ footnote      |   5
 text          |     Source: A.Richter (2006)
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                 49
 blank         | 
-blank         | 
+              | 
 text          |                   # of active stations Old ownership cap       New cap
               |                           45+                 4                   8
               |                          30-44                4                   7
               |                          15-29                4                   6
               |                          0-14                 3                   5
-text          | Table 3.1: Change in the local ownership caps introduced by the 1996 Telecom Act.
+              | Table 3.1: Change in the local ownership caps introduced by the 1996 Telecom Act.
 blank         | 
-blank         | 
+              | 
 text          | limitations both nationally and locally, preventing big corporations from entering
               | the market and thereby sustaining a large degree of family based ownership. This
               | situation changed with the Telecom Act of 1996 which, among other things, raised
@@ -2166,20 +2166,20 @@ text          |    Data is constructed using the software provided by BIA Financ
               | Market Guides by SQAD
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                               50
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          |           Figure 3.1: Dynamics of station acquisition and format switching
 blank         | 
 title         | 3.5.2     Static profits
 text          | The static profit function is taken directly from Jeziorski (2010). Radio station owners
               | draw their revenue from selling advertising and each advertising slot is priced on a
               | per listener basis. The total profit of the owner k is equal to
-text          |                                         X
+              |                                         X
               |                         π̄k (s, d) =             rj (q ∗ , s, d)pj (q ∗ , s, d)qj∗
               |                                        j:oj =k
 blank         | 
-blank         | 
+              | 
 text          | where q ∗ are the equilibrium advertising quantities chosen in the static oligopoly
               | game, rj is the number of listeners and pj is the price per listener. In this paper, I
               | treat the estimates of this profit function as given; however, I do correct the standard
@@ -2190,11 +2190,11 @@ text          | where q ∗ are the equilibrium advertising quantities chosen in
               | format substitution matrix Ω is assumed to be diagonal. I made these assumptions
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                            51
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | for computational reasons.
 blank         | 
-blank         | 
+              | 
 title         | 3.5.3        Estimation details
 text          | The estimation is a direct application of the framework desribed in subsection 3.4.
               | The model endogenizes acquisition decisions and format switching decisions. The
@@ -2218,11 +2218,11 @@ text          |                                                                O
               |                                                          , atjk )j=1
               |                                                                   −k
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          |        t
-text          | where O−k is the number of stations owned by competitors. If we assume that ψ is a
+              | where O−k is the number of stations owned by competitors. If we assume that ψ is a
               | difference of two extreme value distributions and is also revealed in a sequence, one
               | can consistently estimate a probability of merger ProbM
               |                                                       k , by running a regular logit
@@ -2236,8 +2236,8 @@ text          |     Choice of ξj as an ordering characteristic is motivated by 
               | of profitability.
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                        52
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | exhausts all the information available in the data. To overcome this problem, I use
               | a linear index function of several statistics about the state space computed from the
               | data 8 . The full set of covariates can be found in Table B.1 in Appendix B.3.
@@ -2250,9 +2250,9 @@ text          |                                                               Ot
               |                                    (ωkt , atk ) 7→ (ωjk , atjk )j=1
               |                                                                  −k
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          | Using this auxiliary dataset one can apply a multinomial logit model to estimate
               | the format switching probabilities ProbR
               |                                        k . The restriction on the index function also
@@ -2281,13 +2281,13 @@ text          |      a similar approach can be found in Sweeting (2007), Ryan (2
               | Ellickson and Arie (2005).
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                              53
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | the efficiency of the estimator. When the size is chosen to be too big, the bounds of
               | the estimator become very large creating potential bias. The chosen perturbation is
               | a compromise between those two factors.
 blank         | 
-blank         | 
+              | 
 title         | 3.5.4    Results
 text          | This subsection describes the results of the estimation. The exposition is divided into
               | two parts. First, I present the policy function estimates. Then, I report the main
@@ -2317,8 +2317,8 @@ text          | Tables B.3 and B.4 report coefficients from a purchase strategy 
               | which reflects the fact that staying in the current format is much more probable than
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                54
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | switching.
               |    Table B.6 presents the relationship between the current demographic composition
               | of the market format switching decisions. In addition, Table B.7 contains similar
@@ -2353,12 +2353,12 @@ text          | The estimated parameters of the fixed cost equation (3.5) are as
               | of that market multiplied θ̂C . Examples of this cost are given in Table 3.4. The
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                            55
 blank         | 
-blank         | 
+              | 
 text          |                    Market          Los Angeles   Knoxville Bismarck
               |                  Population            13m         .7m       100k
               |                Savings per year      $4.4m        $.23m      $34k
 blank         | 
-blank         | 
+              | 
 text          | Table 3.2: Savings when two stations are owned by the same firm vs. operating
               | separately
 blank         | 
@@ -2368,7 +2368,7 @@ text          |                                     Consumer Advertiser       Fi
               |                                       +1%         -$300m    -$2.450m
               |                   Telecom Act
 blank         | 
-blank         | 
+              | 
 text          | Table 3.3: Total cost savings created by mergers after 1996, compared to demand
               | effects from Jeziorski (2010)
 blank         | 
@@ -2385,12 +2385,12 @@ blank         |
 text          |                    Market         Los Angeles    Knoxville Bismarck
               |                 Switching cost       $27m         $1.5m     $0.2m
 blank         | 
-blank         | 
+              | 
 text          |                 Table 3.4: Format switching cost for chosen markets
 header        | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                56
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 title         | 3.6     Conclusions
 text          | This paper proposed a new estimator of a production cost curve that enables the
               | identification of cost synergies from mergers. The estimation uses inequalities rep-
@@ -2449,7 +2449,7 @@ blank         |
 footer        |                                                57
 header        | APPENDIX A. ADDITIONAL MATERIAL TO CHAPTER 2                                                         58
 blank         | 
-blank         | 
+              | 
 text          |                P
               | where rf =        c rf |a LSa   and LSa is the population share of demographic group da ,
               | which is assumed to be known to the advertiser. Having listeners’ distributions ra|f
@@ -2473,12 +2473,12 @@ text          |                                                               1
 blank         | 
 text          | Given the clearing prices CPPaf , advertisers are indifferent when choosing between
               | formats, so I assume that advertising is purchased proportionally to the target lis-
-text          |                             P
-text          | teners’ tastes i.e. qa = ASa f rf |a qf . If I make the simplifying assumption that
+              |                             P
+              | teners’ tastes i.e. qa = ASa f rf |a qf . If I make the simplifying assumption that
               | ASa ≈ LSa , then the arrival probability of an advertiser of type a at a station of
               | format f would be equal to ra|f . Therefore, expected per-listener price in format f is
               | given by
-text          |                                                        !
+              |                                                        !
               |                  X
               |                            2       1 X
               |       CPPf =     (ra|f ) γ1f 1 −           rf 0 |a qf 0 =
@@ -2492,20 +2492,20 @@ text          |                                                        !
               |                                              f0          a              a
 blank         | 
 text          |    1
-text          |      This assumption is is motivated by the fact that about 75% is purchased by small local firms.
+              |      This assumption is is motivated by the fact that about 75% is purchased by small local firms.
               | Such firms’ advertising decisions are unlikely to influence prices and station ratings in the short run.
 header        | APPENDIX A. ADDITIONAL MATERIAL TO CHAPTER 2                                             59
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | Finally, I obtain Equation (2.5)
-text          |                                                                            !
+              |                                                                            !
               |                                                     X
               |                                   A
               |                             pj = θ1f rj   1 − θ2A            ωfmf 0 qf 0
               |                                                     f 0 ∈F
 blank         | 
-blank         | 
+              | 
 text          |                                      2 −1                          1
               |                        P               P          2           A
               | by setting ωjj 0 =         a (ra|f )      a (ra|f ) rf 0 |a , θ2 = γ2 and assuming that θ1 =
@@ -2520,7 +2520,7 @@ text          | listenership concentrated in one demographic bin) are less profi
               | draws utility only from advertising on one particular station, and a format-monopoly
               | in which each advertiser type targets only one format.
 blank         | 
-blank         | 
+              | 
 title         | A.2         Numerical considerations
 text          | To solve the optimization problem (2.12), I used a version of the Gauss-Newton
               | method implemented in the commercial solver KNITRO. Using this state-of-the-art
@@ -2538,15 +2538,15 @@ text          | To solve the optimization problem (2.12), I used a version of th
               | mented a version of a pseudo-random number generator (described in (L’Ecuyer and
 header        | APPENDIX A. ADDITIONAL MATERIAL TO CHAPTER 2                                         60
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          | Andres 1997). This generator enables us to create a desired number of independent
               | pseudo-random feeds for each thread.
               |    One iteration of the solver takes about two to three minutes on an 8-Core 3Ghz
               | Intel Xeon processor and uses about 4GB of memory. About 90% of this computation
               | is the inversion of a Hessian estimator within the KNITRO solver. This inversion
               | cannot be parallelized because it is done inside the solver, without the user’s control.
-              | Appendix B
+header        | Appendix B
 blank         | 
 title         | Additional material to Chapter 3
 blank         | 
@@ -2566,16 +2566,16 @@ text          |                                r
               | because of computational burden. However, given the rapid hardware development
               | it is reasonable to think it it would be feasible in the near future.
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 footer        |                                            61
 header        | APPENDIX B. ADDITIONAL MATERIAL TO CHAPTER 3                                     62
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          |  Algorithm 1: Estimator without price data
-text          |   Take any θP0 ;
+              |   Take any θP0 ;
               |   Let r = 0;
               |   repeat
               |      Simulate the value functions V̂ r using pricing process P̂ (ω|θPr );
@@ -2584,13 +2584,13 @@ text          |   Take any θP0 ;
               |      Fit new parameters θPr+1 using P̂jm ;
               |   until convergence of θPr ;
 blank         | 
-blank         | 
+              | 
 title         | B.2       Radio acquisition and format switching algo-
               |           rithms
 text          | This section of the appendix contains a detailed flows of the algorithms used to
               | simulate the value function from section 3.5.
-text          |   Algorithm 2: Merger algorithm
-text          |    Let ω1r = sr ;
+              |   Algorithm 2: Merger algorithm
+              |    Let ω1r = sr ;
               |    foreach firm k in a sequence I(sr ) do
               |        Let J−k be a set of stations not owned by k sorted by ξjr ;
               |        foreach station j in J−k do
@@ -2617,10 +2617,10 @@ text          |    Let ω1r = sr ;
               |    end
 header        | APPENDIX B. ADDITIONAL MATERIAL TO CHAPTER 3                                            63
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          |  Algorithm 3: Format switching algorithm
-text          |    Let ω̃1r = ωK+1
+              |    Let ω̃1r = ωK+1
               |                r
               |                    ;
               |    foreach firm k in a sequence I(sr ) do
@@ -2640,9 +2640,9 @@ text          |    Let ω̃1r = ωK+1
               |       Let ω̃k+1 = ω̃ktm ;
               |    end
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 title         | B.3       Policy function covariates
 text          | This section of the appendix contains tables of covariates used in the first stage in
               | the estimation in section 3.5.
@@ -2685,14 +2685,14 @@ header        |                                                                
 blank         | 
 text          |                            Table B.2: Covariates for the purchase strategy logic regression.
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 footer        |                                                                                                                             64
 header        | APPENDIX B. ADDITIONAL MATERIAL TO CHAPTER 3                                65
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 title         | B.4    First stage estimates: Dynamic model
 blank         | 
 text          |                           Top 1 Owner   Top 2 Owner       Top 3 Owner
@@ -2701,8 +2701,8 @@ text          |                           Top 1 Owner   Top 2 Owner       Top 3 
 blank         | 
 text          |       Table B.3: Station purchase policy estimates - buyer/seller dummies
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 text          |                                               Estimator
               |                                  PUR0           −2.6082
               |                                  PUR1            0.7548
@@ -2724,9 +2724,9 @@ blank         |
 text          |          Table B.4: Station purchase policy estimates - other variables
 header        | APPENDIX B. ADDITIONAL MATERIAL TO CHAPTER 3                                                              66
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          |                    AC      Rock     CHR          Urban      News       Country     Spanish     Other
               |                                                   Alt.      Talk
               |     PURCHASE       0.30    −0.14       0.04      −0.07       0.05        0.03       −0.23      −0.22
@@ -2745,9 +2745,9 @@ text          |                    AC      Rock     CHR          Urban      News
 blank         | 
 text          |          Table B.5: Format switching policy estimates - format dynamics
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          |                       AC       Rock      CHR       Urban      News       Country     Spanish     Other
               |                                                     Alt.      Talk
               |      Age 12-17       0.00      −0.27     0.04       −0.50      −0.33       −0.67       −0.50      −0.32
@@ -2770,9 +2770,9 @@ blank         |
 text          |       Table B.6: Format switching policy estimates - current demographics
 header        | APPENDIX B. ADDITIONAL MATERIAL TO CHAPTER 3                                            67
 blank         | 
-blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
+              | 
 text          |                   AC      Rock     CHR      Urban   News    Country   Spanish   Other
               |                                              Alt.   Talk
               |     Age 12-17     0.00     0.00     0.00     6.69   −5.06    0.00       9.33     0.00
@@ -2826,8 +2826,8 @@ blank         |
 footer        |                                          68
 header        | BIBLIOGRAPHY                                                                   69
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 ref           | Berry, S., J. Levinsohn, and A. Pakes (1995): “Automobile Prices in Market
               |   Equilibrium,” Econometrica, 63(4), 841–90.
 blank         | 
@@ -2866,8 +2866,8 @@ ref           | Dukes, A. (2004): “The Advertising Market in a Product Oligopo
               |   Industrial Economics, 52(3), 327–348.
 header        | BIBLIOGRAPHY                                                                   70
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 ref           | Ellickson, P., and B. Arie (2005): “The Dynamics of Retail Oligopolies,” 2005
               |   Meeting Papers 829, Society for Economic Dynamics.
 blank         | 
@@ -2906,8 +2906,8 @@ ref           | Kim, J., G. M. Allenby, and P. E. Rossi (2002): “Modeling Cons
               |   for Variety,” Marketing Science, 21(3), 229–250.
 header        | BIBLIOGRAPHY                                                                  71
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 ref           | Klein, J. I. (1997): “DOJ Analysis of Radio Mergers,” speech delivered in Wash-
               |   ington DC,
               |   http://www.usdoj.gov/atr/public/speeches/1055.pdf.
@@ -2946,8 +2946,8 @@ ref           | Ryan, S., and C. Tucker (2006): “Heterogeneity and the Dynamic
               |   Adoption,” Working Papers 06-26, NET Institute.
 header        | BIBLIOGRAPHY                                                                72
 blank         | 
-blank         | 
-blank         | 
+              | 
+              | 
 ref           | Sweeting, A. (2007): “Dynamic Product Repositioning in Differentiated Product
               |   Markets: The Case of Format Switching in the Commercial Radio Industry,” NBER
               |   Working Papers 13522, National Bureau of Economic Research, Inc.
