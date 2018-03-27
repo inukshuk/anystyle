@@ -104,18 +104,28 @@ task :check, :model do |t, args|
 end
 
 desc "Save delta of a tagged dataset with itself"
-task :delta, :xml do |t, args|
+task :delta, :input do |t, args|
   require 'anystyle'
-  print 'Checking %.25s' % "#{File.basename(args[:xml])}....................."
-  input = Wapiti::Dataset.open args[:xml].untaint
-  output = AnyStyle.parser.label input
+  file = args[:input].untaint
+  extn = File.extname(file)
+  print 'Checking %.25s' % "#{File.basename(file)}....................."
+  case extn
+  when '.ttx'
+    input = Wapiti::Dataset.new([AnyStyle::Document.open(file)])
+    output = AnyStyle.finder.label input
+    format = 'txt'
+  else
+    input = Wapiti::Dataset.open(file)
+    output = AnyStyle.parser.label input
+    format = 'xml'
+  end
   delta = output - input
   if delta.length == 0
     puts ' ✓'
   else
-    name = File.basename(args[:xml], '.xml')
-    delta.save "#{name}.delta.xml", indent: 2
-    puts "delta saved to #{name}.delta.xml (#{delta.length})"
+    name = File.basename(file, extn)
+    delta.save "delta_#{name}#{extn}", indent: 2, tagged: true, format: format
+    puts "delta saved to delta_#{name}#{extn} (#{delta.length})"
   end
 end
 
