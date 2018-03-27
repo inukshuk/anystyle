@@ -80,24 +80,25 @@ task :train, :model, :threads do |t, args|
   end
 end
 
+
 desc 'Check all tagged datasets'
-task :check do
+task :check, :model do |t, args|
+  model = args[:model] || 'parser'
   require 'anystyle'
-  Dir['./res/parser/*.xml'].sort.each do |xml|
-    print 'Checking %.25s' % "#{File.basename(xml)}....................."
-    start = Time.now
-    stats = AnyStyle.parser.check xml.untaint
-    time = Time.now - start
-    if stats[:token][:errors] == 0
-      puts '   ✓                               %2ds' % time
-    else
-      puts '%4d seq %6.2f%% %6d tok %5.2f%% %2ds' % [
-        stats[:sequence][:errors],
-        stats[:sequence][:rate],
-        stats[:token][:errors],
-        stats[:token][:rate],
-        time
-      ]
+  case model
+  when 'finder'
+    Dir['./res/finder/*.ttx'].sort.each do |ttx|
+      print 'Checking %.25s' % "#{File.basename(ttx)}....................."
+      start = Time.now
+      stats = AnyStyle.finder.check ttx.untaint
+      report stats, Time.now - start
+    end
+  else
+    Dir['./res/parser/*.xml'].sort.each do |xml|
+      print 'Checking %.25s' % "#{File.basename(xml)}....................."
+      start = Time.now
+      stats = AnyStyle.parser.check xml.untaint
+      report stats, Time.now - start
     end
   end
 end
@@ -115,6 +116,20 @@ task :delta, :xml do |t, args|
     name = File.basename(args[:xml], '.xml')
     delta.save "#{name}.delta.xml", indent: 2
     puts "delta saved to #{name}.delta.xml (#{delta.length})"
+  end
+end
+
+def report(stats, time)
+  if stats[:token][:errors] == 0
+    puts '   ✓                               %2ds' % time
+  else
+    puts '%4d seq %6.2f%% %6d tok %5.2f%% %2ds' % [
+      stats[:sequence][:errors],
+      stats[:sequence][:rate],
+      stats[:token][:errors],
+      stats[:token][:rate],
+      time
+    ]
   end
 end
 
