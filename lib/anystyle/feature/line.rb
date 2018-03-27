@@ -2,18 +2,21 @@ module AnyStyle
   class Feature
     class Line < Feature
       def observe(token, page:, **opts)
-        chars = count(token, /\p{L}/)
-        upper = count(token, /\p{Lu}/)
-        white = count(token, /\s/)
-        punct = count(token, /[\p{Pd}:.,&\(\)"'”„’‚´«「『‘“`»」』]/)
-        width = display_width(token)
+        chars = display_chars(token).rstrip
+
+        lttrs = count(chars, /\p{L}/)
+        upper = count(chars, /\p{Lu}/)
+        punct = count(chars, /[\p{Pd}:.,&\(\)"'”„’‚´«「『‘“`»」』]/)
+        white = count(chars, /\s/)
+        width = chars.length
 
         [
-          chars,
+          lttrs,
           width,
-          ratio(upper, chars),
-          ratio(white, chars),
-          ratio(punct, chars),
+          ratio(upper, lttrs),
+          ratio(lttrs, chars.length),
+          ratio(white, chars.length),
+          ratio(punct, chars.length),
           ratio(width, page.width)
         ]
       end

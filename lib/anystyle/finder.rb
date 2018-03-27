@@ -37,7 +37,7 @@ module AnyStyle
               ln: ln,
               fn: fn,
               idx: idx
-          }
+          }.flatten
         end
       end
     end

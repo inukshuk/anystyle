@@ -30,11 +30,13 @@ module AnyStyle
     end
 
     def display_width(string)
+      display_chars(string).rstrip.length
+    end
+
+    def display_chars(string)
       string
         .gsub(/\p{Mn}|\p{Me}|\p{Cc}/, '')
         .gsub(/\p{Zs}/, ' ')
-        .rstrip
-        .length
     end
 
     def count(string, pattern)

@@ -13,7 +13,7 @@ module AnyStyle
       end
 
       def indent(token)
-        token =~ /^(\s*)/
+        display_chars(token).rstrip =~ /^(\s*)/
         $1.length
       end
     end
