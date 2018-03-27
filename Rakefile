@@ -129,6 +129,16 @@ task :delta, :input do |t, args|
   end
 end
 
+desc "Find references in document"
+task :find, :input do |t, args|
+  require 'anystyle'
+  file = args[:input].untaint
+  refs = AnyStyle.finder.find(file, format: :references)[0]
+  break unless refs.length > 0
+  output = AnyStyle.parser.label refs.join("\n")
+  puts output.to_xml(indent: 2)
+end
+
 def report(stats, time)
   if stats[:token][:errors] == 0
     puts '   ✓                               %2ds' % time
