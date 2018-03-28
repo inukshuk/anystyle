@@ -28,5 +28,5 @@ src.each do |input|
   output = AnyStyle.finder.label input
   output.save File.join(dst, "#{File.basename(file, extn)}.ttx"), format: 'txt', tagged: true
 
-  File.write File.join(dst, "#{File.basename(file, extn)}.txt"), output[0].references.join("\n")
+  File.write File.join(dst, "#{File.basename(file, extn)}"), output[0].references.join("\n")
 end
