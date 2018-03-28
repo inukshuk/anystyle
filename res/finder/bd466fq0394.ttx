@@ -42,7 +42,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                            ii
+meta          |                                            ii
 text          | I certify that I have read this dissertation and that, in my opinion, it is fully adequate
               | in scope and quality as a dissertation for the degree of Doctor of Philosophy.
 blank         | 
@@ -85,7 +85,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                           iii
+meta          |                                           iii
 title         | Abstract
 blank         | 
               | 
@@ -112,7 +112,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        iv
+meta          |                                                                                        iv
 title         |                                                  Acknowledgements
 blank         | 
               | 
@@ -149,7 +149,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                   v
+meta          |                                                                                   v
 title         | Table of Contents
 blank         | 
               | 
@@ -184,7 +184,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                                  vi
+meta          |                                                                                                                                  vi
 text          | Chapter 3: Modeling and Smiulation .............................................................................50
               |      3.1       Introduction...................................................................................................50
               |      3.2       Classical crystallization theory .....................................................................50
@@ -221,7 +221,7 @@ text          | Chapter 6: Titanium Bonding.....................................
               |      6.1       Introduction...................................................................................................95
 blank         | 
               | 
-footer        |                                                                                                                                vii
+meta          |                                                                                                                                vii
 text          |      6.2       Advantages of titnium-based bonding ..........................................................95
               |      6.3       Mechanism....................................................................................................96
               |      6.4       Ti-Ti bonding process...................................................................................97
@@ -259,7 +259,7 @@ blank         |
 text          | Appendix B: Epitaxial Germanium Growth Process....................................................138
 blank         | 
               | 
-footer        |                                                                                                                           viii
+meta          |                                                                                                                           viii
 text          |    B.1    Experimental procedure of epi-Ge growth .................................................139
               |    B.2    Characterizing epi-Ge surface quality ........................................................140
 blank         | 
@@ -269,7 +269,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                             ix
+meta          |                                                                                                                             ix
 title         | List of Tables
 blank         | 
               | 
@@ -293,7 +293,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                           x
+meta          |                                                                                                                           x
 title         | List of Figures
 blank         | 
               | 
@@ -333,7 +333,7 @@ text          | Figure 1.7: MIT Lincoln Lab’s 3DIC process: (a) Two completed 
 blank         | 
               | 
               | 
-footer        |                                                                                                                                xi
+meta          |                                                                                                                                xi
 text          |            testing and packaging. Vertical interconnect density of around 3x104 mm-2
               |            has been demonstrated [28]. ...........................................................................6
 blank         | 
@@ -375,7 +375,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                           xii
+meta          |                                                                                                                           xii
 text          |            (SAM) of octadecyltrichlorosilane (OTS) to facilitate Ge nucleation. Images
               |            obtained in collaboration with T.I. Kamins et al. [87]. ................................18
 blank         | 
@@ -414,7 +414,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                          xiii
+meta          |                                                                                                                          xiii
 text          | Figure 2.9: a) TEM cross-section of the melt zone for 500 nm thick Si film with 1.2 μm
               |           LTO capping layer. Laser was in continuous-wave mode (non-scanning)
               |           with spot size 15 μm FWHM; b) individual crystal grains visible near the
@@ -453,7 +453,7 @@ text          | Figure 2.14: a) Cross-sectional SEM image of the delaminated LTO
               |           surface...........................................................................................................31
 blank         | 
               | 
-footer        |                                                                                                                          xiv
+meta          |                                                                                                                          xiv
 text          | Figure 2.15: TEM cross-section of the 50 nm thick silicon film just outside of the
               |            melted region shows fine grain polycrystalline structure formed by solid
               |            phase crystallization......................................................................................32
@@ -491,7 +491,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                     xv
+meta          |                                                                                                                     xv
 text          | Figure 2.21: Glancing angle XRD spectra of thermally annealed 60 nm thick Si films
               |            on NIL patterned and flat (control) SiO2 substrates: a) after 24 hours at 600
               |            °C, b) after 24 hours at 1100 °C. Note, the errors in spectra at lower
@@ -531,7 +531,7 @@ text          | Figure 3.2: Even though the size of the critical nucleus (r*) is
               |            homogeneous nucleation (ΔG*Het) by a factor S(θ).......................................52
 blank         | 
               | 
-footer        |                                                                                                                       xvi
+meta          |                                                                                                                       xvi
 text          | Figure 3.3: Homogeneous (red) and heterogeneous (blue) nucleation rates in
               |            undercooled Ge liquid stripe (40x1x0.1µm) surrounded by SiO2 as a
               |            function of temperature: a) log scale; b) linear scale....................................53
@@ -570,7 +570,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                       xvii
+meta          |                                                                                                                       xvii
 text          | Figure 4.1: Aluminum-germanium binary alloy phase diagram. Even though pure Al
               |           melts at 600°C, and pure Ge close to 940°C, the eutectic alloy of 30.3% Ge
               |           in Al melts at a significantly lower temperature of 424 °C [125]. ...............61
@@ -610,7 +610,7 @@ text          | Figure 4.7: Map of pressure distribution over a 4-inch wafer pla
               |           performed using Pressurex® pressure sensitive paper. .................................69
 blank         | 
               | 
-footer        |                                                                                                                     xviii
+meta          |                                                                                                                     xviii
 text          | Figure 4.8: Plan-view optical (a) and SEM (b) images showing the microstructure of
               |           the Al-Ge eutectic bond formed at 450 °C (condition A). The top wafer has
               |           been ground and etched away to reveal Al-Ge layer segregated into
@@ -647,7 +647,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                          xix
+meta          |                                                                                                                          xix
 text          | Figure 4.14: SEM of an array of polysilicon islands attached to a SiO2 substrate using
               |           Al-Ge eutectic bonding at 435 °C. The excess Al-Ge in between the islands
               |           has been etched away in phosphoric, acetic, nitric acid solution (PAN)......75
@@ -687,7 +687,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                        xx
+meta          |                                                                                                                        xx
 text          | Figure 4.20: a) SEM image of 10 µm Si crystal island bonded to SiO2 via Al-Ge
               |            eutectic bonding at 435 °C; b) optical image of 50 µm Ge (100) island on
               |            SiO2 with Al-Ge bond pad visible (bright area). CMP step is needed to
@@ -728,7 +728,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                           xxi
+meta          |                                                                                                                           xxi
 text          | Figure 5.5: Cross-sectional SEM of the acceptor wafer illustrating successful transfer of
               |            ~600 nm thick Si crystalline film on top of amorphous substrate (SiO2) via
               |            Cu-Cu bonding at 400°C. Note: the top of the Si transferred layer exhibits
@@ -766,7 +766,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                      xxii
+meta          |                                                                                                                      xxii
 text          | Figure 6.1: HRTEM image of Ti/Ti bonded wafers, showing titanium grain growth
               |            across the original interface [164]. ...............................................................96
 blank         | 
@@ -808,7 +808,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                  xxiii
+meta          |                                                                                                                  xxiii
 text          |           (rms) with Z range being 12.1 nm. Note: diagonal line visible is a crystal
               |           defect (boundary)........................................................................................102
 blank         | 
@@ -846,7 +846,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                         xxiv
+meta          |                                                                                                                         xxiv
 text          | Figure 7.6: AFM scans (5x5 µm) depicting surface roughness of as deposited LPCVD
               |            SiO2 (LTO) and the smoothening effect of CMP treatment for 60 and 180
               |            seconds........................................................................................................112
@@ -885,7 +885,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                         xxv
+meta          |                                                                                                                         xxv
 text          | Figure 7.12: AFM scan (5x5 µm) of Si island surface after hydrogen-induced splitting
               |           (SmartCut®). The rough and damaged surface becomes smooth after 30 sec
               |           of CMP........................................................................................................118
@@ -925,7 +925,7 @@ text          | Figure A.1: Time progression of CMP polish of Si (100) islands (
               |           pressure of 200 psi. .....................................................................................132
 blank         | 
               | 
-footer        |                                                                                                                        xxvi
+meta          |                                                                                                                        xxvi
 text          | Figure A.2: CMP of Si (100) islands leaves speckled slurry residue (a), which can be
               |            removed by wet PVA sponge scrub (b), bringing the surface roughness to
               |            0.416 nm RMS. Reference Si prime wafer (c). All AFM scans are 5x5
@@ -964,7 +964,7 @@ text          | Figure B.2: Cross-sectional SEM of grown epi-Ge (100) layer that
               |            process and not due to crystal defects.........................................................140
 blank         | 
               | 
-footer        |                                                                                                                      xxvii
+meta          |                                                                                                                      xxvii
 text          | Figure B.3: AFM scan (20x20 µm) of 5 layer epi-Ge showing characteristic “cross-
               |           hatch” pattern along the <110> direction with a spatial wavelength of the
               |           order of a micron, superimposed on mounds the size of several microns,
@@ -974,7 +974,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                xxviii
+meta          |                                                                                                                xxviii
 title         | Chapter 1 – Introduction
 blank         | 
 title         | 1.1 Motivation
@@ -1001,7 +1001,7 @@ text          |  Figure 1.1: a) Interconnect delay as a function of technology g
               |                        reflect the effects of interconnect scaling.
 blank         | 
               | 
-footer        |                                                                                           1
+meta          |                                                                                           1
 text          |        Three dimensional integrated circuits (3DICs), where multiple layers of active
               | devices are stacked directly on top of each other, offer an attractive architectural
               | solution to the 2D scaling limitations by offering better packing density, increased
@@ -1033,7 +1033,7 @@ text          |        Together with these compelling benefits come certain chal
               | ultimately diminish the very advantage of going 3D [14]. Finally, due to inherent
 blank         | 
               | 
-footer        |                                                                                          2
+meta          |                                                                                          2
 text          | complexity of 3D circuits novel design tools are necessary to optimize inter-layer
               | connections and maximize circuit performance [16].
 blank         | 
@@ -1065,7 +1065,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         3
+meta          |                                                                                         3
 text          |     Figure 1.4: Elpida 8-Gbit DRAM with TSV Cu connections between dies [19].
 blank         | 
               | 
@@ -1091,7 +1091,7 @@ text          |        While intra-chip connections in 3D package and die-on-waf
               | standard off chip wires, to take advantage of potential gains from true 3DICs, devices
 blank         | 
               | 
-footer        |                                                                                        4
+meta          |                                                                                        4
 text          | must be brought even closer together. Wafer stacking approaches, however, can lead to
               | much smaller vertical interconnect pitch, and correspondingly higher density. In this
               | method, pre-fabricated wafers with devices and metalization are planarised and attached
@@ -1122,7 +1122,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         5
+meta          |                                                                                         5
 text          | Figure 1.7: MIT Lincoln Lab’s 3DIC process: (a) Two completed circuit wafers are
               |   planarised, aligned, and bonded face to face; (b) the handle silicon is removed;
               | (c) 3D vias are etched through the deposited BOX and the field oxides; (d) tungsten
@@ -1132,7 +1132,7 @@ text          | Figure 1.7: MIT Lincoln Lab’s 3DIC process: (a) Two completed
 blank         | 
               | 
               | 
-footer        |                                                                                            6
+meta          |                                                                                            6
 text          |    Figure 1.8: Cross-sectional SEM of a functional three-tier ring oscillator showing
               |       tungsten plug 3D-vias as well as conventional inter-level connections [30].
 blank         | 
@@ -1155,7 +1155,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         7
+meta          |                                                                                         7
 text          |   Figure 1.9: IBM 3DIC process: a) transparent handling wafer with an active layer of
               |    devices; b) shallow 3D vias are made post-bonding allowing for high density [33].
 blank         | 
@@ -1180,7 +1180,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         8
+meta          |                                                                                         8
 text          |  Figure 1.10: Monolithic 3DIC process flow (not to scale): first layer is fabricated and
               | the amorphous surface planarized. High quality semiconductor material is either bonded
               | or deposited and crystallized on top. Finally, devices are fabricated in the second layer,
@@ -1206,7 +1206,7 @@ text          |        Fabrication of upper layer devices in-situ, requires a co
 blank         | 
               | 
               | 
-footer        |                                                                                            9
+meta          |                                                                                            9
 text          | the case of high performance Ge CMOS technology, J-H. Park et al. utilized metal-
               | induced dopant activation (using cobalt) as well as ALD-deposited high-k gate
               | dielectric (Al2O3) to build n- and p-MOSFETs at process temperatures below 380°C
@@ -1241,7 +1241,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        10
+meta          |                                                                                        10
 text          |        Another bottom-up scheme adopts epitaxial silicon lateral overgrowth to
               | produce upper layers. Typically a seed window is opened to the underlying device
               | layer, from which epitaxial silicon is selectively grown [51]. Although the material
@@ -1276,7 +1276,7 @@ text          |        Seedless crystallization techniques offer an attractive a
               | µs, limiting the technique’s applicability to monolithic 3DICs. Other seedless
 blank         | 
               | 
-footer        |                                                                                       11
+meta          |                                                                                       11
 text          | crystallization approaches rely on patterning the silicon film to ensure single seeding of
               | grains either by a narrow necking region [64,65], or by orientation filtering via growth
               | velocity competition [66,67].
@@ -1312,7 +1312,7 @@ text          |        A completely different approach is to directly attach kno
               | devices.
 blank         | 
               | 
-footer        |                                                                                        12
+meta          |                                                                                        12
 text          |        The SOI community pioneered the ‘bond and etch-back SOI’ (BESOI) process
               | to attain full wafer crystalline Si device layer transfer using direct fusion bonding,
               | grinding and etch-back [76,77]. Early demonstrations were plagued by high defect
@@ -1348,7 +1348,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       13
+meta          |                                                                                       13
 text          | •   Implementation of a Monte Carlo simulation modeling spontaneous nucleation
               |     processes in undercooled Ge liquids. Model identified the substantial vertical
               |     thermal gradient as the limiting factor in grain growth of pulsed-laser melted Si
@@ -1381,7 +1381,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                   14
+meta          |                                                                                   14
 title         | Chapter 2 – Graphoepitaxy
 blank         | 
 text          |        An architectural scheme involving multiple layers of active transistors stacked
@@ -1416,7 +1416,7 @@ text          |        Graphoepitaxy is a technique that uses artificial surface
               | underlying crystalline material imparts the crystal orientation, a deposited material
 blank         | 
               | 
-footer        |                                                                                       15
+meta          |                                                                                       15
 text          | would acquire a preferred crystal orientation either during deposition or recrystallization
               | due to the underlying artificial relief pattern. Because epitaxy occurs on a substrate that
               | has been pre-written or drawn, the process is named graphoepitaxy [68].
@@ -1446,7 +1446,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         16
+meta          |                                                                                         16
 text          |                                     Δγ = γ av − γ min
               | Then, the free energy advantage ΔFS of a grain that minimizes surface energy,
               | normalized per unit volume becomes [71]:
@@ -1482,7 +1482,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         17
+meta          |                                                                                         17
 text          | Figure 2.2: a) Square-wave relief structure results in (100) textured film, with <100> in-
               | plane orientation of cubic crystals; b) Saw-tooth pattern is amenable to (111) planes of
               |    the diamond cubic crystal structure of group IV elements such as Si and Ge [69].
@@ -1508,7 +1508,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        18
+meta          |                                                                                        18
 text          |    Figure 2.4: Sequence of growth for a cubic crystalline material on a square-wave
               | structure with perfect ‘decoration’ where all the oriented nucleation occurs at the steps,
               |              and random nucleation in between the steps is suppressed [70].
@@ -1533,7 +1533,7 @@ text          |        However, strip heaters and cw lasers are not suitable mod
 blank         | 
               | 
               | 
-footer        |                                                                                            19
+meta          |                                                                                            19
 text          |   Figure 2.5: a) Graphoepitaxy of 500nm thick Si films on fused silica grating (3.8μm
               |   pitch, 0.1 μm depth). After heating the substrate to 1000+ °C, the scanning IR lamp
               | melted the Si film, which then recrystallized into preferentially oriented Si (100) grains,
@@ -1557,7 +1557,7 @@ text          |        Drawing on a one-dimensional thermal diffusion model [37]
 blank         | 
               | 
               | 
-footer        |                                                                                          20
+meta          |                                                                                          20
 text          | index coefficients of the different materials were used in the calculations. We accounted
               | for phase change by using the latent heat of fusion for the different materials. We also
               | assumed that molten α-Si solidifies into fine-grain polysilicon with a thermal
@@ -1579,7 +1579,7 @@ text          |        The simulation results show that by using a 15 μs laser 
 blank         | 
               | 
               | 
-footer        |                                                                                       21
+meta          |                                                                                       21
 text          | layer (5 µm below α-Si) to less than 450 °C (Fig. 2.6). This demonstrates the feasibility
               | of using transient heating technique to melt and recrystallize upper layers of 3D
               | structures, without damaging circuits built in the lower layers.
@@ -1606,7 +1606,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        22
+meta          |                                                                                        22
 title         | 2.5 Graphoepitaxy using 1-D templates
 blank         | 
               | 
@@ -1639,7 +1639,7 @@ text          |        In experiments using silicon, an amorphous layer 100 nm t
 blank         | 
               | 
               | 
-footer        |                                                                                       23
+meta          |                                                                                       23
 text          | (SiH4) chemistry. Finally, the structure was capped with 170 nm of low temperature
               | oxide (LTO) deposited at 400 °C. The resulting structure can be seen in the cross
               | sectional TEM image (Fig. 2.8b). A second set of samples with 500 nm thick α-Si layer
@@ -1671,7 +1671,7 @@ text          | Figure 2.9: a) TEM cross-section of the melt zone for 500 nm thi
 blank         | 
               | 
               | 
-footer        |                                                                                         24
+meta          |                                                                                         24
 text          |        Taking a closer look at the large crystal grains in the 100 nm thick cw laser
               | recrystallized Si film, it appears that individual grains are confined to the regions
               | between NIL patterned gratings with grain boundaries meeting regularly on top of the
@@ -1702,7 +1702,7 @@ text          |        The TEM images of cw laser recrystallized 500 nm thick fi
               | nor are they preferentially oriented. Imperfect grating geometry may be the culprit, but
 blank         | 
               | 
-footer        |                                                                                           25
+meta          |                                                                                           25
 text          | there is another possible cause: a concentration of small crystallites located around the
               | NIL patterned grating in SiO2. These crystallites also seem to cause line and plane
               | defects in large grains that are not evident in 100 nm thick recrystallized films. Cross-
@@ -1736,7 +1736,7 @@ text          |          However, it must be noted that H.I. Smith et al. [92] i
 blank         | 
               | 
               | 
-footer        |                                                                                         26
+meta          |                                                                                         26
 text          | with preferential texture as well as in-plane orientation. The proposed mechanism could
               | explain the lack of preferential orientation in fully melted 100 nm thick Si films, since
               | no crystallites survive the full melting process, leading to randomly oriented nucleation
@@ -1771,7 +1771,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        27
+meta          |                                                                                        27
 text          | In the investigations involving laser annealed 100 nm thick films, the regular grating
               | pattern seemed to determine the location of the crystal grain boundaries, thus
               | controlling the position and size of silicon crystals. However, no preferential crystal
@@ -1806,7 +1806,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        28
+meta          |                                                                                        28
 title         | 2.6 Graphoepitaxy using 2-D templates
 blank         | 
 text          |        To address the issues of template fidelity, we pursue a new approach that
@@ -1843,7 +1843,7 @@ text          |        To achieve sharper template geometry (radius of curvature
 blank         | 
               | 
               | 
-footer        |                                                                                         29
+meta          |                                                                                         29
 text          | not to obscure the geometry of the exposed (111) silicon planes, but thick enough to
               | prevent any homoepitaxy from the crystalline silicon substrate. Thus, an amorphous 2D
               | topographic template was formed. Subsequently, a 50 nm thick amorphous silicon layer
@@ -1863,7 +1863,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         30
+meta          |                                                                                         30
 text          |        The samples were subjected to a range of pulse lengths (1 µs to 1 ms) produced
               | by an acousto-optically modulated, frequency doubled Nd:YAG laser (λ = 532 nm) set
               | at 7.5W. The originally Gaussian beam intensity profile was reshaped using a refractive
@@ -1889,7 +1889,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       31
+meta          |                                                                                       31
 text          | focused ion beam, reveals that the LTO cap has delaminated from the substrate (Fig.
               | 2.14a) by agglomeration of the molten 50 nm thin film.
 blank         | 
@@ -1922,7 +1922,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         32
+meta          |                                                                                         32
 text          |        Taking a closer look at the crystalline structure of one of these agglomerated
               | islands, it appears that large single crystal grains, 300-500 nm in size have formed (Fig.
               | 2.16). More importantly, a detailed analysis of convergent beam electron diffraction
@@ -1949,7 +1949,7 @@ text          |        A typical diamond shaped CBED pattern along <110> zone ax
               | template.
 blank         | 
               | 
-footer        |                                                                                        33
+meta          |                                                                                        33
 text          | Figure 2.17: HRTEM cross-section of a defect free recrystallized grain terminating at a
               | (111) twin grain boundary. Inset: microdiffraction (CBED) pattern affirms the excellent
               |                    crystal quality of the recrystallized silicon grain.
@@ -1975,7 +1975,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      34
+meta          |                                                                                      34
 text          | Figure 2.18: TEM cross-section of the annealed structure. Atomically flat silicon (111)
               |   plane ‘walls’ of the pyramids have become wavy following the 100 µs pulsed laser
               |                      anneal indicating substrate melting took place.
@@ -1999,7 +1999,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         35
+meta          |                                                                                         35
 text          |          Earlier work by H.I. Smith et al. [92] demonstrated graphoepitaxial orientation
               | of partially melted Si films in which the last surviving grains that were not melted by a
               | strip-heater or scanned cw laser would serve as nucleation sites that would grow and
@@ -2027,7 +2027,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                              36
+meta          |                                                                                              36
 text          |        Another sample containing a 2D template where thin Si film has been melted
               | using pulsed laser anneal is presented in Fig. 2.19. All of the crystallized grains shown
               | have in-plane (azimuthal) orientation matching the Si substrate (±1°), suggesting strong
@@ -2051,7 +2051,7 @@ text          |  Figure 2.20: One-dimensional simulation results: thermal profil
 blank         | 
               | 
               | 
-footer        |                                                                                         37
+meta          |                                                                                         37
 text          |         Considering a 3DIC compatible structure with 8 μm thick insulating SiO2 layer,
               | the top silicon layer can be melted using a 10 μs pulse without raising the substrate
               | temperature above 450 °C (Fig. 2.20). In this case, the thin film crystallizes over about a
@@ -2088,7 +2088,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         38
+meta          |                                                                                         38
 title         | 2.7 Solid phase graphoepitaxy
 blank         | 
 text          |        Another potential avenue for achieving oriented semiconductor crystals on
@@ -2125,7 +2125,7 @@ text          |        To investigate solid phase graphoepitaxy of thin silicon 
 blank         | 
               | 
               | 
-footer        |                                                                                         39
+meta          |                                                                                         39
 text          | agglomeration, which in thin films (<100 nm) occurs far below melting temperature.
               | The nano-grating (NIL) samples were annealed in a conventional furnace at 600 °C and
               | 1100 °C, along with non-patterned control samples.
@@ -2157,7 +2157,7 @@ text          |        The diffraction data indicates that solid phase crystalli
               | (NIL) on crystallographic orientation of Si films annealed at 600 °C. At 1100°C, the
 blank         | 
               | 
-footer        |                                                                                         40
+meta          |                                                                                         40
 text          | control sample data is inconclusive, but the nano-grating sample did not show
               | preferential orientation. Instead, the diffraction peak intensities are very close to that of
               | Si powder diffraction standard [102], suggesting random polycrystalline texture.
@@ -2194,7 +2194,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                           41
+meta          |                                                                                           41
 text          | Figure 2.22: a) TEM cross-section of 60 nm α-Si film on NIL patterned nano-grating in
               | fused silica (SiO2) substrate. Solid phase crystallization takes place after: b) 24 hours at
               |                  600 °C; c) 1 hour at 1100 °C; d) 24 hours at 1100 °C.
@@ -2202,7 +2202,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                          42
+meta          |                                                                                          42
 text          |        In conclusion, solid phase graphoepitaxy of silicon seems difficult to achieve,
               | especially at low-temperatures. 3DIC incompatible thermal budget (1100°C+) is
               | required to achieve appreciable secondary grain growth, while such thermal excursions
@@ -2239,7 +2239,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      43
+meta          |                                                                                      43
 text          |  Figure 2.23: Cross-sectional TEM of excimer laser (KrF) annealed α-Si film on SiO2
               | nano-grating 1D template: a) after single 34 ns pulse at 192 mJ/cm2; b) dark field image
               |                         of recrystallized film after 136 mJ/cm2.
@@ -2262,7 +2262,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      44
+meta          |                                                                                      44
 text          |        Achieving large grain growth in excimer laser melted Si films is therefore
               | unlikely. The uncontrolled spontaneous nucleation of rapidly cooling melt prevents any
               | appreciable grain growth. Moreover, the fast cooling Si system is far from equilibrium,
@@ -2290,7 +2290,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     45
+meta          |                                                                                     45
 text          |        Samples containing 200 nm thick α-Ge film deposited on SiO2 square grating
               | (1D) were raster scanned at 1 cm/s using Nd:YAG laser with long scan axis along the
               | grating (Fig. 2.24). The recrystallized Ge formed zigzag shaped grains that grew
@@ -2321,7 +2321,7 @@ text          |        Differing crystallographic orientations of grains produce
               | template [112].
 blank         | 
               | 
-footer        |                                                                                        46
+meta          |                                                                                        46
 text          |        Therefore, graphoepitaxy does not take place in films melted by scanning cw
               | laser, since the 1D template is rendered ineffective by the presence of randomly
               | oriented crystallites of the initial raster scan that seed all subsequent grain growth. One
@@ -2357,7 +2357,7 @@ text          |        We proposed a few methods of achieving single crystal reg
 blank         | 
               | 
               | 
-footer        |                                                                                         47
+meta          |                                                                                         47
 text          | recrystallized α-Si films. However, graphoepitaxy did not occur, since the recrystallized
               | grains were randomly oriented and not influenced by the nano-grating (1-D) template.
 blank         | 
@@ -2389,7 +2389,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       48
+meta          |                                                                                       48
 text          |   *     Estimate. Silicon substrate below the SiO2 template melted. Exact temperature not measured independently.
               |   **    Red colour cells highlight 3DIC compatible processes and the corresponding lack of preferential crystal orientation.
 blank         | 
@@ -2397,7 +2397,7 @@ text          | Table 2.1:Summary of graphoepitaxy experiments from literature (
 blank         | 
               | 
               | 
-footer        |                                                                                                                                49
+meta          |                                                                                                                                49
 title         | Chapter 3 – Modeling and Simulation
 blank         | 
 title         | 3.1 Introduction
@@ -2434,7 +2434,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         50
+meta          |                                                                                         50
 text          | transition. Depending whether the spontaneous nucleation occurs in the liquid bulk or at
               | an interface with the solid container, it can be classified as either homogeneous or
               | heterogeneous nucleation, respectively (Fig. 3.1). The difference in total energy change
@@ -2469,7 +2469,7 @@ text          | Consequently, since S(θ) ≤ 1, there is a reduction in nucleat
 blank         | 
               | 
               | 
-footer        |                                                                                          51
+meta          |                                                                                          51
 text          | (ΔG*Hom), as can be seen in Fig. 3.2. For example, in the case of germanium liquid on
               | SiO2 surface, θ = 72° [112], thus critical nuclei are more likely to spontaneously form at
               | the interface, rather than in bulk liquid.
@@ -2512,7 +2512,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                           52
+meta          |                                                                                           52
 text          |        Once stable nuclei form, they will start growing with more atoms jumping
               | across the liquid-solid interface and forming new layers on the crystal solid. In this
               | dynamic process, the sticking rate is faster than the dissolving rate due to a net
@@ -2547,7 +2547,7 @@ text          | More importantly, it seems that spontaneous nucleation is highly
 blank         | 
               | 
               | 
-footer        |                                                                                          53
+meta          |                                                                                          53
 text          | causing an explosion in spontaneous nucleation at the heterogeneous interfaces. In
               | addition, the Ge crystal growth velocity as a function of undercooling has been
               | calculated, with typical values varying between 1.5 - 2.5 m/s [112].
@@ -2582,7 +2582,7 @@ text          |        The test structure designed to validate the model was fab
 blank         | 
               | 
               | 
-footer        |                                                                                            54
+meta          |                                                                                            54
 text          | doubled Nd:YAG laser (λ = 532 nm) with 5x5 mm spot size. In order to selectively melt
               | Ge, a single pulse of 40 ns (FWHM) duration and 180 mJ/cm2 dose was empirically
               | found to keep the Si (100) seed intact while fully melting the Ge stripe. In addition a set
@@ -2618,7 +2618,7 @@ text          |        The crystallizing layer of liquid Ge is represented by a 
               | crystallized (became solid).
 blank         | 
               | 
-footer        |                                                                                         55
+meta          |                                                                                         55
 title         | 3.5 Results
 blank         | 
 text          |        Our simulation algorithm has been first used to model crystallization of
@@ -2650,7 +2650,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                           56
+meta          |                                                                                           56
 text          |   Figure 3.6: TEM cross-section of laser annealed Ge stripe indicating polycrystalline
               |        structure due to spontaneous nucleation in deeply undercooled Ge liquid.
 blank         | 
@@ -2681,7 +2681,7 @@ text          |        Finally, in the third scenario rapid thermal annealing (R
               | liquid Ge was equally slow, allowing for very long Ge (100) grains to crystallize (Fig.
 blank         | 
               | 
-footer        |                                                                                         57
+meta          |                                                                                         57
 text          | 3.8). In effect, slow cooling rates kept the Ge liquid close to melting temperature for
               | hundreds of microseconds, limiting the degree of undercooling. Therefore, spontaneous
               | nucleation was effectively suppressed allowing for interrupted epitaxial Ge growth for
@@ -2703,7 +2703,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        58
+meta          |                                                                                        58
 text          | Figure 3.8: RTA anneal (960 °C, 1 sec) of Ge stripe crystallization with a Si (100) seed:
               |    a) both simulation and the test structure show unimpeded grain growth of seeded
               |  Ge(100), up to 40 µm long; b) HR XTEM demonstrating high-quality defect-free Ge
@@ -2724,7 +2724,7 @@ text          |        Transient annealing techniques, such as pulsed laser anne
               | fast cooling rates, on the order of 300 °C/µs. This inherently large thermal gradient
 blank         | 
               | 
-footer        |                                                                                       59
+meta          |                                                                                       59
 text          | quickly undercools the liquid, triggering uncontrolled spontaneous nucleation that limits
               | both the size and quality of resulting grains.
 blank         | 
@@ -2761,7 +2761,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       60
+meta          |                                                                                       60
 title         | Chapter 4 – Aluminum-Germanium Bonding
 blank         | 
 title         | 4.1 Introduction
@@ -2790,7 +2790,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        61
+meta          |                                                                                        61
 text          |        Therefore, experiments were performed to determine whether low-temperature
               | (435 °C), low-pressure (200 kPa) bonding using thin Al-Ge films (157 nm) could be
               | used for wafer scale integration. Fracture energy of the bond was measured, and the
@@ -2827,7 +2827,7 @@ text          |        Therefore, for a 100 nm thick Al film, 59 nm of Ge was de
               | (root mean square), as measured by Veeco Dimension 3100 atomic force microscope
 blank         | 
               | 
-footer        |                                                                                    62
+meta          |                                                                                    62
 text          | (AFM). Figure 4.2a presents an AFM surface scan of a particularly thin bilayer stack
               | (47 nm), while the cross-sectional scanning electron micrograph gives a general idea of
               | the structure (b).
@@ -2859,7 +2859,7 @@ text          |         The bonding step was performed in EV501 Bonder (EV Group
 blank         | 
               | 
               | 
-footer        |                                                                                     63
+meta          |                                                                                     63
 text          | thermal mass of the chuck assembly. The bonding temperature of 435 °C was chosen to
               | insure eutectic melt (Fig. 4.1), while keeping it as low as possible to be suitable for
               | 3DIC applications.
@@ -2892,7 +2892,7 @@ text          |        The samples were inspected for voids with C-mode scanning
 blank         | 
               | 
               | 
-footer        |                                                                                      64
+meta          |                                                                                      64
 text          | Figure 4.3: Wafer flat area of 4-inch wafer pair bonded at 450°C showing a small drop
               | of solidified Al-Ge alloy that has been squeezed out during the bonding step. Thus, Al-
               |               Ge bilayer alloy does indeed melt above eutectic temperature.
@@ -2921,7 +2921,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         65
+meta          |                                                                                         65
 text          | Figure 4.4: a) Double cantilever beam technique sample schematic showing the debond
               | length caused by tension forces applied at the end of the beams through metal tabs (b).
 blank         | 
@@ -2955,7 +2955,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      66
+meta          |                                                                                      66
 text          |  Figure 4.5: Measured bond strength of copper-copper bond under pure Mode I tension
               |  is about Gc = 2.5 J/m2 [134]. This value is much smaller compared to measured Al-Ge
               |                       bond fracture energy of Gc = 50 J/m2 [133].
@@ -2977,7 +2977,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       67
+meta          |                                                                                       67
 title         | 4.4 Void formation in Al-Ge eutectic bonds
 blank         | 
 text          |         Investigation of the interface of Al-Ge bonded 100 mm diameter wafers using
@@ -3008,7 +3008,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       68
+meta          |                                                                                       68
 text          |    Figure 4.7: Map of pressure distribution over a 4-inch wafer placed under 3.3 kN
               |  downward force (350 kPa) applied by the bonder. Measurement was performed using
               |                            Pressurex® pressure sensitive paper.
@@ -3031,7 +3031,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       69
+meta          |                                                                                       69
 text          | Figure 4.8: Plan-view optical (a) and SEM (b) images showing the microstructure of the
               |  Al-Ge eutectic bond formed at 450 °C (condition A). The top wafer has been ground
               | and etched away to reveal Al-Ge layer segregated into germanium dendrites (light grey)
@@ -3057,7 +3057,7 @@ text          | Figure 4.9: AES elemental map of Al-Ge eutectic bond formed at 4
 blank         | 
               | 
               | 
-footer        |                                                                                        70
+meta          |                                                                                        70
 text          |        The Auger depth profile of the Al-Ge bond was obtained by Ar+ ion sputtering
               | of the bonded and backside thinned sample above (Fig. 4.10). The sputtering rate was
               | about 50 nm/min calibrated on SiO2 substrate (approx. 12 nm/min on Al-Ge). Both
@@ -3081,7 +3081,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        71
+meta          |                                                                                        71
 text          |        In addition, SiO2 appears to be an effective diffusion barrier that prevents fast
               | diffusing silicon atoms [136] from entering Al-Ge eutectic system from the bulk. Such a
               | barrier is required because the presence of elemental silicon creates Al-Si-Ge tertiary
@@ -3111,7 +3111,7 @@ text          |        Cross-section TEM investigation of Al-Ge eutectic bond fo
 blank         | 
               | 
               | 
-footer        |                                                                                        72
+meta          |                                                                                        72
 text          |        However, unlike the alternating layers of Al and Ge in Auger depth profile of
               | Figure 4.10, the Al and Ge domains here span the full thickness of the film (~100 nm).
               | Given that both SiO2 mating wafers originally had 450 nm thick Al-Ge bilayers each, it
@@ -3141,7 +3141,7 @@ text          |        The donor wafer consisted of an array of Si islands, 20 �
               | backside grinding and etching, the attached crystalline Si islands could be split from the
 blank         | 
               | 
-footer        |                                                                                        73
+meta          |                                                                                        73
 text          | bulk donor wafer via Smart-Cut® [139] or by selectively etching a buried layer. In this
               | experiment, the donor wafer was a SOI-like structure with 4 μm of LPCVD SiO2
               | capped with 500 nm of LPCVD polysilicon. The polysilicon layer was patterned into 20
@@ -3174,7 +3174,7 @@ text          |        The acceptor wafer had 80 nm of thermally grown SiO2 that
 blank         | 
               | 
               | 
-footer        |                                                                                         74
+meta          |                                                                                         74
 text          |  Figure 4.14: SEM of an array of polysilicon islands attached to a SiO2 substrate using
               |  Al-Ge eutectic bonding at 435 °C. The excess Al-Ge in between the islands has been
               |              etched away in phosphoric, acetic, nitric acid solution (PAN).
@@ -3198,7 +3198,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       75
+meta          |                                                                                       75
 text          | were present. Moreover, the thin (157 nm) one-sided Al-Ge eutectic bond had
               | segregated into Al and Ge columnar phases, spanning the full thickness of the film. This
               | morphology is similar to the thicker Al-Ge bond structure revealed by X-TEM analysis
@@ -3232,7 +3232,7 @@ text          |        A more elegant approach to remove the bulk donor wafer is
 blank         | 
               | 
               | 
-footer        |                                                                                       76
+meta          |                                                                                       76
 text          | These hydrogen species agglomerate via Ostwald ripening and start forming micro-
               | cracks upon moderate heating [140]. At a critical point the internal pressure of formed
               | H2   (g)   causes a large-scale crack, which propagates along major crystal plane (100),
@@ -3262,7 +3262,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                              77
+meta          |                                                                                              77
 title         | 4.8 Semiconductor islands using SmartCut® donor wafer release
 blank         | 
 text          |        A complete process of attaching silicon crystal islands on SiO2 acceptor wafer
@@ -3285,7 +3285,7 @@ text          | Figure 4.18: Al-Ge bonding of Si islands for monolithic 3DICs: a
 blank         | 
               | 
               | 
-footer        |                                                                                       78
+meta          |                                                                                       78
 text          | The Al-Ge bilayer on the acceptor wafer was patterned into pads prior to bonding. This
               | step was necessary in order to prevent agglomeration of excess Al-Ge eutectic liquid
               | between the islands, which in turn could cause unwanted bonding to the donor bulk,
@@ -3317,7 +3317,7 @@ text          |        The donor wafer was removed by annealing the Al-Ge bonded
 blank         | 
               | 
               | 
-footer        |                                                                                        79
+meta          |                                                                                        79
 text          |     Figure 4.20: a) SEM image of 10 µm Si crystal island bonded to SiO2 via Al-Ge
               | eutectic bonding at 435 °C; b) optical image of 50 µm Ge (100) island on SiO2 with Al-
               |   Ge bond pad visible (bright area). CMP step is needed to remove surface roughness.
@@ -3348,7 +3348,7 @@ text          |        Surprisingly, initial 4-inch oxidized Si wafers bonded vi
 blank         | 
               | 
               | 
-footer        |                                                                                       80
+meta          |                                                                                       80
 text          | through the SiO2 layer, and not the bond itself. The mating Si wafers had 800nm
               | thermally grown SiO2 covered with 475 nm Al-Ge bilayer (condition A). Bonding took
               | place at 400 °C for 2 hours, and 350 kPa pressure in EV501 bonder at 10-4 Torr
@@ -3378,7 +3378,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     81
+meta          |                                                                                     81
 text          | Figure 4.22: Silicon (100) island attached to SiO2 wafer via sub-eutectic Al-Ge bond at
               |           400 °C. Donor wafer has been successfully removed via SmartCut®.
 blank         | 
@@ -3407,7 +3407,7 @@ text          |        Aluminum-germanium eutectic bonding has been successfully
               | suitable for monolithic 3DICs.
 blank         | 
               | 
-footer        |                                                                                          82
+meta          |                                                                                          82
 title         | Chapter 5 – Copper bonding
 blank         | 
               | 
@@ -3440,7 +3440,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     83
+meta          |                                                                                     83
 title         | 5.2 Mechanism
 blank         | 
 text          |        The fundamental mechanism of thermo-compressive metal bonding is that of
@@ -3475,7 +3475,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      84
+meta          |                                                                                      84
 title         | 5.3 Surface preparation and characterization
 blank         | 
 text          |        The surface roughness of as-deposited 300 nm thick copper films was around
@@ -3507,7 +3507,7 @@ text          |        Finally, to remove copper native oxides from the surface 
 blank         | 
               | 
               | 
-footer        |                                                                                       85
+meta          |                                                                                       85
 text          | Subsequently, wafers should be immediately loaded into the bonding chamber and
               | pumped to vacuum (~10-3 torr) to prevent any re-oxidation. The chemical reactions are
               | believed to be as follows [149]:
@@ -3542,7 +3542,7 @@ text          |  Figure 5.2: Copper metal surface roughening by dilute HCl solut
 blank         | 
               | 
               | 
-footer        |                                                                                        86
+meta          |                                                                                        86
 title         | 5.4 Cu-Cu bonding procedure
 blank         | 
 text          |         For the purposes of achieving monolithic 3DIC by attachment of Si or Ge
@@ -3571,7 +3571,7 @@ text          |         The 4” Si (100) donor wafer was first blanket implante
 blank         | 
               | 
               | 
-footer        |                                                                                        87
+meta          |                                                                                        87
 text          | (Ta) diffusion barrier followed by 300 nm of copper (Cu). Right before the bonding
               | step, the wafers were dipped in H2O:HCl (1:1) for 30 seconds, rinsed, dried and
               | immediately loaded into the EV501 bonder. Wafers were bonded at 400 °C for 60
@@ -3603,7 +3603,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       88
+meta          |                                                                                       88
 text          |        The results of the wafer saw dicing test of Cu-Cu bonded wafers are
               | summarized in Table 5.1. Overall, the vast majority of the dies in all three samples
               | survived the dicing process, giving qualitative evidence of a structurally strong bond.
@@ -3633,7 +3633,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      89
+meta          |                                                                                      89
 text          | Figure 5.5: Cross-sectional SEM of the acceptor wafer illustrating successful transfer of
               |    ~600 nm thick Si crystalline film on top of amorphous substrate (SiO2) via Cu-Cu
               |   bonding at 400°C. Note: the top of the Si transferred layer exhibits Ga+ ion damage
@@ -3659,7 +3659,7 @@ text          |        Self-diffusivity of Cu at 400 °C is 8.5 x 10-17 cm2/s [1
 blank         | 
               | 
               | 
-footer        |                                                                                         90
+meta          |                                                                                         90
 text          | Figure 5.6: Cross-sectional SEM of germanium crystalline film bonded onto SiO2 wafer
               |  via 400 °C Cu-Cu bond. Copper grains are clearly visible, while the two bright stripes
               |    lining the copper bond are 40 nm thick tantalum (Ta) diffusion barriers. Note: this
@@ -3679,7 +3679,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                          91
+meta          |                                                                                          91
 text          | Figure 5.7: Cross-sectional SEM illustrating the morphology of the Cu-Cu bond (at 400
               | °C) used to attach Ge (100) crystalline film. There are very few interfacial voids and the
               |        large copper grains have completely erased the original bonding interface.
@@ -3704,7 +3704,7 @@ text          |        Given that both wafers are quite smooth (Si prime with Cu
               | across the wafer through the top bonding plate (and graphite liner). The non-bonded
 blank         | 
               | 
-footer        |                                                                                         92
+meta          |                                                                                         92
 text          | areas roughly match the distribution of the low-pressure areas, which have been
               | previously mapped using pressure sensitive paper (see Chapter 4). Consequently, these
               | findings highlight the crucial importance of applied pressure to ensure full contact
@@ -3736,7 +3736,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        93
+meta          |                                                                                        93
 title         | 5.7 Conclusions and future of copper based bonding
 blank         | 
 text          |        Thermo-compressive Cu-Cu bonding is an attractive method for attachment of
@@ -3765,7 +3765,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       94
+meta          |                                                                                       94
 title         | Chapter 6 – Titanium Bonding
 blank         | 
 title         | 6.1 Introduction
@@ -3799,7 +3799,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                          95
+meta          |                                                                                          95
 title         | 6.3     Mechanism
 blank         | 
 text          |         The mechanism of bonding two surfaces with Ti metal on each is that of
@@ -3830,7 +3830,7 @@ text          |         As with other techniques requiring interfacial diffusion
               | strong Ti-Ti bonds could be achieved at much lower temperatures than 400 °C.
 blank         | 
               | 
-footer        |                                                                                      96
+meta          |                                                                                      96
 text          |         The mechanism of Ti-Si bond formation, on the other hand is substantially
               | different. Solid-state amorphization at the Ti/Si interface plays a key role, where fast
               | diffusing Si atoms mix into Ti metal creating an amorphous titanium silicide at low
@@ -3860,7 +3860,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       97
+meta          |                                                                                       97
 text          |        The 4” wafers to be bonded were first cleaned in Piranha solution (H2O2:H2SO4
               | = 1:4) for 20 minutes, rinsed in DI water and dried prior to e-beam evaporation (or Ar
               | sputtering) of 40nm Ti layer on each mating surface. A 1x1 µm AFM scan showing the
@@ -3888,7 +3888,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      98
+meta          |                                                                                      98
 title         | 6.5    Titanium bonding results
 blank         | 
 text          |        Titanium-based island bonding technique produced impressive results. In the
@@ -3920,7 +3920,7 @@ text          |        It should be noted that void-free 8-inch wafer Ti-Ti bond
 blank         | 
               | 
               | 
-footer        |                                                                                         99
+meta          |                                                                                         99
 text          | mitigating particle contamination and increasing the effective applied pressure. Figure
               | 6.5 shows a photograph of the 4-inch acceptor wafer with a full array of Si islands
               | attached (green colour). The brown coloured region is most likely exposed Ti film that
@@ -3945,7 +3945,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       100
+meta          |                                                                                       100
 text          |    Figure 6.6: SEM image of Ti/Ti bonded Si island on the SiO2 acceptor wafer. The
               |   resulting height of the island is 630 nm, while the surface roughness is the result of
               |                              hydrogen ion induced splitting.
@@ -3969,7 +3969,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       101
+meta          |                                                                                       101
 text          |        The cause of incomplete transfer is surface roughness, which significantly limits
               | the area of contact for Ti-Ti bond to form. The titanium layer itself is not the cause,
               | since it is relatively smooth (0.69nm rms) and was successfully used to attach Si islands
@@ -3998,7 +3998,7 @@ text          |        Therefore, the one limitation of Ti-Ti bonding is a surfa
 blank         | 
               | 
               | 
-footer        |                                                                                        102
+meta          |                                                                                        102
 text          | would be instructive to determine the roughest surface that could be successfully
               | bonded via Ti-Ti technique. However, it would be a strong function of bonding
               | temperature, time, pressure and film thickness, all of which affect surface diffusion of
@@ -4018,7 +4018,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     103
+meta          |                                                                                     103
 title         | Chapter 7 – Fusion Bonding
 blank         | 
               | 
@@ -4052,7 +4052,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      104
+meta          |                                                                                      104
 title         | 7.2    Mechanism of hydrophilic bonding
 blank         | 
 text          |        When two smooth surfaces are brought close to each other, they can fuse and
@@ -4080,7 +4080,7 @@ text          |        Depending on the surface chemistry, two varieties of fusi
 blank         | 
               | 
               | 
-footer        |                                                                                        105
+meta          |                                                                                        105
 text          | the bonding mechanism between Si surfaces are illustrated in Figure 7.1. Other material
               | pairings, such as Si-SiO2, SiO2-SiO2 and even Ge-SiO2, are variants of this mechanism.
 blank         | 
@@ -4119,7 +4119,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                              106
+meta          |                                                                                              106
 text          |        Finally, annealing hydrophilic bonded wafers above 800 °C starts viscous oxide
               | flow. Either native or thermal SiO2 can then deform to fill micro cavities, ensuring full
               | contact area between the surfaces, and thus maximum theoretical bond strength (about
@@ -4157,7 +4157,7 @@ text          |        Producing optically flat surfaces for successful fusion b
 blank         | 
               | 
               | 
-footer        |                                                                                       107
+meta          |                                                                                       107
 text          | produce strong attachment could be used to alleviate the surface smoothness
               | requirements.
 blank         | 
@@ -4195,7 +4195,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      108
+meta          |                                                                                      108
 text          |        Consequently, it is crucial to use a solution containing H+ or OH- groups to
               | activate the surface by increasing the density of the silanol groups. Since density of
               | silanol (–OH) groups is directly correlated to the bond strength [177], surface activation
@@ -4222,7 +4222,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       109
+meta          |                                                                                       109
 text          |        Si–O–Si + NH4OH → Si–NH2 + HO–Si + H2O,              (activating SiO2 surface)
               |        Si–NH2 + HO–Si → Si–O–Si + NH3,            (polymerization across the interface)
 blank         | 
@@ -4262,7 +4262,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     110
+meta          |                                                                                     110
 text          |        However, since monolithic 3DIC applications presume attachment to top
               | dielectric surface of fully processed CMOS wafers, the roughness of these deposited
               | layers must be investigated. Figure 7.4 collates tapping AFM scans of various deposited
@@ -4286,7 +4286,7 @@ text          |        Compared to thermal SiO2, all of the materials investigat
               | contamination, which induced large interfacial voids upon hydrophilic fusion bonding
 blank         | 
               | 
-footer        |                                                                                     111
+meta          |                                                                                     111
 text          | to a Si wafer (Fig. 7.5). Rinsing wafers in DI wafer or dipping them in activation bath
               | proved ineffective in removing the particle contamination.
 blank         | 
@@ -4315,7 +4315,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     112
+meta          |                                                                                     112
 text          |  Figure 7.7: RMS surface roughness of low temperature oxide (LTO) deposited at 300
               | °C as a function of CMP polish time. Within 1 minute, the roughness is reduced below
               |              the requirement for successful fusion bonding (0.5 nm RMS).
@@ -4336,7 +4336,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                  113
+meta          |                                                                                  113
 text          |        The wafers to be bonded were first checked to ensure surfaces were smooth
               | enough to bond (< 0.5 nm RMS). If not, appropriate polishing and post-CMP cleaning
               | steps were taken to remove roughness (see Appendix A). Subsequently, mating surfaces
@@ -4373,7 +4373,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        114
+meta          |                                                                                        114
 text          | Figure 7.8: IR camera images of interfacial voids present between Si-Si, Si-SiO2 and Si
               |  islands-SiO2 wafer pairs, after various thermal anneals. Si-SiO2 pairs had significantly
               | fewer thermally induced voids than the Si-Si pair, while the island wafers produced no
@@ -4392,7 +4392,7 @@ text          |        The second cause of voids is thermal annealing. The therm
 blank         | 
               | 
               | 
-footer        |                                                                                       115
+meta          |                                                                                       115
 text          | Similar observations by Mitani et al. [183] found that these bubble defects mainly form
               | after annealing below 900 °C. Alternatively, very high temperature anneals (>1000 °C)
               | can eliminate Si-Si voids by speeding up the out-diffusion process (not pictured).
@@ -4424,7 +4424,7 @@ text          |        Bonding of islands seems to be the best scenario of all, 
 blank         | 
               | 
               | 
-footer        |                                                                                      116
+meta          |                                                                                      116
 text          | examination by SEM and optical microscope (Fig. 7.10) reveals regularly spaced arrays
               | of intact islands with almost no defects. Only a few of the largest islands (>1000 µm)
               | showed small voids (~20 µm in diameter) upon SmartCut® splitting.
@@ -4451,7 +4451,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       117
+meta          |                                                                                       117
 text          | Figure 7.11: Optical images of Ge (100) layer fusion bonded to SiO2. By patterning Ge
               |       into 300x300 µm islands (b), the number of thermally induced voids is reduced
               | compared to the full wafer transfer (a). The channel width between the islands is 10 µm.
@@ -4475,7 +4475,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        118
+meta          |                                                                                        118
 text          | However, a short chemical mechanical polish (CMP) of the semiconductor islands can
               | smoothen the surface to under 0.5 nm RMS while also removing the damaged topmost
               | layer. Figure 7.12b demonstrates a smooth Si (100) crystal island after 30 sec CMP
@@ -4507,7 +4507,7 @@ text          |        The strength of the hydrophilic fusion bond was tested us
 blank         | 
               | 
               | 
-footer        |                                                                                       119
+meta          |                                                                                       119
 text          | the delamination (L), an approximation of the bonding energy (γ) can be calculated
               | through the following expression [185]:
 blank         | 
@@ -4540,7 +4540,7 @@ text          |        Bond strength is equivalent to the value of bonding energ
 blank         | 
               | 
               | 
-footer        |                                                                                     120
+meta          |                                                                                     120
 text          | than full-wafer bonded films. Finally, Ge-SiO2 fusion bond was stronger, measuring
               | 1.3 ± 0.3 J/m2, after 24-hour anneal at 200 °C, followed by 12-hour anneal at 400 °C.
               | Comparatively, bulk Ge (100) fracture energy is 1.84 J/m2 [187]. It is important to note
@@ -4573,7 +4573,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     121
+meta          |                                                                                     121
 text          | Figure 7.15: Local elastic deformation of mating wafers could yield to ‘ceiling collapse’
               |                         causing undesired fusion bond in certain areas.
 blank         | 
@@ -4610,7 +4610,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      122
+meta          |                                                                                      122
 title         | 7.9    Conclusions
 blank         | 
 text          |        Fusion bonding does provide an elegant method to attach single-crystal silicon
@@ -4629,7 +4629,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     123
+meta          |                                                                                     123
 title         | Chapter 8 – Conclusion
 blank         | 
               | 
@@ -4664,7 +4664,7 @@ text          |        Feasibility of using transient laser annealing for monoli
               | illumination and imaging systems.
 blank         | 
               | 
-footer        |                                                                                          124
+meta          |                                                                                          124
 text          |        Graphoepitaxy via transient laser annealing of both silicon and germanium was
               | explored as a method to achieve oriented high-quality crystal islands on amorphous
               | substrates. In an effort to impart superior orientation control, novel nano-grating
@@ -4700,7 +4700,7 @@ text          |        Alternatively, we pursued a more direct approach of attac
               | for monolithic 3DIC application: fusion bonding (SiO2-SiO2, Si-SiO2, Ge-SiO2),
 blank         | 
               | 
-footer        |                                                                                         125
+meta          |                                                                                         125
 text          | *    Surface roughness requirement has not been explicitly determined. The quoted values for Cu-Cu, Ti-Ti and Al-Ge bonding
               |      indicate the largest measured surface roughness of samples that bonded successfully (AFM, 5x5 µm area).
               | **   Bond strength not measured quantitatively, but known to be strong (razor blade test cracks Si bulk rather than the bond).
@@ -4711,7 +4711,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                                                              126
+meta          |                                                                                                                              126
 text          | thermo-compressive bonding (Cu-Cu, Ti-Ti), as well as AlGe eutectic bonding. Results
               | of these experiments are summarized in Table 8.1. In particular, we deemed AlGe
               | eutectic bond to be especially attractive with superior strength (~50 J/m2), low void
@@ -4744,7 +4744,7 @@ text          | Figure 8.1: Area reduction of an FPGA circuit in a 3-layer imple
 blank         | 
               | 
               | 
-footer        |                                                                                        127
+meta          |                                                                                        127
 text          |        The FPGA is an inherently interconnect-limited technology with three distinct
               | and easily separable functions – logic blocks, connection blocks and switching blocks
               | (Fig. 8.1). Splitting the three functions vertically, heterogeneous integration would
@@ -4769,7 +4769,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                   128
+meta          |                                                                                   128
 title         | 8.3 Final thoughts
 blank         | 
 text          |        Realization of fully functional monolithic 3DIC circuits such as 3D-FPGA is
@@ -4803,7 +4803,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        129
+meta          |                                                                                        129
 title         | Appendix A - CMP process and cleaning
 blank         | 
               | 
@@ -4841,7 +4841,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       130
+meta          |                                                                                       130
 text          | designed specifically for polysilicon polishing applications. In addition, a neutral
               | version Ultra-Sol 3EX with pH of 7.3 was also tested for SiO2 polishing.
 blank         | 
@@ -4879,7 +4879,7 @@ text          |        Polishing rates for crystalline silicon islands (~50% fil
 blank         | 
               | 
               | 
-footer        |                                                                                   131
+meta          |                                                                                   131
 text          | polishing is most likely to be used for removal of the SmartCut® H+ ion induced
               | splitting damage. The goal is to remove the top damaged layer (~50 nm), as well as to
               | make it sufficiently smooth for subsequent upper layer device fabrication.
@@ -4904,7 +4904,7 @@ text          |        In order to determine post-CMP surface condition, AFM sca
 blank         | 
               | 
               | 
-footer        |                                                                                       132
+meta          |                                                                                       132
 text          | Figure A.2: CMP of Si (100) islands leaves speckled slurry residue (a), which can be
               | removed by wet PVA sponge scrub (b), bringing the surface roughness to 0.416 nm
               |          RMS. Reference Si prime wafer (c). All AFM scans are 5x5 µm.
@@ -4919,7 +4919,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                   133
+meta          |                                                                                   133
 text          |        Similarly, CMP removal rate of bulk low-temperature SiO2 (LTO), using Ultra-
               | Sol S-10 slurry was 67 nm/min (not shown), while the use of Ultra-Sol 3EX slurry
               | increased the bulk removal rate to 75 nm/min (Fig. A.3).
@@ -4950,7 +4950,7 @@ text          | Figure A.4: a) Germanium removal rate vs. H2O2 concentration in 
 blank         | 
               | 
               | 
-footer        |                                                                                         134
+meta          |                                                                                         134
 title         | A.3 Attached island isolation (STI variant) process development
 blank         | 
 text          |        Attaching crystalline semiconductor islands for upper layer 3DICs creates a
@@ -4983,7 +4983,7 @@ text          |        In order to prevent dishing, an extra layer of silicon ni
               | the silicon nitride layer. The resulting planarization of the dissimilar materials is
 blank         | 
               | 
-footer        |                                                                                       135
+meta          |                                                                                       135
 text          | depicted in Fig. A.6, where the thin SiN layer is highlighted in red colour. Some SiO2
               | dishing still occurred, however it was rather small (<100 nm over a 10 µm wide trench).
 blank         | 
@@ -5018,7 +5018,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                         136
+meta          |                                                                                         136
 text          | low-consumption, and non-roughening method needs to be developed for Ge post-CMP
               | clean.
 blank         | 
@@ -5034,7 +5034,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     137
+meta          |                                                                                     137
 title         | Appendix B - Epitaxial Germanium Growth Process
 blank         | 
               | 
@@ -5069,7 +5069,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     138
+meta          |                                                                                     138
 title         | B.1 Experimental procedure of epi-Ge growth
 blank         | 
 text          |        Germanium deposition was performed in an Applied Materials Centura
@@ -5100,7 +5100,7 @@ text          |    1. Diffusion clean Si (100) 4-inch wafer with a final 2% HF d
               |            Gas flows: 25 sccm (100% Ge), 5 slm (H2).
 blank         | 
               | 
-footer        |                                                                                       139
+meta          |                                                                                       139
 text          |    6. Hydrogen anneal at 800 °C, 50 Torr for 5 minutes.
               |    7. Repeat steps 5 and 6 for the 3rd layer of Ge.
               |    8. Deposit LPCVD SiO2 capping layer (~20 nm).
@@ -5131,7 +5131,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      140
+meta          |                                                                                      140
 text          |   Figure B.3: AFM scan (20x20 µm) of 5 layer epi-Ge showing characteristic “cross-
               |   hatch” pattern along the <110> direction with a spatial wavelength of the order of a
               |  micron, superimposed on mounds the size of several microns, with maximum peak to
@@ -5146,7 +5146,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     141
+meta          |                                                                                     141
 title         | Bibliography
 blank         | 
 ref           | [1]   International Technology Roadmap for Semiconductors (ITRS), 2007 ed.
@@ -5186,7 +5186,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                    142
+meta          |                                                                                    142
 ref           | [9]    J. D. Meindl et al, “Interconnecting device opportunities for gigascale
               |        integration (GSI)”, IEDM Technical Digest (2001), pp. 525-528.
 blank         | 
@@ -5229,8 +5229,8 @@ ref           | [18]   R.E. DeCaro et al, “A low cost, compact ‘user’ reco
               |        and Applied Technology, DSP Associates (1994), pp. 848-853.
 blank         | 
               | 
-footer        |                                                                                   143
-ref           | [19]   Information available online at http://www.elpida.com/en/products/index.html.
+meta          |                                                                                   143
+text          | [19]   Information available online at http://www.elpida.com/en/products/index.html.
 blank         | 
               | 
 ref           | [20]   Information available online at http://www.samsung.com/us/, “SAMSUNG
@@ -5272,7 +5272,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     144
+meta          |                                                                                     144
 ref           | [29]   C. Keast et al, “Three-Dimensional Integration Technology for Advanced Focal
               |        Planes”, Materials Research Society Symposium Proceedings, Vol. 1112 (2009).
 blank         | 
@@ -5314,7 +5314,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      145
+meta          |                                                                                      145
 ref           | [37]   B. Rajendran et al, “Low thermal budget processing for sequential 3-D IC
               |        fabrication”, IEEE Transactions on Electron Devices, Vol. 54, No. 4 (2007), pp.
               |        707-714.
@@ -5354,7 +5354,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                   146
+meta          |                                                                                   146
 ref           | [44]   K. Sugahara et al, “SOI/SOI/Bulk-Si triple-level structure for three-dimensional
               |        devices”, IEEE Electron Device Letters, Vol. 7, No. 3 (1986), pp. 193-195.
 blank         | 
@@ -5396,7 +5396,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       147
+meta          |                                                                                       147
 ref           | [53]   J. Feng et al, “P-channel germanium FinFET based on rapid melt growth”, IEEE
               |        Electron Device Letters, Vol. 28 (2007), p. 637.
 blank         | 
@@ -5438,7 +5438,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                       148
+meta          |                                                                                       148
 ref           | [61]   D. K. Biegelsen et al, “Origin of oriented crystal growth of radiantly melted
               |        silicon on SiO2”, Applied Physics Letters, Vol. 45 (1984), p. 546.
 blank         | 
@@ -5481,7 +5481,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     149
+meta          |                                                                                     149
 ref           | [70]   D.C. Flanders, “Orientation of crystalline overlayers on amorphous substrates by
               |        artificially produces surface relief structures”, Ph.D. Thesis, MIT Department of
               |        Electrical Eng. and Computer Science (1978).
@@ -5523,7 +5523,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     150
+meta          |                                                                                     150
 ref           | [78]   A. J. Auberton-Herve and S. S. Iyer, Silicon Wafer Bonding Technology for
               |        VLSI and MEMS Applications, IEEE, Piscataway (2002).
 blank         | 
@@ -5566,7 +5566,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                    151
+meta          |                                                                                    151
 ref           | [87]   T.I. Kamins et al, “Effect of nanoimprinted surface relief on Si and Ge
               |        nucleation and ordering”, Microelectronics Journal, Vol. 37 (2006), pp. 1481-
               |        1485.
@@ -5608,7 +5608,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                        152
+meta          |                                                                                        152
 ref           | [96]   A. Giermann and C.V. Thompson, “Solid-state dewetting for ordered arrays of
               |        crystallographically oriented metal particles”, Applied Physics Letters, Vol. 86,
               |        No. 12 (2005).
@@ -5650,7 +5650,7 @@ ref           | [104] K. Ishikawa et al, “Excimer-laser-induced lateral-growth
               |        Japanese Journal of Applied Physics, Vol. 37 (1998), p. 731.
 blank         | 
               | 
-footer        |                                                                                      153
+meta          |                                                                                      153
 ref           | [105] R. Ishihara et al, “Single-grain Si TFTs with ECR-PECVD gate SiO2”, IEEE
               |        Transactions on Electron Devices, Vol. 51 (2004), p. 500.
 blank         | 
@@ -5692,7 +5692,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      154
+meta          |                                                                                      154
 ref           | [114] D. Turnbull, “Formation of crystal nuclei in liquid metals”, Journal of Applied
               |        Physics, Vol. 21 (1950), pp. 1022-1028.
 blank         | 
@@ -5735,7 +5735,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                   155
+meta          |                                                                                   155
 ref           | [124] D. Turnbull and M.H. Cohen, “Concerning reconstructive transformation and
               |        formation of glass”, The Journal of Chemical Physics, Vol. 29 (1958), pp. 1049-
               |        1054.
@@ -5776,7 +5776,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                   156
+meta          |                                                                                   156
 ref           | [132] M. Lane et al, “Plasticity contributions to interface adhesion in thin-film
               |        interconnect structures”, Journal of Material Research, Vol. 15, No. 12 (2000),
               |        pp. 2758–2769.
@@ -5818,7 +5818,7 @@ ref           | [140] X. Feng and Y. Huang, “Mechanics of SmartCut® technolog
               |        Journal of Solids and Structures, Vol. 41 (2004), pp. 4299-4320.
 blank         | 
               | 
-footer        |                                                                                       157
+meta          |                                                                                       157
 ref           | [141] SRIM-2000 computer program, based on J.F. Ziegler et al, Stopping and range
               |        of ions in matter, edited by J. Ziegler, Pergamon, New York (1985).
 blank         | 
@@ -5859,7 +5859,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                    158
+meta          |                                                                                    158
 ref           | [149] K.N. Chen et al, ”Bonding parameters of blanket copper wafer bonding”,
               |        Journal of electronic materials, Vol. 35, No.2 (2006), pp. 230-234.
 blank         | 
@@ -5902,7 +5902,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                   159
+meta          |                                                                                   159
 ref           | [158] C. S. Tan et al, “The effect of forming gas anneal on the oxygen content in
               |        bonded copper layer”, Journal of Electronic Materials, Vol. 34, No. 12 (2005),
               |        pp. 1598-1602.
@@ -5943,7 +5943,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     160
+meta          |                                                                                     160
 ref           | [167] L.J. Chen, “Solid state amorphization in metal/Si systems”, Materials Science
               |        and Engineering Reports, Vol. R29 (2000), pp. 115-152.
 blank         | 
@@ -5984,7 +5984,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                     161
+meta          |                                                                                     161
 ref           | [176] P. H. Chen, “Beat the competition - A knowledge-based design process
 blank         | 
 ref           |        addressing the antenna effect and cell placement”, IEEE Circuits Devices
@@ -6026,7 +6026,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                      162
+meta          |                                                                                      162
 ref           | [184] P.-Z. Yang et al, “Characterization of PECVD grown porous SiO2 thin films
               |        with potential application in an uncooled infrared detector”, Semiconductor
               |        Science and Technology, Vol. 25 (2010), pp. 4.
@@ -6068,7 +6068,7 @@ ref           | [192] J.-S. Park et al, “Low-defect-density Ge epitaxy on Si(0
 blank         | 
               | 
               | 
-footer        |                                                                                   163
+meta          |                                                                                   163
 ref           | [193] B.A. Walmsley et al,” Poisson's ratio of low-temperature PECVD silicon nitride
               |        thin films”, Journal of Microelectromechanical Systems, Vol. 16, No. 3 (2007),
               |        pp. 622-627.
@@ -6096,5 +6096,5 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                    164
+meta          |                                                                                    164
 blank         | 

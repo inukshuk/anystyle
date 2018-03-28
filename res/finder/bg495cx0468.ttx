@@ -37,7 +37,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                           ii
+meta          |                                           ii
 text          | I certify that I have read this dissertation and that, in my opinion, it is fully adequate
               | in scope and quality as a dissertation for the degree of Doctor of Philosophy.
 blank         | 
@@ -73,7 +73,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                           iii
+meta          |                                           iii
 title         | Abstract
 blank         | 
 text          | The cornea provides the protective outer covering of the eye. Its almost perfect
@@ -101,7 +101,7 @@ text          | The cornea provides the protective outer covering of the eye. It
               | curvature resulting from a wide range of surgical procedures, in which tissue is cut,
 blank         | 
               | 
-footer        |                                            iv
+meta          |                                            iv
 text          | removed, modified, added to or redistributed or in which synthetic implants are in-
               | troduced. The list of surgical approaches is remarkably long and ever-increasing; this
               | is an area of active innovation. In this thesis, a first-principles approach to modeling
@@ -135,7 +135,7 @@ text          | removed, modified, added to or redistributed or in which synthe
               | duplexed GAG structures that bridge neighboring fibrils, are described. A striking
 blank         | 
               | 
-footer        |                                            v
+meta          |                                            v
 text          | result is that the electrostatic restoring forces alone are able to reproduce the image-
               | based distribution function of fibrils for the human cornea, and thus maintain the
               | short-range order of the lattice-like fibril arrangement.
@@ -153,7 +153,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                            vi
+meta          |                                            vi
 title         | Acknowledgements
 blank         | 
 text          | First and foremost, I would like to thank my advisor Prof. Peter M. Pinsky. It has
@@ -181,7 +181,7 @@ text          | First and foremost, I would like to thank my advisor Prof. Peter
               | ment of Computer Science (CS) for admitting me in the Ph.D minor program. The
 blank         | 
               | 
-footer        |                                           vii
+meta          |                                           vii
 text          | classes I took from ICME and CS department have greatly expanded my interest in
               | scientific computing and software engineering.
               |    I own my special thanks to my former colleague Steven J. Petsche, whom I have
@@ -214,7 +214,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                         viii
+meta          |                                         viii
 title         | Contents
 blank         | 
 text          | Abstract                                                                                iv
@@ -242,7 +242,7 @@ text          | 2 An electrolyte model for the ex vivo cornea                   
               |   2.5   Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   21
               |         2.5.1   Dilation and hydration . . . . . . . . . . . . . . . . . . . . . .      21
 blank         | 
-footer        |                                            ix
+meta          |                                            ix
 text          |         2.5.2   Keratocyte and collagen electrolyte volume exclusion effects .          22
               |         2.5.3   Collagen proteoglycan-coating effects . . . . . . . . . . . . . .       22
               |         2.5.4   Swelling pressure prediction versus experimental measurements           23
@@ -277,7 +277,7 @@ text          | 5 Mechanisms of self-organization for the collagen fibril arrang
               |   5.2   Interfibrillar restoring forces . . . . . . . . . . . . . . . . . . . . . . .   75
 blank         | 
               | 
-footer        |                                             x
+meta          |                                             x
 text          |         5.2.1   Rationale and thermodynamic definition . . . . . . . . . . . .           75
               |         5.2.2   Electrostatic restoring force . . . . . . . . . . . . . . . . . . .      76
               |         5.2.3   Donnan approximation . . . . . . . . . . . . . . . . . . . . . .         78
@@ -311,7 +311,7 @@ text          | 7 A chemo-electro-mechanical model for corneal metabolism
               |   7.3   Numerical implementations . . . . . . . . . . . . . . . . . . . . . . . 130
               |   7.4   Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 130
 blank         | 
-footer        |                                            xi
+meta          |                                            xi
 text          |           7.4.1   Swelling pressure prediction versus experimental measurements 130
               |           7.4.2   Assessment of the model for the normal living cornea . . . . . 132
               |           7.4.3   Swelling induced by contact lens wear . . . . . . . . . . . . . . 136
@@ -341,7 +341,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             xii
+meta          |                                             xii
 title         | List of Tables
 blank         | 
 text          |  2.1   Sulphation fraction (%) of monosaccharides in keratin sulfate and chon-
@@ -371,7 +371,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                           xiii
+meta          |                                           xiii
 text          | 6.4   Comparisons of the solute concentrations and stationary fluid pressure
               |       at stromal-endothelial interface of the cornea by the new KK equations
               |       and that by (Leung et al., 2011) . . . . . . . . . . . . . . . . . . . . . 107
@@ -386,7 +386,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                         xiv
+meta          |                                         xiv
 title         | List of Figures
 blank         | 
 text          |  2.1   Disaccharide repeat units of KS, DS, CS4 and CS6. . . . . . . . . . .                 8
@@ -409,7 +409,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              xv
+meta          |                                              xv
 text          | 2.3   (a) Transverse view of a fibril pair bridged by an antiparallel GAG
               |       duplex. Each GAG chain is attached at one end to a collagen fibril
               |       via its PG core protein. The end-to-end distance Li of the antiparallel
@@ -443,7 +443,7 @@ text          | 2.3   (a) Transverse view of a fibril pair bridged by an antipa
               |       and the charge distribution approaches a uniform state. . . . . . . . .        24
 blank         | 
               | 
-footer        |                                         xvi
+meta          |                                         xvi
 text          | 2.6   Ratio of magnitude of Pel and Pstr versus J at λ = 0.65. Pel exceeds
               |       Pstr by two orders of magnitude at J = 0.7 (hydration about 60%
               |       normal) and the ratio between these two components decreases to 1 as
@@ -473,7 +473,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                         xvii
+meta          |                                         xvii
 text          | 3.2   The computed osmotic pressure Pos versus volume dilation J for three
               |       representative values of Q+ Q− and comparison with swelling pressure
               |       measurements (Hedbys and Dohlman, 1963; Olsen and Sperling, 1987).
@@ -508,7 +508,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                        xviii
+meta          |                                        xviii
 text          | 4.5   (a) Illustrations of confined (top) and unconfined (bottom) swelling
               |       pressure experiments for ex vivo cornea, respectively (Hedbys and
               |       Dohlman, 1963; Olsen and Sperling, 1987). In both experiments, a
@@ -542,7 +542,7 @@ text          | 4.5   (a) Illustrations of confined (top) and unconfined (botto
               |       removed by defining a transition zone between the cornea and sclera.          61
 blank         | 
               | 
-footer        |                                         xix
+meta          |                                         xix
 text          | 4.9   Illustration of the stress state in the normal living cornea. A nearly
               |       uniform fluid pressure exists in the stroma at the magnitude of the
               |       IOP. The in-plane lamellae are responsible for resisting such pressure
@@ -567,7 +567,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                          xx
+meta          |                                          xx
 text          | 5.1   The electrostatic restoring force mechanism which acts on fibrils to main-
               |       tain their regular organization is illustrated for the case where all fibrils are
               |       held fixed in their lattice positions and a single fibril is displaced relative
@@ -599,7 +599,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                            xxi
+meta          |                                            xxi
 text          | 5.3   (a-b) Electrostatic restoring force magnitude fosm on a horizontally
               |       displaced fibril in the ideal hexagonal cell for two coating radius values
               |       rc = 18.25 nm (a) and 21.56 nm (b) and three representative λ values.
@@ -633,7 +633,7 @@ text          | 6.1   Illustration of a biological membrane that separates two e
               |       (σ = 0.0). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 104
 blank         | 
               | 
-footer        |                                         xxii
+meta          |                                         xxii
 text          | 6.3   The effect of fixed charge concentration on a) the stromal fluid pressure
               |       and b) the solute concentration differences across the corneal endothe-
               |       lium.      . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 108
@@ -667,7 +667,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                           xxiii
+meta          |                                           xxiii
 text          | 7.6   The predicted oxygen tension at the epithelium-lens interface versus
               |       lens transmissibility and their comparison with experimental measure-
               |       ments (Benjamin, 1993; Bonanno et al., 2002) for (a) the open eyes
@@ -701,7 +701,7 @@ text          | 7.6   The predicted oxygen tension at the epithelium-lens inter
               |       deswells to a greater extent. . . . . . . . . . . . . . . . . . . . . . . . 145
 blank         | 
               | 
-footer        |                                        xxiv
+meta          |                                        xxiv
 text          | 7.15 The predicted concentration changes of five solutes through corneal
               |      central thickness for a hydrogel inlay with relative diffusivity Γ =
               |      0.78%.    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 146
@@ -711,8 +711,8 @@ blank         |
               | 
               | 
               | 
-footer        |                                       xxv
-header        | Chapter 1
+meta          |                                       xxv
+              | Chapter 1
 blank         | 
 title         | Introduction
 blank         | 
@@ -738,8 +738,8 @@ text          | The cornea, the transparent front portion of the corneoscleral s
               | plain how the cornea maintains its principal functionalities. There is yet no consensus
 blank         | 
               | 
-footer        |                                              1
-header        | CHAPTER 1. INTRODUCTION                                                                  2
+meta          |                                              1
+              | CHAPTER 1. INTRODUCTION                                                                  2
 blank         | 
               | 
               | 
@@ -774,7 +774,7 @@ text          | on many of the biophysical details. In this thesis, a comprehens
               | tissue. As a result, the cornea will have a biomechanical response to surgery, which
               | causes the final shape of the cornea to differ from the designed cut profile (Ortiz et al.,
               | 2008). For better performance of refractive procedures, surgeons have great interest
-header        | CHAPTER 1. INTRODUCTION                                                                 3
+meta          | CHAPTER 1. INTRODUCTION                                                                 3
 blank         | 
               | 
               | 
@@ -809,7 +809,7 @@ text          | in being able to accurately predict changes of corneal curvature
               | However, no prior theories but a few speculations have been proposed to clarify such
               | controlling mechanism on the fibril arrangement (Lewis et al., 2010; Maurice, 1957).
               | This thesis extends the proposed electrolyte model to study the interfibrillar force
-header        | CHAPTER 1. INTRODUCTION                                                                4
+meta          | CHAPTER 1. INTRODUCTION                                                                4
 blank         | 
               | 
               | 
@@ -844,7 +844,7 @@ text          | mechanisms which give rise to the short-range order fibril arran
               | is the influence of metabolic species on the tissue swelling behavior, and (v) What is
               | the relationship between corneal edema and metabolic processes? This thesis intends
               | to answer these questions by the development a comprehensive model that builds on
-header        | CHAPTER 1. INTRODUCTION                                                               5
+meta          | CHAPTER 1. INTRODUCTION                                                               5
 blank         | 
               | 
               | 
@@ -875,7 +875,7 @@ text          | biophysical descriptions of the tissue behavior and nanoscale de
               | For the first time, we apply the model to study the disturbances to hydrations due
               | to the introduction of an intrastromal inlay. A summary of the results and their
               | implications is given in chapter 8, along with comments on future work.
-header        | Chapter 2
+meta          | Chapter 2
 blank         | 
 title         | An electrolyte model for the ex
               | vivo cornea
@@ -898,8 +898,8 @@ text          | The stromal PGs are sulphated and have linear sidechains of nega
               | employ the Poisson-Boltzmann mean-field theory to describe interactions between
               | GAG fixed charges and mobile ions. We also assume that some GAG chains form
 blank         | 
-footer        |                                            6
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                       7
+meta          |                                            6
+              | CHAPTER 2. AN ELECTROLYTE MODEL                                                       7
 blank         | 
               | 
               | 
@@ -935,7 +935,7 @@ text          | The predominant corneal GAGs are keratan sulfate (KS), dermatan 
               | discloses that only a portion of the available GAG monosaccharides is sulphated in
 footnote      |   1
 text          |       Fluorophore-assisted carbohydrate electrophoresis
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                      8
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                      8
 blank         | 
               | 
               | 
@@ -961,7 +961,7 @@ blank         |
 title         | 2.2.2    Estimation of GAG ionization fractions
 text          | As sulphate groups carry one negative charge per group, the average charge per
               | disaccharide unit for KS can be found from table 2.1 as zKS = 0.95 + 0.54 = 1.49.
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                         9
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                         9
 blank         | 
               | 
               | 
@@ -1004,7 +1004,7 @@ text          | where e is the unit charge. The average stromal fixed charge den
               | scale where it will be spatially nonuniform.
 footnote      |   2
 text          |       It is assumed that the GlcUA/IdoUA moiety always carries one negative charge
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                      10
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                      10
 blank         | 
               | 
               | 
@@ -1039,7 +1039,7 @@ blank         |
 text          |                    QKS /QCS/DS = zKS xKS /zCS/DS xCS/DS = 2.62                     (2.4)
 blank         | 
 text          | This implies that QKS = 72.3% and QCS/DS = 27.7%, which provides an estimation
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                                 11
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                                 11
 blank         | 
               | 
               | 
@@ -1061,7 +1061,7 @@ text          | Figure 2.2: (a) The corneal stroma tends to swell by imbibing wa
               | tween the fibrils are illustrative of the GAG chains; a typical unit cell employed for
               | analysis is indicated by the red-triangle. (d) The unit cell domain is partitioned into
               | fibril, coating and interstitial regions, denoted Ωfibril , Ωcoat and Ωinterstitial , respectively.
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                        12
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                        12
 blank         | 
               | 
               | 
@@ -1097,7 +1097,7 @@ text          |                                   G = F + P V + Wext            
 blank         | 
 text          | where F is the Helmholtz free energy, P and V are atmospheric pressure and total
               | system volume (including the bath solution), respectively, and Wext is the external
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                        13
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                        13
 blank         | 
               | 
               | 
@@ -1125,7 +1125,7 @@ text          | For the cornea, it has been demonstrated that the free energy of
               | is therefore neglected in the present study.
               |    Stromal swelling pressure Ps is defined as the pressure applied on a sample of the
               | tissue in an ionic bath that is required to prevent it from swelling. The dependence
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                            14
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                            14
 blank         | 
               | 
               | 
@@ -1166,7 +1166,7 @@ text          | where Pel = −∂Fel /∂Vstroma and Pstr = −∂Fstr /∂Vstr
 footnote      |   3
 text          |     As is the case in swelling pressure experiments, e.g. (Hedbys and Dohlman, 1963; Olsen and
               | Sperling, 1987)
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                                   15
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                                   15
 blank         | 
               | 
               | 
@@ -1207,7 +1207,7 @@ footnote      |    4
 text          |    Generally it should be the dielectric displacement D = E that is continuous across the interface.
               | Here we assume that the PG-coating domain Ωcoating is ion-penetrable and has the same dielectric
               | permittivity as the interstitial region Ωinterstitial .
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                                            16
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                                            16
 blank         | 
               | 
               | 
@@ -1250,7 +1250,7 @@ text          | where Nb is the number of GAG duplexes in Ωcell , kb is the Bo
               |     `2i   =   hL2i i   = 2                   L2i (θ1 , θ2 )dθ1 dθ2   =   d2i   −            2
               |                                                                                      di + 2rf 1 + 2     (2.14)
               |                         π    − π2    − π2                                         π              π
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                                   17
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                                   17
 blank         | 
               | 
               | 
@@ -1295,7 +1295,7 @@ text          | and
               |                                                    Qcoat   1−λ 0
               |                                     ρcoat (λ) =          =      ρ                              (2.17)
               |                                                    Vcoat   φcoat stroma
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                        18
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                        18
 blank         | 
               | 
               | 
@@ -1345,7 +1345,7 @@ text          |                Table 2.4: Composition of the corneal stroma (Mee
               |              Proteoglycans                                  1.0
               |              Matrix water                                   64.8
               |              Other proteins including cellular components   8.2
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                        19
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                        19
 blank         | 
               | 
               | 
@@ -1386,7 +1386,7 @@ text          | A sequence of dilated unit cells, parameterized by the dilation 
               | and the charge density in the overlap region is doubled as indicated by n (x) above.
               | Electrostatic potential contours for J ∈ [0.42, 1.0] are illustrated in figure 2.7a-d for
               | typical stromal parameters, including the case of coating overlap.
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                            20
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                            20
 blank         | 
               | 
               | 
@@ -1434,7 +1434,7 @@ text          | The second term on the right hand side of equation (2.22) provid
               | then ρinter = 0 and Pbel is zero for all dilation J, consistent with the assumption that
               | the coating volume does not change with tissue dilation. The accuracy of equations
               | (2.21) and (2.22) is examined in section 2.5.5.
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                                    21
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                                    21
 blank         | 
               | 
               | 
@@ -1480,7 +1480,7 @@ text          | For convenience in interpreting results, stromal hydration H, de
               | Mishima, 1966; Olsen and Sperling, 1987).
 footnote      |   5
 text          |       Here we ignore the amount of bound water in the collagen fibrils (Goodfellow et al., 1978)
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                         22
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                         22
 blank         | 
               | 
               | 
@@ -1510,7 +1510,7 @@ title         | 2.5.3     Collagen proteoglycan-coating effects
 text          | The effect of the coating charge partition λ on Pel is illustrated for three values of J in
               | figure 2.4b. Pel is relatively insensitive to λ for 0.5 < λ ≤ 1, and reduces significantly
               | in the range 0 ≤ λ < 0.5 as progressively more of the total charge is allocated to
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                      23
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                      23
 blank         | 
               | 
               | 
@@ -1545,7 +1545,7 @@ text          | Predicted swelling pressure Ps , given by equation (2.9), is com
               | both radii, the swelling pressure exhibits a very rapid increase with reducing hydra-
               | tion, due to fibril coating overlap, with values that are in good agreement with the
               | experimental data. The range of hydration for each coating is terminated when the
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                    24
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                    24
 blank         | 
               | 
               | 
@@ -1563,7 +1563,7 @@ text          | Figure 2.5: (a) The predicted swelling pressure Ps versus volume
               | nm (d). The coating overlap introduces significant increase of the swelling pressure.
               | At extremely low hydration, Ps for each λ value converges to a single curve, as the
               | overlap domain is pervasive and the charge distribution approaches a uniform state.
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                       25
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                       25
 blank         | 
               | 
               | 
@@ -1596,7 +1596,7 @@ text          | 2.5.5     Assessment of the Donnan potential-based approximate
               | by equation (2.21), the profile of the two potentials is plotted along the fibril center-
               | to-center line in figure 2.7e-h. At normal hydration, figure 2.7e shows that ϕ
               |                                                                              b agrees
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                     26
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                     26
 blank         | 
               | 
               | 
@@ -1612,7 +1612,7 @@ text          | reasonably well with ϕ. As the hydration is reduced, the coatin
               | teractions, is very accurate until the coatings become close, at which point the Donnan
               | approximation does not share the rapid increase in swelling pressure predicted by the
               | PB solution.
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                   27
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                   27
 blank         | 
               | 
               | 
@@ -1622,7 +1622,7 @@ text          | Figure 2.7: (a)-(d): The contour plots of the PB-based electrost
               | comparison between the ϕ and Donnan-based approximation ϕ̂ along the fibril center-
               | to-center line. In these calculations, the PG-coating radius rc = 18.25 nm and charge
               | partition λ = 0.65.
-header        | CHAPTER 2. AN ELECTROLYTE MODEL                                                   28
+meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                   28
 blank         | 
               | 
               | 
@@ -1632,7 +1632,7 @@ text          | Figure 2.8: The effect of the ϕ and ϕ̂ on the electrostatic f
               | based and Donnan-based solutions for Pel agree well over the dilation range where
               | PG-coatings are well separated. The Donnan-based solution P̂el cannot capture the
               | effect of PG-coating overlap and thus loses accuracy at low hydration.
-header        | Chapter 3
+meta          | Chapter 3
 blank         | 
 title         | Modeling the active endothelial ion
               | transport in the in vivo cornea
@@ -1658,8 +1658,8 @@ text          | and possibly Na+ , are not yet fully understood.   From a macros
               | previous section. Active ion transport across the endothelium, from the stroma and
               | into the aqueous humor, will reduce ionic concentration in the stroma and the osmotic
 blank         | 
-footer        |                                          29
-header        | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                          30
+meta          |                                          29
+              | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                          30
 blank         | 
               | 
               | 
@@ -1694,7 +1694,7 @@ text          | The endothelial layer is here modeled as an ideal membrane in wh
               | will assume transport across the endothelium is one-dimensional.        A coordinate z
               | is introduced with z = z0 at the endothelium-aqueous interface and z = z ∗ at the
               | endothelium-stroma interface. At equilibrium, the net ionic fluxes J− and J+ , which
-header        | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                            31
+meta          | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                            31
 blank         | 
               | 
               | 
@@ -1746,7 +1746,7 @@ blank         |
 text          | it follows that 0 ≤ Qi ≤ 1 and from (3.5),
 blank         | 
 text          |                                    C+∗ C−∗ = Q+ Q− C02                              (3.7)
-header        | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                         32
+meta          | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                         32
 blank         | 
               | 
               | 
@@ -1788,7 +1788,7 @@ text          | Based on (3.10), a modified Poisson-Boltzmann equation for the e
               |                    −∇2 ϕ =         −Cf +       zi Qi C0 exp −zi                  (3.12)
               |                            w            i=+,−
               |                                                                 RT
-header        | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                         33
+meta          | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                         33
 blank         | 
               | 
               | 
@@ -1832,8 +1832,8 @@ blank         |
               | 
 text          |                               er (J) = Cr (J) ,
               |                               C                   r = coat, inter                (3.15)
-footer        |                                         2C0
-header        | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                              34
+meta          |                                         2C0
+              | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                              34
 blank         | 
               | 
               | 
@@ -1884,7 +1884,7 @@ text          | in which a modified inverse hyperbolic sine function is introduc
 blank         | 
 text          |    The osmotic compressibility, defined as Kos (J) = −∂Pos /∂J, is the core function
               | in the stroma electrolyte tensor Cstroma = 4∂ 2 Wstroma /∂C∂C required for the finite
-header        | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                                    35
+meta          | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                                    35
 blank         | 
               | 
               | 
@@ -1938,7 +1938,7 @@ text          | The presented model requires the determination of Q+ Q− . From
               | ment (Bourne, 1998; Watsky et al., 1989), but these are not relevant for equilibrium
               | conditions. Instead, we shall infer the value of Q+ Q− from measurement of imbibition
               | pressure in rabbit.
-header        | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                          36
+meta          | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                          36
 blank         | 
               | 
               | 
@@ -1979,7 +1979,7 @@ text          | where IOP is the intraocular pressure and Ps is the independentl
               | therefore equations (3.24) and (3.25) allow the conclusion that in rabbit the stromal
               | fluid pressure is equal to the intraocular pressure, i.e. p = IOP at normal hydration.
               | Furthermore, the measured Pimb was found to have insignificant variation throughout
-header        | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                                        37
+meta          | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                                        37
 blank         | 
               | 
               | 
@@ -2016,7 +2016,7 @@ footnote      |    1
 text          |     If future studies produce a different conclusion regarding human stromal fluid pressure, including
               | variation through depth, the value of Q+ Q− can be re-calibrated without any change to the general
               | theory.
-header        | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                        38
+meta          | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                        38
 blank         | 
               | 
               | 
@@ -2038,7 +2038,7 @@ text          | reduction in dilation from the physiological condition (J = 1) w
               | figure 3.2a. Predicted values of osmotic compressibility Kos (equation (3.21)) versus
               | dilation J are shown in figure 3.2b for no active transport. Values closely match
               | measurements reported in (Olsen and Sperling, 1987).
-header        | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                         39
+meta          | CHAPTER 3. ACTIVE ENDOTHELIAL ION TRANSPORT                                         39
 blank         | 
               | 
               | 
@@ -2050,7 +2050,7 @@ text          | Figure 3.2: The computed osmotic pressure Pos versus volume dila
               | measurements (Olsen and Sperling, 1987). The measured modulus is given by K exp =
               | 39.12J −4.48 kPa, which is computed by the power law fit function for swelling pressure
               | Psexp = 7.56t−3.48 mmHg from Olsen and Sperling (1987).
-header        | Chapter 4
+meta          | Chapter 4
 blank         | 
 text          | A structural model for the in vivo
               | human cornea including
@@ -2072,8 +2072,8 @@ text          | In the simplest terms, the cornea is a fiber-reinforced fluid me
               | in any structural model based on first principles. Some important modeling concepts
               | toward this end have already been introduced, as described below.         However, no
 blank         | 
-footer        |                                           40
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                     41
+meta          |                                           40
+              | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                     41
 blank         | 
               | 
               | 
@@ -2109,7 +2109,7 @@ text          | fully three-dimensional and comprehensive model has yet been pre
               | species and Leung et al. (2011) have further extended the theory to include metabo-
               | lites (e.g. C3 H5 O−
               |                    3 ) and metabolic reactions in a steady-state model. These models
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                    42
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                    42
 blank         | 
               | 
               | 
@@ -2144,7 +2144,7 @@ text          | Consider a binary electrolyte gel, consisting of a mixture of so
               | phases, immersed in an ionic bath at constant electrostatic potential ϕ0 , hydrostatic
               | pressure p0 , and ionic concentration C0+ = C0− = C0 . The stroma can be modeled
               | as such a binary electrolyte of Na+ and Cl− . This is justified by the fact that the
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                              43
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                              43
 blank         | 
               | 
               | 
@@ -2179,7 +2179,7 @@ text          |          G (ϕ, C, C0 ) = Welastic (C0 ) + Welectrolyte (ϕ, C) 
 footnote      |    1
 text          |     For example, in application to the in vivo cornea, collagen fibers in Ω0 are prestressed by the
               | action of the intraocular pressure.
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                            44
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                            44
 blank         | 
               | 
               | 
@@ -2223,7 +2223,7 @@ text          | Finally, Vexternal is the potential of the external loads, inclu
               | 2010, 2014) can also be considered. However, osmotic energy is dominant in highly
               | hydrated gels (Hodson, 1971; Li et al., 2014) and additional terms are neglected in
               | the current theory.
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                              45
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                              45
 blank         | 
               | 
               | 
@@ -2268,7 +2268,7 @@ blank         |
 text          |                                                  ∂Welectrolyte
               |                                     Pos = −                                                  (4.10)
               |                                                     ∂J
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                    46
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                    46
 blank         | 
               | 
               | 
@@ -2312,7 +2312,7 @@ text          |                         Wfiber (C0 ) = hWstretch (I40 )iA       
               |                                        1
               |                                      =      ρ (X, A) Wstretch (λ0A ) dω           (4.15)
               |                                        n ω
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   47
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   47
 blank         | 
               | 
               | 
@@ -2358,7 +2358,7 @@ text          | In Pinsky et al. (2005), analytical distribution functions were 
               | intensities versus orientation on a discrete grid of points over the cornea’s anterior
               | surface. At any point in the cornea, the orientation distribution is obtained by in-
               | terpolating the X-ray diffraction measurements taken at the nearest four grid points
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                 48
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                 48
 blank         | 
               | 
               | 
@@ -2389,7 +2389,7 @@ text          |                                                ηtotal − mπ
               |                                                    ηtotal
 blank         | 
 text          |    The depth-dependence of aligned fibers may be introduced based on the work of
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                      49
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                      49
 blank         | 
               | 
               | 
@@ -2430,7 +2430,7 @@ text          | Incorporating the X-ray diffraction data in this manner describe
               | anisotropy resulting from the well-documented S-I and N-T preferred directions of
               | lamellae in the vicinity of the corneal vertex as well as the circumferentially preferred
               | orientations at the limbus (Petsche, 2014).
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                    50
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                    50
 blank         | 
               | 
               | 
@@ -2456,7 +2456,7 @@ text          | The presence of inclined fibers has been well-documented with ma
               | was fit to a Gaussian distribution for the full-width at half-maximum (FWHM), with
               | the mean fixed at zero degrees from the plane tangent to the anterior surface (figure
               | 4.3).
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   51
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   51
 blank         | 
               | 
               | 
@@ -2469,7 +2469,7 @@ text          | Figure 4.3: SHG images were processed by Winkler et al. (2013) t
               | histogram for each depth. A Gaussian distribution was fit to the data to define the
               | full width at half maximum (FWHM) value for each depth and radial positon. The
               | FWHM value was then used to define the inclination distribution ρSHG  φ   .
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   52
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   52
 blank         | 
               | 
               | 
@@ -2502,7 +2502,7 @@ blank         |
               | 
 text          | Figure 4.4: FWHM values were estimated in the posterior half by fitting a linear
               | trend line that intersected 0◦ at the posterior surface.
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                     53
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                     53
 blank         | 
               | 
               | 
@@ -2543,7 +2543,7 @@ text          | The in vivo cornea is loaded by the IOP at the endothelial-aqueo
               | cellular membrane that is composed of 4-6 cellular layers and approximately 50 µm in
               | thickness. In contrast to the endothelium, epithelial cells exhibit tight junctions and
               | the epithelium is essentially impermeable to water and ions under normal conditions
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                     54
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                     54
 blank         | 
               | 
               | 
@@ -2579,7 +2579,7 @@ text          | Finite element predictions for ex vivo swelling pressure were co
               | function Q+ Q− = 1 in equation (3.19). The stroma sample was modeled as a 7 mm
               | diameter cylinder with an initial thickness of 0.5 mm and immersed in an ionic bath of
               | concentration C0 = 150 mM (Hedbys and Dohlman, 1963; Olsen and Sperling, 1987).
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                  55
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                  55
 blank         | 
               | 
               | 
@@ -2626,7 +2626,7 @@ text          | The finite element mesh employed 2,500, 27-node (tri-quadratic) 
               | Sperling, 1987) in figure 4.5b. The results show good agreement for the full range of
               | experimental measurements with t varying from 0.75 mm (swollen) to 0.2 mm (highly
               | compressed), with the corresponding swelling pressure values varying over two orders
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   56
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   56
 blank         | 
               | 
               | 
@@ -2657,7 +2657,7 @@ title         | 4.3.2     Free-swelling of a stromal sample
 text          | The free-swelling of the above described cylindrical sample of ex vivo stroma is mod-
               | eled to investigate the role of the collagen organization in mediating the swelling
               | response. Results for edge-confined free-swelling of the stroma sample are shown in
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                    57
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                    57
 blank         | 
               | 
               | 
@@ -2685,7 +2685,7 @@ text          |    It has been observed in free-swelling experiments the anterio
               | remains virtually unswollen with most swelling taking place in the deeper stroma
               | (Meek et al., 2003; Muller et al., 2001). We used the model to investigate the depth-
               | dependence of stromal swelling at two bath ionic concentrations C0 = 150 mM and
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                     58
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                     58
 blank         | 
               | 
               | 
@@ -2721,7 +2721,7 @@ text          | Fuch’s dystrophy is usually characterized by morphological cha
               | these pathological changes on stromal ionic concentrations is described by the ionic
               | transport function Q+ Q− (equation (3.22)). Because the absolute values of endothe-
               | lial ionic permeability L+ and L− and active ionic fluxes Ja+ and Ja− have limited
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                                59
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                                59
 blank         | 
               | 
               | 
@@ -2759,7 +2759,7 @@ text          |                                                Ja−p L−n
 footnote      |    2
 text          |     This requires iterative solution for the configuration S and collagen prestress that equilibrates
               | the IOP – see section 4.2
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   60
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   60
 blank         | 
               | 
               | 
@@ -2785,7 +2785,7 @@ text          |    The model predicts that at any value of the swollen CCT, the 
               | from a 78% reduction in active ion transport, Ja−p /Ja−n = 0.22. The results again
               | suggest the stability of the anterior surface with respect to swelling resulting from
               | the presence of inclined lamellae.
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                    61
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                    61
 blank         | 
               | 
               | 
@@ -2814,7 +2814,7 @@ text          | An example of corneal edema with an intact and functional endoth
               | from the current model.
               |    There are two competing mechanisms with regard to corneal swelling. The in-
               | creased (mechanical) IOP loading at the endothelial-aqueous humor interface acts to
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   62
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   62
 blank         | 
               | 
               | 
@@ -2843,7 +2843,7 @@ text          | Figure 4.9: Illustration of the stress state in the normal livin
               | and act as anchors resisting the stromal fluid pressure applied to the epithelium.
 blank         | 
 text          |    To illustrate the importance of lamella inclination in resisting the IOP, the cornea
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                 63
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                 63
 blank         | 
               | 
               | 
@@ -2871,7 +2871,7 @@ text          | LASIK (Laser in-Situ Keratomileusis) is commonly used to correct
               | Wilson, 2009). In this study we assume that active endothelium ionic pumping is
               | functioning normally and use the proposed model to investigate the biomechanical
               | response of the cornea, including stromal fluid pressure and local swelling, resulting
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                 64
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                 64
 blank         | 
               | 
               | 
@@ -2900,7 +2900,7 @@ text          | Figure 4.11: Illustration of the flap geometry and ablation prof
               | extraction) O = 5 mm. The CCT is 520µm, and the maximum ablation depth of
               | 87µm combines with the 150µm flap thickness to produce a residual central stromal
               | thickness of d2 = 283µm.
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                                65
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                                65
 blank         | 
               | 
               | 
@@ -2939,7 +2939,7 @@ footnote      |    3
 text          |     The model analyzed the biomechanical (elastic and swelling) response of the residual stroma.
               | The flap was not analyzed and the postsurgical anterior radius of the cornea was taken to be that of
               | the postsurgical ablation profile radius, found by least-squares fitting, extended by a constant flap
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                               66
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                               66
 blank         | 
               | 
               | 
@@ -2979,7 +2979,7 @@ text          |      The mean clinical and finite element model values of Rpre w
 footnote      |    5
 text          |      Because p0 is constant at 15 mmHg (0.002 MPa), we have Pos = p − 0.002, and the fringe plot
               | can be interpreted in terms of osmotic pressure.
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   67
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   67
 blank         | 
               | 
               | 
@@ -3016,7 +3016,7 @@ text          | The proposed model follows the general theory for hydrophilic an
               | Lai et al., 1991).   The current energy-based approach is equivalent (see appendix
               | C) in that it implies satisfaction of the same governing equations but it offers some
               | distinct advantages.
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                 68
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                 68
 blank         | 
               | 
               | 
@@ -3027,7 +3027,7 @@ blank         |
 text          |    The energy approach provides an average (or homogenized) energy-equivalent
               | value of osmotic pressure over a unit cell (see equation (4.10)).   This is useful for
               | consistently embedding nanoscale effects, for example the distribution of GAG charge
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                         69
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                         69
 blank         | 
               | 
               | 
@@ -3063,7 +3063,7 @@ text          | into collagen coating and non-coating regions, in a macroscopic 
               | for the human in vivo cornea, as direct measurements are not currently feasible.
 footnote      |   6
 text          |       Water permeability does not appear because at equilibrium water flux will be zero.
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                     70
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                     70
 blank         | 
               | 
               | 
@@ -3097,7 +3097,7 @@ text          | Conventional analysis (Klyce and Russell, 1979; Leung et al., 20
               | swelling is needed to achieve Pos = −p0 ).
               |    We have calibrated the current model for the normal living cornea by assuming
               | that GAG fixed charge is not depth-dependent; this leads to a hydration state that is
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                 71
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                 71
 blank         | 
               | 
               | 
@@ -3132,7 +3132,7 @@ text          | also uniform with depth. It has been observed by Castoro et al. 
               | cases, and quantitatively for the rather subtle problem of swelling under increasing
               | IOP. The model has provided predictions for swelling under Fuch’s dystrophy and
               | should also be adaptable to modeling other diseases of the cornea such as macular
-header        | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   72
+meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   72
 blank         | 
               | 
               | 
@@ -3154,7 +3154,7 @@ text          | corneal dystrophy where the GAG concentration is found to be abn
               | respiration (Klyce, 1981). Extension of the model to include these multiple species and
               | their interactions through metabolic reactions for aerobic and anaerobic respiration
               | is presented in chapter 7.
-header        | Chapter 5
+meta          | Chapter 5
 blank         | 
 text          | Mechanisms of self-organization for
               | the collagen fibril arrangement in
@@ -3179,8 +3179,8 @@ text          |       carbohydrate sulfotransferase 5 enzyme
 blank         | 
               | 
               | 
-footer        |                                                73
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                     74
+meta          |                                                73
+              | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                     74
 blank         | 
               | 
               | 
@@ -3215,7 +3215,7 @@ text          | proposed a model based on a six-fold symmetric elastic network. 
               | equilibrium thermodynamics approach (Katchalsky and Michaeli, 1955) is adopted
               | and Poisson-Boltzmann mean-field theory is used to describe interactions between
               | GAG fixed charges and mobile ions. An approximation for the electrostatic forces
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                       75
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                       75
 blank         | 
               | 
               | 
@@ -3249,7 +3249,7 @@ text          | Consider an individual fibril displaced to a new position while 
               | of other fibrils, is given by,             Z   r
               |                                   Wext =           fl (x) · dx                      (5.1)
               |                                            r0
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                        76
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                        76
 blank         | 
               | 
               | 
@@ -3295,7 +3295,7 @@ text          |                                                     6
               |                                                     X
               |                                       Fel (r) =           Felk (r)                   (5.4)
               |                                                     k=1
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                               77
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                               77
 blank         | 
               | 
               | 
@@ -3320,7 +3320,7 @@ text          | Figure 5.1: The electrostatic restoring force mechanism which ac
               | the direction of the perturbation and regardless of whether GAG chains are part of a duplex
               | or are independent. When any fibril undergoes a dynamic excursion from its equilibrium
               | position, the electrostatic restoring forces act to restore the fibril.
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                           78
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                           78
 blank         | 
               | 
               | 
@@ -3353,7 +3353,7 @@ text          | where P̂el is the k-th subcell Donnan osmotic pressure componen
               | the source for the interfibrillar restoring force. The vector ∂Jk /∂r is directed toward
               | the center of the unit cell for all k (see appendix B for details); thus equation (5.5)
               | describes a set of centrally oriented forces with differing magnitudes depending on
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                       79
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                       79
 blank         | 
               | 
               | 
@@ -3399,7 +3399,7 @@ text          | 5.3      Fibril dynamics model with an imperfect GAGs
               |          topology
               | A dynamic model is introduced to describe the self-organization of the lattice-like
               | fibril arrangement. Consider a realistic fibril organization, with many collagen fibrils,
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                       80
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                       80
 blank         | 
               | 
               | 
@@ -3436,7 +3436,7 @@ text          | where mi is the fibril mass and ai is the acceleration. To incor
               | the time integrator, and the standard cell subdivision and neighbor-list algorithms
               | (Rapaport, 2004) have been implemented to reduce the interaction computations. The
               | results have been interpreted by computing the radial distribution function (RDF),
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                       81
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                       81
 blank         | 
               | 
               | 
@@ -3477,7 +3477,7 @@ blank         |
 title         | 5.4.1      Interfibrillar restoring forces in an ideal hexagonal cell
 text          | In order to characterize and compare the electrostatic and entropic restoring forces
               | fosm and fstr , developed in section 5.2, we consider an ideal hexagonal cell with fibrils
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                      82
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                      82
 blank         | 
               | 
               | 
@@ -3512,7 +3512,7 @@ text          | at each vertex, see figure 5.1. The hydration is taken to be nor
               | λ = 0.65, the electrostatic stiffness was 69 kPa for a fibril displacement less than 10
               | nm and 483 kPa for a fibril displacement greater than 16 nm (a seven-fold increase).
               | In contrast, the entropic restoring stiffness is only 3 kPa.
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                     83
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                     83
 blank         | 
               | 
               | 
@@ -3529,7 +3529,7 @@ text          | 5.4.2     Fibril dynamics model for self-organization of the lat
               |           like arrangement
               | The proposed interfibrillar restoring force mechanisms are studied further using the
               | fibril dynamics model which features an imperfect GAG chain topology modeled
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                        84
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                        84
 blank         | 
               | 
               | 
@@ -3556,7 +3556,7 @@ text          | by introduction of random variability in both fixed charge densi
               |    Figure 5.5a shows the result of g(r) for the case where only the electrostatic
               | restoring force fosm is considered, using three standard deviation values of σρ /ρ0stroma =
               | 0.05, 0.1,and 0.2. The charge samplings in the subcells for these three cases are
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                     85
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                     85
 blank         | 
               | 
               | 
@@ -3591,7 +3591,7 @@ text          | The proposed collagen-PG interaction model governing the fibrill
               | used to establish a reasonable value for the coating charge parameter of λ = 0.65,
               | although there is not a high sensitivity to this parameter with regard to swelling
               | pressure. This value lies midway between the limit of no coating charge, λ = 1 and
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                         86
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                         86
 blank         | 
               | 
               | 
@@ -3611,7 +3611,7 @@ text          | the lower limit λ = 0.28 established in section 2.2. It may be 
               | parameter more directly by using 3-D electron tomography images such as those in
               | Knupp et al. (2009); Lewis et al. (2010). Experimental results for swelling pressure
               | at extremely low hydration, which are on the order of 2, 500 mmHg at a hydration of
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                        87
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                        87
 blank         | 
               | 
               | 
@@ -3646,7 +3646,7 @@ text          | around 20% of normal, cannot be matched by classical Donnan theo
               | volume (for any hydration level) is maintained by forces that precisely balance the
               | swelling pressure. Further, the fibril self-organization theory presented is valid for
               | the living system when the local perturbations in the osmotic pressure are based on
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                        88
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                        88
 blank         | 
               | 
               | 
@@ -3681,7 +3681,7 @@ text          | the physiological hydration (as was done for the fibril dynamics
               | 1971; Meek, 2008) which are regions in which the lattice-like structure is profoundly
               | disturbed with reduced numbers of collagen fibrils. Although results have not been
               | presented here, the proposed model is applicable to modeling these conditions. In the
-header        | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                   89
+meta          | CHAPTER 5. SELF-ORGANIZATION OF COLLAGEN FIBRILS                                   89
 blank         | 
               | 
               | 
@@ -3694,7 +3694,7 @@ text          | current model, PG/GAGs have been assumed to be distributed unifo
               | 2010; Quantock et al., 1990) or to genetically mutated corneas (Hayashida et al.,
               | 2006), which leads to a reduction in interfibrillar distance and a more chaotic fibril
               | organization due to the lack of PG regulation.
-header        | Chapter 6
+meta          | Chapter 6
 blank         | 
 title         | Fluid pressure across active
               | biological membrane in a charged
@@ -3714,8 +3714,8 @@ text          | Fluid pressure across biological membranes is crucial for mainta
               | (Titze, 2013). Disturbance of transmembrane fluid pressure causes edema of cells or
               | tissues, and can lead to irreversible damage of the separating membrane as well. The
 blank         | 
-footer        |                                           90
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                       91
+meta          |                                           90
+              | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                       91
 blank         | 
               | 
               | 
@@ -3750,7 +3750,7 @@ text          | quantitative understanding of this pressure is critical for stud
               | considered the transport of polyelectrolyte and integrated the electrostatic potential
               | difference in the KK equations. This study derives a new volume flux formulation
               | that is contributed by the hydrostatic pressure, osmotic pressure and an additional
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                        92
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                        92
 blank         | 
               | 
               | 
@@ -3785,7 +3785,7 @@ text          | force that originates from the transmembrane electrostatic poten
               | the active ionic flux and the membrane transport properties, namely the reflection
               | coefficients and permeabilities. To illustrate the importance of this new pressure force,
               | we apply the enhanced KK equations to quantify the transendothelial fluid pressure in
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                        93
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                        93
 blank         | 
               | 
               | 
@@ -3811,7 +3811,7 @@ text          | In this section, we describe a limitation of existing KK theorie
               | separates two polyelectrolytes with fluid pressure p and p0 , solute concentrations Ci
               | and Ci0 (i = 1, ..., N ), where N denotes the number of species, and electrostatic poten-
               | tial ϕ and ϕ0 . For convenience we denote one side of the membrane as “inside” and
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                         94
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                         94
 blank         | 
               | 
               | 
@@ -3847,7 +3847,7 @@ text          | which suggest that at equilibrium ionic concentrations will be b
               | balance of ionic concentrations and therefore create osmotic pressure. This limitation
               | of equations (6.1,6.2) is attributed to fact that they are originally derived for nonelec-
               | trolyte - the electrostatic potential difference has been ignored. Recently, Li (2004)
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                        95
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                        95
 blank         | 
               | 
               | 
@@ -3883,7 +3883,7 @@ text          | where σ and ω are the reflection coefficient and permeability 
               | dynamics and derive a modified form of KK equations for charged polyelectrolyte.
               | In section 6.4, we extend the enhanced KK equations to include the active transport
               | mechanisms.
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                      96
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                      96
 blank         | 
               | 
               | 
@@ -3923,7 +3923,7 @@ blank         |
 text          | where νw and νi in m3 /mol are the partial volume of solvent and solutes, respectively,
               | zi is the valence number for species i, R, T and F are gas constant, temperature and
               | Faraday constant, respectively. The linearized forms for ∆µw and ∆µi are then given
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                                                        97
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                                                        97
 blank         | 
               | 
               | 
@@ -3972,7 +3972,7 @@ text          | Note that the sum of each component’s volume fraction is unity
               |                                                                X
               |                                            C w νw +                C k νk = 1                                   (6.19)
               |                                                                k
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                           98
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                           98
 blank         | 
               | 
               | 
@@ -4024,7 +4024,7 @@ text          | where LV k = LkV , k = 1, ..., N and LDij = LDji , i, j = 1, ...
 blank         | 
               | 
 text          | where Lp and σk are the hydraulic conductivity coefficients and reflection coefficient
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                         99
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                         99
 blank         | 
               | 
               | 
@@ -4075,7 +4075,7 @@ text          | It should be noted that the volume flux expression (7.25) differ
               | with an additional term − k zk F C k ∆ϕ, which is essentially zero in Li (2004) that
               | ignores the fixed charge concentration. The effect of this correction term will be
               | discussed in the next section.
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                                100
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                                100
 blank         | 
               | 
               | 
@@ -4115,7 +4115,7 @@ text          |                                                                P
               | osmotic pressure difference across the membrane.
 footnote      |   1
 text          |       Except when the membrane is completely impermeable to certain solutes, i.e. ωi = 0.
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                      101
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                      101
 blank         | 
               | 
               | 
@@ -4157,7 +4157,7 @@ text          | which recovers the Donnan osmotic pressure (Urban et al., 1979).
               | ∆p indicates an expansion (swelling) tendency from inside of the membrane, and vice
               | versa. It directly governs the volume inside the membrane, for example in cells (Jiang
               | and Sun, 2013), vesicles (Niles, 1989), and connective tissues (Cheng et al., 2015).
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                             102
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                             102
 blank         | 
               | 
               | 
@@ -4198,7 +4198,7 @@ blank         |
 text          |                   P                                                     P
               | where ∆Π = RT         i   ∆Ci denotes the osmotic pressure and Pref =      i (1   − σi )Jai /ωi
               | denotes an additional pressure force originated from the active ionic transport when
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                         103
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                         103
 blank         | 
               | 
               | 
@@ -4245,7 +4245,7 @@ text          | from which it can be seen that there are three free parameters c
               |       We express the pressure, fixed charge density and ionic fluxes in their dimension-
               | less forms, namely ∆p/RT C0 , Cf /C0 and Ja /ωRT C0 . The effect of active ionic flux on
               | Pref , ∆Π and ∆p are summarized in figure 6.2 in the range of Ja /ωRT C0 ∈ [−0.1, 0.1]
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                        104
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                        104
 blank         | 
               | 
               | 
@@ -4273,7 +4273,7 @@ blank         |
 text          | Figure 6.2: The predicted fluid pressure difference ∆p, osmotic pressure difference
               | ∆Π and the additional pressure term Pref against active ionic flux Ja for a) a leaky
               | membrane with σ = 0.5 and b) a freely permeable membrane (σ = 0.0).
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                                     105
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                                     105
 blank         | 
               | 
               | 
@@ -4320,7 +4320,7 @@ text          |      At stationary state the system is not necessarily in equili
               | have been explained in details in (Prigogine, 1967).
 footnote      |    3
 text          |      ’L’ for lactate ions
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                       106
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                       106
 blank         | 
               | 
               | 
@@ -4366,7 +4366,7 @@ text          | nonlinear equations with seven unknowns (five solute concentrati
               | comparable to the value reported by Leung et al. (2011) based on the KK equations
               | (6.5-6.6) (see table 6.4). Predicted sodium concentration difference ∆CNa+ shows the
               | highest sensitivity to Cf among all the solutes (see figure 6.3b), varying from −2.2 to
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                     107
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                     107
 blank         | 
               | 
               | 
@@ -4419,7 +4419,7 @@ text          | +22.0 mM as Cf increases from zero to Cf0 (see also table 6.4). 
               |                                                                                3
               | osmotic pressure, which is a measure of the total osmolarity including all the solutes,
               | decreases as bicarbonate ions are pumped out from stroma to aqueous humor (see
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                       108
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                       108
 blank         | 
               | 
               | 
@@ -4459,7 +4459,7 @@ blank         |
 title         | 6.7      Discussion
 text          | The proposed KK equations (7.25, 7.26) present a general framework to describe
               | coupled transport through a biological membrane when it is adjacent to a charged
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                       109
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                       109
 blank         | 
               | 
               | 
@@ -4484,7 +4484,7 @@ text          | polyelectrolyte. While the derivations follow the standard pract
               |    The steady state analysis of the new KK equations shows that the fluid pressure
               | inside the separating membrane is composed by three additive components, namely
               | the hydrostatic pressure in the bath solution p0 , the osmotic pressure ∆Π and the
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                          110
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                          110
 blank         | 
               | 
               | 
@@ -4519,7 +4519,7 @@ text          | This presents a challenge to the conventional view of the fluid 
               | sents the source for the “leak” and the right hand side for the “pump”. According to
               | equation (6.50), the balancing condition can be relaxed: due to the generation of Pref ,
               | the stromal fluid pressure could be positive (see table 6.4) while the osmotic pressure
-header        | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                         111
+meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                         111
 blank         | 
               | 
               | 
@@ -4549,7 +4549,7 @@ text          | is negative. This view of a positive stromal fluid pressure is c
               | underlying metabolic reactions (Schultz, 1980). This development requires identifica-
               | tion of the molecular mechanisms, and can potentially enhance the understanding of
               | active mechanism involvement in membrane transport.
-header        | Chapter 7
+meta          | Chapter 7
 blank         | 
 text          | A chemo-electro-mechanical model
               | for corneal metabolism
@@ -4571,8 +4571,8 @@ text          | Metabolic pathways play crucial roles in supplying nutrient for 
               |    Because it is difficult to measure the metabolic processes in vivo, numerical meth-
               | ods become useful to investigate the transport of nutrient within connective tissues
 blank         | 
-footer        |                                            112
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                             113
+meta          |                                            112
+              | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                             113
 blank         | 
               | 
               | 
@@ -4607,7 +4607,7 @@ text          | (Pinsky, 2014; Zhu et al., 2012). Developing a realistic model o
               | to a one-dimensional situation. This limits the application of the theory to analyze
               | more general situations, such as the biomechanical response of the cornea under the
               | introduction an intrastromal inlay, which is a recently developed clinical device for
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                         114
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                         114
 blank         | 
               | 
               | 
@@ -4642,7 +4642,7 @@ text          | treatment of presbyopia (Arlt et al., 2015; Bouzoukis et al., 20
               | indicate that the diffusivities of the two metabolic species are comparable. Finally,
               | we apply the model to analyze the biomechanical response of the in vivo cornea after
               | the introduction of an intrastromal inlay, which could impede the flow of glucose and
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                        115
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                        115
 blank         | 
               | 
               | 
@@ -4681,7 +4681,7 @@ text          | In a healthy cornea, it is characterized that about 85% of the b
               | which can cause edema and acidosis (Leung et al., 2011; Papas, 2014). To accommo-
               | date the acidification of the cornea due to reaction (7.2), bicarbonate buffering takes
               | place to buffer the generated hydrogen ions and produce dissolved carbon dioxide as
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          116
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          116
 blank         | 
               | 
               | 
@@ -4723,7 +4723,7 @@ text          | where σ is the effective stress generated by the solid phase an
               | solute concentrations Ci and electrostatic potential ϕ. The displacement field directly
               | couples with the fluid pressure p (see equation (7.4)), which is coupled with the
               | osmotic pressure and the boundary solute fluxes. The osmotic pressure depends on
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                       117
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                       117
 blank         | 
               | 
               | 
@@ -4769,7 +4769,7 @@ text          |                               min                    CG
 blank         | 
 text          | where QO2 and QL− are in the units of m3 /(m3 · s) and mol/(m3 · s), respectively,
               | CG is the glucose concentration and PO2 is the oxygen partial pressure which has a
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                         118
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                         118
 blank         | 
               | 
               | 
@@ -4806,7 +4806,7 @@ text          |                                    Mw        QO
               |                              QG =     − L                                       (7.13)
               |                                   6Vm    2
               |                            QCO2 = −QO2 − QB− Vm                                 (7.14)
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          119
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          119
 blank         | 
               | 
               | 
@@ -4846,7 +4846,7 @@ text          | where KB is the buffering equilibrium constant, sCO2 is the solu
               | in water, CH+ is the concentration of hydrogen ion, and PCO2 is the carbon dioxide
               | partial pressure, respectively. Furthermore, the hydrogen ion concentration at normal
               | pH is on the order of 10−7 mol/L = 10−4 mM, which is much lower than that of the
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                       120
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                       120
 blank         | 
               | 
               | 
@@ -4888,7 +4888,7 @@ text          | where p and Pos are the fluid pressure and osmotic pressure, res
 blank         |                                                             
 text          |                                Pos = RT                                         (7.19)
               |                                            i
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                         121
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                         121
 blank         | 
               | 
               | 
@@ -4933,7 +4933,7 @@ blank         |
 text          | The corneal stroma possesses a highly anisotropic collagen fiber network. Most col-
               | lagen fibers are aligned with the corneal tangent surface, and thus provide a high
               | in-plane resistance. In the transverse direction, the fibers are loosely packed with
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                           122
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                           122
 blank         | 
               | 
               | 
@@ -4973,7 +4973,7 @@ text          | exceptions in the anterior stroma where inclinations and interwe
               | simplified linear model to approximate the elastic behavior of the collagen network in
               | small deformation. The distinct in-plane and transverse properties of the cornea can
               | be characterized by transverse isotropy, in which the effective stress σ can be written
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          123
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          123
 blank         | 
               | 
               | 
@@ -5019,7 +5019,7 @@ title         | Fixed charge concentrations
 blank         | 
 text          | The fixed charges associated with GAGs molecules play important roles in maintain-
               | ing the corneal volume by generating osmotic pressure via Donnan effect (Hodson,
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                       124
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                       124
 blank         | 
               | 
               | 
@@ -5054,7 +5054,7 @@ footnote      |                                                         0
 text          |                                                             is the reference charge
               | concentration (see table 7.3). In infinitesimal deformation, the volume dilation is
               | written as J = 1 + tr() where  denotes the strain tensor.
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                              125
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                              125
 blank         | 
               | 
               | 
@@ -5091,7 +5091,7 @@ text          | where Lp is the hydraulic coefficient, σi is the reflection coe
               | the average of the concentration at stromal-endothelial interface and that in aqueous
               | humor (Cheng and Pinsky, in preparation; Li and Tighe, 2006). ∆(·) denotes field
               | value difference across the endothelium. The sign convention is given as follows: net
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                                        126
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                                        126
 blank         | 
               | 
               | 
@@ -5131,7 +5131,7 @@ footnote      |    1
 text          |     It should be recognized that the definitions of water flow and volume flux are slightly different,
               | for the latter term includes the volumetric contribution of solutes. As the corneal electrolyte is
               | dilute, we disregard such subtle discrepancy and take Jw ≈ JV .
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                                      127
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                                      127
 blank         | 
               | 
               | 
@@ -5165,7 +5165,7 @@ footnote      |    2
 text          |     Mathematically, the consumption rates for oxygen and glucose are only dependent on oxygen
               | tension and glucose concentration. This enables us to only solve for these three species in epithelium
               | region.
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                      128
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                      128
 blank         | 
               | 
               | 
@@ -5221,7 +5221,7 @@ text          |                                            
               |                         ∇ · JCO2 = QCO2
               |                                            
               |                                            
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                             129
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                             129
 blank         | 
               | 
               | 
@@ -5310,7 +5310,7 @@ text          |                                             
               |                                             
               |                                             
               |                                 G
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                                   130
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                                   130
 blank         | 
               | 
               | 
@@ -5352,7 +5352,7 @@ text          | 7.4.1      Swelling pressure prediction versus experimental mea-
 footnote      |    3
 text          |    All governing partial differential equations are implemented in the “General form PDE” interface
               | under the “Mathematics module” of COMSOL.
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                      131
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                      131
 blank         | 
               | 
               | 
@@ -5377,7 +5377,7 @@ text          | et al., 2015). The stroma sample was modeled as a 7 mm diameter 
               | the proposed model is equivalent to the Donnan theory in equilibrium swelling. The
               | dominant role of the osmotic pressure in determining corneal thickness is faithfully
               | represented by the fixed charge model as described by equation (7.24) and by the
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                                    132
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                                    132
 blank         | 
               | 
               | 
@@ -5409,7 +5409,7 @@ text          | In this section, we present the solution for a normal living cor
               | ate. In this section, we take DNa− = 9.0×10−6 cm2 /s and DB− = 4.89×10−6 cm2 /s for
 footnote      |   4
 text          |       It is recognized that the anterior fiber inclination is not included in this analysis.
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          133
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          133
 blank         | 
               | 
               | 
@@ -5436,7 +5436,7 @@ blank         |
 text          | Figure 7.3: (a) Fringe plot of the radial displacement field for a normal cornea at
               | IOP = 15 mmHg. The solution exhibits spherical symmetry except at the limbus.
               | (b) The predicted vertical displacement across central corneal thickness.
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                           134
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                           134
 blank         | 
               | 
               | 
@@ -5467,7 +5467,7 @@ text          | The solutions for the metabolic species are in 1D character for 
               | endothelium are predicted for bicarbonate, lactate ions and glucose by the KK equa-
               | tions (7.25,7.26). Net bicarbonate and glucose fluxes from aqueous to stroma are
               | predicted, as the two species are consumed by metabolic reactions (7.1-7.3). Their
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                       135
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                       135
 blank         | 
               | 
               | 
@@ -5485,7 +5485,7 @@ blank         |
 text          | Figure 7.5: Predicted metabolic species concentration profiles across central corneal
               | thickness for the normal cornea. (a) Bicarbonate ion concentration. (b) Lactate ion
               | concentration. (c) Oxygen tension. (d) Glucose concentration.
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                        136
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                        136
 blank         | 
               | 
               | 
@@ -5520,7 +5520,7 @@ text          | Predictions of the post-lens oxygen tension, which is the oxygen
               | much less data points are available in the closed eye measurement (Bonanno et al.,
               | 2002) than that in the open eye condition (Benjamin, 1993).
               |    Predicted oxygen tensions across central thickness are plotted in figure 7.7a-b for
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                        137
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                        137
 blank         | 
               | 
               | 
@@ -5540,7 +5540,7 @@ blank         |
               | 
 text          | Figure 7.7: The predicted oxygen tension through central corneal thickness for six
               | values of lens transmissibility in (a) open eyes and (b) closed eyes.
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                       138
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                       138
 blank         | 
               | 
               | 
@@ -5569,7 +5569,7 @@ text          | Figure 7.8: The predicted relative thickness change versus lens 
               | three sets of bicarbonate and lactate ions diffusion parameters and its comparison
               | with experimental measurements (Holden and Mertz, 1984) in (a) open eyes and (b)
               | closed eyes.
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                             139
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                             139
 blank         | 
               | 
               | 
@@ -5606,7 +5606,7 @@ text          | where σi and ωi are the reflection coefficient and ion permeab
               | ions are generated through the anaerobic fermentation (7.2) during hypoxia, nearly
               | the same amount of bicarbonate are consumed to buffer the generated hydrogens
               | (byproduct of reaction (7.2)). Therefore the two species have opposite concentration
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                        140
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                        140
 blank         | 
               | 
               | 
@@ -5633,7 +5633,7 @@ text          |    Turning to the second pressure term ∆Pref , which is insens
               | anterior stroma. In the first case (figure 7.11a), corneal swelling is predicted for
               | positive pressure changes whereas in the second case (figure 7.11b), slight deswelling
               | is predicted as negative pressure is predicted in the anterior two-thirds.
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                    141
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                    141
 blank         | 
               | 
               | 
@@ -5652,7 +5652,7 @@ text          | 7.4.4    Biomechanical behavior after introduction of intrastro-
               |          mal inlay
               | The use of intrastromal inlay provides an alternative treatment to improve near and
               | intermediate vision in presbyopes without the removal of tissue (Arlt et al., 2015;
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                           142
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                           142
 blank         | 
               | 
               | 
@@ -5688,7 +5688,7 @@ text          | The cornea model is extended to include a centrally located hydr
               | oscillations will be introduced if the mesh size is larger than the Debye length (Cheng
               | and Pinsky, 2013; Feng et al., 2010), which is six orders of magnitude lower than the
               | dimension of the cornea. To reduce the numerical artifacts, we introduce a continuous
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                           143
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                           143
 blank         | 
               | 
               | 
@@ -5721,7 +5721,7 @@ text          |    In order to facilitate a comparison of metabolic species conc
               | cornea model. This can be accomplished by solving the cornea-inlay model with the
               | inlay domain modeled with: (1) stromal solute diffusivities scaled by a factor of 106 ;
               | and (2) suspending metabolic reactions, so that QO = QL = QG = 0.
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          144
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          144
 blank         | 
               | 
               | 
@@ -5751,7 +5751,7 @@ text          |    The effect of the inlay diffusivity on local hydration change
               | 7.14a by plotting ∆J through central thickness for six values of Γ. At a low inlay
               | diffusivity Γ < 1%, mild swelling (up to 4%) is predicted in the stroma posterior to
               | the inlay, with relatively more swelling occurred in the region right under the device
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          145
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          145
 blank         | 
               | 
               | 
@@ -5781,7 +5781,7 @@ text          |    The predicted local volume change shown in figure 7.15 is att
               | the inlay. The combined effect is mainly controlled by the concentration changes of
               | bicarbonate, chloride and glucose, which give rise to mild swelling in the posterior
               | and stronger deswelling in the anterior region.
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                         146
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                         146
 blank         | 
               | 
               | 
@@ -5810,7 +5810,7 @@ text          | The proposed model follows the multiphasic theory for hydrated c
               | theory of Kedem and Katchalsky for the bounding membranes (see chapter 6). The
               | model incorporates several essential biophysical mechanisms of the living cornea in
               | an elegant multiphasic framework, including the metabolic reactions that consume
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          147
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          147
 blank         | 
               | 
               | 
@@ -5836,7 +5836,7 @@ text          | glucose and oxygen and produces lactic acid, the presence of fix
               | shown in section 7.4.3 agree with this view and further illustrate the importance of
               | the metabolites’ diffusivities in affecting the osmotic pressure variation in the stroma.
               | As the diffusivity measurements for metabolites’ species are somewhat incomplete
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          148
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          148
 blank         | 
               | 
               | 
@@ -5871,7 +5871,7 @@ text          | and inconsistent (see table 7.3), we have studied the corneal sw
               | et al., 2011). As the cornea swells primarily through thickness, the depth-dependent
               | collagen network, which is reflected as significant fiber inclination and interweaving
               | in the anterior stroma, play important roles in maintaining the structural stability
-header        | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                         149
+meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                         149
 blank         | 
               | 
               | 
@@ -5895,7 +5895,7 @@ text          | under extreme situations (Cheng et al., 2015; Muller et al., 200
               | which renders the displacement and fluid pressure as time-independent. However, the
               | theory is readily to be extended to transient cases, which may be useful for interpret-
               | ing experimental results that are obtained in acute situations.
-header        | Chapter 8
+meta          | Chapter 8
 blank         | 
 title         | Conclusions and future directions
 blank         | 
@@ -5919,8 +5919,8 @@ text          | This thesis presents theoretical and computational studies of th
               | structural finite element code without solving coupled equations out of necessity. For
               | the first time, the structural role of lamella inclination in stabilizing corneal anterior
 blank         | 
-footer        |                                            150
-header        | CHAPTER 8. CONCLUSIONS AND FUTURE DIRECTIONS                                      151
+meta          |                                            150
+              | CHAPTER 8. CONCLUSIONS AND FUTURE DIRECTIONS                                      151
 blank         | 
               | 
               | 
@@ -5954,7 +5954,7 @@ text          | A number of open questions remain to be explored for a thorough 
               | the cornea’s behavior under pathological and surgical conditions. These suggest a
               | variety of research directions that need to be pursued to advance current models of
               | the in vivo cornea.
-header        | CHAPTER 8. CONCLUSIONS AND FUTURE DIRECTIONS                                          152
+meta          | CHAPTER 8. CONCLUSIONS AND FUTURE DIRECTIONS                                          152
 blank         | 
               | 
               | 
@@ -5989,7 +5989,7 @@ text          | Modeling therapeutic cross-linking for treatment of corneal dise
               | with the recently developed model for the photochemical kinetics of the treatment
               | (Kamaev et al., 2012), existing studies have provided insightful clues for us to de-
               | velop first-principles models to elucidate the underlying mechanisms that give rise to
-header        | CHAPTER 8. CONCLUSIONS AND FUTURE DIRECTIONS                                          153
+meta          | CHAPTER 8. CONCLUSIONS AND FUTURE DIRECTIONS                                          153
 blank         | 
               | 
               | 
@@ -6024,7 +6024,7 @@ text          | Viscoelastic modeling of the cornea There has been increasing in
               | time. For example, the two recently developed IOP measuring systems, ocular re-
               | sponse analyzer (ORA) and Corvis ST (Hong et al., 2013; Luce, 2005), measure the
               | IOP by applying a rapid air puff to deform the cornea. During the measurements,
-header        | CHAPTER 8. CONCLUSIONS AND FUTURE DIRECTIONS                                        154
+meta          | CHAPTER 8. CONCLUSIONS AND FUTURE DIRECTIONS                                        154
 blank         | 
               | 
               | 
@@ -6037,7 +6037,7 @@ text          | the tissue displays a complex rate-dependent behavior, in which 
               | time-dependent feature according to the viscoelastic properties of the tissue. This will
               | expand the predictive capabilities of current models and enrich the understanding of
               | the tissue behavior under various time scales.
-header        | Appendix A
+meta          | Appendix A
 blank         | 
 title         | Derivation of the Donnan-based
               | electrostatic swelling pressure
@@ -6070,8 +6070,8 @@ blank         |
               | 
               | 
               | 
-footer        |                                                155
-header        | APPENDIX A. DERIVATION OF P̂EL                                                                        156
+meta          |                                                155
+              | APPENDIX A. DERIVATION OF P̂EL                                                                        156
 blank         | 
               | 
               | 
@@ -6125,7 +6125,7 @@ text          |                                                                 
               |                +                      ρinter (J)                      2F C0                       (A.7)
               |                  J (1 − φker ) − φcol             F         − sinh−1    ρinter (J)
               |                                                                             2F C0
-header        | Appendix B
+meta          | Appendix B
 blank         | 
 text          | Derivation of the Donnan-based
               | electrostatic interfibrillar restoring
@@ -6158,8 +6158,8 @@ blank         |
               | 
               | 
               | 
-footer        |                                             157
-header        | APPENDIX B. DERIVATION OF FEL                                                        158
+meta          |                                             157
+              | APPENDIX B. DERIVATION OF FEL                                                        158
 blank         | 
               | 
               | 
@@ -6178,7 +6178,7 @@ text          | where r = (x, y) and sgn(A∗k ) refers to the sign of the term 
               |                                1 X                       y k1 − yk2
               |                       fel (r) = h  Pel (Jk ) sgn(A∗k )                             (B.6)
               |                                2 k                       xk2 − xk1
-header        | Appendix C
+meta          | Appendix C
 blank         | 
 title         | Triphasic equations
 blank         | 
@@ -6204,8 +6204,8 @@ text          | Modeling of polyelectrolyte gels requires a suitable description
               | modynamic equilibrium (Bryant and McDonnell, 1998; Huyghe and Janssen, 1997;
 blank         | 
               | 
-footer        |                                           159
-header        | APPENDIX C. TRIPHASIC EQUATIONS                                                        160
+meta          |                                           159
+              | APPENDIX C. TRIPHASIC EQUATIONS                                                        160
 blank         | 
               | 
               | 
@@ -6248,7 +6248,7 @@ text          | where ρw is the water density, Mi (i = +, −) are the atomic w
               |                       w and µi are the water potential and ionic chemical potentials
               | at the reference state, ϕ is the electrostatic potential. Integrating (C.5) and (C.6)
               | between any point in the bath and electrolyte gives the electrolyte fluid pressure and
-header        | APPENDIX C. TRIPHASIC EQUATIONS                                                  161
+meta          | APPENDIX C. TRIPHASIC EQUATIONS                                                  161
 blank         | 
               | 
               | 
@@ -6281,7 +6281,7 @@ text          | equation (C.13) gives the momentum balance condition for the sol
               | equations require the specification of p0 and Cf (typically dependent on the volume
               | dilation J) as well as suitable boundary conditions. The coupled solution provides
               | the pointwise osmotic pressure Π which may vary rapidly at the nanoscale.
-header        | Appendix D
+meta          | Appendix D
 blank         | 
 title         | Tangent operator
 blank         | 
@@ -6319,8 +6319,8 @@ text          |                                                                 
               |      The spatial form of Celectrolyte is given by celectrolyte = φ∗ (Celectrolyte ), where φ∗ is
 blank         | 
               | 
-footer        |                                                162
-header        | APPENDIX D. TANGENT OPERATOR                                                      163
+meta          |                                                162
+              | APPENDIX D. TANGENT OPERATOR                                                      163
 blank         | 
               | 
               | 
@@ -6332,7 +6332,7 @@ text          | It is clear from equations (D.1) and (D.2) that the current elec
               | may be easily implemented in a finite element code since the electrolyte (volumetric
               | stiffness) tensors can be directly computed from the volume dilation J in a straight-
               | forward manner.
-header        | Appendix E
+meta          | Appendix E
 blank         | 
 text          | Derivation of the KK equations
               | with incorporation of active
@@ -6361,8 +6361,8 @@ blank         |
               | 
               | 
               | 
-footer        |                                            164
-header        | APPENDIX E. DERIVATION OF THE KK EQUATIONS                                             165
+meta          |                                            164
+              | APPENDIX E. DERIVATION OF THE KK EQUATIONS                                             165
 blank         | 
               | 
               | 
@@ -6410,7 +6410,7 @@ blank         |                                                 
 text          |                                             ∂Jri
               |                                Lri rj   =                                             (E.9)
               |                                             ∂Aj ∆Pe,∆Πe 1 ,...,∆Πe N
-header        | APPENDIX E. DERIVATION OF THE KK EQUATIONS                                                 166
+meta          | APPENDIX E. DERIVATION OF THE KK EQUATIONS                                                 166
 blank         | 
               | 
               | 
@@ -6457,7 +6457,7 @@ blank         |
 text          |                             LV rj = Vj , j = 1, ..., M                                   (E.15)
               |                            LDi rj = Uij , i = 1, ..., N, j = 1, ..., M                   (E.16)
               |                             Lri rj = Kij , i, j = 1, ..., M                              (E.17)
-header        | APPENDIX E. DERIVATION OF THE KK EQUATIONS                                                          167
+meta          | APPENDIX E. DERIVATION OF THE KK EQUATIONS                                                          167
 blank         | 
               | 
               | 
@@ -6511,7 +6511,7 @@ text          | where ωik = C i (LDi k − Lp σi σk ). Ignoring the coupling 
               |                                          X
               |                Jri = Ki       Vi ∆P̃ +         Uki ∆Π̃k + Ai                                      (E.24)
               |                                          k=1
-header        | Appendix F
+meta          | Appendix F
 blank         | 
 text          | Determination of pressure, ionic
               | concentrations and electrostatic
@@ -6537,8 +6537,8 @@ text          | where C i = (Ci + Ci0 )/2 denotes the mean solute concentration 
               |                                      k
 blank         | 
               | 
-footer        |                                              168
-header        | APPENDIX F. FIELD SOLUTIONS OF THE ENHANCED KK THEORY                                            169
+meta          |                                              168
+              | APPENDIX F. FIELD SOLUTIONS OF THE ENHANCED KK THEORY                                            169
 blank         | 
               | 
               | 
@@ -6586,7 +6586,7 @@ text          | substituting equation (F.6) into equation (F.5) gives:
               |                                          −B ±       B 2 − 4AC
               |                                   ∆ϕ =                                                         (F.8)
               |                                                     2A
-header        | APPENDIX F. FIELD SOLUTIONS OF THE ENHANCED KK THEORY                                170
+meta          | APPENDIX F. FIELD SOLUTIONS OF THE ENHANCED KK THEORY                                170
 blank         | 
               | 
               | 
@@ -6614,7 +6614,7 @@ text          | depending on the value of zf , one of the root in equation (F.8)
               |                                  RT Ci0 + 21 zi F ∆Ci0 ϕ +     ωi
               |                           Ci =                                                    (F.12)
               |                                         RT − 21 zi F ∆ϕ
-header        | BIBLIOGRAPHY                                                                     171
+meta          | BIBLIOGRAPHY                                                                     171
 blank         | 
               | 
               | 
@@ -6651,7 +6651,7 @@ ref           | J.A. Bonanno. Molecular mechanisms underlying the corneal endoth
               |   Eye. Res., 95:2–7, 2012.
 blank         | 
 ref           | J.A. Bonanno, T. Stickel, T. Nguyen, T. Biehl, D. Carter, W.J. Benjamin, and P.S.
-header        | BIBLIOGRAPHY                                                                     172
+meta          | BIBLIOGRAPHY                                                                     172
 blank         | 
               | 
               | 
@@ -6691,7 +6691,7 @@ ref           | J.A. Castoro, A.A. Bettlheim, and F.A. Bettelheim. Water concent
 blank         | 
 ref           | G.T. Charras, J.C. Yarrow, M.A. Horton, L. Mahadevan, and T.J. Mitchison. Non-
               |   equilibration of hydrostatic pressure in blebbing cells. Nature, 435:365–369, 2005.
-header        | BIBLIOGRAPHY                                                                     173
+meta          | BIBLIOGRAPHY                                                                     173
 blank         | 
               | 
               | 
@@ -6730,7 +6730,7 @@ blank         |
 ref           | Z. Dong, X. Zhou, J. Wu, Z. Zhang, T. Li, Z. Zhou, S. Zhang, and G. Li. Small
               |   incision lenticule extraction (smile) and femtosecond laser lasik: comparison of
               |   corneal wound healing and inflammation. Br. J. Ophthalmol., 98:263–269, 2014.
-header        | BIBLIOGRAPHY                                                                      174
+meta          | BIBLIOGRAPHY                                                                      174
 blank         | 
               | 
               | 
@@ -6769,7 +6769,7 @@ blank         |
 ref           | I. Fatt, C.J. Giasson, and T.D. Mueller. Non-steady-state diffusion in a multilayered
               |   tissue initiated by manipulation of chemical activity at the boundaries. Biophys.
               |   J., 74:475–486, 1998.
-header        | BIBLIOGRAPHY                                                                        175
+meta          | BIBLIOGRAPHY                                                                        175
 blank         | 
               | 
               | 
@@ -6810,7 +6810,7 @@ blank         |
 ref           | A. Gautieri, S. Vesentini, A. Redaelli, and M.J. Buehler. Hierarchical structure and
               |   nanomechanics of collagen microfibrils from the atomistic scale up. Nano Lett., 11:
               |   757–766, 2011.
-header        | BIBLIOGRAPHY                                                                       176
+meta          | BIBLIOGRAPHY                                                                       176
 blank         | 
               | 
               | 
@@ -6850,7 +6850,7 @@ ref           | B.O. Hedbys and C.H. Dohlman. A new method for the determination
 blank         | 
 ref           | B.O. Hedbys and S. Mishima. The thickness-hydration relationship of cornea. Exp.
               |   Eye. Res., 5:221–228, 1966.
-header        | BIBLIOGRAPHY                                                                      177
+meta          | BIBLIOGRAPHY                                                                      177
 blank         | 
               | 
               | 
@@ -6890,7 +6890,7 @@ ref           | C.Y. Huang and WY. Gu. Effects of mechanical compression on meta
 blank         | 
 ref           | Y. Huang and K.M. Meek. Swelling studies on the cornea and sclera: the effects of
               |   ph and ionic strength. Biophys. J., 77:1655–1665, 1999.
-header        | BIBLIOGRAPHY                                                                       178
+meta          | BIBLIOGRAPHY                                                                       178
 blank         | 
               | 
               | 
@@ -6930,7 +6930,7 @@ blank         |
 ref           | S. Kling, N. Bekesi, C. Dorronsoro, D. Pascual, and S. Marcos. Corneal viscoelastic
               |   properties from finite-element analysis of in vivo air-puff deformation. PLoS. One,
               |   9:e104904, 2014.
-header        | BIBLIOGRAPHY                                                                         179
+meta          | BIBLIOGRAPHY                                                                         179
 blank         | 
               | 
               | 
@@ -6971,7 +6971,7 @@ blank         |
 ref           | G.A. Lee, P.T. Khaw, L.A. Ficker, and P. Shah. The corneal thickness and intraocular
               |   pressure story: where are we now? Clin. Experiment. Ophthalmol., 30:334–337,
               |   2002.
-header        | BIBLIOGRAPHY                                                                         180
+meta          | BIBLIOGRAPHY                                                                         180
 blank         | 
               | 
               | 
@@ -7011,7 +7011,7 @@ ref           | D.H. Manicourt, Devogelare. J.P., and E.J.M.A. Thonar. Dynamics 
 blank         | 
 ref           | B. Markert, W. Ehlers, and N. Karajan. A general polyconvex strain- energy function
               |   for fiber-reinforced materials. Proc. Appl. Math. Mech., 5:245–246, 2005.
-header        | BIBLIOGRAPHY                                                                      181
+meta          | BIBLIOGRAPHY                                                                      181
 blank         | 
               | 
               | 
@@ -7049,7 +7049,7 @@ ref           | K.M. Meek, N.J. Fullwood, P.H. Cooke, G.F. Elliott, D.M. Maurice
 blank         | 
 ref           | K.M. Meek, D.W. Leonard, C.J. Connon, S. Dennis, and S. Khan. Transparency,
               |   swelling and scarring in the corneal stroma. Eye, 17:927–936, 2003.
-header        | BIBLIOGRAPHY                                                                         182
+meta          | BIBLIOGRAPHY                                                                         182
 blank         | 
               | 
               | 
@@ -7087,7 +7087,7 @@ ref           | M.V. Netto, R.R. Mohan, Ambrosio R. Jr., A.E. Hutcheon, J.D. Zie
 blank         | 
 ref           | W.D. Niles. Hydrostatic pressures developed by osmotically swelling vesicles bound
               |   to planar membranes. J. Gen. Physiol., 93:211–244, 1989.
-header        | BIBLIOGRAPHY                                                                       183
+meta          | BIBLIOGRAPHY                                                                       183
 blank         | 
               | 
               | 
@@ -7125,7 +7125,7 @@ ref           | P.M. Pinsky and D.V. Datye. Numerical modeling of radial, astigm
 blank         | 
 ref           | P.M. Pinsky, D. Heide, and D. Chernyak. Computational modeling of mechanical
               |   anisotropy in the cornea and sclera. J. Cataract. Refract. Surg., 31:136–145, 2005.
-header        | BIBLIOGRAPHY                                                                        184
+meta          | BIBLIOGRAPHY                                                                        184
 blank         | 
               | 
               | 
@@ -7163,7 +7163,7 @@ blank         |
 ref           | A. Salamatrad, Jabbarvand. M., H. Hashemian, M. Khodaparast, and F. Askarizadeh.
               |   Histological and confocal changes in rabbit cornea produced by an intrastromal
               |   inlay made of hexafocon a. Cornea, 34:78–81, 2015.
-header        | BIBLIOGRAPHY                                                                       185
+meta          | BIBLIOGRAPHY                                                                       185
 blank         | 
               | 
               | 
@@ -7201,7 +7201,7 @@ ref           | M.P. Stewart, J. Helenius, Y. Toyoda, S.P. Ramanathan, D.J. Mull
 blank         | 
 ref           | H. Studer, X. Larrea, H. Riedwyl, and P. Büchler. Biomechanical model of human
               |   cornea based on stromal microstructure. J. Biomech., 43:836–842, 2010.
-header        | BIBLIOGRAPHY                                                                       186
+meta          | BIBLIOGRAPHY                                                                       186
 blank         | 
               | 
               | 
@@ -7241,7 +7241,7 @@ ref           | M. Winkler, G. Shoa, Y. Xie, S.J. Petsche, P.M. Pinsky, T. Juhas
               |   J.V. Jester. A computational strategy for prestressing patient-specific biomechan-
               |   ical problems under finite deformation. Int. J. Numer. Meth. Biomed. Engng., 26:
               |   52–72, 2010.
-header        | BIBLIOGRAPHY                                                                      187
+meta          | BIBLIOGRAPHY                                                                      187
 blank         | 
               | 
               | 

@@ -36,7 +36,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                            ii
+meta          |                                            ii
 text          | I certify that I have read this dissertation and that, in my opinion, it is fully adequate
               | in scope and quality as a dissertation for the degree of Doctor of Philosophy.
 blank         | 
@@ -79,7 +79,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                           iii
+meta          |                                           iii
 title         | Abstract
 blank         | 
 text          |          This dissertation explores how seven low-income Hispanic-Latino immigrant
@@ -128,7 +128,7 @@ text          | settings. The iPad intervention led to some new language- and li
 blank         | 
               | 
               | 
-footer        |                                              iv	  
+meta          |                                              iv	  
 blank         | 	  
               | 	  
 text          | practices, based to some degree on the characteristics of the device, but mostly on the
@@ -152,7 +152,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                            v	  
+meta          |                                            v	  
 blank         | 	  
               | 	  
 title         | TABLE OF CONTENTS
@@ -201,7 +201,7 @@ text          | Chapter Five: Affordances of media for learning in the leisure s
 blank         | 
               | 
               | 
-footer        |                                                        vi	  
+meta          |                                                        vi	  
 blank         |     	  
               |     	  
 text          | Media production………………………………………………………………………..216
@@ -246,7 +246,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                       vii	  
+meta          |                                                       vii	  
 blank         |     	  
               |     	  
 title         | Acknowledgements
@@ -298,7 +298,7 @@ text          |          Over the course of this study and my career at Stanford
 blank         | 
               | 
               | 
-footer        |                                          viii	  
+meta          |                                          viii	  
 blank         | 	  
               | 	  
 text          | law” Dr. Roy Pea and Dr. Ray McDermott, for modeling great scholarship and sharing
@@ -347,7 +347,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                            ix	  
+meta          |                                            ix	  
 blank         | 	  
               | 	  
 title         | List of Tables
@@ -393,7 +393,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                           x	  
+meta          |                                           x	  
 blank         | 	  
               | 	  
 title         | List of Illustrations
@@ -445,7 +445,7 @@ text          | Figure 8a. Image from Kindoma …...………………………�
 blank         | 
               | 
               | 
-footer        |                                         xi	  
+meta          |                                         xi	  
 blank         | 	  
               | 	  
 text          |                     To my family, with love,
@@ -455,10 +455,10 @@ blank         |
               | 
               | 
               | 
-footer        |                                 xii	  
+meta          |                                 xii	  
 blank         | 	  
               | 	  
-header        | CHAPTER ONE
+meta          | CHAPTER ONE
 blank         | 
 title         | BACKGROUND AND FRAMEWORK
 blank         | 
@@ -507,7 +507,7 @@ text          | access and what role this media plays in development, learning a
 blank         | 
               | 
               | 
-footer        |                                                 1	  
+meta          |                                                 1	  
 blank         |    	  
               |    	  
 text          | 2010). Although research has shown a positive relationship between computer access and
@@ -559,7 +559,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                2	  
+meta          |                                                2	  
 blank         |    	  
               |    	  
 text          | who enter school without the necessary English skills to access mainstream education face
@@ -613,7 +613,7 @@ text          |      López et al (2013) report that 86 per cent of Latino and 8
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                                3	  
+meta          |                                                                                                                                                                                                                                3	  
 blank         |     	  
               |     	  
 text          | tools and content, as well as how media could in some way help Hispanic-Latino
@@ -666,7 +666,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                      4	  
+meta          |                                                      4	  
 blank         |    	  
               |    	  
 text          |    Although literature on the topic of Hispanic-Latino families and digital media use is
@@ -718,7 +718,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                5	  
+meta          |                                                5	  
 blank         |    	  
               |    	  
 text          | media at home. Finally, the study provides a glimpse into what role new media devices
@@ -770,7 +770,7 @@ text          | specific to Hispanic-Latinos), digital media and learning, early
 blank         | 
               | 
               | 
-footer        |                                                 6	  
+meta          |                                                 6	  
 blank         |    	  
               |    	  
 text          | literacy development, education of children from immigrant families (particularly
@@ -818,7 +818,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               7	  
+meta          |                                               7	  
 blank         |    	  
               |    	  
 title         | Hispanic-Latino Language Minority Families and Technology Access
@@ -870,7 +870,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                8	  
+meta          |                                                8	  
 blank         |    	  
               |    	  
 text          | changing and Internet connectivity is available to a much broader population, new
@@ -924,7 +924,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                       9	  
+meta          |                                                       9	  
 blank         |    	  
               |    	  
 text          | rather than on social or educational resources related to media, such as instruction and
@@ -976,7 +976,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                10	  
+meta          |                                                10	  
 blank         |    	  
               |    	  
 text          | survey data still indicate a relationship between income and access to technology at home
@@ -1030,7 +1030,7 @@ text          | southwestern United States, Slate, Manuel and Brinson (2003) fou
 blank         | 
               | 
               | 
-footer        |                                                        11	  
+meta          |                                                        11	  
 blank         |    	  
               |    	  
 text          | dominant students had more favorable attitudes toward the Internet and technology use
@@ -1082,7 +1082,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                12	  
+meta          |                                                12	  
 blank         |    	  
               |    	  
 text          | learning, and an increasing number of studies take into account different factors beyond
@@ -1134,7 +1134,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                13	  
+meta          |                                                13	  
 blank         |    	  
               |    	  
 text          | assigned to conditions where an adult asked them questions, or asked questions and
@@ -1186,7 +1186,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                 14	  
+meta          |                                                 14	  
 blank         |    	  
               |    	  
 text          | finding that screen media exposure can support preschoolers in developing skills related to
@@ -1238,7 +1238,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                15	  
+meta          |                                                15	  
 blank         |    	  
               |    	  
 text          | studies of Sesame Street, the television co-viewing literature to date does not specifically
@@ -1290,7 +1290,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                 16	  
+meta          |                                                 16	  
 blank         |    	  
               |    	  
 text          | content they are engaging with and what these activities bring to bear on other parts of
@@ -1343,7 +1343,7 @@ blank         |
 text          | a “transmedia” approach (using the same characters across different media such as
 blank         | 
               | 
-footer        |                                                      17	  
+meta          |                                                      17	  
 blank         |    	  
               |    	  
 text          | television, computer games, mobile apps, etc.). In randomized control trials reported by
@@ -1395,7 +1395,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                18	  
+meta          |                                                18	  
 blank         |    	  
               |    	  
 text          | within family homes (and classrooms) including how adults and children or groups of
@@ -1447,7 +1447,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  19	  
+meta          |                                                  19	  
 blank         |    	  
               |    	  
 text          |           Some studies attempt to show relationships by simply looking at the amount of
@@ -1497,7 +1497,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                20	  
+meta          |                                                20	  
 blank         |    	  
               |    	  
 text          |           Other research manipulates specific types of content including different
@@ -1549,7 +1549,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                 21	  
+meta          |                                                 21	  
 blank         |    	  
               |    	  
 text          | time was positively related to language learning. Using self-report data from 374 Dutch
@@ -1601,7 +1601,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                22	  
+meta          |                                                22	  
 blank         |    	  
               |    	  
 text          | able to draw from their repertoires in different languages and thus strengthen their
@@ -1653,7 +1653,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  23	  
+meta          |                                                  23	  
 blank         |    	  
               |    	  
 text          | Moore, Graham & Lee, 2002). Warschauer (2010) notes the opportunities for
@@ -1703,7 +1703,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                 24	  
+meta          |                                                 24	  
 blank         |    	  
               |    	  
 text          | Mexico via a telenovela, and reimagined themselves based on the characters and texts
@@ -1755,7 +1755,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  25	  
+meta          |                                                  25	  
 blank         |     	  
               |     	  
 text          | related to academic performance. Dorner, Orellana and Li-Grining (2007) showed a link
@@ -1805,7 +1805,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                26	  
+meta          |                                                26	  
 blank         |    	  
               |    	  
 text          |           As a whole the literature on media and language learning is consistent with the
@@ -1857,7 +1857,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                 27	  
+meta          |                                                 27	  
 blank         |    	  
               |    	  
 text          | practices favor children’s roles in supporting the joint family enterprise. These practices,
@@ -1907,7 +1907,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                 28	  
+meta          |                                                 28	  
 blank         |    	  
               |    	  
 text          |           At the same time as they reveal parents’ cultural model of literacy development,
@@ -1959,7 +1959,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                 29	  
+meta          |                                                 29	  
 blank         |    	  
               |    	  
 text          | sharing” (joint reading) is widely encouraged by schools and parenting experts as a means
@@ -2011,7 +2011,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                30	  
+meta          |                                                30	  
 blank         |    	  
               |    	  
 text          | for input) or an “abridged storyteller” style. Comparisons between these studies can prove
@@ -2063,7 +2063,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  31	  
+meta          |                                                  31	  
 blank         |    	  
               |    	  
 text          | results. As the authors point out, there is a particular need for studies of ebooks in the
@@ -2116,7 +2116,7 @@ text          | graphic enhancements that illustrated words and enriched meaning
 blank         | 
               | 
               | 
-footer        |                                                  32	  
+meta          |                                                  32	  
 blank         |    	  
               |    	  
 text          | “peripheral” enhancements that distracted from the words and story). In contrast with
@@ -2168,7 +2168,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                33	  
+meta          |                                                33	  
 blank         |    	  
               |    	  
 text          | alone may not be adequate to teach language or literacy skills, these resources have been
@@ -2219,7 +2219,7 @@ text          |            1. What language and literacy experiences does media 
 blank         | 
               | 
               | 
-footer        |                                                   34	  
+meta          |                                                   34	  
 blank         |     	  
               |     	  
 text          |             2. What language- and literacy-related media practices and activities do families
@@ -2270,7 +2270,7 @@ text          | and linguistic backgrounds (e.g. Gutierrez et al, 2011). In this
 blank         | 
               | 
               | 
-footer        |                                                  35	  
+meta          |                                                  35	  
 blank         |    	  
               |    	  
 text          | “repertoires of practice” (Gutierrez & Rogoff, 2003) as part of an effort to document “the
@@ -2322,7 +2322,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                36	  
+meta          |                                                36	  
 blank         |    	  
               |    	  
 text          | sociointeractionist perspective (e.g. Firth & Wagner, 1997), which includes theories
@@ -2374,7 +2374,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                37	  
+meta          |                                                37	  
 blank         |    	  
               |    	  
 text          | importance of considering the many settings and interactions that influence development
@@ -2420,7 +2420,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   38	  
+meta          |                                                   38	  
 blank         |     	  
               |     	  
 title         | Brief Overview of the Dissertation
@@ -2474,7 +2474,7 @@ text          |          	  I have organized the chapters in this way rather t
 blank         | 
               | 
               | 
-footer        |                                                                                                                       39	  
+meta          |                                                                                                                       39	  
 blank         |    	  
               |    	  
 text          | “leisure space,” for entertainment and play (addressed in Chapter Five). These categories
@@ -2524,7 +2524,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  40	  
+meta          |                                                  40	  
 blank         |    	  
               |    	  
 text          |        learning, supported parents in their own studies and careers, and/or facilitated
@@ -2576,7 +2576,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               41	  
+meta          |                                               41	  
 blank         | 	  
               | 	  
 text          |        for technology use and introduced families to media practices and content.
@@ -2604,10 +2604,10 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   42	  
+meta          |                                                   42	  
 blank         | 	  
               | 	  
-header        |    CHAPTER TWO
+meta          |    CHAPTER TWO
 blank         | 
 title         |    METHODS
 blank         | 
@@ -2656,7 +2656,7 @@ text          |    also made available for comparison.
 blank         | 
               | 
               | 
-footer        |                                                    43	  
+meta          |                                                    43	  
 blank         |    	  
               |    	  
 text          | I chose to employ qualitative case study methods (Yin, 2003) due to the lack of existing
@@ -2708,7 +2708,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  44	  
+meta          |                                                  44	  
 blank         | 	  
               | 	  
 text          |        3. What family dynamics and practices develop around a newly introduced tablet
@@ -2760,7 +2760,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   45	  
+meta          |                                                   45	  
 blank         | 	  
               | 	  
 text          | 4. Have at least one child between the ages of five and seven years old.
@@ -2812,7 +2812,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               46	  
+meta          |                                               46	  
 blank         | 	  
               | 	  
 text          | featuring specific programs for Latino parents. The seventh, Carmen Orozco and family,
@@ -2864,7 +2864,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               47	  
+meta          |                                               47	  
 blank         | 	  
               | 	  
 text          | device afterwards in appreciation of their time. The leaders of each of these organizations
@@ -2916,7 +2916,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               48	  
+meta          |                                               48	  
 blank         | 	  
               | 	  
 text          | latter cases, leaders approached parents who were not present at the events I attended,
@@ -2966,7 +2966,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               49	  
+meta          |                                               49	  
 blank         | 	  
               | 	  
 title         | Participants recruited
@@ -3018,7 +3018,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                50	  
+meta          |                                                50	  
 blank         | 	  
               | 	  
 text          | time). Particularly in the case of the Orozcos who were supporting five additional sons
@@ -3081,7 +3081,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                               51	  
+meta          |                                                               51	  
 blank         | 	  
               | 	  
 text          |     children in the study were introduced to more consistent interactions in English and what
@@ -3147,7 +3147,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                52	  
+meta          |                                                                52	  
 blank         |     	  
               |     	  
 text          | As an example of data shown in Table 2b, for Naomi Aguirre, more regular exposure to
@@ -3198,7 +3198,7 @@ text          | stay at home (as compared to 25 per cent of white and black moth
 blank         | 
               | 
               | 
-footer        |                                               53	  
+meta          |                                               53	  
 blank         | 	  
               | 	  
 text          | pattern is also reflected in reported beliefs: 85 per cent of Hispanic-Latino immigrants
@@ -3252,7 +3252,7 @@ text          |       	  One	  of	  these	  mothers,	  Érica	  Mart
 blank         | 
               | 
               | 
-footer        |                                                                                                              54	  
+meta          |                                                                                                              54	  
 blank         | 	  
               | 	  
 text          |             In accordance with ethics guidelines, the study was approved by Stanford
@@ -3304,7 +3304,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   55	  
+meta          |                                                   55	  
 blank         | 	  
               | 	  
 text          | they received them. All interactions including informal conversations, interviews,
@@ -3356,7 +3356,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               56	  
+meta          |                                               56	  
 blank         | 	  
               | 	  
 text          | so that the tablet intervention would not confound the results if compared with the larger
@@ -3420,7 +3420,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                 57	  
+meta          |                                                                 57	  
 blank         | 	  
               | 	  
 text          |        iPad Usage Data (quantitative       3      Families’ use of the iPads was tracked by the      iPads distributed
@@ -3479,7 +3479,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                58	  
+meta          |                                                                58	  
 blank         | 	  
               | 	  
 text          | knew when the next one would be. In this way I usually avoided depending on busy
@@ -3531,7 +3531,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               59	  
+meta          |                                               59	  
 blank         | 	  
               | 	  
 text          | I often chatted with parents about the stages our children were going through, the
@@ -3581,7 +3581,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               60	  
+meta          |                                               60	  
 blank         | 	  
               | 	  
 text          |        It is also important to note the many differences between my personal background
@@ -3633,7 +3633,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              61	  
+meta          |                                              61	  
 blank         | 	  
               | 	  
 text          | information about services (health, transportation, etc.), strategies for choosing media for
@@ -3685,7 +3685,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               62	  
+meta          |                                               62	  
 blank         | 	  
               | 	  
 text          | “what do you do next?.” Most additional prompts were based on the nature of the program
@@ -3731,7 +3731,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              63	  
+meta          |                                              63	  
 blank         | 	  
               | 	  
 title         | Observations
@@ -3782,7 +3782,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               64	  
+meta          |                                               64	  
 blank         | 	  
               | 	  
 text          | total of one hour 22 minutes, I asked family members who used this app to elaborate in
@@ -3831,7 +3831,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               65	  
+meta          |                                               65	  
 blank         | 	  
               | 	  
 text          | selection process to narrow down the possibilities. I also created a structure in which I
@@ -3881,7 +3881,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               66	  
+meta          |                                               66	  
 blank         | 	  
               | 	  
 text          |           For app selection, I used the media literacy web site Common Sense Media. CSM
@@ -3929,7 +3929,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               67	  
+meta          |                                               67	  
 blank         | 	  
               | 	  
 text          | 7. Games that offer opportunities for experience with language and/or literacy but were
@@ -3975,7 +3975,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  68	  
+meta          |                                                  68	  
 blank         | 	  
               | 	  
 text          | 6. If there is a cost to purchase the app or unlock features, does it provide a better
@@ -4036,7 +4036,7 @@ text          |       	  Note:	  the	  developer	  Duck	  Duck	  Moo
 blank         | 
               | 
               | 
-footer        |                                                                                                          69	  
+meta          |                                                                                                          69	  
 blank         | 	  
               | 	  
 text          |           Phonics/Early
@@ -4103,7 +4103,7 @@ footnote      | 5
 text          |       	  Added	  one	  month	  after	  iPads	  were	  distributed.	  
 blank         | 
               | 
-footer        |                                                                                                                                                                                                                            70	  
+meta          |                                                                                                                                                                                                                            70	  
 blank         | 	  
               | 	  
 text          |        Other apps with
@@ -4167,7 +4167,7 @@ text          | and children’s interests.
 blank         | 
               | 
               | 
-footer        |                                                                71	  
+meta          |                                                                71	  
 blank         | 	  
               | 	  
 text          | Table 2e: “Elective” Apps
@@ -4230,7 +4230,7 @@ text          | all apps needed to include Spanish language or bilingual capabil
 blank         | 
               | 
               | 
-footer        |                                                                  72	  
+meta          |                                                                  72	  
 blank         | 	  
               | 	  
 text          | some Spanish language content in order to engage parents and children with little English
@@ -4282,7 +4282,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               73	  
+meta          |                                               73	  
 blank         | 	  
               | 	  
 text          |          Along with the iPad, I gave each family an “iBlason” protective case, which
@@ -4334,7 +4334,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               74	  
+meta          |                                               74	  
 blank         | 	  
               | 	  
 text          | family, the Morales’, had two smartphones, but their cellular data plans did not include
@@ -4386,7 +4386,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              75	  
+meta          |                                              75	  
 blank         | 	  
               | 	  
 text          | families as requested, and occasionally made suggestions or helped families download new
@@ -4438,7 +4438,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               76	  
+meta          |                                               76	  
 blank         | 	  
               | 	  
 text          | pass the iPad back so that we could look at the next app, and reassured them that after we
@@ -4485,7 +4485,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               77	  
+meta          |                                               77	  
 blank         | 	  
               | 	  
 title         | Survey Distribution
@@ -4537,7 +4537,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              78	  
+meta          |                                              78	  
 blank         | 	  
               | 	  
 text          | inspired by media, frequency of children’s educational media use on different platforms,
@@ -4591,7 +4591,7 @@ text          |       	  In	  order	  to	  recreate	  the	  online	
 blank         | 
               | 
               | 
-footer        |                                                                                                          79	  
+meta          |                                                                                                          79	  
 blank         | 	  
               | 	  
 text          | printed version I was given was somewhat difficult to understand because of the embedded
@@ -4643,7 +4643,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               80	  
+meta          |                                               80	  
 blank         | 	  
               | 	  
 text          | in syntax and I would expect that the opportunity to have these read orally as well as in
@@ -4691,7 +4691,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               81	  
+meta          |                                               81	  
 blank         | 	  
               | 	  
 title         | Data Analysis
@@ -4743,7 +4743,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   82	  
+meta          |                                                   82	  
 blank         | 	  
               | 	  
 text          | photographs illustrate the inventory for each family.
@@ -4795,7 +4795,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               83	  
+meta          |                                               83	  
 blank         | 	  
               | 	  
 text          | constructed based on my review of recorded video.
@@ -4854,7 +4854,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                               84	  
+meta          |                                                               84	  
 blank         | 	  
               | 	  
 text          |           Subcode: Translator       Instance reported or observed of family using         parent using YouTube videos
@@ -4921,7 +4921,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                 85	  
+meta          |                                                                 85	  
 blank         | 	  
               | 	  
 text          |        Lack of confidence with    Parent (or child) expresses lack of confidence      Parents describing how she
@@ -4980,7 +4980,7 @@ blank         |
 text          | the coding scheme.
 blank         | 
               | 
-footer        |                                                              86	  
+meta          |                                                              86	  
 blank         | 	  
               | 	  
 text          |        Finally, the quantitative data collected using AppStat on each family’s iPad
@@ -5030,7 +5030,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               87	  
+meta          |                                               87	  
 blank         | 	  
               | 	  
 text          | any, and how these compare with practices around other media platforms (TV, computer,
@@ -5076,7 +5076,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                88	  
+meta          |                                                88	  
 blank         | 	  
               | 	  
 title         | Thematic Organization of Chapters
@@ -5128,10 +5128,10 @@ blank         |
               | 
               | 
               | 
-footer        |                                               89	  
+meta          |                                               89	  
 blank         | 	  
               | 	  
-header        | CHAPTER THREE
+meta          | CHAPTER THREE
 blank         | 
 title         | INTRODUCING THE FAMILIES
 blank         | 
@@ -5179,7 +5179,7 @@ text          | before they could watch TV or play with apps or games, and I reg
 blank         | 
               | 
               | 
-footer        |                                              90	  
+meta          |                                              90	  
 blank         | 	  
               | 	  
 text          | checking their children’s homework and reviewing items with them (see Chapter Four for
@@ -5231,7 +5231,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              91	  
+meta          |                                              91	  
 blank         | 	  
               | 	  
 text          | most situations, although to varying degrees they were familiar with some English
@@ -5283,7 +5283,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              92	  
+meta          |                                              92	  
 blank         | 	  
               | 	  
 text          |           Table 3a (next two pages) provides a bird’s eye view of family members, child
@@ -5297,15 +5297,15 @@ blank         |
               | 
               | 
               | 
-footer        |                                             93	  
+meta          |                                             93	  
 blank         | 	  
               | 	  
               | 	  
               | 	  
-header        |    94	  
+meta          |    94	  
               |               Table 3a. Families and Media Practices At-a-Glance
               |             *commonly	  a	  joint	  parent-­‐child	  activity	  
-header        |        95	  
+meta          |        95	  
 blank         | 	  
               | 	  
 title         | Family Portraits
@@ -5357,7 +5357,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              96	  
+meta          |                                              96	  
 blank         | 	  
               | 	  
 text          | neighborhoods. Although Érica could use the shared apartment kitchen for cooking, the
@@ -5409,7 +5409,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               97	  
+meta          |                                               97	  
 blank         | 	  
               | 	  
 text          | they underwent many changes. They faced difficult challenges, such eventual eviction
@@ -5459,7 +5459,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              98	  
+meta          |                                              98	  
 blank         | 	  
               | 	  
 text          | neighborhood offered some playgrounds, going to parks or open spaces in other
@@ -5511,7 +5511,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              99	  
+meta          |                                              99	  
 blank         | 	  
               | 	  
 text          | some to take out. Due to the large Hispanic-Latino community in the Del Valle
@@ -5563,7 +5563,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             100	  
+meta          |                                             100	  
 blank         | 	  
               | 	  
 text          | lunch. At the point when the family received their iPad, they had just obtained their
@@ -5614,7 +5614,7 @@ blank         |
 text          | they downloaded from the App Store. Finally, at the end data collection, the family was
 blank         | 
               | 
-footer        |                                                        101	  
+meta          |                                                        101	  
 blank         | 	  
               | 	  
 text          | facing housing challenges; the family that subleased to them had moved and as informal
@@ -5628,7 +5628,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                            102	  
+meta          |                                            102	  
 blank         | 	  
               | 	  
 text          | The Rivera family:
@@ -5680,7 +5680,7 @@ text          | a night/weekend schedule and running her household. Her all-nigh
 blank         | 
               | 
               | 
-footer        |                                              103	  
+meta          |                                              103	  
 blank         | 	  
               | 	  
 text          | local sports complex meant she had to struggle to carve out at least some time to sleep
@@ -5732,7 +5732,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             104	  
+meta          |                                             104	  
 blank         | 	  
               | 	  
 text          | volcanoes and the like. She also loved to hula-hoop and do gymnastics. Jessica’s Spanish
@@ -5784,7 +5784,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             105	  
+meta          |                                             105	  
 blank         | 	  
               | 	  
 text          | the course of the study. Rebeca’s neighbors and friends provided support, for example,
@@ -5836,7 +5836,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             106	  
+meta          |                                             106	  
 blank         | 	  
               | 	  
 text          | the wall farthest from the kitchen, a small dining table, a desk that initially held the
@@ -5884,7 +5884,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                      107	  
+meta          |                                                      107	  
 blank         | 	  
               | 	  
 text          | were accustomed to using the extra iPhone and/or their mother’s to play games and
@@ -5930,7 +5930,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              108	  
+meta          |                                              108	  
 blank         | 	  
               | 	  
 text          | The Morales family:
@@ -5982,7 +5982,7 @@ text          | neighborhood has been historically African-American, but its mak
 blank         | 
               | 
               | 
-footer        |                                              109	  
+meta          |                                              109	  
 blank         | 	  
               | 	  
 text          | shifting to include more Hispanic-Latino residents as well as growing Caucasian, Asian-
@@ -6034,7 +6034,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              110	  
+meta          |                                              110	  
 blank         | 	  
               | 	  
 text          | such that it could be easily seen from the sofa or dining table. The furniture was re-
@@ -6086,7 +6086,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             111	  
+meta          |                                             111	  
 blank         | 	  
               | 	  
 text          | than some of the other parents in the study. They engaged in a narrower range of media
@@ -6134,7 +6134,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                     112	  
+meta          |                                                     112	  
 blank         | 	  
               | 	  
 text          |        In addition to the two televisions (one in the living area and the other in the
@@ -6186,7 +6186,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             113	  
+meta          |                                             113	  
 blank         | 	  
               | 	  
 text          | and relaxes, often with the television or other media, for a couple of hours before Estela
@@ -6210,7 +6210,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             114	  
+meta          |                                             114	  
 blank         | 	  
               | 	  
 text          | The Acosta family:
@@ -6262,7 +6262,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              115	  
+meta          |                                              115	  
 blank         | 	  
               | 	  
 text          |            Both Miguel and Natalia’s formal studies ended with primary school. Miguel
@@ -6314,7 +6314,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             116	  
+meta          |                                             116	  
 blank         | 	  
               | 	  
 text          | in their rooms, each having his own television. They do use the kitchen which is adjacent
@@ -6362,7 +6362,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             117	  
+meta          |                                             117	  
 blank         | 	  
               | 	  
 title         | Technology inventory and media routines
@@ -6412,7 +6412,7 @@ text          | Internet for a variety of purposes including paying expenses for
 blank         | 
               | 
               | 
-footer        |                                                     118	  
+meta          |                                                     118	  
 blank         | 	  
               | 	  
 text          | online, discount shopping and using Google Translate. Sometimes, the girls watched
@@ -6464,7 +6464,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             119	  
+meta          |                                             119	  
 blank         | 	  
               | 	  
 text          | do – could be harmful to the girls’ vision or future health. For this reason, although they
@@ -6480,7 +6480,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             120	  
+meta          |                                             120	  
 blank         | 	  
               | 	  
 text          | The Orozco family:
@@ -6532,7 +6532,7 @@ text          | Carmen’s mother mortgaged her home to pay the coyote fee to br
 blank         | 
               | 
               | 
-footer        |                                             121	  
+meta          |                                             121	  
 blank         | 	  
               | 	  
 text          | long and difficult trip with many hurdles and dangers, so that she could work and provide
@@ -6580,7 +6580,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              122	  
+meta          |                                              122	  
 blank         | 	  
               | 	  
 title         | Local Support Network
@@ -6632,7 +6632,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             123	  
+meta          |                                             123	  
 blank         | 	  
               | 	  
 text          | of the building. When leaving the Orozco’s home on a sunny day, passing through the
@@ -6688,7 +6688,7 @@ text          | morning with Carmen and Brandon, are especially precious to them
 blank         | 
               | 
               | 
-footer        |                                                       124	  
+meta          |                                                       124	  
 blank         | 	  
               | 	  
 text          |        From the time when the study began, Brandon seemed accustomed to using media
@@ -6716,7 +6716,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             125	  
+meta          |                                             125	  
 blank         | 	  
               | 	  
 text          | The Aguirre family: Lorena and Eduardo, Naomi (age 8) and Eduardo Jr. (age 6)
@@ -6768,7 +6768,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             126	  
+meta          |                                             126	  
 blank         | 	  
               | 	  
 text          | their own room (only they and the Orozco family had a separate child bedroom). A long
@@ -6820,7 +6820,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                 127	  
+meta          |                                                 127	  
 blank         | 	  
               | 	  
 text          | Lorena provided care for this niece and nephew once a week after school, and they
@@ -6872,7 +6872,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              128	  
+meta          |                                              128	  
 blank         | 	  
               | 	  
 text          | families had Apple iPhones but none had other Apple devices such as computers, iPods
@@ -6920,7 +6920,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                      129	  
+meta          |                                                      129	  
 blank         | 	  
               | 	  
 text          | considerable time with media particularly during school holidays, the children did not use
@@ -6952,7 +6952,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             130	  
+meta          |                                             130	  
 blank         | 	  
               | 	  
 text          | The Parra family: Karina and Jorge; Bryanna (age 6)
@@ -7004,7 +7004,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             131	  
+meta          |                                             131	  
 blank         | 	  
               | 	  
 text          | and anxiety when perpetrators of a fraud scheme called her cell phone and threatened to
@@ -7056,7 +7056,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             132	  
+meta          |                                             132	  
 blank         | 	  
               | 	  
 title         | Local Support Network
@@ -7106,7 +7106,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                            133	  
+meta          |                                            133	  
 blank         | 	  
               | 	  
 text          | spent with media includes using Facebook to keep up with friends and family, as well as
@@ -7157,7 +7157,7 @@ text          | Karina has also maintained her connection to Perú watching Peru
 blank         | 
               | 
               | 
-footer        |                                                     134	  
+meta          |                                                     134	  
 blank         | 	  
               | 	  
 text          | and other programs, usually on “SUZ Perú.” In addition to Peruvian programs on TV,
@@ -7179,10 +7179,10 @@ blank         |
               | 
               | 
               | 
-footer        |                                           135	  
+meta          |                                           135	  
 blank         | 	  
               | 	  
-header        | CHAPTER FOUR
+meta          | CHAPTER FOUR
 blank         | 
 title         | KNOWLEDGE-SEEKING ON THE INTERNET
 blank         | 
@@ -7230,7 +7230,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             136	  
+meta          |                                             136	  
 blank         | 	  
               | 	  
 text          |         This chapter presents data to support a major finding of this study: family media
@@ -7280,7 +7280,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                137	  
+meta          |                                                137	  
 blank         | 	  
               | 	  
 text          | cross-case patterns in greater detail. Table 4a, below, provides an overview of the
@@ -7347,7 +7347,7 @@ text          |   	  Note that Natalia Acosta used Google Translate for her we
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                                     138	  
+meta          |                                                                                                                                                                                                                                     138	  
 blank         | 	  
               | 	  
 text          | examples for this chapter, which overlapped in several cases with “media as language
@@ -7401,7 +7401,7 @@ text          |  As an example of what was excluded, some parents used apps to f
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                            139	  
+meta          |                                                                                                                                                                                                                            139	  
 blank         | 	  
               | 	  
 text          | Using translator apps to support children’s schoolwork and to explore words a child
@@ -7453,7 +7453,7 @@ text          | audio output (pronouncing words via speaker). The Android versio
 blank         | 
               | 
               | 
-footer        |                                             140	  
+meta          |                                             140	  
 blank         | 	  
               | 	  
 text          | able to detect and translate text from photographs, so for example users can take
@@ -7501,7 +7501,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             141	  
+meta          |                                             141	  
 blank         | 	  
               | 	  
 text          |                                                       Erica: …they give him Spanish and
@@ -7559,7 +7559,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                    142	  
+meta          |                                                    142	  
 blank         | 	  
               | 	  
 text          | one example during one of the four home visits where Naomi and her mother Lorena
@@ -7603,7 +7603,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                    143	  
+meta          |                                                    143	  
 blank         | 	  
               | 	  
 text          | mother as she went. This practice served a dual purpose, both allowing her mother to
@@ -7657,7 +7657,7 @@ text          |                                                               Lo
               | N: Mmm… 5 dólares…                                            cost 50 cents?
               |                                                               N: Mmmm… 5 dollars…
 blank         |                                                               	  
-footer        |                                                     144	  
+meta          |                                                     144	  
 blank         | 	  
               | 	  
 text          | From this point, Lorena was able to help Naomi reason through the math problem,
@@ -7717,7 +7717,7 @@ text          | both mother and daughter to understand.
               |                                                            N: 16 and 6, 22, and 20 is equal to… 7, 8…
 blank         | 
               | 
-footer        |                                                  145	  
+meta          |                                                  145	  
 blank         | 	  
               | 	  
 text          |                                                        L: Equals…
@@ -7772,7 +7772,7 @@ text          | paragraph in, the program will try to deduce, based on the conte
 blank         | 
               | 
               | 
-footer        |                                              146	  
+meta          |                                              146	  
 blank         | 	  
               | 	  
 text          | word to use. When translating words have multiple meanings, the translator apps did not
@@ -7824,7 +7824,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             147	  
+meta          |                                             147	  
 blank         | 	  
               | 	  
 text          | the homework instructions were asking. Furthermore, both Lorena and Naomi had
@@ -7876,7 +7876,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             148	  
+meta          |                                             148	  
 blank         | 	  
               | 	  
 text          | translate the word “stands,” the app
@@ -7928,7 +7928,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               149	  
+meta          |                                               149	  
 blank         | 	  
               | 	  
 text          | hypothesis is that because Mexico, along with most other nations, uses the metric system
@@ -7978,7 +7978,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              150	  
+meta          |                                              150	  
 blank         | 	  
               | 	  
 text          |             Finally, the translator app empowered the mothers to support their children in
@@ -8028,7 +8028,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               151	  
+meta          |                                               151	  
 blank         | 	  
               | 	  
 text          | José Rubén: [Brandon] dice, ¿como se llama,             José Rubén: [Brandon] says, “what’s it
@@ -8082,7 +8082,7 @@ text          | recognize the Latin American term and suggested the correction o
 blank         | 
               | 
               | 
-footer        |                                                   152	  
+meta          |                                                   152	  
 blank         | 	  
               | 	  
 text          | Brandon’s legitimate use of language and leading José Rubén to comment that he hadn’t
@@ -8127,7 +8127,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                153	  
+meta          |                                                153	  
 blank         | 	  
               | 	  
 text          | Rebeca: También si buscas en YouTube, por                  Rebeca: Also if you search on YouTube, for
@@ -8182,7 +8182,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  154	  
+meta          |                                                  154	  
 blank         | 	  
               | 	  
 text          |        As discussed in Chapter One, research findings comparing children’s learning from
@@ -8232,7 +8232,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                 155	  
+meta          |                                                 155	  
 blank         | 	  
               | 	  
 text          | students to read that they exchanged for new books each week. Parents in four families
@@ -8282,7 +8282,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              156	  
+meta          |                                              156	  
 blank         | 	  
               | 	  
 text          | Mother and sons would spend hours there, enjoying the collection of books and carefully
@@ -8332,7 +8332,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              157	  
+meta          |                                              157	  
 blank         | 	  
               | 	  
 text          | nonetheless, and searched through the wide range of categories and individual books
@@ -8376,7 +8376,7 @@ blank         |
 text          | covers and titles of several dozen English language books, encompassing a wide variety
 blank         | 
               | 
-footer        |                                                  158	  
+meta          |                                                  158	  
 blank         | 	  
               | 	  
 text          | of reading levels. The MyOn.com site offers an impressive array of materials and is
@@ -8416,7 +8416,7 @@ text          | Initially, Saúl appears somewhat hesitant about what he should 
 blank         | 
               | 
               | 
-footer        |                                                 159	  
+meta          |                                                 159	  
 blank         | 	  
               | 	  
 text          | Saúl: Toco uno? (Should I click one?)
@@ -8458,7 +8458,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  160	  
+meta          |                                                  160	  
 blank         | 	  
               | 	  
 text          | E: [leaning over Saúl as he reads] Trata de irlo pronunciando como él [the narrator] lo va
@@ -8497,7 +8497,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                    161	  
+meta          |                                                    161	  
 blank         | 	  
               | 	  
 text          | Figure 4h. Page from Crabbypants on MyOn.
@@ -8537,7 +8537,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                162	  
+meta          |                                                162	  
 blank         | 	  
               | 	  
 text          | where he chooses “Crabby Pants.” In exploring different reading materials, Saúl had
@@ -8589,7 +8589,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               163	  
+meta          |                                               163	  
 blank         | 	  
               | 	  
 text          | saw the point of the activity as a pronunciation exercise to “learn English,” not an act of
@@ -8632,7 +8632,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                     164	  
+meta          |                                                     164	  
 blank         | 	  
               | 	  
 text          | consistent with my observations of Érica when she guided her children to choose print
@@ -8684,7 +8684,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              165	  
+meta          |                                              165	  
 blank         | 	  
               | 	  
 text          | second language learners via ebooks, in particular from the out-of-school perspective,
@@ -8736,7 +8736,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              166	  
+meta          |                                              166	  
 blank         | 	  
               | 	  
 text          | 2000; Goldenberg, 1987). Érica’s motivation to further Saúl’s education and specifically
@@ -8788,7 +8788,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                167	  
+meta          |                                                167	  
 blank         | 	  
               | 	  
 text          | Martin Luther King, Jr., George Washington and other famous leaders Brandon wanted
@@ -8846,7 +8846,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                    168	  
+meta          |                                                    168	  
 blank         | 	  
               | 	  
 text          | as well. Brandon was also interested in animals, so father and son also
@@ -8896,7 +8896,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             169	  
+meta          |                                             169	  
 blank         | 	  
               | 	  
 text          | to span in-school and out-of-school settings, as well as how both content and parent
@@ -8949,7 +8949,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                       170	  
+meta          |                                                       170	  
 blank         | 	  
               | 	  
 text          |         The father quoted above, Miguel Acosta, a construction worker, used Google
@@ -8998,7 +8998,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   171	  
+meta          |                                                   171	  
 blank         | 	  
               | 	  
 text          |                                                           Miguel: So I felt that it was a letter that…
@@ -9059,7 +9059,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                        172	  
+meta          |                                                        172	  
 blank         | 	  
               | 	  
 text          | Spanish, English and the mechanics of the translator to create a product he felt
@@ -9124,7 +9124,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  173	  
+meta          |                                                  173	  
 blank         | 	  
               | 	  
 text          | E: Sabes… hay un pequeño problema. Han
@@ -9209,7 +9209,7 @@ text          | who used the translator the most. At the time of the study Natal
 blank         | 
               | 
               | 
-footer        |                                                    174	  
+meta          |                                                    174	  
 blank         | 	  
               | 	  
 text          | mothers in the study, was enrolled in English class. Natalia herself was taking two
@@ -9271,7 +9271,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                     175	  
+meta          |                                                     175	  
 blank         | 	  
               | 	  
 text          | confidence in her English skills, the option to write in Spanish and edit the app-generated
@@ -9312,7 +9312,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                      176	  
+meta          |                                                      176	  
 blank         | 	  
               | 	  
 text          |        While the translator played a supportive role in some aspects, one might also question
@@ -9365,7 +9365,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                177	  
+meta          |                                                177	  
 blank         | 	  
               | 	  
 text          | addition to using the app on her own, Érica also reported that six-year-old David
@@ -9417,7 +9417,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                            178	  
+meta          |                                            178	  
 blank         | 	  
               | 	  
 title         | Online Video for English instruction
@@ -9457,7 +9457,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              179	  
+meta          |                                              179	  
 blank         | 	  
               | 	  
 text          | Figure 4l. One of the English pronunciation videos Érica accessed on YouTube.
@@ -9493,7 +9493,7 @@ text          | “Te diste cuenta? Solo te pronuncia. Entonces después yo lo e
 blank         | 
               | 
               | 
-footer        |                                                     180	  
+meta          |                                                     180	  
 blank         | 	  
               | 	  
 text          | que significa.” (“The only thing I don’t like here is that it doesn’t say what things mean.
@@ -9545,7 +9545,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               181	  
+meta          |                                               181	  
 blank         | 	  
               | 	  
 text          | mothers were able to search for specific dishes and locate step-by-step cooking videos
@@ -9597,7 +9597,7 @@ text          | parents in this sample, who were also busy, managed to include t
 blank         | 
               | 
               | 
-footer        |                                             182	  
+meta          |                                             182	  
 blank         | 	  
               | 	  
 text          | when children were enrolled in school. For Natalia Acosta, who cared for her two-year-
@@ -9649,7 +9649,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             183	  
+meta          |                                             183	  
 blank         | 	  
               | 	  
 text          | used electronic translators to support their comprehension of assignments. Some parents
@@ -9701,7 +9701,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               184	  
+meta          |                                               184	  
 blank         | 	  
               | 	  
 text          | Tripp, 2009; Barron at al., 2014) and some focus on children of Hispanic-Latino
@@ -9751,7 +9751,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                185	  
+meta          |                                                185	  
 blank         | 	  
               | 	  
 title         | Chapter Conclusion
@@ -9803,7 +9803,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               186	  
+meta          |                                               186	  
 blank         | 	  
               | 	  
 text          | way the data presented here undermine deficit models of family learning in low-income
@@ -9829,10 +9829,10 @@ blank         |
               | 
               | 
               | 
-footer        |                                           187	  
+meta          |                                           187	  
 blank         | 	  
               | 	  
-header        | CHAPTER FIVE
+meta          | CHAPTER FIVE
 blank         | 
 title         | AFFORDANCES OF MEDIA FOR LEARNING IN THE LEISURE SPACE
 blank         | 
@@ -9881,7 +9881,7 @@ text          | extent games or apps provided a regular stream of spoken and wri
 blank         | 
               | 
               | 
-footer        |                                                188	  
+meta          |                                                188	  
 blank         | 	  
               | 	  
 text          | home environments of participating families. Children and their families engaged with a
@@ -9933,7 +9933,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               189	  
+meta          |                                               189	  
 blank         | 	  
               | 	  
 text          |        The four sections to follow correspond to four major findings that emerged from the
@@ -9985,7 +9985,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                190	  
+meta          |                                                190	  
 blank         | 	  
               | 	  
 text          |        Further, several empirical studies have asserted the potential for television to
@@ -10037,7 +10037,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                191	  
+meta          |                                                191	  
 blank         | 	  
               | 	  
 text          |      methodologically to do so in a comprehensive and reliable manner. Whether the families’
@@ -10088,7 +10088,7 @@ text          |      teachers – they also “brought” English into the home 
 blank         | 
               | 
               | 
-footer        |                                                       192	  
+meta          |                                                       192	  
 blank         |      	  
               |      	  
 text          | chose or that their parents selected for them (content which arguably may not have been
@@ -10140,7 +10140,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                 193	  
+meta          |                                                 193	  
 blank         | 	  
               | 	  
 text          | children, although they watched programs on their television set, often did so using
@@ -10181,7 +10181,7 @@ text          |     	  On	  the	  Families	  and	  Media	  survey,	
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                            194	  
+meta          |                                                                                                                                                                                                                            194	  
 blank         | 	  
               | 	  
 text          | Table 5a. Frequency of [five- to seven-year-old] child’s educational media activities. Responses of “once a week”
@@ -10241,7 +10241,7 @@ blank         |
 text          | TV) and games. This changing nature of media content and access complicates
 blank         | 
               | 
-footer        |                                                         195	  
+meta          |                                                         195	  
 blank         | 	  
               | 	  
 text          | traditional device-based measures of media use employed in, for example, large-scale
@@ -10293,7 +10293,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               196	  
+meta          |                                               196	  
 blank         | 	  
               | 	  
 text          | children selected videos based on the visual information presented (thumbnail images of
@@ -10345,7 +10345,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   197	  
+meta          |                                                   197	  
 blank         | 	  
               | 	  
 text          | Figure 5a. Images displayed upon finishing a YouTube video of Dora the Explorer. A grid of thumbnails leading
@@ -10382,7 +10382,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                     198	  
+meta          |                                                     198	  
 blank         | 	  
               | 	  
 text          | English and some in Spanish whether by choice or because of what was available at a
@@ -10444,7 +10444,7 @@ text          |  	  The	  laptop	  belonged	  to	  the	  children’
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                            199	  
+meta          |                                                                                                                                                                                                                            199	  
 blank         | 	  
               | 	  
 text          |                     Acosta         Aguirre      Martínez        Morales       Orozco   Parra          Rivera
@@ -10507,7 +10507,7 @@ text          | and games family members in the sample used, such as the popular
 blank         | 
               | 
               | 
-footer        |                                                            200	  
+meta          |                                                            200	  
 blank         | 	  
               | 	  
 text          | Minecraft, did not provide any apparent affordances for language or literacy, as they did
@@ -10568,7 +10568,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                         201	  
+meta          |                                                         201	  
 blank         | 	  
               | 	  
 text          | few included features that could be useful for language or literacy learning, if users
@@ -10618,7 +10618,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              202	  
+meta          |                                              202	  
 blank         | 	  
               | 	  
 text          |        The video game Halo, which Saúl and David Martínez played on the family laptop,
@@ -10666,7 +10666,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             203	  
+meta          |                                             203	  
 blank         | 	  
               | 	  
 text          | Figure 5b. My Froggy Stuff video on making doll tree house (initial cardboard construction/final touches
@@ -10728,7 +10728,7 @@ blank         |
 text          | English. This example also illustrates how one media genre (in this case a non-
 blank         | 
               | 
-footer        |                                                       204	  
+meta          |                                                       204	  
 blank         | 	  
               | 	  
 text          | educational cartoon show) led to engagement in an interest-based, hands-on activity – in
@@ -10738,7 +10738,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                           205	  
+meta          |                                           205	  
 blank         | 	  
               | 	  
 title         | II. Parent Beliefs: Media as a Language Learning Resource
@@ -10792,7 +10792,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                    206	  
+meta          |                                                    206	  
 blank         | 	  
               | 	  
 text          |        On surveys and in interviews, all parents expressed the view that media in English
@@ -10842,7 +10842,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                     207	  
+meta          |                                                     207	  
 blank         | 	  
               | 	  
 text          | Table 5e. Case parents’ perception of children’s English language learning from media (platforms not
@@ -10883,7 +10883,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                     208	  
+meta          |                                                     208	  
 blank         | 	  
               | 	  
 text          | Table 5f. Case parents’ responses to survey item regarding educational media as a catalyst for learning activities.
@@ -10939,7 +10939,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                          209	  
+meta          |                                                          209	  
 blank         | 	  
               | 	  
 text          |                                                      Karina: Because when she was little I put
@@ -11007,7 +11007,7 @@ blank         |
 text          | English a lot that way”), echoing other parents’ theory that language learning is occurring
 blank         | 
               | 
-footer        |                                                    210	  
+meta          |                                                    210	  
 blank         | 	  
               | 	  
 text          | when children repeated or interacted with programs. In addition to Bubble Guppies,
@@ -11055,7 +11055,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               211	  
+meta          |                                               211	  
 blank         | 	  
               | 	  
 text          |                                                       Rebeca: Yes, yes, yes for example more… I
@@ -11118,7 +11118,7 @@ text          | understand the meaning of something they identified in a program
 blank         | 
               | 
               | 
-footer        |                                                    212	  
+meta          |                                                    212	  
 blank         | 	  
               | 	  
 text          | Brandon’s father José Rubén, who works in a supermarket and considers himself to have
@@ -11172,7 +11172,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                    213	  
+meta          |                                                    213	  
 blank         | 	  
               | 	  
 text          |        However, parents in two families did feel they improved their English by choosing
@@ -11235,7 +11235,7 @@ text          | learners have shown positive language gains from watching subtit
 blank         | 
               | 
               | 
-footer        |                                                        214	  
+meta          |                                                        214	  
 blank         | 	  
               | 	  
 text          | media (Kuppens, 2010; d’Ydewalle & Van de Poel, 1999) as well as media with same-
@@ -11287,7 +11287,7 @@ text          |   This research does not specifically address learners whose L1 
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                            215	  
+meta          |                                                                                                                                                                                                                            215	  
 blank         | 	  
               | 	  
 text          | José Rubén: Entonces ahí es donde ha ido               José Rubén: So that’s where he has been learning
@@ -11342,7 +11342,7 @@ text          | and locating quality apps was a challenge in the current app mar
 blank         | 
               | 
               | 
-footer        |                                                      216	  
+meta          |                                                      216	  
 blank         | 	  
               | 	  
 text          |           To summarize this section, parents perceived that the media content their children
@@ -11394,7 +11394,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               217	  
+meta          |                                               217	  
 blank         | 	  
               | 	  
 text          | parents or friends when they visited. Like Bryanna, other children took photos with their
@@ -11447,7 +11447,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                        218	  
+meta          |                                                        218	  
 blank         | 	  
               | 	  
 text          | Network incorporate media production as a principal activity for learning with
@@ -11503,7 +11503,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   219	  
+meta          |                                                   219	  
 blank         | 	  
               | 	  
 text          | In addition to encouraging these production activities, Eduardo also pursued media
@@ -11559,7 +11559,7 @@ text          | a girl who produced her own webcast along with her group of frie
 blank         | 
               | 
               | 
-footer        |                                                      220	  
+meta          |                                                      220	  
 blank         | 	  
               | 	  
 text          | iPod touch, Naomi created her “shows” featuring herself in the role of presenter (as Carly
@@ -11603,7 +11603,7 @@ text          | naturaleza (nature). Throughout the video, the children alternat
 blank         | 
               | 
               | 
-footer        |                                                      221	  
+meta          |                                                      221	  
 blank         | 	  
               | 	  
 text          | camera while the other one records, and move back and forth between comments or
@@ -11662,7 +11662,7 @@ text          | Naomi: Ahora, hablaremos de cosas electrónicas,             Nao
               |                                                             Eduardo: Charging, charging the iPod.
 blank         |                                                             	  
               | 
-footer        |                                                       222	  
+meta          |                                                       222	  
 blank         | 	  
               | 	  
 text          |                                                         Naomi: Like this [camera shows bedside
@@ -11719,7 +11719,7 @@ text          | into it. Shooting video during outings and taking photos was a p
 blank         | 
               | 
               | 
-footer        |                                                   223	  
+meta          |                                                   223	  
 blank         | 	  
               | 	  
 text          | and the family also enjoyed reviewing what they had recorded, connecting their photo or
@@ -11769,7 +11769,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              224	  
+meta          |                                              224	  
 blank         | 	  
               | 	  
 text          |        Figure 5d. Amanda and Susi Acosta watch video of Amanda’s preschool graduation (left); image from the
@@ -11812,7 +11812,7 @@ text          | soundtracks of television and video but also via onscreen text. 
 blank         | 
               | 
               | 
-footer        |                                                      225	  
+meta          |                                                      225	  
 blank         | 	  
               | 	  
 text          | examples from both qualitative and quantitative data that show parents’ perception of
@@ -11864,10 +11864,10 @@ blank         |
               | 
               | 
               | 
-footer        |                                             226	  
+meta          |                                             226	  
 blank         | 	  
               | 	  
-header        | CHAPTER SIX
+meta          | CHAPTER SIX
 blank         | 
 title         | FAMILIES’ SOCIAL NETWORKS
               | AND THEIR INFLUENCE ON MEDIA PRACTICES
@@ -11916,7 +11916,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                            227	  
+meta          |                                            227	  
 blank         | 	  
               | 	  
 text          | The two sections that follow explore each of these topics based on interview, observation
@@ -11964,7 +11964,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              228	  
+meta          |                                              228	  
 blank         | 	  
               | 	  
 text          | Table 6a. Comparison of Hispanic-Latino parents’ sources for finding media between mainly/only English-
@@ -12019,7 +12019,7 @@ blank         |
 text          | interviews shed further light on this theme and provided rich examples as well as ways
 blank         | 
               | 
-footer        |                                                                         229	  
+meta          |                                                                         229	  
 blank         | 	  
               | 	  
 text          | that social connections influenced the language of media content. These examples show
@@ -12073,7 +12073,7 @@ text          |  	  Eduardo:	  al	  principio,	  antes	  de	  que	 
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                            230	  
+meta          |                                                                                                                                                                                                                            230	  
 blank         | 	  
               | 	  
 text          |                                                              Lorena: Because my nephew speaks more
@@ -12142,7 +12142,7 @@ blank         |
 text          | second cousin) who lived approximately forty-five minutes away. Brandon particularly
 blank         | 
               | 
-footer        |                                                    231	  
+meta          |                                                    231	  
 blank         | 	  
               | 	  
 text          | enjoyed playing superhero games with his cousin on his cousin’s Wii console. This topic
@@ -12197,7 +12197,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                       232	  
+meta          |                                                       232	  
 blank         | 	  
               | 	  
 text          | Table 6b. Local relatives, language and technology15
@@ -12259,7 +12259,7 @@ text          |    Although some families had fewer or no local extended family 
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                                       233	  
+meta          |                                                                                                                                                                                                                                       233	  
 blank         | 	  
               | 	  
 text          | her mother’s phone due to the low cellular reception. To Sara’s surprise, Estela opened
@@ -12313,7 +12313,7 @@ text          | Distance from family members, which in some cases included sons 
 blank         | 
               | 
               | 
-footer        |                                                234	  
+meta          |                                                234	  
 blank         | 	  
               | 	  
 text          | growing up overseas, was difficult and emotionally charged. Families’ experiences
@@ -12367,7 +12367,7 @@ text          |             	  The Orozco and Parra families were the only one
 blank         | 
               | 
               | 
-footer        |                                                                                                         235	  
+meta          |                                                                                                         235	  
 blank         | 	  
               | 	  
 text          | photos of him as his health improved so that she could see that he was in fact getting
@@ -12423,7 +12423,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                236	  
+meta          |                                                236	  
 blank         | 	  
               | 	  
 text          | ubiquitous in Latin America, new media capabilities become a powerful motivator for
@@ -12480,7 +12480,7 @@ blank         |
 text          | international channels also allowed parents to connect with media outlets directly from
 blank         | 
               | 
-footer        |                                                        237	  
+meta          |                                                        237	  
 blank         | 	  
               | 	  
 text          | their countries of origin. These programs helped maintain a link with parents’ native
@@ -12532,7 +12532,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             238	  
+meta          |                                             238	  
 blank         | 	  
               | 	  
 text          | these social influences may also shift children’s exposure to the dominant language and
@@ -12584,7 +12584,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             239	  
+meta          |                                             239	  
 blank         | 	  
               | 	  
 text          | in other instances or with other families, it raised the question of whether and how social
@@ -12626,10 +12626,10 @@ blank         |
               | 
               | 
               | 
-footer        |                                             240	  
+meta          |                                             240	  
 blank         | 	  
               | 	  
-header        | CHAPTER SEVEN
+meta          | CHAPTER SEVEN
 blank         | 
 title         | ALGO DIFERENTE: THE ROLE OF A NEWLY INTRODUCED TABLET
 blank         | 
@@ -12678,7 +12678,7 @@ text          | new opportunities and possible disadvantages both of these aspec
 blank         | 
               | 
               | 
-footer        |                                                241	  
+meta          |                                                241	  
 blank         | 	  
               | 	  
 text          | analysis of the qualitative data, supported by the quantitative reports from AppStat and
@@ -12730,7 +12730,7 @@ text          | in the past, and this merits attention as well because it inform
 blank         | 
               | 
               | 
-footer        |                                             242	  
+meta          |                                             242	  
 blank         | 	  
               | 	  
 text          | and how media use habits develop, and how difficult these may be to alter once they are
@@ -12780,7 +12780,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              243	  
+meta          |                                              243	  
 blank         | 	  
               | 	  
 text          | and storytelling, activities that share features across more traditional and electronic or
@@ -12832,7 +12832,7 @@ text          | continue on to the next one. For every family, I had taken note 
 blank         | 
               | 
               | 
-footer        |                                              244	  
+meta          |                                              244	  
 blank         | 	  
               | 	  
 text          | interests and favorite media characters, and installed a small selection of apps tailored to
@@ -12888,7 +12888,7 @@ blank         |
 text          | currently offer individual accounts for each user as do the operating systems on Apple
 blank         | 
               | 
-footer        |                                                       245	  
+meta          |                                                       245	  
 blank         | 	  
               | 	  
 text          | laptop or desktop computers. For this reason, I relied on interview data to learn about
@@ -12942,7 +12942,7 @@ text          |             	  13 out of the 14 parents had smartphones at the
 blank         | 
               | 
               | 
-footer        |                                                                                                        246	  
+meta          |                                                                                                        246	  
 blank         | 	  
               | 	  
 text          | interface. However prior experience with iOS did not appear related to how much
@@ -12994,7 +12994,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                247	  
+meta          |                                                247	  
 blank         | 	  
               | 	  
 text          | an account. In contrast, most of the children’s apps did not require such preliminary
@@ -13048,7 +13048,7 @@ text          |   See the Morales family portrait in Chapter Three regarding Sar
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                            248	  
+meta          |                                                                                                                                                                                                                            248	  
 blank         | 	  
               | 	  
 text          | the iPads were supposed to be used mainly by the children as well, perhaps in part due to
@@ -13102,7 +13102,7 @@ text          |   	  Note	  that	  “other”	  apps	  refers	  to	
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                            249	  
+meta          |                                                                                                                                                                                                                            249	  
 blank         | 	  
               | 	  
 text          | also downloaded other apps (not represented in the table). In some cases these “family
@@ -13156,7 +13156,7 @@ text          | before when the boys occupied it for game play. Saúl Sr. began 
 blank         | 
               | 
               | 
-footer        |                                                            250	  
+meta          |                                                            250	  
 blank         | 	  
               | 	  
 text          | to research farming techniques that he might pursue if the family succeeded in their plan
@@ -13208,7 +13208,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                            251	  
+meta          |                                            251	  
 blank         | 	  
               | 	  
 text          |   most families had routines of watching cartoons or movies on television, the Rivera
@@ -13260,7 +13260,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                        252	  
+meta          |                                                        252	  
 blank         |   	  
               |   	  
 text          | YouTube videos. Other times, children were engaging in new activities via the apps that
@@ -13310,7 +13310,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              253	  
+meta          |                                              253	  
 blank         | 	  
               | 	  
 text          | games but they were largely action/adventure games. With the iPad they now had access
@@ -13364,7 +13364,7 @@ text          |   	  Note	  that	  the	  Morales,	  Parra	  and	  
 blank         | 
               | 
               | 
-footer        |                                                                                                             254	  
+meta          |                                                                                                             254	  
 blank         | 	  
               | 	  
 text          | were ebooks, phonics apps and creative storytelling apps.21 As the data in Table 7c shows,
@@ -13422,7 +13422,7 @@ text          |  	  The	  “other”	  category	  is	  not	  a	  
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                                        255	  
+meta          |                                                                                                                                                                                                                                        255	  
 blank         | 	  
               | 	  
 text          |                       Examples of language and literacy experiences with the iPad apps abound in
@@ -13469,7 +13469,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                            256	  
+meta          |                                                                            256	  
 blank         | 	  
               | 	  
 text          | individual apps, although examples always note the specific app was used. Table 7d
@@ -13495,7 +13495,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             257	  
+meta          |                                             257	  
 blank         | 	  
               | 	  
 title         | V. Ebook Use on the iPads
@@ -13553,7 +13553,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                     258	  
+meta          |                                                     258	  
 blank         | 	  
               | 	  
 text          | Reading Rainbow (a virtual library of ebooks), emerged among the language- and
@@ -13604,7 +13604,7 @@ blank         |
 text          | with their children on the iPad, and that they felt the activity enhanced their own
 blank         | 
               | 
-footer        |                                                    259	  
+meta          |                                                    259	  
 blank         | 	  
               | 	  
 text          | language learning as well as their child’s learning. It is important to note the narration
@@ -13654,7 +13654,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             260	  
+meta          |                                             260	  
 blank         | 	  
               | 	  
 text          | free without a subscription. Subscriptions at the time of data collection were $9.99 per
@@ -13697,7 +13697,7 @@ text          | the programs Estela enjoyed, and based on that interest I includ
 blank         | 
               | 
               | 
-footer        |                                                    261	  
+meta          |                                                    261	  
 blank         | 	  
               | 	  
 text          | at the End of this Book for that family. Again, I was much more successful in finding a
@@ -13749,7 +13749,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             262	  
+meta          |                                             262	  
 blank         | 	  
               | 	  
 text          | whereas other apps simply did not offer such a wide range of content choices (except for
@@ -13803,7 +13803,7 @@ text          |   Reading Rainbow does not provide data on precisely which video
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                            263	  
+meta          |                                                                                                                                                                                                                            263	  
 blank         | 	  
               | 	  
 text          | a wild penguin from afar. Estela proceeded to download the book and read about/listen
@@ -13850,7 +13850,7 @@ text          | Jessica enjoyed checking out science-related books (in addition 
 blank         | 
               | 
               | 
-footer        |                                             264	  
+meta          |                                             264	  
 blank         | 	  
               | 	  
 text          | For example, one book she had brought home and was exploring during a visit featured
@@ -13906,7 +13906,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                               265	  
+meta          |                                                               265	  
 blank         | 	  
               | 	  
 text          |        10. A Picture Book of Martin Luther King, Jr.                   17.0
@@ -13954,10 +13954,10 @@ text          | on her own.
 blank         | 
               | 
               | 
-footer        |                                                        266	  
+meta          |                                                        266	  
 blank         | 	  
               | 	  
-text          | Brandon: Exploring Historical Figures at Home
+title         | Brandon: Exploring Historical Figures at Home
 blank         | 
 text          |        First-grader Brandon Orozco, like most other children in the study, had not used
 blank         | 
@@ -14004,7 +14004,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               267	  
+meta          |                                               267	  
 blank         | 	  
               | 	  
 text          | backpack, all from the same Picture Book Biography series. Brandon’s explanation
@@ -14056,7 +14056,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             268	  
+meta          |                                             268	  
 blank         | 	  
               | 	  
 text          | liked the Barefoot World Atlas app that the children played on Brandon’s iPad, so much
@@ -14103,7 +14103,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                       269	  
+meta          |                                                       269	  
 blank         | 	  
               | 	  
 text          |        To use Hidi and Renninger’s framework, Jessica and Brandon’s examples some
@@ -14155,7 +14155,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              270	  
+meta          |                                              270	  
 blank         | 	  
               | 	  
 text          | television, but to simultaneously read the text being spoken with the option of returning
@@ -14207,7 +14207,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              271	  
+meta          |                                              271	  
 blank         | 	  
               | 	  
 text          | not offer instructions or questions to the children, but she did interact with them at certain
@@ -14281,7 +14281,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   272	  
+meta          |                                                   272	  
 blank         | 	  
               | 	  
 text          | Figure 7e. Amanda and Susi Acosta reading the Toy Story ebook with their mother Natalia
@@ -14318,7 +14318,7 @@ text          | study, Rebeca had the most English proficiency, and she was the 
 blank         | 
               | 
               | 
-footer        |                                                    273	  
+meta          |                                                    273	  
 blank         | 	  
               | 	  
 text          | reported reading the ebooks both with and without narration (reading the story aloud
@@ -14370,7 +14370,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              274	  
+meta          |                                              274	  
 blank         | 	  
               | 	  
 text          | (average of 10 minutes per week) and 1329 total minutes (average of 110 minutes per
@@ -14422,7 +14422,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             275	  
+meta          |                                             275	  
 blank         | 	  
               | 	  
 text          |              In guiding the children to use ebooks, Érica appeared to apply some of the
@@ -14477,7 +14477,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                      276	  
+meta          |                                                      276	  
 blank         | 	  
               | 	  
 text          | affirmative, and Saúl continued browsing. Érica’s example of a book she felt was fun
@@ -14527,7 +14527,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                    277	  
+meta          |                                                    277	  
 blank         | 	  
               | 	  
 text          | Narration: He wanted to put the ‘I hate you’      Narration: He wanted to put the ‘I hate you’ back
@@ -14580,7 +14580,7 @@ blank         |
 text          | English skills. The question raised in Chapter Four based on Saúl Martínez’ use of
 blank         | 
               | 
-footer        |                                                   278	  
+meta          |                                                   278	  
 blank         | 	  
               | 	  
 text          | MyOn.com can also be applied to the use of ebooks with the iPad. In some cases, the
@@ -14632,7 +14632,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              279	  
+meta          |                                              279	  
 blank         | 	  
               | 	  
 text          | discussed in more depth in Chapter Eight, what are the opportunities to create electronic
@@ -14683,7 +14683,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              280	  
+meta          |                                              280	  
 blank         | 	  
               | 	  
 text          | Maker and Princess Fairytale Maker provide more basic functions – selecting one
@@ -14727,7 +14727,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              281	  
+meta          |                                              281	  
 blank         | 	  
               | 	  
 text          |                        Table	  7h.	  Total	  minutes	  using	  individual	  creative	  storytelling	  apps,	  	  
@@ -14781,7 +14781,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                        282	  
+meta          |                                                                        282	  
 blank         | 	  
               | 	  
 text          |             Children in the study used the creative storytelling tools in varying ways and
@@ -14833,7 +14833,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              283	  
+meta          |                                              283	  
 blank         | 	  
               | 	  
 text          | With the tools provided on the iPad, Bryanna expanded on this practice via the scaffolded
@@ -14885,7 +14885,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              284	  
+meta          |                                              284	  
 blank         | 	  
               | 	  
 text          |        At the time of the ABI interview at the Aguirre home (the second-to-last visit with
@@ -14928,7 +14928,7 @@ text          | app. She also supported her younger brother when he recorded sto
 blank         | 
               | 
               | 
-footer        |                                                      285	  
+meta          |                                                      285	  
 blank         | 	  
               | 	  
 text          | Naomi recorded Eduardo would sometimes lose interest and seek out something else to
@@ -14968,7 +14968,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                      286	  
+meta          |                                                      286	  
 blank         | 	  
               | 	  
 text          | VII. What dynamics and media practices arose in relationship to the iPad device
@@ -15018,7 +15018,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              287	  
+meta          |                                              287	  
 blank         | 	  
               | 	  
 text          | which requires more exact movements. José Rubén Orozco expressed he felt the iPad was
@@ -15073,7 +15073,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                       288	  
+meta          |                                                       288	  
 blank         | 	  
               | 	  
 text          | disadvantages or challenges that they had encountered with the devices. However,
@@ -15125,7 +15125,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             289	  
+meta          |                                             289	  
 blank         | 	  
               | 	  
 text          |        For Érica Martínez and her family, for whom several impactful changes to their
@@ -15177,7 +15177,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             290	  
+meta          |                                             290	  
 blank         | 	  
               | 	  
 text          | they had used smartphones or televisions before. This finding raises the issue of how
@@ -15229,7 +15229,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             291	  
+meta          |                                             291	  
 blank         | 	  
               | 	  
 text          | others. She also instructed them look at the “size” specifications and not to download
@@ -15281,7 +15281,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             292	  
+meta          |                                             292	  
 blank         | 	  
               | 	  
 text          | channel My Froggy Stuff. It is difficult to compare children’s use of YouTube videos
@@ -15333,7 +15333,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             293	  
+meta          |                                             293	  
 blank         | 	  
               | 	  
 text          | interesting to note the differences from a gender perspective. Although these were four
@@ -15377,7 +15377,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             294	  
+meta          |                                             294	  
 blank         | 	  
               | 	  
 text          | Figure 7i & 7j. Images of AppStat reports from the Martínez family, with two boys (left) and the
@@ -15413,7 +15413,7 @@ blank         |
 text          | addition to the “core” selection of apps I also provided a few “elective” apps that were
 blank         | 
               | 
-footer        |                                                      295	  
+meta          |                                                      295	  
 blank         | 	  
               | 	  
 text          | chosen specifically in relationship to children’s age and interests. Many of the “custom”
@@ -15465,7 +15465,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             296	  
+meta          |                                             296	  
 blank         | 	  
               | 	  
 text          | extensively by Giles (2002), reveals various ways that people develop potentially
@@ -15516,7 +15516,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              297	  
+meta          |                                              297	  
 blank         | 	  
               | 	  
 text          |            In terms of the language and literacy experiences that were documented
@@ -15550,10 +15550,10 @@ blank         |
               | 
               | 
               | 
-footer        |                                              298	  
+meta          |                                              298	  
 blank         | 	  
               | 	  
-header        | CHAPTER EIGHT
+meta          | CHAPTER EIGHT
 blank         | 
 title         | DISCUSSION AND IMPLICATIONS
 blank         | 
@@ -15602,7 +15602,7 @@ text          | media be useful to families? In what ways are families leveragin
 blank         | 
               | 
               | 
-footer        |                                               299	  
+meta          |                                               299	  
 blank         | 	  
               | 	  
 text          | explore interests? Finally, recognizing that access to tools can be a barrier in some cases,
@@ -15653,7 +15653,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              300	  
+meta          |                                              300	  
 blank         | 	  
               | 	  
 text          | were using them in a wide range of ways, with variations in parents’ comfort level and
@@ -15701,7 +15701,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             301	  
+meta          |                                             301	  
 blank         | 	  
               | 	  
 title         | Bridging Home and School Settings
@@ -15753,7 +15753,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                302	  
+meta          |                                                302	  
 blank         | 	  
               | 	  
 text          | The use of translator apps to understand English-language instructions on children’s
@@ -15805,7 +15805,7 @@ text          | to fit his own language and literacy strengths, and this adaptat
 blank         | 
               | 
               | 
-footer        |                                              303	  
+meta          |                                              303	  
 blank         | 	  
               | 	  
 text          | letter in English. Thus, families’ intentional and inventive uses of Internet tools for
@@ -15857,7 +15857,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              304	  
+meta          |                                              304	  
 blank         | 	  
               | 	  
 text          | English language learning. Quantitative and qualitative data align to show how media can
@@ -15909,7 +15909,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              305	  
+meta          |                                              305	  
 blank         | 	  
               | 	  
 text          | the app selection process and the analysis of apps that families were using prior to the
@@ -15961,7 +15961,7 @@ text          | or observations that parents aware or making use of these kinds 
 blank         | 
               | 
               | 
-footer        |                                             306	  
+meta          |                                             306	  
 blank         | 	  
               | 	  
 text          | informational resources. Rather, for these families the relatives, friends and teachers in
@@ -16011,7 +16011,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              307	  
+meta          |                                              307	  
 blank         | 	  
               | 	  
 text          |        Social ties were also important motivators of media and technology use for
@@ -16063,7 +16063,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             308	  
+meta          |                                             308	  
 blank         | 	  
               | 	  
 text          | immigrant families using these types of technologies (or even reading traditional books
@@ -16107,7 +16107,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               309	  
+meta          |                                               309	  
 blank         | 	  
               | 	  
 text          | begun to analyze the value of these tools for English learners in particular. In the present
@@ -16159,7 +16159,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               310	  
+meta          |                                               310	  
 blank         | 	  
               | 	  
 text          |  3.      what is the significance of the book’s content for the child and/or parent’s life more
@@ -16207,7 +16207,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               311	  
+meta          |                                               311	  
 blank         | 	  
               | 	  
 title         | Creative Storytelling Tools
@@ -16259,7 +16259,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              312	  
+meta          |                                              312	  
 blank         | 	  
               | 	  
 text          | be used for. While some children were not accustomed to choosing and downloading
@@ -16311,7 +16311,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             313	  
+meta          |                                             313	  
 blank         | 	  
               | 	  
 text          |        However, media content was an important factor in inviting co-engagement by
@@ -16359,7 +16359,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             314	  
+meta          |                                             314	  
 blank         | 	  
               | 	  
 text          | Finding 6: There are currently few digital resources available that are designed for
@@ -16411,7 +16411,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             315	  
+meta          |                                             315	  
 blank         | 	  
               | 	  
 text          | parents to understand content first in their native language, and then approach the
@@ -16463,7 +16463,7 @@ text          | might explore to support children and families who are learning 
 blank         | 
               | 
               | 
-footer        |                                             316	  
+meta          |                                             316	  
 blank         | 	  
               | 	  
 text          | language and literacy skills. Ebooks and creative storytelling tools appeared to engage
@@ -16511,7 +16511,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                317	  
+meta          |                                                317	  
 blank         | 	  
               | 	  
 text          | opportunity to support collaborative learning practices between parent and child. With
@@ -16563,7 +16563,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              318	  
+meta          |                                              318	  
 blank         | 	  
               | 	  
 text          | between the different scenes they were creating. Children may have benefited more from
@@ -16615,7 +16615,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              319	  
+meta          |                                              319	  
 blank         | 	  
               | 	  
 text          | access, either via smartphones or broadband connection, and in some communities access
@@ -16667,7 +16667,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             320	  
+meta          |                                             320	  
 blank         | 	  
               | 	  
 text          | Hispanic-Latino parents (and likely parents from other demographics as well) both desire
@@ -16718,7 +16718,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             321	  
+meta          |                                             321	  
 blank         | 	  
               | 	  
 text          | that can lead to more specific recommendations to implement in schools and
@@ -16770,7 +16770,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             322	  
+meta          |                                             322	  
 blank         | 	  
               | 	  
 text          | media, videoconferencing and text messages to understand: first, how the use of these
@@ -16820,7 +16820,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              323	  
+meta          |                                              323	  
 blank         | 	  
               | 	  
 text          |        First, with regard to generalizability, due to the in-depth nature of this research,
@@ -16872,7 +16872,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                              324	  
+meta          |                                              324	  
 blank         | 	  
               | 	  
 text          | addressed this issue by asking family members about how they used the apps that the
@@ -16918,7 +16918,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             325	  
+meta          |                                             325	  
 blank         | 	  
               | 	  
 title         | Conclusion
@@ -16958,7 +16958,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                             326	  
+meta          |                                             326	  
 blank         | 	  
               | 	  
 title         | Appendix A: Parent interview Protocols:
@@ -17013,7 +17013,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                 327	  
+meta          |                                                 327	  
 blank         | 	  
               | 	  
 text          |            ¿Cuáles connecciones observa Usted – si acaso – entre el aprender con los médios de
@@ -17042,7 +17042,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   328	  
+meta          |                                                   328	  
 blank         | 	  
               | 	  
 title         | INTERVIEW PROTOCOL: Parent Interview 2
@@ -17094,7 +17094,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                    329	  
+meta          |                                                    329	  
 blank         | 	  
               | 	  
 text          |        8. Si Ud pensara en la rutina diária de su familia al comienzo de las visitas en
@@ -17137,7 +17137,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                               330	  
+meta          |                                               330	  
 blank         | 	  
               | 	  
 title         | Appendix B: Instructions and explanations distributed with iPads
@@ -17188,7 +17188,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                     331	  
+meta          |                                                     331	  
 blank         |    	  
               |    	  
 text          |        -­‐   Por favor no hesite de añadir o borrar cualquier aplicativo que desea, sólo pido
@@ -17221,7 +17221,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  332	  
+meta          |                                                  332	  
 blank         | 	  
               | 	  
 title         | Aplicaciones instaladas en el iPad:
@@ -17273,7 +17273,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                333	  
+meta          |                                                333	  
 blank         | 	  
               | 	  
 text          | Reading Rainbow: Biblioteca electrónica e libros infantiles. Busque libros por las “islas”
@@ -17324,7 +17324,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                            334	  
+meta          |                                            334	  
 blank         | 	  
               | 	  
 text          | Barefoot Atlas: Atlas del mundo para niños con textos informativos sobre animales,
@@ -17365,7 +17365,7 @@ blank         | 	  
               | 
               | 
               | 
-footer        |                                           335	  
+meta          |                                           335	  
 blank         | 	  
               | 	  
 title         |        Appendix C: Locating Case Families’ Survey Responses: Comparing to the
@@ -17420,7 +17420,7 @@ text          |   To confirm that parents who identified as Hispanic-Latino and 
 blank         | 
               | 
               | 
-footer        |                                                                                                                                                                                                                            336	  
+meta          |                                                                                                                                                                                                                            336	  
 blank         | 	  
               | 	  
 text          |        by applying one of the criteria used in selecting case families (speaking Spanish as the
@@ -17470,7 +17470,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  337	  
+meta          |                                                  337	  
 blank         | 	  
               | 	  
 text          |             Spanish-only group of the nationwide sample, 71 per cent of whom have less than a high
@@ -17507,7 +17507,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                   338	  
+meta          |                                                                                   338	  
 blank         |      	  
               |      	  
 text          |                   A comparison between devices and access among the case families in this
@@ -17549,7 +17549,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   339	  
+meta          |                                                   339	  
 blank         | 	  
               | 	  
 text          |                                Table	  C3.	  Device	  ownership	  and	  media	  access	  among	  	  
@@ -17593,7 +17593,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                  340	  
+meta          |                                                                  340	  
 blank         | 	  
               | 	  
 title         |        Technology and Learning
@@ -17627,7 +17627,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  341	  
+meta          |                                                  341	  
 blank         | 	  
               | 	  
 text          |        Table C4. How often parents “look up information or learn something new” via Internet (per cent)
@@ -17682,7 +17682,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                         342	  
+meta          |                                                                         342	  
 blank         | 	  
               | 	  
 text          |        Joint Media Engagement, a project led by Brigid Barron as part of the LIFE Center,
@@ -17734,7 +17734,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   343	  
+meta          |                                                   343	  
 blank         | 	  
               | 	  
 text          |            language learning shared in Chapter Five, and highlights the ways in which in non-
@@ -17755,7 +17755,7 @@ text          |                                                 Table	  C7.	 
               |                                                   media	  sparked	  learning-­‐related	  activities	  (includes	  all	  four	  
               |                                                                                  language	  groups)	  
 blank         | 
-footer        |                      100	  
+meta          |                      100	  
 blank         | 
 text          |                              80	                                                                               Only	  English	  
 blank         | 
@@ -17788,7 +17788,7 @@ text          | •          math
 blank         | 
               | 
               | 
-footer        |                                                                                                 344	  
+meta          |                                                                                                 344	  
 blank         |     	  
               |     	  
 text          | •          cognitive skills
@@ -17842,7 +17842,7 @@ text          |                 	  Only families who indicated their children 
 blank         |     	  
               | 
               | 
-footer        |                                                                                                              345	  
+meta          |                                                                                                              345	  
 blank         |     	  
               |     	  
 text          |        was a more popular answer among parents than “a lot” (ratios between the two vary
@@ -17896,7 +17896,7 @@ text          |        learning? Among these seven families, several of the patt
 blank         | 
               | 
               | 
-footer        |                                                             346	  
+meta          |                                                             346	  
 blank         | 	  
               | 	  
 text          |        sample were reflected. First, television/DVD was the media platform that parents
@@ -17950,7 +17950,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                           347	  
+meta          |                                                           347	  
 blank         | 	  
               | 	  
 text          |                Focusing in on “reading or vocabulary” learning, which speaks most directly to
@@ -18002,7 +18002,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                          348	  
+meta          |                                                          348	  
 blank         | 	  
               | 	  
 text          |        	              TV/DVD	       Video	  Games	               Computer	     Mobile	  
@@ -18035,7 +18035,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                 349	  
+meta          |                                                                 349	  
 blank         | 	  
               | 	  
 text          |                            Table	  C12.	  Percentage	  of	  parents	  who	  "strongly	  agree"	  or	  "somewhat	  
@@ -18090,7 +18090,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                                                    350	  
+meta          |                                                                                    350	  
 blank         | 	  
               | 	  
 text          |        somewhat more equipped, for example all case parents had smartphones, whereas only
@@ -18112,7 +18112,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                  351	  
+meta          |                                                  351	  
 blank         | 	  
               | 	  
 title         | List of References
@@ -18167,7 +18167,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                     352	  
+meta          |                                                     352	  
 blank         |     	  
               |     	  
 ref           | Bus, A. G., Verhallen, M. J. A. J., & de Jong M.T. (2009). How onscreen storybooks contribute to
@@ -18224,7 +18224,7 @@ ref           | Dugan, T.E., Stevens, R. & Mehus, S. (2010). From show, to room,
 blank         | 
               | 
               | 
-footer        |                                                   353	  
+meta          |                                                   353	  
 blank         |     	  
               |     	  
 ref           | Espinosa, L., Laffey, J., & Whittaker, T. (2006). Language Minority Children Analysis: Focus on
@@ -18280,7 +18280,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                   354	  
+meta          |                                                   354	  
 blank         |     	  
               |     	  
 ref           | Gutiérrez, K.D. & Rogoff, B. (2003). Cultural Ways of Learning: Individual Traits or Repertoires of
@@ -18336,7 +18336,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                     355	  
+meta          |                                                     355	  
 blank         |     	  
               |     	  
 ref           | Kendeou, P., Lynch, J. S., van den Broek, P., Espin, C. A., White, M. J., & Kremer, K. (2005).
@@ -18393,7 +18393,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                     356	  
+meta          |                                                     356	  
 blank         |     	  
               |     	  
 ref           | Liu, M. Navarrete, C. C., Maradiegue, E., and Wivagg, J. (accepted). Mobile Learning and English
@@ -18450,7 +18450,7 @@ ref           | Mumme, D.L. & Fernald, A. (2003). The Infant as Onlooker: Learni
 blank         | 
               | 
               | 
-footer        |                                                    357	  
+meta          |                                                    357	  
 blank         |     	  
               |     	  
 ref           | NAEYC (National Association for the Education of Young Children) (2012). Technology and
@@ -18506,7 +18506,7 @@ ref           | Riessman F. (1962). The Culturally Deprived Child. Harper & Row;
 blank         | 
               | 
               | 
-footer        |                                                    358	  
+meta          |                                                    358	  
 blank         |     	  
               |     	  
 ref           | Revelle, G., Reardon, E., Green, M.M., Betancourt, J. and Kotler, J. (2007). The Use of Mobile
@@ -18562,7 +18562,7 @@ ref           | Teale, W. H., & Sulzby, E. (1986). Emergent literacy as a perspe
 blank         | 
               | 
               | 
-footer        |                                                   359	  
+meta          |                                                   359	  
 blank         |     	  
               |     	  
 ref           | children become writers and readers. In: W. S. Teale (Ed.), Emergent literacy: Writing and reading
@@ -18619,7 +18619,7 @@ ref           | Walker, D., Greenwood, C., Hart, B. and Carta, J. (1994), Predic
 blank         | 
               | 
               | 
-footer        |                                                    360	  
+meta          |                                                    360	  
 blank         |     	  
               |     	  
 ref           | Early Language Production and Socioeconomic Factors. Child Development, 65, 606–621.
@@ -18654,7 +18654,7 @@ blank         |
               | 
               | 
               | 
-footer        |                                                    361	  
+meta          |                                                    361	  
 blank         |     	  
               |     	  
               | 
