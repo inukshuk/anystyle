@@ -1,4 +1,4 @@
-./doc
+/doc
 lib/anystyle/data/*.db
 lib/anystyle/data/*.kch
 lib/anystyle/data/*.dbm
@@ -10,3 +10,4 @@ Gemfile.lock
 /coverage
 .ruby-version
 .byebug_history
+/res/dev
