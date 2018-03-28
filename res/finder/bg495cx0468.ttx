@@ -4948,8 +4948,8 @@ text          |                      Table 7.3: Diffusion and reaction parameter
               |                 DO kO (Barrer)               29.5d          18.8d
               |                 DC kC (Barrer)               590d           376d
               |                 Kw (10−15 cm4 /(s · dyn))    904.9a         -
-footnote      |                  0
-text          |                 Cavg (mM)                    48.0e          -
+              |                  0
+              |                 Cavg (mM)                    48.0e          -
               |                 QO (10−5 mL/(cm3 · s))
               |                  max
               |                                              2.29d          25.9d
