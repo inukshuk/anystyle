@@ -42,6 +42,8 @@ module AnyStyle
       end
     end
 
+    include StringUtils
+
     attr_accessor :meta, :info, :path, :pages, :tokens
     alias_method :lines, :tokens
 
@@ -100,23 +102,29 @@ module AnyStyle
     end
 
     def references(**opts)
-      bib, current, delta = [], nil, 0
+      bib, current, delta, indent = [], nil, 0, 0
 
       lines.each do |ln|
         case ln.label
         when 'ref'
+          val = display_chars(ln.value).rstrip
+          idt = val[/^\s*/].length
+          val.lstrip!
+
           if current.nil?
-            current, delta = ln.value.strip, 0
+            current, delta, indent = val, 0, idt
           else
-            if join_refs?(current, ln.value, delta, ln.observations[15] == '+')
-              current = join_refs(current, ln.value.strip)
+            if join_refs?(current, val, delta, idt > indent)
+              current = join_refs(current, val)
             else
               bib << current
-              current, delta = ln.value.strip, 0
+              current, delta, indent = val, 0, idt
             end
           end
         else
-          delta += 1 unless current.nil?
+          unless current.nil?
+            delta += (ln.label == 'blank' ? 1 : 2)
+          end
         end
       end
 
@@ -128,12 +136,26 @@ module AnyStyle
     end
 
     def join_refs?(a, b, delta = 0, indent = false)
-      delta <= 10 && [
-        indent || delta == 0,
-        b.length < a.length || a.length < 100,
-        a !~ /[.\]]$/,
-        b =~ /^\p{Ll}/
-      ].count(true) > 1
+      return false if delta > 12
+
+      pro = [
+        indent,
+        delta == 0,
+        b.length < 42,
+        a.length < 65,
+        a.match?(/[,\p{Pd}]$/),
+        b.match?(/^\p{Ll}/)
+      ].count(true)
+
+      con = [
+        delta > 8,
+        a.match?(/\.\]$/),
+        a.length > 500,
+        (b.length - a.length) > 8,
+        b.match?(/^(\p{Pd}\p{Pd}|\p{Lu}\p{Ll}+, \p{Lu}\.|\[\d)/)
+      ].count(true)
+
+      (pro - con) > 1
     end
 
     def join_refs(a, b)

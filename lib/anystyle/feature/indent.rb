@@ -11,11 +11,6 @@ module AnyStyle
           (i < j) ? '-' : (i > j) ? '+' : '=',
         ]
       end
-
-      def indent(token)
-        display_chars(token).rstrip =~ /^(\s*)/
-        $1.length
-      end
     end
   end
 end

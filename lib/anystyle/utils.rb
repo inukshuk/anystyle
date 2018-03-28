@@ -42,6 +42,10 @@ module AnyStyle
     def count(string, pattern)
       string.to_enum(:scan, pattern).inject(0) { |c| c + 1 }
     end
+
+    def indent(token)
+      display_chars(token).rstrip[/^(\s*)/].length
+    end
   end
 
   module PdfUtils
