@@ -35,6 +35,9 @@ module AnyStyle
         when :redis
           require 'anystyle/dictionary/redis'
           Dictionary::Redis.new options
+        when :marshal
+          require 'anystyle/dictionary/marshal'
+          Dictionary::Marshal.new options
         else
           raise ArgumentError, "unknown adapter: #{adapter}"
         end
