@@ -15,15 +15,15 @@ module AnyStyle
       it 'decides whether or not to join two reference strings' do
         a = 'Anderson, Benedict R. Imagined Communities: Reflections on the Origin and Spread'
         b = 'of Nationalism. Rev. ed. London and New York: Verso, 1991.'
-        expect(doc.join_refs?(a, b, 0, true)).to eq(true)
+        expect(doc.join_refs?(a, b, 0, 2)).to eq(true)
 
         a = 'Baepler, Paul Michel. White Slaves, African Masters: An Anthology of American'
         b = 'Barbary Captivity. Chicago: U of Chicago P, 1999.'
-        expect(doc.join_refs?(a, b, 0, true)).to eq(true)
+        expect(doc.join_refs?(a, b, 0, 2)).to eq(true)
 
         a = 'O’Callaghan, Sean. The Slave Trade Today. New York: Crown Publishers, 1962.'
         b = 'Reiss, Timothy J. “Mapping Identities: Literature, Nationalism, Colonialism”.'
-        expect(doc.join_refs?(a, b, 0, false)).to eq(false)
+        expect(doc.join_refs?(a, b, 0, 0)).to eq(false)
       end
     end
   end

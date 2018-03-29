@@ -114,7 +114,7 @@ module AnyStyle
           if current.nil?
             current, delta, indent = val, 0, idt
           else
-            if join_refs?(current, val, delta, idt > indent)
+            if join_refs?(current, val, delta, idt - indent)
               current = join_refs(current, val)
             else
               bib << current
@@ -123,7 +123,12 @@ module AnyStyle
           end
         else
           unless current.nil?
-            delta += (ln.label == 'blank' ? 1 : 2)
+            if delta > 15 || %w{ blank meta }.include?(ln.label)
+              delta += 1
+            else
+              bib << current
+              current, delta, indent = nil, 0, idt
+            end
           end
         end
       end
@@ -135,11 +140,9 @@ module AnyStyle
       bib
     end
 
-    def join_refs?(a, b, delta = 0, indent = false)
-      return false if delta > 12
-
+    def join_refs?(a, b, delta = 0, indent = 0)
       pro = [
-        indent,
+        indent > 0,
         delta == 0,
         b.length < 42,
         a.length < 65,
@@ -148,6 +151,7 @@ module AnyStyle
       ].count(true)
 
       con = [
+        indent < 0,
         delta > 8,
         a.match?(/\.\]$/),
         a.length > 500,
