@@ -32,6 +32,42 @@ module AnyStyle
       end
     end
 
+    ['4020'].each do |page|
+      it "observes :range in #{page.inspect}" do
+        expect(f.observe(page)).to eq(:quad)
+      end
+    end
+
+    ['341', '000'].each do |page|
+      it "observes :range in #{page.inspect}" do
+        expect(f.observe(page)).to eq(:triple)
+      end
+    end
+
+    ['34', '02'].each do |page|
+      it "observes :range in #{page.inspect}" do
+        expect(f.observe(page)).to eq(:double)
+      end
+    end
+
+    ['4', '0'].each do |page|
+      it "observes :range in #{page.inspect}" do
+        expect(f.observe(page)).to eq(:single)
+      end
+    end
+    
+    ['978-0-8020-9755-2', '3-531-14311-5'].each do |page|
+      it "observes :range in #{page.inspect}" do
+        expect(f.observe(page)).to eq(:isbn)
+      end
+    end
+    
+    ['ISO9000', 'BSI/90', 'FOO/BAR/123', 'QUX-123'].each do |page|
+      it "observes :range in #{page.inspect}" do
+        expect(f.observe(page)).to eq(:idnum)
+      end
+    end
+
     %w{ X LX IV IX III II I MX vii iv }.each do |num|
       it "observes :roman in #{num.inspect}" do
         expect(f.observe(num)).to eq(:roman)
