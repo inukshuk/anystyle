@@ -26,9 +26,45 @@ module AnyStyle
       end
     end
 
-    ['23-4', '6124--19', '19–27'].each do |page|
-      it "observes :range in #{page.inspect}" do
-        expect(f.observe(page)).to eq(:range)
+    ['23-4', '6124--19', '19–27'].each do |rng|
+      it "observes :range in #{rng.inspect}" do
+        expect(f.observe(rng)).to eq(:range)
+      end
+    end
+
+    ['4020'].each do |num|
+      it "observes :range in #{num.inspect}" do
+        expect(f.observe(num)).to eq(:quad)
+      end
+    end
+
+    ['341', '000'].each do |num|
+      it "observes :range in #{num.inspect}" do
+        expect(f.observe(num)).to eq(:triple)
+      end
+    end
+
+    ['34', '02'].each do |num|
+      it "observes :range in #{num.inspect}" do
+        expect(f.observe(num)).to eq(:double)
+      end
+    end
+
+    ['4', '0'].each do |num|
+      it "observes :range in #{num.inspect}" do
+        expect(f.observe(num)).to eq(:single)
+      end
+    end
+    
+    ['978-0-8020-9755-2', '3-531-14311-5'].each do |num|
+      it "observes :range in #{num.inspect}" do
+        expect(f.observe(num)).to eq(:isbn)
+      end
+    end
+    
+    ['ISO9000', 'BSI/90', 'FOO/BAR/123', 'QUX-123', 'USPTO-149,'].each do |num|
+      it "observes :range in #{num.inspect}" do
+        expect(f.observe(num)).to eq(:idnum)
       end
     end
 
