@@ -144,9 +144,9 @@ module AnyStyle
       pro = [
         indent > 0,
         delta == 0,
-        b.length < 42,
+        b.length < 50,
         a.length < 65,
-        a.match?(/[,\p{Pd}]$/),
+        a.match?(/[,;\p{Pd}]$/),
         b.match?(/^\p{Ll}/)
       ].count(true)
 
@@ -155,7 +155,7 @@ module AnyStyle
         delta > 8,
         a.match?(/\.\]$/),
         a.length > 500,
-        (b.length - a.length) > 8,
+        (b.length - a.length) > 12,
         b.match?(/^(\p{Pd}\p{Pd}|\p{Lu}\p{Ll}+, \p{Lu}\.|\[\d)/)
       ].count(true)
 

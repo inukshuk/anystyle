@@ -1,59 +1,78 @@
-- a: Hertel, J., 2002. Functional Anatomy, Pathomechanics, and Pathophysiology of Lateral
-  b: Ankle Instability. J. Athl. Train. 37, 364–375.
+- a: 'Anderson, Benedict R. Imagined Communities: Reflections on the Origin and Spread'
+  b: 'of Nationalism. Rev. ed. London and New York: Verso, 1991.'
+  delta: 0
+  indent: 2
+  prev-join: false
+  join: true
+- a: 'Baepler, Paul Michel. White Slaves, African Masters: An Anthology of American'
+  b: 'Barbary Captivity. Chicago: U of Chicago P, 1999.'
+  delta: 0
+  indent: 2
+  prev-join: false
+  join: true
+- a: 'O’Callaghan, Sean. The Slave Trade Today. New York: Crown Publishers, 1962.'
+  b: 'Reiss, Timothy J. “Mapping Identities: Literature, Nationalism, Colonialism”.'
+  delta: 0
+  indent: 0
+  prev-join: false
+  join: false
+- a: 'Hertel, J., 2002. Functional Anatomy, Pathomechanics, and Pathophysiology of Lateral'
+  b: 'Ankle Instability. J. Athl. Train. 37, 364–375.'
   delta: 2
   indent: 5
   prev-join: false
   join: true
-- a: Vaes, P., Duquet, W., Van Gheluwe, B., 2002. Peroneal Reaction Times and Eversion Motor Response in Healthy and Unstable Ankles. J. Athl. Train. 37, 475–480.
-  b: van der Wees, P.J., Lenssen, A.F., Hendriks, E.J.M., Stomp, D.J., Dekker, J., de Bie, R. a,
+- a: "Vaes, P., Duquet, W., Van Gheluwe, B., 2002. Peroneal Reaction Times and Eversion Motor Response in Healthy and Unstable Ankles. J. Athl. Train. 37, 475–480."
+  b: "van der Wees, P.J., Lenssen, A.F., Hendriks, E.J.M., Stomp, D.J., Dekker, J., de Bie, R. a,"
   delta: 0
   indent: -4
   prev-join: true
   join: false
-- a: 35.   Masue-Slowey Y, Kocar BD, Jofre SAB, Mayer KU, & Fendorf S (2011)
-  b: Transport Implications Resulting from Internal Redistribution of Arsenic and Iron
+- a: "35.   Masue-Slowey Y, Kocar BD, Jofre SAB, Mayer KU, & Fendorf S (2011)"
+  b: "Transport Implications Resulting from Internal Redistribution of Arsenic and Iron"
   delta: 0
   indent: 6
   prev-join: false
   join: true
-- a: 20. Tokunaga, T.; Wan, J.; Hazen, T.; Schwartz, E.; Firestone, M.; Sutton, S.;
-  b: Newville, M.; Olson, K.; Lanzirotti, A.; Rao, W. Distribution of chromium
+- a: "20. Tokunaga, T.; Wan, J.; Hazen, T.; Schwartz, E.; Firestone, M.; Sutton, S.;"
+  b: "Newville, M.; Olson, K.; Lanzirotti, A.; Rao, W. Distribution of chromium"
   delta: 0
   indent: 5
   prev-join: false
   join: true
-- a: 20. Tokunaga, T.; Wan, J.; Hazen, T.; Schwartz, E.; Firestone, M.; Sutton, S.; Newville, M.; Olson, K.; Lanzirotti, A.; Rao, W. Distribution of chromium
-  b: contamination and microbial activity in soil aggregates. J. Environ. Qual. 2003, 32
+- a: "20. Tokunaga, T.; Wan, J.; Hazen, T.; Schwartz, E.; Firestone, M.; Sutton, S.; Newville, M.; Olson, K.; Lanzirotti, A.; Rao, W. Distribution of chromium"
+  b: "contamination and microbial activity in soil aggregates. J. Environ. Qual. 2003, 32"
   delta: 2
   indent: 1
   prev-join: true
   join: true
-- a: 22.   Fischer, T. B.; Heaney, P. J.; Jang, J. H.; Ross, D. E.; Brantley, S. L.; Post, J. E.;
-  b: Tien, M. Continuous time-resolved X-ray diffraction of the biocatalyzed reduction
+- a: "22.   Fischer, T. B.; Heaney, P. J.; Jang, J. H.; Ross, D. E.; Brantley, S. L.; Post, J. E.;"
+  b: "Tien, M. Continuous time-resolved X-ray diffraction of the biocatalyzed reduction"
   delta: 0
   indent: 6
   prev-join: false
   join: true
-- a: 23.   Ahmed, K. M.; Bhattacharya, P.; Hasan, M. A.; Akhter, S. H.; Alam, S. M. M.;
-  b: Bhuyian, M. A. H.; Imam, M. B.; Khan, A. A.; Sracek, O. Arsenic enrichment in
+- a: "23.   Ahmed, K. M.; Bhattacharya, P.; Hasan, M. A.; Akhter, S. H.; Alam, S. M. M.;"
+  b: "Bhuyian, M. A. H.; Imam, M. B.; Khan, A. A.; Sracek, O. Arsenic enrichment in"
   delta: 0
   indent: 6
   prev-join: false
   join: true
-- a: 17.   Jari Oksanen FGB, Roeland Kindt, Pierre Legendre, R. B. O'Hara GLS, Peter
+- a: "17.   Jari Oksanen FGB, Roeland Kindt, Pierre Legendre, R. B. O'Hara GLS, Peter"
   b: "Solymos, M. Henry H. Stevens, & Wagner aH (2011) Vegan: Community"
   delta: 0
   indent: 6
   prev-join: false
   join: true
+  pending: true
 - a: "17.   Jari Oksanen FGB, Roeland Kindt, Pierre Legendre, R. B. O'Hara GLS, Peter Solymos, M. Henry H. Stevens, & Wagner aH (2011) Vegan: Community"
-  b: Ecology Package), R package version 1.17-11.
+  b: "Ecology Package), R package version 1.17-11."
   delta: 0
   indent: 0
   prev-join: true
   join: true
-- a: 4.   Masue-Slowey Y, Kocar BD, Jofre SAB, Mayer KU, & Fendorf S (2011)
-  b: Transport Implications Resulting from Internal Redistribution of Arsenic and Iron
+- a: "4.   Masue-Slowey Y, Kocar BD, Jofre SAB, Mayer KU, & Fendorf S (2011)"
+  b: "Transport Implications Resulting from Internal Redistribution of Arsenic and Iron"
   delta: 0
   indent: 5
   prev-join: false

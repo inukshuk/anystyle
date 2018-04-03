@@ -16,6 +16,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require 'rspec'
 require 'anystyle'
+require 'yaml'
 
 AnyStyle::Dictionary.defaults[:adapter] = :memory
 
@@ -28,6 +29,15 @@ module Fixtures
 
   def fixture_path(path)
     File.join(PATH, path)
+  end
+
+  def fixture(path)
+    case File.extname(path)
+    when '.yml'
+      YAML.load(File.read(fixture_path(path)))
+    else
+      File.read(fixture_path(path))
+    end
   end
 end
 
