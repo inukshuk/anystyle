@@ -11019,7 +11019,7 @@ text          | The initial weight of the first Al2O3 support, named AlO1, was 1
               | (4.5 h total) with a permeation-side vacuum applied and dried overnight. The
 blank         | 
 meta          | 1
-              |  The pressure in the permeation side was higher than the retentate side. Delamination of the
+text          |  The pressure in the permeation side was higher than the retentate side. Delamination of the
               | Pd layer isn’t a concern because the small positive pressure the permeation side experienced,
               | 0.5 bar, is similar to the partial pressure the membrane will experience during operation when
               | different gases are feed into the MR.
