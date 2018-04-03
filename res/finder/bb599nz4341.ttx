@@ -456,7 +456,7 @@ text          |       The second contribution of this paper is the decomposition
               | in the paper in a formal way and describes the structural model of the industry.
               | Section 3 contains the description of the data. Estimation techniques used to identify
               | the parameters of the model are described in Section 4. Results of the structural
-footnote      |   1
+meta          |   1
 text          |    When in “dark” format, the station holds the frequency so that other stations cannot use it.
               | “Dark” stations typically do not broadcast or broadcast very little non-commercial programming.
 meta          | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                               9
@@ -853,7 +853,7 @@ text          |       To achieve a sharper identification of the random effects 
               | Greater concentration activity in the 1996-2000 period was also associated with more
               | format switching. The percentage of stations that switched format peaked in 1998
               | and 2001 at 13%.
-footnote      |   2
+meta          |   2
 text          |       Source: Arbitron Format Trends Report
 meta          | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                                             19
 blank         | 
@@ -985,7 +985,7 @@ blank         |
 text          |                                        A                              A       C
               | Since the equation does not depend on θ1m , I can use it to estimate θ2m and θm . During
               | the estimation, I allow for a different value of marginal cost for each market. I allow
-footnote      |   3
+meta          |   3
 text          |     Such an approach potentially ignores possible variance of the Ωm estimator. The source of
               | this variance might come from the finiteness of the CPS dataset and the distribution of Arbitron
               | estimates.
@@ -1454,7 +1454,7 @@ text          | Berry and Waldfogel (2001) suggest that the negative effects of 
               | quantities computed with 1996 ownership and formats. The results of this experi-
               | ment are presented in the first row of Table 2.8. It turns out that if I do not account
               | for quantity changes, the assertion of Berry and Waldfogel (2001) is true. In this
-footnote      |   4
+meta          |   4
 text          |       Similar results obtained using direct analysis of station playlists can be found in Sweeting (2008).
 meta          | CHAPTER 2. MERGERS IN TWO-SIDED MARKETS                                             32
 blank         | 
@@ -1562,7 +1562,7 @@ blank         |
               | 
               | 
               | 
-footnote      |   5
+meta          |   5
 text          |       Source: A.Richter (2006)
 meta          | Chapter 3
 blank         | 
@@ -1777,7 +1777,7 @@ blank         |
 text          | Assumption 3.3.1. ξjt evolves as an exogenous Markov process, for example
 blank         | 
 text          |                                            ξjt = ρξjt−1 + ζt                                  (3.1)
-footnote      |   1
+meta          |   1
 text          |       This assumption is made for the simplicity of exposition and might be easily relaxed.
 meta          | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                                          41
 blank         | 
@@ -2025,7 +2025,7 @@ text          | where                    ∞
               |                          r=t                            j:orj =k,or+1 6=k                j:orj 6=k,or+1 =k
               |                                                                   j                                 j
 blank         | 
-footnote      |    2
+meta          |    2
 text          |      Sometimes the dataset on prices is sparse, i.e., one does not observe prices for every deal. In
               | this case more simplifying assumptions about the pricing process are needed.
 meta          | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                           47
@@ -2082,7 +2082,7 @@ text          | is the expected stream of fixed costs and repositioning costs. T
               | selection on unobservables when repositioning products and inclusion of Ckt .
               |     Note that only the last part of Dkt depends on the parameters of interest θF and θC
               | and the value function is linear θφ and θψ . Therefore, to compute the value function
-footnote      |    3
+meta          |    3
 text          |      When using any of the dynamic likelihood estimators proposed in the previous subsection and
               | assuming that φ is a difference of two independent Type I extreme value random variables, E[φ|a = 1]
               | can be reduced to − log(p) − 1−p p log(1 − p), where p is a probability of acquisition.
@@ -2123,10 +2123,10 @@ text          | Radio is an important medium in the U.S., reaching about 94% of 
               | hours of radio per week and between 6am and 6pm more people use radio than TV
               | or print media5 . There are about 13,000 commercial radio stations that broadcast
               | in about 350 local markets nationwide. Before 1996, this industry had ownership
-footnote      |    4
+meta          |    4
 text          |     In most cases Atk is the hardest to compute because computing π̄ may involve solving a one-shot
               | Nash equilibrium price or a quantity setting game.
-footnote      |   5
+meta          |   5
 text          |     Source: A.Richter (2006)
 meta          | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                 49
 blank         | 
@@ -2161,7 +2161,7 @@ text          | limitations both nationally and locally, preventing big corporat
               | contains ownership for each station oj , and station format fj . It uses the estimates of
               | station quality ξj , contained in Jeziorski (2010). I also observe each acquisition made
               | in this market and the average acquisition price.
-footnote      |   6
+meta          |   6
 text          |    Data is constructed using the software provided by BIA Financial Network Inc. and Media
               | Market Guides by SQAD
 meta          | CHAPTER 3. COST SYNERGIES FROM MERGERS                                               50
@@ -2231,7 +2231,7 @@ text          |        t
               | space contained in the data. In a perfect world one would use a very flexible index
               | function of the state space variables. However, because of high dimensionality of
               | the state space, such an approach requires too many degrees of freedom, and quickly
-footnote      |    7
+meta          |    7
 text          |     Choice of ξj as an ordering characteristic is motivated by the fact that it is a vertical measure
               | of profitability.
 meta          | CHAPTER 3. COST SYNERGIES FROM MERGERS                                                        52
@@ -2276,7 +2276,7 @@ text          | where POPm is a population of the market m and nkt is the number
               | random variable. When choosing the size of the perturbations one faces a bias and
               | variance trade-off. When the size is too small the estimator start picking up the
               | noise from the simulations instead of the sub-optimality of the strategy, decreasing
-footnote      |    8
+meta          |    8
 text          |      a similar approach can be found in Sweeting (2007), Ryan (2005), Ryan and Tucker (2006), and
               | Ellickson and Arie (2005).
 meta          | CHAPTER 3. COST SYNERGIES FROM MERGERS                                              53

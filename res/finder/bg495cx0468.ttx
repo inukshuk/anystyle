@@ -933,7 +933,7 @@ text          | The predominant corneal GAGs are keratan sulfate (KS), dermatan 
               | are sulphated at either the 4- or 6-carbon of the GalNAc residue, and are designated
               | CS4 or CS6, respectively (figure 2.1). A detailed FACE 1 (Plaas et al., 2001) analysis
               | discloses that only a portion of the available GAG monosaccharides is sulphated in
-footnote      |   1
+meta          |   1
 text          |       Fluorophore-assisted carbohydrate electrophoresis
 meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                      8
 blank         | 
@@ -1002,7 +1002,7 @@ text          | where e is the unit charge. The average stromal fixed charge den
               | where ρg = Ng /Vstroma is a measure of the GAG number density. However, in the
               | current study, the charge density distribution must be characterized at the nanometer
               | scale where it will be spatially nonuniform.
-footnote      |   2
+meta          |   2
 text          |       It is assumed that the GlcUA/IdoUA moiety always carries one negative charge
 meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                      10
 blank         | 
@@ -1163,7 +1163,7 @@ text          | where Pel = −∂Fel /∂Vstroma and Pstr = −∂Fstr /∂Vstr
               | repacks itself bidirectionally (Goodfellow et al., 1978). In the swollen stroma it is
               | therefore reasonable to assume that the fibrils will assume a lattice with equal in-
               | terfibrillar spacing. Then the interfibrillar center-to-center distance dc under volume
-footnote      |   3
+meta          |   3
 text          |     As is the case in swelling pressure experiments, e.g. (Hedbys and Dohlman, 1963; Olsen and
               | Sperling, 1987)
 meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                                   15
@@ -1203,7 +1203,7 @@ text          | where ρGAG is the nonuniform GAG fixed charge density, w is th
               | The first and second terms in equation (2.12) measure the electrostatic free energy
               | of the GAG fixed charges and ionic charges, respectively, and the last term measures
               | the contribution from the electric field.
-footnote      |    4
+meta          |    4
 text          |    Generally it should be the dielectric displacement D = E that is continuous across the interface.
               | Here we assume that the PG-coating domain Ωcoating is ion-penetrable and has the same dielectric
               | permittivity as the interstitial region Ωinterstitial .
@@ -1478,7 +1478,7 @@ text          | For convenience in interpreting results, stromal hydration H, de
               | such that normal (physiological) hydration corresponds to J = 1 and H 0 = 3.2
               | (Kostyuk et al., 2002). The linearity is consistent with measurements (Hedbys and
               | Mishima, 1966; Olsen and Sperling, 1987).
-footnote      |   5
+meta          |   5
 text          |       Here we ignore the amount of bound water in the collagen fibrils (Goodfellow et al., 1978)
 meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                                         22
 blank         | 
@@ -2012,7 +2012,7 @@ text          | Recall that the active endothelial ionic transport term (equatio
               | active ionic transport. Osmotic pressure is reduced with reducing values of Q+ Q− .
               | For Q+ Q− = 1, the osmotic pressure is positive for all dilation J and the tissue will
               | tend to swell. For the normal in vivo cornea with Q+ Q− = 0.965, it is seen that a
-footnote      |    1
+meta          |    1
 text          |     If future studies produce a different conclusion regarding human stromal fluid pressure, including
               | variation through depth, the value of Q+ Q− can be re-calibrated without any change to the general
               | theory.
@@ -2176,7 +2176,7 @@ text          | molar concentration of these ions accounts for about 85% of the 
               | four components,
 blank         | 
 text          |          G (ϕ, C, C0 ) = Welastic (C0 ) + Welectrolyte (ϕ, C) + Wbath (C) + Vexternal        (4.1)
-footnote      |    1
+meta          |    1
 text          |     For example, in application to the in vivo cornea, collagen fibers in Ω0 are prestressed by the
               | action of the intraocular pressure.
 meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                            44
@@ -2756,7 +2756,7 @@ text          |                                                Ja−p L−n
               | dothelial ionic permeability increased with 1 ≤ L−p /L−n ≤ 4.5 and with normal
               | active ionic flux Ja−p /Ja−n = 1. Figure 4.7b shows the predicted swollen CCT for
               | active ionic flux rate reduced up to a factor of 0.2, so that 0.2 ≤ Ja−p /Ja−n ≤ 1,
-footnote      |    2
+meta          |    2
 text          |     This requires iterative solution for the configuration S and collagen prestress that equilibrates
               | the IOP – see section 4.2
 meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   60
@@ -2935,7 +2935,7 @@ text          | where Rpost is the postsurgical corneal radius at one month and 
               | measured by topography over a central 5 mm diameter central zone.                         Likewise,
               | the postsurgical corneal radius of the finite element model used least-squares fitting
               | over a 5 mm diameter zone3 . The mean value of C found by Ortiz et al. (2008) is
-footnote      |    3
+meta          |    3
 text          |     The model analyzed the biomechanical (elastic and swelling) response of the residual stroma.
               | The flap was not analyzed and the postsurgical anterior radius of the cornea was taken to be that of
               | the postsurgical ablation profile radius, found by least-squares fitting, extended by a constant flap
@@ -2973,10 +2973,10 @@ text          | compared to the predicted value found by the present model in ta
               | shows that the fluid pressure reduces to approximately half of its normal value in the
               | ablation region5 . The local swelling shown in figure 4.12b is necessary to produce
               | thickness of 150 µm.
-footnote      |    4
+meta          |    4
 text          |      The mean clinical and finite element model values of Rpre were 7.8 mm and 7.87 mm, respectively
               | – the value Rpre = 7.8 mm was used in calculating SE for consistency.
-footnote      |    5
+meta          |    5
 text          |      Because p0 is constant at 15 mmHg (0.002 MPa), we have Pos = p − 0.002, and the fringe plot
               | can be interpreted in terms of osmotic pressure.
 meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                   67
@@ -3061,7 +3061,7 @@ text          | into collagen coating and non-coating regions, in a macroscopic 
               | section 3.4 and illustrated in figure 3.2a.
               |       Precise quantification of the fluid and osmotic pressures remains an open question
               | for the human in vivo cornea, as direct measurements are not currently feasible.
-footnote      |   6
+meta          |   6
 text          |       Water permeability does not appear because at equilibrium water flux will be zero.
 meta          | CHAPTER 4. A STRUCTURAL MODEL FOR THE HUMAN CORNEA                                     70
 blank         | 
@@ -3174,7 +3174,7 @@ text          | The GAGs have an important but less-understood role in the maint
               | form durable antiparallel associations is discussed by Knupp et al. (2009). The idea
               | of an entropic elastic interconnected fibril-GAG network was employed in the theo-
               | retical study on interfibrillar forces and spatial order by Farrell and Hart (1969) who
-footnote      |   1
+meta          |   1
 text          |       carbohydrate sulfotransferase 5 enzyme
 blank         | 
               | 
@@ -4113,7 +4113,7 @@ text          |                                                                P
               | regardless of whether the membrane is nearly semipermeable (σk → 1) or completely
               | freely permeable (σk → 0), the equilibrium fluid pressure difference always equals the
               | osmotic pressure difference across the membrane.
-footnote      |   1
+meta          |   1
 text          |       Except when the membrane is completely impermeable to certain solutes, i.e. ωi = 0.
 meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                      101
 blank         | 
@@ -4314,11 +4314,11 @@ text          |                ∆p =        RT ∆Ci +          (Jai − Ji ) =
               | son, 1998) and represented by flux rate JHCO − , whose value has been estimated by
               |                                                         3
               | (Leung et al., 2011) and given in table 6.3. The proposed KK theory presents a set of
-footnote      |    2
+meta          |    2
 text          |      At stationary state the system is not necessarily in equilibrium, since the dissipation function is
               | nonzero when there exists outstanding solute fluxes. The subtle difference between the two concepts
               | have been explained in details in (Prigogine, 1967).
-footnote      |    3
+meta          |    3
 text          |      ’L’ for lactate ions
 meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                                       106
 blank         | 
@@ -5050,7 +5050,7 @@ text          |                                            1 − φ0s 0
               |                                            J − φ0s avg
 blank         | 
 text          | where φ0s = 0.2 is the solid phase volume fraction and Cavg
-footnote      |                                                         0
+meta          |                                                         0
 text          |                                                             is the reference charge
               | concentration (see table 7.3). In infinitesimal deformation, the volume dilation is
               | written as J = 1 + tr() where  denotes the strain tensor.
@@ -5127,7 +5127,7 @@ text          |                                       (σ − pI) · n = −p0 n
 blank         | 
 text          | in which the mechanical stiffness the endothelium is reasonably ignored (Cheng et al.,
               | 2015).
-footnote      |    1
+meta          |    1
 text          |     It should be recognized that the definitions of water flow and volume flux are slightly different,
               | for the latter term includes the volumetric contribution of solutes. As the corneal electrolyte is
               | dilute, we disregard such subtle discrepancy and take Jw ≈ JV .
@@ -5161,7 +5161,7 @@ text          | The corneal epithelium is a stratified squamous cellular membran
               | to be the stress-free condition (Cheng et al., 2015), as no external forces are considered
               | to be applied.
               |                                          (σ − pI) · n = 0                                     (7.28)
-footnote      |    2
+meta          |    2
 text          |     Mathematically, the consumption rates for oxygen and glucose are only dependent on oxygen
               | tension and glucose concentration. This enables us to only solve for these three species in epithelium
               | region.
@@ -5299,7 +5299,7 @@ text          | At Γepi-tear , Dirichlet boundary conditions are employed for t
               | dioxide whereas sealed boundary condition is used for glucose:
               |                                             
               |                                 PO2 = POair
-footnote      |                                          2
+meta          |                                          2
 text          |                                             
               |                                             
               |                                             
@@ -5349,7 +5349,7 @@ text          | 7.4.1      Swelling pressure prediction versus experimental mea-
               | thickness of the tissue at a specified bath ionic concentration. Ex vivo conditions
               | are modeled by simplifying the stroma as a binary electrolyte gel (i.e. eliminating
               | the metabolites species) and setting the boundary active ionic flux as zero (Cheng
-footnote      |    3
+meta          |    3
 text          |    All governing partial differential equations are implemented in the “General form PDE” interface
               | under the “Mathematics module” of COMSOL.
 meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                      131
@@ -5407,7 +5407,7 @@ text          | In this section, we present the solution for a normal living cor
               | of contact lens in section 7.4.3 .
               |       As shown in table 7.3, multiple diffusion parameters exist for sodium and bicarbon-
               | ate. In this section, we take DNa− = 9.0×10−6 cm2 /s and DB− = 4.89×10−6 cm2 /s for
-footnote      |   4
+meta          |   4
 text          |       It is recognized that the anterior fiber inclination is not included in this analysis.
 meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                          133
 blank         | 
@@ -6312,7 +6312,7 @@ blank         |
               | 
 text          | where ∂C−1 /∂C = −C−1               C−1 and [C−1     C−1 ]ABCD =    1        −1 −1     −1 −1
 blank         |                                                                                             
-footnote      |                                                                     2
+meta          |                                                                     2
 text          |                                                                             CAC CBD + CAD CBC ,
               | and Pos = −∂Welectrolyte /∂J and Kos = −∂Pos /∂J are unit cell osmotic pressure and
               | osmotic compressibility, respectively.

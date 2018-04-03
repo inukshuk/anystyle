@@ -607,7 +607,7 @@ blank         |
 text          | growing access to media, questions arise as to how these families are leveraging media
 blank         | 
               |     	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      |     1
+meta          |     1
 text          |      López et al (2013) report that 86 per cent of Latino and 84 per cent of whites own cell phones, while
               |     49 per cent of Latinos and 46 per cent of whites own smartphones.
 blank         | 
@@ -2465,7 +2465,7 @@ text          | experiences that emerged from the data –uses of media for “k
 blank         | 
 text          | accessing information and instruction (addressed in Chapter Four), and media in the
 blank         |    	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      |    2
+meta          |    2
 text          |          	  I have organized the chapters in this way rather than in direct correspondence to the research
               |    questions (e.g. one chapter per question) due to the fact that questions one and two – the language and
               |    literacy experiences that media offers and the activities and practices that were part of families’ media
@@ -3246,7 +3246,7 @@ blank         |
               | 
               | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 3
+meta          | 3
 text          |       	  One	  of	  these	  mothers,	  Érica	  Martínez	  took	  a	  full-­‐time	  position	  at	  a	  convenience	  store	  during	  the	  final	  
               | month	  of	  data	  collection	  but	  was	  previously	  a	  stay-­‐at-­‐home	  mother.	  
 blank         | 
@@ -4030,7 +4030,7 @@ text          |        iBooks                             App that allows users 
               |                                                                                                                                                 languages
 blank         | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 4
+meta          | 4
 text          |       	  Note:	  the	  developer	  Duck	  Duck	  Moose	  generously	  donated	  apps	  free	  of	  cost	  for	  use	  in	  this	  study,	  so	  I	  was	  
               | able	  to	  incorporate	  any	  of	  their	  apps	  that	  I	  felt	  might	  provide	  value	  to	  families	  free	  of	  charge.	  
 blank         | 
@@ -4099,7 +4099,7 @@ text          |           Writing,
 blank         | 
               | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 5
+meta          | 5
 text          |       	  Added	  one	  month	  after	  iPads	  were	  distributed.	  
 blank         | 
               | 
@@ -4580,7 +4580,7 @@ text          |                  Due to these logistical constraints, I administ
 blank         | 
 text          | sitting next to parents as we filled in responses together. I chose this method because the
 blank         | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 6
+meta          | 6
 text          |       	  In	  order	  to	  recreate	  the	  online	  survey	  I	  would	  have	  had	  to	  re-­‐program	  the	  survey	  myself,	  and	  many	  of	  the	  
               | item	  types	  were	  not	  easily	  transferrable	  to	  available	  online	  survey	  software	  such	  as	  Qualtrics	  or	  Survey	  
               | Monkey.	  	  In	  addition,	  it	  was	  important	  to	  distribute	  the	  survey	  to	  parents	  prior	  to	  giving	  them	  their	  iPads,	  
@@ -7337,11 +7337,11 @@ blank         |
 text          | described in our conversation. The general code “media for information” identified
 blank         | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 7
+meta          | 7
 text          |      Item text: “How often, if ever, do you personally use a computer, the Internet, or a mobile device to look
               | up information or learn something new (look up a recipe, get health information, learn a language, take a
               | class, do brain training exercises, find the answer to a question?”
-footnote      | 8
+meta          | 8
 text          |   	  Note that Natalia Acosta used Google Translate for her weekly English homework. She may not have
               | considered this a form of “using the Internet” when responding to the survey.
 blank         | 
@@ -7394,7 +7394,7 @@ text          | These three strategies are each detailed in the three correspond
 blank         | 
 text          | follow.
 blank         | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 9
+meta          | 9
 text          |  As an example of what was excluded, some parents used apps to find out important information such as
               | what time the next bus would arrive at their stop or weather forecasts. I have excluded these types of
               | examples to focus on those that are most closely tied to language and literacy learning.
@@ -10173,7 +10173,7 @@ blank         |
               | 
               | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 10
+meta          | 10
 text          |     	  On	  the	  Families	  and	  Media	  survey,	  “educational	  media”	  was	  defined	  for	  parents	  as	  “products	  that	  teach	  
               | a	  child	  some	  type	  of	  lesson,	  such	  as	  an	  academic	  or	  social	  skill,	  or	  are	  good	  for	  a	  child’s	  learning	  or	  
               | growth.”	  (In	  Spanish:	  “productos	  que	  enseñan	  a	  un	  niño	  algún	  tipo	  de	  lección,	  como	  una	  habilidad	  
@@ -10436,9 +10436,9 @@ text          | Table 5b. Family Media Routines: Sample of TV and Video Content 
               |  Novelas      Various        Various         Various    Various                   Various
 blank         | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 11
+meta          | 11
 text          |  Rebeca	  Rivera	  removed	  the	  family	  television/DVD	  player	  during	  the	  second	  month	  of	  data	  collection.	  	  
-footnote      | 12
+meta          | 12
 text          |  	  The	  laptop	  belonged	  to	  the	  children’s	  father	  who	  did	  not	  live	  with	  them	  but	  used	  it	  with	  the	  children	  
               | during	  their	  frequent	  visits.	  
 blank         | 
@@ -11280,7 +11280,7 @@ blank         |
               | 
               | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 13
+meta          | 13
 text          |   This research does not specifically address learners whose L1 is Spanish; Kuppens (2010) and
               | d’Ydewalle and Van de Poel (1999) studied Dutch speakers in Europe; Neuman & Koskinen (1992) study a
               | sample of largely Asian-origin students in the United States.
@@ -12066,7 +12066,7 @@ blank         |
               | 
               | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 14
+meta          | 14
 text          |  	  Eduardo:	  al	  principio,	  antes	  de	  que	  Naomi	  fuera	  en	  segundo	  grado,	  miraba	  todo	  en	  español,	  la	  mayor	  
               | parte	  de	  los	  programas	  era	  en	  español,	  pero	  ahora	  Naomi,	  como	  antes	  hablaba…	  ahora	  habla	  más	  inglés,	  
               | ahora	  empieza	  a	  ver	  más	  los	  programas	  en	  inglés,	  y	  su	  hermano	  también.	  
@@ -12252,7 +12252,7 @@ text          | mother Sara’s phone, without Sara being aware of it. During a 
 blank         | 
 text          | session at the Morales’ home, Estela was having difficulty accessing YouTube videos on
 blank         | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 15
+meta          | 15
 text          |    Although some families had fewer or no local extended family members, children’s peers and teachers at
               | school were also influential, for example in the Martínez family did not have local relatives but did receive
               | media recommendations from teachers (see Chapter Four).
@@ -12360,7 +12360,7 @@ text          | Carmen’s son in El Salvador was hospitalized with dengue fever
 blank         | 
               | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 16
+meta          | 16
 text          |             	  The Orozco and Parra families were the only ones who reported older children still living in the country
               | of origin, although there was no specific interview prompt asking parents if they had children other than the
               | ones living with them.
@@ -12936,7 +12936,7 @@ blank         |
 text          | Aguirre, Karina Parra and Rebeca Rivera) the iPad offered a somewhat more familiar
 blank         | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 17
+meta          | 17
 text          |             	  13 out of the 14 parents had smartphones at the start of the study and by the time of the iPad intervention
               | all 14 parents had smartphones.	  
 blank         | 
@@ -13041,7 +13041,7 @@ text          | daughters and not her, despite my emphasis on it being a family 
 blank         | 
 text          | were recruited and when they received their iPads. Other parents may have also felt that
 blank         | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 18
+meta          | 18
 text          |   See the Morales family portrait in Chapter Three regarding Sara’s desire to install Internet service and
               | the difficulties the family encountered both in trying to contract with a cable service and trying to access a
               | local Connect2Compete program.
@@ -13094,7 +13094,7 @@ blank         |
 text          | month period.19 In addition to the time spent with the apps I had installed, some families
 blank         | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 19
+meta          | 19
 text          |   	  Note	  that	  “other”	  apps	  refers	  to	  a	  miscelaneous	  group	  of	  apps	  that	  were	  provided	  (not	  apps	  voluntarily	  
               | downloaded	  by	  families).	  	  These	  include	  “Timmy	  Tickle”	  (interactive	  preschooler	  app),	  as	  well	  as	  custom	  
               | apps	  tailored	  for	  each	  family	  including	  “Curious	  George	  Zoo,”	  “Brave	  Interactive	  Comic”	  and	  others	  
@@ -13357,7 +13357,7 @@ text          | not include apps that families downloaded of their own choice).2
 blank         | 
 text          | single categories that were used for the greatest amount of time over the three months
 blank         | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 20
+meta          | 20
 text          |   	  Note	  that	  the	  Morales,	  Parra	  and	  Orozco	  families	  had	  one	  child,	  while	  the	  other	  four	  families	  had	  two	  
               | children.	  	  In	  many	  cases	  the	  two-­‐child	  families	  had	  more	  app	  use	  time,	  however	  this	  at	  least	  sometimes	  
               | included	  turn	  taking	  between	  two	  siblings.	  	  	  
@@ -13415,7 +13415,7 @@ blank         |
 text          | *excluding video app data shared in Table 7b.
 blank         | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 21
+meta          | 21
 text          |  	  The	  “other”	  category	  is	  not	  a	  single	  category	  of	  apps	  but	  is	  made	  up	  of	  a	  mixture	  of	  miscelaneous	  app	  
               | genres	  including	  some	  of	  the	  “custom”	  apps	  I	  chose	  for	  particular	  families,	  as	  well	  as	  the	  iPad	  camera	  and	  
               | photo	  app).	  	  	  
@@ -13797,7 +13797,7 @@ blank         |
 text          | penguin!” she exclaimed, referring to an activity at school where the class had “adopted”
 blank         | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 22
+meta          | 22
 text          |   Reading Rainbow does not provide data on precisely which video field trips were used and I did not
               | obtain this data when prompting families.
 blank         | 
@@ -17406,7 +17406,7 @@ blank         |
 text          |        respondents who might be more similar to the case families, it narrows the large sample
 blank         | 
               | 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      | 23
+meta          | 23
 text          |   To confirm that parents who identified as Hispanic-Latino and spoke a language other than Spanish at
               | home were actually Spanish-speaking (as opposed to speakers of a language other than Spanish), I
               | examined the “Language dominance” variable that was recorded by the GfK pre-survey. And among those
@@ -17836,7 +17836,7 @@ text          |                          In Table 3f, the responses “a lot” 
 blank         | 
 text          |            at the “a lot,” responses, there are some interesting patterns to note. In general, “some”
 blank         |     	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-footnote      |     24
+meta          |     24
 text          |                 	  Only families who indicated their children used educational media on this platform at least once a week
               |     were asked the question).
 blank         |     	  

@@ -484,7 +484,7 @@ blank         |
 title         | 1.1.2       Noise Characteristics
 text          | While RGB-D cameras can provide real-time depth information, the obtained mea-
               | surements exhibit convoluted noise characteristics. The measurements are extracted
-footnote      |   1
+meta          |   1
 text          |       http://msdn.microsoft.com/en-us/library/jj131033.aspx
 meta          | CHAPTER 1. INTRODUCTION                                                                6
 blank         | 
@@ -663,7 +663,7 @@ text          | Acquiring an accurate floor plan of a residence is a challenging
               | tion. This system eliminates the manual post-processing necessary for reconstructing
               | the layout of walls in a residence. Instead, an operator with no architectural exper-
               | tise can interactively guide the reconstruction process by moving freely through an
-footnote      |    1
+meta          |    1
 text          |      The contents of the chapter was originally published as Y.M. Kim, J. Dolson, M. Sokolsky, V.
               | Koltun, S.Thrun, Interactive Acquisition of Residential Floor Plans, IEEE International Conference
               | on Robotics and Animation (ICRA), 2012 c 2012 IEEE.
@@ -1272,7 +1272,7 @@ text          | The goal of the system is building a floor plan of an any possib
               | device.1 The current practice in architecture and real estate is to use a point-to-
               | point laser device to measure distances between pairs of parallel planes. Making
               | such measurements requires a clear, level line of sight between two planes, which
-footnote      |   1
+meta          |   1
 text          |     measuring range 0.05 to 40m; average measurement accuracy +/- 1.5mm; measurement duration
               | < 0.5s to 4s per measurement.
 meta          | CHAPTER 2. INTERACTIVE ACQUISITION OF RESIDENTIAL FLOOR PLANS1 28
@@ -1437,7 +1437,7 @@ text          | Unlike mapping of urban environments, interior mapping would foc
               | building components usually consist of rigid parts of simple geometry, i.e., they have
               | surfaces that are well approximated by planar, cylindrical, conical, spherical proxies.
               | Further, although variability and articulation are dominant (e.g., a chair is moved
-footnote      |   2
+meta          |   2
 text          |      The contents of the chapter was originally published as Young Min Kim, Niloy J. Mitra,
               | Dong-Ming Yan, and Leonidas Guibas. 2012. Acquiring 3D indoor environments with vari-
               | ability and repetition. ACM Trans. Graph. 31, 6, Article 138 (November 2012), 11 pages.
@@ -2557,7 +2557,7 @@ text          | Acquiring 3-D models of the indoor environments is a critical co
               | feedback for guidance in subsequent acquisition.
               |    Evaluating acquisition quality without having any prior knowledge about an un-
               | known environment, however, is an ill-posed problem. We observe that although the
-footnote      |   3
+meta          |   3
 text          |     The contents of the chapter will be published as Y.M. Kim, N. Mitra, Q. Huang, L. Guibas,
               | Guided Real-Time Scanning of Indoor Environments, Pacific Graphics 2013.
 blank         | 
