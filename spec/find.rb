@@ -22,11 +22,21 @@ end
 src.each do |input|
   file = File.basename(input)
   extn = File.extname(input)
+  base = File.basename(input, extn)
 
-  puts "parsing #{file} ..."
+  print "Parsing #{file} ... "
 
   output = AnyStyle.finder.label input
-  output.save File.join(dst, "#{File.basename(file, extn)}.ttx"), format: 'txt', tagged: true
+  output.save File.join(dst, "#{base}.ttx"), format: 'txt', tagged: true
 
-  File.write File.join(dst, "#{File.basename(file, extn)}"), output[0].references.join("\n")
+  refs = output[0].references
+  if refs.length > 0
+    puts "#{refs.length} references found ..."
+    refs = refs.join("\n")
+    File.write File.join(dst, base), refs
+    File.write File.join(dst, "#{base}.xml"),
+      AnyStyle.parser.label(refs).to_xml(indent: 2).to_s
+  else
+    puts "no references found."
+  end
 end
