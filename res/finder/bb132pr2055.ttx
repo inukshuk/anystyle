@@ -554,8 +554,8 @@ text          | Despite the amplitude (and temporal consistency) of these differ
               | icy has never been a particularly active facet of the congressional portfolio. That is
               | not because politicians have magnanimously decided to free this area from their par-
               | tisan bickering. They have simply realized that, as is the case in certain other areas,
-              |    3
-              |     Assuming this inflation is unexpected, as Faust (1996) points out.
+meta          |    3
+text          |     Assuming this inflation is unexpected, as Faust (1996) points out.
 meta          |    4
 text          |     Using more blunt language, Johnson (1968) describes this divergence in monetary policy pref-
               | erences as a prototypical case of class conflict between the bourgeoisie and the proletariat (p. 986).
@@ -2094,8 +2094,8 @@ text          | nature of coverage offered by the FDIC, as established two years
               | have to sign Titles I and III on their own. Eccles and his supporters in the White
               | House made it clear that they would not go along with it, standing resolute behind
               | the omnibus package. “Confronted by a direct Presidential request, and backed by
-              |      39
-              |     He rationalized this delay by saying he was focusing on a $4.8 billion relief measure that was
+meta          |      39
+text          |     He rationalized this delay by saying he was focusing on a $4.8 billion relief measure that was
               | part of his responsibility as Chairman of the Senate Appropriations Committee.
 meta          | CHAPTER 2. THE POLITICS BEHIND THE FED’S STRUCTURE                                                 64
 blank         | 
@@ -2868,11 +2868,11 @@ text          | All national banks in the United States are required to be membe
               | activities. The first of these – regulating financial institutions – is designed to ensure
               | that the system’s member banks are limiting their exposure to risk and are other-
               | wise operating safely. Without such regulation, banks would be less likely to avoid
-              |    2
-              |      State-charted banks may request to join as well. In total, there are approximately 2,900 member
+meta          |    2
+text          |      State-charted banks may request to join as well. In total, there are approximately 2,900 member
               | institutions.
-              |    3
-              |      The geographic boundaries of the system were established by the Reserve Bank Organizing
+meta          |    3
+text          |      The geographic boundaries of the system were established by the Reserve Bank Organizing
               | Committee in 1914 – shortly after the system was signed into law by President Wilson – and have
               | never been altered.
 meta          |    4

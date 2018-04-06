@@ -876,7 +876,7 @@ text          | Within soils and sediments, redox gradients resulting from mass 
 blank         | 
               | 
 text          | This chapter has been published in Environmental Science and Technology:
-              | Ying, S. C., Kocar, B. D., Griffis, S. D., & Fendorf, S. (2011). Competitive Microbially
+ref           | Ying, S. C., Kocar, B. D., Griffis, S. D., & Fendorf, S. (2011). Competitive Microbially
               | and Mn Oxide Mediated Redox Processes Controlling Arsenic Speciation and
               | Partitioning. Environmental Science & Technology, 45(13), 5572–5579. doi:10.1021/
               | es200351m
@@ -3689,7 +3689,7 @@ blank         |
               | 
 meta          |                                                                                   115
               | 116
-title         | APPENDIX A: Supporting information for
+              | APPENDIX A: Supporting information for
               | Chapter 2
 blank         | 
 title         | A.1 Reactive Transport Modeling using MIN3P
@@ -4002,7 +4002,7 @@ blank         |
               | 
               | 
 meta          | 124
-title         | APPENDIX B: Supporting Information for
+              | APPENDIX B: Supporting Information for
               | Chapter 3
 blank         | 
 title         | B.1 Reactive Transport Modeling using MIN3P
