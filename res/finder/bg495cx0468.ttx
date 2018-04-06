@@ -3156,7 +3156,7 @@ text          | corneal dystrophy where the GAG concentration is found to be abn
               | is presented in chapter 7.
 meta          | Chapter 5
 blank         | 
-text          | Mechanisms of self-organization for
+title         | Mechanisms of self-organization for
               | the collagen fibril arrangement in
               | the human cornea
 blank         | 
@@ -3164,8 +3164,8 @@ title         | 5.1        Background
 text          | The GAGs have an important but less-understood role in the maintenance of the
               | lattice-like fibril arrangement. Keratan sulfate, the predominant stromal GAG com-
               | ponent, has been shown to be involved in modulating the fibril organization by the
-              |                         1
-              | knockout of Chst5           in the mouse (Hayashida et al., 2006). Scott (1992) proposed
+meta          |                         1
+text          | knockout of Chst5           in the mouse (Hayashida et al., 2006). Scott (1992) proposed
               | that two or more GAG chains, originating at different core proteins on neighboring
               | fibrils, may form an antiparallel duplexed association which appears as a bridge-like
               | structure spanning the interfibrillar distance in electron microscopy after staining,
@@ -4079,9 +4079,9 @@ meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                 
 blank         | 
               | 
               | 
-text          | 6.4        Application to equilibrium conditions: recov-
+title         | 6.4        Application to equilibrium conditions: recov-
               |            ery of Donnan equilibrium
-              | In this section, we apply the modified Kedem-Katchalsky equations (7.25, 7.26) to
+text          | In this section, we apply the modified Kedem-Katchalsky equations (7.25, 7.26) to
               | study the equilibrium condition where the volume and solute fluxes (Jv = Ji = 0) are
               | zero. We show that due to the presence of fixed charges, a fluid pressure difference
               | (∆p) across the membrane is required, the magnitude of which equals the Donnan
@@ -4312,8 +4312,8 @@ text          |                ∆p =        RT ∆Ci +          (Jai − Ji ) =
               | table 6.3. In addition, active bicarbonate transport is considered (Elliott and Hod-
               |                                          a
               | son, 1998) and represented by flux rate JHCO − , whose value has been estimated by
-              |                                                         3
-              | (Leung et al., 2011) and given in table 6.3. The proposed KK theory presents a set of
+meta          |                                                         3
+text          | (Leung et al., 2011) and given in table 6.3. The proposed KK theory presents a set of
 meta          |    2
 text          |      At stationary state the system is not necessarily in equilibrium, since the dissipation function is
               | nonzero when there exists outstanding solute fluxes. The subtle difference between the two concepts
@@ -4751,7 +4751,7 @@ text          | Table 7.1: Mixture components in aqueous humor and in the air (L
 blank         | 
               | 
               | 
-text          | Reaction-diffusion model for stromal fluid and solutes
+title         | Reaction-diffusion model for stromal fluid and solutes
 blank         | 
 text          | Reaction model Consider reactions (7.11-7.2) taking place in the stroma, the pro-
               | duction rates of oxygen and lactate ions can be modeled by the Monod rate expressions
@@ -6312,8 +6312,8 @@ blank         |
               | 
 text          | where ∂C−1 /∂C = −C−1               C−1 and [C−1     C−1 ]ABCD =    1        −1 −1     −1 −1
 blank         |                                                                                             
-meta          |                                                                     2
-text          |                                                                             CAC CBD + CAD CBC ,
+text          |                                                                     2
+              |                                                                             CAC CBD + CAD CBC ,
               | and Pos = −∂Welectrolyte /∂J and Kos = −∂Pos /∂J are unit cell osmotic pressure and
               | osmotic compressibility, respectively.
               |      The spatial form of Celectrolyte is given by celectrolyte = φ∗ (Celectrolyte ), where φ∗ is
@@ -6513,7 +6513,7 @@ text          | where ωik = C i (LDi k − Lp σi σk ). Ignoring the coupling 
               |                                          k=1
 meta          | Appendix F
 blank         | 
-text          | Determination of pressure, ionic
+title         | Determination of pressure, ionic
               | concentrations and electrostatic
               | potential in the enhanced KK
               | theory

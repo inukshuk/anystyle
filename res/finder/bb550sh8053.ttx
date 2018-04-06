@@ -2230,7 +2230,7 @@ text          |             3. What family dynamics and practices develop around
               |             resources?
 blank         | 
               | 
-text          | Theoretical Framework
+title         | Theoretical Framework
 blank         | 
 text          | To address the question above, I use a socio-cultural framework with a focus on how and
 blank         | 
@@ -5303,7 +5303,7 @@ blank         | 	  
               | 	  
               | 	  
 meta          |    94	  
-              |               Table 3a. Families and Media Practices At-a-Glance
+text          |               Table 3a. Families and Media Practices At-a-Glance
               |             *commonly	  a	  joint	  parent-­‐child	  activity	  
 meta          |        95	  
 blank         | 	  
@@ -9559,7 +9559,7 @@ blank         |
               | 
               | 
               | 
-text          | III. Patterns of media-supported knowledge seeking strategies across families
+title         | III. Patterns of media-supported knowledge seeking strategies across families
 blank         | 
 text          |        As detailed in the examples above, media played a role in providing access to
 blank         | 
@@ -16921,7 +16921,7 @@ blank         |
 meta          |                                             325	  
 blank         | 	  
               | 	  
-title         | Conclusion
+meta          | Conclusion
 blank         | 
 text          |        In the sections above, I have offered six findings that include practical
 blank         | 
@@ -17045,7 +17045,7 @@ blank         |
 meta          |                                                   328	  
 blank         | 	  
               | 	  
-title         | INTERVIEW PROTOCOL: Parent Interview 2
+meta          | INTERVIEW PROTOCOL: Parent Interview 2
 blank         | 
 text          | Hoy es nuestra última visita. Antes de empezar, quiero agradecer profundamente la
               | participación de Ustedes. Agradezco mucho el tiempo y la atención que han contribuido,
@@ -17224,7 +17224,7 @@ blank         |
 meta          |                                                  332	  
 blank         | 	  
               | 	  
-title         | Aplicaciones instaladas en el iPad:
+text          | Aplicaciones instaladas en el iPad:
 blank         | 
 title         | Generales
 blank         | 
@@ -17755,7 +17755,7 @@ text          |                                                 Table	  C7.	 
               |                                                   media	  sparked	  learning-­‐related	  activities	  (includes	  all	  four	  
               |                                                                                  language	  groups)	  
 blank         | 
-meta          |                      100	  
+text          |                      100	  
 blank         | 
 text          |                              80	                                                                               Only	  English	  
 blank         | 
