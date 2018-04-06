@@ -7,7 +7,7 @@ module AnyStyle
           symbolize(count(token, /(\d[\(:;]\d)|(\d\s*\p{Pd}+\s*\d)|\bpp?\.|\bvols?\./i)),
           symbolize(count(token, /\b\p{Lu}\./)),
           symbolize(count(token, /\b(eds?\.|edited by|editors?|hg|hrsg|et al)\b/i)),
-          token =~ /^\s*\[\d+\]/ ? 'T' : 'F'
+          token =~ /^\s*(\[\w+\]|\(\d+\)|\d+\.)\s+/ ? 'T' : 'F'
         ]
       end
 
