@@ -33,7 +33,7 @@ src.each do |input|
   if refs.length > 0
     puts "#{refs.length} references found ..."
     refs = refs.join("\n")
-    File.write File.join(dst, base), refs
+    File.write File.join(dst, "#{base}.ref"), refs
     File.write File.join(dst, "#{base}.xml"),
       AnyStyle.parser.label(refs).to_xml(indent: 2).to_s
   else
