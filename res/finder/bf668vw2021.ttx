@@ -271,7 +271,7 @@ blank         |
 meta          |                                            x
 title         | List of Tables
 blank         | 
-meta          |  2.1   Accuracy comparisons . . . . . . . . . . . . . . . . . . . . . . . . . .     29
+text          |  2.1   Accuracy comparisons . . . . . . . . . . . . . . . . . . . . . . . . . .     29
 blank         | 
 text          |  3.1   Parameters used in our algorithm . . . . . . . . . . . . . . . . . . . .     41
               |  3.2   Models obtained from the learning phase . . . . . . . . . . . . . . . .      55
@@ -1419,7 +1419,7 @@ text          | Figure 2.11: The system, having detected the planes in the scene
               | of the world (right).
 meta          | Chapter 3
 blank         | 
-text          | Acquiring 3D Indoor Environments
+title         | Acquiring 3D Indoor Environments
               | with Variability and Repetition2
 blank         | 
 text          | Unlike mapping of urban environments, interior mapping would focus on interior
@@ -1796,7 +1796,7 @@ text          | where Ñp is a user-defined parameter of the approximate number
               | consistent matches to define a reference frame between measurements and jointly fit
               | primitives to the matched parts (see Section 3.3.2).
 blank         | 
-text          | Matching
+title         | Matching
 blank         | 
 text          | After extracting the stable parts P i for each measurement, our goal is to match the
               | parts across different measurements to build a connectivity structure. The system
@@ -1842,7 +1842,7 @@ text          | where d(p, q) represents the distance between two parts p, q ∈
               | ments. The relative positions of the matched parts define the reference frame of the
               | object as well as the relative transformation between measurements.
 blank         | 
-text          | Joint Primitive Fitting
+title         | Joint Primitive Fitting
 blank         | 
 text          | Our system jointly fits primitives to the grouped parts, while adding necessary defor-
               | mation. First, the primitive type is fixed by testing for the three types of primitives
@@ -1999,7 +1999,7 @@ text          | The normal potential calculates the relative angle with the grou
               | as
               |                 ψ normal (np , nm ; g) = |acos(np · ng ) − acos(nm · ng )| < θnormal .                  (3.6)
 blank         | 
-title         | The size potential compares the size of the part
+text          | The size potential compares the size of the part
 blank         | 
 text          |                                         1
               |                 ψ size ({lp1 , lp2 }, {lm    2
@@ -2203,7 +2203,7 @@ blank         |
               | 
               | 
               | 
-title         |                                                                                                     Recall
+text          |                                                                                                     Recall
               |                                                 Recall
               | Recall
 blank         | 

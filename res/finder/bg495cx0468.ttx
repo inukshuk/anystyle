@@ -920,7 +920,7 @@ text          | antiparallel duplexes bridging between fibrils and these have be
               | increasing electrostatic repulsive force is generated.
 blank         | 
               | 
-text          | 2.2        Ionization and charge properties of the gly-
+title         | 2.2        Ionization and charge properties of the gly-
               |            cosaminoglycans in corneal stroma
 blank         | 
 title         | 2.2.1        Predominant glycosaminoglycans
@@ -1134,8 +1134,8 @@ text          | of Ps on hydration, bath ionic strength, temperature and pH have
               | current model to the corneal swelling pressure provides an important validation case.
               | The results for Ps are also used directly in the lattice force model presented in sections
               | 2.5 and 2.6.
-              |                                          0
-              |       Consider a representative volume Vstroma of stromal tissue at normal hydration.
+meta          |                                          0
+text          |       Consider a representative volume Vstroma of stromal tissue at normal hydration.
               | This volume will contain keratocyte cells and is distinct from the unit cell Ωcell previ-
               |                                                                                 0
               | ously introduced. Let the tissue volume be subject to a dilation J = Vstroma /Vstroma ,
@@ -4411,8 +4411,8 @@ text          | +22.0 mM as Cf increases from zero to Cf0 (see also table 6.4). 
               |                                                              3
               |                                                                           a0
               | from −10 to −20 mM as the active bicarbonate flux increases from zero to JHCO −.
-              |                                                                                     3
-              | Interestingly, the sodium concentration difference ∆CNa+ is also highly dependent
+meta          |                                                                                     3
+text          | Interestingly, the sodium concentration difference ∆CNa+ is also highly dependent
               | on the bicarbonate pumping flux, reducing from 30 to about 22 mM. The chloride
               |                                                                           a
               | and lactate ion concentrations, on the other hand, increases mildly with JHCO− . The
@@ -5299,8 +5299,8 @@ text          | At Γepi-tear , Dirichlet boundary conditions are employed for t
               | dioxide whereas sealed boundary condition is used for glucose:
               |                                             
               |                                 PO2 = POair
-meta          |                                          2
-text          |                                             
+              |                                          2
+              |                                             
               |                                             
               |                                             
               |                                         air   on Γepi-tear                            (7.33)
@@ -5341,9 +5341,9 @@ blank         |
               | 
 title         | 7.4       Results
 blank         | 
-text          | 7.4.1      Swelling pressure prediction versus experimental mea-
+title         | 7.4.1      Swelling pressure prediction versus experimental mea-
               |            surements
-              | Finite element predictions for ex vivo swelling pressure were compared to experimental
+text          | Finite element predictions for ex vivo swelling pressure were compared to experimental
               | measurements on a sample isolated corneal stroma immersed in a bath solution.
               | Stromal swelling pressure is the mechanical pressure required to maintain a specified
               | thickness of the tissue at a specified bath ionic concentration. Ex vivo conditions
@@ -6127,7 +6127,7 @@ text          |                                                                 
               |                                                                             2F C0
 meta          | Appendix B
 blank         | 
-text          | Derivation of the Donnan-based
+title         | Derivation of the Donnan-based
               | electrostatic interfibrillar restoring
               | force
 blank         | 
@@ -6334,7 +6334,7 @@ text          | It is clear from equations (D.1) and (D.2) that the current elec
               | forward manner.
 meta          | Appendix E
 blank         | 
-text          | Derivation of the KK equations
+title         | Derivation of the KK equations
               | with incorporation of active
               | transport
 blank         | 

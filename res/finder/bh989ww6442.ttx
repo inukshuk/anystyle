@@ -10842,7 +10842,7 @@ text          |                                                or
               |                                  ∂µ
 blank         | 
 text          | 11:     end while
-meta          | 12:   end while
+              | 12:   end while
               | CHAPTER 6. STOCHASTIC PDE OPTIMIZATION WITH ROMS AND SPARSE GRIDS 192
 blank         | 
               | 
@@ -11222,7 +11222,7 @@ blank         |
               | 
               | 
               | 
-title         | 10−2                                                     10−2
+text          | 10−2                                                     10−2
 blank         | 
               | 
 text          | 10−5                                                     10−5
@@ -11491,7 +11491,7 @@ blank         |
               | 
               | 
 meta          |                                                  205
-text          | CHAPTER 7. CONCLUSIONS                                                                            206
+              | CHAPTER 7. CONCLUSIONS                                                                            206
 blank         | 
               | 
               | 
@@ -12624,8 +12624,8 @@ text          |                                              ∂f               
 blank         | 
 text          | The adjoint state, λ = λ(η; µ̄, Υ) is defined as the solution of the adjoint equations
 blank         | 
-meta          |                                    r λ (u(η; µ̄, Υ), · , η; µ̄, Υ) = 0,                           (C.13)
-              | APPENDIX C. TWO-LEVEL REDUCTION FOR LARGE-SCALE PDE OPTIMIZATION                                    229
+text          |                                    r λ (u(η; µ̄, Υ), · , η; µ̄, Υ) = 0,                           (C.13)
+meta          | APPENDIX C. TWO-LEVEL REDUCTION FOR LARGE-SCALE PDE OPTIMIZATION                                    229
 blank         | 
               | 
               | 

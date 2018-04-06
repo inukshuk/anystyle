@@ -64,6 +64,31 @@ module AnyStyle
       end
     end
 
+    def each_section
+      if block_given?
+        current = []
+        lines.each do |ln|
+          case ln.label
+          when 'title'
+            unless current.empty?
+              yield current
+              current = []
+            end
+          when 'ref', 'text'
+            current << ln
+          else
+            # ignore
+          end
+        end
+        unless current.empty?
+          yield current
+        end
+        self
+      else
+        to_enum
+      end
+    end
+
     def label(other)
       doc = dup
       doc.tokens = lines.map.with_index { |line, idx|

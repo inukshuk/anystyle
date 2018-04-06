@@ -3,7 +3,7 @@ blank         |
               | 
               | 
               | 
-title         |                A DISSERTATION
+text          |                A DISSERTATION
               | SUBMITTED TO THE GRADUATE SCHOOL OF BUSINESS
               |    AND THE COMMITTEE ON GRADUATE STUDIES
               |            OF STANFORD UNIVERSITY
@@ -331,7 +331,7 @@ text          | is straightforward, easy to implement, and computationally tract
               | efficiencies is a an order of magnitude higher than loss in surplus for advertisers.
 meta          | Chapter 2
 blank         | 
-text          | Mergers in two-sided markets:
+title         | Mergers in two-sided markets:
               | Case of U.S. radio industry
 blank         | 
 title         | 2.1      Preface
@@ -1566,7 +1566,7 @@ meta          |   5
 text          |       Source: A.Richter (2006)
 meta          | Chapter 3
 blank         | 
-text          | Estimation of cost synergies from
+title         | Estimation of cost synergies from
               | mergers without cost data:
               | Application to U.S. radio
 blank         | 
@@ -2491,8 +2491,8 @@ text          | Given the clearing prices CPPaf , advertisers are indifferent wh
               |                                       γ  2
               |                                              f0          a              a
 blank         | 
-text          |    1
-              |      This assumption is is motivated by the fact that about 75% is purchased by small local firms.
+meta          |    1
+text          |      This assumption is is motivated by the fact that about 75% is purchased by small local firms.
               | Such firms’ advertising decisions are unlikely to influence prices and station ratings in the short run.
 meta          | APPENDIX A. ADDITIONAL MATERIAL TO CHAPTER 2                                             59
 blank         | 
@@ -2570,7 +2570,7 @@ blank         |
               | 
               | 
 meta          |                                            61
-meta          | APPENDIX B. ADDITIONAL MATERIAL TO CHAPTER 3                                     62
+              | APPENDIX B. ADDITIONAL MATERIAL TO CHAPTER 3                                     62
 blank         | 
               | 
               | 
