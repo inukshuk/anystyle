@@ -10,8 +10,9 @@ module AnyStyle
         keys = item.keys
 
         case
-        when keys.include?(:journal)
-          'article'
+# FIXME
+#        when keys.include?(:journal)
+#          'article'
         when keys.include?(:'container-title')
           case item[:'container-title'].to_s
           when /proceedings|proc\.|conference|meeting|symposi(on|um)/i

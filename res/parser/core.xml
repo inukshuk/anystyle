@@ -10,7 +10,7 @@
   <sequence>
     <author>M. Kitsuregawa, H. Tanaka, and T. Moto-oka.</author>
     <title>Application of hash to data base machine and its architecture.</title>
-    <journal>New Generation Computing,</journal>
+    <container-title>New Generation Computing,</container-title>
     <volume>1(1),</volume>
     <date>1983.</date>
   </sequence>
@@ -38,7 +38,7 @@
   <sequence>
     <author>W. H. Enright.</author>
     <title>Improving the efficiency of matrix operations in the numerical solution of stiff ordinary differential equations.</title>
-    <journal>ACM Trans. Math. Softw.,</journal>
+    <container-title>ACM Trans. Math. Softw.,</container-title>
     <volume>4(2),</volume>
     <pages>127-136,</pages>
     <date>June 1978.</date>
@@ -84,7 +84,7 @@
     <author>Schaal, S., &amp; Atkeson, C.</author>
     <date>(1994).</date>
     <title>Robot juggling: An implementation of memory-based learning.</title>
-    <journal>Control Systems,</journal>
+    <container-title>Control Systems,</container-title>
     <volume>14,</volume>
     <pages>57-71.</pages>
   </sequence>
@@ -92,7 +92,7 @@
     <author>Hinton, G. E., &amp; Nowlan, S. J.</author>
     <date>(1987).</date>
     <title>How learning can guide evolution.</title>
-    <journal>Complex Systems,</journal>
+    <container-title>Complex Systems,</container-title>
     <volume>1,</volume>
     <pages>495-502.</pages>
   </sequence>
@@ -100,7 +100,7 @@
     <author>Cameron-Jones, R. M., &amp; Quinlan, J. R.</author>
     <date>(1994).</date>
     <title>Efficient top-down induction of logic programs.</title>
-    <journal>SIGART Bulletin,</journal>
+    <container-title>SIGART Bulletin,</container-title>
     <volume>5 (1),</volume>
     <pages>33-42.</pages>
   </sequence>
@@ -180,7 +180,7 @@
     <author>Gent, I. P., &amp; Walsh, T.</author>
     <date>(1994a).</date>
     <title>Easy problems are sometimes hard.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>70,</volume>
     <pages>335-345.</pages>
   </sequence>
@@ -201,7 +201,7 @@
   <sequence>
     <author>P. Yang and J. H. Chern</author>
     <title>"Design for Reliability: The Major Challenge for VLSI,"</title>
-    <journal>Proceedings of IEEE,</journal>
+    <container-title>Proceedings of IEEE,</container-title>
     <volume>Vol. 81, No. 5,</volume>
     <pages>pp. 730-744,</pages>
     <date>May 1993.</date>
@@ -216,7 +216,7 @@
   <sequence>
     <author>Harry Heffes and David Lucantoni.</author>
     <title>A markov modulated characterization of voice and data traffic and related statistical multiplexer performance.</title>
-    <journal>IEEE J.Select.Areas Commun.,</journal>
+    <container-title>IEEE J.Select.Areas Commun.,</container-title>
     <volume>SAC- 4,</volume>
     <pages>856-867,</pages>
     <date>September 1986.</date>
@@ -224,7 +224,7 @@
   <sequence>
     <author>C. Ghezzi, D. Mandriolli, and A. Morzenti.</author>
     <title>Trio: A logic language for executable specifications of real-time systems.</title>
-    <journal>Journal of Systems and Software,</journal>
+    <container-title>Journal of Systems and Software,</container-title>
     <volume>12(2),</volume>
     <pages>107-123,</pages>
     <date>May 1990.</date>
@@ -252,7 +252,7 @@
   <sequence>
     <author>P. T. Harker and J.-S. Pang.</author>
     <title>Finite-dimensional variational inequality and nonlinear complementarity problems: A survey of theory, algorithms, and applications.</title>
-    <journal>Mathematical Programming,</journal>
+    <container-title>Mathematical Programming,</container-title>
     <volume>48(2),</volume>
     <pages>161-220,</pages>
     <date>September 1990.</date>
@@ -260,7 +260,7 @@
   <sequence>
     <author>Knopfmacher, A., and Warlimont, R.</author>
     <title>Distinct degree factorizations for polynomials over a finite field.</title>
-    <journal>Trans. Amer. Math. Soc.</journal>
+    <container-title>Trans. Amer. Math. Soc.</container-title>
     <volume>347,</volume>
     <date>(1995),</date>
     <pages>2235-2243.</pages>
@@ -268,7 +268,7 @@
   <sequence>
     <author>Feferman, S.,</author>
     <title>Transfinite Recursive Progressions of Axiomatic Theories,</title>
-    <journal>J. Symbolic Logic,</journal>
+    <container-title>J. Symbolic Logic,</container-title>
     <volume>27,</volume>
     <pages>259-316</pages>
     <date>(1962).</date>
@@ -284,7 +284,7 @@
     <author>Etzioni, O. and Weld, D.</author>
     <date>(1994)</date>
     <title>A Softbot-based Interface to the Internet,</title>
-    <journal>Comm. of th e ACM,</journal>
+    <container-title>Comm. of th e ACM,</container-title>
     <volume>37(7),</volume>
     <pages>pages 72-76.</pages>
   </sequence>
@@ -356,7 +356,7 @@
   <sequence>
     <author>F. Jahanian and Al Mok.</author>
     <title>Safety analysis of timing properties in real-time systems.</title>
-    <journal>IEEE Transactions on Software Engineering,</journal>
+    <container-title>IEEE Transactions on Software Engineering,</container-title>
     <volume>12(9),</volume>
     <pages>890-904,</pages>
     <date>September 1986.</date>
@@ -392,7 +392,7 @@
   <sequence>
     <author>D. Waltz.</author>
     <title>Understanding line-drawings of scenes with shadows.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>2,</volume>
     <pages>79-116,</pages>
     <date>1971.</date>
@@ -441,7 +441,7 @@
     <author>Dietterich, T. G., &amp; Bakiri, G.</author>
     <date>(1995).</date>
     <title>Solving multiclass learning problems via error-correcting output codes.</title>
-    <journal>Journal of Artificial Intelligence Research,</journal>
+    <container-title>Journal of Artificial Intelligence Research,</container-title>
     <volume>2,</volume>
     <pages>263-286.</pages>
   </sequence>
@@ -462,7 +462,7 @@
     <author>Langley, P., &amp; Simon, H. A.</author>
     <date>(1995).</date>
     <title>Applications of machine learning and rule induction.</title>
-    <journal>Communications of the ACM,</journal>
+    <container-title>Communications of the ACM,</container-title>
     <volume>38 (11),</volume>
     <pages>55-64.</pages>
   </sequence>
@@ -470,7 +470,7 @@
     <author>Kirkpatrick, S., Gelatt, C., &amp; Vecchi, M.</author>
     <date>(1983).</date>
     <title>Optimization by simulated annealing.</title>
-    <journal>Science,</journal>
+    <container-title>Science,</container-title>
     <volume>220 (4598),</volume>
     <pages>671-680.</pages>
   </sequence>
@@ -485,7 +485,7 @@
     <author>Michalski, R.</author>
     <date>(1983).</date>
     <title>A theory and methodology of inductive learning.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>20,</volume>
     <pages>111-161.</pages>
   </sequence>
@@ -580,13 +580,13 @@
   <sequence>
     <author>D. M. Chiarulli, S. P. Levitan, R. G. Melhem, and C. Qiao.</author>
     <title>Locality based control algorithms for reconfigurable optical interconnection networks.</title>
-    <journal>Applied Optics,</journal>
+    <container-title>Applied Optics,</container-title>
     <note>to appear.</note>
   </sequence>
   <sequence>
     <author>W. Sterling, F. Carino and C. Boss,</author>
     <title>"Multimedia Databases and Servers,"</title>
-    <journal>AT&amp;T Technical Journal,</journal>
+    <container-title>AT&amp;T Technical Journal,</container-title>
     <volume>Vol. 74, No. 5,</volume>
     <date>September / October 1995,</date>
     <pages>pp. 54-67.</pages>
@@ -617,7 +617,7 @@
   <sequence>
     <author>J. Borenstein and Y. Koren,</author>
     <title>"Obstacle avoidance with ultrasonic sensors,"</title>
-    <journal>IEEE J. Robotics Automation</journal>
+    <container-title>IEEE J. Robotics Automation</container-title>
     <volume>4,</volume>
     <pages>pp. 213-218,</pages>
     <date>1988.</date>
@@ -637,7 +637,7 @@
     <publisher>Department of Mathematics and Statistics, Old Dominion University,</publisher>
     <location>Norfolk, VA 23529,</location>
     <date>1993.</date>
-    <journal>Journal of Optimization Theory and Applications,</journal>
+    <container-title>Journal of Optimization Theory and Applications,</container-title>
     <note>to appear.</note>
   </sequence>
   <sequence>
@@ -657,7 +657,7 @@
   <sequence>
     <author>A. S. Acampora and M. J. Karol,</author>
     <title>"An Overview of Lightwave Packet Network."</title>
-    <journal>IEEE Network Mag.</journal>
+    <container-title>IEEE Network Mag.</container-title>
     <volume>3(1),</volume>
     <pages>pages 29-41,</pages>
     <date>1989.</date>
@@ -666,7 +666,7 @@
     <author>Blumer, A., Ehrenfeucht, A., Haussler, D., &amp; Warmuth, M.</author>
     <date>(1989).</date>
     <title>Learnability and the Vapnik-Chervonenkis dimension.</title>
-    <journal>Journal of the ACM,</journal>
+    <container-title>Journal of the ACM,</container-title>
     <volume>36 (4),</volume>
     <pages>929-965.</pages>
   </sequence>
@@ -688,7 +688,7 @@
   <sequence>
     <author>L. G. Valiant.</author>
     <title>A Bridging Model for Parallel Computation.</title>
-    <journal>Communications of the ACM,</journal>
+    <container-title>Communications of the ACM,</container-title>
     <volume>33(8),</volume>
     <pages>103-111,</pages>
     <date>1990.</date>
@@ -713,7 +713,7 @@
     <author>S. E. Conry, K. Kuwabara, V. R. Lesser and R. A. Meyer.</author>
     <date>(1991)</date>
     <title>Multistage Negotiation for Distributed Satisfaction,</title>
-    <journal>IEEE Transactions on Systems, Man, and Cybernetics,</journal>
+    <container-title>IEEE Transactions on Systems, Man, and Cybernetics,</container-title>
     <note>Special Issue on Distributed Artificial Intelligence,</note>
     <volume>21(6),</volume>
     <pages>1462-1477</pages>
@@ -722,7 +722,7 @@
     <author>Chernoff, H.</author>
     <date>(1952).</date>
     <title>A measure of the asymptotic efficiency for tests of a hypothesis based on the sum of observations.</title>
-    <journal>Annals of Mathematical Statistics,</journal>
+    <container-title>Annals of Mathematical Statistics,</container-title>
     <volume>23,</volume>
     <pages>493-509.</pages>
   </sequence>
@@ -758,7 +758,7 @@
   <sequence>
     <author>J. B. Kam and J. D. Ullman,</author>
     <title>``Monotone data flow analysis frameworks,''</title>
-    <journal>Acta Informatica,</journal>
+    <container-title>Acta Informatica,</container-title>
     <volume>vol. 7, no. 3,</volume>
     <pages>pp. 305-317,</pages>
     <date>Jul. 1977.</date>
@@ -767,7 +767,7 @@
     <author>Cooper, G. F.</author>
     <date>(1990).</date>
     <title>The computational complexity of probabilistic inference using Bayesian belief networks.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>42(2-3),</volume>
     <pages>393-405.</pages>
   </sequence>
@@ -788,7 +788,7 @@
   <sequence>
     <author>M. Reiman, and B. Simon.</author>
     <title>An Interpolation Approximation for Queueing Systems with Poisson Input.</title>
-    <journal>Operations Research</journal>
+    <container-title>Operations Research</container-title>
     <volume>36, 3</volume>
     <date>(1988),</date>
     <pages>454-469.</pages>
@@ -822,7 +822,7 @@
   <sequence>
     <author>I. Meilijson and U. Yechiali,</author>
     <title>"On optimal right-of-way policies at a single-server station when insertion of idles times is permitted,"</title>
-    <journal>Stoch. Proc. and their Appl.</journal>
+    <container-title>Stoch. Proc. and their Appl.</container-title>
     <volume>6,</volume>
     <pages>25-32,</pages>
     <date>1977.</date>
@@ -860,7 +860,7 @@
     <author>Oliker, S., Furst, M., &amp; Maimon, O.</author>
     <date>(1992).</date>
     <title>A distributed genetic algorithm for neural network design and training.</title>
-    <journal>Complex Systems,</journal>
+    <container-title>Complex Systems,</container-title>
     <volume>6,</volume>
     <pages>459-477.</pages>
   </sequence>
@@ -889,7 +889,7 @@
     <author>De Raedt, L., &amp; Bruynooghe, M.</author>
     <date>(1990).</date>
     <title>Indirect relevance and bias in inductive concept learning.</title>
-    <journal>Knowledge Acquisition,</journal>
+    <container-title>Knowledge Acquisition,</container-title>
     <volume>2,</volume>
     <pages>365-390.</pages>
   </sequence>
@@ -940,7 +940,7 @@
   <sequence>
     <author>Ling Tony Chen, R. Drach, M. Keating, S . Louis, Doron Rotem, Arie Shoshani,</author>
     <title>Efficient organization and access of multidimensional datasets on tertiary storage systems,</title>
-    <journal>Information Systems</journal>
+    <container-title>Information Systems</container-title>
     <volume>20(2),</volume>
     <pages>pp. 155-183</pages>
     <date>(1995).</date>
@@ -982,7 +982,7 @@
     <author>Poole, David</author>
     <date>(1988).</date>
     <title>A logical framework for default reasoning.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>36(1),</volume>
     <pages>27-47</pages>
   </sequence>
@@ -996,7 +996,7 @@
   <sequence>
     <author>S. Abiteboul and V. Vianu.</author>
     <title>Datalog extensions for database queries and updates.</title>
-    <journal>Journal of Computer and System Sciences,</journal>
+    <container-title>Journal of Computer and System Sciences,</container-title>
     <volume>43,</volume>
     <pages>62-124,</pages>
     <date>1991.</date>
@@ -1026,7 +1026,7 @@
     <author>Fikes, R. E., &amp; Nilsson, N. J.</author>
     <date>(1971).</date>
     <title>STRIPS: A new approach to the application of theorem proving to problem solving.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>2,</volume>
     <pages>189-208.</pages>
     <note>Also in (Allen et al., 1990). Planning for Contingencies: A Decision-based Approach</note>
@@ -1039,7 +1039,7 @@
   <sequence>
     <author>M. Herlihy and J. Wing,</author>
     <title>"Linearizability: A Correctness Condition for Concurrent Objects",</title>
-    <journal>ACM Transactions on Programming Languages and Systems,</journal>
+    <container-title>ACM Transactions on Programming Languages and Systems,</container-title>
     <volume>Vol. 12, No. 3,</volume>
     <date>1990,</date>
     <pages>pp. 463-492.</pages>
@@ -1047,7 +1047,7 @@
   <sequence>
     <author>M. J. Wolfe and U. Banerjee.</author>
     <title>Data dependence and its application to parallel processing.</title>
-    <journal>International Journal of Parallel Programming,</journal>
+    <container-title>International Journal of Parallel Programming,</container-title>
     <volume>16(2),</volume>
     <pages>137-178,</pages>
     <date>April 1987.</date>
@@ -1067,7 +1067,7 @@
   <sequence>
     <author>R. T. Snodgrass.</author>
     <title>The Temporal Query Language TQuel.</title>
-    <journal>ACM TODS,</journal>
+    <container-title>ACM TODS,</container-title>
     <volume>12(2),</volume>
     <pages>247-298,</pages>
     <date>June 1987.</date>
@@ -1084,7 +1084,7 @@
     <author>Witten, I. H., Neal R. M., and Cleary J. G.</author>
     <date>(1987).</date>
     <title>Arithmetic coding for data compression.</title>
-    <journal>Communications of the ACM</journal>
+    <container-title>Communications of the ACM</container-title>
     <volume>30,</volume>
     <pages>520-540.</pages>
   </sequence>
@@ -1092,7 +1092,7 @@
     <author>Emihovich, C., &amp; Miller, G. E.</author>
     <date>(1988).</date>
     <title>Talking to the turtle: A discourse analysis of Logo instruction.</title>
-    <journal>Discourse Processes,</journal>
+    <container-title>Discourse Processes,</container-title>
     <volume>11,</volume>
     <pages>183-201.</pages>
   </sequence>
@@ -1106,7 +1106,7 @@
   <sequence>
     <author>A. Romanow and S. Floyd.</author>
     <title>The Dynamics of TCP Traffic over ATM Networks.</title>
-    <journal>IEEE Journal on Selected Areas in Communication,</journal>
+    <container-title>IEEE Journal on Selected Areas in Communication,</container-title>
     <volume>13(4),</volume>
     <date>May 1995.</date>
   </sequence>
@@ -1126,7 +1126,7 @@
   <sequence>
     <author>C. Amza, A. L. Cox, S. Dwarkadas, P. Keleher, H. Lu, R. Rajamony, W. Yu, and W. Zwaenepoel.</author>
     <title>Tread-Marks: Shared memory computing on networks of workstations.</title>
-    <journal>IEEE Computer,</journal>
+    <container-title>IEEE Computer,</container-title>
     <volume>29(2),</volume>
     <pages>18-28,</pages>
     <date>February 1996.</date>
@@ -1135,14 +1135,14 @@
     <author>Srinivasan, A., Muggleton, S. H., Sternberg, M. J. E., &amp; King, R. D.</author>
     <date>(1996).</date>
     <title>Theories for mutagenicity: a study in first-order and feature-based induction.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>84,</volume>
     <pages>277-299.</pages>
   </sequence>
   <sequence>
     <author>B. Berthomieu and M. Diaz.</author>
     <title>Modeling and verification of time dependent systems using time Petri nets.</title>
-    <journal>IEEE Trans. Softw. Eng.,</journal>
+    <container-title>IEEE Trans. Softw. Eng.,</container-title>
     <volume>17</volume>
     <pages>259-273,</pages>
     <date>1991.</date>
@@ -1240,7 +1240,7 @@
     <author>MacWhinney, B.</author>
     <date>(1993).</date>
     <title>Connections and symbols: closing the gap.</title>
-    <journal>Cognition,</journal>
+    <container-title>Cognition,</container-title>
     <volume>49 (3),</volume>
     <pages>291-296.</pages>
   </sequence>
@@ -1254,7 +1254,7 @@
   <sequence>
     <author>Azer Bestavros and Carlos Cunha.</author>
     <title>Server-initiated document dissemination for the www.</title>
-    <journal>IEEE Data Engineering Bulletin,</journal>
+    <container-title>IEEE Data Engineering Bulletin,</container-title>
     <date>September 1996.</date>
     <pages>Page 15</pages>
   </sequence>
@@ -1262,7 +1262,7 @@
     <author>Bunke, H., &amp; Allermann, G.</author>
     <date>(1983).</date>
     <title>Inexact graph matching for structural pattern recognition.</title>
-    <journal>Pattern Recognition Letters,</journal>
+    <container-title>Pattern Recognition Letters,</container-title>
     <volume>1 (4),</volume>
     <pages>245-253.</pages>
   </sequence>
@@ -1298,7 +1298,7 @@
   <sequence>
     <author>J. Demmel, I. Dhillon, and H. Ren.</author>
     <title>On the correctness of parallel bisection in floating point.</title>
-    <journal>ETNA,</journal>
+    <container-title>ETNA,</container-title>
     <volume>3</volume>
     <pages>116-149,</pages>
     <date>1995.</date>
@@ -1315,7 +1315,7 @@
   <sequence>
     <author>Jia, R.-Q., and J. Lei,</author>
     <title>Approximation by Multiinteger Translates of Functions Having Global Support,</title>
-    <journal>J. Approx. Theory</journal>
+    <container-title>J. Approx. Theory</container-title>
     <volume>72</volume>
     <date>(1993),</date>
     <pages>2-23.</pages>
@@ -1323,7 +1323,7 @@
   <sequence>
     <editor>Rees, J. and W. Clinger (Eds.).</editor>
     <title>The revised 3 report on the algorithmic language Scheme.</title>
-    <journal>SIGPLAN Notices</journal>
+    <container-title>SIGPLAN Notices</container-title>
     <volume>21(12),</volume>
     <date>1986,</date>
     <pages>37-79.</pages>
@@ -1332,7 +1332,7 @@
     <author>Wettschereck, Dietrich, and Thomas G. Dietterich,</author>
     <date>(1995).</date>
     <title>An Experimental Comparison of Nearest-Neighbor and Nearest-Hyperrectangle Algorithms.</title>
-    <journal>Machine Learning,</journal>
+    <container-title>Machine Learning,</container-title>
     <volume>Vol. 19, No. 1,</volume>
     <pages>pp. 5-28.</pages>
   </sequence>
@@ -1366,7 +1366,7 @@
   <sequence>
     <author>T. E. Hull, T. F. Fairgrieve, and P. T. P. Tang.</author>
     <title>Implementing complex elementary functions using exception handling.</title>
-    <journal>ACM Trans. Math. Softw.,</journal>
+    <container-title>ACM Trans. Math. Softw.,</container-title>
     <volume>20(2)</volume>
     <pages>215-244,</pages>
     <date>1994.</date>
@@ -1405,7 +1405,7 @@
     <author>Plunkett, K., &amp; Marchman, V.</author>
     <date>(1991).</date>
     <title>U-shaped learning and frequency effects in a multilayered perceptron: Implications for child language acquisition.</title>
-    <journal>Cognition,</journal>
+    <container-title>Cognition,</container-title>
     <volume>38,</volume>
     <pages>43 - 102.</pages>
   </sequence>
@@ -1445,7 +1445,7 @@
     <author>McKinsey, J. C. C.</author>
     <date>(1943).</date>
     <title>The decision problem for some classes of sentences without quantifier.</title>
-    <journal>Journal of Symbolic Logic,</journal>
+    <container-title>Journal of Symbolic Logic,</container-title>
     <volume>8 (3),</volume>
     <pages>61-76.</pages>
   </sequence>
@@ -1482,7 +1482,7 @@
   <sequence>
     <author>Y. L. Chang and M. E. Marhic.</author>
     <title>Fiber-optic ladder networks for inverse decoding coherent CDMA.</title>
-    <journal>Journal of Lightwave Technology,</journal>
+    <container-title>Journal of Lightwave Technology,</container-title>
     <volume>10(12)</volume>
     <pages>1952-1962,</pages>
     <date>December 1992.</date>
@@ -1515,7 +1515,7 @@
     <author>Conklin, D., Fortier, S., &amp; Glasgow, J.</author>
     <date>(1993a).</date>
     <title>Knowledge discovery in molecular databases.</title>
-    <journal>IEEE Transactions on Knowledge and Data Engineering,</journal>
+    <container-title>IEEE Transactions on Knowledge and Data Engineering,</container-title>
     <pages>985-987.</pages>
     <note>Special Issue on Learning and Discovery in Knowledge-Based Databases.</note>
   </sequence>
@@ -1539,7 +1539,7 @@
   <sequence>
     <author>Lamaire, R. O, and D. N. Serpanos,</author>
     <title>Two Dimensional Round Robin Schedulers for Packet Switches with Multiple Input Queues,</title>
-    <journal>IEEE/ACM Tr ans. on Networking,</journal>
+    <container-title>IEEE/ACM Tr ans. on Networking,</container-title>
     <pages>pp. 471-482.</pages>
     <date>(October 94).</date>
   </sequence>
@@ -1563,7 +1563,7 @@
     <author>Miller, G.</author>
     <date>1995.</date>
     <title>WordNet: A lexical database for English.</title>
-    <journal>Communications of the ACM</journal>
+    <container-title>Communications of the ACM</container-title>
     <volume>38</volume>
     <pages>39-41</pages>
   </sequence>
@@ -1598,7 +1598,7 @@
   <sequence>
     <author>D. J. Burr.</author>
     <title>Elastic matching of line drawings.</title>
-    <journal>IEEE Trans. Pattern Analysis and Machine Intelligence,</journal>
+    <container-title>IEEE Trans. Pattern Analysis and Machine Intelligence,</container-title>
     <volume>3(6),</volume>
     <pages>708-713,</pages>
     <date>1981.</date>
@@ -1607,7 +1607,7 @@
     <author>Wermuth, N., &amp; Lauritzen, S. L.</author>
     <date>(1983).</date>
     <title>Graphical and recursive models for contingency tables.</title>
-    <journal>Biometrika,</journal>
+    <container-title>Biometrika,</container-title>
     <volume>70,</volume>
     <pages>537-552.</pages>
   </sequence>
@@ -1629,7 +1629,7 @@
   <sequence>
     <author>B. Shneiderman.</author>
     <title>Tree visualization with tree-maps: A 2-d space filling approach.</title>
-    <journal>ACM Transactions on Graphics,</journal>
+    <container-title>ACM Transactions on Graphics,</container-title>
     <volume>11(1)</volume>
     <pages>1-39,</pages>
     <date>Jan. 1992.</date>
@@ -1661,13 +1661,13 @@
     <author>Angrist, J., Imbens, G., &amp; Rubin, D.</author>
     <date>(1995).</date>
     <title>Identification of causal effects using instrumental variables.</title>
-    <journal>Journal of the American Statistical Association,</journal>
+    <container-title>Journal of the American Statistical Association,</container-title>
     <note>in press.</note>
   </sequence>
   <sequence>
     <author>D. Padua and M. J. Wolfe.</author>
     <title>Advanced compiler optimizations for supercomputers.</title>
-    <journal>Communications of the ACM,</journal>
+    <container-title>Communications of the ACM,</container-title>
     <volume>29(12)</volume>
     <pages>1184-1201,</pages>
     <date>December 1986.</date>
@@ -1676,7 +1676,7 @@
     <author>Wellman Kephart, J. O., Hogg, T., &amp; Huberman, B. A.</author>
     <date>(1989).</date>
     <title>Dynamics of computational ecosystems.</title>
-    <journal>Physical Review A,</journal>
+    <container-title>Physical Review A,</container-title>
     <volume>40,</volume>
     <pages>404-421.</pages>
   </sequence>
@@ -1697,7 +1697,7 @@
   <sequence>
     <author>A. L. Yuille.</author>
     <title>Deformable templates for face recognition.</title>
-    <journal>Journal of Cognitive Neuroscience,</journal>
+    <container-title>Journal of Cognitive Neuroscience,</container-title>
     <volume>3(1)</volume>
     <pages>59-70,</pages>
     <date>1991.</date>
@@ -1705,7 +1705,7 @@
   <sequence>
     <author>F. Facchinei and C. Kanzow.</author>
     <title>On unconstrained and constrained stationary points of the implicit Lagrangian.</title>
-    <journal>Journal of Optimization Theory and Applications,</journal>
+    <container-title>Journal of Optimization Theory and Applications,</container-title>
     <volume>92</volume>
     <pages>99-115,</pages>
     <date>1997.</date>
@@ -1713,7 +1713,7 @@
   <sequence>
     <author>N. A. Lorentzos and Y. G. Mitsopoulos.</author>
     <title>SQL Extension for Interval Data.</title>
-    <journal>IEEE TKDE,</journal>
+    <container-title>IEEE TKDE,</container-title>
     <volume>9(3)</volume>
     <pages>480-499,</pages>
     <date>May 1997.</date>
@@ -1729,7 +1729,7 @@
     <author>Friedman, J. H., &amp; Stuetzle, W.</author>
     <date>(1981).</date>
     <title>Projection pursuit regression.</title>
-    <journal>Journal of the American Statistics Association,</journal>
+    <container-title>Journal of the American Statistics Association,</container-title>
     <volume>76,</volume>
     <pages>817-823.</pages>
   </sequence>
@@ -1750,7 +1750,7 @@
   <sequence>
     <author>Ruth Shapira.</author>
     <title>A note on Sugihara's claim.</title>
-    <journal>IEEE Transactions on Pattern Analysis and Machine Intelligence,</journal>
+    <container-title>IEEE Transactions on Pattern Analysis and Machine Intelligence,</container-title>
     <volume>6(1)</volume>
     <pages>122-123,</pages>
     <date>1984.</date>
@@ -1767,7 +1767,7 @@
   <sequence>
     <author>Dwork, C., Kanellakis, P. C., and Mitchell, J. C.,</author>
     <title>On the sequential nature of unification,</title>
-    <journal>Journal of Logic Programming</journal>
+    <container-title>Journal of Logic Programming</container-title>
     <volume>1</volume>
     <pages>pp. 35-50</pages>
     <date>(1984).</date>
@@ -1776,7 +1776,7 @@
     <author>Jin-yi Cai</author>
     <date>(1990),</date>
     <title>A Note on the Determinant and Permanent Problem,</title>
-    <journal>Information and Computation,</journal>
+    <container-title>Information and Computation,</container-title>
     <volume>84, No. 1,</volume>
     <pages>119-127.</pages>
   </sequence>
@@ -1800,7 +1800,7 @@
   <sequence>
     <editor>Paul Hudak, Simon Peyton Jones, and Philip Wadler (Editors).</editor>
     <title>Report on the Programming Language Haskell, version 1.2.</title>
-    <journal>ACM SIGPLAN Notices,</journal>
+    <container-title>ACM SIGPLAN Notices,</container-title>
     <volume>27(5),</volume>
     <date>1992.</date>
   </sequence>
@@ -1853,7 +1853,7 @@
     <author>Gupta, R., Smolka, S., &amp; Bhaskar, S.</author>
     <date>(1994).</date>
     <title>On randomization in sequential and distributed algorithms.</title>
-    <journal>ACM Computing Surveys,</journal>
+    <container-title>ACM Computing Surveys,</container-title>
     <volume>26 (1),</volume>
     <pages>7-86.</pages>
   </sequence>
@@ -1866,7 +1866,7 @@
   <sequence>
     <author>A. Garvey and V. R. Lesser,</author>
     <title>"Design-to-time Real-Time Scheduling",</title>
-    <journal>IEEE Transactions on Systems, Man, and Cybernetics:</journal>
+    <container-title>IEEE Transactions on Systems, Man, and Cybernetics:</container-title>
     <note>Special Issue on Scheduling, Planning, and Control,</note>
     <volume>23(6),</volume>
     <date>1993.</date>
@@ -1888,7 +1888,7 @@
   <sequence>
     <author>B. Ryder and M. Paull.</author>
     <title>Incremental data flow analysis algorithms.</title>
-    <journal>ACM Transactions on Programming Languages and Systems,</journal>
+    <container-title>ACM Transactions on Programming Languages and Systems,</container-title>
     <volume>10(1)</volume>
     <pages>1-50,</pages>
     <date>January 1988.</date>
@@ -1897,7 +1897,7 @@
     <author>Weiss, S., &amp; Indurkhya, N.</author>
     <date>(1993a).</date>
     <title>Optimized Rule Induction.</title>
-    <journal>IEEE Expert,</journal>
+    <container-title>IEEE Expert,</container-title>
     <volume>8 (6),</volume>
     <pages>61-69.</pages>
   </sequence>
@@ -1920,7 +1920,7 @@
   <sequence>
     <author>J. Anderson,</author>
     <title>"Composite Registers",</title>
-    <journal>Distributed Computing,</journal>
+    <container-title>Distributed Computing,</container-title>
     <volume>6(3),</volume>
     <date>1993,</date>
     <pages>pp. 141-154.</pages>
@@ -1943,7 +1943,7 @@
     <author>Plunkett, K., &amp; Marchman, V.</author>
     <date>(1991).</date>
     <title>U-shaped learning and frequency effects in a mul-tilayered perceptron: Implications for child language acquisition.</title>
-    <journal>Cognition,</journal>
+    <container-title>Cognition,</container-title>
     <volume>38,</volume>
     <pages>43 - 102.</pages>
   </sequence>
@@ -1990,7 +1990,7 @@
     <author>Dempster, A., Laird, N., and Rubin, D.</author>
     <date>(1977)</date>
     <title>Maximum likelihood from incomplete data via the EM algorithm.</title>
-    <journal>Journal of the Royal Statistical Society</journal>
+    <container-title>Journal of the Royal Statistical Society</container-title>
     <volume>B39,</volume>
     <pages>1-38.</pages>
   </sequence>
@@ -2015,13 +2015,13 @@
     <author>Valiant, L. G.</author>
     <date>(1984).</date>
     <title>A theory of the learnable.</title>
-    <journal>Communications of the ACM,</journal>
+    <container-title>Communications of the ACM,</container-title>
     <volume>27 (11).</volume>
   </sequence>
   <sequence>
     <author>D. Georgakopoulos, M. Rusinkiewicz, and A. Sheth.</author>
     <title>Using tickets to enforce the serializability of multidatabase transactions.</title>
-    <journal>IEEE Trans. on Knowledge and Data Eng.,</journal>
+    <container-title>IEEE Trans. on Knowledge and Data Eng.,</container-title>
     <volume>6(1)</volume>
     <pages>166,</pages>
     <date>February 1994.</date>
@@ -2061,7 +2061,7 @@
   <sequence>
     <author>Jeffay, K., Stone, D. L., Smith, F. D.,</author>
     <title>Kernel Support for Live Digital Audio and Video,</title>
-    <journal>Computer Communications,</journal>
+    <container-title>Computer Communications,</container-title>
     <volume>Vol. 15, No. 6</volume>
     <date>(July / August 1992),</date>
     <pages>pp. 388-395.</pages>
@@ -2069,7 +2069,7 @@
   <sequence>
     <author>A. Demers, S. Keshav, and S. Shenker.</author>
     <title>Analysis and simulation of a fair queueing algorithm.</title>
-    <journal>Internetworking:Research and Experience,</journal>
+    <container-title>Internetworking:Research and Experience,</container-title>
     <volume>1</volume>
     <pages>3-26</pages>
   </sequence>
@@ -2077,7 +2077,7 @@
     <author>Fikes, R. E., Hart, P. E., &amp; Nilsson, N. J.</author>
     <date>(1972).</date>
     <title>Learning and executing generalized robot plans.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>3,</volume>
     <pages>251-288.</pages>
   </sequence>
@@ -2091,7 +2091,7 @@
     <author>Hawley, D. K., &amp; McClure, W. R.</author>
     <date>(1983).</date>
     <title>Compilation and analysis of escherichia coli promoter DNA sequences.</title>
-    <journal>Nucleic Acids Research,</journal>
+    <container-title>Nucleic Acids Research,</container-title>
     <volume>11 (8),</volume>
     <pages>2237-2255.</pages>
   </sequence>
@@ -2113,7 +2113,7 @@
     <author>VanLehn, K., Jones, R. M., &amp; Chi, M. T. H.</author>
     <date>(1992).</date>
     <title>A model of the self-explanation effect.</title>
-    <journal>Journal of the Learning Sciences,</journal>
+    <container-title>Journal of the Learning Sciences,</container-title>
     <volume>2 (1),</volume>
     <pages>1-59.</pages>
   </sequence>
@@ -2135,7 +2135,7 @@
   <sequence>
     <author>Alon Y. Levy, Divesh Srivastava, and Thomas Kirk.</author>
     <title>Data model and query evaluation in global information systems.</title>
-    <journal>Journal of Intelligent Information Systems,</journal>
+    <container-title>Journal of Intelligent Information Systems,</container-title>
     <date>1995.</date>
     <note>Special Issue on Networked Information Discovery and Retrieval (to appear).</note>
   </sequence>
@@ -2157,7 +2157,7 @@
     <author>Hermans, J., Habbema, J. D. F., &amp; Van der Burght, A. T.</author>
     <date>(1974).</date>
     <title>Cases of doubt in allocation problems, k populations.</title>
-    <journal>Bulletin of the International Statistics Institute,</journal>
+    <container-title>Bulletin of the International Statistics Institute,</container-title>
     <volume>45,</volume>
     <pages>523-529.</pages>
   </sequence>
@@ -2206,14 +2206,14 @@
     <author>Reiter, R.</author>
     <date>(1980).</date>
     <title>A logic for default reasoning.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>13,</volume>
     <pages>81-132.</pages>
   </sequence>
   <sequence>
     <author>L. Hernquist,</author>
     <title>"Vectorization of Tree Traversals,"</title>
-    <journal>Journal of Computational Physics,</journal>
+    <container-title>Journal of Computational Physics,</container-title>
     <volume>vol. 87,</volume>
     <date>1990.</date>
   </sequence>
@@ -2252,7 +2252,7 @@
   <sequence>
     <author>D. Haussler.</author>
     <title>Quantifying inductive bias: AI learning algorithms and Valiant's learning framework.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <date>1988.</date>
   </sequence>
   <sequence>
@@ -2264,7 +2264,7 @@
   <sequence>
     <author>Jaswinder Pal Singh, Wolf-Dietrich Weber, and Anoop Gupta.</author>
     <title>SPLASH: Stanford Parallel Applications for Shared Memory.</title>
-    <journal>Computer Architecture News,</journal>
+    <container-title>Computer Architecture News,</container-title>
     <volume>20(1),</volume>
     <pages>5-44,</pages>
     <date>March 1992.</date>
@@ -2310,7 +2310,7 @@
     <author>Harper, M. P., &amp; Helzerman, R. A.</author>
     <date>(1995b).</date>
     <title>Managing multiple knowledge sources in constraint-based parsing of spoken language.</title>
-    <journal>Fundamenta Informaticae,</journal>
+    <container-title>Fundamenta Informaticae,</container-title>
     <volume>23 (2, 3, 4),</volume>
     <pages>303-353.</pages>
   </sequence>
@@ -2337,7 +2337,7 @@
   <sequence>
     <author>I. Koren and A. D. Singh,</author>
     <title>"Fault Tolerance in VLSI Circuits,"</title>
-    <journal>Computer,</journal>
+    <container-title>Computer,</container-title>
     <note>Special Issue on Fault-Tolerant Systems,</note>
     <volume>Vol. 23, No. 7,</volume>
     <pages>pp. 73-83,</pages>
@@ -2371,14 +2371,14 @@
   <sequence>
     <author>S. P. Amarasinghe, J. M. Anderson, C. S. Wilson, S.-W. Liao, B. M. Murphy, R. S. French, M. S. Lam, and M. W. Hall.</author>
     <title>Multiprocessors from a software perspective.</title>
-    <journal>IEEE Micro,</journal>
+    <container-title>IEEE Micro,</container-title>
     <pages>pages 5261,</pages>
     <date>June 1996.</date>
   </sequence>
   <sequence>
     <author>Y. Breitbart, A. Silberschatz, and G. R. Thompson.</author>
     <title>An approach to recovery management in a multidatabase system.</title>
-    <journal>The VLDB Journal,</journal>
+    <container-title>The VLDB Journal,</container-title>
     <volume>1(11),</volume>
     <date>July 1992.</date>
   </sequence>
@@ -2393,7 +2393,7 @@
   <sequence>
     <author>Frank Kappe, Hermann Maurer, and Nick Sherbakov.</author>
     <title>Hyper-G a universal hypermedia system.</title>
-    <journal>Journal of Educational Multimedia and Hypermedia,</journal>
+    <container-title>Journal of Educational Multimedia and Hypermedia,</container-title>
     <volume>2(1)</volume>
     <pages>39-66,</pages>
     <date>1993.</date>
@@ -2423,7 +2423,7 @@
   <sequence>
     <author>R. Graham.</author>
     <title>Bounds on multiprocessing timing anomalies.</title>
-    <journal>SIAM Journal of Computing,</journal>
+    <container-title>SIAM Journal of Computing,</container-title>
     <volume>17</volume>
     <pages>416 - 429,</pages>
     <date>1969.</date>
@@ -2460,7 +2460,7 @@
   <sequence>
     <author>J.-S. Pang and S. A. Gabriel,</author>
     <title>NE/SQP: A robust algorithm for the nonlinear complementarity problem,</title>
-    <journal>Math. Programming,</journal>
+    <container-title>Math. Programming,</container-title>
     <volume>60</volume>
     <date>(1993),</date>
     <pages>pp. 295-337.</pages>
@@ -2492,7 +2492,7 @@
     <author>Milgrom, P., &amp; Roberts, J.</author>
     <date>(1991).</date>
     <title>Adaptive and sophisticated learning in normal form games.</title>
-    <journal>Games and Economic Behavior,</journal>
+    <container-title>Games and Economic Behavior,</container-title>
     <volume>3,</volume>
     <pages>82-100.</pages>
   </sequence>
@@ -2500,7 +2500,7 @@
     <author>Lovejoy, W. S.</author>
     <date>(1991b).</date>
     <title>Computationally feasible bounds for partially observed Markov decision processes.</title>
-    <journal>Operations Research,</journal>
+    <container-title>Operations Research,</container-title>
     <volume>39 (1),</volume>
     <pages>162-175.</pages>
   </sequence>
@@ -2537,7 +2537,7 @@
     <author>Halpern, J. Y., &amp; Moses, Y.</author>
     <date>(1990).</date>
     <title>Knowledge and common knowledge in a distributed environment.</title>
-    <journal>Journal of the ACM,</journal>
+    <container-title>Journal of the ACM,</container-title>
     <volume>37 (3),</volume>
     <pages>549-587.</pages>
   </sequence>
@@ -2545,21 +2545,21 @@
     <author>Buntine, W.</author>
     <date>(1994).</date>
     <title>Operations for learning with graphical models.</title>
-    <journal>Journal of Artificial Intelligence Research,</journal>
+    <container-title>Journal of Artificial Intelligence Research,</container-title>
     <volume>2,</volume>
     <pages>159-225.</pages>
   </sequence>
   <sequence>
     <author>A. J. Bernstein.</author>
     <title>Analysis of programs for parallel processing.</title>
-    <journal>IEEE Transactions on Electronic Computers,</journal>
+    <container-title>IEEE Transactions on Electronic Computers,</container-title>
     <pages>pages 757-763,</pages>
     <date>October 1966.</date>
   </sequence>
   <sequence>
     <author>Debray, S. K. and Warren, D. S.,</author>
     <title>Automatic Mode Inference for Logic Programs,</title>
-    <journal>J. Logic Programming,</journal>
+    <container-title>J. Logic Programming,</container-title>
     <volume>5</volume>
     <pages>207-229</pages>
     <date>(1988).</date>
@@ -2574,7 +2574,7 @@
   <sequence>
     <author>Henderson, D. A. Jr. And Card, S. K.</author>
     <title>Rooms: The Use of Multiple Virtual Workspaces to Reduce Space Contention in a Window-Based Graphical User Interface,</title>
-    <journal>IEEE Transactions on Graphics,</journal>
+    <container-title>IEEE Transactions on Graphics,</container-title>
     <volume>5 (3),</volume>
     <pages>211-243,</pages>
     <date>1987.</date>
@@ -2583,7 +2583,7 @@
     <author>Mooney, R. J., &amp; Califf, M. E.</author>
     <date>(1995).</date>
     <title>Induction of first-order decision lists: results on learning the past tense of english verbs.</title>
-    <journal>Journal of Artificial Intelligence Research,</journal>
+    <container-title>Journal of Artificial Intelligence Research,</container-title>
     <volume>3,</volume>
     <pages>1-24.</pages>
   </sequence>
@@ -2598,7 +2598,7 @@
     <author>Hauptman, H., &amp; Karle, J.</author>
     <date>(1953).</date>
     <title>Solution of the Phase Problem, 1. The Centrosymmetric Crystal,</title>
-    <journal>ACA Monograph</journal>
+    <container-title>ACA Monograph</container-title>
     <volume>No. 3.</volume>
     <location>Wilmington:</location>
     <publisher>Polycrystal Book Service.</publisher>
@@ -2617,14 +2617,14 @@
     <author>Mooney, R. J.</author>
     <date>(1990).</date>
     <title>Learning plan schemata from observation: Explanation-based learning for plan recognition.</title>
-    <journal>Cognitive Science,</journal>
+    <container-title>Cognitive Science,</container-title>
     <volume>14,</volume>
     <pages>483-509.</pages>
   </sequence>
   <sequence>
     <author>S. Hiranandani, K. Kennedy, and C. Tseng.</author>
     <title>Compiling Fortran D for MIMD distributed-memory machines.</title>
-    <journal>Communications of the ACM,</journal>
+    <container-title>Communications of the ACM,</container-title>
     <volume>35(8)</volume>
     <pages>66-80,</pages>
     <date>Aug. 1992.</date>
@@ -2652,7 +2652,7 @@
   <sequence>
     <author>N. J. Nilsson.</author>
     <title>Probabilistic logic.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>28(1)</volume>
     <pages>71-87,</pages>
     <date>1986.</date>
@@ -2661,14 +2661,14 @@
     <author>Neil Immerman</author>
     <date>(1989),</date>
     <title>Expressibility and Parallel Complexity,</title>
-    <journal>SIAM J. of Comput</journal>
+    <container-title>SIAM J. of Comput</container-title>
     <volume>18,</volume>
     <pages>625-638.</pages>
   </sequence>
   <sequence>
     <author>N. Benvenuto and F. Piazza.</author>
     <title>On the Complex Backpropagation Algorithm.</title>
-    <journal>IEEE Transactions on Signal Processing,</journal>
+    <container-title>IEEE Transactions on Signal Processing,</container-title>
     <volume>40(4)</volume>
     <pages>967-969,</pages>
     <date>1992.</date>
@@ -2691,7 +2691,7 @@
   <sequence>
     <author>P. Havlak and K. Kennedy.</author>
     <title>An implementation of inter procedural bounded regular section analysis.</title>
-    <journal>IEEE Transactions on Parallel and Distributed Systems,</journal>
+    <container-title>IEEE Transactions on Parallel and Distributed Systems,</container-title>
     <volume>2(3)</volume>
     <pages>350-360,</pages>
     <date>July 1991.</date>
@@ -2817,14 +2817,14 @@
     <author>Bergamaschi, S., &amp; Sartori, C.</author>
     <date>(1992).</date>
     <title>On taxonomic reasoning in conceptual design.</title>
-    <journal>ACM Transaction on Database Systems,</journal>
+    <container-title>ACM Transaction on Database Systems,</container-title>
     <volume>17 (3),</volume>
     <pages>385-422.</pages>
   </sequence>
   <sequence>
     <author>J. J. Koenderink.</author>
     <title>The structure of images.</title>
-    <journal>Biological Cybernetics,</journal>
+    <container-title>Biological Cybernetics,</container-title>
     <volume>50</volume>
     <pages>363-396,</pages>
     <date>1984.</date>
@@ -2858,7 +2858,7 @@
   <sequence>
     <author>Tim Berners-Lee, Robert Cailliau, Jean-Francois Groff, and Bernd Pollermann.</author>
     <title>WorldWideWeb: the information universe.</title>
-    <journal>Electronic Networking: Research, Applications and Policy,</journal>
+    <container-title>Electronic Networking: Research, Applications and Policy,</container-title>
     <volume>2(1)</volume>
     <pages>52-58,</pages>
     <date>Spring 1992.</date>
@@ -2909,7 +2909,7 @@
     <author>Kambhampati, S., Knoblock, C., &amp; Yang, Q.</author>
     <date>(1995).</date>
     <title>Planning as refinement search: a unified framework for evaluating design tradeoffs in partial-order planning.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>76,</volume>
     <pages>167-238.</pages>
   </sequence>
@@ -2936,14 +2936,14 @@
     <author>Muggleton, S., &amp; De Raedt, L.</author>
     <date>(1994).</date>
     <title>Inductive logic programming: Theory and methods.</title>
-    <journal>Journal of Logic Programming,</journal>
+    <container-title>Journal of Logic Programming,</container-title>
     <volume>19,</volume>
     <pages>629-679.</pages>
   </sequence>
   <sequence>
     <author>J. J Koenderink and A. J. van Doorn.</author>
     <title>Representation of local geometry in the visual system.</title>
-    <journal>Biological Cybernetics,</journal>
+    <container-title>Biological Cybernetics,</container-title>
     <volume>55</volume>
     <pages>367-375,</pages>
     <date>1987.</date>
@@ -2951,7 +2951,7 @@
   <sequence>
     <author>R. Reiter.</author>
     <title>A theory of diagnosis from first principles.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>33(1)</volume>
     <pages>57-95,</pages>
     <date>1987.</date>
@@ -2959,7 +2959,7 @@
   <sequence>
     <author>J. T. Hecht, Y. Wang, B. Connor, S. H. Blanton, and S. P. Daiger.</author>
     <title>Non-syndromic cleft lip and palate: No evidence of linkage to HLA or factor 13a.</title>
-    <journal>American Journal of Human Genetics,</journal>
+    <container-title>American Journal of Human Genetics,</container-title>
     <volume>52</volume>
     <pages>1230-1233,</pages>
     <date>1993.</date>
@@ -2968,14 +2968,14 @@
     <author>Strang, G. and G. Fix,</author>
     <title>A Fourier analysis of the finite element variational method, Constructive Aspects of Functional Analysis</title>
     <editor>(G. Geymonat, ed.),</editor>
-    <journal>C. I. M. E.,</journal>
+    <container-title>C. I. M. E.,</container-title>
     <date>1973,</date>
     <pages>pp. 793-840.</pages>
   </sequence>
   <sequence>
     <author>E. Berlekamp.</author>
     <title>"Factoring polynomials over large finite fields,"</title>
-    <journal>Mathematics of Computation,</journal>
+    <container-title>Mathematics of Computation,</container-title>
     <volume>Vol. 24, No. 111,</volume>
     <pages>pp. 713-735</pages>
     <date>(1970).</date>
@@ -2990,7 +2990,7 @@
   <sequence>
     <author>D. Terzopoulos,</author>
     <title>"Image Analysis using Multigrid Relaxation Methods,"</title>
-    <journal>IEEE Trans. Patt. Anal. Mach. Intell.,</journal>
+    <container-title>IEEE Trans. Patt. Anal. Mach. Intell.,</container-title>
     <volume>Vol. 8,</volume>
     <pages>pp. 129-139,</pages>
     <date>March 1986.</date>
@@ -3017,7 +3017,7 @@
   <sequence>
     <author>J. Fortes and B. Wah,</author>
     <title>Systolic Arrays | from Concept to Implementation,</title>
-    <journal>Computer</journal>
+    <container-title>Computer</container-title>
     <volume>20</volume>
     <date>(1987),</date>
   </sequence>
@@ -3048,14 +3048,14 @@
     <author>McDermott, J.</author>
     <date>(1982).</date>
     <title>R1: A rule-based configurer of computer systems.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>19.</volume>
   </sequence>
   <sequence>
     <author>Chapman, D.</author>
     <date>(1987).</date>
     <title>Planning for conjunctive goals.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>32,</volume>
     <pages>333-377.</pages>
   </sequence>
@@ -3069,7 +3069,7 @@
   <sequence>
     <author>K. Li and P. Hudak.</author>
     <title>Memory coherence in shared virtual memory systems.</title>
-    <journal>ACM Transactions on Computer Systems,</journal>
+    <container-title>ACM Transactions on Computer Systems,</container-title>
     <volume>7(4)</volume>
     <pages>321-359,</pages>
     <date>November 1989.</date>
@@ -3096,7 +3096,7 @@
   <sequence>
     <author>Thomas F. LaPorta and Mischa Schwartz.</author>
     <title>Performance analysis of MSP: Feature-rich high-speed transport protocol.</title>
-    <journal>IEEE/ACM Transactions on Networking,</journal>
+    <container-title>IEEE/ACM Transactions on Networking,</container-title>
     <volume>1(6)</volume>
     <pages>740-753,</pages>
     <date>December 1993.</date>
@@ -3104,7 +3104,7 @@
   <sequence>
     <author>U. Kremer, H. Zima, H.-J. Bast, and M. Gerndt.</author>
     <title>Advanced tools and techniques for automatic parallelization.</title>
-    <journal>Parallel Computing,</journal>
+    <container-title>Parallel Computing,</container-title>
     <volume>7</volume>
     <pages>387-393,</pages>
     <date>1988.</date>
@@ -3141,7 +3141,7 @@
     <author>Deerwester, S., Dumais, S., Furnas, G., Landauer, T., &amp; Harshman, R.</author>
     <date>(1990).</date>
     <title>Indexing by latent semantic analysis.</title>
-    <journal>Journal of the American Society for Information Science,</journal>
+    <container-title>Journal of the American Society for Information Science,</container-title>
     <volume>41,</volume>
     <pages>391-407.</pages>
   </sequence>
@@ -3198,7 +3198,7 @@
   <sequence>
     <author>J. McCarthy.</author>
     <title>Circumscription a form of non-monotonic reasoning.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>13</volume>
     <pages>27-39, 171-172,</pages>
     <date>1980.</date>
@@ -3206,14 +3206,14 @@
   <sequence>
     <author>O. Shechory and S. Kraus.</author>
     <title>Feasible formation of stable coalitions among autonomous agents in general environments.</title>
-    <journal>Computational Intelligence Journal,</journal>
+    <container-title>Computational Intelligence Journal,</container-title>
     <date>1995.</date>
     <note>Submitted.</note>
   </sequence>
   <sequence>
     <author>R. R. Jueneman, S. M. Matyas, and C. H. Meyer,</author>
     <title>``Message Authentication,''</title>
-    <journal>IEEE Communications</journal>
+    <container-title>IEEE Communications</container-title>
     <volume>23(9),</volume>
     <pages>pp. 29-40</pages>
     <date>(September 1985).</date>
@@ -3222,7 +3222,7 @@
     <author>Korf, R.</author>
     <date>(1985).</date>
     <title>Macro-operators: a weak method for learning.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>26,</volume>
     <pages>35-77.</pages>
   </sequence>
@@ -3238,7 +3238,7 @@
   <sequence>
     <author>R. Gupta,</author>
     <title>"Optimizing Array Bound Checks using Flow Analysis,"</title>
-    <journal>ACM Letters on Programming Languages and Systems,</journal>
+    <container-title>ACM Letters on Programming Languages and Systems,</container-title>
     <volume>Vol. 2, Nos. 1-4,</volume>
     <pages>pages 135-150,</pages>
     <date>March - December 1994.</date>
@@ -3252,7 +3252,7 @@
     <author>Golomb, S., &amp; Baumert, L.</author>
     <date>(1965).</date>
     <title>Backtrack programming.</title>
-    <journal>J. ACM,</journal>
+    <container-title>J. ACM,</container-title>
     <volume>12,</volume>
     <pages>516-524.</pages>
   </sequence>
@@ -3266,7 +3266,7 @@
   <sequence>
     <author>L. Sha, R. Rajkumar, and J. Lehoczky,</author>
     <title>"Priority Inheritance Protocols: An Approach to RealTime System Synchronization",</title>
-    <journal>IEEE Transactions on Computers,</journal>
+    <container-title>IEEE Transactions on Computers,</container-title>
     <volume>Vol. 39, No. 9,</volume>
     <date>1990,</date>
     <pages>pp. 1175-1185.</pages>
@@ -3289,7 +3289,7 @@
     <author>Whitley, D., &amp; Gruau, F.</author>
     <date>(1993).</date>
     <title>Adding learning to the cellular development of neural networks: Evolution and the Baldwin effect.</title>
-    <journal>Evolutionary Computation,</journal>
+    <container-title>Evolutionary Computation,</container-title>
     <volume>1,</volume>
     <pages>213-233.</pages>
   </sequence>
@@ -3321,7 +3321,7 @@
     <author>Grosz, B. J., and Sidner, C. L.</author>
     <date>1986.</date>
     <title>Attention, intention, and the structure of discourse.</title>
-    <journal>Computational Linguistics</journal>
+    <container-title>Computational Linguistics</container-title>
     <volume>12(3)</volume>
     <pages>175-204</pages>
   </sequence>
@@ -3388,21 +3388,21 @@
     <author>V. Faber</author>
     <date>(1993):</date>
     <title>Global communication algorithms for hypercubes and other Cayley coset graphs.</title>
-    <journal>SIAM J. Discr. Math.,</journal>
+    <container-title>SIAM J. Discr. Math.,</container-title>
     <note>to appear.</note>
   </sequence>
   <sequence>
     <author>Marinari, E. and Parisi, G.</author>
     <date>(1992)</date>
     <title>"Simulated tempering: A new Monte Carlo Scheme",</title>
-    <journal>Europhysics Letters,</journal>
+    <container-title>Europhysics Letters,</container-title>
     <volume>vol. 19,</volume>
     <pages>pp. 451-458.</pages>
   </sequence>
   <sequence>
     <author>P. K. Chrysanthis and K. Ramamritham.</author>
     <title>Synthesis of extended transaction models using ACTA.</title>
-    <journal>ACM Transactions on Database Systems,</journal>
+    <container-title>ACM Transactions on Database Systems,</container-title>
     <volume>19(3)</volume>
     <pages>450-491,</pages>
     <date>September 1994.</date>
@@ -3423,7 +3423,7 @@
   <sequence>
     <author>Wright, A. K.</author>
     <title>Simple imperative polymorphism.</title>
-    <journal>Lisp and Symbolic Computation</journal>
+    <container-title>Lisp and Symbolic Computation</container-title>
     <volume>8, 4</volume>
     <date>(Dec. 1995),</date>
     <pages>343-356.</pages>
@@ -3438,7 +3438,7 @@
     <author>Jennings, N.</author>
     <date>(1994).</date>
     <title>Commitments and conventions: the foundation of coordination in multi-agent systems.</title>
-    <journal>The Knowledge Engineering Review,</journal>
+    <container-title>The Knowledge Engineering Review,</container-title>
     <volume>8.</volume>
   </sequence>
   <sequence>
@@ -3453,7 +3453,7 @@
   <sequence>
     <author>David Chapman.</author>
     <title>Planning for conjunctive goals.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>32,</volume>
     <date>1987.</date>
   </sequence>
@@ -3482,7 +3482,7 @@
     <author>Rubinstein, A.</author>
     <date>(1982).</date>
     <title>Perfect equilibrium in a bargaining model.</title>
-    <journal>Econometrica,</journal>
+    <container-title>Econometrica,</container-title>
     <volume>50 (1),</volume>
     <pages>97-109.</pages>
   </sequence>
@@ -3490,7 +3490,7 @@
     <author>Selman, B., &amp; Kautz, H. A.</author>
     <date>(1996).</date>
     <title>Knowledge Compilation and Theory Approximation.</title>
-    <journal>Journal of the ACM,</journal>
+    <container-title>Journal of the ACM,</container-title>
     <volume>Vol. 43, No. 2,</volume>
     <pages>193-224.</pages>
   </sequence>
@@ -3506,14 +3506,14 @@
     <author>K. H. Wolf, K. Froitzheim and P. Schulthess,</author>
     <date>(1995)</date>
     <title>Multimedia Application Sharing in a Heterogeneous Environment,</title>
-    <journal>ACM Multimedia</journal>
+    <container-title>ACM Multimedia</container-title>
     <volume>95,</volume>
     <pages>Pages 57-64.</pages>
   </sequence>
   <sequence>
     <author>P. Perez and F. Heitz,</author>
     <title>"Multiscale Markov Random Fields and Constrained Relaxation in Low Level Image Analysis,"</title>
-    <journal>IEEE International Conf. on Acoustics, Speech, and Signal Processing,</journal>
+    <container-title>IEEE International Conf. on Acoustics, Speech, and Signal Processing,</container-title>
     <volume>Vol. 3,</volume>
     <pages>pp. 61-64,</pages>
     <date>1992.</date>
@@ -3521,7 +3521,7 @@
   <sequence>
     <author>R. Fagin, J. Halpern, and M. Vardi.</author>
     <title>A model-theoretic analysis of knowledge.</title>
-    <journal>Journal of the ACM,</journal>
+    <container-title>Journal of the ACM,</container-title>
     <volume>38(2),</volume>
     <pages>382-428,</pages>
     <date>1991.</date>
@@ -3529,7 +3529,7 @@
   <sequence>
     <author>W. Enkelmann,</author>
     <title>"Obstacle detection by evaluation of optical flow fields from image sequence,"</title>
-    <journal>Image and Vision Computing</journal>
+    <container-title>Image and Vision Computing</container-title>
     <volume>9,</volume>
     <pages>pp. 160-168,</pages>
     <date>1991.</date>
@@ -3537,7 +3537,7 @@
   <sequence>
     <author>D. Callahan and K. Kennedy.</author>
     <title>Compiling programs for distributed-memory multiprocessors.</title>
-    <journal>Journal of Supercomputing,</journal>
+    <container-title>Journal of Supercomputing,</container-title>
     <volume>2</volume>
     <pages>151-169,</pages>
     <date>October 1988.</date>
@@ -3564,7 +3564,7 @@
   <sequence>
     <author>J. C. Butcher.</author>
     <title>General linear method: A survey.</title>
-    <journal>Appl. Numer. Math.,</journal>
+    <container-title>Appl. Numer. Math.,</container-title>
     <volume>1</volume>
     <pages>273,</pages>
     <date>1985.</date>
@@ -3572,7 +3572,7 @@
   <sequence>
     <author>M. C. Speer, L. H. Yamaoka, J. H. Gilchrist, C. P. Gaskell, J. M. Stajich, J. M. Vance, Z. Kazantsev, A. Lastra, C. S. Haynes, J. S. Beckmann, D. Cohen, J. L. Weber, A. D. Roses, and M. A. Pericak-Vance.</author>
     <title>Confirmation of genetic heterogeneity in limb-girdle muscular dystrophy: Linkage of an autosomal dominant form to chromosome 5q.</title>
-    <journal>Am. J. Hum. Genet.,</journal>
+    <container-title>Am. J. Hum. Genet.,</container-title>
     <volume>50</volume>
     <pages>1211-1217,</pages>
     <date>1992.</date>
@@ -3588,7 +3588,7 @@
     <author>Marr, D., &amp; Nishihara, H.</author>
     <date>(1978).</date>
     <title>Representation and recognition of the spatial organisation of three-dimensional shapes.</title>
-    <journal>Proceedings of the Royal Society of London,</journal>
+    <container-title>Proceedings of the Royal Society of London,</container-title>
     <volume>B200,</volume>
     <pages>269-294.</pages>
   </sequence>
@@ -3605,7 +3605,7 @@
     <author>Dechter, R.</author>
     <date>(1992).</date>
     <title>From local to global consistency.</title>
-    <journal>Artificial Intelligence,</journal>
+    <container-title>Artificial Intelligence,</container-title>
     <volume>55,</volume>
     <pages>87-107.</pages>
   </sequence>
@@ -3613,14 +3613,14 @@
     <author>Beeri, C.</author>
     <date>(1990).</date>
     <title>A formal approach to object-oriented databases.</title>
-    <journal>Data and Knowledge Engineering,</journal>
+    <container-title>Data and Knowledge Engineering,</container-title>
     <volume>5,</volume>
     <pages>353-382.</pages>
   </sequence>
   <sequence>
     <author>Y. Sagiv and M. Yannakakis.</author>
     <title>Equivalence among relational expressions with the union and difference operators.</title>
-    <journal>In J. ACM</journal>
+    <container-title>In J. ACM</container-title>
     <volume>27(4)</volume>
     <pages>pp. 633-655,</pages>
     <date>1981.</date>
@@ -3629,13 +3629,13 @@
     <author>M. V. Solodov.</author>
     <title>Some optimization reformulations of the extended linear complementarity problems,</title>
     <date>1997.</date>
-    <journal>Computational Optimization and Applications,</journal>
+    <container-title>Computational Optimization and Applications,</container-title>
     <note>to appear.</note>
   </sequence>
   <sequence>
     <author>D. Gannon, W. Jalby, and K. Gallivan.</author>
     <title>Strategies for cache and local memory management by global program transformation.</title>
-    <journal>Journal of Parallel and Distributed Computing,</journal>
+    <container-title>Journal of Parallel and Distributed Computing,</container-title>
     <volume>5(5)</volume>
     <pages>587-616,</pages>
     <date>October 1988.</date>
@@ -3643,7 +3643,7 @@
   <sequence>
     <author>S. M. Robinson.</author>
     <title>Some continuity properties of polyhedral multifunctions.</title>
-    <journal>Mathematical Programming Study,</journal>
+    <container-title>Mathematical Programming Study,</container-title>
     <volume>14</volume>
     <pages>206-214,</pages>
     <date>1981.</date>
@@ -3666,13 +3666,13 @@
   <sequence>
     <author>DeWitt, D. J.,</author>
     <title>"DIRECT A Multiprocessor Organization for Supporting Relational Database Management Systems,"</title>
-    <journal>IEEE Transactions on Computers,</journal>
+    <container-title>IEEE Transactions on Computers,</container-title>
     <date>June, 1979.</date>
   </sequence>
   <sequence>
     <author>I. Lee, P. Bremond-Gregoire, and R. Gerber.</author>
     <title>A Process Algebraic Approach to the Specification and Analysis of Resource-Bound Real-Time Systems.</title>
-    <journal>IEEE Proceedings,</journal>
+    <container-title>IEEE Proceedings,</container-title>
     <volume>82(1),</volume>
     <date>January 1994.</date>
   </sequence>
@@ -3690,7 +3690,7 @@
     <author>Koppel, M., Feldman, R., &amp; Segre, A. M.</author>
     <date>(1994b).</date>
     <title>Bias-driven revision of logical domain theories.</title>
-    <journal>Journal of Artificial Intelligence Research,</journal>
+    <container-title>Journal of Artificial Intelligence Research,</container-title>
     <volume>1,</volume>
     <pages>159-208.</pages>
   </sequence>
@@ -3712,7 +3712,7 @@
   <sequence>
     <author>R. Rosenfeld and D. S. Touretzky.</author>
     <title>Coarse-coded symbol memories and their properties.</title>
-    <journal>Complex Systems,</journal>
+    <container-title>Complex Systems,</container-title>
     <volume>2(4)</volume>
     <pages>463-484,</pages>
     <date>1988.</date>
@@ -3730,7 +3730,7 @@
     <author>Aday, L. A.</author>
     <date>(2002).</date>
     <title>A health services research perspective on the use of ancillary services to retain persons living with HIV/AIDS in primary care.</title>
-    <journal>AIDS Care,</journal>
+    <container-title>AIDS Care,</container-title>
     <volume>14(Suppl.1),</volume>
     <pages>133-136.</pages>
   </sequence>
@@ -3738,7 +3738,7 @@
     <author>Adomaitis, R.</author>
     <date>(2005).</date>
     <title>The nondirective attitude: an interview with Nat Raskin.</title>
-    <journal>Person-Centered Journal,</journal>
+    <container-title>Person-Centered Journal,</container-title>
     <volume>12,</volume>
     <pages>23-30.</pages>
   </sequence>
@@ -3762,7 +3762,7 @@
     <author>Anderson, H.</author>
     <date>(2001).</date>
     <title>Postmodern collaborative and person-centred therapies: What would Carl Rogers say?.</title>
-    <journal>Journal of Family Therapy,</journal>
+    <container-title>Journal of Family Therapy,</container-title>
     <volume>23(4),</volume>
     <pages>339-360.</pages>
   </sequence>
@@ -3837,7 +3837,7 @@
     <author>Aspy, D. N., Aspy, C. B., Russel, G., &amp; Wedel, M.</author>
     <date>(2000).</date>
     <title>Carkhuff's human technology: A verification and extension of Kelly's (1997) suggestion to integrate the humanistic and technical components of counseling.</title>
-    <journal>Journal of Counseling and Development,</journal>
+    <container-title>Journal of Counseling and Development,</container-title>
     <volume>78(1),</volume>
     <pages>29-37.</pages>
   </sequence>
@@ -3845,7 +3845,7 @@
     <author>Assumpcao, L. M. &amp; Wood, J. K.</author>
     <date>(2001).</date>
     <title>Project Estancia Jatoba.</title>
-    <journal>The Person-Centered Journal,</journal>
+    <container-title>The Person-Centered Journal,</container-title>
     <volume>8(1-2),</volume>
     <pages>26-42.</pages>
   </sequence>
@@ -3922,7 +3922,7 @@
     <author>Barker, P.</author>
     <date>(2001).</date>
     <title>The Tidal Model: Developing an empowering, person-centred approach to recovery within psychiatric and mental health nursing.</title>
-    <journal>Journal of Psychiatric and Mental Health Nursing,</journal>
+    <container-title>Journal of Psychiatric and Mental Health Nursing,</container-title>
     <volume>8(3),</volume>
     <pages>233-240.</pages>
   </sequence>
@@ -3930,7 +3930,7 @@
     <author>Barracato, R.</author>
     <date>(2002).</date>
     <title>Bateson revisited the mind, families, and AA.</title>
-    <journal>The Person-Centered Journal,</journal>
+    <container-title>The Person-Centered Journal,</container-title>
     <volume>9(1),</volume>
     <pages>21-33.</pages>
     <note>(with personal reflections by R. Bryant-Jeffries &amp; N. Gaylin)</note>
@@ -3949,7 +3949,7 @@
     <author>Barrett-Lennard, G. T.</author>
     <date>(2002).</date>
     <title>The helping conditions in their context: Expanding change theory and practice.</title>
-    <journal>Person-Centered and Experiential Psychotherapies,</journal>
+    <container-title>Person-Centered and Experiential Psychotherapies,</container-title>
     <volume>1(1 &amp; 2),</volume>
     <pages>144-155.</pages>
   </sequence>
@@ -4030,7 +4030,7 @@
     <author>Purcell-Lee, C. R.</author>
     <date>(2000).</date>
     <title>Dialogue and being.</title>
-    <journal>Gestalt!,</journal>
+    <container-title>Gestalt!,</container-title>
     <volume>4(2),</volume>
     <pages>NP.</pages>
   </sequence>
@@ -4038,7 +4038,7 @@
     <author>Wolford, R.</author>
     <date>(2000).</date>
     <title>The spiritual dimensions of Gestalt therapy.</title>
-    <journal>Gestalt!,</journal>
+    <container-title>Gestalt!,</container-title>
     <volume>4(3),</volume>
     <pages>NP.</pages>
   </sequence>
@@ -4128,7 +4128,7 @@
   <sequence>
     <author>Worthen, Samuel Copp.</author>
     <title>‘Poe and the Beautiful Cigar Girl’.</title>
-    <journal>American Literature</journal>
+    <container-title>American Literature</container-title>
     <volume>20, no. 3</volume>
     <date>(November 1948):</date>
     <pages>305–312.</pages>
@@ -4136,7 +4136,7 @@
   <sequence>
     <author>Wimsatt Jr., William Kurtz.</author>
     <title>‘Mary Rogers, John Anderson, and Others’.</title>
-    <journal>American Literature</journal>
+    <container-title>American Literature</container-title>
     <volume>21, no. 4</volume>
     <date>(January 1950):</date>
     <pages>482–484.</pages>
@@ -4151,7 +4151,7 @@
   <sequence>
     <author>Veel, Kristin.</author>
     <title>‘The Irreducibility of Space: Labyrinths, Cities, Cyberspace’.</title>
-    <journal>Diacritics</journal>
+    <container-title>Diacritics</container-title>
     <volume>33, no. 3/4</volume>
     <date>(2003):</date>
     <pages>151–172.</pages>
@@ -4243,7 +4243,7 @@
     <author>Flajolet, Philippe; Sedgewick, Robert</author>
     <date>(1995),</date>
     <title>"Mellin transforms and asymptotics: Finite differences and Rice's integrals",</title>
-    <journal>Theoretical Computer Science</journal>
+    <container-title>Theoretical Computer Science</container-title>
     <volume>144 (1–2):</volume>
     <pages>101–124,</pages>
     <doi>doi:10.1016/0304-3975(94)00281-M</doi>
@@ -4262,7 +4262,7 @@
     <author>Davidson, Lloyd A.; Douglas, Kimberly</author>
     <date>(December 1998).</date>
     <title>"Digital Object Identifiers: Promise and problems for scholarly publishing".</title>
-    <journal>Journal of Electronic Publishing</journal>
+    <container-title>Journal of Electronic Publishing</container-title>
     <volume>4 (2).</volume>
     <doi>doi:10.3998/3336451.0004.203</doi>
   </sequence>
@@ -4270,7 +4270,7 @@
     <author>Green, T.</author>
     <date>(2009).</date>
     <title>"We Need Publishing Standards for Datasets and Data Tables".</title>
-    <journal>Research Information.</journal>
+    <container-title>Research Information.</container-title>
     <doi>doi:10.1787/603233448430</doi>
     <note>Retrieved 2010-08-07.</note>
   </sequence>
@@ -4286,7 +4286,7 @@
     <author>Fritsch, F. N.; Carlson, R. E.</author>
     <date>(1980).</date>
     <title>"Monotone Piecewise Cubic Interpolation".</title>
-    <journal>SIAM Journal on Numerical Analysis (SIAM)</journal>
+    <container-title>SIAM Journal on Numerical Analysis (SIAM)</container-title>
     <volume>17 (2):</volume>
     <pages>238–246.</pages>
     <doi>doi:10.1137/0717021</doi>
@@ -4354,7 +4354,7 @@
     <author>Mitchell Feigenbaum</author>
     <date>(July 1978)</date>
     <title>"Quantitative universality for a class of nonlinear transformations,"</title>
-    <journal>Journal of Statistical Physics,</journal>
+    <container-title>Journal of Statistical Physics,</container-title>
     <volume>vol. 19, no. 1,</volume>
     <pages>pages 25–52.</pages>
   </sequence>
@@ -4362,7 +4362,7 @@
     <author>F. Omori</author>
     <date>(1894)</date>
     <title>"On the aftershocks of earthquakes,"</title>
-    <journal>Journal of the College of Science,</journal>
+    <container-title>Journal of the College of Science,</container-title>
     <publisher>Imperial University of Tokyo,</publisher>
     <volume>vol. 7,</volume>
     <pages>pages 111–200.</pages>
@@ -4371,7 +4371,7 @@
     <author>Kolmogorov, A. N.</author>
     <date>(1941).</date>
     <title>"On degeneration of isotropic turbulence in an incompressible viscous liquid".</title>
-    <journal>Doklady Akademii Nauk SSSR</journal>
+    <container-title>Doklady Akademii Nauk SSSR</container-title>
     <volume>31 (6):</volume>
     <pages>538–540.</pages>
   </sequence>
@@ -4387,7 +4387,7 @@
     <author>B. van der Pol and J. van der Mark</author>
     <date>(1927)</date>
     <title>"Frequency demultiplication,"</title>
-    <journal>Nature,</journal>
+    <container-title>Nature,</container-title>
     <volume>vol. 120,</volume>
     <pages>pages 363–364.</pages>
     <note>See also: Van der Pol oscillator</note>
@@ -4416,7 +4416,7 @@
   <sequence>
     <author>Lawrence A. Cunningham,</author>
     <title>From Random Walks to Chaotic Crashes: The Linear Genealogy of the Efficient Capital Market Hypothesis,</title>
-    <journal>George Washington Law Review,</journal>
+    <container-title>George Washington Law Review,</container-title>
     <volume>Vol. 62,</volume>
     <date>1994,</date>
     <pages>546 pp.</pages>
@@ -4465,7 +4465,7 @@
     <date>(2010).</date>
     <title>Rogers’ concept of the actualizing tendency in relation to Darwinian theory.</title>
     <editor>(M. Cooper, J. C. Watson &amp; W. B. Stiles, Eds.)</editor>
-    <journal>Person-Centered &amp; Experiential Psychotherapies,</journal>
+    <container-title>Person-Centered &amp; Experiential Psychotherapies,</container-title>
     <volume>9(1),</volume>
     <pages>69-80.</pages>
   </sequence>
@@ -4507,7 +4507,7 @@
   <sequence>
     <author>Miller, Linda Patterson.</author>
     <title>‘Poe on the Beat: “Doing of Gotham” as Urban, Penny Press Journalism’.</title>
-    <journal>Journal of the Early Republic</journal>
+    <container-title>Journal of the Early Republic</container-title>
     <volume>2, no. 7</volume>
     <date>(1987):</date>
     <pages>147–165.</pages>
@@ -4523,7 +4523,7 @@
     <author>Fenner M</author>
     <date>(2013)</date>
     <title>Letter from the Guest Content Editor: Altmetrics Have Come of Age.</title>
-    <journal>Information Standards Quarterly.</journal>
+    <container-title>Information Standards Quarterly.</container-title>
     <note>Available:</note>
     <url>http://dx.doi.org/10.3789/isqv25no2.2013.01.</url>
   </sequence>
@@ -4567,7 +4567,7 @@
   <sequence>
     <author>Johnson, Kirk.</author>
     <title>"Health Care Is Spread Thin on Alaskan Frontier."</title>
-    <journal>New York Times,</journal>
+    <container-title>New York Times,</container-title>
     <date>May 28, 2013.</date>
     <url>http://www.nytimes.com/2013/05/29/us/health-care-in-vast-alaska-frontier-is-spread-thin.html?hpw&amp;_r=0.</url>
   </sequence>
@@ -4581,7 +4581,7 @@
   <sequence>
     <author>Marshall, Nancy Rose.</author>
     <title>Review of Joseph Crawhill, 1861-1913, One of the Glasgow Boys.</title>
-    <journal>Victorian Studies</journal>
+    <container-title>Victorian Studies</container-title>
     <volume>42</volume>
     <date>(1999/2000):</date>
     <pages>358-60.</pages>
@@ -4596,7 +4596,7 @@
   <sequence>
     <author>Marshall, Tyler.</author>
     <title>"200th Birthday of Grimms Celebrated."</title>
-    <journal>Los Angeles Times,</journal>
+    <container-title>Los Angeles Times,</container-title>
     <date>15 March 1985,</date>
     <pages>sec. 1A, p. 3.</pages>
   </sequence>
@@ -4632,7 +4632,7 @@
   <sequence>
     <author>Wandel, Lee Palmer.</author>
     <title>"Setting the Lutheran Eucharist."</title>
-    <journal>Journal of Early Modern History</journal>
+    <container-title>Journal of Early Modern History</container-title>
     <volume>17</volume>
     <date>(1998):</date>
     <pages>124-55.</pages>
@@ -4641,7 +4641,7 @@
   <sequence>
     <author>Zukofsky, Louis.</author>
     <title>"Sincerity and Objectification."</title>
-    <journal>Poetry</journal>
+    <container-title>Poetry</container-title>
     <volume>37</volume>
     <date>(February 1931):</date>
     <pages>269.</pages>
@@ -4823,7 +4823,7 @@
     <author>Vogels, A. G. C., Crone, M. R., Hoekstra, F., &amp; Reijneveld, S.A.</author>
     <date>(2009).</date>
     <title>Comparing three short questionnaires to detect psychosocial dysfunction among primary school children: a randomized method.</title>
-    <journal>BMC Public Health</journal>
+    <container-title>BMC Public Health</container-title>
     <volume>9,</volume>
     <pages>489.</pages>
     <doi>doi:10.1186/1471-2458-9-489</doi>
@@ -4832,7 +4832,7 @@
     <author>Altobelli, T.</author>
     <date>(2009).</date>
     <title>Family violence and parenting: Future directions in practice.</title>
-    <journal>Australian Journal of Family Law,</journal>
+    <container-title>Australian Journal of Family Law,</container-title>
     <volume>23,</volume>
     <pages>194.</pages>
     <note>Retrieved January 22, 2010, from LexisNexis AU.</note>
@@ -4848,14 +4848,14 @@
     <author>Kissane, K.</author>
     <date>(1998, September 5).</date>
     <title>Kiss or kill: Who is the victim when a battered woman kills?</title>
-    <journal>The Age: Extra,</journal>
+    <container-title>The Age: Extra,</container-title>
     <pages>p. 6.</pages>
   </sequence>
   <sequence>
     <author>O'Leary, C.</author>
     <date>(2006, June 29).</date>
     <title>Landmark study to aid push for public smoking ban.</title>
-    <journal>The West Australian,</journal>
+    <container-title>The West Australian,</container-title>
     <pages>p.14.</pages>
     <note>Retrieved October 20, 2008, from Factiva.</note>
   </sequence>
@@ -4886,7 +4886,7 @@
     <author>Gilbert, D. G., Mc Clernon, J. F., Rabinovich, N. E., Sugai, C., Plath, L.C., Asgaard, G., ... Botros, N.</author>
     <date>(2004).</date>
     <title>Effects of quitting smoking on EEG activation and attention last for more than 31 days and are more severe with stress, dependence, DRD2 A1 allele, and depressive traits.</title>
-    <journal>Nicotine and Tobacco Research,</journal>
+    <container-title>Nicotine and Tobacco Research,</container-title>
     <volume>6,</volume>
     <pages>249-267.</pages>
     <doi>doi:10.1080/1462220041001676305</doi>
@@ -4941,7 +4941,7 @@
     <author>Bagatto, Giuseppe, Louise C. Paquette, and Joseph D. Shorthouse.</author>
     <date>1995.</date>
     <title>Influence of galls of Phanacis taraxaci on carbon partitioning within common dandelion, Taraxacum officinale.</title>
-    <journal>Entomologia Experimentalis et Applicata</journal>
+    <container-title>Entomologia Experimentalis et Applicata</container-title>
     <volume>79:</volume>
     <pages>111–117.</pages>
   </sequence>
@@ -4964,7 +4964,7 @@
   <sequence>
     <author>Atkins, Robert.</author>
     <title>“Chernobyl and Beyond: Green Issues in the Recent Works of Gabriele Wohmann.”</title>
-    <journal>Carleton Germanic Papers</journal>
+    <container-title>Carleton Germanic Papers</container-title>
     <volume>24</volume>
     <date>(1996):</date>
     <pages>197–214.</pages>
@@ -4995,7 +4995,7 @@
     <citation-number>[71]</citation-number>
     <author>S. M. LaValle and J. J. Ku↵ner,</author>
     <title>“Randomized kinodynamic planning,”</title>
-    <journal>The International Journal of Robotics Research,</journal>
+    <container-title>The International Journal of Robotics Research,</container-title>
     <volume>vol. 20, no. 5,</volume>
     <pages>pp. 378–400,</pages>
     <date>2001.</date>
@@ -5055,7 +5055,7 @@
   <sequence>
     <author>Zukofsky, Louis.</author>
     <title>"Sincerity and Objectification."</title>
-    <journal>Poetry</journal>
+    <container-title>Poetry</container-title>
     <volume>37</volume>
     <date>(February 1931):</date>
     <pages>269.</pages>
@@ -5065,14 +5065,14 @@
     <author>Tosco, L., Laenen, A., Briganti, A., Gontero, P., Karnes, R., Bastian, P., Chlosta, P., Claessens, F., Chun, F., Everaerts, W., Gratzke, C., Albersen, M., Graefen, M., Kneitz, B., Marchioro, G., Salas, R., Tombal, B., Van den Broeck, T., Van Der Poel, H., Walz, J., De Meerleer, G., Bossi, A., Haustermans, K., Van Poppel, H., Spahn, M., Joniau, S.</author>
     <date>(2017).</date>
     <title>The EMPaCT Classifier: A Validated Tool to Predict Postoperative Prostate Cancer-related Death Using Competing-risk Analysis.</title>
-    <journal>European Urology Focus,</journal>
+    <container-title>European Urology Focus,</container-title>
     <note>Ahead of print, art.nr. S2405-4569(17)30002-0.</note>
   </sequence>
   <sequence>
     <author>Sampson P, Buchanan S, Coote S, Demain S, Feys P, Freeman C, Meadmore K, Hughes AM</author>
     <date>(2015)</date>
     <title>Using functional electrical stimulation mediated by iterative learning control and robotics to improve arm movement for people with Multiple Sclerosis.</title>
-    <journal>IEEE Transactions on Neural Systems and Rehabilitation Engineering</journal>
+    <container-title>IEEE Transactions on Neural Systems and Rehabilitation Engineering</container-title>
     <volume>24(2):</volume>
     <pages>235-48.</pages>
   </sequence>
@@ -5080,7 +5080,7 @@
     <author>Hodgkins R, Bryant R, Darlington E and Brandon M</author>
     <date>(2016)</date>
     <title>Pre-melt-season sediment plume variability at Jökulsárlón, Iceland, a preliminary evaluation using in-situ spectroradiometry and satellite imagery.</title>
-    <journal>Annals of Glaciology.</journal>
+    <container-title>Annals of Glaciology.</container-title>
     <volume>57(73),</volume>
     <pages>39–46</pages>
     <doi>(doi:10.1017/aog.2016.20)</doi>
@@ -5089,7 +5089,7 @@
     <author>Trathan, P. N., A. S. Brierley, M. A. Brandon, D. G. Bone, C. Goss, S. A. Grant, E. J. Murphy and J. L. Watkins</author>
     <date>(2003).</date>
     <title>Oceanographic variability and changes in Antarctic krill (Euphausia superba) abundance at South Georgia.</title>
-    <journal>Fisheries Oceanography</journal>
+    <container-title>Fisheries Oceanography</container-title>
     <volume>12(6):</volume>
     <pages>569-583.</pages>
     <doi>doi: 10.1046/j.1365-2419.2003.00268.x</doi>
@@ -5098,7 +5098,7 @@
     <author>Brandon, M. A., E. J. Murphy, P. N. Trathan and D. G. Bone</author>
     <date>(2000).</date>
     <title>Physical oceanographic conditions to the northwest of the sub-Antarctic Island of South Georgia.</title>
-    <journal>Journal of Geophysical Research-Oceans</journal>
+    <container-title>Journal of Geophysical Research-Oceans</container-title>
     <volume>105(C10):</volume>
     <pages>23983-23996.</pages>
     <doi>doi: 10.1029/2000JC900098</doi>
@@ -5107,7 +5107,7 @@
     <author>Brierley, A. S., M. A. Brandon and J. L. Watkins</author>
     <date>(1998).</date>
     <title>An assessment of the utility of an acoustic Doppler current profiler for biomass estimation.</title>
-    <journal>Deep-Sea Research Part I-Oceanographic Research Papers</journal>
+    <container-title>Deep-Sea Research Part I-Oceanographic Research Papers</container-title>
     <volume>45(9):</volume>
     <pages>1555-1573.</pages>
     <doi>doi: 10.1016/S0967-0637(98)00012-0.</doi>
@@ -5115,7 +5115,7 @@
   <sequence>
     <author>Sotgiu G, D'Ambrosio L, Centis R, Bothamley G, Cirillo DM, De Lorenzo S, Guenther G, Kliiman K, Muetterlein R, Spinu V, Villar M, Zellweger JP, Sandgren A, Huitric E, Lange C, Manissero D, Migliori GB.</author>
     <title>Availability of anti-tuberculosis drugs in Europe.</title>
-    <journal>European Respiratory Journal.</journal>
+    <container-title>European Respiratory Journal.</container-title>
     <date>2012</date>
     <volume>;40(2):</volume>
     <pages>500-3.</pages>
@@ -5124,7 +5124,7 @@
   <sequence>
     <author>Fattorini L, Mustazzolu A, Piccaro G, Pardini M, Filippini P, Giannoni F, Migliori GB, Sotgiu G, Borroni E, Cirillo DM; the Italian Multicentre Study on Resistance to Antituberculosis Drugs (SMIRA) Group.</author>
     <title>Drug-resistant tuberculosis among foreign-born persons in Italy.</title>
-    <journal>European Respiratory Journal.</journal>
+    <container-title>European Respiratory Journal.</container-title>
     <date>2012;</date>
     <volume>40(2):</volume>
     <pages>497-500.</pages>
@@ -5154,7 +5154,7 @@
   <sequence>
     <author>Bawer, Bruce.</author>
     <title>“Bad Company.” Review of Gain, by Richard Powers.</title>
-    <journal>New York Times Book Review,</journal>
+    <container-title>New York Times Book Review,</container-title>
     <date>June 21, 1998,</date>
     <pages>11.</pages>
   </sequence>
@@ -5180,7 +5180,7 @@
   <sequence>
     <author>Caldwell, Gail.</author>
     <title>“On the Soapbox.” Review of Gain, by Richard Powers.</title>
-    <journal>Boston Globe,</journal>
+    <container-title>Boston Globe,</container-title>
     <date>June 7, 1998,</date>
     <pages>C1+.</pages>
   </sequence>
@@ -5272,7 +5272,7 @@
     <author>Wachtel, Katya.</author>
     <date>2011.</date>
     <title>“Meet ST OMO: The Top Secret Loan Facility The Fed Used To Loan Money To Banks.”</title>
-    <journal>Business Insider</journal>
+    <container-title>Business Insider</container-title>
     <date>May(26).</date>
     <note>URL:</note>
     <url>http://articles.businessinsider.com/2011-05-26/wall_street/29997602_1_new-york-fed-banks</url>
@@ -5319,7 +5319,7 @@
   <sequence>
     <author>Chang, Chris.</author>
     <title>“Sound and Lothar Baumgarten.”</title>
-    <journal>Film Comment</journal>
+    <container-title>Film Comment</container-title>
     <volume>40.1</volume>
     <date>(January–February 2004):</date>
     <pages>17.</pages>
@@ -5354,7 +5354,7 @@
     <citation-number>[67]</citation-number>
     <author>Reynolds, D., Quatieri, T., and Dunn, R.,</author>
     <title>“Speaker verification using adapted Gaussian mixture models,”</title>
-    <journal>Digital signal processing,</journal>
+    <container-title>Digital signal processing,</container-title>
     <volume>Vol. 10, No. 1-3,</volume>
     <date>2000,</date>
     <pages>pp. 19–41.</pages>
@@ -5369,7 +5369,7 @@
   <sequence>
     <author>Crossette, Barbara.</author>
     <title>“How to Fix a Crowded World: Add People.”</title>
-    <journal>New York Times,</journal>
+    <container-title>New York Times,</container-title>
     <date>November 2, 1997,</date>
     <pages>sec. 4, 1+.</pages>
   </sequence>
@@ -5377,7 +5377,7 @@
     <author>Devlin, H.</author>
     <date>(2010, January 28).</date>
     <title>Neuron breakthrough offers hope on Alzheimer’s and Parkinson’s.</title>
-    <journal>The Times.</journal>
+    <container-title>The Times.</container-title>
     <note>Retrieved from</note>
     <url>http://www.timesonline.co.uk/tol/news/science/medicine/article7005401.ece</url>
   </sequence>
@@ -5391,7 +5391,7 @@
   <sequence>
     <author>Stortz, Martha Ellen,</author>
     <title>‘Beyond Justice: Friendship in the City’,</title>
-    <journal>Word &amp; World</journal>
+    <container-title>Word &amp; World</container-title>
     <volume>XIV:4</volume>
     <date>(1994),</date>
     <pages>409-418.</pages>
@@ -5399,7 +5399,7 @@
   <sequence>
     <author>E. Couradeau, T. Northen, U. Karaoz, H.C. Lim, U. Nunes da Rocha, E.L. Brodie, F. Garcia-Pichel.</author>
     <title>Bacteria increase arid land soil surface temperature through the production of sunscreens.</title>
-    <journal>Nature Communications.</journal>
+    <container-title>Nature Communications.</container-title>
   </sequence>
   <sequence>
     <author>Abercrombie, S.,</author>
@@ -5417,7 +5417,7 @@
     <author>Bakshi, B.K.</author>
     <date>1951.</date>
     <title>Fungi in the nest of |Odontotermes obesus.|</title>
-    <journal>Indian phytopathology</journal>
+    <container-title>Indian phytopathology</container-title>
     <volume>4 (1):</volume>
     <pages>1-4</pages>
   </sequence>
@@ -5449,14 +5449,14 @@
     <author>Forsé M.,</author>
     <date>1999,</date>
     <title>« Social capital and status attainment in contemporary France »,</title>
-    <journal>The Tocqueville Review,</journal>
+    <container-title>The Tocqueville Review,</container-title>
     <volume>Vol. 20, n° 1,</volume>
     <pages>p. 59-81.</pages>
   </sequence>
   <sequence>
     <author>Fresia Marion,</author>
     <title>"La fabrique des normes internationales sur la protection des réfugiés au sein du comité exécutif du HCR",</title>
-    <journal>Critique internationale,</journal>
+    <container-title>Critique internationale,</container-title>
     <date>2012,</date>
     <volume>n° 54, vol. 1,</volume>
     <pages>pp. 39-60.</pages>
@@ -5465,7 +5465,7 @@
     <author>Alcala-Fdez, J., Fernandez, A., Luengo, J., Derrac J., Garcia, S., Sanchez, S., &amp; Herrera F.</author>
     <date>(2011).</date>
     <title>KEEL data-mining software tool: Data set repository, integration of algorithms and experimental analysis framework.</title>
-    <journal>J. of Mult.-Valued Logic &amp; Soft Computing,</journal>
+    <container-title>J. of Mult.-Valued Logic &amp; Soft Computing,</container-title>
     <volume>17,</volume>
     <pages>255–287.</pages>
     <note>Retirado de</note>
@@ -5491,7 +5491,7 @@
     <author>Ortmann, Anthony L. and Tristram R. Kidder</author>
     <date>2013</date>
     <title>Building Mound A at Poverty Point, Louisiana: Monumental Public Architecture, Ritual Practice, and Implications for Hunter-Gatherer Complexity.</title>
-    <journal>Geoarchaeology</journal>
+    <container-title>Geoarchaeology</container-title>
     <volume>28:</volume>
     <pages>66-86.</pages>
   </sequence>
@@ -5513,7 +5513,7 @@
     <author>Peterson, Erik.</author>
     <date>2015.</date>
     <title>“The Rich are Different: The Effect of Wealth on Partisanship.”</title>
-    <journal>Political Behavior</journal>
+    <container-title>Political Behavior</container-title>
     <pages>pp. 1–22.</pages>
   </sequence>
   <sequence>
@@ -5526,7 +5526,7 @@
     <citation-number>[39]</citation-number>
     <author>R. A. Hess and Y. Jung,</author>
     <title>“An application of generalized predictive control to rotorcraft terrain-following flight,”</title>
-    <journal>Systems, Man and Cybernetics, IEEE Transactions on,</journal>
+    <container-title>Systems, Man and Cybernetics, IEEE Transactions on,</container-title>
     <volume>vol. 19, no. 5,</volume>
     <pages>pp. 955–962,</pages>
     <date>Sep 1989.</date>
@@ -5535,7 +5535,7 @@
     <citation-number>[3]</citation-number>
     <author>S. K. Go↵redi, C. K. Paull, K. Fulton-Bennett, L. A. Hurtado, and R. C. Vrijen- hoek,</author>
     <title>“Unusual benthic fauna associated with a whale fall in Monterey Canyon, California ,”</title>
-    <journal>Deep Sea Research Part I: Oceanographic Research Papers,</journal>
+    <container-title>Deep Sea Research Part I: Oceanographic Research Papers,</container-title>
     <volume>vol. 51, no. 10,</volume>
     <pages>pp. 1295 – 1306,</pages>
     <date>2004.</date>
@@ -5552,7 +5552,7 @@
   <sequence>
     <author>LERCHE, A., VYBERG, M., et KIRKEGAARD, E.</author>
     <title>Acute cholangitis and pancreatitis associated with sulindac (clinoril).</title>
-    <journal>Histopathology,</journal>
+    <container-title>Histopathology,</container-title>
     <date>1987,</date>
     <volume>vol. 11, no 6,</volume>
     <pages>p. 647-653.</pages>
@@ -5618,7 +5618,7 @@
     <author>Ruin, I. et Lutoff, C.,</author>
     <date>2004</date>
     <title>Vulnérabilité face aux crues rapides et mobilités des populations en temps de crise.</title>
-    <journal>La Houille Blanche,</journal>
+    <container-title>La Houille Blanche,</container-title>
     <volume>6 :</volume>
     <pages>114 –119.</pages>
   </sequence>
@@ -5632,7 +5632,7 @@
   <sequence>
     <author>Jen Lin-Liu,</author>
     <title>“Textbook Pirates Find a Huge Market in China,”</title>
-    <journal>Chronicle of Higher Education,</journal>
+    <container-title>Chronicle of Higher Education,</container-title>
     <date>April 2, 2004,</date>
     <pages>A44.</pages>
   </sequence>
@@ -5664,7 +5664,7 @@
   <sequence>
     <author>Berthold-Bond, Daniel.</author>
     <title>“The Ethics of ‘Place’: Reflections on Bioregionalism.”</title>
-    <journal>Environmental Ethics</journal>
+    <container-title>Environmental Ethics</container-title>
     <volume>22</volume>
     <date>(spring 2000):</date>
     <pages>5–24.</pages>
@@ -5702,7 +5702,7 @@
     <author>Walton, G. M., &amp; Cohen, G. L.</author>
     <date>(2011).</date>
     <title>A brief social-belonging intervention improves academic and health outcomes of minority students.</title>
-    <journal>Science,</journal>
+    <container-title>Science,</container-title>
     <volume>331 (6023),</volume>
     <pages>1447– 1451.</pages>
   </sequence>
@@ -5733,14 +5733,14 @@
     <author>Gelman, Susan A.; Coley, John D.; Rosengren, Karl S.; Hartman, Erin; &amp; Pappas, Athina.</author>
     <date>1998a.</date>
     <title>Beyond labeling: The role of maternal input in the acquisition of richly structured categories.</title>
-    <journal>Monographs of the Society for Research in Child Development</journal>
+    <container-title>Monographs of the Society for Research in Child Development</container-title>
     <volume>63 (serial no. 253).</volume>
   </sequence>
   <sequence>
     <author>Vallari, A., Holzmayer, V., Harris, B., Yamaguchi, J., Ngansop, C., Makamche, F., Mbanya, D., Kaptue, L., Ndembi, N., Gürtler, L., Devare, S., Brennan, C.A.,</author>
     <date>2011.</date>
     <title>Confirmation of Putative HIV-1 Group P in Cameroon.</title>
-    <journal>J. Virol.</journal>
+    <container-title>J. Virol.</container-title>
     <volume>85,</volume>
     <pages>1403–1407.</pages>
     <doi>doi:10.1128/JVI.02005-10</doi>
@@ -5763,7 +5763,7 @@
     <citation-number>[13]</citation-number>
     <author>P. W. Kimball and S. M. Rock,</author>
     <title>“Mapping of translating, rotating icebergs with an autonomous underwater vehicle,”</title>
-    <journal>Oceanic Engineering, IEEE Journal of,</journal>
+    <container-title>Oceanic Engineering, IEEE Journal of,</container-title>
     <volume>vol. 40, no. 1,</volume>
     <pages>pp. 196–208,</pages>
     <date>Jan 2015.</date>
@@ -5780,7 +5780,7 @@
     <citation-number>[4]</citation-number>
     <author>L. Lundsten, K. L. Schlining, K. Frasier, S. B. Johnson, L. A. Kuhnz, J. B. Harvey, G. Clague, and R. C. Vrijenhoek,</author>
     <title>“Time-series analysis of six whale-fall communities in Monterey Canyon, California, USA,”</title>
-    <journal>Deep Sea Research Part I: Oceanographic Research Papers,</journal>
+    <container-title>Deep Sea Research Part I: Oceanographic Research Papers,</container-title>
     <volume>vol. 57, no. 12,</volume>
     <pages>pp. 1573 – 1584,</pages>
     <date>2010.</date>
@@ -5796,14 +5796,14 @@
     <citation-number>[57]</citation-number>
     <author>L. Vese and T. Chan,</author>
     <title>“A multiphase level set framework for image segmentation using the mumford and shah model,”</title>
-    <journal>IJCV,</journal>
+    <container-title>IJCV,</container-title>
     <date>2002.</date>
   </sequence>
   <sequence>
     <author>Liu, Y., Su, C., Song, X., Tang, Y., &amp; Bao, Z.</author>
     <date>(2009).</date>
     <title>[Construction of Pichia pastoris strain expressing salivary plasminogen activator from vampire bat (Desmodus rotundus)].</title>
-    <journal>Sheng wu gong cheng xue bao= Chinese journal of biotechnology,</journal>
+    <container-title>Sheng wu gong cheng xue bao= Chinese journal of biotechnology,</container-title>
     <volume>25(4),</volume>
     <pages>566-574.</pages>
   </sequence>
@@ -5817,7 +5817,7 @@
   <sequence>
     <author>Voyer, Daniel and Janie P. Vu.</author>
     <title>“Using Sarcasm to Compliment: Context, Intonation, and the Perception of Statements with a Negative Literal Meaning.”</title>
-    <journal>Journal of Psycholinguistic Research</journal>
+    <container-title>Journal of Psycholinguistic Research</container-title>
     <date>(2015):</date>
     <pages>1–10.</pages>
   </sequence>
@@ -5842,14 +5842,14 @@
   <sequence>
     <author>McCrum, Robert,</author>
     <title>‘So, what’s this Globish Revolution?’,</title>
-    <journal>Observer,</journal>
+    <container-title>Observer,</container-title>
     <date>3 December 2006.</date>
   </sequence>
   <sequence>
     <author>Lickint, F.</author>
     <date>(1935),</date>
     <title>« Der bronchialkrebs der raucher »,</title>
-    <journal>München med wochenschr,</journal>
+    <container-title>München med wochenschr,</container-title>
     <volume>n° 82,</volume>
     <pages>p. 1232-1234.</pages>
   </sequence>
@@ -5866,7 +5866,7 @@
   <sequence>
     <author>A. BERTRAND,</author>
     <title>Les anciennes populations de la Gaule. Résumé du travail de la Commission de la Topographie des Gaules,</title>
-    <journal>Revue archéologique,</journal>
+    <container-title>Revue archéologique,</container-title>
     <date>1864,</date>
     <pages>pp. 323_332 et 404_413.</pages>
   </sequence>
@@ -5914,21 +5914,21 @@
   <sequence>
     <title>Son honors father with teaching excellence awards,</title>
     <date>(1994, March).</date>
-    <journal>Wake Forest University Magazine,</journal>
+    <container-title>Wake Forest University Magazine,</container-title>
     <volume>41(3),</volume>
     <pages>p. 44</pages>
   </sequence>
   <sequence>
     <author>Saad ED, Buyse M.</author>
     <title>Overall survival: patient outcome, therapeutic objective, clinical trial end point, or public health measure?</title>
-    <journal>Journal of Clinical Oncology.</journal>
+    <container-title>Journal of Clinical Oncology.</container-title>
     <volume>2012;30(15):</volume>
     <pages>1750-1754.</pages>
   </sequence>
   <sequence>
     <author>Lathan CE, Tracey M:</author>
     <title>The effects of operator spatial perception and sensory feedback on human-robot teleoperation performance.</title>
-    <journal>Presence Teleoperators Virtual Environ</journal>
+    <container-title>Presence Teleoperators Virtual Environ</container-title>
     <volume>2002;11:</volume>
     <pages>368–77</pages>
   </sequence>
@@ -5942,7 +5942,7 @@
   <sequence>
     <author>BAZIN, Germain,</author>
     <title>« Bibliographie »,</title>
-    <journal>Formes,</journal>
+    <container-title>Formes,</container-title>
     <volume>n°20,</volume>
     <date>décembre 1931,</date>
     <pages>p. 107.</pages>
@@ -5950,7 +5950,7 @@
   <sequence>
     <author>Liu SM Zhong J Zhao XJ.</author>
     <title>Analysis on screening results of retinopathy of prematurity [in Chinese].</title>
-    <journal>Chin J Pract Ophthalmol .</journal>
+    <container-title>Chin J Pract Ophthalmol .</container-title>
     <date>2012;</date>
     <volume>30:</volume>
     <pages>673–676.</pages>
@@ -5958,7 +5958,7 @@
   <sequence>
     <author>Christopher Sterling, Claude-Jean Bertrand, Douglas Boyd, Donald Browne, Susan Tyler Eastman, Kenneth Hardwood, Rebecca Hayden, John Kitross, and Lemuel Schofield.</author>
     <title>“Sydney W. Head (1013-1991): Remembering the Founder of Modern Broadcasting Studies.”</title>
-    <journal>Journal of Broadcasting and Electronic Media,</journal>
+    <container-title>Journal of Broadcasting and Electronic Media,</container-title>
     <volume>Vol. 50, No. 3</volume>
     <date>(2006),</date>
     <pages>557- 566.</pages>
@@ -6002,7 +6002,7 @@
     <citation-number>12.</citation-number>
     <author>Patel, S. and Pasquale, L.R.,</author>
     <title>Glaucoma drainage devices: a review of the past, present, and future.</title>
-    <journal>Seminars in ophthalmology,</journal>
+    <container-title>Seminars in ophthalmology,</container-title>
     <date>2010.</date>
     <volume>25(5-6):</volume>
     <pages>p. 265-270.</pages>
@@ -6018,7 +6018,7 @@
   <sequence>
     <author>Nazarov, M. A., Karpenko, S F., Ljalikov, A V., Smolyar, M I., Kolesnikov, E M. and Barsukova,L D.,</author>
     <title>The Kara impact structure: Nd-Sr isotopic composition of an impact melt (abstract).</title>
-    <journal>Lunar and Planetary Science,</journal>
+    <container-title>Lunar and Planetary Science,</container-title>
     <volume>v. XXIII,</volume>
     <pages>pp. 973-974.</pages>
     <date>1992.</date>
@@ -6026,7 +6026,7 @@
   <sequence>
     <author>Feldman Stanley et Steenberger Marco R.,</author>
     <title>« The Humanitarian Foundation of Public Support for Social Welfare »,</title>
-    <journal>American Journal of Political Science,</journal>
+    <container-title>American Journal of Political Science,</container-title>
     <volume>45-3,</volume>
     <date>2001,</date>
     <pages>p. 658‑677.</pages>
@@ -6050,7 +6050,7 @@
   <sequence>
     <author>ALY (M.I.), NAGEB (R.), DEVAUCHELLE (D.), HERBIN (Fr.-R.),</author>
     <title>« Présentation des stèles nouvellement découvertes au Sérapéum »,</title>
-    <journal>BSFE</journal>
+    <container-title>BSFE</container-title>
     <volume>106,</volume>
     <date>1986,</date>
     <pages>p. 31-44.</pages>
@@ -6080,7 +6080,7 @@
   <sequence>
     <author>Bao Q *, Zhao Y*, Renner A, Niess H, Seeliger H, Jauch K-W, Bruns CJ.</author>
     <title>Cancer Stem Cells in Pancreatic Cancer.</title>
-    <journal>Cancers.</journal>
+    <container-title>Cancers.</container-title>
     <date>2010,</date>
     <volume>2,</volume>
     <pages>1629-1641.</pages>
@@ -6097,7 +6097,7 @@
     <author>Baker, W.L.</author>
     <date>1972.</date>
     <title>Eastern forest insects.</title>
-    <journal>Miscellaneous publications, United States Department of Agriculture</journal>
+    <container-title>Miscellaneous publications, United States Department of Agriculture</container-title>
     <volume>1175:</volume>
     <pages>1-642</pages>
   </sequence>
@@ -6105,7 +6105,7 @@
     <author>Arbea, J.I., Mateos, E.</author>
     <date>1991.</date>
     <title>A new species of Collembola from northern Spain (Onychiuridae, Tullbergiinae).,</title>
-    <journal>Spixiana</journal>
+    <container-title>Spixiana</container-title>
     <location>(munich)</location>
     <volume>14(2)</volume>
     <date>1991,</date>
@@ -6115,7 +6115,7 @@
     <author>Jackson, S. W., R. G. Basinger, D. S. Gordon, C. A. Harper, D. S. Buckley, and D. A. Buehler.</author>
     <date>2007.</date>
     <title>Influence of silvicultural treatments on eastern wild turkey habitat characteristics in eastern Tennessee.</title>
-    <journal>Proceedings of the National Wild Turkey Symposium</journal>
+    <container-title>Proceedings of the National Wild Turkey Symposium</container-title>
     <volume>9:</volume>
     <pages>199-207.</pages>
   </sequence>
@@ -6123,14 +6123,14 @@
     <author>Johnson, F. A., B. K. Williams, J. D. Nichols, J. E. Hines, W. E. Kendall, G. W. Smith, and D. F. Caithamer.</author>
     <date>1993.</date>
     <title>Developing an adaptive management strategy for harvesting waterfowl in North America.</title>
-    <journal>Transactions of the North American Wildlife and Natural Resources Conference</journal>
+    <container-title>Transactions of the North American Wildlife and Natural Resources Conference</container-title>
     <volume>58:</volume>
     <pages>565—583.</pages>
   </sequence>
   <sequence>
     <author>Malik Mufti,</author>
     <title>‘Democratizing Potential of the ‘Arab Spring’: Some Early Observations’,</title>
-    <journal>Government and Opposition,</journal>
+    <container-title>Government and Opposition,</container-title>
     <volume>50: 3</volume>
     <date>(2015),</date>
     <pages>394-419.</pages>
@@ -6138,7 +6138,7 @@
   <sequence>
     <author>Jordan, S. L., Indares, A. , Dunning, G.,</author>
     <title>Partial melting of metapelites in the Gagnon terrane below the high-pressure belt in the Manicouagan area (Grenville Province): pressure-temperature (P-T) and U-Pb age constraints and implications,</title>
-    <journal>Canadian Journal of Earth Sciences,</journal>
+    <container-title>Canadian Journal of Earth Sciences,</container-title>
     <volume>38.</volume>
     <pages>P. 1309 - 1329.</pages>
     <date>2006.</date>
@@ -6147,7 +6147,7 @@
     <citation-number>37.</citation-number>
     <author>McAndrew PM, Wilken JM, Dingwell JB.</author>
     <title>Dynamic stability of human walking in visually and mechanically destabilizing environments.</title>
-    <journal>Journal of biomechanics.</journal>
+    <container-title>Journal of biomechanics.</container-title>
     <date>2011</date>
     <volume>44(4)</volume>
     <pages>644-9.</pages>
@@ -6157,7 +6157,7 @@
     <citation-number>[59]</citation-number>
     <author>E. Vaghefi, K. Walker, B. P. Pontre, M. D. Jacobs, and P. J. Donaldson,</author>
     <title>“Magnetic resonance and confocal imaging of solute penetration into the lens reveals a zone of restricted extracellular space diffusion,”</title>
-    <journal>Am. J. Physiol. - Regul. Integr. Comp. Physiol.,</journal>
+    <container-title>Am. J. Physiol. - Regul. Integr. Comp. Physiol.,</container-title>
     <volume>vol. 302, no. 11,</volume>
     <pages>pp. R1250–R1259,</pages>
     <date>Jun. 2012.</date>
@@ -6263,7 +6263,7 @@
   <sequence>
     <author>Hisakata, Rumi, et al.</author>
     <title>“An Adaptable Metric Shapes Perceptual Space.”</title>
-    <journal>Current Biology,</journal>
+    <container-title>Current Biology,</container-title>
     <volume>vol. 26, no. 14,</volume>
     <date>July 2016,</date>
     <pages>pp. 1911–15.</pages>
@@ -6289,7 +6289,7 @@
   <sequence>
     <author>Renne, P. R., Reimold, W.U., Koeberl, C., Hough, R., Claeys,P.,</author>
     <title>Comment on: "K-Ar evidence from illitic clays of a Late Devonian age for the 120 km diameter Woodleigh impact structure, Southern Carnarvon Basin, Western Australia", by I.T. Uysal, S.D. Golding, A.Y. Glikson, A.J.Mory and M.Glikson, A.Y. Glikson, A.J….</title>
-    <journal>Earth and Planetary Science Letters,</journal>
+    <container-title>Earth and Planetary Science Letters,</container-title>
     <volume>v.201,</volume>
     <pages>p.247-252.</pages>
     <date>2002.</date>
@@ -6298,7 +6298,7 @@
     <author>Forsé M., Tronca L.,</author>
     <date>2005,</date>
     <title>« Interazionismo strutturale e capitale sociale,</title>
-    <journal>Sociologia e Politiche Sociali,</journal>
+    <container-title>Sociologia e Politiche Sociali,</container-title>
     <volume>Vol. 8, n° 1,</volume>
     <pages>p. 7-22.</pages>
   </sequence>
@@ -6313,7 +6313,7 @@
   <sequence>
     <author>Erisman, A. Bleeker, A. Hensen, and A. Vermeulen :</author>
     <title>Agricultural air quality in Europe and the future perspectives,</title>
-    <journal>Atm. Environ.,</journal>
+    <container-title>Atm. Environ.,</container-title>
     <date>2008.</date>
   </sequence>
   <sequence>
@@ -6356,7 +6356,7 @@
   <sequence>
     <author>Carporzen, L., Gilder, S.A and Hart,R.J.,</author>
     <title>Palaeomagnetism of the Vredefort meteorite crater and implications for craters on Mars,</title>
-    <journal>Nature,</journal>
+    <container-title>Nature,</container-title>
     <volume>v. 435 , n. 7039 ,</volume>
     <pages>p. 198.</pages>
     <date>2005.</date>
@@ -6398,7 +6398,7 @@
   <sequence>
     <author>Kinsland, Gary L., Manuel Hurtado and Kevin O. Pope.,</author>
     <title>Detection of groundwater conduits in limestones with gravity surveys: Data from the area of the Chicxulub Impact Crater, Yucatan Peninsula, Mexico.</title>
-    <journal>Geophysical Research Letters,</journal>
+    <container-title>Geophysical Research Letters,</container-title>
     <volume>v. 27, no. 8, April,</volume>
     <pages>pp. 1223-1226.</pages>
     <date>2000.</date>
@@ -6443,7 +6443,7 @@
   <sequence>
     <author>S.G. Calabresi,</author>
     <title>« Federalism and the Rehnquist Court : a normative defense »,</title>
-    <journal>The Annals,</journal>
+    <container-title>The Annals,</container-title>
     <volume>574,</volume>
     <date>2001,</date>
     <pages>pp. 24-35</pages>
@@ -6459,7 +6459,7 @@
   <sequence>
     <author>Horn, W., El Goresy, A.,</author>
     <title>The Rochechouart crater in France: Stony and not an iron meteorite? (abstract).</title>
-    <journal>Lunar and Planetary Science</journal>
+    <container-title>Lunar and Planetary Science</container-title>
     <volume>XI,</volume>
     <pages>pp. 468-470.</pages>
     <date>1980.</date>
@@ -6512,14 +6512,14 @@
     <author>Robert, P.-Ch.</author>
     <date>1878</date>
     <title>"Inscription de Périgueux mentionnant les Primani"</title>
-    <journal>Bulletin de la société historique et archéologique du Périgord</journal>
+    <container-title>Bulletin de la société historique et archéologique du Périgord</container-title>
     <volume>5</volume>
     <pages>175-185</pages>
   </sequence>
   <sequence>
     <author>Behrens, Rudolf:</author>
     <title>"Fixer l'opinion publique". Funktion der 'cause célèbre' und Psychiatrisierung des Menschen im Vorfeld von Zolas La Bête humaine.</title>
-    <journal>In: Romanistische Zeitschrift für Literaturgeschicht /Cahiers d'Histoire des Littératures Romanes</journal>
+    <container-title>In: Romanistische Zeitschrift für Literaturgeschicht /Cahiers d'Histoire des Littératures Romanes</container-title>
     <volume>37,</volume>
     <date>(2013),</date>
     <volume>H. 1–2,</volume>
@@ -6538,7 +6538,7 @@
     <author>Bouchalová V, Houben E, Tancsik D, Schaekers L, Meuws L, Feys P</author>
     <date>(2016).</date>
     <title>The influence of ankle-foot orthosis (AFO) on the spatio-temporal gait parameters and functional balance in chronic stroke patients.</title>
-    <journal>The Journal of Physical Therapy Science ;</journal>
+    <container-title>The Journal of Physical Therapy Science ;</container-title>
     <volume>28(5):</volume>
     <pages>1621-8.</pages>
   </sequence>
@@ -6579,7 +6579,7 @@
     <author>Carruthers, P.</author>
     <date>(1998b).</date>
     <title>Animal Subjectivity.</title>
-    <journal>Psyche,</journal>
+    <container-title>Psyche,</container-title>
     <volume>4(3),</volume>
     <pages>2377.</pages>
     <note>Retrieved from:</note>
@@ -6597,7 +6597,7 @@
   <sequence>
     <author>RAMADIER Thierry,</author>
     <title>« L’interdisciplinarité au service de la complexité »,</title>
-    <journal>Articulo - Journal of Urban Research,</journal>
+    <container-title>Articulo - Journal of Urban Research,</container-title>
     <date>2011,</date>
     <genre>en ligne :</genre>
     <url>http://articulo.revues.org/1731</url>
@@ -6606,7 +6606,7 @@
     <author>Hauser, L. A. and T. J. Crovello.</author>
     <date>1982.</date>
     <title>Numerical analysis of generic relationships in Thelypodieae (Brassicaceae).</title>
-    <journal>Syst. Bot.</journal>
+    <container-title>Syst. Bot.</container-title>
     <volume>7:</volume>
     <pages>249–268.</pages>
   </sequence>
@@ -6622,7 +6622,7 @@
     <title>Microscopic Evaluation of Cleaning Efficiency of Three Different Nickel-Titanium Rotary Instruments.</title>
     <author>Bidar Myryam, Saeed Moadi, Maryam Forghani, Salma Bidad, Mahtab Azghadi, Shahrzad Rezvani, and Shirin Khoynezhad.</author>
     <date>2010,</date>
-    <journal>Iran Endod J.,</journal>
+    <container-title>Iran Endod J.,</container-title>
     <volume>Vol. 5(4),</volume>
     <pages>pp. 174–178.</pages>
   </sequence>
@@ -6644,14 +6644,14 @@
     <author>Ferguson, JN. Aldag, JM. Insel, TR. Young, LJ.</author>
     <date>(2001).</date>
     <title>Oxytocin in the medial amygdala is essential for social recognition in the mouse.</title>
-    <journal>Journal of Neuroscience,</journal>
+    <container-title>Journal of Neuroscience,</container-title>
     <volume>21:</volume>
     <pages>8278-8285.</pages>
   </sequence>
   <sequence>
     <author>Dressler, B. O., Crabtree, D. and Schuraytz,B.C.,</author>
     <title>Incipient melt formation and devitrification at the Wanapitei impact structure, Ontario, Canada.</title>
-    <journal>Meteoritics and Planetary Science,</journal>
+    <container-title>Meteoritics and Planetary Science,</container-title>
     <volume>v. 32,</volume>
     <pages>pp. 249-258.</pages>
     <date>1997.</date>
@@ -6660,7 +6660,7 @@
     <citation-number>22.</citation-number>
     <author>Neddermann, P., Gallinari, P., Lettieri, T., Schmid, D., Truong, O., Hsuan, J.J., Wiebauer, and K., Jiricny, J.</author>
     <title>Cloning and expression of human G/T mismatch-specific thymine-DNA glycosylase.</title>
-    <journal>J. Biol. Chem.,</journal>
+    <container-title>J. Biol. Chem.,</container-title>
     <date>1996,</date>
     <volume>271,</volume>
     <pages>12767-12774.</pages>
@@ -6690,7 +6690,7 @@
   <sequence>
     <author>BASLER, Adolphe,</author>
     <title>« Y a-t-il une peinture juive ? »,</title>
-    <journal>Mercure de France,</journal>
+    <container-title>Mercure de France,</container-title>
     <date>15 novembre 1925,</date>
     <pages>pp. 11-18</pages>
   </sequence>
@@ -6705,14 +6705,14 @@
     <author>GENOVESE, Mark C., Maria GREENWALD, Chul-Soo CHO, Alberto BERMAN, Ling JIN, Gregory S. CAMERON, Olivier BENICHOU, Li XIE, Daniel BRAUN, Pierre-Yves BERCLAZ a Subhashis BANERJEE,</author>
     <date>2014b.</date>
     <title>A Phase II Randomized Study of Subcutaneous Ixekizumab, an Anti-Interleukin-17 Monoclonal Antibody, in Rheumatoid Arthritis Patients Who Were Naive to Biologic Agents or Had an Inadequate Response to Tumor Necrosis Factor Inhibitors: Ixekizumab in Biologics-Naive and TNF Inadequate Responder RA Patients.</title>
-    <journal>Arthritis &amp; Rheumatology.</journal>
+    <container-title>Arthritis &amp; Rheumatology.</container-title>
     <volume>66(7),</volume>
     <pages>1693–1704.</pages>
   </sequence>
   <sequence>
     <author>Drury CG, Law CH, Pawenski CS.</author>
     <title>A survey of industrial box handling.</title>
-    <journal>Hum Factors.</journal>
+    <container-title>Hum Factors.</container-title>
     <date>1982;</date>
     <volume>24(5) :</volume>
     <pages>553-65.</pages>
@@ -6734,7 +6734,7 @@
     <author>Staples JE,, Kubota KA,, Chalcraft LG,, Mead PS,, Petersen JM.</author>
     <date>2006.</date>
     <title>Epidemiologic and molecular analysis of human tularemia, United States, 1964–2004.</title>
-    <journal>Emerg Infect Dis</journal>
+    <container-title>Emerg Infect Dis</container-title>
     <volume>12:</volume>
     <pages>1113–1118.</pages>
   </sequence>
@@ -6753,7 +6753,7 @@
   <sequence>
     <author>Alan Yuhas and Mazin Sidahmed,</author>
     <title>‘Is this a Muslim ban? Trump's executive order explained,’</title>
-    <journal>The Guardian,</journal>
+    <container-title>The Guardian,</container-title>
     <date>31 January 2017,</date>
     <url>https://www.theguardian.com/us-news/2017/jan/28/trump-immigration-ban-syria-muslims-reaction-lawsuits,</url>
     <note>accessed 19 February, 2017.</note>
@@ -6770,7 +6770,7 @@
   <sequence>
     <author>Kring, D.A.,</author>
     <title>Hypervelocity collisions into continental crust composed of sediments and an underlying crystalline basement: Comparing the Ries (?24 km) and Chicxulub (?180 km) impact craters,</title>
-    <journal>Chemie der Erde - Geochemistry,</journal>
+    <container-title>Chemie der Erde - Geochemistry,</container-title>
     <volume>v. 65,</volume>
     <pages>pp. 1-46,</pages>
     <date>2005</date>
@@ -6792,7 +6792,7 @@
   <sequence>
     <author>Hazell, T.J.; DeGuire, J.R.; Weiler, H.A.</author>
     <title>Vitamin D: An overview of its role in skeletal muscle physiology in children and adolescents.</title>
-    <journal>Nutr. Rev.</journal>
+    <container-title>Nutr. Rev.</container-title>
     <date>2012,</date>
     <volume>70,</volume>
     <pages>520–533.</pages>
@@ -6835,7 +6835,7 @@
   <sequence>
     <author>Alireza Shameli-Sendi , Michel Dagenais,</author>
     <title>ARITO: Cyber-attack response system using accurate risk impact tolerance,</title>
-    <journal>International Journal of Information Security,</journal>
+    <container-title>International Journal of Information Security,</container-title>
     <volume>v.13 n.4,</volume>
     <pages>p.367-390,</pages>
     <date>August 2014</date>
@@ -6844,7 +6844,7 @@
   <sequence>
     <author>Younan PM, Polacino P, Kowalski JP, Peterson CW, Maurice NJ, Williams NP, Ho O, Trobridge GD, Von Laer D, Prlic M, Beard BC, DeRosa S, Hu SL, Kiem HP.</author>
     <title>Positive selection of mC46-expressing CD4+ T cells and maintenance of virus specific immunity in a primate AIDS model.</title>
-    <journal>Blood</journal>
+    <container-title>Blood</container-title>
     <volume>2013;122(2):</volume>
     <pages>179-187</pages>
     <note>[PMCID: PMC3709653].</note>
@@ -6852,7 +6852,7 @@
   <sequence>
     <author>H. Fensterheim e H.G. Birch,</author>
     <title>A Case Study of Group Ideology and Individual Adjustment,</title>
-    <journal>“Journal of Abnormal Psychology”,</journal>
+    <container-title>“Journal of Abnormal Psychology”,</container-title>
     <volume>45/4</volume>
     <date>(1950),.</date>
     <pages>710-720.</pages>
@@ -6861,14 +6861,14 @@
     <author>Dawson, Chester.</author>
     <date>(2012).</date>
     <title>A Nuclear Free Town Fades Away in Japan.</title>
-    <journal>Wall Street Journal</journal>
+    <container-title>Wall Street Journal</container-title>
     <date>4 January.</date>
   </sequence>
   <sequence>
     <citation-number>95.</citation-number>
     <author>Rowen D, Brazier J, Roberts J.</author>
     <title>Mapping SF-36 onto the EQ-5D index: how reliable is the relationship?</title>
-    <journal>Health Qual Life Outcomes.</journal>
+    <container-title>Health Qual Life Outcomes.</container-title>
     <volume>2009;7:</volume>
     <pages>27.</pages>
   </sequence>
@@ -6898,7 +6898,7 @@
   <sequence>
     <author>Andrews, Victor L.</author>
     <title>"Captive Finance Companies,"</title>
-    <journal>Harvard Business Review,</journal>
+    <container-title>Harvard Business Review,</container-title>
     <volume>Volume 42</volume>
     <date>(July-August, 1964).</date>
   </sequence>
@@ -6914,7 +6914,7 @@
     <author>Levine, Robert</author>
     <date>1977</date>
     <title>Kwak'wala.</title>
-    <journal>In International Journal of American Linguistics, Native American Texts Series,</journal>
+    <container-title>In International Journal of American Linguistics, Native American Texts Series,</container-title>
     <volume>2,3:</volume>
     <pages>98-126.</pages>
     <editor>Edited by Barry Carlson.</editor>
@@ -6943,7 +6943,7 @@
     <date>2013.</date>
     <title>Newness of New Media.</title>
     <note>Special Issue,</note>
-    <journal>Culture Theory and Critique</journal>
+    <container-title>Culture Theory and Critique</container-title>
     <volume>54(3):</volume>
     <pages>259-393.</pages>
   </sequence>
@@ -6958,14 +6958,14 @@
   <sequence>
     <title>Good chemistry.</title>
     <date>(1996, September).</date>
-    <journal>Wake Forest University Magazine,</journal>
+    <container-title>Wake Forest University Magazine,</container-title>
     <volume>44(1),</volume>
     <pages>p. 8</pages>
   </sequence>
   <sequence>
     <author>- V. GISCARD D'ESTAING,</author>
     <title>« Le giscardisme »,</title>
-    <journal>Pouvoirs,</journal>
+    <container-title>Pouvoirs,</container-title>
     <date>1979,</date>
     <volume>n°9.</volume>
   </sequence>
@@ -6973,7 +6973,7 @@
     <author>Carroll, G. M., L. S. Parrett, J. C. George, and D. A. Yokel.</author>
     <date>2005.</date>
     <title>Calving distribution of the Teshekpuk caribou herd 1994-2003.</title>
-    <journal>Rangifer</journal>
+    <container-title>Rangifer</container-title>
     <note>Special Issue</note>
     <volume>16:</volume>
     <pages>27–35.</pages>

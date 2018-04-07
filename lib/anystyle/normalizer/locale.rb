@@ -14,7 +14,6 @@ module AnyStyle
           :title,
           :'container-title',
 #          :'collection-title',
-          :journal,
           :location,
           :publisher
 #          :note
