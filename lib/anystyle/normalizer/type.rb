@@ -10,13 +10,16 @@ module AnyStyle
         keys = item.keys
 
         case
-# FIXME
-#        when keys.include?(:journal)
-#          'article'
         when keys.include?(:'container-title')
-          case item[:'container-title'].to_s
-          when /proceedings|proc\.|conference|meeting|symposi(on|um)/i
+          case
+          when keys.include?(:issue)
+            'article'
+          when item[:'container-title'].to_s =~ /journal|zeitschrift|quarterly|review|revue/i
+            'article'
+          when item[:'container-title'].to_s =~ /proceedings|proc\.|conference|meeting|symposi(on|um)/i
             'paper-conference'
+          when keys.include?(:volume) && !keys.include?(:publisher)
+            'article'
           else
             'chapter'
           end
