@@ -120,21 +120,6 @@
     <date>2005.</date>
   </sequence>
   <sequence>
-    <date>(2009)</date>
-    <container-title>Journal of Mathematical Imaging and Vision,</container-title>
-    <volume>35 (2),</volume>
-    <pages>pp. 155-164.</pages>
-    <note>Cited 76 times.</note>
-  </sequence>
-  <sequence>
-    <author>---</author>
-    <date>(2005).</date>
-    <title>'Three factors in language design',</title>
-    <container-title>Linguistic Inquiry</container-title>
-    <volume>36:</volume>
-    <pages>1-22.</pages>
-  </sequence>
-  <sequence>
     <author>White, G. C., and R. A. Garrott.</author>
     <date>1990.</date>
     <title>Analysis of wildlife radio-tracking data.</title>
@@ -300,14 +285,6 @@
     <pages>157-159.</pages>
   </sequence>
   <sequence>
-    <author>Adam Mornement,</author>
-    <title>The second coming,</title>
-    <container-title>World architecture,</container-title>
-    <volume>No. 83,</volume>
-    <date>2000,</date>
-    <pages>34-37</pages>
-  </sequence>
-  <sequence>
     <author>Dimendberg, Edward.</author>
     <title>Film Noir and the Spaces of Modernity.</title>
     <location>Cambridge, MA:</location>
@@ -427,13 +404,6 @@
     <pages>1670- 1683.</pages>
   </sequence>
   <sequence>
-    <author>Bugnon (A.-L.),</author>
-    <title>Le mobilier céramique,</title>
-    <container-title>in Méloche</container-title>
-    <date>2012,</date>
-    <pages>p. 182-196.</pages>
-  </sequence>
-  <sequence>
     <editor>Bakola, E., L. Prauscello and M. Telò, eds.</editor>
     <date>(2013),</date>
     <title>Greek comedy and the Discourse of Genres</title>
@@ -525,14 +495,6 @@
     <pages>257-8</pages>
   </sequence>
   <sequence>
-    <author>Gates S, Fisher JD, Cooke MW, Carter YH, Lamb SE.</author>
-    <title>Multifactorial assessment and targeted intervention for preventing falls and injuries among older people in community and emergency care settings: systematic review and meta-analysis.</title>
-    <container-title>BMJ</container-title>
-    <date>2008;</date>
-    <volume>336(7636):</volume>
-    <pages>130‑3.</pages>
-  </sequence>
-  <sequence>
     <author>M. Kitsuregawa, H. Tanaka, and T. Moto-oka.</author>
     <title>Application of hash to data base machine and its architecture.</title>
     <container-title>New Generation Computing,</container-title>
@@ -578,14 +540,6 @@
     <container-title>Artificial Intelligence,</container-title>
     <volume>70,</volume>
     <pages>335-345.</pages>
-  </sequence>
-  <sequence>
-    <author>Harry Heffes and David Lucantoni.</author>
-    <title>A markov modulated characterization of voice and data traffic and related statistical multiplexer performance.</title>
-    <container-title>IEEE J.Select.Areas Commun.,</container-title>
-    <volume>SAC- 4,</volume>
-    <pages>856-867,</pages>
-    <date>September 1986.</date>
   </sequence>
   <sequence>
     <author>C. Ghezzi, D. Mandriolli, and A. Morzenti.</author>
@@ -828,12 +782,6 @@
     <volume>12(2),</volume>
     <pages>247-298,</pages>
     <date>June 1987.</date>
-  </sequence>
-  <sequence>
-    <author>Harandi, M. T., Ning, J. Q.,</author>
-    <date>(1990),</date>
-    <title>Knowledge Based Program Analysis",</title>
-    <container-title>IEEE Software.</container-title>
   </sequence>
   <sequence>
     <author>Witten, I. H., Neal R. M., and Cleary J. G.</author>
@@ -2376,26 +2324,12 @@
     <date>2000.</date>
   </sequence>
   <sequence>
-    <author>Barrington Moore,</author>
-    <title>Social Origins of Dictatorship and Democracy: Lord and Peasant in the Making of the Modern World</title>
-    <location>(Harmondsworth:</location>
-    <publisher>Penguin,</publisher>
-    <date>1967).</date>
-  </sequence>
-  <sequence>
     <author>Marras WS, Lavender SA, Ferguson SA, Splittstoesser RE, Yang G.</author>
     <title>Quantitative biomechanical workplace exposure measures: distribution centers.</title>
     <container-title>J Electromyogr Kinesiol.</container-title>
     <date>2010;</date>
     <volume>20(5):</volume>
     <pages>813-22.</pages>
-  </sequence>
-  <sequence>
-    <editor>Grinblatt, A., ed.</editor>
-    <title>Práctica del counseling en la Argentina.</title>
-    <location>Buenos Aires:</location>
-    <publisher>Georges Zanun,</publisher>
-    <date>2008.</date>
   </sequence>
   <sequence>
     <citation-number>47.</citation-number>
@@ -2730,5 +2664,68 @@
     <volume>v, 184,</volume>
     <pages>pp. 77-109,</pages>
     <date>2006</date>
+  </sequence>
+  <sequence>
+    <citation-number>19.</citation-number>
+    <author>Brune, M. Abdel-Hamid, M. Lehmkamper, C. Sonntag, C.</author>
+    <date>(2007).</date>
+    <title>Mental state attribution, neurocognitive functioning, and psychopathology: what predicts poor social competence in schizophrenia best?</title>
+    <container-title>Schizophrenia Research,</container-title>
+    <volume>92:</volume>
+    <pages>151-159.</pages>
+  </sequence>
+  <sequence>
+    <author>Woodman, David C.</author>
+    <date>2001.</date>
+    <title>“Utjulik 2001 Expedition Report. Manuscript.”</title>
+    <location>Iqaluit:</location>
+    <publisher>Department of Culture, Language, Elders and Youth, Government of Nunavut.</publisher>
+  </sequence>
+  <sequence>
+    <author>MILLET, Catherine,</author>
+    <title>L’art contemporain en France,</title>
+    <location>Paris,</location>
+    <publisher>Flammarion,</publisher>
+    <date>1987</date>
+  </sequence>
+  <sequence>
+    <author>Jones, C. A., and C. N. Baxter.</author>
+    <date>2004.</date>
+    <title>&lt;italic&gt;Thomomys bottae.&lt;/italic&gt;</title>
+    <container-title>Mammalian Species</container-title>
+    <volume>742:</volume>
+    <pages>1-14.</pages>
+  </sequence>
+  <sequence>
+    <author>Akhtar-Zaidi, B., R. Cowper-Sal-lari, O. Corradin, A. Saiakhova, C.F. Bartels, D. Balasubramanian, L. Myeroff, J. Lutterbaugh, A. Jarrar, M.F. Kalady, J. Willis, J.H. Moore, P.J. Tesar, T. Laframboise, S. Markowitz, M. Lupien, and P.C. Scacheri,</author>
+    <title>Epigenomic enhancer profiling defines a signature of colon cancer.</title>
+    <container-title>Science,</container-title>
+    <date>2012.</date>
+    <volume>336(6082):</volume>
+    <pages>p. 736-9.</pages>
+  </sequence>
+  <sequence>
+    <author>Cage, John and Joan Retallack.</author>
+    <title>Musicage: Cage Muses on Words, Art, Music; John Cage in Conversation with Joan Retallack.</title>
+    <location>Hanover, NH:</location>
+    <publisher>University Press of New England,</publisher>
+    <date>1996.</date>
+  </sequence>
+  <sequence>
+    <citation-number>26.</citation-number>
+    <author>Mabbutt, L. W., and Kokich, V. G.</author>
+    <title>Calvarial and sutural re-development following craniectomy in the neonatal rabbit.</title>
+    <container-title>J. Anat.</container-title>
+    <volume>129:</volume>
+    <pages>413,</pages>
+    <date>1979.</date>
+  </sequence>
+  <sequence>
+    <author>Sun Q, Ye Z, Wang X, Wong M.</author>
+    <date>2007a.</date>
+    <title>Cadmium hyperaccumulation leads to an increase of glutathione rather than phytochelatins in the cadmium hyperaccumulator &lt;italic&gt;Sedum alfredii.</title>
+    <container-title>Journal of Plant Physiology&lt;/italic&gt;</container-title>
+    <volume>164:</volume>
+    <pages>1489-1498.</pages>
   </sequence>
 </dataset>

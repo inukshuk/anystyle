@@ -216,8 +216,8 @@
   <sequence>
     <author>Harry Heffes and David Lucantoni.</author>
     <title>A markov modulated characterization of voice and data traffic and related statistical multiplexer performance.</title>
-    <container-title>IEEE J.Select.Areas Commun.,</container-title>
-    <volume>SAC- 4,</volume>
+    <container-title>IEEE J.Select.Areas Commun., SAC-</container-title>
+    <volume>4,</volume>
     <pages>856-867,</pages>
     <date>September 1986.</date>
   </sequence>
@@ -4800,8 +4800,8 @@
     <date>(1990).</date>
     <title>Preparing psychologists for the 21st century:</title>
     <container-title>Proceedings of the National Conference on Graduate Education in Psychology, University of Utah, 1988.</container-title>
-    <location>Hillsdale, NJ: L.</location>
-    <publisher>Erlbaum.</publisher>
+    <location>Hillsdale, NJ:</location>
+    <publisher>L. Erlbaum.</publisher>
   </sequence>
   <sequence>
     <author>Eckes, T.</author>
@@ -5723,7 +5723,7 @@
     <date>1985b.</date>
     <title>What shapes children’s grammars?</title>
     <editor>In D. I. Slobin (ed.),</editor>
-    <title>The crosslinguistic study of language acquisition,</title>
+    <container-title>The crosslinguistic study of language acquisition,</container-title>
     <volume>vol. II</volume>
     <pages>(1257–1319).</pages>
     <location>Hillsdale, NJ:</location>
@@ -6550,7 +6550,6 @@
     <date>2005.</date>
   </sequence>
   <sequence>
-    <citation-number>-</citation-number>
     <author>A. FOUQUET, H. JACOT,</author>
     <title>Le citoyen, l’élu, l’expert, Pour une démarche pluraliste d’évaluation des politiques publiques,</title>
     <location>Paris,</location>
@@ -6977,5 +6976,90 @@
     <note>Special Issue</note>
     <volume>16:</volume>
     <pages>27–35.</pages>
+  </sequence>
+  <sequence>
+    <author>---</author>
+    <date>(2005).</date>
+    <title>'Three factors in language design',</title>
+    <container-title>Linguistic Inquiry</container-title>
+    <volume>36:</volume>
+    <pages>1-22.</pages>
+  </sequence>
+  <sequence>
+    <author>Adam Mornement,</author>
+    <title>The second coming,</title>
+    <container-title>World architecture,</container-title>
+    <volume>No. 83,</volume>
+    <date>2000,</date>
+    <pages>34-37</pages>
+  </sequence>
+  <sequence>
+    <date>(2009)</date>
+    <container-title>Journal of Mathematical Imaging and Vision,</container-title>
+    <volume>35 (2),</volume>
+    <pages>pp. 155-164.</pages>
+    <note>Cited 76 times.</note>
+  </sequence>
+  <sequence>
+    <author>Gates S, Fisher JD, Cooke MW, Carter YH, Lamb SE.</author>
+    <title>Multifactorial assessment and targeted intervention for preventing falls and injuries among older people in community and emergency care settings: systematic review and meta-analysis.</title>
+    <container-title>BMJ</container-title>
+    <date>2008;</date>
+    <volume>336(7636):</volume>
+    <pages>130‑3.</pages>
+  </sequence>
+  <sequence>
+    <author>Barrington Moore,</author>
+    <title>Social Origins of Dictatorship and Democracy: Lord and Peasant in the Making of the Modern World</title>
+    <location>(Harmondsworth:</location>
+    <publisher>Penguin,</publisher>
+    <date>1967).</date>
+  </sequence>
+  <sequence>
+    <editor>Grinblatt, A., ed.</editor>
+    <title>Práctica del counseling en la Argentina.</title>
+    <location>Buenos Aires:</location>
+    <publisher>Georges Zanun,</publisher>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <editor>Görner, Rüdiger and Angus Nicholls, editors.</editor>
+    <title>In the Embrace of the Swan: Anglo-German mythologies in literature, the visual arts and cultural theory.</title>
+    <publisher>Walter de Gruyter,</publisher>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
+    <author>Snyder, D.,</author>
+    <title>The Chicxulub seismic experiment,</title>
+    <container-title>NERC News,</container-title>
+    <volume>v. Autumn,</volume>
+    <pages>pp. 24-25,</pages>
+    <date>1996</date>
+  </sequence>
+  <sequence>
+    <author>Sera, W. E., and C. N. Early.</author>
+    <date>2003.</date>
+    <title>&lt;italic&gt;Microtus montanus.&lt;/italic&gt;</title>
+    <container-title>Mammalian Species</container-title>
+    <volume>716:</volume>
+    <pages>1-10.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>94.</citation-number>
+    <author>White J, Reader A, Beck M, Meyers W:</author>
+    <title>The periodontal ligament injection: a comparison of the efficacy in human maxillary and mandibular teeth,</title>
+    <container-title>J Ended</container-title>
+    <volume>14:</volume>
+    <pages>508,</pages>
+    <date>1988.</date>
+  </sequence>
+  <sequence>
+    <citation-number>44.</citation-number>
+    <author>O'Connor, E., et al.,</author>
+    <title>Primary Care Screening for and Treatment of Depression in Pregnant and Postpartum Women: Evidence Report and Systematic Review for the US Preventive Services Task Force.</title>
+    <container-title>JAMA,</container-title>
+    <date>2016.</date>
+    <volume>315(4):</volume>
+    <pages>p. 388-406.</pages>
   </sequence>
 </dataset>
