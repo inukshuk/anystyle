@@ -1832,8 +1832,8 @@ meta          |  30
 text          |     This was done to catalyze credit-based increases in the money supply.
 meta          |  31
 text          |     The obvious difference between the two being the former’s targeted Republicans instead of
-meta          | Democrats.
-              | CHAPTER 2. THE POLITICS BEHIND THE FED’S STRUCTURE                                                 56
+              | Democrats.
+meta          | CHAPTER 2. THE POLITICS BEHIND THE FED’S STRUCTURE                                                 56
 blank         | 
               | 
               | 
@@ -2767,7 +2767,7 @@ text          | Figure 2.14: Could the Banking Act have Passed Had the Compositi
               | Not Changed Between 1913 and 1935?
 meta          | Chapter 3
 blank         | 
-text          | The Fed as a Political Agent: How
+title         | The Fed as a Political Agent: How
               | Partisan Central Bankers Allow
               | Elections to Impact Monetary
               | Policy
@@ -3212,8 +3212,8 @@ text          | To derive an original testable hypothesis regarding how election
               | assume the incumbent president or his party are primarily evaluated on the basis of
               | economic performance immediately preceding an election (< 12 months), rather than
               | the full duration of his term (Achen and Bartels 2004).19
-              |   19
-              |      This assumption treats voters as not fully rational; if they were, then they would evaluate
+meta          |   19
+text          |      This assumption treats voters as not fully rational; if they were, then they would evaluate
               | the president based on the economic performance “over [his] entire term of office, with little or no
               | backward time discounting” (Hibbs 2004, p. 7). However, as Achen and Bartels (2004) report,
               | “the clear consensus in the literature is that recent economic performance is much more relevant
