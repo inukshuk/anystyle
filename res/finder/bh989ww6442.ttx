@@ -8909,7 +8909,7 @@ blank         |
               | 
               | 
               | 
-title         | 10−2                                                          10−2
+text          | 10−2                                                          10−2
 blank         | 
               | 
 text          | 10−5                                                          10−5
@@ -13809,7 +13809,7 @@ text          | Algorithm 19 Primal Solution: Functional Evaluation
               |  2: for n = 1, . . . , Nt do
               |  3:   for i = 1, . . . , s do
               |                               (n)
-title         |  4:      Solve (D.14) for ki
+              |  4:      Solve (D.14) for ki
 blank         |                                                                          
 text          |                                              (n)         (n)
               |                                           M ki = ∆tr ui , µ, tn−1 + ci ∆t
@@ -16178,8 +16178,8 @@ text          | The periodic flow is used to compute quantities of interest—th
               | observed in experiments [191, 162, 158, 148]. The specific pitching and heaving amplitudes were
               |    2 There are only 4 degrees of freedom since the mirror boundary condition in (D.94) prescribes the value of one of
 blank         | 
-meta          | the knots given the other four.
-              | APPENDIX D. UNSTEADY, PERIODIC PDE-CONSTRAINED OPTIMIZATION                                                     296
+text          | the knots given the other four.
+meta          | APPENDIX D. UNSTEADY, PERIODIC PDE-CONSTRAINED OPTIMIZATION                                                     296
 blank         | 
               | 
               | 
@@ -16418,7 +16418,7 @@ text          |                                                     ∂u(Nt )
               |                                                                                ∂λNt
               | be non-singular. Thus, a solution of the linear, two-point boundary value problem exists and is
               | unique.
-meta          | Bibliography
+title         | Bibliography
 blank         | 
 ref           |  [1] Anshul Agarwal and Lorenz T Biegler. A trust-region framework for constrained optimization
               |     using reduced order modeling. Optimization and Engineering, 14(1):3–35, 2013.

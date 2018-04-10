@@ -1620,7 +1620,7 @@ text          | counterparts. The CENP-A-H4 tetramer was found to be more compac
 blank         | 
 text          | conformationally rigid than the H3/H4 tetramer by size exclusion chromatography,
 blank         | 
-title         | SAXS (small-angle X-ray scattering), and hydrogen/deuterium (H/D) exchange
+text          | SAXS (small-angle X-ray scattering), and hydrogen/deuterium (H/D) exchange
 blank         | 
 text          | experiments using reconstituted tetramers (Black et al., 2004; Sekulic et al., 2010).
 blank         | 
@@ -2383,7 +2383,7 @@ text          | cycle dependent expression of co-activators or inhibitors, or ce
 blank         | 
 text          | changes in chromatin structure.
 blank         | 
-text          | Chromatin remodeling proteins: FACT and CHD1
+title         | Chromatin remodeling proteins: FACT and CHD1
 blank         | 
 text          |        The chromatin remodeling factors FACT (facilitates chromatin transcription)
 blank         | 
@@ -3712,7 +3712,7 @@ blank         |
               | 
               | 
 meta          | 	                                        72	  
-              | Discussion
+title         | Discussion
 blank         | 
 text          |        How centromeres are maintained at the same locus through cell divisions and
 blank         | 
@@ -5496,7 +5496,7 @@ blank         |
               | 
               | 
 meta          | 	                                       120	  
-              | Discussion
+title         | Discussion
 blank         | 
 text          |        How centromeres are maintained at the same locus through cell divisions and
 blank         | 
@@ -7360,8 +7360,8 @@ blank         |
               | 
               | 
               | 
-text          | 	            176	  
-              |        During mitosis, chromosome segregation is regulated to ensure that each
+meta          | 	            176	  
+text          |        During mitosis, chromosome segregation is regulated to ensure that each
 blank         | 
 text          | daughter cell inherits an exact copy of the parental genome. Chromosome segregation
 blank         | 
