@@ -8,12 +8,16 @@ module AnyStyle
         acknowledgements
         appendix
         bibliography
+        bibliographie
         chapter
         cited
         contents
         figures
         introduction
+        literatur
+        literature
         references
+        referenzen
         section
         tables
         works

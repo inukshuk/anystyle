@@ -171,8 +171,8 @@ module AnyStyle
         delta == 0,
         b.length < 50,
         a.length < 65,
-        a.match?(/[,;\p{Pd}]$/),
-        b.match?(/^\p{Ll}/)
+        a.match?(/[,;:&\p{Pd}]$/),
+        b.match?(/^\p{Ll}/) || a.match?(/\p{L}$/) && b.match?(/^\p{L}/)
       ].count(true)
 
       con = [
