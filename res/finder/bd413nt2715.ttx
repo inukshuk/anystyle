@@ -836,7 +836,7 @@ blank         |
               | 
               | 
 meta          |                                            11
-              | Participants were eligible for the study if they answered the question correctly. They
+text          | Participants were eligible for the study if they answered the question correctly. They
 blank         | 
 text          | were not eligible to participate if they answered the question incorrectly.
 blank         | 

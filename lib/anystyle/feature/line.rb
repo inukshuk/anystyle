@@ -17,8 +17,22 @@ module AnyStyle
           ratio(lttrs, chars.length),
           ratio(white, chars.length),
           ratio(punct, chars.length),
-          ratio(width, page.width)
+          ratio(width, page.width),
+          classify(chars)
         ]
+      end
+
+      def classify(chars)
+        case chars
+        when /\.\s*\.\s*\.\s*\.|……+/
+          :toc
+        when /\s\s\s\d+$/
+          :num
+        when /^\s*(Table|Fig(ure|\.))/
+          :cap
+        else
+          :none
+        end
       end
     end
   end
