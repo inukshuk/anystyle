@@ -51,8 +51,8 @@ module AnyStyle
   module PdfUtils
     module_function
 
-    def pdf_to_text(path)
-      %x{pdftotext -layout -eol unix -q "#{path}" -}
+    def pdf_to_text(path, layout: true)
+      %x{pdftotext #{layout ? ' -layout' : ''} -eol unix -q "#{path}" -}
     end
 
     def pdf_info(path)
