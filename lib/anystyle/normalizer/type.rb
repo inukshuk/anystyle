@@ -2,7 +2,7 @@ module AnyStyle
   class Normalizer
     class Type < Normalizer
       def normalize(item)
-        item[:type] = classify item
+        item[:type] = classify item unless item.key?(:type)
         item
       end
 
@@ -10,8 +10,6 @@ module AnyStyle
         keys = item.keys
 
         case
-        when keys.include?(:journal)
-          'article-journal'
         when keys.include?(:'container-title')
           case
           when keys.include?(:issue)

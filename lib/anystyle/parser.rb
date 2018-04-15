@@ -125,6 +125,7 @@ module AnyStyle
       ]
 
       @normalizers = [
+        Normalizer::Journal.new,
         Normalizer::Quotes.new,
         Normalizer::Punctuation.new,
         Normalizer::Container.new,
