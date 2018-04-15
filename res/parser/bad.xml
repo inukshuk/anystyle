@@ -37,7 +37,7 @@
     <author>Puettmann KJ, Hibbs DE, Hann DW,</author>
     <date>1992.</date>
     <title>The dynamics of mixed stands of Alnus rubra and Pseudotsuga menziesii: extension of size-density analysis to species mixture.</title>
-    <container-title>J Ecol</container-title>
+    <journal>J Ecol</journal>
     <volume>80 (3):</volume>
     <pages>449-458.</pages>
     <doi>http://dx.doi.org/10.2307/2260690</doi>
@@ -46,7 +46,7 @@
     <author>Loreau M, Naeem S, Inchausti P, Bengtsson J, Grime JP, Hector A, Hooper DU, Huston MA, Raffaelli D, Schmid B, Tilman D, Wardle DA,</author>
     <date>2001.</date>
     <title>Biodiversity and ecosystem functioning: current knowledge and future challenges.</title>
-    <container-title>Science</container-title>
+    <journal>Science</journal>
     <volume>294:</volume>
     <pages>804–808.</pages>
     <doi>http://dx.doi.org/10.1126/science.1064088</doi>
@@ -63,20 +63,20 @@
     <author>Doyle JJ.</author>
     <date>1998.</date>
     <title>Phylogenetic perspectives on nodulation: evolving views of plants and symbiotic bacteria.</title>
-    <container-title>&lt;italic&gt;Trends in Plant Science&lt;/italic&gt;</container-title>
+    <journal>&lt;italic&gt;Trends in Plant Science&lt;/italic&gt;</journal>
     <volume>3:</volume>
     <pages>473–478.</pages>
     <author>Doyle JJ.</author>
     <date>2011.</date>
     <title>Phylogenetic perspectives on the origins of nodulation.</title>
-    <container-title>&lt;italic&gt;Molecular Plant-Microbe Interaction&lt;/italic&gt;</container-title>
+    <journal>&lt;italic&gt;Molecular Plant-Microbe Interaction&lt;/italic&gt;</journal>
     <volume>24:</volume>
     <pages>1289–1295.</pages>
   </sequence>
   <sequence>
     <author>17.Creed PA, Hicks RE, Machin MA.</author>
     <title>Behavioural plasticity and mental health outcomes for long-term unemployed attending occupational training programmes.</title>
-    <container-title>J Occup Org Psychol.</container-title>
+    <journal>J Occup Org Psychol.</journal>
     <volume>1998;71:</volume>
     <pages>171–91.</pages>
   </sequence>
@@ -93,7 +93,7 @@
     <citation-number>[Allison2006-MIT]</citation-number>
     <author>G. Allison, E.A. Galaktionov, A.K. Savchenko, S.S. Safonov, M.M. Fogler, M.Y. Fogler, M.Y. Simmons, D.A. Ritchie,</author>
     <title>Thermodynamic density of states of two-dimensional GaAs systems near the apparent metal-insulator transition,</title>
-    <container-title>Phys. Rev. Lett.</container-title>
+    <journal>Phys. Rev. Lett.</journal>
     <volume>96,</volume>
     <pages>216407</pages>
     <date>(2006).</date>
@@ -102,14 +102,14 @@
     <author>Parodi, M.</author>
     <date>(2014, décembre).</date>
     <title>Coopération et éducation.</title>
-    <container-title>Education permanente,</container-title>
+    <journal>Education permanente,</journal>
     <pages>pp. 74-85.</pages>
   </sequence>
   <sequence>
     <author>25. Spickett-Jones, J. G. &amp; T.-Y. Eng</author>
     <date>(2006).</date>
     <title>“SMEs and the Strategic Context for Communication”’,</title>
-    <container-title>Journal of Marketing Communications,</container-title>
+    <journal>Journal of Marketing Communications,</journal>
     <volume>Vol. 12(3),</volume>
     <pages>225 – 243.</pages>
   </sequence>
@@ -125,7 +125,7 @@
   <sequence>
     <author>Lillié, F.,</author>
     <title>Analyse tectonique de Gisement Claude (Cluff Lake, Saskatchewan).</title>
-    <container-title>Amok Internal Report.</container-title>
+    <journal>Amok Internal Report.</journal>
     <date>1982.</date>
   </sequence>
   <sequence>
@@ -141,7 +141,7 @@
     <author>Netto, S.</author>
     <date>(2010).</date>
     <title>Représentation de l'informatique à l'école chez de futurs enseignants et des enseignants en poste.</title>
-    <container-title>Les dossiers des sciences de l'Education(23),</container-title>
+    <journal>Les dossiers des sciences de l'Education(23),</journal>
     <pages>pp. 61-76.</pages>
   </sequence>
   <sequence>
@@ -157,7 +157,7 @@
   <sequence>
     <author>Wender PH, Rosenthal D, Kety SS, Schulsinger F, Welner J:</author>
     <title>Social class and psychopathology in adoptees. A natural experimental method for separating the roles of genetic and experimential factors.</title>
-    <container-title>Archives of General Psychiatry</container-title>
+    <journal>Archives of General Psychiatry</journal>
     <date>1973;</date>
     <volume>28 (3):</volume>
     <pages>318–25.</pages>
@@ -195,7 +195,7 @@
   <sequence>
     <author>W. Enkelmann,</author>
     <title>"Obstacle detection by evaluation of optical flow fields from image sequence,"</title>
-    <container-title>Image and Vision Computing 9,</container-title>
+    <journal>Image and Vision Computing 9,</journal>
     <pages>pp. 160-168,</pages>
     <date>1991.</date>
   </sequence>
@@ -234,7 +234,7 @@
   <sequence>
     <author>Koeberl, C., Reimold, W. U.,</author>
     <title>Bosumtwi Impact Crater: An Updated and Revised Geological Map, with Explanations.</title>
-    <container-title>Jahrbuch der Geologischen Bundesanstalt,</container-title>
+    <journal>Jahrbuch der Geologischen Bundesanstalt,</journal>
     <pages>P. 31 - 70.</pages>
     <date>2005.</date>
   </sequence>
@@ -242,14 +242,14 @@
     <author>Secret, J.</author>
     <date>1956</date>
     <title>« La restauration de Saint-Front au XIXe siècle »</title>
-    <container-title>Les Monuments historiques de la France</container-title>
+    <journal>Les Monuments historiques de la France</journal>
     <volume>3</volume>
     <pages>145-159</pages>
   </sequence>
   <sequence>
     <title>The roar of the winner’s circle.</title>
     <date>(1992, June).</date>
-    <container-title>Wake Forest University Magazine,</container-title>
+    <journal>Wake Forest University Magazine,</journal>
     <volume>39(4) ,</volume>
     <pages>p. 33</pages>
   </sequence>
@@ -272,7 +272,7 @@
   <sequence>
     <author>26-Vellin J-F, Achim V, Sinardet D, et al.</author>
     <title>Rapidly developing leptomeningeal carcinomatosis following anterior skull base surgery: a case report.</title>
-    <container-title>Auris Nasus Larynx.</container-title>
+    <journal>Auris Nasus Larynx.</journal>
     <date>2007;</date>
     <volume>34(4):</volume>
     <pages>565-567.</pages>
@@ -280,7 +280,7 @@
   <sequence>
     <author>Deverell E, Ortenwall P, Almgren O, Riddez L.</author>
     <title>KAMEDO report no. 87: Bomb attack in Finnish Shopping Center, 2002.</title>
-    <container-title>Prehosp Disaster Med.</container-title>
+    <journal>Prehosp Disaster Med.</journal>
     <volume>2007;22(1):</volume>
     <pages>86–88.</pages>
     <doi>doi:10.1017/S1049023X00004404.</doi>
@@ -288,7 +288,7 @@
   <sequence>
     <author>Pinilla G, Chavarro B, Moreno N, Navarrete J, Muñoz L.</author>
     <title>Determinación de los genes, 16S ADNr, polA, y TpN47, en la detección de Treponema pallidum subsp. pallidum para el diagnóstico de sífilis congénita.</title>
-    <container-title>NOVA.</container-title>
+    <journal>NOVA.</journal>
     <volume>2015 . 13(24):</volume>
     <pages>17-25</pages>
   </sequence>
@@ -305,7 +305,7 @@
   <sequence>
     <author>CRANE S. A.,</author>
     <title>“Writing the Individual Back into Collective Memory”,</title>
-    <container-title>in The American Historical Review,</container-title>
+    <journal>in The American Historical Review,</journal>
     <volume>102, 5</volume>
     <date>(1997),</date>
     <pages>pp. 1372-1385.</pages>
@@ -324,7 +324,7 @@
   <sequence>
     <author>DI LEONARDO M.,</author>
     <title>“Oral History as Ethnographic Encounter”,</title>
-    <container-title>in The Oral History Review,</container-title>
+    <journal>in The Oral History Review,</journal>
     <volume>15, 1</volume>
     <date>(1987),</date>
     <pages>pp. 1-20.</pages>
@@ -333,7 +333,7 @@
     <author>Absolon, K.</author>
     <date>1900.</date>
     <title>Einige Bemerkungen über die mährische Höhlenfauna 2. Aufsatz..,</title>
-    <container-title>Zoologischer Anzeiger,</container-title>
+    <journal>Zoologischer Anzeiger,</journal>
     <volume>Bd. 23,</volume>
     <pages>pp. 4.</pages>
   </sequence>
@@ -348,7 +348,7 @@
     <author>16. Eggers, F., D.J. Hansen &amp; A.E. Davis</author>
     <date>(2012).</date>
     <title>“Examining the relationship between customer and entrepreneurial orientation on nascent firms’ marketing strategy”,</title>
-    <container-title>International Entrepreneurship and Management Journal,</container-title>
+    <journal>International Entrepreneurship and Management Journal,</journal>
     <volume>Vol. 8(2),</volume>
     <pages>203 – 222.</pages>
   </sequence>
@@ -374,7 +374,7 @@
     <author>Анчев, Панко.</author>
     <date>1975.</date>
     <title>Яко Молхов. Критически хроники. С., 1975.</title>
-    <container-title>Литературна мисъл,</container-title>
+    <journal>Литературна мисъл,</journal>
     <volume>20 (4).</volume>
     <pages>148 – 151.</pages>
   </sequence>
@@ -382,7 +382,7 @@
     <author>Gunasekaran, A., Bulent, K.,</author>
     <date>2007.</date>
     <title>Performance measures and metrics in logistics and supply chain management: a review of recent literature (1995?2004) for research and applications.</title>
-    <container-title>International Journal of Production Research,</container-title>
+    <journal>International Journal of Production Research,</journal>
     <volume>45 (12),</volume>
     <pages>2819?2840.</pages>
   </sequence>
@@ -390,7 +390,7 @@
     <author>Walker, B., S. Carpenter, J. Anderies, N. Abel, G. Cumming, M. Janssen, L. Lebel, J. Norberg, G.D. Peterson, R. Pritchard</author>
     <date>2002</date>
     <title>Resilience management in social-ecological systems: a working hypothesis for a participatory approach.</title>
-    <container-title>Conservation Ecology,</container-title>
+    <journal>Conservation Ecology,</journal>
     <volume>6 (1)/ 14.</volume>
     <url>URL: http://www.ecologyandsociety.org/vol6/iss1/art14/print.pdf</url>
   </sequence>
@@ -403,14 +403,14 @@
     <author>van den Eede G, Aarts HJ, Buhk HJ, Corthier G, Flint HJ, Hammes W, Jacobsen B, Midtvedt T, van der Vossen J, von Wright A, Wackernagel W, Wilcks A.</author>
     <date>2004.</date>
     <title>The relevance of gene transfer to the safety of food and feed derived from genetically modified (GM) plants.</title>
-    <container-title>Food Chem. Toxicol.</container-title>
+    <journal>Food Chem. Toxicol.</journal>
     <volume>42(7):</volume>
     <pages>1127-­‐1156</pages>
   </sequence>
   <sequence>
     <author>Deets, Stephen; Skulte-Ouaiss, Jennifer.</author>
     <title>“Jumping out of the “Hobbesian Fishbowl and into the Fire: Lebanon, Elections, and Chronic Crisis.”</title>
-    <container-title>Demokratizatsiya.</container-title>
+    <journal>Demokratizatsiya.</journal>
     <date>2016</date>
   </sequence>
   <sequence>
@@ -444,7 +444,7 @@
   <sequence>
     <author>Brenon, Anne,</author>
     <title>„Avant-propos“, in: René Nelli, „Prophéties et mythes consolateurs dans les communautés cathares persécutées“,</title>
-    <container-title>Heresis</container-title>
+    <journal>Heresis</journal>
     <volume>9,</volume>
     <date>1987,</date>
     <pages>5-9: 5-7.</pages>
@@ -453,7 +453,7 @@
   <sequence>
     <author>Bizzell, Patrieia, and B. Herzberg.</author>
     <title>"'Inherent' Ideology, 'Universal' History, 'Empirical' Evidence in 'Context Free' Writing: Some Problems with E. D. Hirsch's The Philosophy of Composition."</title>
-    <container-title>Modern Language Notes</container-title>
+    <journal>Modern Language Notes</journal>
     <volume>95</volume>
     <date>(1980):</date>
     <pages>1181-1202.</pages>
@@ -468,7 +468,7 @@
   <sequence>
     <author>Acharya Amitav,</author>
     <title>"How Ideas Spread: Whose Norms Matter? Norm Localization and Institutional Change in Asian Regionalism",</title>
-    <container-title>International Organization,</container-title>
+    <journal>International Organization,</journal>
     <volume>2004, vol. 58, n° 2,</volume>
     <pages>pp. 239-275.</pages>
   </sequence>
@@ -490,7 +490,7 @@
     <author>Fahmy, Hoda, Dorothea Blostein,</author>
     <date>1993,</date>
     <title>A graph grammar programming style for recognition of music notation,</title>
-    <container-title>Machine Vision and Applications</container-title>
+    <journal>Machine Vision and Applications</journal>
     <volume>6</volume>
     <pages>83-99.</pages>
   </sequence>
@@ -518,7 +518,7 @@
     <author>Dempster, A., Laird, N., and Rubin, D.</author>
     <date>(1977)</date>
     <title>Maximum likelihood from incomplete data via the EM algorithm.</title>
-    <container-title>Journal of the Royal Statistical Society B39,</container-title>
+    <journal>Journal of the Royal Statistical Society B39,</journal>
     <pages>1-38.</pages>
   </sequence>
   <sequence>
@@ -532,7 +532,7 @@
     <author>D.B. Booth, R.E. Wells, and R. Givler,</author>
     <date>2004,</date>
     <title>Chimney damage in the greater Seattle area from the Nisqually earthquake of February 28, 2001:</title>
-    <container-title>Bulletin of the Seismological Society of America,</container-title>
+    <journal>Bulletin of the Seismological Society of America,</journal>
     <volume>v. 94(3),</volume>
     <pages>pp. 1143–1158.</pages>
   </sequence>
@@ -540,7 +540,7 @@
     <author>Pereira, M; Segurado, P; Neves, N</author>
     <date>2011</date>
     <title>Using spatial network structure in landscape management and planning: a case study with pond turtles,</title>
-    <container-title>Landscape and Urban Planning,</container-title>
+    <journal>Landscape and Urban Planning,</journal>
     <volume>100,</volume>
     <pages>67-76,</pages>
     <note>IF 2.004</note>
@@ -548,7 +548,7 @@
   <sequence>
     <author>Fidrianny, I.,Fikayuniar, L., Insanu, M.,</author>
     <title>Antioxidant activities of various seed extracts from four varieties of rambutan (Nephelium lappaceum) using 2,2-diphenyl-1-picrylhydrazyl and 2,2’-azinobis (3-ethyl-benzothiazoline-6-sulfonic acid) assays,</title>
-    <container-title>Asian Journal of Pharmaceutical and Clinical Research,</container-title>
+    <journal>Asian Journal of Pharmaceutical and Clinical Research,</journal>
     <date>2015,</date>
     <volume>8 (5),</volume>
     <pages>227-231</pages>
@@ -557,7 +557,7 @@
     <author>Hünting W, Läubli T, Grandjean E.</author>
     <date>(1981)</date>
     <title>Postural and visual loads ad VDT workplaces. I Constraines postures.</title>
-    <container-title>Ergonomics</container-title>
+    <journal>Ergonomics</journal>
     <volume>24:</volume>
     <pages>917-931.</pages>
   </sequence>
@@ -569,7 +569,7 @@
     <title>Quantifying the impact of renewable electricity futures on cooling water use</title>
     <author>Baker, J., K.M. Strzepek, W. Farmer and C.A. Schlosser</author>
     <date>2014</date>
-    <container-title>Journal of the American Water Resources Association,</container-title>
+    <journal>Journal of the American Water Resources Association,</journal>
     <volume>50(5):</volume>
     <pages>1289-1303,</pages>
     <doi>doi: 10.1111/jawr.12188</doi>
@@ -600,7 +600,7 @@
     <author>Logan J.A.</author>
     <date>(1999)</date>
     <title>An analysis of ozonesonde data for the troposphere: Recommendations for testing 3-D models, and development of a gridded climatology for tropospheric ozone,</title>
-    <container-title>J. Geophys. Res.,104,</container-title>
+    <journal>J. Geophys. Res.,104,</journal>
     <pages>16115–16149.</pages>
   </sequence>
   <sequence>
@@ -622,7 +622,7 @@
   <sequence>
     <author>Twyla, Miranda, Rossi, Williams-Dara, Johnson, Kary A., and McKenzie, Nancy,</author>
     <title>‘Reluctant Readers in Middle School: Successful engagement with text using the e-reader’,</title>
-    <container-title>International Journal of Applied Science and Technology,</container-title>
+    <journal>International Journal of Applied Science and Technology,</journal>
     <volume>1: 6</volume>
     <date>(2011), November.</date>
   </sequence>
@@ -638,7 +638,7 @@
   </sequence>
   <sequence>
     <title>drinking’,</title>
-    <container-title>Communication Research,</container-title>
+    <journal>Communication Research,</journal>
     <volume>vol. 28, no. 2,</volume>
     <date>2001,</date>
     <pages>pp. 208-39.</pages>
@@ -646,7 +646,7 @@
   <sequence>
     <author>23.van den Hout JH, Vlaeyen JW, Heuts PH, Zijlema JH, Wijnen JA.</author>
     <title>Secundary prevention of work-related disability in nonspecific low back pain: does problem-solving therapy help? A randomized clinical trial.</title>
-    <container-title>Clin J Pain.</container-title>
+    <journal>Clin J Pain.</journal>
     <volume>2003;19:</volume>
     <pages>87–96.</pages>
   </sequence>
@@ -667,7 +667,7 @@
   <sequence>
     <author>W. G. Mason, L. Moresi, P. G. Betts, and M. S. Miller.</author>
     <title>Three-dimensional numerical models of the influence of a buoyant oceanic plateau on subduction zones.</title>
-    <container-title>Tectonophysics,</container-title>
+    <journal>Tectonophysics,</journal>
     <volume>483(1-2):</volume>
     <pages>71-79,</pages>
     <date>2010.</date>
@@ -684,7 +684,7 @@
     <author>Le Monde.</author>
     <date>2016.</date>
     <title>“Opération Tulipe » : les coulisses de la très secrète perquisition chez Google,”</title>
-    <container-title>Le Monde.</container-title>
+    <journal>Le Monde.</journal>
   </sequence>
   <sequence>
     <citation-number>(5)</citation-number>
@@ -693,7 +693,7 @@
   </sequence>
   <sequence>
     <title>« Mutualisation de centres de documentation : retour d’expérience ».</title>
-    <container-title>Documentaliste-Sciences de l’information,</container-title>
+    <journal>Documentaliste-Sciences de l’information,</journal>
     <volume>n°2013, n°1,</volume>
     <pages>p. 06-07</pages>
   </sequence>
@@ -701,14 +701,14 @@
     <author>Zuquim, M.P.S., R. A. J. Trouw, R.A.J, Trouw, C.C., Tohver, E.</author>
     <date>2011.</date>
     <title>Structural evolution and U-Pb SHRIMP zircon ages of the Neoproterozoic Maria da Fe shear zone, central Ribeira Belt - SE Brazil.</title>
-    <container-title>Journal of South American Earth Sciences</container-title>
+    <journal>Journal of South American Earth Sciences</journal>
     <volume>31,</volume>
     <pages>199-213</pages>
   </sequence>
   <sequence>
     <author>Susan Holden,</author>
     <title>Possible Pompidous,</title>
-    <container-title>AA files,</container-title>
+    <journal>AA files,</journal>
     <volume>No. 70,</volume>
     <date>2015,</date>
     <pages>33-47</pages>
@@ -716,14 +716,14 @@
   <sequence>
     <author>Robertson, Archibald, and Alfred Plummer.</author>
     <title>A Critical and Exegetical Commentary on the First Epistle of Saint Paul to the Corinthians.</title>
-    <container-title>The International Critical Commentary.</container-title>
+    <journal>The International Critical Commentary.</journal>
     <publisher>T&amp;T Clark,</publisher>
     <date>1914.</date>
   </sequence>
   <sequence>
     <author>Valent Fiume-Freddo, Olivier Griette,</author>
     <title>Grandi lavori, grandi progetti? = Great works, great projects,</title>
-    <container-title>A &amp; C international,</container-title>
+    <journal>A &amp; C international,</journal>
     <volume>No. 5,</volume>
     <date>1996,</date>
     <pages>6, 18-25</pages>
@@ -732,12 +732,12 @@
     <author>Walker, C.</author>
     <date>(1996, June 4).</date>
     <title>WFU Hires Two Media Relations Officers.</title>
-    <container-title>News Release</container-title>
+    <journal>News Release</journal>
   </sequence>
   <sequence>
     <author>Derrick, D. and Gick, B.</author>
     <title>Speech rate influences categorical variation of English flaps and taps during normal speech.</title>
-    <container-title>Journal of the Acoustical Society of America</container-title>
+    <journal>Journal of the Acoustical Society of America</journal>
     <volume>130, 4, Pt. 2:</volume>
     <pages>197.</pages>
     <date>2012.</date>
@@ -761,7 +761,7 @@
   <sequence>
     <author>Verma MS, Gu FX,</author>
     <title>“CH(21): 1,3--Glucans: Drug Delivery and Pharmacology,”</title>
-    <container-title>INTECH Open Access Publisher,.</container-title>
+    <journal>INTECH Open Access Publisher,.</journal>
     <pages>555-572,</pages>
     <date>2012.</date>
     <url>http://dx.doi.org/10.5772/50363</url>
@@ -777,7 +777,7 @@
   <sequence>
     <author>DOTTIN Georges,</author>
     <title>« Louis Eunius ou le purgatoire de saint Patrice »,</title>
-    <container-title>Annales de Bretagne,</container-title>
+    <journal>Annales de Bretagne,</journal>
     <volume>Tome 26, numéro 4,</volume>
     <date>1910,</date>
     <pages>p. 781-810.</pages>
@@ -799,21 +799,21 @@
     <author>Bakan, Michael B.</author>
     <date>2015a.</date>
     <title>“‘Don't Go Changing to Try and Please Me’: Combating Essentialism through Ethnography in the Ethnomusicology of Autism.”</title>
-    <container-title>Ethnomusicology</container-title>
+    <journal>Ethnomusicology</journal>
     <volume>59 (1):</volume>
     <pages>116-44.</pages>
   </sequence>
   <sequence>
     <author>Sabea, Hanan.</author>
     <title>“Still Waiting: Labor, Revolution, and the Struggle for Social Justice in Egypt.”</title>
-    <container-title>International Labor and Working Class History,</container-title>
+    <journal>International Labor and Working Class History,</journal>
     <volume>86(2014) :</volume>
     <pages>178-182.</pages>
   </sequence>
   <sequence>
     <author>Risse Thomas,</author>
     <title>"International Norms and Domestic Change: Arguing and Communicative Behavior in the Human Rights Area",</title>
-    <container-title>Politics Society,</container-title>
+    <journal>Politics Society,</journal>
     <date>1999,</date>
     <volume>vol. 27, n° 4,</volume>
     <pages>pp. 529-559.</pages>
@@ -831,7 +831,7 @@
     <author>Absolon, K.</author>
     <date>1907.</date>
     <title>Zwei neue Collembolen-Gattungen.,</title>
-    <container-title>Wiener Entomologische Zeitung,</container-title>
+    <journal>Wiener Entomologische Zeitung,</journal>
     <volume>Bd. 26,</volume>
     <pages>pp. 9.</pages>
   </sequence>
@@ -839,7 +839,7 @@
     <author>Hussain I.; Abu Rizaiza, O.S.; Habib, M.A.; &amp; Ashfq, M.,</author>
     <date>2008.</date>
     <title>Revitalizing a Traditional Dryland Water Supply System: The Karzes in Afghanistan, Iran, Pakistan, and the Kingdom of Saudi Arabia.</title>
-    <container-title>&lt;italic&gt;Water International&lt;/italic&gt;,</container-title>
+    <journal>&lt;italic&gt;Water International&lt;/italic&gt;,</journal>
     <volume>33:3:</volume>
     <pages>333.</pages>
   </sequence>
@@ -847,20 +847,20 @@
     <author>Brown, S., Goetzmann, W.,</author>
     <date>1995.</date>
     <title>Performance Persistence.</title>
-    <container-title>Journal of Finance,</container-title>
+    <journal>Journal of Finance,</journal>
     <volume>50: 2,</volume>
     <pages>pp.679- 698.</pages>
     <author>Brown, S., Goetzmann, W., Ibbotson, R., Ross, S.,</author>
     <date>1992.</date>
     <title>Survivorship Bias in Performance Studies.</title>
-    <container-title>Review of Financial Studies,</container-title>
+    <journal>Review of Financial Studies,</journal>
     <volume>5: 4,</volume>
     <pages>pp.553-580.</pages>
   </sequence>
   <sequence>
     <author>Lambert, P., Pagel, M.,</author>
     <title>The planar elements of quartz from the structures of Carswell and Charlevoix (Canada) and Rochechouart (France) (in French).</title>
-    <container-title>Academie Sciences (Paris) Comptes Rendus, Serie D,</container-title>
+    <journal>Academie Sciences (Paris) Comptes Rendus, Serie D,</journal>
     <volume>v. 284,</volume>
     <pages>pp. 1623-1626.</pages>
     <date>1977.</date>
@@ -868,7 +868,7 @@
   <sequence>
     <author>Watson, WH, Burke, TJ, Massey, VL, Arteel, GE, Merchant, ML.</author>
     <title>“Activity of the zinc finger transcription factor HNF4a is altered by arsenic in the livers of mice with diet-induced non-alcoholic fatty liver disease.”</title>
-    <container-title>Metals Toxicity and Carcinogenesis,</container-title>
+    <journal>Metals Toxicity and Carcinogenesis,</journal>
     <location>Lexington, KY.</location>
     <date>October 18, 2016.</date>
   </sequence>
@@ -907,7 +907,7 @@
   <sequence>
     <author>Barringer, B.,</author>
     <title>Daniel Moreau Barringer (1860-1929) and his crater (The beginning of the Crater Branch of Meteoritics).</title>
-    <container-title>Meteoritics,</container-title>
+    <journal>Meteoritics,</journal>
     <volume>v. 2,</volume>
     <pages>pp. 183-199.</pages>
     <date>1964.</date>
@@ -915,7 +915,7 @@
   <sequence>
     <author>Morton de Lachapelle, D., Challet, D.,</author>
     <title>"Turnover, account value and diversiﬁcation of real traders: evidence of collective portfolio optimizing behavior",</title>
-    <container-title>New Journal of Physics</container-title>
+    <journal>New Journal of Physics</journal>
     <volume>12,</volume>
     <pages>075039 (22pp)</pages>
     <date>(2010).</date>
@@ -941,7 +941,7 @@
   <sequence>
     <author>ORTUZAR J., ARMOOGUM J., MADRE J.-L., POTIER F.,</author>
     <title>Continuous Mobility Surveys: The State of Practice,</title>
-    <container-title>Transport Reviews,</container-title>
+    <journal>Transport Reviews,</journal>
     <volume>vol.</volume>
     <note>first published nov 2010,2010, 30p</note>
   </sequence>
@@ -967,7 +967,7 @@
     <author>C.P. Konrad, D.B. Booth, S.J. Burges, and D.R. Montgomery,</author>
     <date>2002,</date>
     <title>Partial entrainment of gravel bars during floods:</title>
-    <container-title>Water Resources Research,</container-title>
+    <journal>Water Resources Research,</journal>
     <volume>v. 38 (7), 10.1029,</volume>
     <pages>pp. 9–1 – 9–16.</pages>
   </sequence>
@@ -1004,7 +1004,7 @@
   <sequence>
     <author>Cayot (F.),</author>
     <title>Les maisons seigneuriales rurales à la fin du Moyen Age (XIVe–XVIe s.) dans l’Yonne,</title>
-    <container-title>Annales de Bourgogne,</container-title>
+    <journal>Annales de Bourgogne,</journal>
     <volume>75,</volume>
     <date>2003,</date>
     <pages>p. 259–288.</pages>
@@ -1022,7 +1022,7 @@
   <sequence>
     <author>A.F. Aguilar,</author>
     <title>Enforcing the Right to a Healthy Environment in Latin America,</title>
-    <container-title>3 Review of European Community and International Law</container-title>
+    <journal>3 Review of European Community and International Law</journal>
     <volume>215</volume>
     <date>(1994).</date>
   </sequence>
@@ -1051,7 +1051,7 @@
   <sequence>
     <author>ASSMANN J., CZAPLICKA J.,</author>
     <title>“Collective Memory and Cultural Identity”,</title>
-    <container-title>in New German Critique,</container-title>
+    <journal>in New German Critique,</journal>
     <volume>65</volume>
     <date>(1995),</date>
     <pages>pp. 125-133.</pages>
@@ -1127,7 +1127,7 @@
     <author>Shapiro, L.</author>
     <date>(2003).</date>
     <title>The Health of the Body-Machine? Or Seventeeth Century Mechanism and the Concept of Health.</title>
-    <container-title>Perspectives on Science ,</container-title>
+    <journal>Perspectives on Science ,</journal>
     <volume>11,</volume>
     <pages>421-442.</pages>
   </sequence>
@@ -1135,7 +1135,7 @@
     <author>Cox, Kevin.</author>
     <date>(1997, July 1).</date>
     <title>WFU switches to 758 telephone prefix.</title>
-    <container-title>Press release.</container-title>
+    <journal>Press release.</journal>
   </sequence>
   <sequence>
     <author>Genfang, Chen, Zhang Wenjun, Wang Qiuqiu,</author>
@@ -1148,7 +1148,7 @@
   <sequence>
     <author>Florence Bistagne,</author>
     <title>« Entre latin et vulgaire, entre tradition et modernité, entre ‘400 et ‘500 : le De Sermone de Pontano, une œuvre à la croisée des chemins »,</title>
-    <container-title>Annali della Facoltà delle Lettere di Bari,</container-title>
+    <journal>Annali della Facoltà delle Lettere di Bari,</journal>
     <date>2004.</date>
   </sequence>
   <sequence>
@@ -1163,7 +1163,7 @@
   <sequence>
     <author>Tomoko Makidono,</author>
     <title>“Dge rtse Mahāpaṇdita on the Vaibhāṣika School of Indian Buddhism”.</title>
-    <container-title>Indian International Journal of Buddhist Studies,</container-title>
+    <journal>Indian International Journal of Buddhist Studies,</journal>
     <volume>Vol. 18</volume>
     <date>(2017)</date>
     <pages>(71-141)</pages>
@@ -1181,21 +1181,21 @@
     <author>Currie, J.</author>
     <date>(2008).</date>
     <title>Healthy, wealthy, and wise: Socioeconomic status, poor health in childhood, and human capital development (Working Paper No. 13987).</title>
-    <container-title>National Bureau of Economic Research.</container-title>
+    <journal>National Bureau of Economic Research.</journal>
     <note>Retrieved from</note>
     <url>http://www.nber.org/papers/w13987</url>
   </sequence>
   <sequence>
     <author>Blumenstyk, Goldie.</author>
     <title>“Publishers Promote E—textbooks, But Many Students and Professors Are Skeptical,”</title>
-    <container-title>The Chronicle of Higher Education,</container-title>
+    <journal>The Chronicle of Higher Education,</journal>
     <date>18 May 2001,</date>
     <pages>A35.</pages>
   </sequence>
   <sequence>
     <author>1.Ensminger ME, Celentano DD.</author>
     <title>Unemployment and psychiatric distress: social resources and coping.</title>
-    <container-title>Soc Sci Med.</container-title>
+    <journal>Soc Sci Med.</journal>
     <volume>1988;27(3):</volume>
     <pages>239–47.</pages>
   </sequence>
@@ -1219,14 +1219,14 @@
   </sequence>
   <sequence>
     <title>“Standard Book Numbering Approved for U.S.A.,”</title>
-    <container-title>Publishers Weekly,</container-title>
+    <journal>Publishers Weekly,</journal>
     <date>September 25, 1967,</date>
     <pages>76.</pages>
   </sequence>
   <sequence>
     <author>F. FUCHS, P. CAPMAS, X. DEFFIEUX, MV. SENAT, H.FERNANDEZ.</author>
     <title>Techniques chirurgicales de cerclage du col utérin.</title>
-    <container-title>EMC</container-title>
+    <journal>EMC</journal>
     <date>Avril 2016.</date>
   </sequence>
   <sequence>
@@ -1260,7 +1260,7 @@
   <sequence>
     <author>Haughton, S.,</author>
     <title>Geological account of the Arctic Archipelago, drawn up from the specimens collected by Captain F.L. M'Clintock, R.N. from 1849 to 1859.</title>
-    <container-title>Journal of the Geological Society of Dublin,</container-title>
+    <journal>Journal of the Geological Society of Dublin,</journal>
     <pages>p. 196 - 213.</pages>
     <date>1860.</date>
   </sequence>
@@ -1275,7 +1275,7 @@
     <author>Thoufeeq, M. H., &amp; Perry, M. J.</author>
     <date>(2007).</date>
     <title>Castleman's disease in a patient with celiac disease.</title>
-    <container-title>Indian Journal of Gastroenterology,</container-title>
+    <journal>Indian Journal of Gastroenterology,</journal>
     <volume>26(4),</volume>
     <pages>187.</pages>
     <note>Retrieved from</note>
@@ -1311,7 +1311,7 @@
     <author>Mantelin S, Saux MF, Zakhia F, Bena G, Bonneau S, Jeder H, de Lajudie P, Cleyet-Marel JC.</author>
     <date>2006.</date>
     <title>Emended description of the genus Phyllobacterium and description of four novel species associated with plant roots: Phyllobacterium bourgognense sp. nov., Phyllobacterium iffiqiyensesp. nov., Phyllobacterium leguminum sp. nov. and Phyllobacterium brassicacearum sp. nov.</title>
-    <container-title>International Journal of Systematic and Evolutionary Microbiology</container-title>
+    <journal>International Journal of Systematic and Evolutionary Microbiology</journal>
     <volume>56:</volume>
     <pages>827—839.</pages>
   </sequence>
@@ -1339,7 +1339,7 @@
     <author>Roux, J.</author>
     <date>1927</date>
     <title>« La chapelle Saint-Jean de l’ancien évêché de Périgueux »</title>
-    <container-title>Congrès archéologique de la France</container-title>
+    <journal>Congrès archéologique de la France</journal>
     <volume>90</volume>
     <pages>108-117</pages>
   </sequence>
@@ -1353,7 +1353,7 @@
   <sequence>
     <author>McLelland Mark,</author>
     <title>« Interview with Samshasha, Hong Kong's first gay rights activist and author »,</title>
-    <container-title>Intersections,</container-title>
+    <journal>Intersections,</journal>
     <volume>no. 4 (septembre),</volume>
     <date>2000.</date>
   </sequence>
@@ -1366,7 +1366,7 @@
   </sequence>
   <sequence>
     <title>“HIV/AIDS Monies Must Be Administered More Effectively.”</title>
-    <container-title>Botswana Gazette,</container-title>
+    <journal>Botswana Gazette,</journal>
     <date>August 25,2010.</date>
   </sequence>
   <sequence>
@@ -1382,13 +1382,13 @@
   <sequence>
     <author>Mati, Jacob Mwathi.</author>
     <title>“Social Movements and Socio-Political Change in Africa: The Ufungamano Initiative and Kenyan Constitutional Reform Struggles 1999–2005.”</title>
-    <container-title>Voluntas.</container-title>
+    <journal>Voluntas.</journal>
     <date>2012</date>
   </sequence>
   <sequence>
     <author>16.Vuori J, Silvonen J, Vinokur AD, Price RH.</author>
     <title>The Työhön job search program in Finland: benefits for the unemployed with risk of depression or discouragement.</title>
-    <container-title>J Occup Health Psychol.</container-title>
+    <journal>J Occup Health Psychol.</journal>
     <volume>2002;7(1):</volume>
     <pages>5–19.</pages>
   </sequence>
@@ -1416,7 +1416,7 @@
   <sequence>
     <author>Kaldenberg, E.R., Watt, S.J., Therrien, W.J.</author>
     <title>(2015).Reading instruction in science for students with learning disabilities: a meta- analysis.</title>
-    <container-title>Learning Disability Quarterly,</container-title>
+    <journal>Learning Disability Quarterly,</journal>
     <volume>38(3),</volume>
     <pages>160-173.</pages>
   </sequence>
@@ -1448,14 +1448,14 @@
     <author>Gerge, A., Wärja, M., &amp; Pedersen, I.N.</author>
     <date>(2017).</date>
     <title>Using aesthetic response - A poetic inquiry to expand knowing, part I: The Rx6-Method.</title>
-    <container-title>Voices: A World Forum for Music Therapy</container-title>
+    <journal>Voices: A World Forum for Music Therapy</journal>
     <volume>17(1).</volume>
     <doi>doi: 10.15845/voices.v17i1.890</doi>
   </sequence>
   <sequence>
     <author>Moncunill G, Han H, Dobano C, McElrath MJ, De Rosa SC.</author>
     <title>OMIP- 024: pan-leukocyte immunophenotypic characterization of PBMC subsets in human samples.</title>
-    <container-title>Cytometry A</container-title>
+    <journal>Cytometry A</journal>
     <volume>85:</volume>
     <pages>995-998,</pages>
     <date>2014</date>
@@ -1484,7 +1484,7 @@
   <sequence>
     <author>NECHUTOVÁ, Jana,</author>
     <title>K charakteru eucharistie v české reformaci,</title>
-    <container-title>SPFFBU B</container-title>
+    <journal>SPFFBU B</journal>
     <volume>18,</volume>
     <date>1971,</date>
     <pages>31-44.</pages>
@@ -1503,7 +1503,7 @@
   <sequence>
     <author>LaTonya Taylor,</author>
     <title>“The Church of O,”</title>
-    <container-title>Christianity Today,</container-title>
+    <journal>Christianity Today,</journal>
     <date>April 1, 2002,</date>
     <url>http://www.christianitytoday.com/ct/2002/004/1.38.html</url>
   </sequence>
@@ -1535,14 +1535,14 @@
     <author>Nonnon, E.</author>
     <date>(1996).</date>
     <title>Activités argumentatives et élaboration de connaissances nouvelles : le dialogue comme espace d'exploration.</title>
-    <container-title>Langue française,</container-title>
+    <journal>Langue française,</journal>
     <pages>67-87.</pages>
     <doi>doi: 10.3406/lfr.1996.5361</doi>
   </sequence>
   <sequence>
     <author>Chen HC, Chang CM, Liu YP, Chen CY.</author>
     <title>Ergonomic risk factors for the wrists of hairdressers.</title>
-    <container-title>Appl Ergon.</container-title>
+    <journal>Appl Ergon.</journal>
     <date>2010;</date>
     <volume>41(1) :</volume>
     <pages>98-105.</pages>
@@ -1581,7 +1581,7 @@
   <sequence>
     <author>Luciano Cheles,«</author>
     <title>Le immagini vaganti. Migrazioni iconografiche tra destra e sinistra »,</title>
-    <container-title>Memoria e ricerca,</container-title>
+    <journal>Memoria e ricerca,</journal>
     <volume>n. 41,</volume>
     <date>septembre-décembre 2012,</date>
     <pages>pp. 121-146.</pages>
@@ -1642,7 +1642,7 @@
     <citation-number>[77]</citation-number>
     <author>D. A. Atchison and G. Smith,</author>
     <title>Optics of the human eye.</title>
-    <container-title>Elsevier Health Sciences,</container-title>
+    <journal>Elsevier Health Sciences,</journal>
     <date>2000.</date>
   </sequence>
   <sequence>
@@ -1674,7 +1674,7 @@
     <author>Lahav, O. &amp; Birnhack, L.,</author>
     <date>2007.</date>
     <title>Quality Criteria for Desalinated Water Following Post-Treatment.</title>
-    <container-title>&lt;italic&gt;Desalination&lt;/italic&gt;,</container-title>
+    <journal>&lt;italic&gt;Desalination&lt;/italic&gt;,</journal>
     <volume>207:</volume>
     <pages>286.</pages>
   </sequence>
@@ -1682,7 +1682,7 @@
     <author>Walker, Cheryl</author>
     <date>(1996, December 9).</date>
     <title>Charlotte Opal becomes WFU's latest Rhodes Scholar.</title>
-    <container-title>Press release.</container-title>
+    <journal>Press release.</journal>
   </sequence>
   <sequence>
     <author>PCC Access Points for Expressions Task Group.</author>
@@ -1692,7 +1692,7 @@
   <sequence>
     <author>ARNAUD, S.</author>
     <title>Des compétences infirmières spécifiques en cancérologie pour une prise en charge individualisée et globale du patient.</title>
-    <container-title>EMC Savoirs et soins infirmiers,</container-title>
+    <journal>EMC Savoirs et soins infirmiers,</journal>
     <pages>60-060-M-45,</pages>
     <date>2010,</date>
   </sequence>
@@ -1721,7 +1721,7 @@
     <author>N. Rossignol, L. Vandanjon, P. Jaouen and F. Quéméneur</author>
     <date>(1999).</date>
     <title>Membrane technology, for the continuous separation microalgae/culture medium: compared performances of cross-flow microfiltration and ultra-filtration,</title>
-    <container-title>Aquacult. Eng.,</container-title>
+    <journal>Aquacult. Eng.,</journal>
     <volume>20 (3)</volume>
     <pages>191-208.</pages>
   </sequence>
@@ -1740,7 +1740,7 @@
   <sequence>
     <author>Claire Fayolle,</author>
     <title>Beaubourg: une interdisciplinarité repensée,</title>
-    <container-title>Architecture intérieure-Créé,</container-title>
+    <journal>Architecture intérieure-Créé,</journal>
     <volume>No. 291,</volume>
     <date>1999,</date>
     <pages>31</pages>
@@ -1765,7 +1765,7 @@
   <sequence>
     <author>McGown C.</author>
     <title>The Effect of Motor and Sensory Set on Reaction Time and Muscle Electircal Activity.</title>
-    <container-title>Research Quarterly. American Alliance For Health, Physical Education And Recreation</container-title>
+    <journal>Research Quarterly. American Alliance For Health, Physical Education And Recreation</journal>
     <volume>Vol. 47, Iss. 4,</volume>
     <date>1976.</date>
     <pages>P. 709-715.</pages>
@@ -1774,7 +1774,7 @@
     <author>Evans, S., Giosan, C., Patt, I., Spielman, L., &amp; Difede, J.</author>
     <date>(2006).</date>
     <title>Anger and its association to distress and social/occupational functioning in symptomatic disaster relief workers responding to the September 11, 2001, World Trade Center disaster.</title>
-    <container-title>Journal of Traumatic Stress,</container-title>
+    <journal>Journal of Traumatic Stress,</journal>
     <volume>19,</volume>
     <pages>147-152.</pages>
     <doi>doi:10.1002/jts.20107</doi>
@@ -1783,7 +1783,7 @@
     <author>Troadec, É.</author>
     <date>(2014, Avril).</date>
     <title>Quand l'éolien devient citoyen.</title>
-    <container-title>Alternatives économiques(334),</container-title>
+    <journal>Alternatives économiques(334),</journal>
     <pages>pp. 40-41.</pages>
   </sequence>
   <sequence>
@@ -1800,7 +1800,7 @@
     <author>Abenhaim, L., Dab, W., Salmi, L. R.</author>
     <date>(1992).</date>
     <title>Study of civilian victims of terrorist attacks (France 1982-1987).</title>
-    <container-title>Journal of Clinical Epidemiology,</container-title>
+    <journal>Journal of Clinical Epidemiology,</journal>
     <volume>45(2),</volume>
     <pages>103-109.</pages>
   </sequence>
@@ -1814,7 +1814,7 @@
   <sequence>
     <author>ACRL Racial and Ethnic Diversity Committee.</author>
     <title>“Diversity Standards: Cultural Competency for Academic Librarians.”</title>
-    <container-title>College &amp; Research Libraries News</container-title>
+    <journal>College &amp; Research Libraries News</journal>
     <volume>73, no. 9</volume>
     <date>(October 2012):</date>
     <pages>551-61.</pages>
@@ -1836,14 +1836,14 @@
   </sequence>
   <sequence>
     <author>S. James P. Spottiswoode,</author>
-    <container-title>Journal of Parapsychology,</container-title>
+    <journal>Journal of Parapsychology,</journal>
     <volume>Vol. 61</volume>
     <date>(1997).</date>
   </sequence>
   <sequence>
     <author>2-Trimba R, Jeffrey M. Spivak, John A. Bendo.</author>
     <title>Conjoined nerve roots of the lumbar spine Roman.</title>
-    <container-title>The Spine Journal.</container-title>
+    <journal>The Spine Journal.</journal>
     <date>2012;</date>
     <volume>12 (6):</volume>
     <pages>515–524</pages>
@@ -1861,7 +1861,7 @@
   <sequence>
     <author>Laffont I, Biard N, Chalubert G, Delahoche L, Marhic B, Boyer FC, et al.</author>
     <title>Evaluation of a graphic interface to control a robotic grasping arm: a multicenter study.</title>
-    <container-title>Arch Phys Med Rehabil</container-title>
+    <journal>Arch Phys Med Rehabil</journal>
     <volume>2009; 90(10):</volume>
     <pages>1740–8.</pages>
   </sequence>
@@ -1893,7 +1893,7 @@
   <sequence>
     <author>Svenonius, F.,</author>
     <title>Geological investigations in Garleborg County (in Swedish) Sveriges.</title>
-    <container-title>Geologiska Undersokningen, Serien C,</container-title>
+    <journal>Geologiska Undersokningen, Serien C,</journal>
     <volume>v. 152,</volume>
     <pages>pp. 54-59.</pages>
     <date>1895.</date>
@@ -1901,14 +1901,14 @@
   <sequence>
     <author>BALLU A.,</author>
     <title>« Rapport sur les fouilles exécutées en 1902 à Khamissa (Thubursicu Numidarum) »,</title>
-    <container-title>BCTH,</container-title>
+    <journal>BCTH,</journal>
     <date>1903,</date>
     <pages>p. 564-576.</pages>
   </sequence>
   <sequence>
     <author>Fabrizio Gallanti,</author>
     <title>Vous êtes gentils mais insupportables: Robert Bordaz and the Centre Pompidou,</title>
-    <container-title>San Rocco,</container-title>
+    <journal>San Rocco,</journal>
     <volume>No. 12,</volume>
     <date>2016,</date>
     <pages>89-96</pages>
@@ -1946,7 +1946,7 @@
   <sequence>
     <author>Karl Leyser,</author>
     <title>Maternal Kin in Early Medieval Germany. A Reply,</title>
-    <container-title>Past and Present,</container-title>
+    <journal>Past and Present,</journal>
     <volume>n° 49,</volume>
     <date>1970,</date>
     <pages>126-134.</pages>
@@ -1954,7 +1954,7 @@
   <sequence>
     <author>Bakitas, Marie, Kathleen Doyle Lyons, Mark T. Hegel, Stefan Balan, Frances C. Brokaw, Janette Seville, Jay G. Hull et al.</author>
     <title>"Effects of a palliative care intervention on clinical outcomes in patients with advanced cancer: the Project ENABLE II randomized controlled trial."</title>
-    <container-title>Jama</container-title>
+    <journal>Jama</journal>
     <volume>302, no. 7</volume>
     <date>(2009):</date>
     <pages>741-749.</pages>
@@ -1962,7 +1962,7 @@
   <sequence>
     <author>Brittan, J.,</author>
     <title>Iridium at the K/T boundary - The impact strikes back,</title>
-    <container-title>Astromomy and Geophysics ,</container-title>
+    <journal>Astromomy and Geophysics ,</journal>
     <volume>v. 38,</volume>
     <pages>pp. 19-21,</pages>
     <date>1997</date>
@@ -1971,14 +1971,14 @@
     <author>Maquet, P., Faymonville, ME., Degueldre, C., Delfiore, G., Franck, G., Luxen, A., et al.</author>
     <date>(1999).</date>
     <title>Functional neuroanatomy of hypnotic state.</title>
-    <container-title>Biol Psychiatry. ;</container-title>
+    <journal>Biol Psychiatry. ;</journal>
     <volume>45(3):</volume>
     <pages>327 33.</pages>
   </sequence>
   <sequence>
     <author>Kombayashi T., Lai Kwan S.Y., Hu D.Y., Kajiwara K., Sasahara H., Kawamura M.</author>
     <title>Acomparative study of oral health attitudes and behavior using the Hiroshima University-Dental Behavioural Inventory (HU-DBI) between dental students in Britain and China,</title>
-    <container-title>J Oral Science Vol</container-title>
+    <journal>J Oral Science Vol</journal>
     <volume>47 (1),</volume>
     <pages>1-7,</pages>
     <date>2005.</date>
@@ -1986,14 +1986,14 @@
   <sequence>
     <author>Jean-Claude Hocquet,</author>
     <title>Le pain, le vin et la juste mesure à la table des moines carolingiens,</title>
-    <container-title>Annales E.S.C.,</container-title>
+    <journal>Annales E.S.C.,</journal>
     <date>1985,</date>
     <pages>661-686.</pages>
   </sequence>
   <sequence>
     <author>Gilli, A., et al.,</author>
     <title>Geological and archaeological implications of strontium isotope analysis of exposed bedrock in the Chicxulub crater basin, northwestern Yucatán, Mexico,</title>
-    <container-title>Geology,</container-title>
+    <journal>Geology,</journal>
     <volume>v. 37,</volume>
     <pages>pp. 723-726,</pages>
     <date>2009</date>
@@ -2015,14 +2015,14 @@
   </sequence>
   <sequence>
     <author>York H. Dobyns</author>
-    <container-title>Journal of Scientific Exploration,</container-title>
+    <journal>Journal of Scientific Exploration,</journal>
     <date>1996</date>
     <url>httpteilhard.global-mind.org</url>
   </sequence>
   <sequence>
     <author>Dodeman, André.</author>
     <title>« Terreur et territoire dans Surfacing de Margaret Atwood. »</title>
-    <container-title>Etudes Canadiennes / Canadian Studies</container-title>
+    <journal>Etudes Canadiennes / Canadian Studies</journal>
     <volume>73</volume>
     <date>(2012),</date>
     <pages>pp. 109-122.</pages>
@@ -2046,7 +2046,7 @@
     <author>Zélem, M. C.</author>
     <date>(2012, Novembre-Décembre).</date>
     <title>Les énergies renouvelables en transition : de leur acceptabilité sociale à leur faisabilité sociotechnique.</title>
-    <container-title>Revue de l'Énergie(610),</container-title>
+    <journal>Revue de l'Énergie(610),</journal>
     <pages>pp. 418-424.</pages>
   </sequence>
   <sequence>
@@ -2091,7 +2091,7 @@
     <author>Vial, M.</author>
     <date>(2007).</date>
     <title>Choix d'une méthode clinique et étude de l'activité dans l'accompagnement professionnel.</title>
-    <container-title>Chemins de formation(10/11),</container-title>
+    <journal>Chemins de formation(10/11),</journal>
     <pages>pp. 44-56.</pages>
   </sequence>
   <sequence>
@@ -2120,7 +2120,7 @@
   <sequence>
     <author>Edwards, G.A., K. Stiller, et G.L. Dunlop.</author>
     <title>«APFIM investigation of fine-scale precipitation in aluminium alloy 6061.»</title>
-    <container-title>Applied Surface Science</container-title>
+    <journal>Applied Surface Science</journal>
     <volume>76/77</volume>
     <date>(1994 ):</date>
     <pages>219-225.</pages>
@@ -2128,7 +2128,7 @@
   <sequence>
     <author>Straker LM.</author>
     <title>An overview of manual handling injury statistics in Western Australia.</title>
-    <container-title>Int J Ind Ergon.</container-title>
+    <journal>Int J Ind Ergon.</journal>
     <date>1999;</date>
     <volume>24(4) :</volume>
     <pages>357-64.</pages>
@@ -2142,14 +2142,14 @@
   </sequence>
   <sequence>
     <pages>256-266</pages>
-    <container-title>american journal of physical anthropology</container-title>
+    <journal>american journal of physical anthropology</journal>
     <volume>159</volume>
   </sequence>
   <sequence>
     <author>Walker, Cheryl.</author>
     <date>(1996, August 7).</date>
     <title>WFU to celebrate Year of the Arts for 1996-97.</title>
-    <container-title>News release.</container-title>
+    <journal>News release.</journal>
   </sequence>
   <sequence>
     <author>Paschal, G. W.</author>
@@ -2162,7 +2162,7 @@
     <author>Cox, Kevin.</author>
     <date>(1997, February 5).</date>
     <title>NBC spotlights law school, expert in broadcast.</title>
-    <container-title>Press Release.</container-title>
+    <journal>Press Release.</journal>
   </sequence>
   <sequence>
     <author>LARATTE S., CANCES B., CONREUX A., MARIN B. &amp; PONTHIEU M.,</author>
@@ -2191,14 +2191,14 @@
   <sequence>
     <author>Anggraeni, T., Rahayu, S., Ahmad, I., Esyanti, R.R. and Putra, R.E.</author>
     <title>2013.Resources Partitioning and Different Foraging Behavior could maintained coexistence of Thripshawaiiensis (Thysanoptera: Tripidae) and Elaeidobiuskamerunicus (Coleoptera : Curculionidae) On Oil Palm (ElaeisguineensisJacq) flower.</title>
-    <container-title>Journal of Entomology and Nematology.</container-title>
+    <journal>Journal of Entomology and Nematology.</journal>
     <volume>Vol 5(5)</volume>
     <pages>pages 59-63</pages>
   </sequence>
   <sequence>
     <author>Jean Durliat,</author>
     <title>Le polyptyque d’Irminon et l’impôt pour l’armée,</title>
-    <container-title>Bibliothèque de l’École des Chartes,</container-title>
+    <journal>Bibliothèque de l’École des Chartes,</journal>
     <volume>141,</volume>
     <date>1983,</date>
     <pages>183-208.</pages>
@@ -2216,7 +2216,7 @@
     <title>Uncertainty analysis of climate change and policy response</title>
     <author>Webster, M., C. Forest, J. Reilly, M. Babiker, D. Kicklighter, M. Mayer, R. Prinn, M. Sarofim, A. Sokolov, P. Stone and C. Wang</author>
     <date>2003</date>
-    <container-title>Climatic Change,</container-title>
+    <journal>Climatic Change,</journal>
     <volume>61(3):</volume>
     <pages>295-320</pages>
   </sequence>
@@ -2227,7 +2227,7 @@
     <title>A game of climate chicken: Can EPA regulate greenhouse gases before the U.S. Senate ratifies the Kyoto Protocol?</title>
     <author>Bugnion, V., and D. Reiner</author>
     <date>2000</date>
-    <container-title>Environmental Law,</container-title>
+    <journal>Environmental Law,</journal>
     <volume>30(3):</volume>
     <pages>491-525</pages>
   </sequence>
@@ -2246,7 +2246,7 @@
   <sequence>
     <author>—,</author>
     <title>« Enjeux socio-culturels des discours amoureux dans l’Espagne du XVe siècle »,</title>
-    <container-title>Imprévue</container-title>
+    <journal>Imprévue</journal>
     <volume>2</volume>
     <date>1996,</date>
     <pages>p. 41-61.</pages>
@@ -2254,7 +2254,7 @@
   <sequence>
     <author>Chambliss, Marilyn J.</author>
     <title>"Text cues and strategies successful readers use to construct the gist of lengthy written arguments".</title>
-    <container-title>Reading Research Quarterly,</container-title>
+    <journal>Reading Research Quarterly,</journal>
     <date>Oct-Dec 1995,</date>
     <volume>Vol. 30 Issue 4,</volume>
     <pages>p778, 30p</pages>
@@ -2276,7 +2276,7 @@
   <sequence>
     <author>Strait, M. M.,</author>
     <title>Just another piece of the Odessa iron (abstract).</title>
-    <container-title>Meteoritics,</container-title>
+    <journal>Meteoritics,</journal>
     <volume>v. 18,</volume>
     <pages>403 p.</pages>
     <date>1983.</date>
@@ -2308,14 +2308,14 @@
   <sequence>
     <author>Richard (J.),</author>
     <title>La constitution d'un grand office : la gruerie de Bourgogne,</title>
-    <container-title>Annales de Bourgogne,</container-title>
+    <journal>Annales de Bourgogne,</journal>
     <volume>t. 44,</volume>
     <pages>p. 48-52.</pages>
   </sequence>
   <sequence>
     <author>B. T. Rosson, K. Syland, and T. E. Boothby,</author>
     <title>Inelastic behavior of sand-lime mortar joint masonry arches,</title>
-    <container-title>Eng. Struct.,</container-title>
+    <journal>Eng. Struct.,</journal>
     <volume>vol. 20, no. 12,</volume>
     <pages>pp. 1424,</pages>
     <date>Jan. 1998</date>
@@ -2323,7 +2323,7 @@
   <sequence>
     <author>Kirkpatrick, R. Z.</author>
     <title>“ Madden Dam Will Insure Water Supply for Gatun Lake Development. ”</title>
-    <container-title>Iowa Engineer</container-title>
+    <journal>Iowa Engineer</journal>
     <date>(March 1934):</date>
     <pages>84 – 85.</pages>
   </sequence>
@@ -2337,7 +2337,7 @@
     <author>Archee, R.</author>
     <date>(2012).</date>
     <title>Reflections on Personal Learning Environments: Theory and Practice.</title>
-    <container-title>Procedia - Social and Behavioral Sciences,</container-title>
+    <journal>Procedia - Social and Behavioral Sciences,</journal>
     <volume>55,</volume>
     <pages>419-428.</pages>
     <doi>doi:10.1016/j.sbspro.2012.09.520</doi>
@@ -2365,7 +2365,7 @@
   <sequence>
     <author>Dyck DG, Short R, Vitaliano PP:</author>
     <title>Predictors of burden and infectious illness in schizophrenia caregivers.</title>
-    <container-title>Psychosomatic Medicine</container-title>
+    <journal>Psychosomatic Medicine</journal>
     <date>1999;</date>
     <volume>61 (4):</volume>
     <pages>411–19.</pages>
@@ -2380,7 +2380,7 @@
   <sequence>
     <author>Tona, F., Alonso, D. and Svab,M.,</author>
     <title>Geology and mineralization in the Carswell structure - A general approach.</title>
-    <container-title>Geological Association of Canada, Special Paper 29,</container-title>
+    <journal>Geological Association of Canada, Special Paper 29,</journal>
     <pages>pp. 1-18.</pages>
     <date>1985.</date>
   </sequence>
@@ -2401,7 +2401,7 @@
   <sequence>
     <author>James B. Apple,</author>
     <title>“Atiśa’s Teachings on Mahāmudrā”.</title>
-    <container-title>Indian International Journal of Buddhist Studies,</container-title>
+    <journal>Indian International Journal of Buddhist Studies,</journal>
     <volume>Vol. 18</volume>
     <date>(2017)</date>
     <pages>(1-42)</pages>
@@ -2410,14 +2410,14 @@
     <author>Mantelin S, Saux MF, Zakhia F, Bena G, Bonneau S, Jeder H, de Lajudie P, Cleyet-Marel JC.</author>
     <date>2006.</date>
     <title>Emended description of the genus &lt;italic&gt;Phyllobacterium&lt;/italic&gt; and description of four novel species associated with plant roots: &lt;italic&gt;Phyllobacterium bourgognense&lt;/italic&gt; sp. nov., &lt;italic&gt;Phyllobacterium iffiqiyensesp.&lt;/italic&gt; nov., &lt;italic&gt;Phyllobacterium leguminum&lt;/italic&gt; sp. nov. and &lt;italic&gt;Phyllobacterium brassicacearum&lt;/italic&gt; sp. nov.</title>
-    <container-title>&lt;italic&gt;International Journal of Systematic and Evolutionary Microbiology&lt;/italic&gt;</container-title>
+    <journal>&lt;italic&gt;International Journal of Systematic and Evolutionary Microbiology&lt;/italic&gt;</journal>
     <volume>56</volume>
     <pages>827—839.</pages>
   </sequence>
   <sequence>
     <author>Poinar, Hendrik N., Michael Hofreiter, W. Geoffrey Spaulding, Paul S. Martin, B. Artur Stankiewicz, Helen Bland, Richard P. Evershed, Göran Possnert, et Svante Pääbo.</author>
     <title>« Molecular Coproscopy: Dung and Diet of the Extinct Ground Sloth Nothrotheriops Shastensis ».</title>
-    <container-title>Science</container-title>
+    <journal>Science</journal>
     <volume>281, no 5375</volume>
     <date>(17 juillet 1998):</date>
     <pages>402 6.</pages>
@@ -2431,14 +2431,14 @@
   <sequence>
     <author>Kantarjian HM, Giles FJ, Bhalla KN, et al.</author>
     <title>Nilotinib is effective in patients with chronic myeloid leukemia in chronic phase after imatinib resistance or intolerance: 24-month follow-up results.</title>
-    <container-title>Blood.</container-title>
+    <journal>Blood.</journal>
     <date>January 27, 2011</date>
     <volume>2011;117(4):</volume>
     <pages>1141-1145.</pages>
   </sequence>
   <sequence>
     <author>C. Sanabria, H. Xu, T. Palacios, A. Chakraborty, S. Heikman, U. K. Mishra, and R. A. York,</author>
-    <container-title>IEEE Trans. Microwave Theory</container-title>
+    <journal>IEEE Trans. Microwave Theory</journal>
     <volume>53, 2,</volume>
     <pages>pp. 762–769</pages>
     <date>(2005)</date>
@@ -2463,7 +2463,7 @@
   <sequence>
     <author>Giuliano Giustarini,</author>
     <title>“The Interaction of Morality (sīla) with Cognitive Factors in the Pali Nikāyas”.</title>
-    <container-title>Indian International Journal of Buddhist Studies,</container-title>
+    <journal>Indian International Journal of Buddhist Studies,</journal>
     <volume>Vol. 18</volume>
     <date>(2017)</date>
     <pages>(43-70)</pages>
@@ -2511,14 +2511,14 @@
     <author>Absolon, K.</author>
     <date>1900.</date>
     <title>Über zwei neue Collembolen aus den Höhlen des österreichischen Occupationsgebietes.,</title>
-    <container-title>Zoologischer Anzeiger,</container-title>
+    <journal>Zoologischer Anzeiger,</journal>
     <volume>Bd. 23,</volume>
     <pages>pp. 5.</pages>
   </sequence>
   <sequence>
     <author>X. Pan, X. Bao,</author>
     <title>The effects of confinement inside carbon nanotubes on catalysis,</title>
-    <container-title>Acc. Chem. Res.</container-title>
+    <journal>Acc. Chem. Res.</journal>
     <volume>44</volume>
     <date>(2011)</date>
     <pages>553–562.</pages>
@@ -2535,7 +2535,7 @@
     <author>Kornmann, Reimer</author>
     <date>(2011).</date>
     <title>Die vielen kleinen Schritte . . . Störungen im Unterricht umdeuten.</title>
-    <container-title>Grundschule</container-title>
+    <journal>Grundschule</journal>
     <volume>43, 11,</volume>
     <pages>48-49.</pages>
   </sequence>
@@ -2563,7 +2563,7 @@
   <sequence>
     <author>2-Béjot Y, Catteau A, Hervieu M, et al.</author>
     <title>Leptomeningeal dissemination after ethmoidal sinus adenocarcinoma surgery: a rare complication.</title>
-    <container-title>Rev. Neurol.</container-title>
+    <journal>Rev. Neurol.</journal>
     <date>2008;</date>
     <volume>164(2):</volume>
     <pages>189-193.</pages>
@@ -2597,7 +2597,7 @@
     <author>Amorim, E; Soares, C; Umbelino, J.</author>
     <date>2012</date>
     <title>O desenvolvimento do turismo na ilha de Itaparica: uma análise do seu ciclo de vida.</title>
-    <container-title>Revista Turismo e Desenvolvimento</container-title>
+    <journal>Revista Turismo e Desenvolvimento</journal>
   </sequence>
   <sequence>
     <author>Amorosi A., Rossi V., Sarti G., Mattei R.</author>
@@ -2619,7 +2619,7 @@
   </sequence>
   <sequence>
     <title>Les Halles: achèvement d'un projet,</title>
-    <container-title>Paris Project,</container-title>
+    <journal>Paris Project,</journal>
     <volume>Vol. xx, No. xx,</volume>
     <date>1985,</date>
     <pages>1-204</pages>
@@ -2627,7 +2627,7 @@
   <sequence>
     <author>15.Vinokur AD, Schul Y, Vuori J, Price RH.</author>
     <title>Two years after a job loss: long-term impact of the JOBS program on reemployment and mental health.</title>
-    <container-title>J Occup Health Psychol.</container-title>
+    <journal>J Occup Health Psychol.</journal>
     <volume>2000;5(1):</volume>
     <pages>32–47.</pages>
   </sequence>
@@ -2659,7 +2659,7 @@
     <author>Wilson, S. R., P. Strub, A. S. Buist, S. B. Knowles, P. W. Lavori, J. Lapidus, W. M. Vollmer, and Bet¬ter Outcomes of Asthma Treatment (BOAT) Study Group.</author>
     <date>2010.</date>
     <title>Shared treatment decision making improves adherence and outcomes in poorly con¬trolled asthma.</title>
-    <container-title>American Journal of Respiratory and Critical Care Medicine</container-title>
+    <journal>American Journal of Respiratory and Critical Care Medicine</journal>
     <volume>181(6):</volume>
     <pages>566-577.</pages>
   </sequence>
@@ -2667,14 +2667,14 @@
     <author>Fayolle, G. de.</author>
     <date>1927</date>
     <title>« Ancienne cathédrale Saint-Etienne de la Cité »</title>
-    <container-title>Congrès archéologique de la France</container-title>
+    <journal>Congrès archéologique de la France</journal>
     <volume>90</volume>
     <pages>66-107</pages>
   </sequence>
   <sequence>
     <author>Coulié, Anne.</author>
     <title>Compte rendu du livre de M. Iozzo, Iozzo Mario, Ceramica greca a figure nere di produzione non attica.</title>
-    <container-title>RA</container-title>
+    <journal>RA</journal>
     <volume>2014/1,</volume>
     <pages>169-170.</pages>
   </sequence>
@@ -2709,7 +2709,7 @@
   <sequence>
     <author>Sohichi Sato,</author>
     <title>The Merovingian Accounting Documents of Tours. Form and Function,</title>
-    <container-title>Early Medieval Europe,</container-title>
+    <journal>Early Medieval Europe,</journal>
     <volume>9,</volume>
     <date>2000,</date>
     <pages>143-161.</pages>
@@ -2734,7 +2734,7 @@
     <author>Piesse, J., &amp; Thirtle, C.</author>
     <date>(2010).</date>
     <title>Agricultural R &amp; D , technology and productivity.</title>
-    <container-title>Review Literature And Arts Of The Americas,</container-title>
+    <journal>Review Literature And Arts Of The Americas,</journal>
     <volume>3035–3047.</volume>
     <url>http://doi.org/10.1098/rstb.2010.0140</url>
   </sequence>
@@ -2751,14 +2751,14 @@
   <sequence>
     <author>Coipel, M.,</author>
     <title>Les systèmes d’attribution de la personnalité juridique et la reconnaissance d’une capacité limitée à des groupements qui en sont dépourvus ,</title>
-    <container-title>J.D.S.C.,</container-title>
+    <journal>J.D.S.C.,</journal>
     <date>2001,</date>
     <pages>pp. 6 et s.</pages>
   </sequence>
   <sequence>
     <author>20.Patton W, Donohue R.</author>
     <title>Coping with long-term unemployment.</title>
-    <container-title>J Community App Soc Psychol.</container-title>
+    <journal>J Community App Soc Psychol.</journal>
     <volume>1998;8:</volume>
     <pages>331–43.</pages>
   </sequence>
@@ -2774,14 +2774,14 @@
     <author>German, D. A. and I. A. Al-Shehbaz.</author>
     <date>2008.</date>
     <title>Five additional tribes (Aphragmeae, Biscutelleae, Calepineae, Conringieae, and Erysimeae) in the Brassicaceae (Cruciferae).</title>
-    <container-title>Harvard Pap. Bot.</container-title>
+    <journal>Harvard Pap. Bot.</journal>
     <volume>13:</volume>
     <pages>165–170.</pages>
   </sequence>
   <sequence>
     <author>김은경,</author>
     <title>'신장 질환 진단을 위한 규칙 기반 추론과 사례기만 추론의 통합,'</title>
-    <container-title>정보과학회 논문지,</container-title>
+    <journal>정보과학회 논문지,</journal>
     <volume>제24권 제10호,</volume>
     <pages>pp.1093-1100,</pages>
     <date>1997</date>
@@ -2804,7 +2804,7 @@
   <sequence>
     <author>6. Myers T, Egelhoff J, Myers M.</author>
     <title>Glioblastoma multiforme presenting as osteoblastic metastatic disease: case report and review of the literature.</title>
-    <container-title>AJNR Am J Neuroradiol.</container-title>
+    <journal>AJNR Am J Neuroradiol.</journal>
     <date>1990;</date>
     <pages>11: 802–803.</pages>
   </sequence>
@@ -2847,7 +2847,7 @@
     <author>Despins, J. L., and R. C. Axtell.</author>
     <date>1994.</date>
     <title>Feeding behavior and growth of turkey poults fed larvae of the darkling beetle, &lt;italic&gt;Alphitobius diaperinus.&lt;/italic&gt;</title>
-    <container-title>Poultry Science</container-title>
+    <journal>Poultry Science</journal>
     <volume>73:</volume>
     <pages>1526-1533.</pages>
   </sequence>
@@ -2861,7 +2861,7 @@
   <sequence>
     <author>E.A. Beverly, S.M. Fitzgerald, K.M. Brooks, et al.</author>
     <title>Impact of reinforcement of diabetes self-care on poorly controlled diabetes: a randomized controlled trial</title>
-    <container-title>Diabetes Educ.,</container-title>
+    <journal>Diabetes Educ.,</journal>
     <volume>39</volume>
     <date>(2013),</date>
     <pages>pp. 504-514</pages>
@@ -2872,7 +2872,7 @@
   <sequence>
     <author>Morgan, J., Warner, M.,</author>
     <title>Chicxulub: The Third Dimension of a Multi-Ring Impact basin,</title>
-    <container-title>Geology;</container-title>
+    <journal>Geology;</journal>
     <date>May 1999,</date>
     <volume>v. 27; no. 5;</volume>
     <pages>p. 407-10.</pages>
@@ -2899,7 +2899,7 @@
     <author>Urfer, D.; Huck, P.M.; Booth, S.D.J.; &amp; Coffey, B.M.,</author>
     <date>1997.</date>
     <title>Biological Filtration for BOM and Particle Removal: A Critical Review.</title>
-    <container-title>&lt;italic&gt;Journal AWWA&lt;/italic&gt;,</container-title>
+    <journal>&lt;italic&gt;Journal AWWA&lt;/italic&gt;,</journal>
     <volume>89:12:</volume>
     <pages>83.</pages>
   </sequence>
@@ -2935,7 +2935,7 @@
     <author>Absolon, K.</author>
     <date>1901.</date>
     <title>Weitere Nachricht über europäische Höhlencollembolen und über die Gattung Aphorura AD.Macg..,</title>
-    <container-title>Zoologischer Anzeiger,</container-title>
+    <journal>Zoologischer Anzeiger,</journal>
     <volume>Bd. 24,</volume>
     <pages>pp. 11.</pages>
   </sequence>
@@ -2962,7 +2962,7 @@
     <author>d’ERRICO F., HENSHILWOOD C. S., NILSSEN P.</author>
     <date>2001</date>
     <title>An Engraved Bone Fragment from 70,000 ka-Year-Old Middle Stone Age Levels at Blombos Cave, South Africa : Implications for the Origin of Symbolism and Language,</title>
-    <container-title>Antiquity,</container-title>
+    <journal>Antiquity,</journal>
     <volume>75,</volume>
     <pages>309-318.</pages>
   </sequence>
@@ -2979,7 +2979,7 @@
   <sequence>
     <author>Roxby AC, Liu AY, Drake AL, Kiarie JN, Richardson B, Lohman-Payne BL, John-Stewart GC, Wald A, De Rosa S, Farquhar C.</author>
     <title>Short Communication: T Cell Activation in HIV-1/Herpes Simplex Virus-2-Coinfected Kenyan Women Receiving Valacyclovir.</title>
-    <container-title>AIDS Res Hum Retroviruses</container-title>
+    <journal>AIDS Res Hum Retroviruses</journal>
     <volume>2013;29(1):</volume>
     <pages>94-98</pages>
     <note>[PMCID: PMC3537320].</note>
@@ -2988,7 +2988,7 @@
     <author>McCormick, P.; Pellegrino, J.; Mantovani, F.; &amp; Sarti, G.,</author>
     <date>2008.</date>
     <title>Water, Salt, and Ethanol Diffusion Through Membranes for Water Recovery by Forward (Direct) Osmosis Processes.</title>
-    <container-title>&lt;italic&gt;Journal of Membrane Science,&lt;/italic&gt;</container-title>
+    <journal>&lt;italic&gt;Journal of Membrane Science,&lt;/italic&gt;</journal>
     <volume>325:1:</volume>
     <pages>467.</pages>
   </sequence>
@@ -3010,7 +3010,7 @@
   <sequence>
     <author>5-Decq P, Bokombe D, Nguyen Jp, Djindjian M, Molina P, Colin H, et al.</author>
     <title>Sciatique et anomalies d’émergence radiculaire : à propos d’une série de 20 cas.</title>
-    <container-title>Neurochir.</container-title>
+    <journal>Neurochir.</journal>
     <date>1989;</date>
     <volume>35:</volume>
     <pages>371–6.</pages>
@@ -3038,7 +3038,7 @@
     <author>Von Smoluchowski, M.</author>
     <date>(1906),</date>
     <title>Zarys kinetycznej teoriji ruchow browna I roztworow metnych, Rozprawy i Sprawozdania z Posiedzen/</title>
-    <container-title>Wydzialu Ma-tematyczno-Przyrodniczego Akademii Umiejetnos/ci</container-title>
+    <journal>Wydzialu Ma-tematyczno-Przyrodniczego Akademii Umiejetnos/ci</journal>
     <volume>3,</volume>
     <pages>257-282.</pages>
   </sequence>
@@ -3048,7 +3048,7 @@
   <sequence>
     <author>Carofino B, Fulkerson J.</author>
     <title>Medial Hamstring Tendon Regeneration Following Harvest for Anterior Cruciate Ligament Reconstruction: Fact, Myth, and Clinical Implication.</title>
-    <container-title>Arthroscopy.</container-title>
+    <journal>Arthroscopy.</journal>
     <date>2005 Oct;</date>
     <volume>21(10):</volume>
     <pages>p. 1257-1264.</pages>
@@ -3056,7 +3056,7 @@
   <sequence>
     <author>Hildebrand, A.R., et al.,</author>
     <title>Mapping Chicxulub crater structure with gravity and seismic reflection data,</title>
-    <container-title>Geological Society Special Publication,</container-title>
+    <journal>Geological Society Special Publication,</journal>
     <volume>Isuue 140,</volume>
     <pages>pp. 155-176,</pages>
     <date>1998</date>
@@ -3098,14 +3098,14 @@
     <author>Shepperd, N. C, P. R. Hopwood, and P. L. Dostine.</author>
     <date>1988.</date>
     <title>Capture myopathy: two techniques for estimating its prevalence and severity in red kangaroos, &lt;italic&gt;Macropus rufus.&lt;/italic&gt;</title>
-    <container-title>Australian Wildlife Research</container-title>
+    <journal>Australian Wildlife Research</journal>
     <volume>15:</volume>
     <pages>83—90.</pages>
   </sequence>
   <sequence>
     <author>Cantwell W., Morton J.</author>
     <title>Impact perforation of carbon fibre reinforced plastic,</title>
-    <container-title>Composites science and technology,</container-title>
+    <journal>Composites science and technology,</journal>
     <volume>Vol.38,</volume>
     <pages>pp. 119-141,</pages>
     <date>1990;</date>
@@ -3124,7 +3124,7 @@
   <sequence>
     <author>Leridon Henri et Toulemon Laurent,</author>
     <title>Maîtrise de la fécondité et appartenance sociale : contraception, grossesses accidentelles et avortements ,</title>
-    <container-title>Population,</container-title>
+    <journal>Population,</journal>
     <volume>47ème année, n°1,</volume>
     <date>1992.</date>
   </sequence>
@@ -3138,7 +3138,7 @@
   <sequence>
     <author>AA. VV.,</author>
     <title>Beaubourg en transparence,</title>
-    <container-title>Architecture intérieure,</container-title>
+    <journal>Architecture intérieure,</journal>
     <volume>Vol. xx, No. 141,</volume>
     <date>1974,</date>
     <pages>72-77</pages>
@@ -3147,7 +3147,7 @@
     <author>Greenspan, E. and Rose, J.</author>
     <date>(1998)</date>
     <title>‘An introduction to book history.’</title>
-    <container-title>Book History</container-title>
+    <journal>Book History</journal>
     <volume>1: 1,</volume>
     <pages>3.</pages>
   </sequence>
@@ -3159,7 +3159,7 @@
     <publisher>Herder).</publisher>
   </sequence>
   <sequence>
-    <container-title>Glareana (Switzerland),</container-title>
+    <journal>Glareana (Switzerland),</journal>
     <volume>18/3-4</volume>
     <date>(December 1969),</date>
     <pages>2-16.</pages>
@@ -3167,7 +3167,7 @@
   <sequence>
     <author>DEVAKUMAR J.,</author>
     <title>“Caste Clashes Violations and Dalits Rights in Tamil Nadu”,</title>
-    <container-title>in Social Scientist,</container-title>
+    <journal>in Social Scientist,</journal>
     <volume>35, 11/12</volume>
     <date>(2007),</date>
     <pages>pp. 39-54.</pages>
@@ -3189,14 +3189,14 @@
     <author>Schwartz, Martin.</author>
     <date>1970.</date>
     <title>On the Vocabulary of the Khwarezmian Muqaddimatu l-Adab, as edited by J. Benzing.</title>
-    <container-title>Zeitschrift der deutschen morgenländischen Gesellschaft</container-title>
+    <journal>Zeitschrift der deutschen morgenländischen Gesellschaft</journal>
     <volume>120.</volume>
     <pages>288–304.</pages>
   </sequence>
   <sequence>
     <author>Koeberl, C., Shirey, S.B.,</author>
     <title>Re-Os isotope systematics as a diagnostic tool for the study of impact craters and distal ejecta,</title>
-    <container-title>Palaeogeography, Palaeoclimatology, Palaeoecology,</container-title>
+    <journal>Palaeogeography, Palaeoclimatology, Palaeoecology,</journal>
     <volume>v. 132,</volume>
     <pages>pp. 25-46,</pages>
     <date>1997</date>
@@ -3205,14 +3205,14 @@
     <author>Coviello, N.E., R.J. Brodie &amp; H.J. Munro</author>
     <date>(2000).</date>
     <title>“An Investigation Of Marketing Practice By Firm Size”,</title>
-    <container-title>Journal of Business Venturing,</container-title>
+    <journal>Journal of Business Venturing,</journal>
     <volume>Vol. 15 (5-6),</volume>
     <pages>523 – 545.</pages>
   </sequence>
   <sequence>
     <author>Helsen, Kate, Jennifer Bain, Ichiro Fujinaga, Andrew Hankinson and Debra Lacoste.</author>
     <title>  “Optical music recognition and manuscript chant sources.”</title>
-    <container-title>Early Music 42</container-title>
+    <journal>Early Music 42</journal>
     <date>(2014):</date>
     <pages>555-558.</pages>
   </sequence>
@@ -3223,7 +3223,7 @@
   <sequence>
     <author>5-De Gabory L, Maunoury A, Maurice-Tison S, et al.</author>
     <title>Long-term single-center results of management of ethmoid adenocarcinoma: 95 patients over 28 years.</title>
-    <container-title>Ann Surg Oncol.</container-title>
+    <journal>Ann Surg Oncol.</journal>
     <date>2010;</date>
     <volume>17(4):</volume>
     <pages>1127-1134.</pages>
@@ -3250,7 +3250,7 @@
   <sequence>
     <author>Marghalani, Khalid, Palmgreen, Philip, and Boyd, Douglas A.</author>
     <title>“The Utilization of Direct Satellite Broadcasting (DBS) in Saudi Arabia,</title>
-    <container-title>Journal of Broadcasting and Electronic Media,</container-title>
+    <journal>Journal of Broadcasting and Electronic Media,</journal>
     <volume>Vol. 42, No. 3</volume>
     <date>(Summer 1998),</date>
     <pages>297-314.</pages>
@@ -3259,7 +3259,7 @@
     <author>Marean C. W., Assefa Z.</author>
     <date>1999</date>
     <title>Zooarcheological evidence for the faunal exploitation behavior of Neandertals and early modern humans,</title>
-    <container-title>Evolutionary Anthropology,</container-title>
+    <journal>Evolutionary Anthropology,</journal>
     <pages>22-37</pages>
   </sequence>
   <sequence>
@@ -3273,7 +3273,7 @@
   <sequence>
     <author>Irda Fidrianny, Dian Ayu, Rika Hartati.</author>
     <title>Antioxidant Capacities, Phenolic, Flavonoid and Carotenoid Content of Various Polarities Extracts from Three Organs of Sechium edule (Jacq.) Swartz.</title>
-    <container-title>J. Chem Pharm Res</container-title>
+    <journal>J. Chem Pharm Res</journal>
     <date>2015;</date>
     <volume>7(5):</volume>
     <pages>914-920.</pages>
@@ -3285,14 +3285,14 @@
     <author>Miyata, B. K. O., Kano, V. Y., &amp; Digiampietri, L. A.</author>
     <date>(2013).</date>
     <title>Combinando mineração de textos e análise de redes sociais para a identificação das áreas de atuação de pesquisadores.</title>
-    <container-title>Second Brazilian Workshop on Social Network Analysis and Mining.</container-title>
+    <journal>Second Brazilian Workshop on Social Network Analysis and Mining.</journal>
     <url>Retirado de https://drive.google.com/viewerng/viewer?a=...</url>
   </sequence>
   <sequence>
     <author>K. H. Wolf, K. Froitzheim and P. Schulthess,</author>
     <date>(1995)</date>
     <title>Multimedia Application Sharing in a Heterogeneous Environment,</title>
-    <container-title>ACM Multimedia 95,</container-title>
+    <journal>ACM Multimedia 95,</journal>
     <pages>Pages 57-64.</pages>
   </sequence>
   <sequence>
@@ -3302,7 +3302,7 @@
   <sequence>
     <author>Chiu, C., Puduru, V.R. Xian, W., Krishnaprasad, P.S., and Moss, C.F.</author>
     <title>Effects of competitive prey capture on flight behavior and sonar beam pattern in paired big brown bats, Eptesicus fuscus,</title>
-    <container-title>J. Exp. Biol.,</container-title>
+    <journal>J. Exp. Biol.,</journal>
     <volume>2010, 213:</volume>
     <pages>3348-3356.</pages>
     <note>(best paper award)</note>
@@ -3310,7 +3310,7 @@
   <sequence>
     <author>Ibrahima K T, Yang Y, Shariq H.</author>
     <title>A (max,+) algebra approach to reputation-based composition of web services.</title>
-    <container-title>Wulfenia Journal,</container-title>
+    <journal>Wulfenia Journal,</journal>
     <date>2013,</date>
     <volume>20(11):</volume>
     <pages>90-102.</pages>
@@ -3338,14 +3338,14 @@
     <author>Trostle, J.</author>
     <date>(1987)</date>
     <title>Medical Compliance as an Ideology.</title>
-    <container-title>Social Science and Medicine</container-title>
+    <journal>Social Science and Medicine</journal>
     <volume>27(12):</volume>
     <pages>1299-1308.</pages>
   </sequence>
   <sequence>
     <author>- P. FRÉMONT,</author>
     <title>L'accès des redevables aux documents de l'administration fiscale,</title>
-    <container-title>Administrer,</container-title>
+    <journal>Administrer,</journal>
     <date>juin 1984.</date>
     <pages>42. –</pages>
   </sequence>
@@ -3386,7 +3386,7 @@
     <author>Dearfield, K.L.; Douglas, G.R.; Ehling, U.H.; Moore, M.M.; Sega, G.A; &amp; Brusick, D.J.,</author>
     <date>1995.</date>
     <title>Acrylamide: A Review of Its Genotoxicity and an Assessment of Heritable Genetic Risk.</title>
-    <container-title>&lt;italic&gt;Mutation Research&lt;/italic&gt;,</container-title>
+    <journal>&lt;italic&gt;Mutation Research&lt;/italic&gt;,</journal>
     <volume>330:1–2:</volume>
     <pages>71.</pages>
     <url>http://dx.doi. org/10.1016/0027-5107(95)00037-J.</url>
@@ -3394,7 +3394,7 @@
   <sequence>
     <author>5,6-Ando S, Otani M, Moritake K.</author>
     <title>Clinical analysis of post-traumatic vomiting.</title>
-    <container-title>Acta Neurochir (Wien).</container-title>
+    <journal>Acta Neurochir (Wien).</journal>
     <date>1992;</date>
     <volume>119(1-4):</volume>
     <pages>97-100.</pages>
@@ -3428,7 +3428,7 @@
   <sequence>
     <author>Theiss, Justin L. Gerber, Parry J. Cameron, Kenneth L. Beutler, Anthony Marshall, Steve Distefano, Lindsay Miller, Joseph Yunker, Craig A.</author>
     <title>Jump-Landing Differences between Varsity, Club, and Intramural Athletes The Jump-ACL study.</title>
-    <container-title>Journal of Strength and Conditioning Research.</container-title>
+    <journal>Journal of Strength and Conditioning Research.</journal>
     <date>2014 April</date>
     <volume>28(4)</volume>
     <pages>1164-1171</pages>
@@ -3451,7 +3451,7 @@
   <sequence>
     <author>18.Onesti MG, Fioramonti P, Carella S, Fino P, Sorvillo V, Scuderi N.</author>
     <title>A new association between hyaluronic acid and collagenase in wound repair: an open study.</title>
-    <container-title>Eur Rev Med Pharmacol Sci</container-title>
+    <journal>Eur Rev Med Pharmacol Sci</journal>
     <volume>2013; 17:</volume>
     <pages>210-216.</pages>
   </sequence>
@@ -3477,7 +3477,7 @@
   <sequence>
     <author>Questier, M.C.,</author>
     <title>‘Loyalty, Religion and State Power in Early Modern England: English Romanism and the Jacobean Oath of Allegiance’,</title>
-    <container-title>The Historical Journal</container-title>
+    <journal>The Historical Journal</journal>
     <volume>40 (2)</volume>
     <date>(1997),</date>
     <pages>pp. 311-329</pages>
@@ -3486,14 +3486,14 @@
     <author>McDowell NG, Pockman WT, Allen CD, Breshears DD, Cobb N, Kolb T, Plaut J, Sperry JS, West A, Williams DG &lt;italic&gt;etat&lt;/italic&gt;</author>
     <date>2008.</date>
     <title>Mechanisms of plant survival and mortality under drought: why do some plants survive while others succumb to drought?</title>
-    <container-title>&lt;italic&gt;New Phytologist&lt;/italic&gt;</container-title>
+    <journal>&lt;italic&gt;New Phytologist&lt;/italic&gt;</journal>
     <volume>178:</volume>
     <pages>719-739.</pages>
   </sequence>
   <sequence>
     <author>L. Haas, M. Maryniuk, J. Beck, et al.</author>
     <title>National standards for diabetes self-management education and support</title>
-    <container-title>Diabetes Educ.,</container-title>
+    <journal>Diabetes Educ.,</journal>
     <volume>38</volume>
     <date>(2012),</date>
     <pages>pp. 619-629</pages>
@@ -3501,21 +3501,21 @@
   <sequence>
     <author>Allcott, Hunt et Matthew Gentzhow.</author>
     <title>“Social Media and Fake News in the 2016 Election”,</title>
-    <container-title>The Journal of Edonomic Perspectives,</container-title>
+    <journal>The Journal of Edonomic Perspectives,</journal>
     <volume>vol. XXXI, nº 2,</volume>
     <date>printemps 2017,</date>
     <pages>p. 211-235.</pages>
   </sequence>
   <sequence>
     <title>« The portraits of Rameau: A Methodological Approach », Music in Art.</title>
-    <container-title>International Journal for Music Iconography,</container-title>
+    <journal>International Journal for Music Iconography,</journal>
     <volume>XXXVI/1-2</volume>
     <date>(2011),</date>
     <pages>p. 275-300.</pages>
   </sequence>
   <sequence>
     <title>September 11, 2001.</title>
-    <container-title>J. Scientific Exploration,</container-title>
+    <journal>J. Scientific Exploration,</journal>
     <volume>Vol. 16, No. 4,</volume>
     <pages>549-570;</pages>
   </sequence>
@@ -3539,14 +3539,14 @@
     <author>Анчев, Панко.</author>
     <date>1976.</date>
     <title>Литература на изменящия се свят. Сборник статии и студии. С., 1975.</title>
-    <container-title>Литературна мисъл,</container-title>
+    <journal>Литературна мисъл,</journal>
     <volume>20 (2).</volume>
     <pages>154 – 156.</pages>
   </sequence>
   <sequence>
     <author>Battaglia, Andy.</author>
     <title>Review of Notable American Women.</title>
-    <container-title>The A.V. Club.</container-title>
+    <journal>The A.V. Club.</journal>
     <date>17 April 2002. Web. 1 January 2013.</date>
   </sequence>
   <sequence>
@@ -3559,7 +3559,7 @@
     <author>Blanchon, Jean.</author>
     <date>1990.</date>
     <title>The Great *HL Split in Bantu Group B.40.</title>
-    <container-title>Pholia</container-title>
+    <journal>Pholia</journal>
     <volume>5.</volume>
     <pages>17-29.</pages>
     <note>(various).</note>
@@ -3644,7 +3644,7 @@
   <sequence>
     <author>Gozgit JM, Wong MJ, Moran L, et al.</author>
     <title>Ponatinib (AP24534), a multitargeted pan-FGFR inhibitor with activity in multiple FGFR-amplified or mutated cancer models.</title>
-    <container-title>Mol Cancer Ther.</container-title>
+    <journal>Mol Cancer Ther.</journal>
     <volume>2012;11(3):</volume>
     <pages>690-699.</pages>
   </sequence>
@@ -3671,7 +3671,7 @@
   <sequence>
     <author>Cloonan, William, and Postel, Jean-Philippe,</author>
     <title>‘Literary Agents and the Novel in 1996’,</title>
-    <container-title>The French Review,</container-title>
+    <journal>The French Review,</journal>
     <volume>70: 6</volume>
     <date>(1997), May.</date>
   </sequence>
@@ -3687,7 +3687,7 @@
   <sequence>
     <author>Sopher, S. R.,</author>
     <title>Paleomagnetic study of the Sudbury irruptive.</title>
-    <container-title>Geological Survey of Canada Bulletin,</container-title>
+    <journal>Geological Survey of Canada Bulletin,</journal>
     <volume>v. 90,</volume>
     <pages>34 p.</pages>
     <date>1963.</date>
@@ -3712,7 +3712,7 @@
   <sequence>
     <author>Morton, Suzanne.</author>
     <title>"The Halifax Relief Commission and Labour Relations during the Reconstruction of Halifax, 1917-1919,"</title>
-    <container-title>Acadiensis,</container-title>
+    <journal>Acadiensis,</journal>
     <volume>18, 2</volume>
     <date>(Spring 1989),</date>
     <pages>73-93.</pages>
@@ -3739,7 +3739,7 @@
     <author>Fitzpatrick, P. .,</author>
     <title>« Combined Transport and the CMR Convention »,</title>
     <date>(1968)</date>
-    <container-title>J. Bus. Law</container-title>
+    <journal>J. Bus. Law</journal>
     <pages>p.311.</pages>
   </sequence>
   <sequence>
@@ -3751,7 +3751,7 @@
     <author>Hatch,T, &amp; Chen-Hayes, S. F</author>
     <date>(2008).</date>
     <title>School counselor beliefs about ASCA National Model school counseling program components using the SCPCS.</title>
-    <container-title>&lt;italic&gt;Professional School Counseling&lt;/italic&gt;,</container-title>
+    <journal>&lt;italic&gt;Professional School Counseling&lt;/italic&gt;,</journal>
     <volume>72(1 ),</volume>
     <pages>34-42.</pages>
   </sequence>
@@ -3768,7 +3768,7 @@
     <author>Yong, J.S.; Phillip, W.A.; &amp; Elimelech, M.,</author>
     <date>2012.</date>
     <title>Coupled Reverse Draw Solute Permeation and Water Flux in Forward Osmosis With Neutral Draw Solutes.</title>
-    <container-title>&lt;italic&gt;Journal of Membrane Science,&lt;/italic&gt;</container-title>
+    <journal>&lt;italic&gt;Journal of Membrane Science,&lt;/italic&gt;</journal>
     <volume>392-393:</volume>
     <pages>9.</pages>
     <url>http://dx.doi.org/10.1016/j. memsci.2011.11.020.</url>
@@ -3783,7 +3783,7 @@
   <sequence>
     <author>Schwarz, Guri.</author>
     <title>"On Myth Making and Nation Building: The Gensis of the ‘Myth of the Good Italian,’ 1943-1947."</title>
-    <container-title>Yad Vashem Studies</container-title>
+    <journal>Yad Vashem Studies</journal>
     <volume>1,</volume>
     <date>(2008):</date>
     <pages>111-143.</pages>
@@ -3791,7 +3791,7 @@
   <sequence>
     <author>Kupsch, W. O.,</author>
     <title>Submask geology in Saskatchewan.</title>
-    <container-title>Williston Basin Symposium,</container-title>
+    <journal>Williston Basin Symposium,</journal>
     <pages>pp 10.</pages>
     <date>1956.</date>
   </sequence>
@@ -3813,7 +3813,7 @@
     <author>Полтерович В. М.</author>
     <date>1999.</date>
     <title>Институциональные ловушки и экономические реформы.</title>
-    <container-title>Экономика и математические методы.</container-title>
+    <journal>Экономика и математические методы.</journal>
     <volume>35(2):</volume>
     <pages>3-20.</pages>
   </sequence>
@@ -3835,7 +3835,7 @@
     <author>Ghebremedhin, B.,</author>
     <date>2012.</date>
     <title>Maraviroc in Antiretroviral-Naïve HIV-1 Patients.</title>
-    <container-title>Infect. Dis. Res. Treat.</container-title>
+    <journal>Infect. Dis. Res. Treat.</journal>
     <volume>2012,</volume>
     <pages>1–13.</pages>
     <doi>doi:10.4137/IDRT.S7597</doi>
@@ -3860,14 +3860,14 @@
     <author>Ahmed, Samina.</author>
     <date>1999.</date>
     <title>“Pakistan’s Nuclear Weapons Program: Turning Points and Nuclear Choices.”</title>
-    <container-title>International Security,</container-title>
+    <journal>International Security,</journal>
     <volume>Vol. 23, No. 4 (Spring):</volume>
     <pages>178-204.</pages>
   </sequence>
   <sequence>
     <author>Ruhlmann, F.,</author>
     <title>Mineralogy and metallogeny of uraniferous occurences in the Carswell structure.</title>
-    <container-title>Geological Association of Canada Special Paper 29,</container-title>
+    <journal>Geological Association of Canada Special Paper 29,</journal>
     <pages>p. 105-120.</pages>
     <date>1985.</date>
   </sequence>
@@ -3875,14 +3875,14 @@
     <author>15. Appiah-Adu, K. &amp; S. Singh</author>
     <date>(1998).</date>
     <title>“Customer orientation and performance: a study of SMEs”,</title>
-    <container-title>Management Decision,</container-title>
+    <journal>Management Decision,</journal>
     <volume>Vol. 36 (6),</volume>
     <pages>385 – 394.</pages>
   </sequence>
   <sequence>
     <author>Gruber, Joel.</author>
     <title>The Sudden and Gradual Sūtric (and Tantric?) Approaches of the Rim gyis 'jug pa'i bsgom don and Cig car 'jug pa rnam par mi rtog pa'i bsgom don.</title>
-    <container-title>Journal of the International Association of Buddhist Studies,</container-title>
+    <journal>Journal of the International Association of Buddhist Studies,</journal>
     <volume>Volume 39,</volume>
     <date>2016,</date>
     <pages>405-427</pages>
@@ -3905,7 +3905,7 @@
   <sequence>
     <author>- A.-C. JUCOBIN, (dir.).</author>
     <title>L’État statistique, l’objectivité et la transparence,</title>
-    <container-title>MEI. Media et information</container-title>
+    <journal>MEI. Media et information</journal>
     <volume>(28),</volume>
     <pages>141-148.</pages>
   </sequence>
@@ -3920,7 +3920,7 @@
     <author>Massey University, Palmerston North, New Zealand. Howard,W. E.,andH. E. Childs, Jr.</author>
     <date>1959.</date>
     <title>Ecology of pocket gophers with emphasis on &lt;italic&gt;Thomomys bottae mewa.&lt;/italic&gt;</title>
-    <container-title>Hilgardia</container-title>
+    <journal>Hilgardia</journal>
     <volume>29:</volume>
     <pages>277—358.</pages>
   </sequence>
@@ -3942,14 +3942,14 @@
     <author>Zarebanadkouki M, Kim YX, Moradi AB, Vogel H-J, Kaestner A, Carminati A.</author>
     <date>2012.</date>
     <title>Quantification and modeling of local root water uptake using neutron radiography and deuterated water.</title>
-    <container-title>Vadose Zone Journal</container-title>
+    <journal>Vadose Zone Journal</journal>
     <volume>11:</volume>
     <doi>doi: 10.2136/vzj2011.0196.</doi>
   </sequence>
   <sequence>
     <author>Sander, G. W., Overton, A. and Bataille,R.,</author>
     <title>Seismic and magnetic investigation of the Deep Bay crater.</title>
-    <container-title>Ottawa Dominion Observatory Contributions,</container-title>
+    <journal>Ottawa Dominion Observatory Contributions,</journal>
     <volume>v. 5,</volume>
     <pages>15 p.</pages>
     <date>1964.</date>
@@ -3964,7 +3964,7 @@
   <sequence>
     <author>Tagle, R., Claeys, P.,</author>
     <title>An ordinary chondrite impactor for the Papigai crater, Siberia,</title>
-    <container-title>Geochimica et Cosmochimica Acta,</container-title>
+    <journal>Geochimica et Cosmochimica Acta,</journal>
     <volume>Vol. 69, No. 11,</volume>
     <pages>P. 2877 - 2889.</pages>
     <date>2005.</date>
@@ -3986,7 +3986,7 @@
   </sequence>
   <sequence>
     <title>Flaches Land und mobiles Subjekt. Zur nach-modernen Landschaft der ‚pianura‘ am Beispiel von Gianni Celati.</title>
-    <container-title>In: Italienisch</container-title>
+    <journal>In: Italienisch</journal>
     <volume>66</volume>
     <date>(2011),</date>
     <pages>S. 32­-50.</pages>
@@ -3999,7 +3999,7 @@
     <author>4. Stokes, D</author>
     <date>(2000).</date>
     <title>“Putting Entrepreneurship into Marketing”,</title>
-    <container-title>Journal of Research in Marketing &amp; Entrepreneurship,</container-title>
+    <journal>Journal of Research in Marketing &amp; Entrepreneurship,</journal>
     <volume>Vol. 2 (1),</volume>
     <pages>1 – 16.</pages>
   </sequence>
@@ -4007,7 +4007,7 @@
     <author>Yermiyahu, U.; Tal, A.; Ben-Gal, A.; Bar-Tal, A.; Tarchitzky, J.; &amp; Lahav, O.,</author>
     <date>2007.</date>
     <title>Rethinking Desalinated Water Quality and Agriculture.</title>
-    <container-title>&lt;italic&gt;Science&lt;/italic&gt;,</container-title>
+    <journal>&lt;italic&gt;Science&lt;/italic&gt;,</journal>
     <volume>318:</volume>
     <pages>920.</pages>
   </sequence>
@@ -4030,7 +4030,7 @@
   <sequence>
     <author>Joseph A. Kechichian,</author>
     <title>“The Role of the Ulama in the Politics of an Islamic State: The Case of Saudi Arabia,”</title>
-    <container-title>International Journal of Middle East Studies</container-title>
+    <journal>International Journal of Middle East Studies</journal>
     <volume>18, no. 1</volume>
     <date>February 1, 1986</date>
   </sequence>
@@ -4050,7 +4050,7 @@
   <sequence>
     <author>AA. VV.,</author>
     <title>Le Centre Beaubourg,</title>
-    <container-title>Architecture française,</container-title>
+    <journal>Architecture française,</journal>
     <volume>Vol. 34, No. 369-370,</volume>
     <date>1973,</date>
     <pages>38-39</pages>
@@ -4058,7 +4058,7 @@
   <sequence>
     <author>16-Lindquist TJ, Clancy JMS, Johnson LA.</author>
     <title>Effectiveness of computer-aided partial denture design.</title>
-    <container-title>J Prosthodont1997;</container-title>
+    <journal>J Prosthodont1997;</journal>
     <volume>6:</volume>
     <pages>122-7.</pages>
   </sequence>
@@ -4085,7 +4085,7 @@
     <author>Бояджиев, Тодор.</author>
     <date>2013.</date>
     <title>Езиковедското наследство на проф.</title>
-    <container-title>Любомир Милетич. Българска реч</container-title>
+    <journal>Любомир Милетич. Българска реч</journal>
     <volume>19 (2).</volume>
     <pages>5–14</pages>
   </sequence>
@@ -4110,21 +4110,21 @@
     <author>Brigman, G., &amp; Campbell, C.</author>
     <date>(2003).</date>
     <title>Helping students improve academic achievement and school success behavior.</title>
-    <container-title>&lt;italic&gt;Professional School Counseling&lt;/italic&gt;,</container-title>
+    <journal>&lt;italic&gt;Professional School Counseling&lt;/italic&gt;,</journal>
     <pages>7,91-99.</pages>
   </sequence>
   <sequence>
     <title>HFC-23 (CHF3) emission trend response to HCFC-22 (CHClF2) production and recent HFC-23 emission abatement measures</title>
     <author>Miller, B.R., M. Rigby, L.J.M. Kuijpers, P.B. Krummel, L.P. Steele, M. Leist, P.J. Fraser, A. McCulloch, C. Harth, P. Salameh, J. Mühle, R.F. Weiss, R.G. Prinn, R.H.J. Wang, S. O'Doherty, B.R. Greally and P.G. Simmonds</author>
     <date>2010</date>
-    <container-title>Atmospheric Chemistry and Physics,</container-title>
+    <journal>Atmospheric Chemistry and Physics,</journal>
     <volume>10(16):</volume>
     <pages>7875–7890</pages>
   </sequence>
   <sequence>
     <author>Svenningsen, G., M.H. Larsen, J.H. Nordlien, et K. Nisancioglu.</author>
     <title>«Effect of high Temperature heat treatment on Intergranular corrosion of AlMgSi(Cu) model alloy.»</title>
-    <container-title>Corrosion Science</container-title>
+    <journal>Corrosion Science</journal>
     <volume>48</volume>
     <date>(2006):</date>
     <pages>258-272.</pages>
@@ -4138,7 +4138,7 @@
     <author>Conkling, S. W.</author>
     <date>(2008).</date>
     <title>Uncovering preservice music teachers' reflective thinking: Making sense of learning to teach.</title>
-    <container-title>Council for Research in Music Education,</container-title>
+    <journal>Council for Research in Music Education,</journal>
     <volume>155,</volume>
     <pages>11-23.</pages>
     <url>Retrieved from http://www.jstor.org/stable/40319420</url>
@@ -4146,7 +4146,7 @@
   <sequence>
     <author>Masaitis, V. L.,</author>
     <title>The deep structure of impact craters (in Russian).</title>
-    <container-title>Razvedka i okhrana nedr,</container-title>
+    <journal>Razvedka i okhrana nedr,</journal>
     <volume>v. 8,</volume>
     <pages>pp. 10-13.</pages>
     <date>1991.</date>
@@ -4167,7 +4167,7 @@
   <sequence>
     <author>RIDLEY, FRANK</author>
     <title>"An Archaeological Reconnaissance of Lake Abitibi, Ont.".</title>
-    <container-title>Ontario History,</container-title>
+    <journal>Ontario History,</journal>
     <volume>Vol. 48 (1),</volume>
     <date>Winter (1956).</date>
   </sequence>
@@ -4184,7 +4184,7 @@
     <author>20. Holmberg, S.R. &amp; K.B. Morgan</author>
     <date>(2003).</date>
     <title>“Franchise turnover and failure: New research and perspectives”,</title>
-    <container-title>Journal of Business Venturing,</container-title>
+    <journal>Journal of Business Venturing,</journal>
     <volume>Vol. 18 (3),</volume>
     <pages>403 – 418.</pages>
   </sequence>
@@ -4206,7 +4206,7 @@
   <sequence>
     <author>25.Perk J, Alexanderson K.</author>
     <title>Swedish Council on Technology Assessment in Health Care (SBU). Chapter 8. Sick leave due to coronary artery disease or stroke.</title>
-    <container-title>Scand J Public Health.</container-title>
+    <journal>Scand J Public Health.</journal>
     <volume>2004;Suppl 63:</volume>
     <pages>181–206.</pages>
   </sequence>
@@ -4222,7 +4222,7 @@
     <citation-number>[ACL30]</citation-number>
     <author>L Coudrat, M Rouis, H Jaafar, E Attiogbé, T Gélat, T Driss,</author>
     <title>“Emotional pictures impact repetitive sprint ability test on cycle ergometre”,</title>
-    <container-title>Journal of Sports Sciences,</container-title>
+    <journal>Journal of Sports Sciences,</journal>
     <volume>2014; 32,</volume>
     <pages>892-900.</pages>
     <doi>doi: 10.1080/02640414.2013.865253</doi>
@@ -4258,7 +4258,7 @@
     <author>Zhang JH, Subramanian S, Stacey G, Yu O.</author>
     <date>2009.</date>
     <title>Flavones and flavonols play distinct critical roles during nodulation &lt;italic&gt;of Medicago truncatulaby&lt;/italic&gt; &lt;italic&gt;Sinorhizobium meliloti.</title>
-    <container-title>Plant Journal57:&lt;/italic&gt;</container-title>
+    <journal>Plant Journal57:&lt;/italic&gt;</journal>
     <pages>171–183.</pages>
   </sequence>
   <sequence>
@@ -4296,7 +4296,7 @@
   <sequence>
     <author>Maurice Aymard,</author>
     <title>Autoconsommation et marchés : Chayanov Labrousse ou Le Roy Ladurie,</title>
-    <container-title>Annales E.S.C.</container-title>
+    <journal>Annales E.S.C.</journal>
     <volume>38</volume>
     <date>1983</date>
     <pages>1392-1410.</pages>
@@ -4311,7 +4311,7 @@
   <sequence>
     <author>Boyd, Douglas A.</author>
     <title>"French- and English-Language Broadcasting in Quebec: The Evolution of Radio and Television in a Bilingual Society,"</title>
-    <container-title>Howard Journal of Communications,</container-title>
+    <journal>Howard Journal of Communications,</journal>
     <volume>Vol 3, Nos. 3&amp;4</volume>
     <date>(Winter-Spring, 1992),</date>
     <pages>218-229.</pages>
@@ -4356,7 +4356,7 @@
   <sequence>
     <author>M. Pissavini, L. Ferrero, V. Alard, U. Heinrich, H. Tronnier, D. Kockott, et al.,</author>
     <title>Determination of the in vitro SPF,</title>
-    <container-title>Cosmet. Toilet.</container-title>
+    <journal>Cosmet. Toilet.</journal>
     <volume>118</volume>
     <date>(2003)</date>
     <pages>63–72.</pages>
@@ -4364,7 +4364,7 @@
   <sequence>
     <author>32-Sharma D, Jelacic J, Chennuri R, Chaiwat O, Chandler W, Vavilala MS.</author>
     <title>Incidence and risk factors for perioperative hyperglycemia in children with traumatic brain injury.</title>
-    <container-title>Anesth Analg.</container-title>
+    <journal>Anesth Analg.</journal>
     <date>2009;</date>
     <volume>108(1):</volume>
     <pages>81-9.</pages>
@@ -4414,7 +4414,7 @@
     <author>Kisseberth, Charles W. &amp; Rozenn Guérois.</author>
     <date>2014.</date>
     <title>Melodic H tones in Emakhuwa and Ecuwabo.</title>
-    <container-title>Africana Linguistica</container-title>
+    <journal>Africana Linguistica</journal>
     <volume>20.</volume>
     <pages>181-205.</pages>
     <note>Makua, Cuwabo.</note>
@@ -4428,7 +4428,7 @@
     <author>Lamarque J.-F., Emmons L.K., Hess P.G., et al.</author>
     <date>(2012)</date>
     <title>CAM-chem: Description and evaluation of interactive atmospheric chemistry in the Community Earth System Model,</title>
-    <container-title>Geosci. Model Dev.,</container-title>
+    <journal>Geosci. Model Dev.,</journal>
     <volume>5,</volume>
     <pages>369–411.</pages>
   </sequence>
@@ -4462,7 +4462,7 @@
   <sequence>
     <author>Shah, A.K., et al.,</author>
     <title>New surveys of the Chesapeake Bay impact structure suggest melt pockets and target-structure effect,</title>
-    <container-title>Geology ,</container-title>
+    <journal>Geology ,</journal>
     <volume>v. 33,</volume>
     <pages>pp. 417-420,</pages>
     <date>2005</date>
@@ -4478,7 +4478,7 @@
     <author>Lamarque J.F. ‚ T. C. Bond‚ V. Eyring‚ C. Granier‚ A. Heil‚ Z. Klimont‚ D. Lee‚ C. Liousse‚ A. Mieville‚ B. Owen‚ M. G. Schultz‚ D. Shindell‚ S. J. Smith‚ E. Stehfest‚ J. Van Aardenne‚ O. R. Cooper‚ M. Kainuma‚ N. Mahowald‚ J. R. McConnell‚ V. Naik‚ K. Riahi‚ D. P. Van Vuuren</author>
     <date>(2010).</date>
     <title>Historical (1850-2000) gridded anthropogenic and biomass burning emissions of reactive gases and aerosols: Methodology and application.</title>
-    <container-title>Atmospheric Chemistry and Physics‚</container-title>
+    <journal>Atmospheric Chemistry and Physics‚</journal>
     <volume>10(15)‚</volume>
     <pages>pp.7017-7039.</pages>
   </sequence>
@@ -4518,14 +4518,14 @@
     <author>Watts, K.</author>
     <date>(10 October, 1985).</date>
     <title>Alcohol restricted.</title>
-    <container-title>Old Gold and Black,</container-title>
+    <journal>Old Gold and Black,</journal>
     <volume>69(7). ,</volume>
     <pages>p. 1</pages>
   </sequence>
   <sequence>
     <author>Yuming He</author>
     <title>"Difficulties of Performance: The Musical Career of Xu Wei's The Mad Drummer"</title>
-    <container-title>Harvard Journal of Asiatic Studies,</container-title>
+    <journal>Harvard Journal of Asiatic Studies,</journal>
     <volume>Vol. 68, No. 2</volume>
     <date>(Dec., 2008),</date>
     <pages>pp. 77-114</pages>
@@ -4536,7 +4536,7 @@
   <sequence>
     <author>7984. Holm-Nielsen, Lauritz; Lars Peter Kvist; and Manuel Aguavil.</author>
     <title>"Las investigaciones etnobotánicas entre los Colorados y los Coaiqueres: informe preliminar,"</title>
-    <container-title>Miscelánea antropológica ecuatoriana,</container-title>
+    <journal>Miscelánea antropológica ecuatoriana,</journal>
     <volume>3: 3</volume>
     <date>(1983),</date>
     <pages>89-116.</pages>
@@ -4551,7 +4551,7 @@
   <sequence>
     <author>Irda Fidrianny, Putri Indah Sari, Komar Ruslan.</author>
     <title>Antioxidant Activities in Various Peel Extracts of Four Varieties Rambutan (Nephelium lappaceum) Using DPPH, FRAP,</title>
-    <container-title>Int J. Pharmacog Phytochem Res</container-title>
+    <journal>Int J. Pharmacog Phytochem Res</journal>
     <date>2015;</date>
     <volume>7(2):</volume>
     <pages>280-285.</pages>
@@ -4567,7 +4567,7 @@
   <sequence>
     <author>Saxby Pridmore,</author>
     <title>The Centre Pompidou,</title>
-    <container-title>Quadrant,</container-title>
+    <journal>Quadrant,</journal>
     <volume>Vol. 60, No. 3,</volume>
     <date>Marzo 2016,</date>
     <pages>30</pages>
@@ -4579,7 +4579,7 @@
     <author>Bacon, Richard A., and Nicholas P. Carter,</author>
     <date>1988,</date>
     <title>Recognising music automatically,</title>
-    <container-title>Physics Bulletin</container-title>
+    <journal>Physics Bulletin</journal>
     <volume>39</volume>
     <pages>265.</pages>
   </sequence>
@@ -4600,7 +4600,7 @@
   <sequence>
     <author>Jabbour E, Cortes J, Santos FP et al.</author>
     <title>Results of allogeneic hematopoietic stem cell transplantation for chronic myelogenous leukemia patients who failed tyrosine kinase inhibitors after developing BCR-ABL1 kinase domain mutations.</title>
-    <container-title>Blood</container-title>
+    <journal>Blood</journal>
     <volume>2011; 117:</volume>
     <pages>3641-3647.</pages>
   </sequence>
@@ -4633,14 +4633,14 @@
     <author>Absolon, K.</author>
     <date>1900.</date>
     <title>Vorläufige Mittheilung über die Aphoruriden aus den Höhlen des mährischen Karstes.,</title>
-    <container-title>Zoologischer Anzeiger,</container-title>
+    <journal>Zoologischer Anzeiger,</journal>
     <volume>Bd. 23,</volume>
     <pages>pp. 9.</pages>
   </sequence>
   <sequence>
     <author>14.Mekkes JR, Zeegelaar JE, Westerhof W.</author>
     <title>Quantitative and objective evaluation of wound debriding properties of collagenase and fibrinolysin/desoxyribonuclease in a necrotic ulcer animal model.</title>
-    <container-title>Arch Dermatol Res</container-title>
+    <journal>Arch Dermatol Res</journal>
     <date>1998;</date>
     <pages>290: 152-157.</pages>
   </sequence>
@@ -4663,7 +4663,7 @@
   <sequence>
     <author>Soroka, S., Stecula, D. et Wlezien, C.,</author>
     <title>“It's (Change in) the (Future) Economy, Stupid: Economic Indicators, the Media, and Public Opinion”.</title>
-    <container-title>American Journal of Political Science,</container-title>
+    <journal>American Journal of Political Science,</journal>
     <volume>59,</volume>
     <date>2015,</date>
     <pages>p. 457–474.</pages>
@@ -4677,7 +4677,7 @@
   <sequence>
     <author>28-Wang N.P., Bacchi C.E, Gown A.M.</author>
     <title>Coordinate expression of cytokeratins 7 and 20 define unique subsets of carcinomas.</title>
-    <container-title>Appl Immunohistochem</container-title>
+    <journal>Appl Immunohistochem</journal>
     <date>1995;</date>
     <volume>3:</volume>
     <pages>99-107.</pages>
@@ -4690,7 +4690,7 @@
   <sequence>
     <author>Jean Andreau,</author>
     <title>Présentation : Vingt ans après L’Économie antique de Moses I. Finley,</title>
-    <container-title>Annales E.S.C.</container-title>
+    <journal>Annales E.S.C.</journal>
     <volume>50</volume>
     <date>1995</date>
     <pages>947-960.</pages>
@@ -4715,7 +4715,7 @@
   </sequence>
   <sequence>
     <title>« Territoires en questions : pratiques des lieux, usages d'un mot »,</title>
-    <container-title>Ethnologie française,</container-title>
+    <journal>Ethnologie française,</journal>
     <volume>2004/1 Vol. 34,</volume>
     <pages>p. 5-12</pages>
   </sequence>
@@ -4723,21 +4723,21 @@
     <title>Policy Diffusion of Emission Standards: Is there a Race to the Top?</title>
     <author>Saikawa, E.</author>
     <date>2013</date>
-    <container-title>World Politics,</container-title>
+    <journal>World Politics,</journal>
     <volume>65(1):</volume>
     <pages>1–33</pages>
   </sequence>
   <sequence>
     <author>Lachmann R.,</author>
     <title>Retoryka a kontekst kulturowy,</title>
-    <container-title>Pamiętnik Literacki,</container-title>
+    <journal>Pamiętnik Literacki,</journal>
     <volume>2</volume>
     <date>1977</date>
   </sequence>
   <sequence>
     <author>Cockell, C. S., Lee, P.,</author>
     <title>The biology of impact craters - a review,</title>
-    <container-title>Biol. Rev.,</container-title>
+    <journal>Biol. Rev.,</journal>
     <volume>v.77,</volume>
     <pages>p.279-310.</pages>
     <date>2002.</date>
@@ -4753,14 +4753,14 @@
     <date>(2006).</date>
     <title>“Introduction: Graphic Narrative.”</title>
     <editor>Hillary Chute and Marianne DeKoven (eds.).</editor>
-    <container-title>Graphic Narrative. Special issue of Modern Fiction Studies</container-title>
+    <journal>Graphic Narrative. Special issue of Modern Fiction Studies</journal>
     <volume>52.4:</volume>
     <pages>767–82.</pages>
   </sequence>
   <sequence>
     <author>Bauberger, W., Mielke, H., Scheer, D. and Stettner,G.,</author>
     <title>Petrographic profile of the Nordlingen 1973 research borehole (from meter 263 to the bottom on a 1: 200 scale) (in German).</title>
-    <container-title>Geologica Bavarica,</container-title>
+    <journal>Geologica Bavarica,</journal>
     <volume>v. 73,</volume>
     <pages>pp. 33-34.</pages>
     <date>1974.</date>
@@ -4830,14 +4830,14 @@
   <sequence>
     <author>21.Petrie KJ, Cameron LD, Ellis CJ, Buick D, Weinman J.</author>
     <title>Changing illness perception after myocardial infarction: an early intervention randomized controlled trial.</title>
-    <container-title>Psychosom Med.</container-title>
+    <journal>Psychosom Med.</journal>
     <volume>2002;64:</volume>
     <pages>580–6.</pages>
   </sequence>
   <sequence>
     <author>Seshadri C, Lin L, Scriba TJ, Peterson G, Freidrich D, Frahm N, De Rosa SC, Moody DB, Prandi J, Gilleron M, Mahomed H, Jiang W, Finak G, Hanekom WA, Gottardo R, McElrath MJ, Hawn TR.</author>
     <title>T Cell Responses against Mycobacterial Lipids and Proteins Are Poorly Correlated in South African Adolescents.</title>
-    <container-title>J Immunol.</container-title>
+    <journal>J Immunol.</journal>
     <volume>2015;195(10):</volume>
     <pages>4595-603.</pages>
     <doi>doi: 10.4049/jimmunol.1501285.</doi>
@@ -4864,14 +4864,14 @@
     <author>Choudhury, G. Sayeed, Cynthia Requardt, Ichiro Fujinaga, Tim DiLauro, Elizabeth W. Brown, James W. Warner, and Brian Harrington.</author>
     <date>2000.</date>
     <title>Digital workflow management: The Lester S. Levy digitized collection of sheet music.</title>
-    <container-title>First Monday</container-title>
+    <journal>First Monday</journal>
     <volume>5 (6).</volume>
   </sequence>
   <sequence>
     <author>De Lisi, L. E., Maurizio, A., Yost, M., Papparozzi, C. F., Fulchino, C., Katz, C. L., … Stevens, P.</author>
     <date>(2003).</date>
     <title>A survey of New Yorkers after the Sept. 11, 2001, terrorist attacks.</title>
-    <container-title>American Journal of Psychiatry,</container-title>
+    <journal>American Journal of Psychiatry,</journal>
     <volume>160,</volume>
     <pages>780-783.</pages>
   </sequence>
@@ -4893,7 +4893,7 @@
   <sequence>
     <author>G. Welch, N.A. Allen, S.E. Zagarins, K.D. Stamp, S.E. Bursell, R.J.</author>
     <title>Kedziora Comprehensive diabetes management program for poorly controlled hispanic type 2 patients at a community health center</title>
-    <container-title>Diabetes Educ.,</container-title>
+    <journal>Diabetes Educ.,</journal>
     <volume>37</volume>
     <date>(2011),</date>
     <pages>pp. 680-688</pages>
@@ -4902,7 +4902,7 @@
     <author>Bleret, V., Collignon, J., Coucke, P., Cusumano, P., Desreux, J., Herman, P., ...Lifrange, E.</author>
     <date>(2010)</date>
     <title>Adherence to long-term medication : the particular case of the Adjuvant Endocrine Therapy for Breast Cancer.</title>
-    <container-title>Revue médicale de Liège,</container-title>
+    <journal>Revue médicale de Liège,</journal>
     <volume>65 (5-6),</volume>
     <pages>405-408.</pages>
   </sequence>
@@ -4917,7 +4917,7 @@
     <author>Mayack, L.A.; Soracco, R.J.; Wilde, E.W.; &amp; Pope, D.H.,</author>
     <date>1984.</date>
     <title>Comparative Effectivness of Chlorine and Chlorine Dioxide Biocide Regimes for Biofouling Control.</title>
-    <container-title>&lt;italic&gt;Water Research&lt;/italic&gt;,</container-title>
+    <journal>&lt;italic&gt;Water Research&lt;/italic&gt;,</journal>
     <volume>18:5:</volume>
     <pages>593.</pages>
     <url>http:// dx.doi.org/10.1016/0043-1354(84)90209-4.</url>
@@ -4929,7 +4929,7 @@
     <author>Pennycook, Bruce.,</author>
     <date>1990,</date>
     <title>Towards advanced optical music recognition,</title>
-    <container-title>Advanced Imaging</container-title>
+    <journal>Advanced Imaging</journal>
     <pages>54-7.</pages>
   </sequence>
   <sequence>
@@ -4943,7 +4943,7 @@
     <author>Adams, J.S.</author>
     <date>2007:</date>
     <title>John Robert Borchert, 1918-2001.</title>
-    <container-title>Annals of the Association of American Geographers</container-title>
+    <journal>Annals of the Association of American Geographers</journal>
     <volume>97,</volume>
     <pages>641-648.</pages>
   </sequence>
@@ -4967,11 +4967,11 @@
     <author>Ryan GA, Bampton M.</author>
     <date>(1988)</date>
     <title>Comparison of data operators with and without upperlimb symptoms.</title>
-    <container-title>Community Health Studies12:</container-title>
+    <journal>Community Health Studies12:</journal>
     <pages>63-68.</pages>
   </sequence>
   <sequence>
-    <container-title>Acids Research</container-title>
+    <journal>Acids Research</journal>
     <volume>35,</volume>
     <doi>doi:10.1093/nar/gkm086</doi>
     <date>(2007).</date>
@@ -4980,7 +4980,7 @@
     <author>Devesa, R.; García, V.; &amp; Matía, L.,</author>
     <date>2010.</date>
     <title>Water Flavour Improvement by Membrane (RO and EDR) Treatment.</title>
-    <container-title>&lt;italic&gt;Desalination&lt;/italic&gt;,</container-title>
+    <journal>&lt;italic&gt;Desalination&lt;/italic&gt;,</journal>
     <volume>250:1:</volume>
     <pages>113.</pages>
   </sequence>
@@ -5001,7 +5001,7 @@
     <author>Sahoo, C.K., Rao, S.R.M., Sudhakar, M.,</author>
     <date>2016.</date>
     <title>Problems and Proceedings to Antiretroviral Therapy for the Treatment of AIDS.</title>
-    <container-title>SMU Med. J.</container-title>
+    <journal>SMU Med. J.</journal>
     <volume>3,</volume>
     <pages>240–254.</pages>
   </sequence>
@@ -5036,14 +5036,14 @@
     <author>Ангелов, Боньо Ст.</author>
     <date>1979.</date>
     <title>Хилендарската ръкописна сбирка.</title>
-    <container-title>Литературна мисъл,</container-title>
+    <journal>Литературна мисъл,</journal>
     <volume>23, 3,</volume>
     <pages>134.</pages>
   </sequence>
   <sequence>
     <author>J Hammel, K Hall, D Lees, L Leifer, M Van der Loos, I Perkash, et al.</author>
     <title>“Clinical evaluation of a desktop robotic assistant.”</title>
-    <container-title>Journal of rehabilitation research and development.</container-title>
+    <journal>Journal of rehabilitation research and development.</journal>
     <date>1989;</date>
     <pages>26: 1-16.</pages>
   </sequence>
@@ -5058,13 +5058,13 @@
     <author>Terasmae J, Anderson TW.</author>
     <date>1970.</date>
     <title>Hypsithermal range extension of white pine &lt;italic&gt;[Pinus strobusL.)&lt;/italic&gt; in Quebec, Canada.</title>
-    <container-title>&lt;italic&gt;Canadian Journal of Earth Sciences!:&lt;/italic&gt;</container-title>
+    <journal>&lt;italic&gt;Canadian Journal of Earth Sciences!:&lt;/italic&gt;</journal>
     <pages>406-413.</pages>
   </sequence>
   <sequence>
     <author>7-Taghipour M, Razmkon A, Hosseini K.</author>
     <title>Conjoined Lumbosacral Nerve Roots Analysis of Cases Diagnosed Intraoperatively.</title>
-    <container-title>J Spinal Disord Tech.</container-title>
+    <journal>J Spinal Disord Tech.</journal>
     <volume>2009;22:</volume>
     <pages>413–416</pages>
   </sequence>
@@ -5077,7 +5077,7 @@
   <sequence>
     <author>Finak G, McDavid A, Chattopadhyay P, Dominguez M, De Rosa S, Roederer M, Gottardo R.</author>
     <title>Mixture models for single-cell assays with applications to vaccine studies.</title>
-    <container-title>Biostatistics</container-title>
+    <journal>Biostatistics</journal>
     <volume>2014;15(1):</volume>
     <pages>87-101</pages>
     <note>[PMCID: PMC3862207].</note>
@@ -5089,20 +5089,20 @@
     <author>Schwartz, Y.</author>
     <date>(1997).</date>
     <title>Les ingrédients de la compéténce : un exercice nécessaire pour une question insoluble.</title>
-    <container-title>Education permanente(133),</container-title>
+    <journal>Education permanente(133),</journal>
     <pages>pp. 9-33.</pages>
   </sequence>
   <sequence>
     <author>Ormö, J., Lindstrom, M.,</author>
     <title>When a cosmic impact strikes the sea bed,</title>
-    <container-title>Geol. Mag.</container-title>
+    <journal>Geol. Mag.</journal>
     <volume>V.137(1),</volume>
     <pages>p.67-80.</pages>
     <date>2000.</date>
   </sequence>
   <sequence>
     <author>T. Inoue, Y. Ando, K. Kasahara, Y. Okamoto, T. Nakayama, H. Miyamoto, and M. Kuzuhara,</author>
-    <container-title>IEICE Trans. Electron.,</container-title>
+    <journal>IEICE Trans. Electron.,</journal>
   </sequence>
   <sequence>
     <title>(FRBR) to music.</title>
@@ -5129,7 +5129,7 @@
   <sequence>
     <author>Dietz, R. S., French, B. M.,</author>
     <title>Two new astroblemes (one definite, one probable) in Brazil (abstract).</title>
-    <container-title>Geological Society of America,</container-title>
+    <journal>Geological Society of America,</journal>
     <volume>v. 5,</volume>
     <pages>p. 598.</pages>
     <date>1973.</date>
@@ -5146,7 +5146,7 @@
   <sequence>
     <author>M.T. Kim, H.R. Han, H.J. Song, et al.</author>
     <title>A community-based, culturally tailored behavioral intervention for Korean Americans with type 2 diabetes</title>
-    <container-title>Diabetes Educ.,</container-title>
+    <journal>Diabetes Educ.,</journal>
     <volume>35</volume>
     <date>(2009),</date>
     <pages>pp. 986-994</pages>

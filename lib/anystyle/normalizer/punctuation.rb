@@ -7,7 +7,8 @@ module AnyStyle
         :'container-title',
         :'collection-title',
         :publisher,
-        :location
+        :location,
+        :journal
       ]
 
       def normalize(item)

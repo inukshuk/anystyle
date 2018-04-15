@@ -11,13 +11,13 @@
   <sequence>
     <author>Dale, Edwin L.</author>
     <title>"Reserve Unveils a Key Procedure,"</title>
-    <container-title>The New York Times,</container-title>
+    <journal>The New York Times,</journal>
     <date>March 17, 1969.</date>
   </sequence>
   <sequence>
     <author>Hershey, Robert D., Jr.</author>
     <title>"Chemical New York Taps Commercial Paper Funds,"</title>
-    <container-title>The New York Times</container-title>
+    <journal>The New York Times</journal>
     <date>(March 27, 1969).</date>
   </sequence>
   <sequence>
@@ -37,7 +37,7 @@
   <sequence>
     <author>Jacobs, Donald P.</author>
     <title>"The Marketable Security Portfolios of Nonfinancial Corporations, Investment Practices and Trends,"</title>
-    <container-title>The Journal of Finance,</container-title>
+    <journal>The Journal of Finance,</journal>
     <volume>Vol. XV, No. 3</volume>
     <date>(September, 1960).</date>
   </sequence>
@@ -51,46 +51,46 @@
   <sequence>
     <author>Hershey, Robert D.</author>
     <title>"Dramatic Gain Shown by Commercial Paper,"</title>
-    <container-title>The New York Times</container-title>
+    <journal>The New York Times</journal>
     <date>(April 28, 1968).</date>
   </sequence>
   <sequence>
     <author>Baxter, N. D. and H. T. Shapiro.</author>
     <title>"Compensating Balance Requirements: Results of a Survey,"</title>
-    <container-title>Journal of Finance,</container-title>
+    <journal>Journal of Finance,</journal>
     <volume>Vol. XIX, No. 3</volume>
     <date>(September, 1964).</date>
   </sequence>
   <sequence>
     <author>Miller, Merton H. and Daniel Orr.</author>
     <title>"The Demand for Money by Firms: Extension of Analytic Results,"</title>
-    <container-title>The Journal of Finance,</container-title>
+    <journal>The Journal of Finance,</journal>
     <volume>Vol. XXIII, No. 5</volume>
     <date>(December, 1968).</date>
   </sequence>
   <sequence>
     <author>Renwick, Fred B.</author>
     <title>"Asset Management and Investor Portfolio Behavior: Theory and Practice,"</title>
-    <container-title>The Journal of Finance,</container-title>
+    <journal>The Journal of Finance,</journal>
     <volume>Vol. XXIV, No. 2</volume>
     <date>(May, 1969).</date>
   </sequence>
   <sequence>
     <author>Johnston, Robert.</author>
     <title>"Rebirth of Commercial Paper,"</title>
-    <container-title>Monthly Review, The Federal Reserve Bank of San Francisco</container-title>
+    <journal>Monthly Review, The Federal Reserve Bank of San Francisco</journal>
     <date>(July, 1968).</date>
   </sequence>
   <sequence>
     <author>Foldessy, Edward P.</author>
     <title>"Money Market Rates Press 'Prime' Fee, But Bankers Hint They'll Stall New Boost,"</title>
-    <container-title>Wall Street Journal</container-title>
+    <journal>Wall Street Journal</journal>
     <date>(July 2, 1969).</date>
   </sequence>
   <sequence>
     <author>Hart, B. I. and John Von Neumann.</author>
     <title>"Tabulation of the Probabilities for the Ratio of the Mean Square Successive Difference to the Variance,"</title>
-    <container-title>Annals of Mathematical Statistics,</container-title>
+    <journal>Annals of Mathematical Statistics,</journal>
     <volume>Vol. 13</volume>
     <date>(1942).</date>
   </sequence>
@@ -119,7 +119,7 @@
   <sequence>
     <author>Hershey, Robert, Jr.</author>
     <title>"Prime Rate Concept Called Outdated by Panel of Bankers,"</title>
-    <container-title>The New York Times</container-title>
+    <journal>The New York Times</journal>
     <date>(March 11, 1969).</date>
   </sequence>
   <sequence>
@@ -142,7 +142,7 @@
   <sequence>
     <author>Andrews, Victor L.</author>
     <title>"Captive Finance Companies,"</title>
-    <container-title>Harvard Business Review,</container-title>
+    <journal>Harvard Business Review,</journal>
     <volume>Volume 42</volume>
     <date>(July-August, 1964).</date>
   </sequence>
@@ -163,19 +163,19 @@
   <sequence>
     <author>Rowe, C. Eugene.</author>
     <title>"Commercial Paper: A Source of Short-Term Funds,"</title>
-    <container-title>Financial Executive</container-title>
+    <journal>Financial Executive</journal>
     <date>(November, 1965).</date>
   </sequence>
   <sequence>
     <author>Kraus, Albert L.</author>
     <title>"Commercial Paper Maze,"</title>
-    <container-title>The New York Times</container-title>
+    <journal>The New York Times</journal>
     <date>(July 2, 1969).</date>
   </sequence>
   <sequence>
     <author>Heinemann, Erich.</author>
     <title>"Banks Discover Loophole in Reserve's Rate Ceiling,"</title>
-    <container-title>The New York Times</container-title>
+    <journal>The New York Times</journal>
     <date>(May 29, 1969).</date>
   </sequence>
   <sequence>
@@ -188,7 +188,7 @@
   <sequence>
     <author>Basmann, R. L.</author>
     <title>"A Generalized Classical Method of Linear Estimation of Coefficients in a Structural Equation,"</title>
-    <container-title>Econometrica,</container-title>
+    <journal>Econometrica,</journal>
     <volume>Vol. 25</volume>
     <date>(1957).</date>
   </sequence>
@@ -202,13 +202,13 @@
   <sequence>
     <author>Andrews, Victor L.</author>
     <title>"Captive Finance Companies: Their Growth and Some Speculations on their Significance,"</title>
-    <container-title>Industrial Management Review,</container-title>
+    <journal>Industrial Management Review,</journal>
     <date>Fall 1961.</date>
   </sequence>
   <sequence>
     <author>Gershick, M. A. and Trygve Haavelmo.</author>
     <title>"Statistical Analysis of the Demand for Food: Examples of Simultaneous Estimation of Structural Equations,"</title>
-    <container-title>Econometrica,</container-title>
+    <journal>Econometrica,</journal>
     <volume>Vol. XV</volume>
     <date>(April, 1947),</date>
     <editor>as reprinted in William C. Hood and Tjalling Koopmans,</editor>
@@ -220,7 +220,7 @@
   <sequence>
     <author>Nugent, Jan.</author>
     <title>"Fed Weighs Commercial Paper Curbs,"</title>
-    <container-title>The Journal of Commerce</container-title>
+    <journal>The Journal of Commerce</journal>
     <date>(June 30, 1969).</date>
   </sequence>
   <sequence>
@@ -238,27 +238,27 @@
     <date>1968.</date>
   </sequence>
   <sequence>
-    <container-title>Business Week,</container-title>
+    <journal>Business Week,</journal>
     <title>"Banks Try to Dodge Fed's Grasp,"</title>
     <date>April 5, 1969.</date>
   </sequence>
   <sequence>
     <author>Steiner, W. H.</author>
     <title>"The Commercial Paper Business,"</title>
-    <container-title>Federal Reserve Bulletin</container-title>
+    <journal>Federal Reserve Bulletin</journal>
     <date>(August-September, 1921).</date>
   </sequence>
   <sequence>
     <author>Markowitz, Harry.</author>
     <title>"Portfolio Selection,"</title>
-    <container-title>The Journal of Finance,</container-title>
+    <journal>The Journal of Finance,</journal>
     <volume>Vol. VII, No. 1</volume>
     <date>(March, 1952).</date>
   </sequence>
   <sequence>
     <author>Silberman, Lee.</author>
     <title>"A Run for Their Money,"</title>
-    <container-title>Barron's</container-title>
+    <journal>Barron's</journal>
     <date>(July 25, 1966).</date>
   </sequence>
   <sequence>
@@ -270,7 +270,7 @@
   <sequence>
     <author>Gynt, F. E.</author>
     <title>"Commercial Paper: Another Great Big Leap Forward?,"</title>
-    <container-title>The Weekly Bond Buyer,</container-title>
+    <journal>The Weekly Bond Buyer,</journal>
     <volume>Vol. 172, No. 3912</volume>
     <date>(April 1, 1968).</date>
   </sequence>
@@ -284,7 +284,7 @@
   <sequence>
     <author>Federal Reserve Bank of Chicago.</author>
     <title>"Commercial Paper -- New Style,"</title>
-    <container-title>Business Conditions</container-title>
+    <journal>Business Conditions</journal>
     <date>(August, 1955).</date>
   </sequence>
   <sequence>
@@ -302,7 +302,7 @@
     <date>1965.</date>
   </sequence>
   <sequence>
-    <container-title>Business Week,</container-title>
+    <journal>Business Week,</journal>
     <title>"More Companies Borrow Direct,"</title>
     <date>May 18, 1968.</date>
   </sequence>
@@ -316,17 +316,17 @@
   <sequence>
     <author>Gynt,F. E.</author>
     <title>"Does Commercial Paper Need New Gate Keeper?,"</title>
-    <container-title>The Weekly Bond Buyer</container-title>
+    <journal>The Weekly Bond Buyer</journal>
     <date>(December 30, 1968).</date>
   </sequence>
   <sequence>
     <author>Heinemann, H. Erich.</author>
     <title>"Money, Money, Money, Where?,"</title>
-    <container-title>The New York Times</container-title>
+    <journal>The New York Times</journal>
     <date>(June 1, 1969).</date>
   </sequence>
   <sequence>
-    <container-title>Business Week,</container-title>
+    <journal>Business Week,</journal>
     <title>"What Makes the Boom in Commercial Paper,"</title>
     <date>November 26, 1966.</date>
   </sequence>
@@ -339,7 +339,7 @@
   <sequence>
     <author>Marks, Melvin R.</author>
     <title>"Problem Solving as a Function of the Situation."</title>
-    <container-title>Journal of Experimental Psychology,</container-title>
+    <journal>Journal of Experimental Psychology,</journal>
     <volume>X L I ,</volume>
     <date>1951,</date>
     <pages>pp. 74-80.</pages>
@@ -347,7 +347,7 @@
   <sequence>
     <author>Simon, Herbert A. and Allen Newell.</author>
     <title>"Heuristic Problem-Solving."</title>
-    <container-title>Operations Research,</container-title>
+    <journal>Operations Research,</journal>
     <volume>VI</volume>
     <date>(1958),</date>
     <pages>pp. 1-10.</pages>
@@ -355,7 +355,7 @@
   <sequence>
     <author>Wolff, Harold.</author>
     <title>"The Great GM Mystery."</title>
-    <container-title>Harvard Business Review,</container-title>
+    <journal>Harvard Business Review,</journal>
     <volume>XLII</volume>
     <date>(September-October, 1964),</date>
     <pages>pp. 164+.</pages>
@@ -427,7 +427,7 @@
   <sequence>
     <author>Morton, Michael S. Scott.</author>
     <title>"Interactive Visual Display Systems and Management Problem Solving."</title>
-    <container-title>Industrial Management Review,</container-title>
+    <journal>Industrial Management Review,</journal>
     <volume>IX</volume>
     <date>(Fall, 1967),</date>
     <pages>pp. 70-81.</pages>
@@ -479,7 +479,7 @@
   <sequence>
     <author>Tilles, Seymour.</author>
     <title>"How to Evaluate Corporate Strategy."</title>
-    <container-title>Harvard Business Review,</container-title>
+    <journal>Harvard Business Review,</journal>
     <volume>XLI</volume>
     <date>(July-August, 1963),</date>
     <pages>pp. 111-21</pages>
@@ -495,7 +495,7 @@
   <sequence>
     <author>Mace, Myles L.</author>
     <title>"The President and Corporate Planning."</title>
-    <container-title>Harvard Business Review,</container-title>
+    <journal>Harvard Business Review,</journal>
     <volume>XLIII</volume>
     <date>(January-February, 1965),</date>
     <pages>pp. 49-62.</pages>
@@ -503,7 +503,7 @@
   <sequence>
     <author>__________ .</author>
     <title>"A Quasi-Analyric Approach to the Business Strategy Problem."</title>
-    <container-title>Management Technology,</container-title>
+    <journal>Management Technology,</journal>
     <volume>IV</volume>
     <date>(June, 1964)</date>
     <pages>pp. 67-77.</pages>
@@ -535,7 +535,7 @@
   <sequence>
     <author>Brady, Rodney H.</author>
     <title>"Computers in Top-Level Decision Making."</title>
-    <container-title>Harvard Business Review,</container-title>
+    <journal>Harvard Business Review,</journal>
     <volume>XLV</volume>
     <date>(July-August, 1967),</date>
     <pages>pp. 67-76.</pages>
@@ -573,7 +573,7 @@
   <sequence>
     <author>Rees, H.J. and H.E. Israel.</author>
     <title>An Investigation of the Establishment and Operation of Mental Sets.</title>
-    <container-title>Psychological Monographs,</container-title>
+    <journal>Psychological Monographs,</journal>
     <volume>Vol. XLVI (No. 210),</volume>
     <date>1935.</date>
   </sequence>
@@ -678,7 +678,7 @@
   <sequence>
     <author>Ansoff, H. Igor and Richard G. Brandenburg.</author>
     <title>"A Problem of Research in Business Planning."</title>
-    <container-title>Management Science,</container-title>
+    <journal>Management Science,</journal>
     <volume>XIII</volume>
     <date>(February, 1967),</date>
     <pages>pp. B219-B239.</pages>
@@ -702,7 +702,7 @@
   <sequence>
     <author>Taylor, W.D. and Q. McNemar.</author>
     <title>"Problem Solving and Thinking."</title>
-    <container-title>Annual Review of Psychology,</container-title>
+    <journal>Annual Review of Psychology,</journal>
     <volume>Vol. VI,</volume>
     <editor>P.R. Farnsworth and Q. McNemar (eds.),</editor>
     <location>Palo Alto, California:</location>
@@ -713,7 +713,7 @@
   <sequence>
     <author>Mintzberg, H.</author>
     <title>"The Science of Strategy-Making."</title>
-    <container-title>Industrial Management Review.</container-title>
+    <journal>Industrial Management Review.</journal>
     <volume>VIII</volume>
     <date>(Spring, 1967),</date>
     <pages>pp. 71-82.</pages>
