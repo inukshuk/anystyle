@@ -5,34 +5,34 @@ module AnyStyle
     it "extracts volume and issue numbers" do
       ({
         '14(2):' => { volume: ['14'], issue: ['2'] },
-        'vol. 14' => { volume: ['14'] }
-        # 34:
-        # 45(02):
-        # 31(3/4):
-        # 132(3-4):
-        # 13 (6023).
-        # 93(September/October 2011).
-        # vol. 93, no. 2,
-        # no. 10,
-        # vol. 0238,
-        # (vol.5.
-        # Vol. 10, No. 1-3,
-        # 18,
-        # , vol. 379
-        # 63 (serial no. 253).
-        # vol. II
-        # Vol. VI
-        # Volume Two
-        # Т. 1.
-        # n° 82,
+        'vol. 14' => { volume: ['14'] },
+        '34:' => { volume: ['34'] },
+        '45(02):' => { volume: ['45'], issue: ['02'] },
+        '31(3/4):' => { volume: ['31'], issue: ['3/4'] },
+        '132(3-4):' => { volume: ['132'], issue: ['3-4'] },
+        '13 (6023).' => { volume: ['13'], issue: ['6023'] },
+        '93(September/October 2011).' => { volume: ['93'], issue: ['September/October 2011'] },
+        'vol. 93, no. 2,' => { volume: ['93'], issue: ['2'] },
+        'no. 10,' => { issue: ['10'] },
+        'vol. 0238,' => { volume: ['0238'] },
+        '(vol.5.' => { volume: ['5'] },
+        'Vol. 10, No. 1-3,' => { volume: ['10'], issue: ['1-3'] },
+        '18,' => { volume: ['18'] },
+        ', vol. 379' => { volume: ['379'] },
+        '63 (serial no. 253).' => { volume: ['63'], issue: ['serial no. 253'] },
+        'vol. II' => { volume: ['II'] },
+        'Vol. VI' => { volume: ['VI'] },
+        'Volume Two' => { volume: ['Two'] },
+        'Т. 1.' => { volume: ['Т. 1'] },
+        'n° 82,' => { issue: ['82'] },
         # XIV:4
-        # 105(C10)
-        # B200
-        # 14(Suppl.1),
-        # Vol. 2 Nos. 1-4,
-        # Vol. 2 Nos. 3&4,
-        # [4]
-        # SAC-4
+        '105(C10)' => { volume: ['105'], issue: ['C10'] },
+        'B200' => { volume: ['B200'] },
+        '14(Suppl.1),' => { volume: ['14'], issue: ['Suppl.1'] },
+        'Vol. 2 Nos. 1-4,' => { volume: ['2'], issue: ['1-4'] },
+        'Vol. 2 Nos. 3&4,' => { volume: ['2'], issue: ['3&4'] },
+        '[4]' => { volume: ['4'] },
+        'SAC-4' => { volume: ['SAC-4'] }
         # 20</italic>
         # Vol. LXVI(6),
         # 28</italic>(1),
