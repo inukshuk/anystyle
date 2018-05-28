@@ -129,9 +129,10 @@ module AnyStyle
         Normalizer::Quotes.new,
         Normalizer::Punctuation.new,
         Normalizer::Container.new,
+        Normalizer::Edition.new,
+        Normalizer::Volume.new,
         Normalizer::Page.new,
         Normalizer::Date.new,
-        Normalizer::Volume.new,
         Normalizer::Location.new,
         Normalizer::Locator.new,
         Normalizer::Publisher.new,
@@ -153,12 +154,22 @@ module AnyStyle
       end
     end
 
-    def format_hash(dataset)
-      dataset.map { |seq| normalize(seq.to_h(symbolize_keys: true)) }
+    def format_hash(dataset, symbolize_keys: true)
+      dataset.map { |seq| normalize(seq.to_h(symbolize_keys: symbolize_keys)) }
+    end
+
+    def flatten_values(hash, skip: [])
+      hash.each_pair do |key, value|
+        hash[key] = value[0] if value.is_a?(Array) && !skip.include?(key)
+      end
+    end
+
+    def rename_value(hash, name, new_name)
+      hash[new_name] = hash.delete name if hash.key?(name)
     end
 
     def parse(input, format: options[:format])
-      case format
+      case format.to_sym
       when :wapiti
         label(input)
       when :hash, :bibtex, :citeproc, :csl
@@ -172,6 +183,7 @@ module AnyStyle
     def prepare(input, **opts)
       opts[:separator] ||= options[:separator]
       opts[:delimiter] ||= options[:delimiter]
+      input = input.join("\n") if input.is_a?(Array) && input[0].is_a?(String)
       super(input, opts)
     end
   end
