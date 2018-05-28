@@ -30,7 +30,7 @@ module AnyStyle
           when /(\p{Lu}?\d+)\s?\(([^)]+)\)/
             append item, :issue, $2
             $1
-          when /(?:(\p{Lu}?\d+)[\p{P}\s]+)?(n?:os?|nr|n°|nº|iss?)\.?\s?(.+)$/i
+          when /(?:(\p{Lu}?\d+)[\p{P}\s]+)?(?:nos?|nr|n°|nº|iss?)\.?\s?(.+)$/i
             volume = $1
             append item, :issue, $2.sub(/\p{P}$/, '')
             volume
