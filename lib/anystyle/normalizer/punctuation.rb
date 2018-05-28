@@ -3,6 +3,7 @@ module AnyStyle
     class Punctuation < Normalizer
       @keys = [
         :date,
+        :edition,
         :title,
         :'container-title',
         :'collection-title',
@@ -14,6 +15,7 @@ module AnyStyle
         each_value(item) do |_, value|
           unless value =~ /[!?]$/
             value.gsub!(/[\p{P}\p{Z}\p{C}]+$/, '')
+            value.gsub!(/^[\(\[]/, '')
           end
         end
       end
