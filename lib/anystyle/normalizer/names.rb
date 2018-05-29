@@ -14,7 +14,7 @@ module AnyStyle
 
         @namae = Namae::Parser.new({
           prefer_comma_as_separator: true,
-          separator: /\s*\b(and|&|;|und|y|e)\b\s*/i,
+          separator: /\A(and|AND|&|;|und|UND|y|e)\s+/,
           appellation: /\A(?!x)x/,
           title: /\A(?!x)x/
         })
@@ -43,8 +43,7 @@ module AnyStyle
       def strip(value)
         value
           .gsub(/^[Ii]n:?\s+/, '')
-          .gsub(/^\p{^Alpha}|\p{^Alpha}$/, '')
-          .gsub(/\b[Ee]d(s?\.|itors?|ited)\s+(by\s+)?/, '')
+          .gsub(/\b[Ee]d(s?\.|itors?|ited)(\s+by\s+|\b|$)?/, '')
           .gsub(/\b([Hh]rsg|gg?\.|Herausgeber)\s+/, '')
           .gsub(/\b[Hh]erausgegeben von\s+/, '')
           .gsub(/\b((d|ein)er )?[Üü]ber(s\.|setzt|setzung|tragen|tragung) v(\.|on)\s+/, '')
@@ -52,8 +51,7 @@ module AnyStyle
           .gsub(/\b([Dd]ir(\.|ected))(\s+by)?\s+/, '')
           .gsub(/\b([Pp]rod(\.|uce[rd]))(\s+by)?\s+/, '')
           .gsub(/\b([Pp]erf(\.|orme[rd]))(\s+by)?\s+/, '')
-          .gsub(/\([^\)]*\)/, '')
-          .gsub(/^\p{P}+\s/, '')
+          .gsub(/\([^\)]*\)?/, '')
           .gsub(/[;:]/, ',')
           .strip
       end
@@ -61,7 +59,7 @@ module AnyStyle
       def parse(value)
         others = value.sub!(
           /(\bet\s+(al|coll)\b|\bu\.\s*a\.|(\band|\&)\s+others).*$/, ''
-        )
+        ) || value.sub!(/\.\.\.|…/, '')
 
         # Add surname/initial punctuation separator for Vancouver-style names
         # E.g. Rang HP, Dale MM, Ritter JM, Moore PK

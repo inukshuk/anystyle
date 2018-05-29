@@ -1,110 +1,8 @@
 # -*- encoding: utf-8 -*-
 #
-#module AnyStyle
-#  module Parser
-#
-#    describe "Normalizer" do
-#      let(:n) { Normalizer.new }
-#
-#      describe "#tokenize_names" do
-#
-#        it "tokenizes 'A B'" do
-#          expect(n.normalize_names('A B')).to eq('B, A.')
-#        end
-#
-#        it "tokenizes 'A, B'" do
-#          expect(n.normalize_names('A, B')).to eq('A, B.')
-#        end
-#
-#        it "tokenizes 'A, jr., Bbb'" do
-#          expect(n.normalize_names('A, jr., B')).to eq('A, jr., B.')
-#        end
-#
-#        it "tokenizes 'A, B, jr.'" do
-#          expect(n.normalize_names('A, B, jr.')).to eq('A, jr., B.')
-#        end
-#
-#        it "tokenizes 'A, B, C, D'" do
-#          expect(n.normalize_names('A, B, C, D')).to eq('A, B. and C, D.')
-#        end
-#
-#        it "tokenizes 'A, B, C'" do
-#          expect(n.normalize_names('A, B, C')).to eq('A, B. and C.')
-#        end
-#
-#        it "tokenizes 'Aa Bb, C.'" do
-#          expect(n.normalize_names('Aa Bb, C.')).to eq('Aa Bb, C.')
-#        end
-#
-#        it "tokenizes 'Plath, L.C., Asgaard, G., ... Botros, N.'" do
-#          expect(n.normalize_names('Plath, L.C., Asgaard, G., ... Botros, N.')).to eq('Plath, L.C. and Asgaard, G. and Botros, N.')
-#          expect(n.normalize_names('Plath, L.C., Asgaard, G., … Botros, N.')).to eq('Plath, L.C. and Asgaard, G. and Botros, N.')
-#        end
-#
-#        it "tokenizes 'Aa Bb, Cc Dd, and E F G'" do
-#          expect(n.normalize_names('Aa Bb, Cc Dd, and E F G')).to eq('Bb, Aa and Dd, Cc and G, E.F.')
-#        end
-#
-#        [
-#          ['Poe, Edgar A.', 'Poe, Edgar A.'],
-#          ['Poe, Edgar A', 'Poe, Edgar A.'],
-#          ['Kates, Robert W', 'Kates, Robert W.'],
-#          ['Kates, Robert W.', 'Kates, Robert W.'],
-#          ['Edgar A. Poe', 'Poe, Edgar A.'],
-#          ['J Doe', 'Doe, J.'],
-#          ['Doe, J', 'Doe, J.'],
-#          ['JE Doe', 'Doe, J.E.'],
-#          ['Doe, JE', 'Doe, J.E.'],
-#          ['Dendle MT, Sacchettini JC, Kelly JW', 'Dendle, M.T. and Sacchettini, J.C. and Kelly, J.W.'],
-#          ['Dendle MT, Sacchettini JC, Kelly JW.', 'Dendle, M.T. and Sacchettini, J.C. and Kelly, J.W.'],
-#          ['Bouchard J-P', 'Bouchard, J.-P.'],
-#          ['Bouchard J-P.', 'Bouchard, J.-P.'],
-#          ['Edgar A. Poe, Herman Melville', 'Poe, Edgar A. and Melville, Herman'],
-#          ['Edgar A. Poe; Herman Melville', 'Poe, Edgar A. and Melville, Herman'],
-#          ['Poe, Edgar A., Melville, Herman', 'Poe, Edgar A. and Melville, Herman'],
-#          ['Aeschlimann Magnin, E.', 'Aeschlimann Magnin, E.'],
-#          ['Yang, Q., Mudambi, R., & Meyer, K. E.', 'Yang, Q. and Mudambi, R. and Meyer, K.E.']
-#        ].each do |name, normalized|
-#          it "tokenizes #{name.inspect}" do
-#            expect(n.normalize_names(name)).to eq(normalized)
-#          end
-#        end
-#
-#      end
-#
-#      describe '#normalize_author' do
-#        it "detects editors" do
-#          expect(n.normalize_author(:author => 'In D. Knuth (ed.)'))
-#            .to eq({ :editor => 'Knuth, D.' })
-#
-#          expect(n.normalize_author(:author => 'D. Knuth (editor)'))
-#            .to eq({ :editor => 'Knuth, D.' })
-#
-#          expect(n.normalize_author(:author => 'D. Knuth (eds.)'))
-#            .to eq({ :editor => 'Knuth, D.' })
-#
-#          expect(n.normalize_author(:author => 'Ed. by D. Knuth'))
-#            .to eq({ :editor => 'Knuth, D.' })
-#
-#          expect(n.normalize_author(:author => 'Edited by D. Knuth'))
-#            .to eq({ :editor => 'Knuth, D.' })
-#        end
-#
-#        it "does not erroneously detect editors" do
-#          expect(n.normalize_author(:author => 'Eisenberger, P. and Read, W.A.'))
-#            .to eq({ :author => 'Eisenberger, P. and Read, W.A.' })
-#
-#          expect(n.normalize_author(:author => 'K. S. Sohn, D. G. Dempsey, L. Kleinman and Ed Caruthers'))
-#            .to eq({ :author => 'Sohn, K.S. and Dempsey, D.G. and Kleinman, L. and Caruthers, Ed' })
-#        end
-#      end
 #
 #      describe '#normalize_editor' do
 #        it "strips in from beginning" do
-#          expect(n.normalize_editor(:editor => 'In D. Knuth (ed.)')).to eq({ :editor => 'Knuth, D.' })
-#          expect(n.normalize_editor(:editor => 'In: D. Knuth (ed.)')).to eq({ :editor => 'Knuth, D.' })
-#          expect(n.normalize_editor(:editor => 'in: D. Knuth ed.')).to eq({ :editor => 'Knuth, D.' })
-#          expect(n.normalize_editor(:editor => 'in D. Knuth (ed)')).to eq({ :editor => 'Knuth, D.' })
 #        end
 #
 #        it "does not strip ed from name" do
@@ -150,13 +48,6 @@
 #        end
 #      end
 #
-#      describe 'normalize citation numbers' do
-#        it 'extracts simple and compund numbers' do
-#          expect(n.normalize_citation_number(:'citation-number' => '[42]')).to eq({ :'citation-number' => '42' })
-#          expect(n.normalize_citation_number(:'citation-number' => '[1b]')).to eq({ :'citation-number' => '1b' })
-#          expect(n.normalize_citation_number(:'citation-number' => '[1.1.4.1]')).to eq({ :'citation-number' => '1.1.4.1' })
-#        end
-#      end
 #      describe 'URL extraction' do
 #        it 'recognizes full URLs' do
 #          expect(n.normalize_url(:url => 'Available at: https://www.example.org/x.pdf')).to eq({ :url => 'https://www.example.org/x.pdf' })
