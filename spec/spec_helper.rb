@@ -27,11 +27,18 @@ module Fixtures
 		require fixture
 	end
 
+  CACHE = {}
+
   def fixture_path(path)
     File.join(PATH, path)
   end
 
   def fixture(path)
+    CACHE[path] = load_fixture(path) unless CACHE.key?(path)
+    CACHE[path]
+  end
+
+  def load_fixture(path)
     case File.extname(path)
     when '.yml'
       YAML.load(File.read(fixture_path(path)))
