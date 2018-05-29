@@ -1,10 +1,7 @@
 module AnyStyle
   describe "Publisher Normalizer" do
     let(:n) { Normalizer::Publisher.new }
-
-    let(:item) {{
-      author: ['Poe, Edgar A.']
-    }}
+    let(:item) {{ author: [names(:poe)] }}
 
     it "replaces author publisher" do
       expect(

@@ -46,6 +46,10 @@ module Fixtures
       File.read(fixture_path(path))
     end
   end
+
+  def names(key)
+    fixture('names.yml')[key.to_s]
+  end
 end
 
 RSpec.configure do |config|
