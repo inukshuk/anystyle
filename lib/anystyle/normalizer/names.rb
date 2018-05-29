@@ -9,8 +9,8 @@ module AnyStyle
 
       attr_accessor :namae
 
-      def initialize(**options)
-        super(**options)
+      def initialize(**opts)
+        super(**opts)
 
         @namae = Namae::Parser.new({
           prefer_comma_as_separator: true,
@@ -20,14 +20,24 @@ module AnyStyle
         })
       end
 
-      def normalize(item, **opts)
-        map_values(item) do |_, value|
-          begin
-            parse(strip(value))
-          rescue
-            [{ literal: value }]
+      def normalize(item, prev: [], **opts)
+        map_values(item) do |key, value|
+          value.gsub!(/(^[\(\[]|[,;:\)\]]+$)/, '')
+          case
+          when repeater?(value) && prev.length > 0
+            prev[-1][key][0] || prev[1][:author][0]
+          else
+            begin
+              parse(strip(value))
+            rescue
+              [{ literal: value }]
+            end
           end
         end
+      end
+
+      def repeater?(value)
+        value =~ /^[\p{P}\s]+$/
       end
 
       def strip(value)
@@ -43,6 +53,7 @@ module AnyStyle
           .gsub(/\b([Pp]rod(\.|uce[rd]))(\s+by)?\s+/, '')
           .gsub(/\b([Pp]erf(\.|orme[rd]))(\s+by)?\s+/, '')
           .gsub(/\([^\)]*\)/, '')
+          .gsub(/^\p{P}+\s/, '')
           .gsub(/[;:]/, ',')
           .strip
       end
