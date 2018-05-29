@@ -3,7 +3,7 @@ module AnyStyle
     class Edition < Normalizer
       @keys = [:edition]
 
-      def normalize(item)
+      def normalize(item, **opts)
         map_values(item) do |_, value|
           value
             .gsub(/rev\./, 'revised')

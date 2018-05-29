@@ -3,7 +3,7 @@ module AnyStyle
     class Publisher < Normalizer
       @keys = [:publisher]
 
-      def normalize(item)
+      def normalize(item, **opts)
         replace_author(item) if item.key?(:author)
         item
       end

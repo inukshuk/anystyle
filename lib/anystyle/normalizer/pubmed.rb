@@ -3,7 +3,7 @@ module AnyStyle
     class PubMed < Normalizer
       @keys = [:note]
 
-      def normalize(item)
+      def normalize(item, **opts)
         each_value(item) do |_, value|
           if (value =~ /PMID:?\s*(\d+)/)
             append :pmid, $1

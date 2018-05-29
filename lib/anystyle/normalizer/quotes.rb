@@ -4,7 +4,7 @@ module AnyStyle
       QUOTES = /^[«‹»›„‚“‟‘‛”’"❛❜❟❝❞⹂〝〞〟\[]|[«‹»›„‚“‟‘‛”’"❛❜❟❝❞⹂〝〞〟\]]$/
       @keys = [:title, :'citation-number', :medium]
 
-      def normalize(item)
+      def normalize(item, **opts)
         each_value(item) do |_, value|
           value.gsub! QUOTES, ''
         end

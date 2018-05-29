@@ -3,7 +3,7 @@ module AnyStyle
     class Page < Normalizer
       @keys = [:pages]
 
-      def normalize(item)
+      def normalize(item, **opts)
         map_values(item) do |_, value|
           pages = case value
             when /(\d+)(?:\.(\d+))?(?:\((\d{4})\))?:(\d.*)/

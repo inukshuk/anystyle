@@ -3,7 +3,7 @@ module AnyStyle
     class Brackets < Normalizer
       @keys = [:'citation-number', :note]
 
-      def normalize(item)
+      def normalize(item, **opts)
         each_value(item) do |_, value|
           value.gsub!(/^[\(\[\{]|[\]\)\}]$/, '')
         end

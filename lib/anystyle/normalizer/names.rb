@@ -20,7 +20,7 @@ module AnyStyle
         })
       end
 
-      def normalize(item)
+      def normalize(item, **opts)
         map_values(item) do |_, value|
           begin
             parse(strip(value))

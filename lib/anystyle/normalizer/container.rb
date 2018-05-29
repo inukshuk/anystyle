@@ -3,7 +3,7 @@ module AnyStyle
     class Container < Normalizer
       @keys = [:'container-title']
 
-      def normalize(item)
+      def normalize(item, **opts)
         map_values(item) do |_, value|
           value.gsub(/^[Ii]n:?\s+/, '')
         end

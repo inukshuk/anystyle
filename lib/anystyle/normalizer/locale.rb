@@ -7,7 +7,7 @@ module AnyStyle
         @ld = LanguageDetector.new if defined?(LanguageDetector)
       end
 
-      def normalize(item)
+      def normalize(item, **opts)
         return item if @ld.nil? || item.key?(:language)
 
         sample = item.values_at(
@@ -15,6 +15,7 @@ module AnyStyle
           :'container-title',
 #          :'collection-title',
           :location,
+          :journal,
           :publisher
 #          :note
         ).flatten.compact.join(' ')

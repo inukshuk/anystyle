@@ -1,7 +1,7 @@
 module AnyStyle
   class Normalizer
     class Type < Normalizer
-      def normalize(item)
+      def normalize(item, **opts)
         item[:type] = classify item unless item.key?(:type)
         item
       end

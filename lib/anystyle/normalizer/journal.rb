@@ -1,7 +1,7 @@
 module AnyStyle
   class Normalizer
     class Journal < Normalizer
-      def normalize(item)
+      def normalize(item, **opts)
         if item.key?(:journal)
           item[:type] = 'article-journal'
           item[:journal].each { |journal| append item, :'container-title', journal }

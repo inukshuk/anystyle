@@ -54,10 +54,10 @@ module AnyStyle
       train(input, truncate: false)
     end
 
-    def normalize(hash)
+    def normalize(hash, **opts)
       normalizers.each do |n|
         begin
-          hash = n.normalize(hash) unless n.skip?
+          hash = n.normalize(hash, **opts) unless n.skip?
         rescue => e
           warn "Error in #{n.name} normalizer: #{e.message}"
         end
@@ -156,7 +156,9 @@ module AnyStyle
     end
 
     def format_hash(dataset, symbolize_keys: true)
-      dataset.map { |seq| normalize(seq.to_h(symbolize_keys: symbolize_keys)) }
+      dataset.inject([]) { |out, seq|
+        out << normalize(seq.to_h(symbolize_keys: symbolize_keys), prev: out)
+      }
     end
 
     def flatten_values(hash, skip: [])

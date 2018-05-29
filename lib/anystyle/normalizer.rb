@@ -18,7 +18,7 @@ module AnyStyle
       self.class.name
     end
 
-    def normalize(item)
+    def normalize(item, **opts)
       raise NotImplementedError
     end
 

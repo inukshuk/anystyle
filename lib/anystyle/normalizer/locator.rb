@@ -5,7 +5,7 @@ module AnyStyle
     class Locator < Normalizer
       @keys = [:isbn, :url]
 
-      def normalize(item)
+      def normalize(item, **opts)
         map_values(item) do |key, value|
           case key
           when :isbn

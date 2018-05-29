@@ -11,7 +11,7 @@ module AnyStyle
         :location
       ]
 
-      def normalize(item)
+      def normalize(item, **opts)
         each_value(item) do |_, value|
           value.gsub!(/[\)\]\.,:;\p{Pd}\p{Z}\p{C}]+$/, '')
           value.gsub!(/^[\(\[]/, '')

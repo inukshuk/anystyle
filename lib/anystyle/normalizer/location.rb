@@ -3,7 +3,7 @@ module AnyStyle
     class Location < Normalizer
       @keys = [:location]
 
-      def normalize(item)
+      def normalize(item, **opts)
         map_values(item) do |_, value|
           location = strip value
 
