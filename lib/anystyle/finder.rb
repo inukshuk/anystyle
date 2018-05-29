@@ -43,11 +43,11 @@ module AnyStyle
     end
 
     def find(input, format: options[:format], **opts)
-      case format
+      case format.to_sym
       when :references, :ref
-        format_references(label(input, **opts))
+        format_references(label(input, **opts), **opts)
       when :hash
-        format_hash(label(input, **opts))
+        format_hash(label(input, **opts), **opts)
       when :wapiti
         label(input, **opts)
       else

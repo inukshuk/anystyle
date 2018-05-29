@@ -34,8 +34,8 @@ module AnyStyle
       self
     end
 
-    def label(input)
-      model.label prepare(input)
+    def label(input, **opts)
+      model.label prepare(input, **opts)
     end
 
     def check(input)
@@ -168,13 +168,13 @@ module AnyStyle
       hash[new_name] = hash.delete name if hash.key?(name)
     end
 
-    def parse(input, format: options[:format])
+    def parse(input, format: options[:format], **opts)
       case format.to_sym
       when :wapiti
-        label(input)
+        label(input, **opts)
       when :hash, :bibtex, :citeproc, :csl
         formatter = "format_#{format}".to_sym
-        send(formatter, label(input))
+        send(formatter, label(input, **opts), **opts)
       else
         raise ArgumentError, "format not supported: #{format}"
       end

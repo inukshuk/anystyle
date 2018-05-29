@@ -9,7 +9,7 @@ module AnyStyle
         'report' => 'techreport'
       }
 
-      def format_bibtex(dataset)
+      def format_bibtex(dataset, **opts)
         require 'bibtex'
 
         b = ::BibTeX::Bibliography.new
