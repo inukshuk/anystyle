@@ -168,34 +168,6 @@
 #          expect(n.normalize_url(:url => 'Available at: example.org/x.pdf [Retrieved today]')).to eq({ :url => 'example.org/x.pdf' })
 #        end
 #      end
-#
-#      describe 'date extraction' do
-#        it 'extracts month and year from a string like "(July 2009)"' do
-#          h = n.normalize_date(:date => ['(July 2009)'])
-#          expect(h[:date]).to eq('2009-07')
-#        end
-#
-#        it 'extracts month and year from a string like "(1997 Sept.)"' do
-#          h = n.normalize_date(:date => '(1997 Sept.)')
-#          expect(h[:date]).to eq('1997-09')
-#
-#          h = n.normalize_date(:date => ['(1997 Okt.)'])
-#          expect(h[:date]).to eq('1997-10')
-#        end
-#
-#        it 'extracts days if month and year are present' do
-#          h = n.normalize_date(:date => ['(15 May 1984)'])
-#          expect(h[:date]).to eq('1984-05-15')
-#        end
-#      end
-#
-#      describe '#normalize_volume' do
-#        it "strips in from beginning" do
-#          expect(n.normalize_volume(:volume => '11(2/3)'))
-#            .to eq({ :volume => 11, :number => '2/3' })
-#        end
-#      end
-#
 #    end
 #
 #  end

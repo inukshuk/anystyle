@@ -6,52 +6,102 @@ module AnyStyle
       # TODO return seasons/ intervals in ISO/EDTF format
       def normalize(item)
         map_values(item) do |_, value|
-          unless (month = MONTH[value]).nil?
-            month = '%02d' % month
-          end
-
-          if value =~ /(\d{4})/
-            year = $1
-
-            if month && value =~ /\b(\d{1,2})\b/
-              day = '%02d' % $1.to_i
-            end
-
-            [year, month, day].compact.join('-')
-          else
+          case
+          when unknown?(value)
+            'XXXX'
+          when interval?(value)
             value
+          # TODO AD/BC
+          when iso?(value)
+            value
+          else
+            year = extract_year(value)
+            unless year.nil?
+              month = extract_month_by_name(value)
+              day = extract_day(value) unless month.nil?
+              [
+                [year, month, day].compact.join('-'),
+                extract_uncertainty(value)
+              ].compact.join('')
+            else
+              value
+            end
           end
         end
       end
 
-      MONTH = Hash.new do |h,k|
-        case k
-        when /jan/i
-          h[k] = 1
-        when /feb/i
-          h[k] = 2
-        when /mar/i
-          h[k] = 3
-        when /apr/i
-          h[k] = 4
-        when /ma[yi]/i
-          h[k] = 5
-        when /jun/i
-          h[k] = 6
-        when /jul/i
-          h[k] = 7
-        when /aug/i
-          h[k] = 8
-        when /sep/i
-          h[k] = 9
-        when /o[ck]t/i
-          h[k] = 10
-        when /nov/i
-          h[k] = 11
-        when /dec/i
-          h[k] = 12
+      def iso?(date)
+        date =~ /[012]\d\d\d-\d\d-\d\d/
+      end
+
+      def interval?(date)
+        date =~ /\/|\s\p{Pd}\s|(\s([12]?\d|30)\p{Pd}([12]?\d|3[01])?)/
+      end
+
+      def unknown?(date)
+        date =~ /inconnue|unknown|unbekannt|[ns]\. ?d\b|no date/i
+      end
+
+      def uncertain?(date)
+        date =~ /\?/
+      end
+
+      def approximate?(date)
+        date =~ /(\b(circa|ca\.|vers|approx))|(^[cv]\.)/i
+      end
+
+      def extract_uncertainty(date)
+        if approximate?(date)
+          uncertain?(date) ? '%' : '~'
         else
-          h[k] = nil
+          uncertain?(date) ? '?' : nil
+        end
+      end
+
+      def extract_year(date)
+        if date =~ /\D?([012]\d\d\d)\D?/
+          $1
+        else
+          nil
+        end
+      end
+
+      def extract_day(date)
+        if date =~ /\b([012]?\d|3[01])\b/
+          '%02d' % $1.to_i
+        else
+          nil
+        end
+      end
+
+      def extract_month_by_name(date)
+        case date
+        when /\bjan/i
+          '01'
+        when /\bf(eb|év)/i
+          '02'
+        when /\bmar/i
+          '03'
+        when /\ba[pv]r/i
+          '04'
+        when /\bma[yi]/i
+          '05'
+        when /\bjui?n/i
+          '06'
+        when /\bjui?l/i
+          '07'
+        when /\ba(ug|oût)/i
+          '08'
+        when /\bsep/i
+          '09'
+        when /\bo[ck]t/i
+          '10'
+        when /\bnov/i
+          '11'
+        when /\bd[eé]c/i
+          '12'
+        else
+          nil
         end
       end
     end
