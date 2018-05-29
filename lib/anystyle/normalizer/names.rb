@@ -25,7 +25,7 @@ module AnyStyle
           value.gsub!(/(^[\(\[]|[,;:\)\]]+$)/, '')
           case
           when repeater?(value) && prev.length > 0
-            prev[-1][key][0] || prev[1][:author][0]
+            prev[-1][key][0] || prev[-1][:author][0]
           else
             begin
               parse(strip(value))
