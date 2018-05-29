@@ -161,9 +161,15 @@ module AnyStyle
       }
     end
 
-    def flatten_values(hash, skip: [])
+    def flatten_values(hash, skip: [], spacer: ' ')
       hash.each_pair do |key, value|
-        hash[key] = value[0] if value.is_a?(Array) && !skip.include?(key)
+        unless !value.is_a?(Array) || skip.include?(key)
+          if value.length > 1 && value[0].respond_to?(:join)
+            hash[key] = value.join(spacer)
+          else
+            hash[key] = value[0]
+          end
+        end
       end
     end
 
