@@ -52,6 +52,15 @@ module Fixtures
   end
 end
 
+module Resources
+  PATH = File.expand_path('../../res', __FILE__).untaint
+
+  def resource(name = 'parser/core.xml', format: 'hash', **opts)
+    AnyStyle::Parser.new.parse File.join(PATH, name), format: format, **opts
+  end
+end
+
 RSpec.configure do |config|
   config.include Fixtures
+  config.include Resources
 end
