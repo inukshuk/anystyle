@@ -16,5 +16,11 @@ module AnyStyle
       expect(bib[0].title).to eq('L’écriture et la différence')
       expect(bib[0].edition).to eq('1')
     end
+
+    it 'Converts Core Data to BibTeX' do
+      bib = resource('parser/core.xml', format: 'bibtex')
+      expect(bib).to be_a(::BibTeX::Bibliography)
+      expect(bib.size).to be > 900
+    end
   end
 end

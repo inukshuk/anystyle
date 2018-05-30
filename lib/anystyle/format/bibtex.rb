@@ -16,12 +16,8 @@ module AnyStyle
         format_hash(dataset).each do |hash|
           flatten_values hash, skip: Normalizer::Names.keys
 
-          if hash.key?(:type)
-            hash[:bibtex_type] = TYPES[hash[:type]] || hash[:type]
-            hash.delete :type
-          else
-            hash[:bibtex_type] = 'misc'
-          end
+          hash[:bibtex_type] = TYPES[hash[:type]] || hash[:type] || 'misc'
+          hash.delete :type
 
           case hash[:bibtex_type]
           when 'article'
