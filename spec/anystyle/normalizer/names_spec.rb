@@ -135,5 +135,22 @@ module AnyStyle
         expect(n('J Doe ...')).to eq([doe, others])
       end
     end
+
+    describe "Parsed Core Data" do
+      before :all do
+        @data = resource('parser/core.xml')
+          .map { |item| item.values_at(*Normalizer::Names.keys) }
+          .flatten
+          .uniq
+          .reject { |name| name.nil? || name[:other] }
+      end
+
+      let(:lit) { @data.select { |name| !name[:literal].nil? } }
+      let(:nam) { @data.select { |name| name[:literal].nil? } }
+
+      it "accepts more than 95% of names" do
+        expect(nam.length.to_f / @data.length).to be > 0.95
+      end
+    end
   end
 end
