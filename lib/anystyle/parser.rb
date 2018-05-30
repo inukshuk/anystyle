@@ -125,10 +125,10 @@ module AnyStyle
       ]
 
       @normalizers = [
-        Normalizer::Journal.new,
         Normalizer::Quotes.new,
         Normalizer::Brackets.new,
         Normalizer::Punctuation.new,
+        Normalizer::Journal.new,
         Normalizer::Container.new,
         Normalizer::Edition.new,
         Normalizer::Volume.new,

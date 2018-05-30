@@ -5,7 +5,7 @@ module AnyStyle
 
       def normalize(item, **opts)
         map_values(item) do |_, value|
-          value.gsub(/^[Ii]n:?\s+/, '')
+          value.sub(/^[Ii]n(?::|\s+the)?\s+(\p{^Ll})/, '\1')
         end
       end
     end
