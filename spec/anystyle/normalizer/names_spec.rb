@@ -80,14 +80,14 @@ module AnyStyle
             { family: 'Kelly', given: 'J.W.' }
           ]],
           ['Bouchard J-P.', [{ family: 'Bouchard', given: 'J.-P.' }]],
-          ['Edgar A. Poe; Herman Melville', [poe, melville]],
+          ['- Edgar A. Poe; Herman Melville', [poe, melville]],
           ['Poe, Edgar A., Melville, Herman', [poe, melville]],
           ['Aeschlimann Magnin, E.', [{ family: 'Aeschlimann Magnin', given: 'E.' }]],
           ['Yang, Q., Mudambi, R., & Meyer, K. E.', [
             { family: 'Yang', given: 'Q.' },
             { family: 'Mudambi', given: 'R.' },
             { family: 'Meyer', given: 'K.E.' }
-          ]]
+          ]],
         ].each do |input, output|
             expect(n(input)).to eq(output)
           end
@@ -99,6 +99,7 @@ module AnyStyle
            expect(n('In: D. Knuth (ed.)')).to eq([knuth])
            expect(n('in: D. Knuth ed.')).to eq([knuth])
            expect(n('in D. Knuth (ed)')).to eq([knuth])
+           expect(n('In D. Knuth, editor')).to eq([knuth])
         end
 
         it "does not strip 'ed' etc. from names" do
@@ -126,14 +127,18 @@ module AnyStyle
 
       it "strips and resolves 'et al' / others" do
         expect(n('J Doe et al')).to eq([doe, others])
-        expect(n('J Doe et al.')).to eq([doe, others])
+        expect(n('Doe, J., et al.')).to eq([doe, others])
         expect(n('J Doe u.a.')).to eq([doe, others])
         expect(n('J Doe u. a.')).to eq([doe, others])
         expect(n('J Doe and others')).to eq([doe, others])
         expect(n('J Doe & others')).to eq([doe, others])
         expect(n('J Doe et coll.')).to eq([doe, others])
-        expect(n('J Doe ...')).to eq([doe, others])
       end
+    end
+
+    it "#strip" do
+      expect(subject.strip('Piveteau, J. (ed.).')).to eq('Piveteau, J.')
+      expect(subject.strip('In D. Knuth, editor.')).to eq('D. Knuth')
     end
 
     describe "Parsed Core Data" do
@@ -148,8 +153,8 @@ module AnyStyle
       let(:lit) { @data.select { |name| !name[:literal].nil? } }
       let(:nam) { @data.select { |name| name[:literal].nil? } }
 
-      it "accepts more than 95% of names" do
-        expect(nam.length.to_f / @data.length).to be > 0.95
+      it "accepts more than 98% of names" do
+        expect(nam.length.to_f / @data.length).to be > 0.98
       end
     end
   end

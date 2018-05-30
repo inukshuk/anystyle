@@ -43,7 +43,7 @@ module AnyStyle
       def strip(value)
         value
           .gsub(/^[Ii]n:?\s+/, '')
-          .gsub(/\b[EÉeé]d(s?\.|itors?|ited|iteurs?|ité)(\s+(by|par)\s+|\b|$)?/, '')
+          .gsub(/\b[EÉeé]d(s?\.|itors?\.?|ited|iteurs?|ité)(\s+(by|par)\s+|\b|$)/, '')
           .gsub(/\b([Hh](rsg|gg?)\.|Herausgeber)\s+/, '')
           .gsub(/\b[Hh]erausgegeben von\s+/, '')
           .gsub(/\b((d|ein)er )?[Üü]ber(s\.|setzt|setzung|tragen|tragung) v(\.|on)\s+/, '')
@@ -52,14 +52,21 @@ module AnyStyle
           .gsub(/\b([Dd]ir(\.|ected))(\s+by)?\s+/, '')
           .gsub(/\b([Pp]rod(\.|uce[rd]))(\s+by)?\s+/, '')
           .gsub(/\b([Pp]erf(\.|orme[rd]))(\s+by)?\s+/, '')
+          .gsub(/\*/, '')
           .gsub(/\([^\)]*\)?/, '')
+          .gsub(/\[[^\]]*\)?/, '')
           .gsub(/[;:]/, ',')
-          .strip
+          .gsub(/^\p{^L}+|\s+\p{^L}+$/, '')
+          .gsub(/[\s,]+$/, '')
+          .gsub(/,{2,}/, ',')
+          .gsub(/\s+\./, '.')
       end
 
       def parse(value)
+        raise ArgumentError if value.empty?
+
         others = value.sub!(
-          /(\bet\s+(al|coll)\b|\bu\.\s*a\.|(\band|\&)\s+others).*$/, ''
+          /(,\s+)?((\&\s+)?\bet\s+(al|coll)\b|\bu\.\s*a\b|(\band|\&)\s+others).*$/, ''
         ) || value.sub!(/\.\.\.|…/, '')
 
         # Add surname/initial punctuation separator for Vancouver-style names
