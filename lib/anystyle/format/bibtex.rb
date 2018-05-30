@@ -14,7 +14,7 @@ module AnyStyle
 
         b = ::BibTeX::Bibliography.new
         format_hash(dataset).each do |hash|
-          flatten_values hash, { skip: [:author, :editor, :translator] }
+          flatten_values hash, skip: Normalizer::Names.keys
 
           if hash.key?(:type)
             hash[:bibtex_type] = TYPES[hash[:type]] || hash[:type]
@@ -33,9 +33,9 @@ module AnyStyle
             rename_value hash, :publisher, :school
           end
 
-          names_to_bibtex hash, :author
-          names_to_bibtex hash, :editor
-          names_to_bibtex hash, :translator
+          Normalizer::Names.keys.each do |role|
+            names_to_bibtex hash, role
+          end
 
           rename_value hash, :'collection-title', :series
           rename_value hash, :'container-title', :booktitle
@@ -54,12 +54,8 @@ module AnyStyle
             case
             when name.key?(:literal)
               name[:literal]
-            when name.key?(:family) && name.key(:given)
-              "#{name[:family]}, #{name[:given]}"
-            when name.key?(:family)
-              name[:family]
-            when name.key?(:given)
-              name[:given]
+            when name.key?(:family) || name.key?(:given)
+              name.values_at(:family, :suffix, :given).compact.join(', ')
             else
               nil
             end
