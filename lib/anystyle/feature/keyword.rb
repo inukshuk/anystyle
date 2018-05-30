@@ -7,25 +7,25 @@ module AnyStyle
           :and
         else
           case alpha
-          when /^(ed|editor|editors|eds|edited)$/i,
+          when /^ed(s|itors?|ited?|iteurs?)?$/i,
                /^(hg|hrsg|herausgeber)$/i,
                /^(compilador)$/i
             :editor
-          when /^(trans(lated)?|translation)$/i,
-               /^(übers(etzung)?)$/i,
-               /^(trad(uction)?)$/i
+          when /^trans(l(ated|ators?|ation))?$/i,
+               /^übers(etz(t|ung))?$/i,
+               /^trad(uction|ucteurs?|uit)?$/i
             :translator
           when /^(dissertation|thesis)$/i
             :thesis
-          when /^(proceedings|conference|meeting)/i
+          when /^(proceedings|conference|meeting|transactions|communications|seminar|symposi(on|um))/i
             :proceedings
-          when /^(journal|zeitschrift|quarterly|review|revue)/i
+          when /^(Journal|Zeitschrift|Quarterly|Magazine?|Times|Rev(iew|vue)?|Bulletin|News)/
             :journal
           when /^in$/i
             :in
-          when /^(and|und|y|e)$/
+          when /^([AaUu]nd|y|e)$/
             :and
-          when /^(etal)$/
+          when /^(etal|others)$/
             :etal
           when /^(pp?|pages?|S(eiten?)?|ff?)$/
             :page
