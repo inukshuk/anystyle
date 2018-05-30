@@ -11,6 +11,12 @@ module AnyStyle
     end
 
     describe "Name Parsing" do
+      let(:doe) {{ family: 'Doe', given: 'J.' }}
+      let(:poe) {{ family: 'Poe', given: 'Edgar A.' }}
+      let(:melville) {{ family: 'Melville', given: 'Herman' }}
+      let(:knuth) {{ family: 'Knuth', given: 'D.' }}
+      let(:others) {{ others: true }}
+
       it "supports mixed lists" do
         expect(n('A, B, C, D')).to eq([
           { family: 'A', given: 'B.' },
@@ -55,49 +61,78 @@ module AnyStyle
           { family: 'Plath', given: 'L.C.' },
           { family: 'Asgaard', given: 'G.' },
           { family: 'Botros', given: 'N.' },
-          { others: true }
+          others
         ]
 
         expect(n('Plath, L.C., Asgaard, G., ... Botros, N.')).to eq(authors)
         expect(n('Plath, L.C., Asgaard, G., … Botros, N.')).to eq(authors)
       end
 
-      [
-        ['J Doe', [{ family: 'Doe', given: 'J.' }]],
-        ['Doe, J', [{ family: 'Doe', given: 'J.' }]],
-        ['JE Doe', [{ family: 'Doe', given: 'J.E.' }]],
-        ['Doe, JE', [{ family: 'Doe', given: 'J.E.' }]],
-        ['Dendle MT, Sacchettini JC, Kelly JW', [
-          { family: 'Dendle', given: 'M.T.' },
-          { family: 'Sacchettini', given: 'J.C.' },
-          { family: 'Kelly', given: 'J.W.' }
-        ]],
-        ['Bouchard J-P.', [{ family: 'Bouchard', given: 'J.-P.' }]],
-        ['Edgar A. Poe; Herman Melville', [
-          { family: 'Poe', given: 'Edgar A.' },
-          { family: 'Melville', given: 'Herman' }
-        ]],
-        ['Poe, Edgar A., Melville, Herman', [
-          { family: 'Poe', given: 'Edgar A.' },
-          { family: 'Melville', given: 'Herman' }
-        ]],
-        ['Aeschlimann Magnin, E.', [{ family: 'Aeschlimann Magnin', given: 'E.' }]],
-        ['Yang, Q., Mudambi, R., & Meyer, K. E.', [
-          { family: 'Yang', given: 'Q.' },
-          { family: 'Mudambi', given: 'R.' },
-          { family: 'Meyer', given: 'K.E.' }
-        ]]
-      ].each do |input, output|
-        it "tokenizes #{input.inspect}" do
-          expect(n(input)).to eq(output)
+      it "tokenizes real names" do
+        [
+          ['J Doe', [doe]],
+          ['Doe, J', [doe]],
+          ['JE Doe', [{ family: 'Doe', given: 'J.E.' }]],
+          ['Doe, JE', [{ family: 'Doe', given: 'J.E.' }]],
+          ['Dendle MT, Sacchettini JC, Kelly JW', [
+            { family: 'Dendle', given: 'M.T.' },
+            { family: 'Sacchettini', given: 'J.C.' },
+            { family: 'Kelly', given: 'J.W.' }
+          ]],
+          ['Bouchard J-P.', [{ family: 'Bouchard', given: 'J.-P.' }]],
+          ['Edgar A. Poe; Herman Melville', [poe, melville]],
+          ['Poe, Edgar A., Melville, Herman', [poe, melville]],
+          ['Aeschlimann Magnin, E.', [{ family: 'Aeschlimann Magnin', given: 'E.' }]],
+          ['Yang, Q., Mudambi, R., & Meyer, K. E.', [
+            { family: 'Yang', given: 'Q.' },
+            { family: 'Mudambi', given: 'R.' },
+            { family: 'Meyer', given: 'K.E.' }
+          ]]
+        ].each do |input, output|
+            expect(n(input)).to eq(output)
+          end
+      end
+
+      describe "Editor Patterns" do
+        it "tokenizes editors" do
+           expect(n('In D. Knuth (ed.)')).to eq([knuth])
+           expect(n('In: D. Knuth (ed.)')).to eq([knuth])
+           expect(n('in: D. Knuth ed.')).to eq([knuth])
+           expect(n('in D. Knuth (ed)')).to eq([knuth])
+        end
+
+        it "does not strip 'ed' etc. from names" do
+           expect(n('In Edward Wood')).to eq([{ family: 'Wood', given: 'Edward' }])
+           expect(n('ed. by Alfred Wood')).to eq([{ family: 'Wood', given: 'Alfred' }])
+           expect(n('edited by A. Wooded')).to eq([{ family: 'Wooded', given: 'A.' }])
+           expect(n('édited par A. Wooded')).to eq([{ family: 'Wooded', given: 'A.' }])
+           expect(n('Hrsg Wood, H. (Hg.)')).to eq([{ family: 'Hrsg Wood', given: 'H.' }])
         end
       end
 
-      it "tokenizes editors" do
-         expect(n('In D. Knuth (ed.)')).to eq([{ family: 'Knuth', given: 'D.' }])
-         expect(n('In: D. Knuth (ed.)')).to eq([{ family: 'Knuth', given: 'D.' }])
-         expect(n('in: D. Knuth ed.')).to eq([{ family: 'Knuth', given: 'D.' }])
-         expect(n('in D. Knuth (ed)')).to eq([{ family: 'Knuth', given: 'D.' }])
+      describe 'Translator Patterns' do
+        it "strips translation patterns" do
+          expect(n('Translated by J Doe')).to eq([doe])
+          expect(n('Trans. by J Doe')).to eq([doe])
+          expect(n('Transl. J Doe')).to eq([doe])
+          expect(n('übersetzt von J Doe')).to eq([doe])
+          expect(n('übers. v. J Doe')).to eq([doe])
+          expect(n('Übersetzung v. J Doe')).to eq([doe])
+          expect(n('In einer Übersetzung von J Doe')).to eq([doe])
+          expect(n('Trad. J Doe')).to eq([doe])
+          expect(n('traduit par J Doe')).to eq([doe])
+        end
+      end
+
+      it "strips and resolves 'et al' / others" do
+        expect(n('J Doe et al')).to eq([doe, others])
+        expect(n('J Doe et al.')).to eq([doe, others])
+        expect(n('J Doe u.a.')).to eq([doe, others])
+        expect(n('J Doe u. a.')).to eq([doe, others])
+        expect(n('J Doe and others')).to eq([doe, others])
+        expect(n('J Doe & others')).to eq([doe, others])
+        expect(n('J Doe et coll.')).to eq([doe, others])
+        expect(n('J Doe ...')).to eq([doe, others])
       end
     end
   end
