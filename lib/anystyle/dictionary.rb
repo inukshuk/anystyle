@@ -23,7 +23,7 @@ module AnyStyle
         options = defaults.merge(options || {})
         adapter = options.delete :adapter
 
-        case adapter
+        case adapter.to_sym
         when :memory, :hash
           new options
         when :gdbm
@@ -35,7 +35,7 @@ module AnyStyle
         when :redis
           require 'anystyle/dictionary/redis'
           Dictionary::Redis.new options
-        when :marshal
+        when :marshal, :ruby
           require 'anystyle/dictionary/marshal'
           Dictionary::Marshal.new options
         else

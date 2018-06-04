@@ -2,7 +2,7 @@ module AnyStyle
   module Format
     module CSL
       def format_csl(dataset, symbolize_keys: false, **opts)
-        format_hash(dataset, symbolize_keys: symoblize_keys).map do |hash|
+        format_hash(dataset, symbolize_keys: symbolize_keys).map do |hash|
           flatten_values hash, skip: Normalizer::Names.keys
 
           rename_value hash, 'pages', 'page'
