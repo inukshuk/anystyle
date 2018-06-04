@@ -137,8 +137,9 @@ module AnyStyle
     end
 
     it "#strip" do
-      expect(subject.strip('Piveteau, J. (ed.).')).to eq('Piveteau, J.')
+      expect(subject.strip('Piveteau, J. (ed.).')).to eq('Piveteau, J')
       expect(subject.strip('In D. Knuth, editor.')).to eq('D. Knuth')
+      expect(subject.strip('J.J. Leggo.')).to eq('J.J. Leggo')
     end
 
     describe "Parsed Core Data" do
