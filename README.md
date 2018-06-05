@@ -4,20 +4,30 @@ AnyStyle
 [![Coverage Status](https://coveralls.io/repos/github/inukshuk/anystyle/badge.svg?branch=master)](https://coveralls.io/github/inukshuk/anystyle?branch=master)
 
 AnyStyle is a very fast and smart parser for academic references. It
-is inspired by [ParsCit](http://aye.comp.nus.edu.sg/parsCit/) and
-[FreeCite](http://freecite.library.brown.edu/); AnyStyle uses machine
-learning algorithms ([wapiti](https://github.com/inukshuk/wapiti-ruby))
-and GDBM or [Redis](http://redis.io) as a key-value store, and is
-designed to make it easy to train the model with data that is relevant
-to your parsing needs.
+was originally inspired by [ParsCit](http://aye.comp.nus.edu.sg/parsCit/)
+and [FreeCite](http://freecite.library.brown.edu/); AnyStyle uses machine
+learning algorithms and aims to make it easy to train the model with data
+that is relevant to your parsing needs.
+
+
+
+Using AnyStyle CLI
+------------------
+
+    $ [sudo] gem install anystyle-cli
+    $ anystyle --help
+
 
 Web Application and Web Service
 -------------------------------
 AnyStyle is available as a web-application and service at
-[anystyle.io](https://anystyle.io).
+[anystyle.io](https://anystyle.io). Please note that the
+web service is currently based on the legacy
+[0.x branch](https://github.com/inukshuk/anystyle/tree/0.x).
 
-Installation
-------------
+
+Using AnyStyle in Ruby
+----------------------
 
     $ [sudo] gem install anystyle
 
@@ -28,12 +38,17 @@ are part of the Ruby standard library and are supported on all platforms,
 but you may have to install GDBM on your platform before installing Ruby.
 
 If you do not want to use the GBDM bindings, you can store your dictionary
-in memory (not recommended) or use a Redis. The best way to change the
-default dictionary adapter is by adjusting AnyStyle's default configuration
-before using the parser:
+using a persistent Ruby hash, in memory (not recommended) or use a Redis.
+The best way to change the default dictionary adapter is by adjusting
+AnyStyle's default configuration (when using the default parser instances
+you must set the default before using the parser!):
+
+    AnyStyle::Dictionary.defaults[:adapter] = :ruby
+    #-> Use a persistent Ruby hash;
+    #-> slower start-up than GDBM but no extra dependency
 
     AnyStyle::Dictionary.defaults[:adapter] = :hash
-    #-> Use in-memory dictionary; slow but easy to setup
+    #-> Use in-memory dictionary; slow start-up but no setup necessary
 
 To use Redis, install the `redis` and `redis/namespace` (optional) Gems
 and configure AnyStyle to use the Redis adapter:
