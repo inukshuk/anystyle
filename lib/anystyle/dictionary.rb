@@ -10,7 +10,7 @@ module AnyStyle
     @code.freeze
 
     @defaults = {
-      adapter: :gdbm,
+      adapter: :ruby,
       source: nil
     }
 

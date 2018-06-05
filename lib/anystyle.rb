@@ -7,7 +7,6 @@ require 'anystyle/errors'
 require 'anystyle/utils'
 require 'anystyle/dictionary'
 require 'anystyle/dictionary/marshal'
-require 'anystyle/dictionary/gdbm'
 require 'anystyle/data'
 
 require 'anystyle/feature'

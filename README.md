@@ -31,24 +31,42 @@ Using AnyStyle in Ruby
 
     $ [sudo] gem install anystyle
 
-During the statistical analysis of reference strings, AnyStyle relies
-on a large feature dictionary; by default, AnyStyle creates a GDBM
-database file in the folder of the `anystyle-data` Gem. GDBM bindings
-are part of the Ruby standard library and are supported on all platforms,
-but you may have to install GDBM on your platform before installing Ruby.
 
-If you do not want to use the GBDM bindings, you can store your dictionary
-using a persistent Ruby hash, in memory (not recommended) or use a Redis.
-The best way to change the default dictionary adapter is by adjusting
-AnyStyle's default configuration (when using the default parser instances
-you must set the default before using the parser!):
+Reference Parsing
+-----------------
+
+Document Parsing
+----------------
+
+Training
+--------
+
+Dictionary Adapters
+-------------------
+During the statistical analysis of reference strings, AnyStyle relies
+on a large feature dictionary; by default, AnyStyle creates a persistent
+Ruby Hash in the folder of the `anystyle-data` Gem. This uses up about
+2MB of disk space and keeps the entire dictionary in memory. If you prefer
+a smaller memory footprint, you can alternatively use AnyStyle's GDBM
+dictionary. GDBM bindings are part of the Ruby standard library and are
+supported on all platforms, but you may have to install GDBM on your
+platform before installing Ruby.
+
+If you do not want to use the the persistent Ruyb Hash nor the GBDM
+bindings, you can store your dictionary in memory (not recommended) or
+use a Redis. The best way to change the default dictionary adapter is by
+adjusting AnyStyle's default configuration (when using the default parser
+instances you must set the default before using the parser):
 
     AnyStyle::Dictionary.defaults[:adapter] = :ruby
     #-> Use a persistent Ruby hash;
     #-> slower start-up than GDBM but no extra dependency
 
     AnyStyle::Dictionary.defaults[:adapter] = :hash
-    #-> Use in-memory dictionary; slow start-up but no setup necessary
+    #-> Use in-memory dictionary; slow start-up but uses no space on disk
+
+    require 'anystyle/dictionary/gdbm'
+    AnyStyle::Dictionary.defaults[:adapter] = :gdbm
 
 To use Redis, install the `redis` and `redis/namespace` (optional) Gems
 and configure AnyStyle to use the Redis adapter:
@@ -59,15 +77,6 @@ and configure AnyStyle to use the Redis adapter:
     require 'anystyle/dictionary/redis'
     AnyStyle::Dictionary::Redis.defaults[:host] = 'localhost'
     AnyStyle::Dictionary::Redis.defaults[:port] = 6379
-
-Reference Parsing
------------------
-
-Document Parsing
-----------------
-
-Training
---------
 
 Contributing
 ------------
