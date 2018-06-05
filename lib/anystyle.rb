@@ -64,4 +64,8 @@ module AnyStyle
   def self.finder
     Finder.instance
   end
+
+  def self.find(*arguments)
+    finder.find(*arguments)
+  end
 end
