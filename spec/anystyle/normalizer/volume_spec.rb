@@ -54,6 +54,9 @@ module AnyStyle
       end
     end
 
+    it "extracts number of volumess"
+      # 8 vols.
+
     it "extracts page numbers"
       # 17(1)73-84.
       # 0731-5090 vol.34 no.2

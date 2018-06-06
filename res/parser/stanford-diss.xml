@@ -1,4 +1,4 @@
-<oxml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <dataset>
   <sequence>
     <author>Leftwich, Richard H.</author>
@@ -211,11 +211,7 @@
     <journal>Econometrica,</journal>
     <volume>Vol. XV</volume>
     <date>(April, 1947),</date>
-    <editor>as reprinted in William C. Hood and Tjalling Koopmans,</editor>
-    <container-title>Studies in Econometric Methods,</container-title>
-    <location>New York:</location>
-    <publisher>John Wiley,</publisher>
-    <date>1953.</date>
+    <note>as reprinted in William C. Hood and Tjalling Koopmans, Studies in Econometric Methods, New York: John Wiley, 1953.</note>
   </sequence>
   <sequence>
     <author>Nugent, Jan.</author>
@@ -333,7 +329,8 @@
   <sequence>
     <author>Cohen, Kalman J. and Richard M. Cyert.</author>
     <title>Theory of the Firm.</title>
-    <publisher>Englewood Cliffs:Prentice-Hall, Inc.,</publisher>
+    <location>Englewood Cliffs:</location>
+    <publisher>Prentice-Hall, Inc.,</publisher>
     <date>1965.</date>
   </sequence>
   <sequence>
@@ -398,7 +395,8 @@
   <sequence>
     <author>Allen J. Knight.</author>
     <title>The Corporate Planner and His Job.</title>
-    <note>Stanford Research Institute Long Range Planning Report No. 125.</note>
+    <journal>Stanford Research Institute Long Range Planning Report</journal>
+    <volume>No. 125.</volume>
     <location>Menlo Park, California:</location>
     <publisher>Stanford Research Institute,</publisher>
     <date>1962.</date>
@@ -463,7 +461,8 @@
   <sequence>
     <author>Ringbakk, Kjell-Arne and Robert W. Dawson.</author>
     <title>Organized Planning in 40 Major U.S. Corporations.</title>
-    <note>Stanford Research Institute Long Range Planning Report No. 365.</note>
+    <journal>Stanford Research Institute Long Range Planning Report</journal>
+    <volume>No. 365.</volume>
     <location>Menlo Park, California:</location>
     <publisher>Stanford Research Institute,</publisher>
     <date>1968.</date>
@@ -511,7 +510,8 @@
   <sequence>
     <author>Dunker, Karl.</author>
     <title>On Problem Solving.</title>
-    <container-title>Reprinted in Psychological Monographs,</container-title>
+    <edition>Reprinted</edition>
+    <container-title>in Psychological Monographs,</container-title>
     <editor>J.F. Dashiell (ed.),</editor>
     <volume>Vol. LVIII,</volume>
     <location>Washington, D.C.:</location>
@@ -557,7 +557,8 @@
   <sequence>
     <author>Cleland, David Ira.</author>
     <title>The Origin and Development of a Philosophy of Long-Range Planning in American Business.</title>
-    <note>United States Research and Development Report AD 807 258.</note>
+    <journal>United States Research and Development Report</journal>
+    <volume>AD 807 258.</volume>
     <location>Alexandria, Virginia:</location>
     <publisher>Deiense Documentation Center.</publisher>
     <date>1967.</date>
@@ -565,7 +566,8 @@
   <sequence>
     <author>__________ .</author>
     <title>The Evolution of Corporate Planning.</title>
-    <note>Stanford Research Institute Long-Range Planning Report No. 329.</note>
+    <journal>Stanford Research Institute Long-Range Planning Report</journal>
+    <volume>No. 329.</volume>
     <location>Menlo Park, California:</location>
     <publisher>Stanford Research Institute,</publisher>
     <date>1967.</date>
@@ -580,7 +582,7 @@
   <sequence>
     <author>Newell, A., J.C. Shaw, and H.A. Simon.</author>
     <title>"Elements of a Theory of Human Problem Solving."</title>
-    <publisher>Psychological Review,</publisher>
+    <journal>Psychological Review,</journal>
     <volume>LXV,</volume>
     <date>1958,</date>
     <pages>pp. 151-166.</pages>
@@ -588,7 +590,8 @@
   <sequence>
     <author>Stewart, Robert F.</author>
     <title>A Framework for Business Planning.</title>
-    <note>Stanford Research Institute Long-Range Planning Report No. 162.</note>
+    <journal>Stanford Research Institute Long-Range Planning Report</journal>
+    <volume>No. 162.</volume>
     <location>Menlo Park, California:</location>
     <publisher>Stanford Research Institute,</publisher>
     <date>1963.</date>
@@ -620,12 +623,13 @@
     <location>Minnesota:</location>
     <publisher>University of Minnesota,</publisher>
     <date>1957.</date>
-    <genre>(Unpublished Doctor's Disser­ tation. )</genre>
+    <note>(Unpublished Doctor's Disser­ tation. )</note>
   </sequence>
   <sequence>
     <author>Mason, R. Hal and John C. McKelvey.</author>
     <title>The Planning Organization.</title>
-    <note>Stanford Research Institute Long-Range Planning Report No. 133.</note>
+    <journal>Stanford Research Institute Long-Range Planning Report</journal>
+    <volume>No. 133.</volume>
     <location>Menlo Park, California:</location>
     <publisher>Stanford Research Institute,</publisher>
     <date>1962.</date>
@@ -647,7 +651,7 @@
   <sequence>
     <author>Weaver, A.E. and E.H. Madden.</author>
     <title>"Direction in Problem Solving."</title>
-    <publisher>Journal of Psychology,</publisher>
+    <journal>Journal of Psychology,</journal>
     <volume>XXVII,</volume>
     <date>1949,</date>
     <pages>pp. 331-345.</pages>
@@ -670,7 +674,8 @@
   <sequence>
     <author>Eagle, Alan R.</author>
     <title>Analytic Approaches in Planning.</title>
-    <note>Stanford Research Institute Long-Range Planning Report No. 238.</note>
+    <journal>Stanford Research Institute Long-Range Planning Report</journal>
+    <volume>No. 238.</volume>
     <location>Menlo Park, California:</location>
     <publisher>Stanford Research Institute,</publisher>
     <date>1965.</date>
@@ -689,7 +694,7 @@
     <location>Stanford, California:</location>
     <publisher>Stanford University Graduate School of Business,</publisher>
     <date>August, 1969.</date>
-    <genre>(Unpublished Doctor's Dissertation.)</genre>
+    <note>(Unpublished Doctor's Dissertation.)</note>
   </sequence>
   <sequence>
     <author>Litwin, George.</author>
@@ -697,7 +702,7 @@
     <location>Cambridge, Massachusetts:</location>
     <publisher>Harvard University Graduate School of Business,</publisher>
     <date>April, 1965.</date>
-    <genre>(Unpublished Doctor's Dissertation.)</genre>
+    <note>(Unpublished Doctor's Dissertation.)</note>
   </sequence>
   <sequence>
     <author>Taylor, W.D. and Q. McNemar.</author>

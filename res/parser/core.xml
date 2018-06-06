@@ -5278,15 +5278,6 @@
     <url>http://articles.businessinsider.com/2011-05-26/wall_street/29997602_1_new-york-fed-banks</url>
   </sequence>
   <sequence>
-    <author>Yglesias, Matthew.</author>
-    <date>2014.</date>
-    <title>“Obama’s biggest economic policy mistake.”</title>
-    <container-title>Vox</container-title>
-    <date>Septem- ber(17).</date>
-    <note>URL:</note>
-    <url>http://www.vox.com/2014/9/17/6219247/obamas-biggest-economic-policy-mistake</url>
-  </sequence>
-  <sequence>
     <author>DeLillo, Don.</author>
     <title>White Noise: Text and Criticism.</title>
     <editor>Edited by Mark Osteen.</editor>
@@ -5494,13 +5485,6 @@
     <journal>Geoarchaeology</journal>
     <volume>28:</volume>
     <pages>66-86.</pages>
-  </sequence>
-  <sequence>
-    <author>Gordon, Alexander.</author>
-    <date>1726.</date>
-    <title>Itinerarium septentrionale: or, A journey thro' most of the counties of Scotland, and those in the north of England. In two parts ... illus- trated with sixty-six copper plates.</title>
-    <location>London:</location>
-    <note>Printed for the author and sold by G. Strahan etc.</note>
   </sequence>
   <sequence>
     <author>———.</author>
@@ -6105,8 +6089,7 @@
     <author>Arbea, J.I., Mateos, E.</author>
     <date>1991.</date>
     <title>A new species of Collembola from northern Spain (Onychiuridae, Tullbergiinae).,</title>
-    <journal>Spixiana</journal>
-    <location>(munich)</location>
+    <journal>Spixiana (munich)</journal>
     <volume>14(2)</volume>
     <date>1991,</date>
     <pages>p.169-174.</pages>
@@ -7069,5 +7052,873 @@
     <edition>(1 éd.).</edition>
     <location>Paris:</location>
     <publisher>Éditions du Seuil.</publisher>
+  </sequence>
+  <sequence>
+    <author>Nixon, David C.</author>
+    <date>2005.</date>
+    <title>The Independent Regulatory Commissioner Database.</title>
+    <genre>Technical report</genre>
+    <publisher>University of Hawaii</publisher>
+    <location>Honolulu, HI: .</location>
+  </sequence>
+  <sequence>
+    <author>Palmer, Damon B.</author>
+    <date>2010.</date>
+    <title>Regulating Finance: Expert Cognitive Frameworks, Adaptive Learning, and Interests in Financial Regulatory Change</title>
+    <genre>PhD thesis</genre>
+    <publisher>Duke University.</publisher>
+  </sequence>
+  <sequence>
+    <author>Sandilands, Roger J.</author>
+    <date>2004.</date>
+    <title>“The relation of government to monetary control [1] March 29, 1935.”</title>
+    <journal>Journal of Economic Studies</journal>
+    <volume>31(3/4):</volume>
+    <pages>270–279.</pages>
+  </sequence>
+  <sequence>
+    <author>Woodman, David C.</author>
+    <date>2001.</date>
+    <title>“Utjulik 2001 Expedition Report.</title>
+    <genre>Manuscript.”</genre>
+    <location>Iqaluit:</location>
+    <publisher>Department of Culture, Language, Elders and Youth, Government of Nunavut.</publisher>
+  </sequence>
+  <sequence>
+    <author>Waller, Christopher J.</author>
+    <date>2011.</date>
+    <title>“Independence+ accountability: Why the Fed is a well-designed Central Bank.”</title>
+    <journal>Federal Reserve Bank of St. Louis Review</journal>
+    <volume>93(September/October 2011).</volume>
+  </sequence>
+  <sequence>
+    <author>Williams, Richard.</author>
+    <date>2014.</date>
+    <title>Generalized Logistic Regression/ Partial Proportional Odds Models for Ordinal Dependent Variables.</title>
+    <genre>Technical report</genre>
+    <publisher>University of Notre Dame</publisher>
+    <location>South Bend, IN: .</location>
+  </sequence>
+  <sequence>
+    <author>Yglesias, Matthew.</author>
+    <date>2014.</date>
+    <title>“Obama’s biggest economic policy mistake.”</title>
+    <journal>Vox</journal>
+    <date>September(17).</date>
+    <note>URL:</note>
+    <url>http://www.vox.com/2014/9/17/6219247/obamas-biggest-economic-policy-mistake</url>
+  </sequence>
+  <sequence>
+    <citation-number>[86]</citation-number>
+    <author>L. Piegl and W. Tiller,</author>
+    <title>The NURBS Book.</title>
+    <publisher>Springer</publisher>
+    <location>Berlin,</location>
+    <date>1997.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[62]</citation-number>
+    <author>D. H. van Hessem,</author>
+    <title>“Stochastic inequality constrained closed-loop model predictive control with application to chemical process operation,”</title>
+    <genre>Ph.D. dissertation,</genre>
+    <publisher>TU Delft,</publisher>
+    <date>2004.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[29]</citation-number>
+    <author>S. D. McPhail, M. Furlong, and M. Pebody,</author>
+    <title>“Low-altitude terrain following and collision avoidance in a flight-class autonomous underwater vehicles,”</title>
+    <journal>Proceedings of the Institution of Mechanical Engineers, Part M: Journal of Engineering for the Maritime Environment,</journal>
+    <volume>vol. 224, no. 4,</volume>
+    <pages>pp. 279–292,</pages>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[2]</citation-number>
+    <author>R. McEwen and K. Streitlien,</author>
+    <title>“Modeling and control of a variable-length AUV,”</title>
+    <container-title>in Unmanned Untethered Submersible Technology 2001,</container-title>
+    <date>2001.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[86]</citation-number>
+    <author>Pietquin, O. and Dutoit, T.,</author>
+    <title>“A probabilistic framework for dialog simulation and optimal strategy learning,”</title>
+    <journal>Audio, Speech, and Language Processing, IEEE Transactions on,</journal>
+    <volume>Vol. 14, No. 2,</volume>
+    <date>2006,</date>
+    <pages>pp. 589–599.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[3]</citation-number>
+    <author>Goure, D.,</author>
+    <title>“Modernizing the Department of Homeland Security’s Aerial Fleets,”</title>
+    <date>February 2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[124]</citation-number>
+    <author>H. M. Gibbs,</author>
+    <title>“Optical Switching: Controlling light with light,”</title>
+    <container-title>in “Optical Bistability: Controlling Light with Light,”</container-title>
+    <publisher>(Academic Press,</publisher>
+    <date>1985),</date>
+    <pages>chap. 5, pp. 195–239.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[6]</citation-number>
+    <author>L. Caspani, D. Duchesne, K. Dolgaleva, S. J. Wagner, M. Ferrera, L. Razzari, A. Pasquazi, M. Peccianti, D. J. Moss, J. S. Aitchison, and R. Morandotti,</author>
+    <title>“Optical frequency conversion in integrated devices [Invited],”</title>
+    <journal>Journal of the Optical Society of America B</journal>
+    <volume>28,</volume>
+    <pages>A67–A82</pages>
+    <date>(2011).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[41]</citation-number>
+    <author>W. H. Louisell,</author>
+    <title>“Correspondence between Pierce’s Coupled Mode Amplitudes and Quantum Operators,”</title>
+    <journal>Journal of Applied Physics</journal>
+    <volume>33,</volume>
+    <pages>2435</pages>
+    <date>(1962).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[15]</citation-number>
+    <author>D. Gerace and V. Savona,</author>
+    <title>“Unconventional photon blockade in doubly reso- nant microcavities with second-order nonlinearity,”</title>
+    <note>arXiv:1402.4587 [cond-mat, physics:physics, physics:quant-ph]</note>
+    <date>(2014).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[146]</citation-number>
+    <author>I. J. Luxmoore, E. D. Ahmadi, A. M. Fox, M. Hugues, and M. S. Skolnick,</author>
+    <title>“Unpolarized H1 photonic crystal nanocavities fabricated by stretched lattice design,”</title>
+    <journal>Applied Physics Letters</journal>
+    <volume>98,</volume>
+    <pages>041101</pages>
+    <date>(2011).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[176]</citation-number>
+    <author>K. Eberl, A. Kurtenbach, K. Häusler, F. Noll, and W. W. Rühle,</author>
+    <title>“Preparation and Time Resolved Photoluminescence of Nanoscale InP Islands in In0. 48Ga0. 52P,”</title>
+    <container-title>in “MRS Proceedings,”</container-title>
+    <volume>, vol. 379</volume>
+    <date>(1995),</date>
+    <volume>vol. 379.</volume>
+  </sequence>
+  <sequence>
+    <citation-number>[33]</citation-number>
+    <author>S. Buckley, M. Radulaski, J. L. Zhang, J. Petykiewicz, K. Biermann, and J. Vučković,</author>
+    <title>“Nonlinear frequency conversion using high quality modes in GaAs nanobeam cavities,”</title>
+    <note>arXiv 1407.1446, 4</note>
+    <date>(2014).</date>
+  </sequence>
+  <sequence>
+    <editor>Carter, Ronald and John McRae, eds.</editor>
+    <title>The Routledge History of Literature in English: Britain and Ireland.</title>
+    <location>London:</location>
+    <publisher>Routledge,</publisher>
+    <date>2005.</date>
+  </sequence>
+  <sequence>
+    <author>Steffen, Tom A.</author>
+    <title>Passing the Baton: Church Planting That Empowers.,</title>
+    <location>La Habra, Calif.:</location>
+    <publisher>Center for Organizational &amp; Ministry Development.</publisher>
+    <date>1993.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[155]</citation-number>
+    <author>Pierre Sermanet, Andrea Frome, and Esteban Real.</author>
+    <title>Attention for fine-grained categorization.</title>
+    <note>arXiv preprint arXiv:1412.7054,</note>
+    <date>2014.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[62]</citation-number>
+    <author>Matt Taddy.</author>
+    <title>Document classification by inversion of distributed language representations.</title>
+    <note>arXiv preprint arXiv:1504.07295,</note>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[169]</citation-number>
+    <author>Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbig-niew Wojna.</author>
+    <title>Rethinking the inception architecture for computer vision.</title>
+    <container-title>In Computer Vision and Pattern Recognition (CVPR).</container-title>
+    <publisher>IEEE,</publisher>
+    <date>2016.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[113]</citation-number>
+    <author>Tsung-Yu Lin, Aruni RoyChowdhury, and Subhransu Maji.</author>
+    <title>Bilinear cnn models for fine-grained visual recognition.</title>
+    <container-title>In International Conference on Computer Vision (ICCV).</container-title>
+    <publisher>IEEE.</publisher>
+  </sequence>
+  <sequence>
+    <author>Adamson, Glenn.</author>
+    <title>« When Craft Gets Sloppy ».</title>
+    <journal>Crafts</journal>
+    <volume>no. 211.</volume>
+    <location>London :</location>
+    <publisher>Crafts Council</publisher>
+    <date>(March/April 2008),</date>
+    <pages>36-40.</pages>
+  </sequence>
+  <sequence>
+    <author>Leftwich, Richard H.</author>
+    <title>The Price System and Resource Allocation,</title>
+    <edition>Rev. ed.</edition>
+    <location>New York:</location>
+    <publisher>Holt, Rinehart and Winston,</publisher>
+    <date>1960.</date>
+  </sequence>
+  <sequence>
+    <author>U.S. Board of Governors of the Federal Reserve System.</author>
+    <title>Fifty-Third Annual Report.</title>
+    <location>Washington:</location>
+    <publisher>Federal Reserve System</publisher>
+    <date>(1966).</date>
+  </sequence>
+  <sequence>
+    <author>Gershick, M. A. and Trygve Haavelmo.</author>
+    <title>"Statistical Analysis of the Demand for Food: Examples of Simultaneous Estimation of Structural Equations,"</title>
+    <journal>Econometrica,</journal>
+    <volume>Vol. XV</volume>
+    <date>(April, 1947),</date>
+    <note>as reprinted in William C. Hood and Tjalling Koopmans, Studies in Econometric Methods, New York: John Wiley, 1953.</note>
+  </sequence>
+  <sequence>
+    <journal>Business Week,</journal>
+    <title>"Banks Try to Dodge Fed's Grasp,"</title>
+    <date>April 5, 1969.</date>
+  </sequence>
+  <sequence>
+    <editor>Edwards, Ward and Amos Tversky (eds.).</editor>
+    <title>Decision Making.</title>
+    <location>Baltimore, Maryland:</location>
+    <publisher>Penguin Books,</publisher>
+    <date>1967.</date>
+  </sequence>
+  <sequence>
+    <editor>Feigenbaum, Edward A. and Julian Feldman, (eds.).</editor>
+    <title>Computers and Thought.</title>
+    <location>New York:</location>
+    <publisher>McGraw-Hill Book Company,</publisher>
+    <date>1963.</date>
+  </sequence>
+  <sequence>
+    <author>Allen J. Knight.</author>
+    <title>The Corporate Planner and His Job.</title>
+    <journal>Stanford Research Institute Long Range Planning Report</journal>
+    <volume>No. 125.</volume>
+    <location>Menlo Park, California:</location>
+    <publisher>Stanford Research Institute,</publisher>
+    <date>1962.</date>
+  </sequence>
+  <sequence>
+    <author>Ringbakk, Kjell-Arne and Robert W. Dawson.</author>
+    <title>Organized Planning in 40 Major U.S. Corporations.</title>
+    <journal>Stanford Research Institute Long Range Planning Report</journal>
+    <volume>No. 365.</volume>
+    <location>Menlo Park, California:</location>
+    <publisher>Stanford Research Institute,</publisher>
+    <date>1968.</date>
+  </sequence>
+  <sequence>
+    <author>Dunker, Karl.</author>
+    <title>On Problem Solving.</title>
+    <edition>Reprinted</edition>
+    <container-title>in Psychological Monographs,</container-title>
+    <editor>J.F. Dashiell (ed.),</editor>
+    <volume>Vol. LVIII,</volume>
+    <location>Washington, D.C.:</location>
+    <publisher>The American Psychological Association,</publisher>
+    <date>1945.</date>
+  </sequence>
+  <sequence>
+    <author>Warren, E.K.</author>
+    <title>Long Range Planning: The Executive Viewpoint.</title>
+    <location>Englewood Cliffs, New Jersey:</location>
+    <publisher>Prentice-Hall, Inc.,</publisher>
+    <date>1966.</date>
+  </sequence>
+  <sequence>
+    <author>__________ .</author>
+    <title>The Evolution of Corporate Planning.</title>
+    <journal>Stanford Research Institute Long-Range Planning Report</journal>
+    <volume>No. 329.</volume>
+    <location>Menlo Park, California:</location>
+    <publisher>Stanford Research Institute,</publisher>
+    <date>1967.</date>
+  </sequence>
+  <sequence>
+    <author>Cleland, David Ira.</author>
+    <title>The Origin and Development of a Philosophy of Long-Range Planning in American Business.</title>
+    <journal>United States Research and Development Report</journal>
+    <volume>AD 807 258.</volume>
+    <location>Alexandria, Virginia:</location>
+    <publisher>Deiense Documentation Center.</publisher>
+    <date>1967.</date>
+  </sequence>
+  <sequence>
+    <author>The Boston Consulting Group.</author>
+    <title>Perspectives on Corporate Strategy.</title>
+    <location>Boston:</location>
+    <publisher>The Boston Consulting Group,</publisher>
+    <date>1968.</date>
+  </sequence>
+  <sequence>
+    <author>Wheelwright, Steven C.</author>
+    <title>"A Methodology for Identifying and Utilizing Corporate Objectives in the Strategic Planning Process."</title>
+    <location>Stanford, California:</location>
+    <publisher>Stanford University Graduate School of Business,</publisher>
+    <date>April, 1969.</date>
+    <note>(Xerox.)</note>
+  </sequence>
+  <sequence>
+    <author>Litwin, George.</author>
+    <title>The Language of Achievement: An Analysis of Achievement Related Themes in Fantasy Using Mechanical Methods.</title>
+    <location>Cambridge, Massachusetts:</location>
+    <publisher>Harvard University Graduate School of Business,</publisher>
+    <date>April, 1965.</date>
+    <note>(Unpublished Doctor's Dissertation.)</note>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <date>1820.</date>
+    <title>Robin Hood: a collection of all the ancient poems, songs, and bal- lads, now extant, relative to that celebrated English outlaw.</title>
+    <location>London:</location>
+    <publisher>Printed for Longman, Hurst, Rees, Orme.</publisher>
+  </sequence>
+  <sequence>
+    <author>Pearson, Mike.</author>
+    <date>2007.</date>
+    <title>In Comes I: Performance, Memory, and Landscape.</title>
+    <location>Exeter:</location>
+    <publisher>University of Exeter Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <date>1791.</date>
+    <title>Pieces of Ancient Popular Poetry: from Authentic Manuscripts and Old Printed Copies.</title>
+    <location>London,:</location>
+    <note>Printed by C. Clarke, for T. and J. Egerton.</note>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <date>1820.</date>
+    <title>Robin Hood: a collection of all the ancient poems, songs, and bal- lads, now extant, relative to that celebrated English outlaw.</title>
+    <location>London:</location>
+    <publisher>Printed for Longman, Hurst, Rees, Orme.</publisher>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <date>1810.</date>
+    <title>The Itinerary of Greece, with a commentary on Pausanias and Strabo, and an account of the Monuments of Antiquity at present existing in that country, compiled in the years 1801, 2, 5, 6 etc.</title>
+    <location>London:</location>
+    <publisher>T. Payne.</publisher>
+  </sequence>
+  <sequence>
+    <author>Hutchinson, William.</author>
+    <date>1778.</date>
+    <title>A View of Northumberland, with an Excursion to the Abbey of Mailross in Scotland.</title>
+    <location>Newcastle:</location>
+    <publisher>Printed by T. Saint by W. Charnley, Vesey and Whitfield.</publisher>
+  </sequence>
+  <sequence>
+    <author>Maneva, Blagovesta, &amp; Genesee, Fred.</author>
+    <date>2002.</date>
+    <title>Bilingual babbling: Evidence for language differentiation in dual language acquisition.</title>
+    <editor>In B. Skarabela, S. Fish, &amp; A. H.-J. Do (eds.),</editor>
+    <container-title>Proceedings of the 26th Boston University Conference on Language Development</container-title>
+    <pages>(383–392).</pages>
+    <location>Somerville, MA:</location>
+    <publisher>Cascadilla Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Shatz, Marilyn.</author>
+    <date>1983.</date>
+    <title>Communication.</title>
+    <editor>In J. H. Flavell &amp; E. M. Markman (eds.),</editor>
+    <container-title>Handbook of child psychology, vol. III: Cognitive development</container-title>
+    <edition>(4th edn)</edition>
+    <pages>(841–889).</pages>
+    <location>New York:</location>
+    <publisher>Wiley.</publisher>
+  </sequence>
+  <sequence>
+    <author>Prince, Ellen.</author>
+    <date>1981.</date>
+    <title>Toward a taxonomy of given-new information.</title>
+    <editor>In P. Cole (ed.),</editor>
+    <container-title>Radical pragmatics</container-title>
+    <pages>(223–255).</pages>
+    <location>New York:</location>
+    <publisher>Academic Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Genesee, Fred.</author>
+    <date>2006.</date>
+    <title>Bilingual first language acquisition in perspective.</title>
+    <editor>In P. McCardle &amp; E. Hoff (eds.),</editor>
+    <container-title>Childhood bilingualism</container-title>
+    <pages>(45–67).</pages>
+    <location>Clevedon, UK:</location>
+    <publisher>Multilingual Matters.</publisher>
+  </sequence>
+  <sequence>
+    <author>Benedict Anderson,</author>
+    <title>Imagined Communities: Reflections on the Origin and Spread of Nationalism,</title>
+    <edition>rev. ed.</edition>
+    <location>(London:</location>
+    <publisher>Verso,</publisher>
+    <date>1991),</date>
+    <pages>39 .</pages>
+  </sequence>
+  <sequence>
+    <author>Nadasdy P</author>
+    <date>(2007)</date>
+    <title>Adaptive co-management and the gospel of resilience.</title>
+    <container-title>In Adaptive Co-management: Collaboration, Learning, and Multi-level Governance.</container-title>
+    <editor>(Eds D Armitage, F Berkes, N Doubleday)</editor>
+    <pages>pp. 208– 227.</pages>
+    <publisher>UBC Press,</publisher>
+    <location>Vancouver.</location>
+  </sequence>
+  <sequence>
+    <author>Ohman, T., Raitala, J., Badjukov, D. and Lorenz, C.,</author>
+    <title>preliminary studies of the Syadmayakha suevites from Kara Crater, Russia,</title>
+    <journal>Meteoritics &amp; Planetary Science,</journal>
+    <volume>v.37, no.7,</volume>
+    <pages>pp.112.</pages>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <author>Allen, C. C., Gooding, J.L. and Keil,K.,</author>
+    <title>Hydrothermally altered impact melt from Brent and Ries craters (abstract).</title>
+    <journal>Lunar and Planetary Science,</journal>
+    <volume>XII</volume>
+    <pages>pp. 16-18.</pages>
+    <date>1981.</date>
+  </sequence>
+  <sequence>
+    <journal>Business Week,</journal>
+    <title>"More Companies Borrow Direct,"</title>
+    <date>May 18, 1968.</date>
+  </sequence>
+  <sequence>
+    <author>Marks, Melvin R.</author>
+    <title>"Problem Solving as a Function of the Situation."</title>
+    <journal>Journal of Experimental Psychology,</journal>
+    <volume>X L I ,</volume>
+    <date>1951,</date>
+    <pages>pp. 74-80.</pages>
+  </sequence>
+  <sequence>
+    <author>Stern, Clara, &amp; Stern, William.</author>
+    <date>1928.</date>
+    <title>Die Kindersprache: Eine psychologische und sprachtheoretische Untersuchung</title>
+    <edition>(4th rev. edn; 1st edn, 1907).</edition>
+    <location>Leipzig:</location>
+    <publisher>Barth.</publisher>
+    <note>(Reprinted Darmstadt: Wissenschaftliche Buchgesellschaft, 1965.)</note>
+  </sequence>
+  <sequence>
+    <author>Boulding, Kenneth E.</author>
+    <title>“The Economics of the Coming Spaceship Earth.”</title>
+    <container-title>In Environmental Quality in a Growing Economy: Essays from the Sixth RFF Forum,</container-title>
+    <pages>(p.227)</pages>
+    <editor>edited by Henry Jarrett.</editor>
+    <location>Baltimore:</location>
+    <publisher>Johns Hopkins University Press,</publisher>
+    <date>1966,</date>
+    <pages>3–14.</pages>
+  </sequence>
+  <sequence>
+    <title>The Day after Tomorrow.</title>
+    <director>Dir. Roland Emmerich.</director>
+    <note>Perf. Dennis Quaid, Jake Gyllenhaal, Emmy Rossum, Dash Mihok.</note>
+    <publisher>Twentieth-Century Fox,</publisher>
+    <location>Beverly Hills, Calif.,</location>
+    <date>2004.</date>
+  </sequence>
+  <sequence>
+    <author>Bakhtin, Mikhail,</author>
+    <title>The Dialogic Imagination: Four Essays,</title>
+    <editor>Michael Holquist (ed.),</editor>
+    <translator>Caryl Emerson and Michael Holquist (trans.)</translator>
+    <location>(Austin, TX:</location>
+    <publisher>University of Texas Press,</publisher>
+    <date>1981).</date>
+  </sequence>
+  <sequence>
+    <author>Perloff, Marjorie,</author>
+    <title>The Poetics of Indeterminacy: Rimbaud to Cage</title>
+    <publisher>(Princeton University Press,</publisher>
+    <date>1981).</date>
+  </sequence>
+  <sequence>
+    <author>Christov-Bakargiev, Carolyn,</author>
+    <title>William Kentridge</title>
+    <location>(Brussels:</location>
+    <publisher>Société des Expositions du Palais des Beaux-Arts de Bruxelles,</publisher>
+    <date>1998).</date>
+  </sequence>
+  <sequence>
+    <author>McGuinness, Patrick,</author>
+    <title>Maurice Maeterlinck and the Making of Modern Theatre</title>
+    <publisher>(Oxford University Press,</publisher>
+    <date>2000).</date>
+  </sequence>
+  <sequence>
+    <author>Weber, William,</author>
+    <title>The Rise of Musical Classics in Eighteenth-Century England: A Study in Canon, Ritual, and Ideology</title>
+    <location>(Oxford:</location>
+    <publisher>Clarendon Press,</publisher>
+    <date>1992).</date>
+  </sequence>
+  <sequence>
+    <author>Freyhan, Michael,</author>
+    <title>The Authentic Magic Flute Libretto: Mozart’s Autograph or the First Full-Score Edition?</title>
+    <location>(Lanham, MD:</location>
+    <publisher>Scarecrow Press,</publisher>
+    <date>2009).</date>
+  </sequence>
+  <sequence>
+    <author>Hadlock, Heather,</author>
+    <title>“Tancredi and Semiramide,”</title>
+    <editor>in Emanuele Senici (ed.),</editor>
+    <container-title>The Cambridge Companion to Rossini</container-title>
+    <publisher>(Cambridge University Press,</publisher>
+    <date>2004),</date>
+    <pages>pp. 139–58.</pages>
+  </sequence>
+  <sequence>
+    <editor>Conati, Marcello (ed.),</editor>
+    <title>Encounters with Verdi,</title>
+    <translator>Richard Stokes (trans.)</translator>
+    <location>(Ithaca, NY:</location>
+    <publisher>Cornell University Press,</publisher>
+    <date>1984).</date>
+  </sequence>
+  <sequence>
+    <author>Debussy, Claude,</author>
+    <title>Pelléas et Mélisande</title>
+    <location>(New York, NY:</location>
+    <publisher>Dover,</publisher>
+    <date>1985).</date>
+  </sequence>
+  <sequence>
+    <editor>Csampai, Attila, and Dietmar Holland (eds.),</editor>
+    <title>Tannhäuser: Texte, Materialien, Kommentare</title>
+    <location>(Hamburg:</location>
+    <publisher>Rowohlt,</publisher>
+    <date>1986).</date>
+  </sequence>
+  <sequence>
+    <author>Schelling, F. W. J.,</author>
+    <title>Philosophy of Art,</title>
+    <editor>Douglas W. Stott (ed. and trans.)</editor>
+    <location>(Minneapolis, MN:</location>
+    <publisher>University of Minnesota Press,</publisher>
+    <date>1989).</date>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <title>“Un roman anachevé.”</title>
+    <editor>In Manuel Bandeira, Aluísio Azevedo, Graciliano Ramos, Ariano Suassuna:</editor>
+    <container-title>Travaux présentés au séminaire de 1974 du Centre de Recherches Latino-Américaines de l’Université de Poitiers,</container-title>
+    <pages>97–116.</pages>
+    <location>Poitiers:</location>
+    <publisher>Université de Poitiers,</publisher>
+    <date>1974.</date>
+  </sequence>
+  <sequence>
+    <author>Durkheim, Émile.</author>
+    <title>De la division du travail social.</title>
+    <location>Paris:</location>
+    <publisher>Les Presses universitaires de France,</publisher>
+    <date>1967.</date>
+    <url>classiques.uqac.ca/classiques/Durkheim_emile/division_du_travail/division_travail_1.pdf</url>
+    <note>(accessed June 7, 2015).</note>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <title>Sense and Sensibility,</title>
+    <volume>2 vols.</volume>
+    <location>New York:</location>
+    <publisher>Frank S. Holby,</publisher>
+    <date>1906.</date>
+  </sequence>
+  <sequence>
+    <author>Summerhill, William.</author>
+    <title>“Sovereign Credibility With Financial Underdevelopment: The Case of Nineteenth-Century Brazil.”</title>
+    <note>Working draft prepared for the Hoover Seminar on Collective Choice,</note>
+    <date>March 6, 2007.</date>
+    <url>www.hoover.org/sites/default/files/uploads/documents/ Sovereign_Credibility.pdf</url>
+    <note>(accessed June 7, 2015).</note>
+  </sequence>
+  <sequence>
+    <author>Messiaen, Olivier,</author>
+    <title>Saint François d’Assise,</title>
+    <volume>8 vols.</volume>
+    <location>(Paris:</location>
+    <publisher>Alphonse Leduc,</publisher>
+    <date>1988–1992).</date>
+  </sequence>
+  <sequence>
+    <author>Wagner, Richard,</author>
+    <title>Mein Leben,</title>
+    <editor>Eike Middell (ed.),</editor>
+    <volume>2 vols.</volume>
+    <location>(Bremen:</location>
+    <publisher>Carl Schünemann Verlag,</publisher>
+    <date>1986).</date>
+  </sequence>
+  <sequence>
+    <author>Lindau, Paul,</author>
+    <title>“The ‘Tannhäuser’ Scandal in March 1861,”</title>
+    <translator>Daphne Ellis (trans.),</translator>
+    <journal>Wagner,</journal>
+    <volume>24</volume>
+    <date>(September 2003),</date>
+    <pages>pp. 3–22.</pages>
+  </sequence>
+  <sequence>
+    <author>Basevi, Abramo,</author>
+    <title>Studio sulle opere di Giuseppe Verdi (1859),</title>
+    <editor>Ugo Piovano (ed.)</editor>
+    <location>(Milan:</location>
+    <publisher>Rugginente,</publisher>
+    <date>2001).</date>
+  </sequence>
+  <sequence>
+    <author>Levin, David,</author>
+    <title>Unsettling Opera: Staging Mozart, Verdi, Wagner, and Zemlinsky</title>
+    <publisher>(University of Chicago Press,</publisher>
+    <date>2007).</date>
+  </sequence>
+  <sequence>
+    <editor>Whenham, John (ed.),</editor>
+    <title>Claudio Monteverdi: Orfeo</title>
+    <publisher>(Cambridge University Press,</publisher>
+    <date>1986).</date>
+  </sequence>
+  <sequence>
+    <author>Wordsworth, William,</author>
+    <title>The Prelude,</title>
+    <editor>Jonathan Wordsworth, M. H. Abrams, and Stephen Gill (eds.)</editor>
+    <location>(New York, NY:</location>
+    <publisher>Norton,</publisher>
+    <date>1979).</date>
+  </sequence>
+  <sequence>
+    <author>Baudelaire, Charles,</author>
+    <title>Oeuvres complètes,</title>
+    <editor>Y.-G. Le Dantec (ed.)</editor>
+    <location>(Paris:</location>
+    <publisher>Gallimard,</publisher>
+    <date>1951).</date>
+  </sequence>
+  <sequence>
+    <author>Esty, Joshua (Jed).</author>
+    <title>Unseasonable Youth: Modernism, Colonialism, and the Fiction of Development.</title>
+    <location>New York:</location>
+    <publisher>Oxford University Press,</publisher>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <title>Memorial de Aires.</title>
+    <container-title>In Obra Completa,</container-title>
+    <volume>1:</volume>
+    <pages>1095–1200.</pages>
+  </sequence>
+  <sequence>
+    <author>Araripe, Júnior.</author>
+    <title>Obra Crítica,</title>
+    <volume>vol. 2.</volume>
+    <location>Rio de Janeiro:</location>
+    <publisher>Casa de Rui Barbosa,</publisher>
+    <date>1960.</date>
+  </sequence>
+  <sequence>
+    <author>Da Matta, Roberto.</author>
+    <title>Carnivals, Rogues, and Heroes: An Interpretation of the Brazilian Dilemma.</title>
+    <location>South Bend, IN:</location>
+    <publisher>University of Notre Dame Press,</publisher>
+    <date>1991.</date>
+  </sequence>
+  <sequence>
+    <author>Schneider, O.D.; Parks, J.; Edwards, M.; Atassi, A.; &amp; Kashyap. A.,</author>
+    <date>2011.</date>
+    <title>Comparison of Zinc Versus Non-Zinc Corrosion Control for Lead and Copper.</title>
+    <publisher>Water Research Foundation,</publisher>
+    <location>Denver, Colo.</location>
+  </sequence>
+  <sequence>
+    <author>Steiner, W. H.</author>
+    <title>"The Commercial Paper Business,"</title>
+    <journal>Federal Reserve Bulletin</journal>
+    <date>(August-September, 1921).</date>
+  </sequence>
+  <sequence>
+    <author>Deitering, Cynthia.</author>
+    <title>“The Postnatural Novel: Toxic Consciousness in Fiction of the 1980s.”</title>
+    <editor>In Glotfelty and Fromm,</editor>
+    <pages>196–203.</pages>
+  </sequence>
+  <sequence>
+    <author>Herder, Johann Gottfried,</author>
+    <title>Die kritischen Wälder der Ästhetik,</title>
+    <editor>in Martin Bollacher (ed.),</editor>
+    <container-title>Werke,</container-title>
+    <volume>10 vols.</volume>
+    <location>(Frankfurt am Main:</location>
+    <publisher>Deutscher Klassiker Verlag,</publisher>
+    <date>1985–2000),</date>
+    <volume>vol. ii</volume>
+    <date>(1993),</date>
+    <container-title>Schriften zur Ästhetik und Literatur,</container-title>
+    <editor>ed. Gunter E. Grimm,</editor>
+    <pages>pp. 9–442.</pages>
+  </sequence>
+  <sequence>
+    <author>Stein, Stanley J.</author>
+    <title>Vassouras, a Brazilian Coffee County, 1850–1900.</title>
+    <location>Cambridge, MA:</location>
+    <publisher>Harvard University Press,</publisher>
+    <date>1957.</date>
+  </sequence>
+  <sequence>
+    <author>Weber, Eugen.</author>
+    <title>Movements, Currents, Trends: Aspects of European Thought in the Nineteenth and Twentieth Centuries.</title>
+    <location>Lexington, MA:</location>
+    <publisher>D. C. Heath,</publisher>
+    <date>1992.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[73]</citation-number>
+    <author>Gunter M. Ziegler.</author>
+    <title>Lectures on Polytopes.</title>
+    <collection-title>Graduate texts in mathematics.</collection-title>
+    <publisher>Springer-Verlag,</publisher>
+    <date>1995.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[15]</citation-number>
+    <author>F.H. Clarke.</author>
+    <title>Optimization and nonsmooth analysis.</title>
+    <collection-title>Canadian Mathematical Society series of mono-graphs and advanced texts.</collection-title>
+    <publisher>Wiley,</publisher>
+    <date>1983.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[33]</citation-number>
+    <author>Man Lan, ChewLim Tan, and HweeBoon Low.</author>
+    <title>Proposing a new term weighting scheme for text cate-gorization.</title>
+    <container-title>In AAAI,</container-title>
+    <date>2006.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[88]</citation-number>
+    <author>Aditya Khosla, Nityananda Jayadevaprakash, Bangpeng Yao, and Fei-fei Li.</author>
+    <title>Novel dataset for fine-grained image categorization.</title>
+    <container-title>In First Workshop on Fine-Grained Visual Categorization, CVPR.</container-title>
+    <publisher>Citeseer,</publisher>
+    <date>2011.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[9]</citation-number>
+    <author>J. P. Golden,</author>
+    <title>“Terrain contour matching (TERCOM): A cruise missile guidance aid,”</title>
+    <container-title>Proc. SPIE,</container-title>
+    <volume>vol. 0238,</volume>
+    <pages>pp. 10–18,</pages>
+    <date>1980.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[102]</citation-number>
+    <author>J. D. Jackson,</author>
+    <title>Classical Electrodynamics</title>
+    <publisher>(Wiley,</publisher>
+    <date>1998),</date>
+    <edition>3rd ed.</edition>
+  </sequence>
+  <sequence>
+    <citation-number>[78]</citation-number>
+    <author>N. W. Ashcroft and N. D. Mermin,</author>
+    <title>Solid State Physics</title>
+    <publisher>(Cengage Learning;</publisher>
+    <edition>1 edition,</edition>
+    <date>1976).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[133]</citation-number>
+    <author>A. Taflove and S. C. Hagness,</author>
+    <title>Computational electrodynamics: the finite- difference time-domain method</title>
+    <publisher>(Artech House,</publisher>
+    <location>Boston,</location>
+    <date>2005).</date>
+  </sequence>
+  <sequence>
+    <author>Dweck, C. S., Walton, G. M., &amp; Cohen, G.</author>
+    <date>(2011).</date>
+    <title>Academic tenacity.</title>
+    <note>White paper prepared for the Gates Foundation,</note>
+    <location>Seattle, WA.</location>
+  </sequence>
+  <sequence>
+    <author>Mullin, C. M.</author>
+    <date>(2012).</date>
+    <title>Why access matters: The community college student body</title>
+    <genre>(Policy Brief 2012-01PBL).</genre>
+    <location>Washington, DC:</location>
+    <publisher>American Association of Community Colleges.</publisher>
+  </sequence>
+  <sequence>
+    <author>Harlow, C. W.</author>
+    <date>(2003).</date>
+    <title>Education and correctional populations</title>
+    <genre>(Bureau of Justice statistics special report).</genre>
+    <location>Washington, DC:</location>
+    <publisher>U.S. Department of Justice.</publisher>
+  </sequence>
+  <sequence>
+    <author>Kubik, Reinhold,</author>
+    <title>Händels Rinaldo: Geschichte, Werk, Wirkung</title>
+    <location>(Neuhausen-Stuttgart:</location>
+    <publisher>Hänssler-Verlag,</publisher>
+    <date>1982).</date>
+  </sequence>
+  <sequence>
+    <author>Bourdieu, Pierre,</author>
+    <title>Homo Academicus,</title>
+    <translator>Peter Collier (trans.)</translator>
+    <publisher>(Stanford University Press,</publisher>
+    <date>1988).</date>
+  </sequence>
+  <sequence>
+    <author>Charles-Edmond Perrin,</author>
+    <title>Note sur la population de Villeneuve-Saint-Georges au IXe siècle,</title>
+    <journal>Le Moyen Âge,</journal>
+    <volume>69,</volume>
+    <date>1963,</date>
+    <pages>75-86.</pages>
+  </sequence>
+  <sequence>
+    <editor>Bauer, Raymond A. and Kenneth J. Germen, eds.</editor>
+    <title>The Study of Policy Formation.</title>
+    <location>New York:</location>
+    <publisher>The Free Press,</publisher>
+    <date>1968.</date>
+  </sequence>
+  <sequence>
+    <author>Council of Economic Advisers.</author>
+    <date>2015.</date>
+    <title>“Gender Pay Gap: Recent Trends and Explanations.”</title>
   </sequence>
 </dataset>

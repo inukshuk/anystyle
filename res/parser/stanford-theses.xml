@@ -40,9 +40,9 @@
   <sequence>
     <author>Palmer, Damon B.</author>
     <date>2010.</date>
-    <title>Regulating Finance: Expert Cognitive Frameworks, Adap- tive Learning, and Interests in Financial Regulatory Change</title>
+    <title>Regulating Finance: Expert Cognitive Frameworks, Adaptive Learning, and Interests in Financial Regulatory Change</title>
     <genre>PhD thesis</genre>
-    <publisher>Duke Uni- versity.</publisher>
+    <publisher>Duke University.</publisher>
   </sequence>
   <sequence>
     <author>Patrick, Sue Carol.</author>
@@ -68,7 +68,7 @@
     <author>Polillo, Simone and Mauro F Guill ́en.</author>
     <date>2005.</date>
     <title>“Globalization Pressures and the State: The Worldwide Spread of Central Bank Independence1.”</title>
-    <journal>American Journal of So- ciology</journal>
+    <journal>American Journal of Sociology</journal>
     <volume>110(6):</volume>
     <pages>1764–1802.</pages>
   </sequence>
@@ -165,7 +165,8 @@
   <sequence>
     <author>Stefanescu, C, VW Berger and SL Hershberger.</author>
     <date>2005.</date>
-    <title>“Yates’ correction. Encyclope- dia of Statistics in Behavioral Science.”.</title>
+    <title>“Yates’ correction.</title>
+    <container-title>Encyclopedia of Statistics in Behavioral Science.”.</container-title>
   </sequence>
   <sequence>
     <author>Stewart III, Charles and Jonathan Woon.</author>
@@ -197,7 +198,7 @@
   <sequence>
     <title>The 50th Anniversary of the Treasury-Federal Reserve Accord: 1951-2001.</title>
     <date>2013.</date>
-    <genre>Spe- cial reports</genre>
+    <genre>Special reports</genre>
     <publisher>Federal Reserve Bank of Richmond</publisher>
     <location>Richmond, VA: .</location>
   </sequence>
@@ -220,7 +221,8 @@
     <title>“Economic View: Beyond a President’s Control.”</title>
     <journal>The New York Times</journal>
     <date>July(11).</date>
-    <url>URL: http://www.nytimes.com/2004/07/11/business/economic-view-beyond-a-president-s-control.html</url>
+    <note>URL:</note>
+    <url>http://www.nytimes.com/2004/07/11/business/economic-view-beyond-a-president-s-control.html</url>
   </sequence>
   <sequence>
     <author>Veronesi, P. and L. Zingales.</author>
@@ -242,14 +244,15 @@
     <title>“Meet ST OMO: The Top Secret Loan Facility The Fed Used To Loan Money To Banks.”</title>
     <journal>Business Insider</journal>
     <date>May(26).</date>
-    <url>URL: http://articles.businessinsider.com/2011-05-26/wall_street/29997602_1_new-york-fed-banks</url>
+    <note>URL:</note>
+    <url>http://articles.businessinsider.com/2011-05-26/wall_street/29997602_1_new-york-fed-banks</url>
   </sequence>
   <sequence>
     <author>Waller, Christopher J.</author>
     <date>2011.</date>
-    <title>“Independence+ accountability: Why the Fed is a well- designed Central Bank.”</title>
+    <title>“Independence+ accountability: Why the Fed is a well-designed Central Bank.”</title>
     <journal>Federal Reserve Bank of St. Louis Review</journal>
-    <volume>93(Septem- ber/October 2011).</volume>
+    <volume>93(September/October 2011).</volume>
   </sequence>
   <sequence>
     <author>Warburg, Paul Moritz.</author>
@@ -339,8 +342,9 @@
     <date>2014.</date>
     <title>“Obama’s biggest economic policy mistake.”</title>
     <journal>Vox</journal>
-    <date>Septem- ber(17).</date>
-    <url>URL: http://www.vox.com/2014/9/17/6219247/obamas-biggest-economic-policy-mistake</url>
+    <date>September(17).</date>
+    <note>URL:</note>
+    <url>http://www.vox.com/2014/9/17/6219247/obamas-biggest-economic-policy-mistake</url>
   </sequence>
   <sequence>
     <citation-number>[47]</citation-number>
@@ -493,8 +497,8 @@
     <title>“Constrained model predictive control: Stability and optimality,”</title>
     <journal>Automatica,</journal>
     <volume>vol. 36, no. 6,</volume>
-    <pages>pp. 789 –</pages>
-    <date>814, 2000.</date>
+    <pages>pp. 789 – 814,</pages>
+    <date>2000.</date>
   </sequence>
   <sequence>
     <citation-number>[58]</citation-number>
@@ -648,8 +652,7 @@
     <citation-number>[43]</citation-number>
     <author>T. Lapp and L. Singh,</author>
     <title>“Model predictive control based trajectory optimization for Nap-of-the-Earth (NOE) flight including obstacle avoidance,”</title>
-    <container-title>in American Control Conference, 2004. Proceedings of the</container-title>
-    <date>2004,</date>
+    <container-title>in American Control Conference, 2004. Proceedings of the 2004,</container-title>
     <volume>vol. 1,</volume>
     <date>June 2004,</date>
     <pages>pp. 891– 896.</pages>
@@ -689,7 +692,7 @@
     <citation-number>[29]</citation-number>
     <author>S. D. McPhail, M. Furlong, and M. Pebody,</author>
     <title>“Low-altitude terrain following and collision avoidance in a flight-class autonomous underwater vehicles,”</title>
-    <journal>Proceed- ings of the Institution of Mechanical Engineers, Part M: Journal of Engineering for the Maritime Environment,</journal>
+    <journal>Proceedings of the Institution of Mechanical Engineers, Part M: Journal of Engineering for the Maritime Environment,</journal>
     <volume>vol. 224, no. 4,</volume>
     <pages>pp. 279–292,</pages>
     <date>2010.</date>
@@ -749,7 +752,7 @@
     <citation-number>[84]</citation-number>
     <author>D. W. Caress.</author>
     <title>Seafloor mapping AUV.</title>
-    <url>http://www.mbari.org/at- sea/vehicles/autonomous-underwater-vehicles/seafloor-mapping-auv/toggle-id- 6.</url>
+    <url>http://www.mbari.org/at-sea/vehicles/autonomous-underwater-vehicles/seafloor-mapping-auv/toggle-id- 6.</url>
   </sequence>
   <sequence>
     <citation-number>[13]</citation-number>
@@ -829,8 +832,7 @@
     <citation-number>[71]</citation-number>
     <author>Brand, M., Oliver, N., and Pentland, A.,</author>
     <title>“Coupled hidden Markov models for complex action recognition,”</title>
-    <container-title>Computer Vision and Pattern Recognition, 1997. Proceedings., 1997 IEEE Computer Society Conference on,</container-title>
-    <publisher>IEEE,</publisher>
+    <container-title>Computer Vision and Pattern Recognition, 1997. Proceedings., 1997 IEEE Computer Society Conference on, IEEE, </container-title>
     <date>1997,</date>
     <pages>pp. 994–999.</pages>
   </sequence>
@@ -966,7 +968,7 @@
     <citation-number>[9]</citation-number>
     <author>Anderson, C.,</author>
     <title>“Fred Smith: FedEx Wants UAVs,”</title>
-    <url>http://diydrones.com/ profiles/blogs/fred-smith-fedex-wants-uavs,</url>
+    <url>http://diydrones.com/profiles/blogs/fred-smith-fedex-wants-uavs,</url>
     <date>February 2009.</date>
   </sequence>
   <sequence>
@@ -1053,8 +1055,8 @@
     <citation-number>[37]</citation-number>
     <author>Reason, J.,</author>
     <title>“Human error: models and management,”</title>
-    <journal>Bmj ,</journal>
-    <volume>Vol. 320, No. 7237,</volume>
+    <journal>Bmj</journal>
+    <volume>, Vol. 320, No. 7237,</volume>
     <date>2000,</date>
     <pages>pp. 768–770.</pages>
   </sequence>
@@ -1166,8 +1168,7 @@
     <container-title>in “Optical Bistability: Controlling Light with Light,”</container-title>
     <publisher>(Academic Press,</publisher>
     <date>1985),</date>
-    <note>chap. 5,</note>
-    <pages>pp. 195–239.</pages>
+    <pages>chap. 5, pp. 195–239.</pages>
   </sequence>
   <sequence>
     <citation-number>[46]</citation-number>
@@ -1342,7 +1343,7 @@
     <citation-number>[183]</citation-number>
     <author>E. Kuramochi, K. Nozaki, A. Shinya, K. Takeda, T. Sato, S. Matsuo, H. Taniyama, H. Sumikura, and M. Notomi,</author>
     <title>“Large-scale integration of wavelength-addressable all-optical memories on a photonic crystal chip,”</title>
-    <journal>Na- ture Photonics</journal>
+    <journal>Nature Photonics</journal>
     <volume>8,</volume>
     <pages>474–481</pages>
     <date>(2014).</date>
@@ -1508,7 +1509,7 @@
     <citation-number>[129]</citation-number>
     <author>P. Fan, U. K. Chettiar, L. Cao, F. Afshinmanesh, N. Engheta, and M. L. Brongersma,</author>
     <title>“An invisible metal-semiconductor photodetector,”</title>
-    <journal>Nature Pho- tonics</journal>
+    <journal>Nature Photonics</journal>
     <date>(2012).</date>
   </sequence>
   <sequence>
@@ -1665,7 +1666,7 @@
     <author>Mullin, C. M.</author>
     <date>(2012).</date>
     <title>Why access matters: The community college student body</title>
-    <note>(Pol- icy Brief 2012-01PBL).</note>
+    <genre>(Policy Brief 2012-01PBL).</genre>
     <location>Washington, DC:</location>
     <publisher>American Association of Community Colleges.</publisher>
   </sequence>
@@ -1750,7 +1751,7 @@
     <author>Harlow, C. W.</author>
     <date>(2003).</date>
     <title>Education and correctional populations</title>
-    <note>(Bureau of Justice statistics special report).</note>
+    <genre>(Bureau of Justice statistics special report).</genre>
     <location>Washington, DC:</location>
     <publisher>U.S. Department of Justice.</publisher>
   </sequence>
@@ -1835,7 +1836,7 @@
     <author>Jamieson, J. P., Harkins, S. G., &amp; Williams, K. D.</author>
     <date>(2010).</date>
     <title>Need threat can motivate performance after ostracism.</title>
-    <note>Personality and social psychology bulletin.</note>
+    <journal>Personality and social psychology bulletin.</journal>
   </sequence>
   <sequence>
     <author>Boykin, A. W., Albury, A., Tyler, K. M., Hurley, E. A., Bailey, C. T., &amp; Miller, O. A.</author>
@@ -1889,7 +1890,7 @@
     <title>Time and learning in schools: A national profile.</title>
     <location>Boston, MA.</location>
     <note>Retrieved from</note>
-    <url>http://www.timeandlearning .org/?q=sass</url>
+    <url>http://www.timeandlearning.org/?q=sass</url>
   </sequence>
   <sequence>
     <author>Derks, B., Scheepers, D., Van Laar, C., &amp; Ellemers, N.</author>
@@ -4233,7 +4234,7 @@
     <citation-number>[73]</citation-number>
     <author>Gunter M. Ziegler.</author>
     <title>Lectures on Polytopes.</title>
-    <note>Graduate texts in mathematics.</note>
+    <collection-title>Graduate texts in mathematics.</collection-title>
     <publisher>Springer-Verlag,</publisher>
     <date>1995.</date>
   </sequence>
@@ -4271,15 +4272,9 @@
     <citation-number>[15]</citation-number>
     <author>F.H. Clarke.</author>
     <title>Optimization and nonsmooth analysis.</title>
-    <note>Canadian Mathematical Society series of mono-graphs and advanced texts.</note>
+    <collection-title>Canadian Mathematical Society series of mono-graphs and advanced texts.</collection-title>
     <publisher>Wiley,</publisher>
     <date>1983.</date>
-  </sequence>
-  <sequence>
-    <citation-number>[51]</citation-number>
-    <title>1000 Genomes Project.</title>
-    <note>1000 genomes project, a deep catalog of human genetic variation.,</note>
-    <date>2008.</date>
   </sequence>
   <sequence>
     <citation-number>[33]</citation-number>
@@ -4360,7 +4355,7 @@
     <citation-number>[124]</citation-number>
     <author>Metropolitan Area Planning Council.</author>
     <title>The Massachusetts vehicle census.</title>
-    <url>http: //www.37billionmilechallenge.org/.</url>
+    <url>http://www.37billionmilechallenge.org/.</url>
   </sequence>
   <sequence>
     <citation-number>[187]</citation-number>
@@ -4399,7 +4394,8 @@
     <citation-number>[206]</citation-number>
     <author>Yu Zhang, Xiu-shen Wei, Jianxin Wu, Jianfei Cai, Jiangbo Lu, Viet-Anh Nguyen, and Minh N Do.</author>
     <title>Weakly supervised fine-grained image categoriza-tion.</title>
-    <note>arXiv preprint arXiv:1504.04943, 2015.</note>
+    <note>arXiv preprint arXiv:1504.04943,</note>
+    <date>2015.</date>
   </sequence>
   <sequence>
     <citation-number>[65]</citation-number>
@@ -4545,8 +4541,8 @@
   </sequence>
   <sequence>
     <citation-number>[4]</citation-number>
-    <note>Rapping 2 u lyrics.</note>
-    <url>http://genius.com/77142/Das-racist-rapping-2-u/ White-people-love-me-like-they-love-subarus.</url>
+    <title>Rapping 2 u lyrics.</title>
+    <url>http://genius.com/77142/Das-racist-rapping-2-u/White-people-love-me-like-they-love-subarus.</url>
   </sequence>
   <sequence>
     <citation-number>[37]</citation-number>
@@ -4582,7 +4578,7 @@
     <citation-number>[77]</citation-number>
     <author>David Hoiem, Alexei Efros, and Martial Hebert.</author>
     <title>Putting objects in perspective.</title>
-    <journal>IJCV,</journal>
+    <publisher>IJCV,</publisher>
     <date>2008.</date>
   </sequence>
   <sequence>
@@ -4602,7 +4598,7 @@
     <citation-number>[23]</citation-number>
     <author>William Brangham.</author>
     <title>Running on renewable energy, Burlington, Ver-mont powers green movement forward.</title>
-    <url>http://www.pbs.org/newshour/bb/ vermont-city-come-rely-100-percent-renewable-energy/.</url>
+    <url>http://www.pbs.org/newshour/bb/vermont-city-come-rely-100-percent-renewable-energy/.</url>
   </sequence>
   <sequence>
     <citation-number>[104]</citation-number>
@@ -4661,7 +4657,7 @@
     <citation-number>[76]</citation-number>
     <author>Micah Hodosh, Peter Young, and Julia Hockenmaier.</author>
     <title>Framing image description as a ranking task: Data, models and evaluation metrics.</title>
-    <journal>JAIR,</journal>
+    <publisher>JAIR,</publisher>
     <date>2013.</date>
   </sequence>
   <sequence>

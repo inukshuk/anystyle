@@ -118,12 +118,12 @@
     <date>1783.</date>
     <title>A Select Collection of English Songs.</title>
     <location>London:</location>
-    <note>Printed for J. Johnson.</note>
+    <publisher>Printed for J. Johnson.</publisher>
   </sequence>
   <sequence>
     <author>———.</author>
     <date>1810.</date>
-    <title>The Itinerary of Greece, with a commentary on Pausanias and Strabo, and an account of the Monuments of Antiquity at present existing in that coun- try, compiled in the years 1801, 2, 5, 6 etc.</title>
+    <title>The Itinerary of Greece, with a commentary on Pausanias and Strabo, and an account of the Monuments of Antiquity at present existing in that country, compiled in the years 1801, 2, 5, 6 etc.</title>
     <location>London:</location>
     <publisher>T. Payne.</publisher>
   </sequence>
@@ -234,7 +234,7 @@
     <date>1791.</date>
     <title>Pieces of Ancient Popular Poetry: from Authentic Manuscripts and Old Printed Copies.</title>
     <location>London,:</location>
-    <publisher>Printed by C. Clarke, for T. and J. Egerton.</publisher>
+    <note>Printed by C. Clarke, for T. and J. Egerton.</note>
   </sequence>
   <sequence>
     <author>———.</author>
@@ -255,7 +255,7 @@
     <date>1820.</date>
     <title>Robin Hood: a collection of all the ancient poems, songs, and bal- lads, now extant, relative to that celebrated English outlaw.</title>
     <location>London:</location>
-    <note>Printed for Longman, Hurst, Rees, Orme.</note>
+    <publisher>Printed for Longman, Hurst, Rees, Orme.</publisher>
   </sequence>
   <sequence>
     <author>———.</author>
@@ -269,7 +269,7 @@
     <date>1765.</date>
     <title>Reliques of Ancient English Poetry.</title>
     <location>London:</location>
-    <note>Printed for J. Dodsley.</note>
+    <publisher>Printed for J. Dodsley.</publisher>
   </sequence>
   <sequence>
     <author>Ritson, Joseph.</author>
@@ -283,7 +283,7 @@
     <date>1765.</date>
     <title>The Works of Ossian, the Son of Fingal.</title>
     <location>London:</location>
-    <note>Printed for T.Becket and P.A. Dehondt.</note>
+    <publisher>Printed for T.Becket and P.A. Dehondt.</publisher>
   </sequence>
   <sequence>
     <author>Hutton, William.</author>
@@ -318,7 +318,7 @@
     <date>1732.</date>
     <title>Britannia Romana, or, The Roman Antiquities of Britain.</title>
     <location>London:</location>
-    <note>Printed for J. Osborn and T. Longman.</note>
+    <publisher>Printed for J. Osborn and T. Longman.</publisher>
   </sequence>
   <sequence>
     <author>Myrone, Martin, a nd Lucy Peltz.</author>
@@ -332,7 +332,7 @@
     <date>1794.</date>
     <title>An Investigation of the principles of knowledge and of the progress of reason, from sense to science and philosophy.</title>
     <location>London:</location>
-    <author>A. Strahan and T. Cadell.</author>
+    <publisher>A. Strahan and T. Cadell.</publisher>
   </sequence>
   <sequence>
     <author>Shapin, S., and S. Schaffer.</author>
@@ -563,7 +563,7 @@
     <date>1985b.</date>
     <title>What shapes children’s grammars?</title>
     <editor>In D. I. Slobin (ed.),</editor>
-    <title>The crosslinguistic study of language acquisition,</title>
+    <container-title>The crosslinguistic study of language acquisition,</container-title>
     <volume>vol. II</volume>
     <pages>(1257–1319).</pages>
     <location>Hillsdale, NJ:</location>
@@ -582,8 +582,7 @@
     <date>1989.</date>
     <title>The mutual exclusivity bias in children’s word learning.</title>
     <journal>Monographs of the Society for Research in Child Development</journal>
-    <volume>54</volume>
-    <note>(serial no. 220).</note>
+    <volume>54 (serial no. 220).</volume>
   </sequence>
   <sequence>
     <author>Capirci, Olga; Contaldo, Annarita; Caselli, M. Cristina; &amp; Volterra, Virginia.</author>
@@ -737,9 +736,9 @@
     <author>Stern, Clara, &amp; Stern, William.</author>
     <date>1928.</date>
     <title>Die Kindersprache: Eine psychologische und sprachtheoretische Untersuchung</title>
-    <edition>(4th rev. edn;</edition>
-    <note>1st edn, 1907).</note>
-    <location>Leipzig: Barth.</location>
+    <edition>(4th rev. edn; 1st edn, 1907).</edition>
+    <location>Leipzig:</location>
+    <publisher>Barth.</publisher>
     <note>(Reprinted Darmstadt: Wissenschaftliche Buchgesellschaft, 1965.)</note>
   </sequence>
   <sequence>
@@ -1634,8 +1633,7 @@
   </sequence>
   <sequence>
     <author>Webb, Daniel,</author>
-    <title>Observations on the Correspondence between Poetry and Music</title>
-    <date>(1769),</date>
+    <title>Observations on the Correspondence between Poetry and Music (1769),</title>
     <editor>in Ruth Katz and Ruth HaCohen (eds.),</editor>
     <container-title>The Arts in Mind: Pioneering Texts of a Coterie of British Men of Letters</container-title>
     <location>(New Brunswick, NJ:</location>
@@ -1939,8 +1937,8 @@
     <pages>37–312.</pages>
   </sequence>
   <sequence>
-    <author>Triner, Gail</author>
-    <title>D.Banking and Economic Development: Brazil, 1889–1930.</title>
+    <author>Triner, Gail D.</author>
+    <title>Banking and Economic Development: Brazil, 1889–1930.</title>
     <location>New York:</location>
     <publisher>Palgrave,</publisher>
     <date>2000.</date>
@@ -2018,8 +2016,8 @@
     <pages>865–1173.</pages>
   </sequence>
   <sequence>
-    <author>Stein, Stanley</author>
-    <title>J.Vassouras, a Brazilian Coffee County, 1850–1900.</title>
+    <author>Stein, Stanley J.</author>
+    <title>Vassouras, a Brazilian Coffee County, 1850–1900.</title>
     <location>Cambridge, MA:</location>
     <publisher>Harvard University Press,</publisher>
     <date>1957.</date>
@@ -2153,8 +2151,8 @@
     <date>1987.</date>
   </sequence>
   <sequence>
-    <author>Hanley, Anne</author>
-    <title>G.Native Capital: Financial Institutions and Economic Development in São Paulo, Brazil, 1850–1920.</title>
+    <author>Hanley, Anne G.</author>
+    <title>Native Capital: Financial Institutions and Economic Development in São Paulo, Brazil, 1850–1920.</title>
     <location>Stanford, CA:</location>
     <publisher>Stanford University Press,</publisher>
     <date>2005.</date>
@@ -2170,7 +2168,7 @@
   <sequence>
     <author>———.</author>
     <title>“Un roman anachevé.”</title>
-    <author>In Manuel Bandeira, Aluísio Azevedo, Graciliano Ramos, Ariano Suassuna:</author>
+    <editor>In Manuel Bandeira, Aluísio Azevedo, Graciliano Ramos, Ariano Suassuna:</editor>
     <container-title>Travaux présentés au séminaire de 1974 du Centre de Recherches Latino-Américaines de l’Université de Poitiers,</container-title>
     <pages>97–116.</pages>
     <location>Poitiers:</location>

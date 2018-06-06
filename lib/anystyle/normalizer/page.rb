@@ -16,6 +16,8 @@ module AnyStyle
               value
             end
 
+          # TODO chap. 5, pp. 195-234.
+
           pages
             .gsub(/\p{Pd}+/, '–')
             .gsub(/[^\d,–]+/, ' ')

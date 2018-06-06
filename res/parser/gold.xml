@@ -9,14 +9,6 @@
     <pages>241- 253.</pages>
   </sequence>
   <sequence>
-    <author>Charles-Edmond Perrin,</author>
-    <title>Note sur la population de Villeneuve-Saint-Georges au IXe siècle,</title>
-    <journal>Le Moyen Âge,</journal>
-    <volume>69,</volume>
-    <date>1963,</date>
-    <pages>75-86.</pages>
-  </sequence>
-  <sequence>
     <author>Boismard, M.-É.,</author>
     <title>“Le ‘Concile’ de Jerusalem,”</title>
     <journal>ETL</journal>
@@ -78,13 +70,6 @@
     <edition>2nd edn,</edition>
     <location>Cambridge, New York:</location>
     <publisher>University of Wisconsin Press</publisher>
-  </sequence>
-  <sequence>
-    <editor>Carter, Ronald and John McRae, eds.</editor>
-    <title>The Routledge History of Literature in English: Britain and Ireland.</title>
-    <location>London:</location>
-    <publisher>Routledge,</publisher>
-    <date>2005.</date>
   </sequence>
   <sequence>
     <author>Harrison R.M., Stedman J. and Derwent D.</author>
@@ -342,13 +327,6 @@
     <pages>595-596,</pages>
   </sequence>
   <sequence>
-    <author>Steffen, Tom A.</author>
-    <title>Passing the Baton: Church Planting That Empowers.,</title>
-    <location>La Habra, Calif.:</location>
-    <publisher>Center for Organizational &amp; Ministry Development.</publisher>
-    <date>1993.</date>
-  </sequence>
-  <sequence>
     <citation-number>54.</citation-number>
     <author>Frazier, Gary L.</author>
     <date>(1999).</date>
@@ -442,13 +420,6 @@
     <date>2003.</date>
     <volume>7(1):</volume>
     <pages>p. 13-30.</pages>
-  </sequence>
-  <sequence>
-    <author>Schneider, O.D.; Parks, J.; Edwards, M.; Atassi, A.; &amp; Kashyap. A.,</author>
-    <date>2011.</date>
-    <title>Comparison of Zinc Versus Non-Zinc Corrosion Control for Lead and Copper.</title>
-    <publisher>Water Research Foundation,</publisher>
-    <location>Denver, Colo.</location>
   </sequence>
   <sequence>
     <citation-number>50.</citation-number>
@@ -2151,16 +2122,6 @@
     <location>Banff, Canada.</location>
   </sequence>
   <sequence>
-    <author>Adamson, Glenn.</author>
-    <title>« When Craft Gets Sloppy ».</title>
-    <journal>Crafts</journal>
-    <volume>no. 211.</volume>
-    <location>London :</location>
-    <publisher>Crafts Council</publisher>
-    <date>(March/April 2008),</date>
-    <pages>36-40.</pages>
-  </sequence>
-  <sequence>
     <citation-number>7.</citation-number>
     <author>Kaufmann, G., M. David, G. D. Borasio, A. Teichmann, A. Paz, and M. Amitsur.</author>
     <date>1986.</date>
@@ -2675,13 +2636,6 @@
     <pages>151-159.</pages>
   </sequence>
   <sequence>
-    <author>Woodman, David C.</author>
-    <date>2001.</date>
-    <title>“Utjulik 2001 Expedition Report. Manuscript.”</title>
-    <location>Iqaluit:</location>
-    <publisher>Department of Culture, Language, Elders and Youth, Government of Nunavut.</publisher>
-  </sequence>
-  <sequence>
     <author>MILLET, Catherine,</author>
     <title>L’art contemporain en France,</title>
     <location>Paris,</location>
@@ -2727,5 +2681,27 @@
     <journal>Journal of Plant Physiology&lt;/italic&gt;</journal>
     <volume>164:</volume>
     <pages>1489-1498.</pages>
+  </sequence>
+  <sequence>
+    <author>Morris, R.D.; Audet, A.M.; Angelillo, I.F.; Chalmers, T.C.; &amp; Mosteller, F.,</author>
+    <date>1992.</date>
+    <title>Chlorination, Chlorination By-products, and Cancer: A Meta-Analysis.</title>
+    <journal>&lt;italic&gt;American Journal of Public Health&lt;/italic&gt;,</journal>
+    <volume>82:7:</volume>
+    <pages>955.</pages>
+    <url>http://dx.doi.org/10.2105/AJPH.82.7.955.</url>
+  </sequence>
+  <sequence>
+    <citation-number>[4]</citation-number>
+    <author>P. Arbel´aez, M. Maire, C. Fowlkes, and J. Malik,</author>
+    <title>“From contours to regions: An empirical evaluation,”</title>
+    <publisher>CVPR,</publisher>
+    <date>2009.</date>
+  </sequence>
+  <sequence>
+    <author>Neubauer, Adolf,</author>
+    <title>Hebräische Berichte über die Judenverfolgung während der Kreuzzüge (Quellen zur Geschichte der Juden inDeutschland 2,2),</title>
+    <location>Hildesheim u.a.</location>
+    <date>1997.</date>
   </sequence>
 </dataset>

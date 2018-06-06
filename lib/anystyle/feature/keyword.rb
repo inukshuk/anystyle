@@ -19,7 +19,7 @@ module AnyStyle
             :thesis
           when /^(proceedings|conference|meeting|transactions|communications|seminar|symposi(on|um))/i
             :proceedings
-          when /^(Journal|Zeitschrift|Quarterly|Magazine?|Times|Rev(iew|vue)?|Bulletin|News)/
+          when /^(Journal|Zeitschrift|Quarterly|Magazine?|Times|Rev(iew|vue)?|Bulletin|News|Week)/
             :journal
           when /^in$/i
             :in
@@ -31,13 +31,15 @@ module AnyStyle
             :page
           when /^(vol(ume)?s?|iss(ue)?|n[or]?|number)$/i
             :volume
-          when /^(edn|edition|expanded|rev(ised)?|p?reprint|illustrated)$/i,
+          when /^(edn|edition|expanded|rev(ised)?|p?reprint(ed)?|illustrated)$/i,
             /^(aufl(age)?|\p{Alpha}*ausg(abe)?)$/i
             :edition
           when /^(nd|date|spring|s[uo]mmer|autumn|fall|winter|frühling|herbst)$/i,
                /^(jan(uary?)?|feb(ruary?)?|mar(ch|z)?|apr(il)?|ma[yi]|jun[ei]?)$/,
                /^(jul[yi]?|aug(ust)?|sep(tember)?|o[ck]t(ober)?|nov(ember)?|de[cz](ember)?)$/i
             :date
+          when /^(pmid|pmcid|arxiv|doi|url)/i
+            :locator
           when /^(retrieved|accessed)$/i
             :accessed
           else
