@@ -10,19 +10,23 @@ learning algorithms and aims to make it easy to train the model with data
 that is relevant to your parsing needs.
 
 
-
 Using AnyStyle CLI
 ------------------
 
     $ [sudo] gem install anystyle-cli
     $ anystyle --help
+    $ anystyle help find
+    $ anystyle help parse
+
+See [anystyle-cli](https://github.com/inukshuk/anystyle-cli) for more details.
 
 
 Web Application and Web Service
 -------------------------------
 AnyStyle is available as a web-application and service at
-[anystyle.io](https://anystyle.io). Please note that the
-web service is currently based on the legacy
+[anystyle.io](https://anystyle.io).
+
+Please note that the web service is currently based on the legacy
 [0.x branch](https://github.com/inukshuk/anystyle/tree/0.x).
 
 
