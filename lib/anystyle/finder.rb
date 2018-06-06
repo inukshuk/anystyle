@@ -63,8 +63,8 @@ module AnyStyle
       dataset.map { |doc| doc.references(**opts) }
     end
 
-    def label(input, **opts)
-      dataset = prepare(input, **opts)
+    def label(input, layout: true, **opts)
+      dataset = prepare(input, layout: layout, **opts)
       output = model.label(dataset, **opts)
       Wapiti::Dataset.new(dataset.map.with_index { |doc, idx|
         doc.label(output[idx])
