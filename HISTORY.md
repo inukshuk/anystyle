@@ -13,6 +13,7 @@
 * Improved input/output via Wapiti::Dataset.
 * New default dictionary adapter (thanks @a-fent).
 * New GDBM dictionary adapter.
+* Use real XML for training sets.
 * Experimental *Finder* component for PDF and text document analysis.
 * Dictionary data moved to `anystyle-data` Gem.
 * New CLI tool `anystyle-cli`.
