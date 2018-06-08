@@ -21,8 +21,8 @@ module AnyStyle
           else
             'chapter'
           end
-        when keys.include?(:genre)
-          case item[:genre].to_s
+        when keys.include?(:genre), keys.include?(:note)
+          case item.values_at(:genre, :note).flatten.join(' ')
           when /ph(\.\s*)?d|diss(\.|ertation)|thesis/i
             'thesis'
           when /rep(\.|ort)/i

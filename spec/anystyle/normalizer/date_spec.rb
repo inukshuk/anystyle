@@ -88,5 +88,9 @@ module AnyStyle
     end
 
     it "parses ad/bc dates"
+
+    it "extracts original date"
+    # (1984 [1970]),
+
   end
 end

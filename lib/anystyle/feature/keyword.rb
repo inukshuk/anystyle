@@ -31,6 +31,8 @@ module AnyStyle
             :page
           when /^(vol(ume)?s?|iss(ue)?|n[or]?|number)$/i
             :volume
+          when /^(ser(ies?)?|reihe)$/i
+            :series
           when /^(edn|edition|expanded|rev(ised)?|p?reprint(ed)?|illustrated)$/i,
             /^(aufl(age)?|\p{Alpha}*ausg(abe)?)$/i
             :edition
