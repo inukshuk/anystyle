@@ -1,1 +1,2 @@
 res/* linguist-detectable=false
+*.mod linguist-detectable=false
