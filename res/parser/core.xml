@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset>
   <sequence>
+    <author>Heidegger M.,</author>
+    <date>1927,</date>
+    <title>Être et temps,</title>
+    <editor>Gallimard, Ed.</editor>
+    <date>1986,</date>
+    <location>Paris.</location>
+  </sequence>
+  <sequence>
+    <author>Romero, C., Paunesku, D., &amp; Dweck, C.</author>
+    <date>(2011).</date>
+    <title>Brainology in the classroom: An online growth mindset intervention a↵ects GPA, conduct, and implicit theories.</title>
+    <container-title>Poster session presented at Society for Research in Child Development Biennial Meeting,</container-title>
+    <location>Montreal, Canada.</location>
+  </sequence>
+  <sequence>
+    <author>Solon, G.</author>
+    <date>(1999).</date>
+    <title>Chapter 29. Intergenerational mobility in the labor market.</title>
+    <editor>In O. C. A. and D. Card (Ed.),</editor>
+    <container-title>Handbook of labor economics</container-title>
+    <volume>(Vol. 3, Part A,</volume>
+    <pages>pp. 1761–1800).</pages>
+    <location>London:</location>
+    <publisher>Elsevier.</publisher>
+    <note>Retrieved from</note>
+    <url>http://www.sciencedirect.com/science/article/pii/S1573446399030102</url>
+  </sequence>
+  <sequence>
+    <citation-number>60.</citation-number>
+    <title>Differences in cyclic fatigue resistance between ProTaper Next and ProTaper Universal instruments at different levels.</title>
+    <author>Pérez-Higueras JJ, Arias A, de la Macorra JC, Peters OA.</author>
+    <date>septembre 2014,</date>
+    <journal>J Endod,</journal>
+    <volume>Vol. 9,</volume>
+    <pages>pp. 1477-81.</pages>
+  </sequence>
+  <sequence>
+    <author>Brischoux, F., Chakraborty, S., Brierley, D.I., and Ungless, M.A.</author>
+    <date>(2009).</date>
+    <title>Phasic excitation of dopamine neurons in ventral VTA by noxious stimuli.</title>
+    <journal>Proc Natl Acad Sci U S A</journal>
+    <volume>106,</volume>
+    <pages>4894–4899.</pages>
+  </sequence>
+  <sequence>
+    <author>Adams, Nicholson B.,</author>
+    <title>“A Spanish Romanticist Parodies Himself: Los Hijos del Tı́o Tronera,”</title>
+    <container-title>Proceedings of the Modern Language Association,</container-title>
+    <volume>45</volume>
+    <date>(1930),</date>
+    <pages>pp. 573–77.</pages>
+  </sequence>
+  <sequence>
+    <author>Lee, L. L., W. E. Howard, and R. E. Marsh.</author>
+    <date>1990.</date>
+    <title>Acquired strychnine tolerance by pocket gophers.</title>
+    <container-title>Proceedings of the Vertebrate Pest Conference</container-title>
+    <volume>14:</volume>
+    <pages>87-90.</pages>
+  </sequence>
+  <sequence>
     <author>A. Cau, R. Kuiper, and W.-P. de Roever.</author>
     <title>Formalising Dijkstra's development strategy within Stark's formalism.</title>
     <editor>In C. B. Jones, R. C. Shaw, and T. Denvir, editors,</editor>
@@ -201,7 +262,7 @@
   <sequence>
     <author>P. Yang and J. H. Chern</author>
     <title>"Design for Reliability: The Major Challenge for VLSI,"</title>
-    <journal>Proceedings of IEEE,</journal>
+    <container-title>Proceedings of IEEE,</container-title>
     <volume>Vol. 81, No. 5,</volume>
     <pages>pp. 730-744,</pages>
     <date>May 1993.</date>
@@ -4335,6 +4396,15 @@
     <isbn>ISBN 1-55738-811-3.</isbn>
   </sequence>
   <sequence>
+    <citation-number>[Allison2006-MIT]</citation-number>
+    <author>G. Allison, E.A. Galaktionov, A.K. Savchenko, S.S. Safonov, M.M. Fogler, M.Y. Fogler, M.Y. Simmons, D.A. Ritchie,</author>
+    <title>Thermodynamic density of states of two-dimensional GaAs systems near the apparent metal-insulator transition,</title>
+    <journal>Phys. Rev. Lett.</journal>
+    <volume>96,</volume>
+    <pages>216407</pages>
+    <date>(2006).</date>
+  </sequence>
+  <sequence>
     <author>Stephen H. Kellert,</author>
     <title>In the Wake of Chaos: Unpredictable Order in Dynamical Systems,</title>
     <publisher>University of Chicago Press,</publisher>
@@ -4786,14 +4856,23 @@
     <author>Balakrishnan, R.</author>
     <date>(2006, 25-26 March).</date>
     <title>Why aren't we using 3d user interfaces, and will we ever?</title>
-    <note>Paper presented at the IEEE Symposium on 3D User Interfaces.</note>
+    <container-title>Paper presented at the IEEE Symposium on 3D User Interfaces.</container-title>
     <doi>doi:10.1109/VR.2006.148</doi>
   </sequence>
   <sequence>
     <author>Brown, S., &amp; Caste, V.</author>
     <date>(2004, May).</date>
     <title>Integrated obstacle detection framework.</title>
-    <note>Paper presented at the IEEE Intelligent Vehicles Symposium, Detroit, MI.</note>
+    <container-title>Paper presented at the IEEE Intelligent Vehicles Symposium,</container-title>
+    <location>Detroit, MI.</location>
+  </sequence>
+  <sequence>
+    <author>Collier T, Villette A.</author>
+    <title>Analyse critique des méthodes de comparaison des solutions anesthésiques à partir d’une étude clinique (1ère partie).</title>
+    <journal>Le fil dentaire.</journal>
+    <date>2011</date>
+    <volume>;(61) :</volume>
+    <pages>40-4.</pages>
   </sequence>
   <sequence>
     <editor>Bickman, L., &amp; Ellis, H. (Eds.).</editor>
@@ -6469,7 +6548,7 @@
     <editor>edited by Gibson R. L. and Reimold W. U.</editor>
     <location>Boulder:</location>
     <publisher>Geological Society of America,</publisher>
-    <note>Special Paper, v. 465,</note>
+    <genre>Special Paper, v. 465,</genre>
     <pages>pp. 443-469,</pages>
     <doi>doi: 10.1130/2010.2465(22).</doi>
     <date>2010.</date>
@@ -8258,5 +8337,622 @@
     <title>The dynamic production of variation</title>
     <note>(Unpublished doctoral dissertation).</note>
     <publisher>University of Pennsylvania.</publisher>
+  </sequence>
+  <sequence>
+    <citation-number>[99]</citation-number>
+    <author>Z. Zhang and M. Qiu,</author>
+    <title>“Small-volume waveguide-section high Q microcavities in 2D photonic crystal slabs,”</title>
+    <journal>Optics Express</journal>
+    <volume>12,</volume>
+    <pages>3988</pages>
+    <date>(2004).</date>
+  </sequence>
+  <sequence>
+    <author>Aagaard, B. T., Graves, R. W., Rodgers, A., Brocher, T. M., Simpson, R. W., Dreger, D., Petersson, N. A., Larsen, S. C., Ma, S., and Jachens, R. C.</author>
+    <date>(2010).</date>
+    <title>Ground-Motion Modeling of Hayward Fault Scenario Earthquakes, Part II: Simulation of Long-Period and Broadband Ground Motions.</title>
+    <journal>Bulletin of the Seismological Society of America,</journal>
+    <volume>100(6):2945–2977.</volume>
+  </sequence>
+  <sequence>
+    <author>Petersen, M. D., Frankel, A. D., Harmsen, S. C., Mueller, C. S., Haller, K. M., Wheeler, R. L., Wesson, R. L., Zeng, Y., Boyd, O. S., Perkins, D. M., Luco, N., Field, E. H., Wills, C. J., and Rukstales, K. S.</author>
+    <date>(2008).</date>
+    <title>Documentation for the 2008 update of the United States national seismic hazard maps.</title>
+    <genre>Technical report.</genre>
+  </sequence>
+  <sequence>
+    <author>Spencer, A.</author>
+    <date>(1991).</date>
+    <title>Morphological Theory: An Introduction to Word Structure in Generative Grammar.</title>
+    <publisher>Basil Blackwell.</publisher>
+  </sequence>
+  <sequence>
+    <citation-number>(63)</citation-number>
+    <author>Kamerlin, S. C. L.; Warshel, A.</author>
+    <title>"At the Dawn of the 21st Century: Is Dynamics the Missing Link for Understanding Enzyme Catalysis?"</title>
+    <journal>Proteins</journal>
+    <date>2010,</date>
+    <volume>78,</volume>
+    <pages>1339–1375.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[206]</citation-number>
+    <author>Yu Zhang, Xiu-shen Wei, Jianxin Wu, Jianfei Cai, Jiangbo Lu, Viet-Anh Nguyen, and Minh N Do.</author>
+    <title>Weakly supervised fine-grained image categorization.</title>
+    <note>arXiv preprint arXiv:1504.04943,</note>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <author>McKinney, George W . , III.</author>
+    <title>An Experimental Study of the Effects of Systematic Approaches on Strategic Planning.</title>
+    <location>Stanford, California:</location>
+    <publisher>Stanford University Graduate School of Business,</publisher>
+    <date>August, 1969.</date>
+    <note>(Unpublished Doctor's Dissertation.)</note>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <title>Dom Casmurro,</title>
+    <translator>trans. John Gledson.</translator>
+    <location>New York:</location>
+    <publisher>Oxford University Press,</publisher>
+    <date>1997.</date>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <date>1802.</date>
+    <title>History of the Roman Wall, which crosses the island of Britain from the German Ocean to the Irish Sea. Describing its Ancient State, and its Appearance in the Year 1801.</title>
+    <location>London:</location>
+    <publisher>John Nichols etc.</publisher>
+  </sequence>
+  <sequence>
+    <author>Walter Benjamin,</author>
+    <title>« Petite histoire de la photographie »</title>
+    <container-title>in Œuvres II,</container-title>
+    <translator>Trad fr. par Maurice de Gandillac.</translator>
+    <location>Paris :</location>
+    <publisher>Gallimard,</publisher>
+    <collection-title>Coll. Folio Essais,</collection-title>
+    <date>2000.</date>
+  </sequence>
+  <sequence>
+    <author>COLLECTIF.</author>
+    <title>Soigner les patients borderline (dossier).</title>
+    <journal>Santé Mentale,</journal>
+    <date>septembre 2011,</date>
+    <volume>n°160.</volume>
+    <pages>p. 25-93.</pages>
+  </sequence>
+  <sequence>
+    <author>Bahn, Paul G., and John Flenley.</author>
+    <title>Easter Island, Earth Island.</title>
+    <location>New York:</location>
+    <publisher>Thames and Hudson,</publisher>
+    <date>1992.</date>
+  </sequence>
+  <sequence>
+    <editor>Adamson, Joni, Mei Mei Evans, and Rachel Stein, eds.</editor>
+    <title>The Environmental Justice Reader: Politics, Poetics, and Pedagogy.</title>
+    <location>Tucson:</location>
+    <publisher>University of Arizona Press,</publisher>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <author>Sharpton, V. L., Dressler, B.O., Herrick, R.R., Schnieders, B. and Scott,J.,</author>
+    <title>New constraints on the Slate Islands impact structure, Ontario, Canada.</title>
+    <journal>Geology,</journal>
+    <volume>v. 24,</volume>
+    <pages>pp. 851-854.</pages>
+    <date>1996.</date>
+  </sequence>
+  <sequence>
+    <author>Rotzoll, K., S. B. Gingerich, J. W. Jenson, and A. I. El-Kadi.</author>
+    <date>2013.</date>
+    <title>Estimating Hydraulic Properties from Tidal Attenuation in the Northern Guam Lens Aquifer, Territory of Guam, USA.</title>
+    <journal>Hydrogeology Journal</journal>
+    <volume>21(3):</volume>
+    <pages>643–654.</pages>
+  </sequence>
+  <sequence>
+    <author>RAHNER Karl,</author>
+    <title>“Considerazioni fondamentali per l’antropologia e la protologia nell’ambito della teologia”,</title>
+    <editor>in: Johannes Feiner e Magnus Löhrer (ed.),</editor>
+    <container-title>Mysterium Salutis. Nuovo corso di dogmatica come teologia della storia della salvezza 4 (II/2),</container-title>
+    <publisher>Queriniana,</publisher>
+    <location>Brescia,</location>
+    <date>1970,</date>
+    <pages>11-30.</pages>
+  </sequence>
+  <sequence>
+    <author>BONNIN, O.</author>
+    <title>Un assouplissement pour l'évaluation externe.</title>
+    <journal>La Gazette Santé-Social,</journal>
+    <date>Septembre 2014,</date>
+    <volume>n°110,</volume>
+    <pages>p. 35.</pages>
+  </sequence>
+  <sequence>
+    <author>Bicevskis, K., J. de Vries, L. Green, J. Heim, J. Božic, J. D’Aquisto, M. Fry, E. Sadlier-Brown, O. Tkachman, N. Yamane and B. Gick.</author>
+    <title>Effects of mouthing and interlocutor presence on movements of visible vs. non-visible articulators.</title>
+    <journal>Canadian Acoustics</journal>
+    <volume>44(1)</volume>
+    <pages>17-24.</pages>
+    <date>2016.</date>
+    <note>*†</note>
+  </sequence>
+  <sequence>
+    <author>- H. PLAGNOL,</author>
+    <title>« La codification doit être une incitation à la réforme »,</title>
+    <journal>J.C.P. A.,</journal>
+    <date>2003,</date>
+    <volume>n° 2140</volume>
+  </sequence>
+  <sequence>
+    <author>Bajos Nathalie, Ferrand Michèle, l’équipe GINÉ,</author>
+    <title>De la contraception à l’avortement. Sociologie des grossesses non prévues,</title>
+    <location>Paris,</location>
+    <publisher>Inserm,</publisher>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <author>COLLECTIF.</author>
+    <title>Les risques professionnels à l’hôpital (dossier).</title>
+    <journal>L’Aide-soignante,</journal>
+    <date>février 2004,</date>
+    <volume>n°54.</volume>
+    <pages>p. 11-19.</pages>
+  </sequence>
+  <sequence>
+    <author>Junguo ZHANG.</author>
+    <title>"A Critical Examination of Anselm’s Ontological Argument."</title>
+    <journal>Frontiers of Philosophy in China.</journal>
+    <date>2017,</date>
+    <volume>12 (1):</volume>
+    <pages>137-150.</pages>
+    <doi>DOI: 10.3868/s030-006-017-0010-8</doi>
+  </sequence>
+  <sequence>
+    <citation-number>2.</citation-number>
+    <author>Schulman JE, O’Toole RV, Castillo RC, et al:</author>
+    <title>Pelvic ring fractures are an independent risk factor for death after blunt trauma.</title>
+    <journal>J Trauma</journal>
+    <volume>68(4):</volume>
+    <pages>930–934,</pages>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
+    <author>Gott, M., Gardiner, C., Payne, S., Small, N., Seamark, D., &amp; Halpin, D.</author>
+    <date>(2009).</date>
+    <title>Barriers to advance care planning in chronic obstructive pulmonary disease..</title>
+    <journal>Palliative Medicine,</journal>
+    <volume>23(7),</volume>
+    <pages>642-648.</pages>
+    <doi>doi:10.1177/0269216309106790</doi>
+    <note>JCR two-year Impact Factor: 4.220</note>
+  </sequence>
+  <sequence>
+    <author>Godes, O., Hulleman, C. S., &amp; Harackiewicz, J. M.</author>
+    <date>(2007).</date>
+    <title>Boosting students’ interest in math with utility value: Two experimental tests.</title>
+    <container-title>Paper presented at the meeting of the American Educational Research Association,</container-title>
+    <location>Chicago, IL.</location>
+  </sequence>
+  <sequence>
+    <author>Jackson, J. S., Govia, I. O., &amp; Sellers, S. L.</author>
+    <date>(2011).</date>
+    <title>Chapter 7. Racial and ethnic influences over the life course.</title>
+    <editor>In R. H. Binstock &amp; L. K. George (Eds.),</editor>
+    <container-title>Handbook of aging and the social sciences</container-title>
+    <edition>(Seventh Edition,</edition>
+    <pages>pp. 91–103).</pages>
+    <location>London:</location>
+    <publisher>Elsevier.</publisher>
+  </sequence>
+  <sequence>
+    <citation-number>23.</citation-number>
+    <author>Kim, Y.Y., Sexton, R.M., Shin, D.H., Kim, C.S., Ginde, S.A., Ren, J.M., Lee, D.M., and Kupin, T.H.,</author>
+    <title>Outcomes of primary phakic trabeculectomies without versus with 0.5- to 1-minute versus 3- to 5-minute mitomycin C.</title>
+    <journal>American Journal of Ophthalmology,</journal>
+    <date>1998.</date>
+    <volume>126(6):</volume>
+    <pages>p. 755-762.</pages>
+  </sequence>
+  <sequence>
+    <author>Irmtraud Schnell:</author>
+    <date>2011.</date>
+    <title>Die längst überfällige Schließung der Schule für Lernbehinderte – zur Irrationalität bildungspolitischer Entscheidungen.</title>
+    <journal>In: Gemeinsam leben. Zeitschrift für Inklusion.</journal>
+    <volume>19.Jg. H.3,</volume>
+    <pages>146-151</pages>
+  </sequence>
+  <sequence>
+    <author>Van Buuren S, Brand L, Groothuis-Oudshoorn CGM, Rubin D:</author>
+    <title>Fully conditional specification in multivariate imputation.</title>
+    <journal>J Stat Comput Simul</journal>
+    <date>2006,</date>
+    <volume>12:</volume>
+    <pages>1049–1064.</pages>
+  </sequence>
+  <sequence>
+    <author>M.-T. Lanquetin,</author>
+    <title>« Égalité, diversité et... discriminations multiples »,</title>
+    <journal>Travail, genre et société,</journal>
+    <date>2009,</date>
+    <volume>n° 1,</volume>
+    <pages>pp. 91-106.</pages>
+  </sequence>
+  <sequence>
+    <author>MICHEL Hélène,</author>
+    <title>« La « société civile » dans la « gouvernance européenne ». Eléments pour une sociologie d’une catégorie politique »,</title>
+    <journal>Actes de la recherche en sciences sociales,</journal>
+    <date>mars 2007,</date>
+    <pages>pp.30-37.</pages>
+  </sequence>
+  <sequence>
+    <author>Senici, Emanuele,</author>
+    <title>“‘Se potessimo tornare da capo’,”</title>
+    <editor>in Fabrizio Della Seta, Roberta Montemorra Marvin, and Marco Marica (eds.),</editor>
+    <container-title>Verdi 2001,</container-title>
+    <volume>2 vols.</volume>
+    <location>(Florence:</location>
+    <publisher>Olschki,</publisher>
+    <date>2003),</date>
+    <volume>vol. ii,</volume>
+    <pages>pp. 937–43.</pages>
+  </sequence>
+  <sequence>
+    <author>GAUDICHAUD F.,</author>
+    <title>“Popular Power, Oral History, and Collective Memory in Contemporary Chile”,</title>
+    <journal>in Latin American Perspectives,</journal>
+    <volume>36, 5</volume>
+    <date>(2009),</date>
+    <pages>pp. 58-71.</pages>
+  </sequence>
+  <sequence>
+    <author>He Huanhuan:</author>
+    <title>On Dignāga’s Names.</title>
+    <journal>Journal of the International College for Postgraduate Buddhist Studies,</journal>
+    <volume>Vol. 21</volume>
+    <date>March, 2017,</date>
+    <pages>214-254</pages>
+  </sequence>
+  <sequence>
+    <author>Hogue, Christopher W. V.</author>
+    <title>“Structure Databases.”</title>
+    <container-title>Bioinformatics,</container-title>
+    <editor>edited by Andreas D. Baxevanis and B. F. Francis Ouellette,</editor>
+    <edition>2nd ed.,</edition>
+    <publisher>Wiley-Interscience,</publisher>
+    <date>2001,</date>
+    <pages>pp. 83–109.</pages>
+  </sequence>
+  <sequence>
+    <author>Girard, P.</author>
+    <date>(2006).</date>
+    <title>From Onions to Broccoli Generalizing Lewis' Counterfactual Logic.</title>
+    <journal>Journal of Applied Non-Classical Logic,</journal>
+    <note>Special Issue: Belief Change,</note>
+    <volume>17(3),</volume>
+    <pages>213-29.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[6]</citation-number>
+    <author>Dimitris Bertsimas and Robert Weismantel.</author>
+    <title>Optimization over integers.</title>
+    <publisher>Athena Scientific,</publisher>
+    <date>2005.</date>
+  </sequence>
+  <sequence>
+    <author>Barthes, Roland</author>
+    <date>1988 [1964].</date>
+    <title>“The Kitchen of Meaning.” The Semiotic Challenge.</title>
+    <translator>Trans. Richard Howard.</translator>
+    <location>New York:</location>
+    <publisher>Hill and Wang.</publisher>
+    <pages>157-159.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[180]</citation-number>
+    <author>Catherine Wah, Steve Branson, Pietro Perona, and Serge Belongie.</author>
+    <title>Multiclass recognition and part localization with humans in the loop.</title>
+    <container-title>In ICCV’11.</container-title>
+  </sequence>
+  <sequence>
+    <citation-number>[39]</citation-number>
+    <author>David Cline, Stefan Jeschke, K White, Anshuman Razdan, and Peter Wonka.</author>
+    <title>Dart throwing on surfaces.</title>
+    <container-title>In Eurographics,</container-title>
+    <date>2009.</date>
+  </sequence>
+  <sequence>
+    <editor>Ewing, David W. (ed.)</editor>
+    <title>Long-Range Planning for Management.</title>
+    <edition>Revised edition.</edition>
+    <location>New York:</location>
+    <publisher>Harper and Row,</publisher>
+    <date>1964.</date>
+  </sequence>
+  <sequence>
+    <author>Van Mulken, Margot &amp; Van Reenen, Pieter Th van.</author>
+    <title>Studies in Stemmatology.</title>
+    <publisher>John Benjamins Publishing Co.</publisher>
+    <date>1996</date>
+  </sequence>
+  <sequence>
+    <author>Dickin, A. P., Crocket, J. H.,</author>
+    <title>Sudbury: Geochemical evidence for a single-impact melting event (abstract).</title>
+    <journal>Large Meteorite Impacts and Planetary Evolution,.</journal>
+    <date>1997.</date>
+  </sequence>
+  <sequence>
+    <author>Koger, D. G., Wiley, M. A.,</author>
+    <title>Satellilte data use and season/sensor/image comparisons; Ames Hole, Oklahoma (abstract).</title>
+    <container-title>Ames Structure and Similar Features - A Workshop,</container-title>
+    <pages>pp. 18.</pages>
+    <date>1995.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[77]</citation-number>
+    <author>David Hoiem, Alexei Efros, and Martial Hebert.</author>
+    <title>Putting objects in perspective.</title>
+    <journal>IJCV,</journal>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <author>Carles.</author>
+    <date>1871</date>
+    <title>Monographie de Saint Front, cathédrale de Périgueux</title>
+  </sequence>
+  <sequence>
+    <author>James R. Thompson.</author>
+    <title>Science and Engineering: the Last Bastions of Aristotelian Thinking at American Universities,</title>
+    <date>(2011)</date>
+    <container-title>in College and the Academic Community in the European and the American Tradition,</container-title>
+    <editor>eds. Mark O’Connor and Piotr Wilczek,</editor>
+    <location>Boston and Warsaw:</location>
+    <publisher>Boston College and the University of Warsaw Artes Liberales,</publisher>
+    <pages>pp. 237–246.</pages>
+  </sequence>
+  <sequence>
+    <author>Bayley, R., Holland, C., &amp; Ware, K.</author>
+    <date>(2012, October).</date>
+    <title>Lexical frequency and syntactic variation: A test of a linguistic hypothesis.</title>
+    <container-title>Paper presented at NWAV 41.</container-title>
+  </sequence>
+  <sequence>
+    <author>Tunberg, A. D., W. E. Howard, and R. E. Marsh.</author>
+    <date>1984.</date>
+    <title>A new concept in pocket gopher control.</title>
+    <container-title>Proceedings of the Vertebrate Pest Conference</container-title>
+    <volume>11:</volume>
+    <pages>7-16.</pages>
+  </sequence>
+  <sequence>
+    <author>Orland Figes,</author>
+    <title>Peasant Russia, Civil War: The Volga Countryside in Revolution, 1917-1921</title>
+    <location>(Oxford:</location>
+    <publisher>Clarendon Press,</publisher>
+    <date>1989)</date>
+  </sequence>
+  <sequence>
+    <author>Barringer, D. M.,</author>
+    <title>Coon Mountain and its crater.</title>
+    <container-title>Proceedings Academy of Natural Sciences of Philadelphia,</container-title>
+    <volume>v. 57,</volume>
+    <pages>pp. 861-886.</pages>
+    <date>1905.</date>
+  </sequence>
+  <sequence>
+    <author>DOTTI, René Ariel.</author>
+    <title>Curso de direito penal: parte geral.</title>
+    <location>Rio de Janeiro:</location>
+    <publisher>Forense,</publisher>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <citation-number>1.</citation-number>
+    <author>Slyker JA, Casper C, Tapia K, Richardson B, Bunts L, Huang ML, Maleche-Obimbo E, Nduati R, John-Stewart G.</author>
+    <title>Clinical and virologic manifestations of primary Epstein-Barr virus (EBV) infection in Kenyan infants born to HIV-infected women.</title>
+    <journal>J Infect Dis</journal>
+    <date>2013;</date>
+    <volume>207:</volume>
+    <pages>1798-806.</pages>
+  </sequence>
+  <sequence>
+    <author>Dorcas, M. E., J. D. Willson, R. N. Reed, R. W. Snow, M. R. Rochford, M. A. Miller, W. E. Meshaka, Jr., P. T. Andreadis, F. J. Mazzotti, C. M. Romagosa, and K. M. Hart.</author>
+    <date>2012.</date>
+    <title>Severe mammal declines coincide with proliferation of invasive Burmese pythons in Everglades National Park.</title>
+    <container-title>Proceedings of the National Academy of Sciences</container-title>
+    <volume>109:</volume>
+    <pages>2418–2422.</pages>
+  </sequence>
+  <sequence>
+    <author>Narboux, Jean-Philippe,</author>
+    <title>L’illusion,</title>
+    <location>Paris,</location>
+    <publisher>Éditions Flammarion,</publisher>
+    <date>2000.</date>
+  </sequence>
+  <sequence>
+    <author>COMMISSION ON ENHANCING NATIONAL CYBERSECURITY</author>
+    <date>(2016).</date>
+    <title>REPORT ON SECURING AND GROWING THE DIGITAL ECONOMY.</title>
+    <publisher>NIST.</publisher>
+    <note>Retrieved 9/6/2017 from</note>
+    <url>https://www.nist.gov/sites/default/files/documents/2016/12/02/cybersecurity-commission-report-final-post.pdf</url>
+  </sequence>
+  <sequence>
+    <author>BALDERAS, R.,</author>
+    <date>2016.</date>
+    <title>“Sufren asaltos nueve de cada diez migrantes que cruzan México: CEDH”,</title>
+    <journal>La Opinion,</journal>
+    <date>25 July2016.</date>
+    <note>Available at</note>
+    <url>http://www.cronica.com.mx/notas/2016/974320.html</url>
+    <note>[accessed 14 September 2016]</note>
+  </sequence>
+  <sequence>
+    <author>Watson, F.B.,</author>
+    <title>Paul, Judaism and the Gentiles.</title>
+    <location>Cambridge:</location>
+    <publisher>Cambridge University Press,</publisher>
+    <date>1986).</date>
+  </sequence>
+  <sequence>
+    <author>Krawinkler, H. and Miranda, E.</author>
+    <date>(2004).</date>
+    <title>Performance-based earthquake engineer-ing. Earthquake Engineering: From Engineering Seismology to Performance-Based Engineering</title>
+    <editor>(edited by Y. Bozorgnia and VV Bertero)”,</editor>
+    <publisher>CRC Press,</publisher>
+    <location>Boca Raton, USA.</location>
+  </sequence>
+  <sequence>
+    <author>Gil, A.</author>
+    <date>(2010).</date>
+    <title>Como elaborar projetos de pesquisa</title>
+    <edition>(5. Ed.).</edition>
+    <location>São Paulo:</location>
+    <publisher>Atlas.</publisher>
+  </sequence>
+  <sequence>
+    <title>Pillars of an institution.</title>
+    <date>(1993, September).</date>
+    <journal>Wake Forest University magazine,</journal>
+    <volume>41, (1),</volume>
+    <pages>p. 3</pages>
+  </sequence>
+  <sequence>
+    <author>Wolfgang Jantzen:</author>
+    <title>Isolation.</title>
+    <editor>In: R. Bauer (Hrsg.):</editor>
+    <container-title>Lexikon des Sozial- und Gesundheitswesens.</container-title>
+    <location>Köln:</location>
+    <publisher>Oldenbourg</publisher>
+    <date>1992,</date>
+    <pages>1058-1059</pages>
+  </sequence>
+  <sequence>
+    <author>G. B. Ladner,</author>
+    <title>Die mittelalterliche Reform-Idee und ihr Verhaltnis zur Idee der Renaissance,</title>
+    <journal>Mitteilungen des Instituts fur österreichische Geschichtsforschung,</journal>
+    <volume>60,</volume>
+    <date>1952),</date>
+    <pages>31-59.</pages>
+  </sequence>
+  <sequence>
+    <author>Kolbe, T., Partridge, M., &amp; O’Reilly, F.</author>
+    <date>(2011).</date>
+    <title>Time and learning in schools: A national profile.</title>
+    <location>Boston, MA.</location>
+    <note>Retrieved from</note>
+    <url>http://www.timeandlearning.org/?q=sass</url>
+  </sequence>
+  <sequence>
+    <date>2010.</date>
+    <title>"Sustainable Consumption and the Problem of Resilience."</title>
+    <journal>Sustainability: Science, Practice, Policy.</journal>
+    <volume>6(2):</volume>
+    <pages>1-12.</pages>
+    <note>Open source, available at the journal web site. Link here.</note>
+  </sequence>
+  <sequence>
+    <author>Levine, Robert S.</author>
+    <title>Conspiracy and Romance: Studies in Brockden Brown, Cooper, Hawthorne, and Melville.</title>
+    <location>Cambridge:</location>
+    <publisher>Cambridge University Press,</publisher>
+    <date>1989.</date>
+  </sequence>
+  <sequence>
+    <author>Auray, N.</author>
+    <date>(2012),</date>
+    <title>Online communities and governance mechanisms,</title>
+    <editor>in E. Brousseau, M. Marzouki &amp; C. Méadel (eds.),</editor>
+    <container-title>Governance, Regulation and Powers on the Internet.</container-title>
+    <location>Cambridge and New York:</location>
+    <publisher>Cambridge University Press,</publisher>
+    <pages>pp. 211-231.</pages>
+  </sequence>
+  <sequence>
+    <author>Childs, Peter.</author>
+    <title>“Ian McEwan: The Child in Us All.”</title>
+    <container-title>Contemporary Novelists: British Fiction since 1970.</container-title>
+    <location>Basingstoke:</location>
+    <publisher>Palgrave Macmillan,</publisher>
+    <date>2005:</date>
+    <pages>160-179.</pages>
+  </sequence>
+  <sequence>
+    <author>Marion, C., et al.,</author>
+    <title>Microbeam-based analytical approach to define melt composition and identify target rocks in impact melt sheets: An analogue study from the Mistastin Lake impact crater, Labrador,</title>
+    <container-title>International Astronautical Federation - 58th International Astronautical Congress 2007,</container-title>
+    <volume>v. 2,</volume>
+    <pages>pp. 1185-1193,</pages>
+    <date>2007</date>
+  </sequence>
+  <sequence>
+    <author>SIERVO (M.), GREY (P.), NYAN (O.A.), PRENTICE (A.M.)</author>
+    <date>2006,</date>
+    <title>A pilot study on body image, attractiveness and body size in Gambians living in an urban community.</title>
+    <journal>Eating and Weight Disorders</journal>
+    <volume>11(2):</volume>
+    <pages>100-109.</pages>
+  </sequence>
+  <sequence>
+    <author>Dypvik, H., Kalleson, E.,</author>
+    <title>Mechanisms of late synimpact to early postimpact crater sedimentation in marine-target impact structures,</title>
+    <container-title>Special Paper of the Geological Society of America,</container-title>
+    <volume>Issue 465,</volume>
+    <pages>pp. 301-318,</pages>
+    <date>2010</date>
+  </sequence>
+  <sequence>
+    <author>FERRIERES Madeleine,</author>
+    <title>Nourritures canailles,</title>
+    <publisher>Seuil,</publisher>
+    <location>Paris,</location>
+    <date>2007</date>
+  </sequence>
+  <sequence>
+    <author>GUILMOTO C. Z.,</author>
+    <title>“The Tamil Migration Cycle, 1830-1950”,</title>
+    <journal>in Economical and Political Weekly,</journal>
+    <volume>28, 3/4</volume>
+    <date>(Jan. 16-23, 1993),</date>
+    <pages>pp. 111-120.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[9]</citation-number>
+    <author>Harding, Kevin,</author>
+    <title>“Overview Of Non-Contact 3D Sensing Methods,”</title>
+    <container-title>[The Encyclopedia of Optical Engineering].</container-title>
+    <publisher>Marcel Dekker,</publisher>
+    <location>New York</location>
+    <date>(2000).</date>
+  </sequence>
+  <sequence>
+    <author>Anne Beaulieu,</author>
+    <title>From brainbank to database: the informational turn in the study of the brain,</title>
+    <journal>Studies in History and Philosophy of Biological and Biomedical Sciences,</journal>
+    <volume>No. 35.</volume>
+    <date>(2004),</date>
+    <pages>pp. 367-390</pages>
+  </sequence>
+  <sequence>
+    <author>Bell E, Butcher K.</author>
+    <title>DFID Guidance Note on Addressing Violence against Women and Girls in Health Programming. - Part A,</title>
+    <location>London:</location>
+    <publisher>VAWG Helpdesk;</publisher>
+    <date>2015</date>
+    <note>12 de abril de 2016.</note>
+    <url>https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/446113/Health-guidance-note-partA_3_.pdf</url>
+  </sequence>
+  <sequence>
+    <author>Birk, Hanne, and Birgit Neumann.</author>
+    <title>“Go-Between. Postkoloniale Erzähltheorie.”</title>
+    <container-title>Neue Ansätze in der Erzähltheorie.</container-title>
+    <location>Trier:</location>
+    <publisher>WVT</publisher>
+    <date>2003.</date>
+    <pages>115–52.</pages>
   </sequence>
 </dataset>

@@ -19,7 +19,7 @@ module AnyStyle
             :thesis
           when /^(proceedings|conference|meeting|transactions|communications|seminar|symposi(on|um))/i
             :proceedings
-          when /^(Journal|Zeitschrift|Quarterly|Magazine?|Times|Rev(iew|vue)?|Bulletin|News|Week)/
+          when /^(Journal|Zeitschrift|Quarterly|Magazine?|Times|Rev(iew|vue)?|Bulletin|News|Week|Gazett[ea])/
             :journal
           when /^in$/i
             :in
@@ -31,7 +31,7 @@ module AnyStyle
             :page
           when /^(vol(ume)?s?|iss(ue)?|n[or]?|number)$/i
             :volume
-          when /^(ser(ies?)?|reihe)$/i
+          when /^(ser(ies?)?|reihe|[ck]oll(e[ck]tion))$/i
             :series
           when /^(edn|edition|expanded|rev(ised)?|p?reprint(ed)?|illustrated)$/i,
             /^(aufl(age)?|\p{Alpha}*ausg(abe)?)$/i
