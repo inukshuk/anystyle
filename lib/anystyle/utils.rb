@@ -46,6 +46,11 @@ module AnyStyle
     def indent(token)
       display_chars(token).rstrip[/^(\s*)/].length
     end
+
+    def strip_html(string)
+      string
+        .gsub(/<\/?(italic|i|strong|b|span|div)(\s+style="[^"]+")?>/i, '')
+    end
   end
 
   module PdfUtils

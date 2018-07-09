@@ -5,22 +5,33 @@ module AnyStyle
 
       def normalize(item, **opts)
         map_values(item, [:volume]) do |_, volume|
+          volume = StringUtils.strip_html volume
+
           case volume
-          when /(\p{Lu}?\d+)\s?\(([^)]+)\)\s?(\d+\p{Pd}\d+)?/
+          when /(?:^|\s)(\p{Lu}?\d+|[IVXLCDM]+)\s?\(([^)]+)\)(\s?\d+\p{Pd}\d+)?/
+            volume = $1
             append item, :issue, $2
-            append item, :pages, $3 unless $3.nil?
-            $1
-          when /(?:(\p{Lu}?\d+)[\p{P}\s]+)?(?:nos?|nr|n°|nº|iss?)\.?\s?(.+)$/i
+            append item, :pages, $3.strip unless $3.nil?
+            volume
+          when /(?:(\p{Lu}?\d+|[IVXLCDM]+)[\p{P}\s]+)?(?:nos?|nr|n°|nº|iss?|fasc)\.?\s?(.+)$/i
             volume = $1
             append item, :issue, $2.sub(/\p{P}$/, '')
             volume
-          when /(\d+):(\d+(\p{Pd}\d+)?)/
+          when /(\p{Lu}?\d+|[IVXLCDM]+):(\d+(\p{Pd}\d+)?)/
+            volume = $1
             append item, (item.key?(:pages) ? :issue : :pages), $2
+            volume
+          when /(\p{Lu}?\d+|[IVXLCDM]+)[\.\/](\S+)/
+            volume = $1
+            append item, :issue, $2.sub(/\p{P}$/, '')
+            volume
+          when /(\d+) [Vv]ol/
             $1
           else
             volume
+              .sub(/<\/?(italic|i|strong|b|span|div)>/, '')
               .sub(/^[\p{P}\s]+/, '')
-              .sub(/.*vol(ume)?[\p{P}\s]+/i, '')
+              .sub(/^[Vv]ol(ume)?[\p{P}\s]+/, '')
               .sub(/\p{P}$/, '')
           end
         end

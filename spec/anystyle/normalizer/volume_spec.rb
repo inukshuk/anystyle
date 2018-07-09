@@ -32,30 +32,31 @@ module AnyStyle
         'Vol. 2 Nos. 1-4,' => { volume: ['2'], issue: ['1-4'] },
         'Vol. 2 Nos. 3&4,' => { volume: ['2'], issue: ['3&4'] },
         '[4]' => { volume: ['4'] },
-        'SAC-4' => { volume: ['SAC-4'] }
-        # 20</italic>
-        # Vol. LXVI(6),
-        # 28</italic>(1),
-        # Vol. 34, No. 369-370,
-        # vol. 21, no. 61 [1],
-        # vol. XXXI, nº 2,
-        # XXXVI/1-2
+        'SAC-4' => { volume: ['SAC-4'] },
+        '14, n° 1' => { volume: ['14'], issue: ['1'] },
+        'Vol. 47, Iss. 4,' => { volume: ['47'], issue: ['4'] },
+        'Vol. 34, No. 369-370,' => { volume: ['34'], issue: ['369-370'] },
+        'vol. 21, no. 61 [1],' => { volume: ['21'], issue: ['61 [1]'] },
+        '85.2 (Apr.):' => { volume: ['85'], issue: ['2'] },
+        '20</italic>' => { volume: ['20'] },
+        '28</italic>(1),' => { volume: ['28'], issue: ['1'] },
+        'Vol. LXVI(6),' => { volume: ['LXVI'], issue: ['6'] },
+        'vol. XXXI, nº 2,' => { volume: ['XXXI'], issue: ['2'] },
+        'XXXVI/1-2,' => { volume: ['XXXVI'], issue: ['1-2'] },
+        'vol. CLXXXIII, fasc. 603,' => { volume: ['CLXXXIII'], issue: ['603'] }
         # 47ème année, n°1,
         # Isuue 140,
         # 40 (4), art. no. 5446343,
-        # 14, n° 1
         # 129, 4, Pt. 2:
-        # Vol. 47, Iss. 4,
-        # vol. CLXXXIII, fasc. 603,
-        # 85.2 (Apr.):
 
       }).each do |(a, b)|
         expect(n.normalize(volume: [a])).to include(b)
       end
     end
 
-    it "extracts number of volumes"
-      # 8 vols.
+    it "extracts number of volumes" do
+      expect(n.normalize(volume: ['8 vols.'])).to include(volume: ['8'])
+    end
 
     it "extracts page numbers" do
       ({
