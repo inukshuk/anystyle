@@ -8,6 +8,16 @@ module AnyStyle
       prev = [{ author: [{ literal: 'X' }]}]
       expect(n('-----.,')[0]).to include(literal: '-----.')
       expect(n('-----.,', prev: prev)[0]).to include(literal: 'X')
+      expect(n('___.,', prev: prev)[0]).to include(literal: 'X')
+      expect(n('_ _ _.,', prev: prev)[0]).to include(literal: 'X')
+      expect(n('* * *,', prev: prev)[0]).to include(literal: 'X')
+      expect(n('***,', prev: prev)[0]).to include(literal: 'X')
+      expect(n('-----, ed.', prev: prev)[0]).to include(literal: 'X')
+      prev = [{ editor: [{ literal: 'X' }]}]
+      expect(n('-----.,', prev: prev)[0]).to include(literal: 'X')
+      expect(n('--.', prev: prev)[0]).to include(literal: 'X')
+      expect(n('- -.', prev: prev)[0]).to include(literal: 'X')
+      expect(n('-.', prev: prev)[0]).to_not include(literal: 'X')
     end
 
     describe "Name Parsing" do

@@ -25,7 +25,7 @@ module AnyStyle
           value.gsub!(/(^[\(\[]|[,;:\)\]]+$)/, '')
           case
           when repeater?(value) && prev.length > 0
-            prev[-1][key][0] || prev[-1][:author][0]
+            prev[-1].dig(key, 0) || prev[-1].dig(:author, 0) || prev[-1].dig(:editor, 0)
           else
             begin
               parse(strip(value))
@@ -37,7 +37,7 @@ module AnyStyle
       end
 
       def repeater?(value)
-        value =~ /^[\p{P}\s]+$/
+        value =~ /^[\p{Pd}_*][\p{Pd}_* ]+(,|:|\.|$)/
       end
 
       def strip(value)
