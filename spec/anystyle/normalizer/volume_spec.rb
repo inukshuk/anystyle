@@ -68,12 +68,17 @@ module AnyStyle
     end
 
     context "(item has no date)" do
-      it "extracts date if possible"
-      # Vol. 320, No. 7237,
-      # 2008;2(3):
-      # 2009;22
-      # 321(9859)
-      # 494-495(2014):
+      it "extracts date if possible" do
+        ({
+          'Vol. 320, No. 7237,' => { volume: ['320'], issue: ['7237'] },
+          '2008;2(3):' => { volume: ['2'], issue: ['3'], date: ['2008'] },
+          '2009;22' => { volume: ['22'], date: ['2009'] },
+          '321(9859)' => { volume: ['321'], issue: ['9859'] },
+          '494-495(2014):' => { volume: ['494-495'], date: ['2014'] }
+        }).each do |(a, b)|
+          expect(n.normalize(volume: [a])).to include(b)
+        end
+      end
     end
 
     context "(item has date)" do

@@ -7,6 +7,12 @@ module AnyStyle
         map_values(item, [:volume]) do |_, volume|
           volume = StringUtils.strip_html volume
 
+          unless item.key?(:date)
+            unless volume.sub!(/([12]\d{3});|\(([12]\d{3})\)/, '').nil?
+              append item, :date, $1 || $2
+            end
+          end
+
           case volume
           when /(?:^|\s)(\p{Lu}?\d+|[IVXLCDM]+)\s?\(([^)]+)\)(\s?\d+\p{Pd}\d+)?/
             volume = $1
