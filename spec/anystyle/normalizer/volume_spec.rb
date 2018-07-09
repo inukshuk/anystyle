@@ -25,7 +25,7 @@ module AnyStyle
         'Volume Two' => { volume: ['Two'] },
         'Т. 1.' => { volume: ['Т. 1'] },
         'n° 82,' => { issue: ['82'] },
-        # XIV:4
+        'XIV:4' => { volume: ['XIV'], issue: ['4'] },
         '105(C10)' => { volume: ['105'], issue: ['C10'] },
         'B200' => { volume: ['B200'] },
         '14(Suppl.1),' => { volume: ['14'], issue: ['Suppl.1'] },

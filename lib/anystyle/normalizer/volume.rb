@@ -25,7 +25,7 @@ module AnyStyle
             volume
           when /(\p{Lu}?\d+|[IVXLCDM]+):(\d+(\p{Pd}\d+)?)/
             volume = $1
-            append item, (item.key?(:pages) ? :issue : :pages), $2
+            append item, (($3.nil? || item.key?(:pages)) ? :issue : :pages), $2
             volume
           when /(\p{Lu}?\d+|[IVXLCDM]+)[\.\/](\S+)/
             volume = $1
