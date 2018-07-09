@@ -9,7 +9,7 @@ module AnyStyle
 
           if !item.key?(:publisher) && location.include?(':')
             location, publisher = location.split(/\s*:\s*/)
-            item[:publisher] = publisher
+            append item, :publisher, publisher
           end
 
           location
