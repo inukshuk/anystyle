@@ -54,12 +54,17 @@ module AnyStyle
       end
     end
 
-    it "extracts number of volumess"
+    it "extracts number of volumes"
       # 8 vols.
 
-    it "extracts page numbers"
-      # 17(1)73-84.
-      # 0731-5090 vol.34 no.2
+    it "extracts page numbers" do
+      ({
+        '17(1)73-84.' => { volume: ['17'], issue: ['1'], pages: ['73-84'] },
+        '51:197-204' => { volume: ['51'], pages: ['197-204'] }
+      }).each do |(a, b)|
+        expect(n.normalize(volume: [a])).to include(b)
+      end
+    end
 
     context "(item has no date)" do
       it "extracts date if possible"
