@@ -43,6 +43,7 @@ require 'anystyle/normalizer/pubmed'
 require 'anystyle/normalizer/punctuation'
 require 'anystyle/normalizer/quotes'
 require 'anystyle/normalizer/type'
+require 'anystyle/normalizer/unicode'
 require 'anystyle/normalizer/volume'
 
 require 'anystyle/format/bibtex'

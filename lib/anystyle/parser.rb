@@ -125,6 +125,7 @@ module AnyStyle
       ]
 
       @normalizers = [
+        Normalizer::Unicode.new,
         Normalizer::Quotes.new,
         Normalizer::Brackets.new,
         Normalizer::Punctuation.new,
