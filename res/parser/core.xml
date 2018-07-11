@@ -6744,7 +6744,7 @@
     <author>Hijmans, Benjamin Lodewijk.</author>
     <date>1987.</date>
     <title>« Apuleius Philosophicus Platonicus »,</title>
-    <container-title>Aufstieg und Niedergang der Römischen Welt</container-title>
+    <journal>Aufstieg und Niedergang der Römischen Welt</journal>
     <volume>2, 36, 1,</volume>
     <pages>395-475</pages>
   </sequence>
@@ -7176,7 +7176,7 @@
     <title>Generalized Logistic Regression/ Partial Proportional Odds Models for Ordinal Dependent Variables.</title>
     <genre>Technical report</genre>
     <publisher>University of Notre Dame</publisher>
-    <location>South Bend, IN: .</location>
+    <location>South Bend, IN.</location>
   </sequence>
   <sequence>
     <author>Yglesias, Matthew.</author>
@@ -9102,5 +9102,269 @@
     <volume>n°95,</volume>
     <date>1988,</date>
     <pages>pp. 141-164</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[125]</citation-number>
+    <author>M. Gerken and D. A. Miller,</author>
+    <title>``Photonic nanostructures for wavelength division multiplexing,''</title>
+    <container-title>in Optics East</container-title>
+    <editor>(M. F. Lipson, G. Barbastathis, A. K. Dutta, and K. Asakawa, eds.),</editor>
+    <pages>pp. 82--96,</pages>
+    <publisher>SPIE,</publisher>
+    <date>Oct. 2004.</date>
+  </sequence>
+  <sequence>
+    <citation-number>6.</citation-number>
+    <author>Tao SS-H &amp; Bolger PM</author>
+    <date>(1999)</date>
+    <title>Dietary arsenic intakes in the United States : FDA Total Diet Study, September 1991-December 1996.</title>
+    <journal>Food additives and contaminants</journal>
+    <volume>16(11):465-472.</volume>
+  </sequence>
+  <sequence>
+    <citation-number>20.</citation-number>
+    <author>Kocar BD, et al.</author>
+    <date>(2008)</date>
+    <title>Integrated biogeochemical and hydrologic processes driving arsenic release from shallow sediments to groundwaters of the Mekong delta.</title>
+    <journal>Appl Geochem</journal>
+    <volume>23(11):3059-3071 .</volume>
+  </sequence>
+  <sequence>
+    <citation-number>91.</citation-number>
+    <author>Roughton F</author>
+    <date>(1957)</date>
+    <title>Relative Importance of Diffusion and Chemical Reaction Rates in Determining Rate of Exchange of Gases in the Human Lung, With Special Reference to True Diffusing Capacity of Pulmonary Membrane and Volume of Blood in the Lung Capillaries.</title>
+    <journal>J. Appl. Physiol.</journal>
+  </sequence>
+  <sequence>
+    <citation-number>9.</citation-number>
+    <author>Eary, L.; Shramke, J.,</author>
+    <title>Chemical Modeling of Aqueous Systems II.</title>
+    <publisher>American Chemical Society:</publisher>
+    <location>Washington, DC,</location>
+    <date>1990;</date>
+    <volume>Vol. 416.</volume>
+  </sequence>
+  <sequence>
+    <citation-number>3.</citation-number>
+    <author>Scott M &amp; Morgan J</author>
+    <date>(1995)</date>
+    <title>Reactions at oxide surfaces. 1. Oxidation of As(III) by synthetic birnessite.</title>
+    <journal>Environ Sci Technol</journal>
+    <volume>29(8):1898-1905.</volume>
+  </sequence>
+  <sequence>
+    <author>Buchwitz, B.J., Ahmad, K., Moore, L.L., Roth, M.B., and Henikoff, S.</author>
+    <date>(1999).</date>
+    <title>A histone-H3-like protein in C. elegans.</title>
+    <journal>Nature</journal>
+    <volume>401,</volume>
+    <pages>547-548.</pages>
+  </sequence>
+  <sequence>
+    <author>Gartenberg, M.</author>
+    <date>(2009).</date>
+    <title>Heterochromatin and the cohesion of sister chromatids.</title>
+    <journal>Chromosome research : an international journal on the molecular, supramolecular and evolutionary aspects of chromosome biology</journal>
+    <volume>17,</volume>
+    <pages>229-238.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[1]</citation-number>
+    <author>J. M. Maldacena,</author>
+    <journal>Adv. Theor. Math. Phys.</journal>
+    <volume>2</volume>
+    <date>(1998)</date>
+    <pages>231-252.</pages>
+    <note>[hep-th/9711200].</note>
+  </sequence>
+  <sequence>
+    <citation-number>[3]</citation-number>
+    <author>S. S. Gubser, I. R. Klebanov, A. M. Polyakov,</author>
+    <journal>Phys. Lett.</journal>
+    <volume>B428</volume>
+    <date>(1998)</date>
+    <pages>105-114.</pages>
+    <note>[hep-th/9802109].</note>
+  </sequence>
+  <sequence>
+    <citation-number>[7]</citation-number>
+    <author>S. Kachru, D. Simic and S. P. Trivedi,</author>
+    <journal>JHEP</journal>
+    <volume>1005,</volume>
+    <pages>067</pages>
+    <date>(2010)</date>
+    <note>[arXiv:0905.2970 [hep-th]].</note>
+  </sequence>
+  <sequence>
+    <citation-number>[8]</citation-number>
+    <author>R. Argurio, M. Bertolini, S. F. Franco and S. Kachru,</author>
+    <journal>Fortsch. Phys.</journal>
+    <volume>55,</volume>
+    <pages>644</pages>
+    <date>(2007).</date>
+  </sequence>
+  <sequence>
+    <citation-number>[16]</citation-number>
+    <author>L. Randall and R. Sundrum,</author>
+    <journal>Phys. Rev. Lett.</journal>
+    <volume>83,</volume>
+    <pages>3370</pages>
+    <date>(1999)</date>
+    <doi>[arXiv:hepph/9905221].</doi>
+  </sequence>
+  <sequence>
+    <citation-number>[18]</citation-number>
+    <author>F. Benini, A. Dymarsky, S. Franco, S. Kachru, D. Simic and H. Verlinde,</author>
+    <journal>JHEP</journal>
+    <volume>0912,</volume>
+    <pages>031</pages>
+    <date>(2009)</date>
+    <note>[arXiv:0903.0619 [hep-th]].</note>
+  </sequence>
+  <sequence>
+    <citation-number>[21]</citation-number>
+    <author>J. Polchinski,</author>
+    <journal>Int. J. Mod. Phys.</journal>
+    <volume>A16,</volume>
+    <pages>707-718</pages>
+    <date>(2001).</date>
+    <pages>[hep-th/0011193].</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[83]</citation-number>
+    <author>Kathryn Harriman, Paul Houston, Bill Senior, and Endre Suli.</author>
+    <title>hp-version discontinuous Galerkin methods with interior penalty for partial differential equations with nonnegative characteristic form.</title>
+    <genre>Technical report,</genre>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <citation-number>1.</citation-number>
+    <author>Schneider D.</author>
+    <title>Using Drosophila as a model Insect</title>
+    <journal>Nat Rev Genet.</journal>
+    <volume>2000;(3):218-226.</volume>
+  </sequence>
+  <sequence>
+    <author>Metcalf, Alida.</author>
+    <title>Family and Frontier in Colonial Brazil: Santana de Parnaíba, 1580–1822.</title>
+    <location>Berkeley:</location>
+    <publisher>University of California Press,</publisher>
+    <date>1992.</date>
+  </sequence>
+  <sequence>
+    <author>McCulloch A:</author>
+    <title>Social environments and health: Cross sectional national survey.</title>
+    <journal>British Medical Journal.</journal>
+    <date>2001;</date>
+    <volume>323 (7306):</volume>
+    <pages>208–9.</pages>
+  </sequence>
+  <sequence>
+    <author>U.S. Army Corps of Engineers</author>
+    <date>(2009).</date>
+    <title>Selection of Design Earthquakes and Associated Ground Motions.</title>
+    <genre>EC 1110-2-6000.</genre>
+    <location>Washington, D.C.</location>
+  </sequence>
+  <sequence>
+    <citation-number>[9]</citation-number>
+    <author>F. Gloeckler, S. Peters, U. Lemmer, and M. Gerken,</author>
+    <title>``Tunable superprism effect in photonic crystals,''</title>
+    <journal>physica status solidi a-Applications and Materials Science,</journal>
+    <volume>vol. 204, no. 11,</volume>
+    <pages>pp. 3790--3804,</pages>
+    <date>2007.</date>
+  </sequence>
+  <sequence>
+    <author>Buarque de Holanda, Sergio.</author>
+    <title>O Homem Cordial.</title>
+    <location>São Paulo:</location>
+    <publisher>Companhia das Letras,</publisher>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <author>Yoshikawa, Naoe Kukita.</author>
+    <title>"Veneration of Virgin Martyrs in Margery Kempe's Meditation: Influence of the Sarum Liturgy and Hagiography."</title>
+    <container-title>In Writing religious women: female spiritual and textual practices in late medieval England,</container-title>
+    <editor>edited by Christiania Whitehead and Denis Renevey,</editor>
+    <pages>177-198.</pages>
+    <location>Toronto:</location>
+    <publisher>University of Toronto Press,</publisher>
+    <date>2000.</date>
+  </sequence>
+  <sequence>
+    <author>Rainsford, Dominic.</author>
+    <title>Authorship, ethics and the reader: Blake, Dickens, Joyce.</title>
+    <publisher>Macmillan,</publisher>
+    <date>1997.</date>
+  </sequence>
+  <sequence>
+    <author>Tillion, Germaine.</author>
+    <title>Algeria: The Realities.</title>
+    <edition>1st American ed.</edition>
+    <location>New York:</location>
+    <publisher>Knopf,</publisher>
+    <date>1958.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[4]</citation-number>
+    <author>P. Arbel´aez, M. Maire, C. Fowlkes, and J. Malik,</author>
+    <title>“From contours to regions: An empirical evaluation,”</title>
+    <journal>CVPR,</journal>
+    <date>2009.</date>
+  </sequence>
+  <sequence>
+    <author>Martin, Robert K.,</author>
+    <title>‘Being in Youth Ministry: The Imperative of Incarnational Leadership’</title>
+    <pages>(145-164)</pages>
+    <editor>in Sondra Higgins Matthaei (ed.),</editor>
+    <container-title>Loving God, Loving Neighbor: Ministry with Searching Youth,</container-title>
+    <location>s.l.:</location>
+    <publisher>Xlibris,</publisher>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <author>Fan HD, Liu J, Yun Y, Yuan FQ, Chen S-Y.</author>
+    <title>Ethanol-induced inhibition of neural differentiation of neural crest cells is mediated by microRNA-34a through targeting autophagy-related genes.</title>
+    <journal>Research! Louisville,</journal>
+    <date>2016,</date>
+    <publisher>University of Louisville</publisher>
+  </sequence>
+  <sequence>
+    <author>COLLECTIF.</author>
+    <title>L’écriture, un outil de reconnaissance pour les aides-soignants (dossier).</title>
+    <journal>L’Aide-soignante,</journal>
+    <date>janvier 2009,</date>
+    <volume>n°103.</volume>
+    <pages>p. 11-20.</pages>
+  </sequence>
+  <sequence>
+    <author>Kaës, R.,</author>
+    <date>(1998a).</date>
+    <title>Différences culturelles, souffrance de la langue et travail de préconscient.</title>
+    <editor>In R. Kaës (Ed.).</editor>
+    <container-title>Différence culturelle et souffrance de l’identité</container-title>
+    <pages>(pp. 45-87).</pages>
+    <location>Paris, France :</location>
+    <publisher>Dunod.</publisher>
+  </sequence>
+  <sequence>
+    <citation-number>[7]</citation-number>
+    <author>Stephen Boyd, Neal Parikh, Eric Chu, Borja Peleato, and Jonathan Eckstein.</author>
+    <title>Distributed optimization and statistical learning via the alternating direction method of multipliers.</title>
+    <journal>Foundations and Trends in Machine Learning,</journal>
+    <volume>3(1):1–122,</volume>
+    <date>2011.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[67]</citation-number>
+    <author>R. S. Varga.</author>
+    <title>Gershgorin and His Circles.</title>
+    <collection-title>ser. Springer Series in Computational Mathematics.</collection-title>
+    <location>Berlin, Germany:</location>
+    <publisher>Springer-Verlag,</publisher>
+    <date>2004,</date>
+    <volume>no. 36.</volume>
   </sequence>
 </dataset>
