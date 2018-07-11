@@ -1,3 +1,11 @@
+1.1.0 / 2018-07-11
+==================
+* Improved Parser model; training sets.
+* Improved Finder model; training sets.
+* Volume normalizer: extract page numbers and dates.
+* Fixed errors in Names and Publisher normalizer.
+* Added Unicode normalizer to default normalizers.
+
 1.0.1 / 2018-06-06
 ==================
 * Initial 1.0 release! This release is not backwards compatible to the
