@@ -57,7 +57,7 @@ module AnyStyle
     module_function
 
     def pdf_to_text(path, layout: true)
-      %x{pdftotext #{layout ? ' -layout' : ''} -eol unix -q "#{path}" -}
+      %x{pdftotext #{layout ? ' -layout' : ''} -eol unix -enc utf8 -q "#{path}" -}
     end
 
     def pdf_info(path)
