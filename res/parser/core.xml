@@ -38,12 +38,28 @@
     <pages>pp. 1477-81.</pages>
   </sequence>
   <sequence>
+    <author>H. Fischer,</author>
+    <title>Centre Pompidou,</title>
+    <journal>Deutsche Bauzeitung,</journal>
+    <volume>No. 134, Part 3,</volume>
+    <date>2000,</date>
+    <pages>20-21</pages>
+  </sequence>
+  <sequence>
     <author>Brischoux, F., Chakraborty, S., Brierley, D.I., and Ungless, M.A.</author>
     <date>(2009).</date>
     <title>Phasic excitation of dopamine neurons in ventral VTA by noxious stimuli.</title>
     <journal>Proc Natl Acad Sci U S A</journal>
     <volume>106,</volume>
     <pages>4894–4899.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[13]</citation-number>
+    <author>S. E. Han, G. Chen,</author>
+    <journal>Nano Lett.</journal>
+    <date>2010,</date>
+    <volume>10,</volume>
+    <pages>1012.</pages>
   </sequence>
   <sequence>
     <author>Adams, Nicholson B.,</author>
@@ -9366,5 +9382,36 @@
     <publisher>Springer-Verlag,</publisher>
     <date>2004,</date>
     <volume>no. 36.</volume>
+  </sequence>
+  <sequence>
+    <citation-number>[11]</citation-number>
+    <author>J. Zhu, C.-M. Hsu, Z. Yu, S. Fan, Y. Cui,</author>
+    <journal>Nano Lett.</journal>
+    <date>2010,</date>
+    <volume>10,</volume>
+    <pages>1979.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[8]</citation-number>
+    <author>H. W. Deckman, C. B. Roxlo, E. Yablonovitch,</author>
+    <journal>Opt. Lett.</journal>
+    <date>1983,</date>
+    <volume>8,</volume>
+    <pages>491.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[5]</citation-number>
+    <author>E. Yablonovitch,</author>
+    <journal>J. Opt. Soc. Am.</journal>
+    <date>1982,</date>
+    <volume>72,</volume>
+    <pages>899.</pages>
+  </sequence>
+  <sequence>
+    <author>I. Schropp, H. A. Atwater, A. Polman,</author>
+    <journal>Opt. Express</journal>
+    <date>2010,</date>
+    <volume>18,</volume>
+    <pages>A237.</pages>
   </sequence>
 </dataset>

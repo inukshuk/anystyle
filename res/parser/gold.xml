@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset>
   <sequence>
+    <citation-number>[6]</citation-number>
+    <author>E. Yablonovitch, G. D. Cody,</author>
+    <journal>IEEE Trans. Electr. Dev.</journal>
+    <date>1982,</date>
+    <volume>29,</volume>
+    <pages>300.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[1]</citation-number>
+    <author>R. E. I. Schropp, M. Zeman,</author>
+    <title>Amorphous and Microcrystalline Silicon Solar Cells: Modeling, Materials, and Device Technology,</title>
+    <publisher>Kluwer Academic Publishers,</publisher>
+    <location>Boston MA</location>
+    <date>1998.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[7]</citation-number>
+    <author>T. Tiedje, E. Yablonovitch, G. D. Cody, B. G. Brooks,</author>
+    <journal>IEEE Trans. Electron Devices</journal>
+    <date>1984,</date>
+    <volume>31,</volume>
+    <pages>711.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[2]</citation-number>
+    <author>R. H. Bube,</author>
+    <title>Photovoltaic Materials,</title>
+    <publisher>Imperial College Press,</publisher>
+    <date>1998.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[9]</citation-number>
+    <author>C. Patrick, A. G. Martin,</author>
+    <journal>J Appl Phys</journal>
+    <date>1987,</date>
+    <volume>62,</volume>
+    <pages>243.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[3]</citation-number>
+    <author>J. Nelson,</author>
+    <title>The Physics of Solar Cells,</title>
+    <publisher>Imperial College Press,</publisher>
+    <date>2003.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[10]</citation-number>
+    <author>E. Garnett, P. Yang,</author>
+    <journal>Nano Lett.</journal>
+    <date>2010,</date>
+    <volume>10,</volume>
+    <pages>1082.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[4]</citation-number>
+    <author>U.S. Department of Energy,</author>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
     <author>Adams, C.J., Korsch, R.J. and Griffin, W.L.</author>
     <date>2013.</date>
     <title>Provenance comparisons between the Nambucca Block, Eastern Australia and the Torlesse Composite Terrane, New Zealand: connections and implications from detrital zircon age patterns.</title>
@@ -9160,14 +9219,6 @@
     <location>Paris,</location>
     <publisher>Flammarion,</publisher>
     <date>2007.</date>
-  </sequence>
-  <sequence>
-    <author>H. Fischer,</author>
-    <title>Centre Pompidou,</title>
-    <journal>Deutsche Bauzeitung,</journal>
-    <volume>No. 134, Part 3,</volume>
-    <date>2000,</date>
-    <pages>20-21</pages>
   </sequence>
   <sequence>
     <author>Nicholls, Andrew,</author>
