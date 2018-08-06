@@ -57,7 +57,9 @@ module AnyStyle
     module_function
 
     def pdf_to_text(path, layout: true)
-      %x{pdftotext #{layout ? ' -layout' : ''} -eol unix -enc utf8 -q "#{path}" -}
+      text = %x{pdftotext #{layout ? ' -layout' : ''} -eol unix -enc utf8 -q "#{path}" -}
+      raise "pdftotext failed with error code #{$?.exitstatus}" unless $?.success?
+      text.force_encoding('UTF-8')
     end
 
     def pdf_info(path)
