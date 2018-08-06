@@ -1,7 +1,7 @@
 module AnyStyle
   class Document < Wapiti::Sequence
     class << self
-      include PdfUtils
+      include PDFUtils
 
       def parse(string, delimiter: /\r?\n/, tagged: false)
         current_label = ''

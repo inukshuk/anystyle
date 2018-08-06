@@ -53,7 +53,7 @@ module AnyStyle
     end
   end
 
-  module PdfUtils
+  module PDFUtils
     module_function
 
     def pdf_to_text(path, layout: true)
