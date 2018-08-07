@@ -3334,7 +3334,7 @@ text          | shape of objects with the help of a large database of 3-D models
               | would also benefit from the advances made in the use of reliable depth and color
               | features in the new type of data obtained from the RGB-D sensors in addition to the
               | presented descriptor.
-meta          | Bibliography
+title         | Bibliography
 blank         | 
 ref           | [BAD10]     Soonmin Bae, Aseem Agarwala, and Fredo Durand. Computational
               |             rephotography. ACM Trans. Graph., 29(5), 2010.

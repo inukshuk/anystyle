@@ -261,8 +261,8 @@ blank         |
 text          |       The reason Bernanke took such a public stand defending the Fed’s independence
               | is simple: central bank independence is widely seen as a necessary condition for the
               | attainment of economic and financial stability. Thus, Bernanke and central bankers
-              |   1
-              |    Text of full statement is available at http://www.federalreserve.gov/newsevents/speech/
+meta          |   1
+text          |    Text of full statement is available at http://www.federalreserve.gov/newsevents/speech/
               | bernanke20100203a.htm.
 blank         | 
               | 
@@ -293,8 +293,8 @@ text          | everywhere have a substantial interest in promoting the idea tha
               | thereby ignoring the crucial role that central banks play as lenders of last resort.
               |        Other studies have taken a more targeted approach in studying the impact of
               | politics on policymaking at the Fed by asking whether or not monetary policy becomes
-              |    2
-              |     For a review of the literature investigating this relationship, see Eijffinger and de Haan (1996).
+meta          |    2
+text          |     For a review of the literature investigating this relationship, see Eijffinger and de Haan (1996).
               | Bade and Parkin (1988), Alesina (1988), Grilli, Masciandaro and Tabellini (1991), Cukierman, Web
               | and Neyapti (1992), Alesina and Summers (1993), Eijffinger, Van Rooij and Schaling (1996), Berger,
               | De Haan and Eijffinger (2001), and Keefer and Stasavage (2003), among others, provide additional
@@ -1208,8 +1208,8 @@ text          |                                                Paired    Paired 
               |                  Republican      6      34     0         3         1          44
               |                  Progressive     1      0      0         0         0          1
               |                  Total           54     34     3         3         1          95
-              |  19
-              |       This small group of midwesterners, led by Lindberg, opposed any sort of central bank.
+meta          |  19
+text          |       This small group of midwesterners, led by Lindberg, opposed any sort of central bank.
 meta          | CHAPTER 2. THE POLITICS BEHIND THE FED’S STRUCTURE                                     35
 blank         | 
               | 
@@ -3628,8 +3628,8 @@ text          | partisan identity by using information from press reports at the
               | four are Independents, and five are Republicans. The remaining 15 are not able to be
               | identified, since they either are (or were) not a registered voter or are not included in
               | the Catalist voter file that I have access to through my university’s subscription.34
-              |   33
-              |      Other studies using Catalist for data on voter registrations include Ansolabehere and Hersh
+meta          |   33
+text          |      Other studies using Catalist for data on voter registrations include Ansolabehere and Hersh
               | (2012), Hersh and Nall (2013), and Peterson (2014).
 meta          |   34
 text          |      The subscription is for only a subset of the entire Catalist national voter file.

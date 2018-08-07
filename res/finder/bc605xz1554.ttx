@@ -3133,8 +3133,8 @@ blank         |
               | 
 text          |               (a)                          (b)                          (c)
               | Figure 3.16. Damage to screw fasteners with 16 mm edge spacing at deformations of (a)
-meta          | 1.5 mm, (b) 5 mm, and (c) 15 mm.
-              | CHAPTER 3. ENHANCED GYPSUM AND STUCCO COMPONENT TESTS                                   50
+              | 1.5 mm, (b) 5 mm, and (c) 15 mm.
+meta          | CHAPTER 3. ENHANCED GYPSUM AND STUCCO COMPONENT TESTS                                   50
 blank         | 
               | 
 title         | 3.1.5 Adhesive bonding to cold-formed steel framing
@@ -5849,8 +5849,8 @@ text          | Sheathing-to-framing screw fasteners generally display an inelas
               | force-displacement envelope. Folz and Filiatrault (2000; 2001) developed a 10-parameter
               | model to capture the behavior of sheathing-to-framing fasteners as part of the CUREE-
               | Caltech Woodframe Project. The parameters of the CUREE fastener model are shown in
-meta          | Figure 5.1.
-              | CHAPTER 5. FINITE ELEMENT MODELS                                                                   147
+              | Figure 5.1.
+meta          | CHAPTER 5. FINITE ELEMENT MODELS                                                                   147
 blank         | 
               | 
               | 
@@ -7784,7 +7784,7 @@ text          |                               F u [kN]                         K
 blank         | 
               | 
               | 
-meta          | Conventional wood-framed gypsum wall
+title         | Conventional wood-framed gypsum wall
 blank         | 
 text          | The force-displacement behavior of the conventional gypsum wood framed wall tested
               | (W1) at CSUS is shown in Figure 5.64 along with the fitted equivalent diagonal element
@@ -8592,9 +8592,9 @@ text          | The variation of wall behavior with wall length, the presence of
 blank         | 
               | 
               | 
-text          | 6.2 Strength and stiffness determination of enhanced
+title         | 6.2 Strength and stiffness determination of enhanced
               |     light-frame walls
-              | To implement a design procedure for light-frame strength- and stiffness-enhanced
+text          | To implement a design procedure for light-frame strength- and stiffness-enhanced
               | structures, the behavior of enhanced walls must be defined. In this section, methods for
               | calculating the lateral strength and stiffness of enhanced light-frame walls of different
               | geometries are presented. Both data from wall testing and detailed finite element models
@@ -11506,8 +11506,8 @@ text          | The index one-story house to be investigated was previously util
               | rectangular floor plan and a total floor area of 111 m2 (1,200 ft2). The total structural
               | weight (neglecting the concrete slab) is 228 kN (51 kips), while the weight tributary to
               | the roof is 141 kN (32 kips). The floor plan of the index one-story structure is shown in
-meta          | Figure 6.35.
-              | CHAPTER 6. DESIGN OF ENHANCED LIGHT-FRAME STRUCTURES                                  321
+              | Figure 6.35.
+meta          | CHAPTER 6. DESIGN OF ENHANCED LIGHT-FRAME STRUCTURES                                  321
 blank         | 
               | 
               | 
@@ -13366,8 +13366,8 @@ text          | Table 8.5. Lognormal fragility curve parameters fitted to protot
               |                                      θ SA [g]   β LN,SA θ SA [g]   β LN,SA θ SA [g]   β LN,SA
               |          Enhanced House                1.03      0.19     1.30      0.24     2.42      0.36
               |   Conventional House with finishes     0.73      0.33     1.01      0.32     1.99      0.40
-meta          |   Conventional House w/o finishes      0.49      0.38     0.76      0.38     1.69      0.44
-              | CHAPTER 8. PERFORMANCE EVALUATION OF ENHANCED STRUCTURES                                   381
+              |   Conventional House w/o finishes      0.49      0.38     0.76      0.38     1.69      0.44
+meta          | CHAPTER 8. PERFORMANCE EVALUATION OF ENHANCED STRUCTURES                                   381
 blank         | 
 text          | The collapse fragility curves for the three house types using MSA are shown in Figure
               | 8.11. The lognormal distribution parameters fitted to the MSA results are shown in Table
@@ -14257,7 +14257,7 @@ text          |       Screw fasteners displayed un-symmetric behavior when in
               |        gypsum.
 blank         | 
               | 
-text          | Gypsum panel edge connections
+title         | Gypsum panel edge connections
 blank         | 
 text          | Experiments on gypsum-to-gypsum panel edge joints showed that joints enhanced with a
               | stronger compound and fiberglass tape can produce connections about twice as strong as
@@ -14836,7 +14836,7 @@ text          |                                              Fastener         Lo
               |        Fu = Ultimate load (mean of positive and negative loading directions)
               |        Du = Ultimate displacement
               |        K0 = Secant stiffness at +/- 0.25 mm of deformation
-              | APPENDIX A. ENHANCED GYPSUM AND STUCCO COMPONENT TEST DATA 426
+meta          | APPENDIX A. ENHANCED GYPSUM AND STUCCO COMPONENT TEST DATA 426
 blank         | 
 text          | Table A.4. Strength and initial stiffness of tested screw (per screw) and adhesive gypsum-
               | to-steel (per 178 mm stud length) connections.
@@ -14863,7 +14863,7 @@ text          |                                        Fastener         Loading 
               |  Fu = Ultimate load (mean of positive and negative loading directions)
               |  Du = Ultimate displacement
               |  K0 = Secant stiffness at +/- 0.25 mm of deformation
-              | APPENDIX A. ENHANCED GYPSUM AND STUCCO COMPONENT TEST DATA 427
+meta          | APPENDIX A. ENHANCED GYPSUM AND STUCCO COMPONENT TEST DATA 427
 blank         | 
               | 
               | 
