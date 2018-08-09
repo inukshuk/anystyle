@@ -83,3 +83,48 @@
   indent: -7
   prev-join: false
   join: true
+- a: "Atsonios, K., K. D. Panopoulos, A. Doukelis, A. Koumanakos and E. Kakaras (2012)."
+  b: '"Exergy analysis of a hydrogen fired combined cycle with natural gas reforming and'
+  delta: 0
+  indent: 0
+  prev-join: false
+  join: true
+- a: 'Atsonios, K., K. D. Panopoulos, A. Doukelis, A. Koumanakos and E. Kakaras (2012). "Exergy analysis of a hydrogen fired combined cycle with natural gas reforming and'
+  b: 'membrane assisted shift reactors for CO2 capture." Energy Conversion and'
+  delta: 0
+  indent: 0
+  prev-join: true
+  join: true
+- a: 'Atsonios, K., K. D. Panopoulos, A. Doukelis, A. Koumanakos and E. Kakaras (2012). "Exergy analysis of a hydrogen fired combined cycle with natural gas reforming and membrane assisted shift reactors for CO2 capture." Energy Conversion and'
+  b: 'Management 60: 196-203.'
+  delta: 0
+  indent: 0
+  prev-join: true
+  join: true
+- a: 'Braun, F., J. B. Miller, A. J. Gellman, A. M. Tarditi, B. Fleutot, P. Kondratyuk and L. M. Cornaglia (2012). "PdAgAu alloy with high resistance to corrosion by H2S."'
+  b: 'International Journal of Hydrogen Energy 37(23): 18547-18555.'
+  delta: 0
+  indent: 0
+  prev-join: true
+  join: true
+  pending: true
+- a: 'Brunetti, A., G. Barbieri and E. Drioli (2011). Membrane reactors in hydrogen production. Membrane Engineering for the Treatment of Gases, Volume 2: Gasseparation Problems Combined with Membrane Reactors. E. Drioli and G. Barbieri.'
+  b: 'Cambridge, UK, The Royal Society of Chemistry.'
+  delta: 0
+  indent: 0
+  prev-join: true
+  join: true
+- a: 'Edenhofer, O., R. Pichs-Madruga, Y. Sokona, E. Farahani, S. Kadner and K. Seyboth (2014). "IPCC, 2014: Climate Change 2014: Mitigation of Climate Change.'
+  b: 'Contribution of Working Group III to the Fifth Assessment Report of the'
+  delta: 0
+  indent: 0
+  prev-join: true
+  join: true
+  pending: true
+- a: 'Wise, E. M. (1968). "Palladium. Recovery, Properties, and Uses." ACADEMIC'
+  b: 'PRESS, INC, 111 FIFTH AVE, NEW YORK, N Y 1968, 195 P.'
+  delta: 0
+  indent: 0
+  prev-join: true
+  join: true
+  pending: true

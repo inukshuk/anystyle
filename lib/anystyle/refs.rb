@@ -101,15 +101,16 @@ module AnyStyle
     end
 
     def initial_score(a, b)
-      return  1 if b.match(/^\p{Ll}/)
+      return  1 if b.match(/^\p{Ll}/) && !b.match(/^(de|v[oa]n)\b/)
       return  1 if a.match(/\p{L}$/) && b.match(/^\p{L}/)
+      return  1 if b.match(/^["']/)
       return -1 if b.match(/^\[\d/)
-      return -1 if b.match(/^(\p{Pd}\p{Pd}|\p{Lu}\p{Ll}+, \p{Lu}\p{Ll}*[\.;])/)
+      #return -1 if b.match(/^(\p{Pd}\p{Pd}|\p{Lu}\p{Ll}+, \p{Lu}\p{Ll}*[\.;])/)
       return  0
     end
 
     def length_score(a, b)
-      return  1 if b.length < 35
+      return  1 if b.length < a.length && b.length < 50
       return -1 if (b.length - a.length) > 12
       return  0
     end
