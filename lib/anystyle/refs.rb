@@ -65,29 +65,53 @@ module AnyStyle
     end
 
     def join?(a, b, indent = 0, delta = @delta)
-      ay = match_year?(a)
-      by = match_year?(b)
+      [
+        indent_score(indent),
+        delta_score(delta),
+        years_score(a, b),
+        terminal_score(a),
+        initial_score(a, b),
+        length_score(a, b),
+        pages_score(a, b)
+      ].reduce(&:+) > 1
+    end
 
-      pro = [
-        indent > 0,
-        delta == 0,
-        b.length < 50 || a.length < 65,
-        ay ^ by,
-        !!a.match(/[,;:&\p{Pd}]$/),
-        !!b.match(/^\p{Ll}/) || !!a.match(/\p{L}$/) && !!b.match(/^\p{L}/)
-      ].count(true)
+    def indent_score(idt)
+      (idt > 0) ? 1 : (idt < 0) ? -1 : 0
+    end
 
-      con = [
-        indent < 0,
-        delta > 5,
-        !!a.match(/[\.\]]$/),
-        a.length > 500,
-        (b.length - a.length) > 12,
-        ay && by,
-        !!b.match(/^(\p{Pd}\p{Pd}|\p{Lu}\p{Ll}+, \p{Lu}\.|\[\d)/)
-      ].count(true)
+    def delta_score(dta)
+      (dta == 0) ? 1 : (dta > 5) ? -1 : 0
+    end
 
-      (pro - con) > 1
+    def years_score(a, b)
+      return -1 if match_year?(a) && match_year?(b)
+      return  1
+    end
+
+    def pages_score(a, b)
+      return 1 if match_pages?(b) && !match_pages?(a)
+      return 0
+    end
+
+    def terminal_score(a)
+      return -1 if a.match(/(\p{^Lu}\.|\])$/)
+      return  1 if a.match(/[,;:&\p{Pd}]$/)
+      return  0
+    end
+
+    def initial_score(a, b)
+      return  1 if b.match(/^\p{Ll}/)
+      return  1 if a.match(/\p{L}$/) && b.match(/^\p{L}/)
+      return -1 if b.match(/^\[\d/)
+      return -1 if b.match(/^(\p{Pd}\p{Pd}|\p{Lu}\p{Ll}+, \p{Lu}\p{Ll}*[\.;])/)
+      return  0
+    end
+
+    def length_score(a, b)
+      return  1 if b.length < 35
+      return -1 if (b.length - a.length) > 12
+      return  0
     end
 
     def join(a, b)
@@ -104,6 +128,10 @@ module AnyStyle
 
     def match_year?(string)
       !!string.match(/(1[4-9]|2[01])\d\d/)
+    end
+
+    def match_pages?(string)
+      !!string.match(/\d+\p{Pd}\d+/)
     end
 
     def strip(string)
