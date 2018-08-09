@@ -49,6 +49,8 @@ require 'anystyle/normalizer/volume'
 require 'anystyle/format/bibtex'
 require 'anystyle/format/csl'
 
+require 'anystyle/page'
+require 'anystyle/refs'
 require 'anystyle/document'
 require 'anystyle/parser'
 require 'anystyle/finder'
