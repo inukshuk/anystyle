@@ -10,7 +10,7 @@ module AnyStyle
 
     attr_reader :all, :max_delta
 
-    def initialize(max_delta: 15)
+    def initialize(max_delta: 10)
       @all, @max_delta = [], max_delta
       reset
     end
@@ -39,7 +39,7 @@ module AnyStyle
         (line, at) = strip line
 
         if pending?
-          if join?(@pending, line, @delta, at - @indent)
+          if join?(@pending, line, at - @indent)
             @pending = join @pending, line
           else
             commit pending: line, indent: at
@@ -47,7 +47,9 @@ module AnyStyle
         else
           reset pending: line, indent: at
         end
-      when 'blank', 'meta'
+      when 'meta'
+        # skip
+      when 'blank'
         if pending?
           if @delta > max_delta
             commit
@@ -62,22 +64,26 @@ module AnyStyle
       self
     end
 
-    def join?(a, b, delta = 0, indent = 0)
+    def join?(a, b, indent = 0, delta = @delta)
+      ay = match_year?(a)
+      by = match_year?(b)
+
       pro = [
         indent > 0,
         delta == 0,
-        b.length < 50,
-        a.length < 65,
+        b.length < 50 || a.length < 65,
+        ay ^ by,
         !!a.match(/[,;:&\p{Pd}]$/),
         !!b.match(/^\p{Ll}/) || !!a.match(/\p{L}$/) && !!b.match(/^\p{L}/)
       ].count(true)
 
       con = [
         indent < 0,
-        delta > 8,
-        !!a.match(/\.\]$/),
+        delta > 5,
+        !!a.match(/[\.\]]$/),
         a.length > 500,
         (b.length - a.length) > 12,
+        ay && by,
         !!b.match(/^(\p{Pd}\p{Pd}|\p{Lu}\p{Ll}+, \p{Lu}\.|\[\d)/)
       ].count(true)
 
@@ -85,7 +91,7 @@ module AnyStyle
     end
 
     def join(a, b)
-      if a[-1] == '-'
+      if a =~ /\p{Ll}-$/
         if b =~ /^\p{Ll}/
           "#{a[0...-1]}#{b}"
         else
@@ -94,6 +100,10 @@ module AnyStyle
       else
         "#{a} #{b}"
       end
+    end
+
+    def match_year?(string)
+      !!string.match(/(1[4-9]|2[01])\d\d/)
     end
 
     def strip(string)

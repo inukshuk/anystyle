@@ -77,3 +77,9 @@
   indent: 5
   prev-join: false
   join: true
+- a: "(1970): “Estimating Cost Function Parameters without Using Cost Data:"
+  b: "Illustrated Methodology,” Econometrica, 38(2), 256–75."
+  delta: 0
+  indent: -7
+  prev-join: false
+  join: true

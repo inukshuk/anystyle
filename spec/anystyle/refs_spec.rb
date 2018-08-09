@@ -7,9 +7,9 @@ module AnyStyle
         fixture('ref-join.yml').each do |f|
           unless f['pending']
             expect(
-              refs.join?(f['a'], f['b'], f['delta'], f['indent'])
+              refs.join?(f['a'], f['b'], f['indent'], f['delta'])
             ).to eq(f['join']),
-            "Expected #{f['a'].inspect} and #{f['b']} #{f['join'] ? '' : 'not '} to join"
+            "Expected #{f['a'].inspect} and #{f['b'].inspect} #{f['join'] ? '' : 'not '}to join"
           end
         end
       end

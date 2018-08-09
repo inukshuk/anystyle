@@ -16,7 +16,6 @@ module AnyStyle
       it 'return an array of strings' do
         expect(ref[0]).to start_with('Ackerberg')
         expect(ref[-1]).to start_with('(2008)')
-        byebug
         expect(ref.length).to eq(43)
       end
     end
