@@ -26,7 +26,7 @@ module AnyStyle
         case chars
         when /\.\s*\.\s*\.\s*\.|……+/
           :toc
-        when /\s\s\s\d+$/
+        when /^\s*\p{Pd}?\d+\p{Pd}?$/
           :num
         when /^\s*(Table|Fig(ure|\.))/
           :cap
