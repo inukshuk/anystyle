@@ -4442,7 +4442,7 @@ ref           | Paglieri, S. N., N. K. Pal, M. D. Dolan, S.-M. Kim, W.-M. Chien,
               | Chandra, K. M. Hubbard and D. P. Moore (2011). "Hydrogen permeability, thermal
 blank         | 
 meta          |                                                                                     110
-              | On-board hydrogen production from natural gas via a metallic Pd-based membrane reactor
+ref           | On-board hydrogen production from natural gas via a metallic Pd-based membrane reactor
               | Bryce Anzelmo, PhD dissertation
 blank         | 
 ref           | stability and hydrogen embrittlement of Ni–Nb–Zr and Ni–Nb–Ta–Zr amorphous
@@ -5756,7 +5756,7 @@ text          | Several catalysts were obtained for the SMR reaction testing to 
               | reforming catalyst and the other two, water gas shift catalysts. The properties of these
               | catalysts are listed in Table 4.1.
 blank         | 
-title         | Table 4.1 – Properties of catalysts used in this work
+text          | Table 4.1 – Properties of catalysts used in this work
 blank         | 
 text          |      Catalyst         Reaction        Active metal                    Bulk density
               |                                                         Support
@@ -5986,7 +5986,7 @@ text          |                          0
               |                                                     Rela;ve Pressure [P/Po]
 blank         | 
               | 
-title         | Figure 4.6 – W220 LT-WGS adsorption and desorption isotherms
+text          | Figure 4.6 – W220 LT-WGS adsorption and desorption isotherms
 blank         | 
 meta          |                                                                                                 148
               | On-board hydrogen production from natural gas via a metallic Pd-based membrane reactor
@@ -11485,7 +11485,7 @@ blank         |
 text          | Most of the equipment used in this process was standard off the shelf equipment;
               | however, the shelf can be very large especially if new to this field and/or process.
 blank         | 
-title         | Permeation testing
+text          | Permeation testing
 blank         | 
 text          | Most of the equipment used for permeation testing was custom built in order to fit a
               | diverse set of outer diameter supports. However, some of the equipment used:
@@ -11494,18 +11494,18 @@ text          | Flow meter: GCA/Precision Scientific – Wet test meter: Liter u
 blank         | 
 text          | Pressure gauge: MKS PDR2000A dual capacitance manometer
 blank         | 
-title         | Gold plating
+text          | Gold plating
 blank         | 
 text          | Power supply – Sorensen DCS 8-125 0-8V 0-125A
 blank         | 
 text          | Heat plate to maintain controlled gold bath temperature – Corning PC-357
 blank         | 
-title         | Pd plating
+text          | Pd plating
 blank         | 
 text          | Temperature controlled bath: Thermo Scientific Precision microprocessor controlled
               | 280 series water bath
 blank         | 
-title         | Support oxidation
+text          | Support oxidation
 blank         | 
 text          | Support oxidation oven: Lindberg Blue M 732
 blank         | 

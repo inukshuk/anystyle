@@ -314,7 +314,7 @@ blank         |
 meta          | 	                                          ix	  
 title         |                              List of Tables
 blank         | 
-title         | Introduction
+text          | Introduction
 blank         | 
 text          | Table 1                CENP-A nomenclature in different species 60
 blank         | 
@@ -338,7 +338,7 @@ blank         |
 meta          | 	                                 x	  
 title         |                                    List of Figures
 blank         | 
-title         | Introduction
+text          | Introduction
 blank         | 
 text          | Figure 1       Chromatin and nucleosome structure                 58
 blank         | 
@@ -384,7 +384,7 @@ blank         |
               | 
               | 
 meta          | 	                                        xi	  
-              | Chapter 2
+text          | Chapter 2
 blank         | 
 text          | Figure 1    Characterization of X. laevis M18BP1.                  158
 blank         | 
@@ -559,7 +559,7 @@ blank         |
               | 
               | 
 meta          | 	                                          3	  
-title         | Eukaryotic DNA is packaged into chromatin.
+text          | Eukaryotic DNA is packaged into chromatin.
 blank         | 
 text          |         To fit about two meters of DNA into a nucleus that is merely ten to twenty
 blank         | 
@@ -3150,7 +3150,7 @@ text          | (aa1-373); oligomerization (aa74-244); CENP-A nucleosome binding
 blank         | 
 text          | DNA binding (aa422-537); dimerization (aa856-944); and centromere targeting
 blank         | 
-title         | (aa426-537; aa736-758, the CENP-C motif; and aa856-944, the cupin/dimerization
+text          | (aa426-537; aa736-758, the CENP-C motif; and aa856-944, the cupin/dimerization
 blank         | 
 text          | domain) (Carroll et al., 2010; Cohen et al., 2008; Fukagawa et al., 2001a; Heeger,
 blank         | 
@@ -4474,7 +4474,7 @@ text          | A and DNA is indicated above the panels. Calcium, xHJURP or myc-
 blank         | 
 text          | addition is shown to the left of each panel. Scale bar = 10µm.
 blank         | 
-title         | C) Quantification of myc-CENP-A fluorescence intensity at centromeres for the
+text          | C) Quantification of myc-CENP-A fluorescence intensity at centromeres for the
 blank         | 
 text          | assembly reactions represented in 1B, normalized to the metaphase control sample
 blank         | 
@@ -4558,7 +4558,7 @@ text          | variant, H2A.X-F (top band, 19 kD). In egg extract, H2A.X-F is 
 blank         | 
 text          | chromatin with approximately equal stoichiometry to H2A. (Shechter et al., 2009).
 blank         | 
-title         | C) Quantification of CENP-A and H2A integrated
+text          | C) Quantification of CENP-A and H2A integrated
 blank         | 
 text          | intensities under each condition, normalized to the levels in metaphase
 blank         | 
@@ -4578,7 +4578,7 @@ text          | per condition. Time is in minutes. Error bars, SEM; n=3.
 blank         | 
               | 
               | 
-title         | Figure 4. xHJURP, myc-CENP-A, and the sperm chromatin
+text          | Figure 4. xHJURP, myc-CENP-A, and the sperm chromatin
 blank         | 
 text          | template do not need to pass through mitosis for efficient myc-CENP-A
 blank         | 
@@ -4623,7 +4623,7 @@ text          | Supplemental Figure Legends.
 blank         | 
               | 
               | 
-title         | Figure S1. Characterization of xHJURP-mediated CENP-A
+text          | Figure S1. Characterization of xHJURP-mediated CENP-A
 blank         | 
 text          | assembly assay in Xenopus egg extract.
 blank         | 
@@ -4805,15 +4805,15 @@ blank         |
               | 
               | 
 meta          | 	                                          104	  
-              |                                    Chapter 2
+title         |                                    Chapter 2
 blank         | 
-text          |        CENP-C recruits M18BP1 to centromeres to promote CENP-A chromatin
+title         |        CENP-C recruits M18BP1 to centromeres to promote CENP-A chromatin
 blank         | 
-text          |                                     assembly.**
+title         |                                     assembly.**
 blank         | 
               | 
               | 
-ref           | **Some content from (Moree, B.*, Meyer, C.B.*, Fuller, C.J., and Straight, A.F. 2011.
+text          | **Some content from (Moree, B.*, Meyer, C.B.*, Fuller, C.J., and Straight, A.F. 2011.
               | CENP-C recruits M18BP1 to centromeres to promote CENP-A chromatin assembly. J.
               |                             Cell Biol. 194:855-871.)
 blank         | 
@@ -5071,7 +5071,7 @@ blank         |
 meta          | 	                                       111	  
 title         | Results
 blank         | 
-text          | Characterization of X. laevis M18BP1.
+title         | Characterization of X. laevis M18BP1.
 blank         | 
 text          |        In human somatic cells and C. elegans, new CENP-A assembly requires the
 blank         | 
@@ -6240,7 +6240,7 @@ text          | immunofluorescence as described below. For CENP-A assembly assay
 blank         | 
 text          | M18BP1-depleted extracts (Figure 3C,D), 1 µl of HJURP IVT protein was added per
 blank         | 
-title         | 20 µl assembly reaction. For CENP-A assembly assays using CENP-C-depleted
+text          | 20 µl assembly reaction. For CENP-A assembly assays using CENP-C-depleted
 blank         | 
 text          | extracts, (Figure 6A,B) HJURP RNA was used instead of HJURP IVT protein.
 blank         | 
@@ -6307,7 +6307,7 @@ text          | bound to Dynabeads protein A beads (Invitrogen). For 100 µl of 
 blank         | 
 text          | xM18BP1 antibody or 0.6 µg of α-CENP-C antibody was bound to 33 µl of beads in
 blank         | 
-title         | 10mM Tris-HCl, pH 7.4, 150mM NaCl, and 0.1% Triton X-100 for 1h at 4°C. An
+text          | 10mM Tris-HCl, pH 7.4, 150mM NaCl, and 0.1% Triton X-100 for 1h at 4°C. An
 blank         | 
 text          | equivalent amount of whole rabbit IgG was used for control depletions. The beads
 blank         | 
@@ -6336,7 +6336,7 @@ text          | of exposure to a magnet, washed four times with TBSTx buffer, an
 blank         | 
 text          | protein sample buffer (200 mM Tris pH 6.8, 40 mM EDTA, 0.05% bromophenol blue,
 blank         | 
-title         | 10% SDS, 50% glycerol). For immunoprecipitations of M18BP1-FLAG isoforms
+text          | 10% SDS, 50% glycerol). For immunoprecipitations of M18BP1-FLAG isoforms
 blank         | 
 text          | (Figure 6C,D) and myc-M18BP1 isoforms (Supplemental Figure 7A), 2 µl of
 blank         | 
@@ -6369,7 +6369,7 @@ text          | CENP-C-depleted extract. For M18BP1 addback experiments, 0.5 µl
 blank         | 
 text          | M18BP1-1-FLAG and M18BP1-2-FLAG IVT proteins (Figure 2C-E), or 1 µl of
 blank         | 
-title         | M18BP1-1-FLAG or M18BP1-2-FLAG IVT protein (Supplemental Figure 3), were
+text          | M18BP1-1-FLAG or M18BP1-2-FLAG IVT protein (Supplemental Figure 3), were
 blank         | 
 text          | added per 20 µl of M18BP1-depleted extract. For CENP-A assembly assays using
 blank         | 
@@ -7580,7 +7580,7 @@ text          | of centromeric chromatin containing H3 placeholder nucleosomes (
 blank         | 
               | 
               | 
-text          | Regulating the levels of CENP-A at centromeres
+title         | Regulating the levels of CENP-A at centromeres
 blank         | 
 text          |        The post-assembly levels of CENP-A are constant through rounds of division,
 blank         | 

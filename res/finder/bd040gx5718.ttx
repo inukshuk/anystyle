@@ -191,8 +191,8 @@ text          | 1     Introduction .............................................
               |       3.4.6        Synchronization .......................................................................................... 59
 blank         | 
 meta          |                                                                 vii
-              | 4     Application of Integrated Link/Network Model ....................................................... 60
-text          |     4.1     Matching Scale Dispersion to Time Regimes .................................................... 60
+text          | 4     Application of Integrated Link/Network Model ....................................................... 60
+              |     4.1     Matching Scale Dispersion to Time Regimes .................................................... 60
               |     4.2     Identification of Candidate Links, Nodes, and Chains....................................... 63
               |     4.3     Network Improvements ...................................................................................... 66
               |       4.3.1        Link Discontinuity Adjustment................................................................... 67
@@ -343,8 +343,8 @@ blank         |
               | 
               | 
               | 
-text          |                                              xii
-              |         …complex products
+meta          |                                              xii
+title         |         …complex products
               |  produced by complex organizations
               | become fragments of complex systems
 blank         | 
@@ -1379,8 +1379,8 @@ blank         |
               | 
               | 
 meta          |                                                                                 19
-title         |                      Sector                               Sector                                                                           Sector
-text          |                      Coord                                Coord                                                                            Coord
+text          |                      Sector                               Sector                                                                           Sector
+              |                      Coord                                Coord                                                                            Coord
               |                                                                                        Major
               |                                                                                      Teammates
 blank         | 
@@ -3484,8 +3484,8 @@ text          | prepared every year at the end of each research project, but th
 blank         | 
               | 
               | 
-text          | 5.2 Estimating the Amount of Communication you Should Afford
-              | When you change the information transfer rate a, you must also adjust the variety at both
+title         | 5.2 Estimating the Amount of Communication you Should Afford
+text          | When you change the information transfer rate a, you must also adjust the variety at both
               | the receiving and transmitting agents. Otherwise the agents will suffer an information
               | overload, and you will still have inefficient information transfer. It may be that the cost
               | of the extra staff needed to increase the variety of the agent is more than the value of the
@@ -3931,8 +3931,8 @@ blank         |
               | 
 meta          |                                             89
 title         | 7      Appendix A – Research Background
-text          | Design Community Responses to Recognition of Complexity
-              | There are two inter-twined facets of large scale engineering organizations: the large
+              | Design Community Responses to Recognition of Complexity
+text          | There are two inter-twined facets of large scale engineering organizations: the large
               | organization itself, required to design, build, and operate the product, and the processes
               | they follow to produce their mega-products. Mega-organizations were covered in
               | Section 1. Here we address the internal design processes that guide the organizational

@@ -297,7 +297,7 @@ blank         |
               | 
               | 
 meta          |                                         xi
-text          |                                                                                          1
+              |                                                                                          1
 blank         | 
               | 
               | 
@@ -365,7 +365,7 @@ blank         |
               | 
               | 
               | 
-text          | Chapter 1
+title         | Chapter 1
 blank         | 
 title         | Contemporaneous defaunation and
               | cascading effects on tropical forests
@@ -1582,7 +1582,7 @@ blank         |
               | 
               | 
               | 
-text          | Chapter 2
+title         | Chapter 2
 blank         | 
 text          | Reduced seed dispersal as a
               | consequence of hunting lowers
@@ -1776,8 +1776,8 @@ text          | Analyses. We used a MANOVA to test whether mammal activity diffe
               | determine whether the correspondence of functional traits between seedling and adult
               | communities differed with hunting. Statistical analyses were performed with SYSTAT
               | © 11.0 (Richmond, CA, U.S.A.) and R version 2.7.2 (R Development Core Team,
-meta          | 2008).
-              |                                                                                                         41
+              | 2008).
+meta          |                                                                                                         41
 blank         | 
               | 
               | 
@@ -2226,7 +2226,7 @@ blank         |
               | 
               | 
               | 
-text          | Chapter 3
+title         | Chapter 3
 blank         | 
 title         | Terrestrial mammalian herbivores
               | influence the distribution of defense
@@ -2762,7 +2762,7 @@ blank         |
               | 
               | 
               | 
-text          | Chapter 4
+title         | Chapter 4
 blank         | 
 text          | Hunting does not alter seed
               | predation rates as a function of seed
@@ -2853,7 +2853,7 @@ text          | hunting. However, contrary to what has been hypothesized in the 
               | in location, mammal community composition, and degree of defaunation in the sites
               | studied, these data cannot be directly compared to assess how seed predation rates
               | change with defaunation intensity as a function of seed size.           Guariguata and
-              | 70       CHAPTER 4: SEED PREDATION RATES AS A FUNCTION OF SEED SIZE AND DEFAUNATION
+meta          | 70       CHAPTER 4: SEED PREDATION RATES AS A FUNCTION OF SEED SIZE AND DEFAUNATION
 blank         | 
               | 
               | 
@@ -2938,7 +2938,7 @@ text          |        With this study, I aimed to test several assumptions and 
               | A third hypothesis implicit in the model is that at high levels of defaunation intensity,
               | where the number of large- and medium-bodied vertebrates is highly reduced, larger-
               | seeded species experience reduced seed predation, relative to less defaunated sites. A
-              | 72       CHAPTER 4: SEED PREDATION RATES AS A FUNCTION OF SEED SIZE AND DEFAUNATION
+meta          | 72       CHAPTER 4: SEED PREDATION RATES AS A FUNCTION OF SEED SIZE AND DEFAUNATION
 blank         | 
               | 
               | 
@@ -3148,7 +3148,7 @@ text          | Seed predation intensity. Relationships between seed mortality a
               | evaluated by ANCOVA, with site being a fixed factor.                  Seed mortality over all
               | species, when all sources of mortality were pooled, was not correlated with seed mass
               | (F1,13 = 1.47, p = 0.25), and this did not differ between sites (F1,13 = 0.69, p = 0.42)
-              | 78                          CHAPTER 4: SEED PREDATION RATES AS A FUNCTION OF SEED SIZE AND DEFAUNATION
+meta          | 78                          CHAPTER 4: SEED PREDATION RATES AS A FUNCTION OF SEED SIZE AND DEFAUNATION
 blank         | 
               | 
               | 
@@ -3471,7 +3471,7 @@ text          |                                                      0
               | and differences in the traits and natural histories of plant species driving the
               | community level patterns may all be contributing to such discrepancies in community
               | level response to hunting.
-              | 86      CHAPTER 4: SEED PREDATION RATES AS A FUNCTION OF SEED SIZE AND DEFAUNATION
+meta          | 86      CHAPTER 4: SEED PREDATION RATES AS A FUNCTION OF SEED SIZE AND DEFAUNATION
 blank         | 
               | 
               | 

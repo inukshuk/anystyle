@@ -336,7 +336,7 @@ blank         |
               | 
               | 
 meta          |                                         xiii
-              | Chapter 1
+title         | Chapter 1
 blank         | 
 title         | Introduction
 blank         | 
@@ -646,7 +646,7 @@ text          |    While the specific geometric priors and prototypes listed abo
               | standing of the characteristic of the task at hand, the underlying assumptions and
               | approach provide a direction to allow everyday user to acquire useful 3-D information
               | in the years to come as real-time 3-D scans become available.
-meta          | Chapter 2
+title         | Chapter 2
 blank         | 
 title         | Interactive Acquisition of
               | Residential Floor Plans1
@@ -1417,7 +1417,7 @@ text          | Figure 2.11: The system, having detected the planes in the scene
               | to interact directly with the physical world. Here the user adds a window to the room
               | by dragging a cursor across the wall (left). This motion updates the internal model
               | of the world (right).
-meta          | Chapter 3
+title         | Chapter 3
 blank         | 
 title         | Acquiring 3D Indoor Environments
               | with Variability and Repetition2
@@ -2536,7 +2536,7 @@ blank         |
 text          | Figure 3.14: We compared our algorithm and Koppula et al. [KAJS11] using multiple
               | frames of scans from the same viewpoint. Our recognition results are more stable
               | across different frames.
-meta          | Chapter 4
+title         | Chapter 4
 blank         | 
 title         | Guided Real-Time Scanning of
               | Indoor Objects3
@@ -3289,7 +3289,7 @@ text          | Figure 4.12: Real-time retrieval results on various datasets. Fo
               | the image of the object being scanned, the accumulated pointcloud, and the closest
               | shape retrieved model, along with the top 25 candidates that are picked from the
               | database of thousands of models using the proposed A2h descriptor.
-meta          | Chapter 5
+title         | Chapter 5
 blank         | 
 title         | Conclusions
 blank         | 

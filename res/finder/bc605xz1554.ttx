@@ -4207,8 +4207,8 @@ text          |   3. Stucco-gypsum connections where one side was covered using 
               |      carrying capacity in the stucco connection may not be apparent after an
               |      earthquake.
 meta          | CHAPTER 4
-              | Enhanced light-frame wall tests
-              | Portions of this chapter are adapted from:
+title         | Enhanced light-frame wall tests
+text          | Portions of this chapter are adapted from:
 blank         | 
 text          | Swensen, S., Deierlein, G.G., and Miranda, E. (in review). Behavior of screw and
               | adhesive fasteners in wood and cold-formed steel framed walls. Journal of Structural
@@ -6399,8 +6399,8 @@ text          |         Figure 5.14. Representation of return walls in finite el
 meta          | CHAPTER 5. FINITE ELEMENT MODELS                                                                 164
 blank         | 
               | 
-text          | 5.2.6 Model validation with small scale gypsum wall tests
-              | The ultimate strength and secant stiffness measured at 0.1% wall drift for each wall is
+title         | 5.2.6 Model validation with small scale gypsum wall tests
+text          | The ultimate strength and secant stiffness measured at 0.1% wall drift for each wall is
               | shown in Table 5.6. Properties for the tested walls and finite element models are
               | compared. The wall strengths predicted by the finite element models are within 20% of
               | those observed in tests and three of the five wall models predicted strength within 6% of
@@ -8931,8 +8931,8 @@ text          |                                                                 
               |       wood        5/8" Type X Gypsum           7/8" stucco on 5/8" Type X Gypsum           20.5 (1400)      28.5 (1950)
               |                                          1                                      1
               |       CFS         5/8" Type X Gypsum                    5/8" Type X Gypsum                  14.0 (950)      14.0 (950)
-              | 1
-              |     1-5/8" drywall screws at 7in edge spacing, 3/8 in adhesive bead along framing
+meta          | 1
+text          |     1-5/8" drywall screws at 7in edge spacing, 3/8 in adhesive bead along framing
 meta          | 2
 text          |     2-1/2 in 1/4 in diam. Screws at 4 in edge spacing, 2.5 lb expanded metal lath
 meta          | CHAPTER 6. DESIGN OF ENHANCED LIGHT-FRAME STRUCTURES                                       248
@@ -11349,7 +11349,7 @@ blank         |
 text          |                            Figure 6.34. First floor uplift forces.
 blank         | 
               | 
-text          | Alternate equivalent static force-based procedure calculations
+title         | Alternate equivalent static force-based procedure calculations
 blank         | 
 text          | To illustrate the difference in required strengths and stiffnesses when the alternative
               | force-based procedure is used, those calculations were performed and are displayed in
@@ -13662,9 +13662,9 @@ text          |                                     FEMA P695                   
 blank         | 
               | 
               | 
-text          | 8.7 Response of strength- and stiffness-enhanced simple
+title         | 8.7 Response of strength- and stiffness-enhanced simple
               |     building archetypes
-              | To extend the performance evaluation of the two-story house to other building
+text          | To extend the performance evaluation of the two-story house to other building
               | configurations, simplified one-, two-, and three-story archetypes were developed and
               | analyzed, as discussed previously (Section 8.2 and Figure 8.3). These simplified
               | archetypes include configurations with different building heights, enhanced wall
@@ -17777,9 +17777,9 @@ text          |                                                                 
 blank         | 
 text          |                        5                                                                                         3000
 blank         | 
-meta          |                        0                                                                                         2500
+text          |                        0                                                                                         2500
               |                        -5                                                                                        2000
-text          |                       -10                                                                                        1500
+              |                       -10                                                                                        1500
               |                       -15                                                                                        1000
               |                       -20
               |                                                                                                                  500
@@ -17837,9 +17837,9 @@ text          |                                                                 
 blank         | 
 text          |                        5                                                                                         3000
 blank         | 
-meta          |                        0                                                                                         2500
+text          |                        0                                                                                         2500
               |                        -5                                                                                        2000
-text          |                       -10                                                                                        1500
+              |                       -10                                                                                        1500
               |                       -15                                                                                        1000
               |                       -20                                                   test 1                                                                         test 1
               |                                                                                                                  500
@@ -17898,9 +17898,9 @@ text          |                                                                 
 blank         | 
 text          |                        5                                                                                         3000
 blank         | 
-meta          |                        0                                                                                         2500
+text          |                        0                                                                                         2500
               |                        -5                                                                                        2000
-text          |                       -10                                                                                        1500
+              |                       -10                                                                                        1500
               |                       -15                                                                                        1000
               |                       -20
               |                                                                                                                  500

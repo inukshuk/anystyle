@@ -224,7 +224,7 @@ blank         |
               | 
               | 
 meta          |                                        xi
-              | Chapter 1
+title         | Chapter 1
 blank         | 
 title         | Introduction
 blank         | 
@@ -329,7 +329,7 @@ text          | is straightforward, easy to implement, and computationally tract
               | radio reveals that the 1996-2006 merger wave provided $2.5b per year of cost syn-
               | ergies, which constitutes about 10% of total industry revenue. The scale of those
               | efficiencies is a an order of magnitude higher than loss in surplus for advertisers.
-meta          | Chapter 2
+title         | Chapter 2
 blank         | 
 title         | Mergers in two-sided markets:
               | Case of U.S. radio industry
@@ -1564,7 +1564,7 @@ blank         |
               | 
 meta          |   5
 text          |       Source: A.Richter (2006)
-meta          | Chapter 3
+title         | Chapter 3
 blank         | 
 title         | Estimation of cost synergies from
               | mergers without cost data:

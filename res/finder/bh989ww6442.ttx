@@ -894,7 +894,7 @@ blank         |
               | 
               | 
 meta          |                                                xxv
-              | Chapter 1
+title         | Chapter 1
 blank         | 
 title         | Introduction
 blank         | 
@@ -1591,7 +1591,7 @@ text          | partial differential equations, their discretization, and PDE-co
               | the number of parameters and state variables are comparable. Finally, Chapter 7 offers conclusions
               | and ideas for future research and Appendix D introduces an adjoint method for optimization of
               | time-dependent PDEs, possibly with periodicity constraints, discretized with high-order methods.
-meta          | Chapter 2
+title         | Chapter 2
 blank         | 
 title         | PDE-Constrained Optimization
 blank         | 
@@ -3243,7 +3243,7 @@ text          | Once the dual variable for each functional has been computed, th
               | bound on a QoI (not amenable to elimination) and the second requires time-periodicity of the PDE
               | solution (amenable to elimination). Nonlinear elimination is applied to the periodicity constraint
               | and the adjoint equations are modified accordingly.
-meta          | Chapter 3
+title         | Chapter 3
 blank         | 
 title         | Generalized Multifidelity Trust
               | Region Method
@@ -3957,7 +3957,7 @@ blank         |
 text          |                                                  µj+1
               |                                                   k   = µjk + αpjk
 blank         | 
-title         |  5:   BFGS update: Define sjk and ykj as
+text          |  5:   BFGS update: Define sjk and ykj as
 blank         | 
 text          |                               sjk = µj+1
               |                                      k   − µjk            ykj = ∇φγk (µj+1     γ   j
@@ -4744,7 +4744,7 @@ text          |                2.0000e+00     2.0002e+00    2.0000e+00     2.000
               |                2.0000e+00     2.0000e+00    2.0000e+00     2.0000e+00     5.5167e-05      3.0124e-01   1.3148e-05      True
               |                2.0000e+00     2.0000e+00    2.0000e+00     2.0000e+00     8.5278e-05    6.9467e+00     2.6296e-05      True
 meta          |                                                                                                                                                  76
-              | Chapter 4
+title         | Chapter 4
 blank         | 
 title         | Projection-Based Model Reduction
 blank         | 
@@ -6162,8 +6162,8 @@ text          | where all terms are evaluated at the linearization point. A vari
               | terpolation requires a sufficiently large mask such that P T r(u, µ) = 0 =⇒ r(u, µ) = 0. These
               | results are stated and proved in Proposition 4.7.
 blank         | 
-meta          | Proposition 4.7. Let (Φ∂ , Θ∂ , P ) define a masked minimum-residual sensitivity reduced-order
-              | CHAPTER 4. PROJECTION-BASED MODEL REDUCTION                                                                                       102
+text          | Proposition 4.7. Let (Φ∂ , Θ∂ , P ) define a masked minimum-residual sensitivity reduced-order
+meta          | CHAPTER 4. PROJECTION-BASED MODEL REDUCTION                                                                                       102
 blank         | 
               | 
               | 
@@ -6631,8 +6631,8 @@ text          |                                         U , Σ, V = ProbSVD(X, k
               |  2: Form Y = (AAT )q AΩ
               |  3: Compute QR factorization of Y: Y = QR
               |  4: Form B = QT A
-meta          |  5: Compute SVD of B = ŨΣVT
-title         |  6: Set U = QŨ
+              |  5: Compute SVD of B = ŨΣVT
+              |  6: Set U = QŨ
 blank         | 
               | 
 text          |       This completes the discussion of the algorithms that will prove useful in defining the trial basis
@@ -6907,7 +6907,7 @@ text          | The above relationship satisfy all conditions in Propositions 4.
               | and interpolation that only holds under stricter assumptions on solutions of the discrete PDE. In this
               | work, the mask P is constructed solely from the primal reduced-order basis Φ and problem-specific
               | information following the approach in [198].
-meta          | Chapter 5
+title         | Chapter 5
 blank         | 
 title         | Optimization via Model Reduction
               | and Residual-Based Trust Regions
@@ -8375,8 +8375,8 @@ text          | Figure 5.5: Convergence history of various optimization solvers 
               | (    ), adj-etr-intpt (    ), adj-ctr-intpt (    ), adj-ctr-stcg (    ).
 blank         | 
               | 
-title         | [52, 210].
-text          |                   The increased convergence rate, in terms of major iterations (and therefore HDM evaluations),
+text          | [52, 210].
+              |                   The increased convergence rate, in terms of major iterations (and therefore HDM evaluations),
               | of Algorithms 11 and 12 comes at the price of a large number of ROM evaluations. Figure 5.7 shows
               | the cumulative number of primal ROM queries as a function of major iteration and a histogram
               | of the number of primal ROM evaluations at a given reduced basis size (ku ). The methods that
@@ -9664,7 +9664,7 @@ text          |                                       HDM-based            ROM-b
               |               µ∗ − µRAE2822
               |                                      2.28 × 10−3 %        4.17 × 10−6 %
               |                kµRAE2822 k
-meta          | Chapter 6
+title         | Chapter 6
 blank         | 
 title         | Model Reduction and Sparse Grids
               | for Efficient Stochastic
@@ -11119,8 +11119,8 @@ blank         |
               | 
               | 
 title         | 6.4     Numerical Experiment: Optimal Control of the Viscous
-text          |         Burgers’ Equation with Uncertain Coefficients
-              | This section studies the performance of the proposed algorithms (Algorithms 15 and 16) on a simple
+              |         Burgers’ Equation with Uncertain Coefficients
+text          | This section studies the performance of the proposed algorithms (Algorithms 15 and 16) on a simple
               | stochastic PDE-constrained optimization problem: optimal control of the one-dimensional viscous
               | Burgers’ equation with uncertain coefficients. This is precisely the stochastic counterpart to the
               | problem in Section 5.5.2 used to study the deterministic trust region algorithm based on reduced-
@@ -11458,7 +11458,7 @@ text          |            F (µk )     mk (µk )      F (µ̂k )     mk (µ̂k 
               |          5.0405e-02   5.0404e-02   5.0403e-02   5.0401e-02    8.3139e-05   9.9946e-01    1.6000e+03    1.0000e+00
               |          5.0403e-02   5.0401e-02        -            -        2.2846e-06        -             -             -
 meta          |                                                                                                                                CHAPTER 6. STOCHASTIC PDE OPTIMIZATION WITH ROMS AND SPARSE GRIDS 204
-              | Chapter 7
+title         | Chapter 7
 blank         | 
 title         | Conclusions
 blank         | 
@@ -11577,7 +11577,7 @@ text          |    • Possible improvements to the proposed methods. A number o
               |       adjoint residual). Another possible enhancement that would have a positive and widespread
               |       impact across the methods proposed in this thesis is the use of improved, faster, and possibly
               |       probabilistic, [15] error indicators. In the trust region framework, these can either be used as
-              | CHAPTER 7. CONCLUSIONS                                                                          208
+meta          | CHAPTER 7. CONCLUSIONS                                                                          208
 blank         | 
               | 
               | 
@@ -12917,8 +12917,8 @@ text          | where Qj is a matrix whose columns consist of problem-specific v
 blank         | 
               | 
 title         | C.2.2     Inner Iteration: Multifidelity Optimization with Reduced-Order
-text          |           Models
-              | Each iteration of the affine parameter space adaptation requires the solution of the PDE-constrained
+              |           Models
+text          | Each iteration of the affine parameter space adaptation requires the solution of the PDE-constrained
               | optimization problem (C.24), which can be written as an optimization problem in few variables
               | (kµ  Nµ ). Even though the optimization problem contains few variables, it is still expensive
               | to solve since each objective evaluation requires the solution of a potentially large-scale partial

@@ -241,7 +241,7 @@ blank         |
               | 
               | 
 meta          |                                           ix
-              | Chapter 1
+title         | Chapter 1
 blank         | 
 title         | Introduction
 blank         | 
@@ -389,7 +389,7 @@ blank         |
 text          | to remain insulated from external political pressure is imperfect.
               |    I conclude in Chapter 5 by discussing the implications of my findings and mapping
               | out some research projects that are natural extensions of this work.
-meta          | Chapter 2
+title         | Chapter 2
 blank         | 
 title         | The Politics Behind the Federal
               | Reserve’s Structure
@@ -2765,7 +2765,7 @@ blank         |
               | 
 text          | Figure 2.14: Could the Banking Act have Passed Had the Composition of Congress
               | Not Changed Between 1913 and 1935?
-meta          | Chapter 3
+title         | Chapter 3
 blank         | 
 title         | The Fed as a Political Agent: How
               | Partisan Central Bankers Allow
@@ -3079,7 +3079,7 @@ blank         |
               | 
 title         | 3.2      Do We Know if There is a Political Business
 blank         | 
-text          |          Cycle in Monetary Policy?
+title         |          Cycle in Monetary Policy?
 blank         | 
 text          | Most studies assessing the presence of a political business cycle in monetary policy
               | have decided against pursuing this more fine-grained, individual-level analysis and
@@ -4363,7 +4363,7 @@ meta          |      Note:                                     p<0.1;        p<0
 blank         | 
               | 
 text          |  Figure 3.5: Power Analysis: Democratic Elections’ Effect on FOMC Republicans
-meta          | Chapter 4
+title         | Chapter 4
 blank         | 
 title         | The Role of Politics in the Federal
               | Reserve’s Lending during the
@@ -5891,8 +5891,8 @@ blank         |
               | 
               | 
               | 
-meta          |                       (c) Political Entity: Letter Writers
-              | CHAPTER 4. THE ROLE OF POLITICS IN THE FED’S LENDING                                     184
+text          |                       (c) Political Entity: Letter Writers
+meta          | CHAPTER 4. THE ROLE OF POLITICS IN THE FED’S LENDING                                     184
 blank         | 
               | 
               | 
@@ -5957,7 +5957,7 @@ text          |  Figure 4.3: Financial Covariates’ Marginal Effects on Income 
               | AIC used by Stata            3709.097        3705.628        3702.708      3705.485         3699.858        3696.849         3698.747
 meta          |                                                                                                                                               CHAPTER 4. THE ROLE OF POLITICS IN THE FED’S LENDING
               |                                                                                                                                               186
-              | Chapter 5
+title         | Chapter 5
 blank         | 
 title         | Conclusion
 blank         | 

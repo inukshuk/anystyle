@@ -191,7 +191,7 @@ blank         |
               | 
               | 
 meta          |                                          vi
-title         |       Limitations and Future Directions          68
+text          |       Limitations and Future Directions          68
 blank         | 
 text          |       Practical Implications                     74
 blank         | 
@@ -978,7 +978,7 @@ text          | study in which they were given little information about someone 
 blank         | 
 text          | rate that individual’s personality. Thus, for all analyses N=363.
 blank         | 
-text          | Procedure
+title         | Procedure
 blank         | 
               | 
               | 
@@ -1172,7 +1172,7 @@ text          |                                          Results
 blank         | 
 text          |        Means and standard deviations from each analysis are reported in Table 2.
 blank         | 
-text          | Pre-Analysis
+title         | Pre-Analysis
 blank         | 
               | 
               | 
@@ -1563,7 +1563,7 @@ text          | to be more willing than her [his] colleagues to handle problems 
 blank         | 
 text          | her [his] own.”
 blank         | 
-title         | Measures
+text          | Measures
 blank         | 
               | 
               | 
@@ -3030,7 +3030,7 @@ blank         |
 meta          |                                            56
 text          | displayed no specific type of agency, but this difference was not significant, t(272) =
 blank         | 
-title         | 1.62, p = .11.
+text          | 1.62, p = .11.
 blank         | 
 text          |        Participants also viewed Jeff Weiner to be more self-reliant when he displayed
 blank         | 
@@ -4290,7 +4290,7 @@ blank         |
               | 
               | 
 meta          |                                             82
-              | Rudman, L. A., Moss-Racusin, C. A., Phelan, J. E., & Nauts, S. (2012). Status
+ref           | Rudman, L. A., Moss-Racusin, C. A., Phelan, J. E., & Nauts, S. (2012). Status
 blank         | 
 ref           |        ncongruity and backlash effects: Defending the gender hierarchy motivates
 blank         | 
@@ -4369,7 +4369,7 @@ blank         |
               | 
               | 
 meta          |                                          84
-              | Table 1
+text          | Table 1
 blank         | 
 text          | Results from a principle axis factor analysis with promax rotation on all of the
 blank         | 
@@ -4397,7 +4397,7 @@ blank         |
               | 
               | 
 meta          |                                        85
-              |      Table 2
+text          |      Table 2
 blank         | 
 text          |      Means and standard deviations for perceived competence and perceived trustworthiness from Study 1.
 blank         | 
@@ -4462,7 +4462,7 @@ blank         |
               | 
               | 
 meta          |                                            87
-              |      Table 4
+text          |      Table 4
 blank         | 
 text          |      Means and standard deviations for all outcome variables from Study 2.
 blank         | 
@@ -4536,7 +4536,7 @@ blank         |
               | 
               | 
 meta          |                                            89
-              |      Table 6
+text          |      Table 6
 blank         | 
 text          |      Means and standard deviations for all outcome variables from Study 3.
 blank         | 
@@ -4611,7 +4611,7 @@ blank         |
               | 
               | 
 meta          |                                            91
-              |      Table 8
+text          |      Table 8
 blank         | 
 text          |      Means and standard deviations among study variables from Study 4.
 blank         | 
@@ -4648,7 +4648,7 @@ text          |      DV: Perceived
               |      dominance (z-scored       0.10   0.86   -0.28   0.66   0.08     0.79   0.22    0.79     -0.10   0.75           0.86
               |                                                                                                              0.01
               |      manipulation check)
-meta          |      Figure 1
+              |      Figure 1
 blank         | 
 text          |      The effect of a target’s gender, the type of agency he or she displayed, and the degree of agency he or she displayed on
 blank         | 
@@ -4715,7 +4715,7 @@ blank         |
               | 
               | 
 meta          |                                            94
-              | Figure 3
+text          | Figure 3
 blank         | 
 text          | The effect of a job applicant’s gender and the type of agency he or she displayed on
 blank         | 
@@ -4749,7 +4749,7 @@ blank         |
               | 
               | 
 meta          |                                          95
-              |      Figure 4
+text          |      Figure 4
 blank         | 
 text          |      The effect of a politician’s gender and the type of agency he or she displayed on participants’ willingness to vote for him or her and
 blank         | 
@@ -4781,7 +4781,7 @@ text          |          1
               |                 Male politician Female politician Male politician Female politician Male politician Female politician
 blank         | 
 text          |      Note. All three variables were measured on 7-point scales. Standard errors represent +-SE.
-meta          | Figure 5
+              | Figure 5
 blank         | 
 text          | The effect of a Silicon Valley executives’ gender and the type of agency that he or she
 blank         | 
@@ -4827,7 +4827,7 @@ blank         |
               | 
               | 
 meta          |                                           97
-              | Figure 6
+text          | Figure 6
 blank         | 
 text          | The effect of a Silicon Valley executives’ gender and the type of agency that he or she
 blank         | 

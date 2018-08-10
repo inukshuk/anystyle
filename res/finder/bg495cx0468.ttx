@@ -712,7 +712,7 @@ blank         |
               | 
               | 
 meta          |                                       xxv
-              | Chapter 1
+title         | Chapter 1
 blank         | 
 title         | Introduction
 blank         | 
@@ -3164,8 +3164,8 @@ title         | 5.1        Background
 text          | The GAGs have an important but less-understood role in the maintenance of the
               | lattice-like fibril arrangement. Keratan sulfate, the predominant stromal GAG com-
               | ponent, has been shown to be involved in modulating the fibril organization by the
-meta          |                         1
-text          | knockout of Chst5           in the mouse (Hayashida et al., 2006). Scott (1992) proposed
+              |                         1
+              | knockout of Chst5           in the mouse (Hayashida et al., 2006). Scott (1992) proposed
               | that two or more GAG chains, originating at different core proteins on neighboring
               | fibrils, may form an antiparallel duplexed association which appears as a bridge-like
               | structure spanning the interfibrillar distance in electron microscopy after staining,
