@@ -158,9 +158,9 @@ blank         |
 meta          |                                                 vi
 title         | Contents
 blank         | 
-title         | Abstract                                                                                                  iv
+text          | Abstract                                                                                                  iv
 blank         | 
-title         | Acknowledgments                                                                                           v
+text          | Acknowledgments                                                                                           v
 blank         | 
 text          | 1 Introduction                                                                                             1
               |   1.1   Motivation    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    1
@@ -10410,8 +10410,8 @@ blank         |
               | 
               | 
 title         | 6.3       Multifidelity Trust Region Method Based on Two-Level
-text          |           Approximation
-              | This section presents the primary contribution of this chapter: the use of sparse grids and model
+              |           Approximation
+text          | This section presents the primary contribution of this chapter: the use of sparse grids and model
               | reduction in the multifidelity trust region framework of Chapter 3 to yield an efficient algorithm for
               | stochastic PDE-constrained optimization. The approximation model, mk (µ), that is central to the
               | trust region theory will be taken as the two-level approximation of risk-averse measures of quantities
@@ -12492,8 +12492,8 @@ text          | This section proposes a two-level, nested reduction strategy for
               | which will be combined in Section C.2 to develop the nested optimization algorithm.
 blank         | 
               | 
-text          | C.1.1     Outer Layer of Reduction: Restriction of Parameter Space
-              | The PDE-constrained optimization problem that motivates this work takes the form (reduced-space
+title         | C.1.1     Outer Layer of Reduction: Restriction of Parameter Space
+text          | The PDE-constrained optimization problem that motivates this work takes the form (reduced-space
               | formulation)
               |                                    minimize F (µ) := f (u(µ), µ)                                  (C.1)
               |                                     µ∈RNµ

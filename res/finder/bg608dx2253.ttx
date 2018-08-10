@@ -180,7 +180,7 @@ blank         |
               | 
               | 
 meta          | viii
-              | Dedication
+title         | Dedication
 blank         | 
 text          |                          For my Wai-Wai
 blank         | 
@@ -3689,7 +3689,7 @@ blank         |
               | 
 meta          |                                                                                   115
               | 116
-              | APPENDIX A: Supporting information for
+title         | APPENDIX A: Supporting information for
               | Chapter 2
 blank         | 
 title         | A.1 Reactive Transport Modeling using MIN3P
@@ -4002,7 +4002,7 @@ blank         |
               | 
               | 
 meta          | 124
-              | APPENDIX B: Supporting Information for
+title         | APPENDIX B: Supporting Information for
               | Chapter 3
 blank         | 
 title         | B.1 Reactive Transport Modeling using MIN3P

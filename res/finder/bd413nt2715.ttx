@@ -399,7 +399,7 @@ text          |        The fact that women are seen as less agentic than men me
 blank         | 
 text          | receive less credit than men for the same achievements (Biernat & Kobrynowicz,
 blank         | 
-title         | 1997; Correll, 2004; Heilman & Haynes, 2005). People expect more valuable
+text          | 1997; Correll, 2004; Heilman & Haynes, 2005). People expect more valuable
 blank         | 
 text          | contributions to come from people who have a more valued status in a group (e.g.,
 blank         | 
@@ -960,7 +960,7 @@ text          | impressions of either a male or female target that displayed eit
 blank         | 
 text          | self-reliance or dominance.
 blank         | 
-text          |                                         Method
+title         |                                         Method
 blank         | 
 title         | Participants
 blank         | 
@@ -1168,7 +1168,7 @@ text          | stable, and (8) steady. I averaged participants’ responses to 
 blank         | 
 text          | composite measure of perceived competence (α = .94).
 blank         | 
-text          |                                          Results
+title         |                                          Results
 blank         | 
 text          |        Means and standard deviations from each analysis are reported in Table 2.
 blank         | 
@@ -1385,7 +1385,7 @@ text          | female targets that displayed dominance incurred a cost for disp
 blank         | 
 text          | form of being seen as less trustworthy that self-reliant female targets did not incur.
 blank         | 
-text          |                                        Discussion
+title         |                                        Discussion
 blank         | 
 text          |        The results of Study 1 provide initial support for the idea that displaying
 blank         | 
@@ -1433,7 +1433,7 @@ text          | prediction by having participants evaluate either a male or fema
 blank         | 
 text          | displayed either self-reliance or dominance.
 blank         | 
-text          |                                         Study 2
+title         |                                         Study 2
 blank         | 
 text          |        Study 2 further assesses the functional aspects of self-reliance for women in
 blank         | 
@@ -1451,7 +1451,7 @@ text          | participants were randomly assigned to review application materi
 blank         | 
 text          | or female job applicant that displayed either high self-reliance or high dominance. 2
 blank         | 
-text          |                                         Method
+title         |                                         Method
 blank         | 
 title         | Participants
 blank         | 
@@ -1563,7 +1563,7 @@ text          | to be more willing than her [his] colleagues to handle problems 
 blank         | 
 text          | her [his] own.”
 blank         | 
-text          | Measures
+title         | Measures
 blank         | 
               | 
               | 
@@ -1630,7 +1630,7 @@ text          | [he] is?” Participants responded to the question on a 5-point 
 blank         | 
 text          | incompetent; 5 = very competent).
 blank         | 
-text          |         Manipulation checks
+title         |         Manipulation checks
 blank         | 
 text          |         Perceived self-reliance. Participants indicated the extent to which the applicant
 blank         | 
@@ -1648,7 +1648,7 @@ text          | averaged these two items to create a measure of the applicant’
 blank         | 
 text          | (α = .91).
 blank         | 
-text          |                                          Results
+title         |                                          Results
 blank         | 
 text          |         Means and standard deviations from each analysis are reported in Table 4.
 blank         | 
@@ -1912,7 +1912,7 @@ text          | than the male applicants because they judged the female applica
 blank         | 
 text          | dominance to be less trustworthy.
 blank         | 
-text          |                                       Discussion
+title         |                                       Discussion
 blank         | 
 text          |        Study 2 builds on Study 1 by showing that the type of agency women display
 blank         | 
@@ -1961,7 +1961,7 @@ text          | when they display traits related to competition and hierarchy? 
 blank         | 
 text          | Study 3.
 blank         | 
-text          |                                          Study 3
+title         |                                          Study 3
 blank         | 
 text          |        Study 3 assessed whether self-reliance is a functional form of agency for
 blank         | 
@@ -1975,7 +1975,7 @@ text          | and then answered questions about their impressions of the state
 blank         | 
 text          | as their willingness to vote the state representative.
 blank         | 
-text          |                                          Method
+title         |                                          Method
 blank         | 
 title         | Participants
 blank         | 
@@ -2085,9 +2085,9 @@ text          |        directed. I seek to depend on myself, rather than on othe
 blank         | 
 text          |        accomplished.”
 blank         | 
-text          | Measures
+title         | Measures
 blank         | 
-text          |        Outcome variables
+title         |        Outcome variables
 blank         | 
 text          |        Willingness to vote for the state representative. Participants indicated how
 blank         | 
@@ -2120,7 +2120,7 @@ text          | they thought the state representative was on a 7-point scale (1 
 blank         | 
 text          | very competent).
 blank         | 
-text          |        Manipulation checks
+title         |        Manipulation checks
 blank         | 
 text          |        Perceived self-reliance. Participants responded to four questions about their
 blank         | 
@@ -2173,7 +2173,7 @@ text          | scored participants’ responses to the items and then averaged 
 blank         | 
 text          | composite measure of perceived dominance (α = .91)
 blank         | 
-text          |        Covariate
+title         |        Covariate
 blank         | 
 text          |        To help obscure the study’s interest in the relationship between the content of
 blank         | 
@@ -2245,7 +2245,7 @@ text          | covariate is not included for participants’ willingness to vot
 blank         | 
 text          | representative and for their perceptions of the state representatives’ trustworthiness.
 blank         | 
-text          |                                          Results
+title         |                                          Results
 blank         | 
               | 
               | 
@@ -2616,7 +2616,7 @@ text          | willing to vote for the female state representative that display
 blank         | 
 text          | the two male state representatives because they judged her to be more trustworthy.
 blank         | 
-text          |                                           Discussion
+title         |                                           Discussion
 blank         | 
 text          |        Study 3 provided further evidence that self-reliance is a functional form of
 blank         | 
@@ -2701,7 +2701,7 @@ text          | an executive displays affects people’s impressions of the exec
 blank         | 
               | 
               | 
-text          |                                         Study 4
+title         |                                         Study 4
 blank         | 
 text          |        Study 4 assessed participants’ willingness to invest in Facebook or LinkedIn as
 blank         | 
@@ -2715,7 +2715,7 @@ text          | dominance, or no specific type of agency and then indicated thei
 blank         | 
 text          | in her or his company.
 blank         | 
-text          |                                         Method
+title         |                                         Method
 blank         | 
 title         | Participants
 blank         | 
@@ -2886,9 +2886,9 @@ text          |        public, it will be because investors are willing to put 
 blank         | 
 text          |        of Sandberg [Weiner].
 blank         | 
-text          | Measures
+title         | Measures
 blank         | 
-text          |        Outcome variables.
+title         |        Outcome variables.
 blank         | 
 text          |        Desire to invest in the executive’s company. The main dependent variable was
 blank         | 
@@ -2941,7 +2941,7 @@ text          | competence by answering the question, “How competent or incomp
 blank         | 
 text          | she [he] is?” (1= very incompetent; 7 = very competent).
 blank         | 
-text          |         Manipulation checks
+title         |         Manipulation checks
 blank         | 
 text          |         Perceived self-reliance. Participants responded to the same items as they did in
 blank         | 
@@ -2957,7 +2957,7 @@ text          | items and averaged them to create a composite measure of perceiv
 blank         | 
 text          | .88).
 blank         | 
-text          |                                         Results
+title         |                                         Results
 blank         | 
 text          |         Means and standard deviations from each analysis are reported in Table 8.
 blank         | 
@@ -3194,7 +3194,7 @@ text          | (see Figure 6). 12
 blank         | 
               | 
               | 
-title         | 11
+meta          | 11
 text          |     I also compared participants’ desire to invest in the company as a function of
               | whether Sheryl Sandberg or Jeff Weiner was named as its executive within the type of
               | agency that she or he displayed. Participants were less inclined to invest in the
@@ -3405,7 +3405,7 @@ text          | Additionally, the results remain the same if these variables are
 blank         | 
 text          | in the analyses. .
 blank         | 
-text          |                                       Discussion
+title         |                                       Discussion
 blank         | 
 text          |         Participants were more inclined to invest in Facebook when its COO, Sheryl
 blank         | 
@@ -3470,7 +3470,7 @@ text          | targets were held constant. Thus, even when the targets had the
 blank         | 
 text          | position, a similar pattern of results emerged.
 blank         | 
-text          |                                   General Discussion
+title         |                                   General Discussion
 blank         | 
 text          |        Why do women obtain leadership positions less frequently than men even
 blank         | 
@@ -3930,7 +3930,7 @@ text          | demonstrating their agency than men, and thus may still be disad
 blank         | 
 text          | comes to being seen as well suited for leadership positions.
 blank         | 
-text          |                                       Conclusion
+title         |                                       Conclusion
 blank         | 
 text          |        A bleak picture is often painted for women in organizations. It suggests that no
 blank         | 
@@ -4868,7 +4868,7 @@ blank         |
               | 
               | 
 meta          |                                           98
-              | Appendix A
+title         | Appendix A
 blank         | 
 text          | Example of the manipulation of the type of agency and the degree of agency the target
 blank         | 
@@ -4902,7 +4902,7 @@ blank         |
               | 
               | 
 meta          |                            101
-              | Appendix B
+title         | Appendix B
 blank         | 
 text          | Example of the cover letter, resume, and letter of recommendation used to manipulate
 blank         | 
@@ -4916,7 +4916,7 @@ blank         |
               | 
               | 
 meta          |                                           102
-              | Resume
+title         | Resume
 blank         | 
               | 
               | 
@@ -4928,7 +4928,7 @@ blank         |
               | 
               | 
 meta          |                            104
-              | Appendix C
+title         | Appendix C
 blank         | 
 text          | Example of the materials used to manipulate the type of agency that the male and
 blank         | 
@@ -4941,7 +4941,7 @@ blank         |
               | 
 meta          |                                          105
               | 106
-              | Appendix D
+title         | Appendix D
 blank         | 
 text          | Example of the materials used to manipulate the executive and the type of agency the
 blank         | 

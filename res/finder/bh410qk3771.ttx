@@ -559,7 +559,7 @@ blank         |
               | 
               | 
 meta          | 	                                          3	  
-text          | Eukaryotic DNA is packaged into chromatin.
+title         | Eukaryotic DNA is packaged into chromatin.
 blank         | 
 text          |         To fit about two meters of DNA into a nucleus that is merely ten to twenty
 blank         | 
@@ -3180,11 +3180,11 @@ blank         |
               | 
               | 
 meta          | 	                                   60	  
-text          |                                     Chapter 1
+title         |                                     Chapter 1
 blank         | 
-text          |        Development of an in vitro system for centromeric chromatin assembly in
+title         |        Development of an in vitro system for centromeric chromatin assembly in
 blank         | 
-text          |                            Xenopus laevis egg extracts.**
+title         |                            Xenopus laevis egg extracts.**
 blank         | 
               | 
               | 
@@ -4619,7 +4619,7 @@ blank         |
               | 
               | 
 meta          | 	                                         92	  
-text          | Supplemental Figure Legends.
+title         | Supplemental Figure Legends.
 blank         | 
               | 
               | 

@@ -8273,12 +8273,12 @@ text          | Over this time, the hydrogen flux decreased by an average of 17%
               | the membrane, which revealed a non-uniform surface as shown in Figure 6.11.
 blank         | 
               | 
-text          |      Before testing
+title         |      Before testing
 blank         | 
               | 
               | 
               | 
-text          |    After testing
+title         |    After testing
 blank         | 
 text          | Figure 6.11 – Ma-2: Pd/PSS composite membrane before and after long-term H2
               | permeation testing.
@@ -11485,7 +11485,7 @@ blank         |
 text          | Most of the equipment used in this process was standard off the shelf equipment;
               | however, the shelf can be very large especially if new to this field and/or process.
 blank         | 
-text          | Permeation testing
+title         | Permeation testing
 blank         | 
 text          | Most of the equipment used for permeation testing was custom built in order to fit a
               | diverse set of outer diameter supports. However, some of the equipment used:

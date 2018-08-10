@@ -875,7 +875,7 @@ text          | biophysical descriptions of the tissue behavior and nanoscale de
               | For the first time, we apply the model to study the disturbances to hydrations due
               | to the introduction of an intrastromal inlay. A summary of the results and their
               | implications is given in chapter 8, along with comments on future work.
-meta          | Chapter 2
+title         | Chapter 2
 blank         | 
 title         | An electrolyte model for the ex
               | vivo cornea
@@ -1632,7 +1632,7 @@ text          | Figure 2.8: The effect of the ϕ and ϕ̂ on the electrostatic f
               | based and Donnan-based solutions for Pel agree well over the dilation range where
               | PG-coatings are well separated. The Donnan-based solution P̂el cannot capture the
               | effect of PG-coating overlap and thus loses accuracy at low hydration.
-meta          | Chapter 3
+title         | Chapter 3
 blank         | 
 title         | Modeling the active endothelial ion
               | transport in the in vivo cornea
@@ -2050,9 +2050,9 @@ text          | Figure 3.2: The computed osmotic pressure Pos versus volume dila
               | measurements (Olsen and Sperling, 1987). The measured modulus is given by K exp =
               | 39.12J −4.48 kPa, which is computed by the power law fit function for swelling pressure
               | Psexp = 7.56t−3.48 mmHg from Olsen and Sperling (1987).
-meta          | Chapter 4
+title         | Chapter 4
 blank         | 
-text          | A structural model for the in vivo
+title         | A structural model for the in vivo
               | human cornea including
               | collagen-swelling interaction
 blank         | 
@@ -3154,7 +3154,7 @@ text          | corneal dystrophy where the GAG concentration is found to be abn
               | respiration (Klyce, 1981). Extension of the model to include these multiple species and
               | their interactions through metabolic reactions for aerobic and anaerobic respiration
               | is presented in chapter 7.
-meta          | Chapter 5
+title         | Chapter 5
 blank         | 
 title         | Mechanisms of self-organization for
               | the collagen fibril arrangement in
@@ -3694,7 +3694,7 @@ text          | current model, PG/GAGs have been assumed to be distributed unifo
               | 2010; Quantock et al., 1990) or to genetically mutated corneas (Hayashida et al.,
               | 2006), which leads to a reduction in interfibrillar distance and a more chaotic fibril
               | organization due to the lack of PG regulation.
-meta          | Chapter 6
+title         | Chapter 6
 blank         | 
 title         | Fluid pressure across active
               | biological membrane in a charged
@@ -4277,9 +4277,9 @@ meta          | CHAPTER 6. ENHANCED KEDEM-KATCHALSKY EQUATIONS                 
 blank         | 
               | 
               | 
-text          | 6.6        Application to the endothelial transport in the
+title         | 6.6        Application to the endothelial transport in the
               |            in vivo cornea
-              | In this section, we present an example by applying equations (7.25, 6.42) to study
+text          | In this section, we present an example by applying equations (7.25, 6.42) to study
               | the endothelial ionic transport process of the in vivo cornea. The fluid and ion
               | exchanges across the endothelium controls the level of corneal hydration, which is a
               | crucial factor for the maintenance of the transparency of the tissue. Fixed charges
@@ -4549,9 +4549,9 @@ text          | is negative. This view of a positive stromal fluid pressure is c
               | underlying metabolic reactions (Schultz, 1980). This development requires identifica-
               | tion of the molecular mechanisms, and can potentially enhance the understanding of
               | active mechanism involvement in membrane transport.
-meta          | Chapter 7
+title         | Chapter 7
 blank         | 
-text          | A chemo-electro-mechanical model
+title         | A chemo-electro-mechanical model
               | for corneal metabolism
               | and edema
 blank         | 
@@ -5648,9 +5648,9 @@ text          | Figure 7.11: The predicted fluid pressure variation ∆p through
               | thickness at five values of lens transmissibility for (a) DB− = 4.89 × 10−6 cm2 /s,
               | DL− = 4.4 × 10−6 cm2 /s and (b) DB− = 1.5 × 10−6 cm2 /s, DL− = 4.4 × 10−6 cm2 /s.
 blank         | 
-text          | 7.4.4    Biomechanical behavior after introduction of intrastro-
+title         | 7.4.4    Biomechanical behavior after introduction of intrastro-
               |          mal inlay
-              | The use of intrastromal inlay provides an alternative treatment to improve near and
+text          | The use of intrastromal inlay provides an alternative treatment to improve near and
               | intermediate vision in presbyopes without the removal of tissue (Arlt et al., 2015;
 meta          | CHAPTER 7. A CHEMO-ELECTRO-MECHANICAL MODEL                                           142
 blank         | 
@@ -5895,7 +5895,7 @@ text          | under extreme situations (Cheng et al., 2015; Muller et al., 200
               | which renders the displacement and fluid pressure as time-independent. However, the
               | theory is readily to be extended to transient cases, which may be useful for interpret-
               | ing experimental results that are obtained in acute situations.
-meta          | Chapter 8
+title         | Chapter 8
 blank         | 
 title         | Conclusions and future directions
 blank         | 
