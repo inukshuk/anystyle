@@ -106,26 +106,35 @@ end
 desc "Save delta of a tagged dataset with itself"
 task :delta, :input do |t, args|
   require 'anystyle'
-  file = args[:input].untaint
-  extn = File.extname(file)
-  print 'Checking %.25s' % "#{File.basename(file)}....................."
-  case extn
-  when '.ttx'
-    input = Wapiti::Dataset.new([AnyStyle::Document.open(file)])
-    output = AnyStyle.finder.label input
-    format = 'txt'
+  input = args[:input].untaint
+  if File.directory?(input)
+    files = Dir.entries(input)
+      .reject { |f| f.start_with?('.') }
+      .map { |f| File.join(input, f).untaint }
   else
-    input = Wapiti::Dataset.open(file)
-    output = AnyStyle.parser.label input
-    format = 'xml'
+    files = [input]
   end
-  delta = output - input
-  if delta.length == 0
-    puts ' ✓'
-  else
-    name = File.basename(file, extn)
-    delta.save "delta_#{name}#{extn}", indent: 2, tagged: true, format: format
-    puts "delta saved to delta_#{name}#{extn} (#{delta.length})"
+  files.each do |file|
+    extn = File.extname(file)
+    print 'Checking %.25s' % "#{File.basename(file)}....................."
+    case extn
+    when '.ttx'
+      input = Wapiti::Dataset.new([AnyStyle::Document.open(file)])
+      output = AnyStyle.finder.label input
+      format = 'txt'
+    else
+      input = Wapiti::Dataset.open(file)
+      output = AnyStyle.parser.label input
+      format = 'xml'
+    end
+    delta = output - input
+    if delta.length == 0
+      puts ' ✓'
+    else
+      name = File.basename(file, extn)
+      delta.save "delta_#{name}#{extn}", indent: 2, tagged: true, format: format
+      puts "delta saved to delta_#{name}#{extn} (#{delta.length})"
+    end
   end
 end
 
