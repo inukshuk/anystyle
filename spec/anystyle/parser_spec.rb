@@ -66,6 +66,7 @@ module AnyStyle
           date: ['1995'],
           pages: ['108'],
           language: 'en',
+          scripts: ['Common', 'Latin'],
           type: 'book'
         })
       end

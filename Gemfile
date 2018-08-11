@@ -9,6 +9,7 @@ group :development, :test do
   gem 'rake'
   gem 'rspec', '~>3.0'
   gem 'language_detector', github: 'feedbackmine/language_detector'
+  gem 'unicode-scripts'
 end
 
 group :coverage do
