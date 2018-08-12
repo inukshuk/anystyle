@@ -1,5 +1,8 @@
 module AnyStyle
   class Document < Wapiti::Sequence
+
+    REFSECT = /reference|works|biblio|cite|secondary sources/i
+
     class << self
       include PDFUtils
 
@@ -64,28 +67,34 @@ module AnyStyle
       end
     end
 
-    def each_section
+    def each_section(skip: ['meta'])
       if block_given?
-        current = []
+        head = []
+        body = []
+        seen_content = false
+
         lines.each do |ln|
           case ln.label
           when 'title'
-            unless current.empty?
-              yield current
-              current = []
+            if seen_content
+              yield [head, body]
+              head, body, seen_content = [ln], [], false
+            else
+              head << ln
             end
           when 'ref', 'text'
-            current << ln
+            body << ln
+            seen_content = true
           else
-            # ignore
+            body << ln unless skip.include?(ln.label)
           end
         end
-        unless current.empty?
-          yield current
+        unless head.empty?
+          yield [head, body]
         end
         self
       else
-        to_enum
+        to_enum :each_section
       end
     end
 
@@ -94,7 +103,8 @@ module AnyStyle
       doc.tokens = lines.map.with_index { |line, idx|
         Wapiti::Token.new line.value,
           label: other[idx].label.to_s,
-          observations: other[idx].observations.dup
+          observations: other[idx].observations.dup,
+          score: other[idx].score
       }
       doc
     end
@@ -126,12 +136,39 @@ module AnyStyle
       }
     end
 
-    def references(**opts)
-      Refs.parse(lines).to_a
+    def references(normalize_blocks: false, **opts)
+      if normalize_blocks
+        each_section.inject([]) do |refs, (head, body)|
+          rc = body.count { |tk| tk.label == 'ref' }
+          unless rc == 0
+            tc = body.count { |tk| tk.label == 'text' }
+            is_ref_sect = !head.find { |tk| tk.value =~ REFSECT }.nil?
+
+            # Skip sections with few ref lines!
+            unless !is_ref_sect || rc < 6 || (rc.to_f / tc) < 0.2
+              Refs.normalize! body, max_win_size: is_ref_sect ? 6 : 2
+              refs.concat Refs.parse(body).to_a
+            end
+          end
+
+          refs
+        end
+      else
+        Refs.parse(lines).to_a
+      end
     end
 
-    def sections(delimiter: "\n", **opts)
-      []
+    def sections(delimiter: "\n", spacer: ' ', **opts)
+      each_section.map do |(head, body)|
+        {
+          title: head.map { |tk|
+            display_chars(tk.value).strip.unicode_normalize
+          }.join(spacer),
+          text: body.map { |tk|
+            display_chars(tk.value).rstrip.unicode_normalize
+          }.join(delimiter)
+        }
+      end
     end
 
     def title(delimiter: " ", **opts)

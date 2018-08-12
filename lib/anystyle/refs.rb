@@ -6,6 +6,25 @@ module AnyStyle
           refs.append line.value, line.label
         end
       end
+
+      def normalize!(lines, max_win_size: 2)
+        win = []
+        lines.each do |line|
+          case line.label
+          when 'text'
+            win << line
+          when 'ref'
+            unless win.length == 0 || win.length > max_win_size
+              win.each { |tk| tk.label = 'ref' }
+            end
+            win = []
+          when 'blank', 'meta'
+            # ignore
+          else
+            win = []
+          end
+        end
+      end
     end
 
     attr_reader :all, :max_delta
