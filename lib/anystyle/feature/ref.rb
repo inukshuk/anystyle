@@ -14,7 +14,7 @@ module AnyStyle
       def symbolize(k)
         return '-' if k < 1
         return '+' if k < 2
-        return '++'
+        return '*'
       end
     end
   end

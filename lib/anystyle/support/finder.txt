@@ -38,10 +38,12 @@ U:Spc-1 X=%x[ 0,14]
 
 U:Fwd-1 L=%x[-1,15]
 U:Fwd-1 X=%x[ 0,15]
+U:Fwd-2LL=%x[-2,15]/%x[-1,15]
 
 U:Num-1 X=%x[ 0,16]
 
 U:Ttl-1 X=%x[ 0,17]
+U:Nme-1LL=%x[-2,18]
 U:Nme-1 L=%x[-1,18]
 U:Nme-1 X=%x[ 0,18]
 

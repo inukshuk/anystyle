@@ -23,12 +23,12 @@ module AnyStyle
       end
 
       def classify(chars)
-        case chars
+        case chars.strip
         when /\.\s*\.\s*\.\s*\.|……+/
           :toc
-        when /^\s*\p{Pd}?\d+\p{Pd}?$/
+        when /^\p{Pd}?\d+\p{Pd}?$/
           :num
-        when /^\s*(Table|Fig(ure|\.))/
+        when /^(\w+\s)?(Table|Fig(ure|\.))/
           :cap
         else
           :none

@@ -5999,8 +5999,8 @@ text          |                    Fy                            
 blank         | 
 text          |                                                                            Fy
               |                                         F 0                    for             p   pc   (5.4d)
-meta          |                                                                            K0
-              | CHAPTER 5. FINITE ELEMENT MODELS                                                         151
+              |                                                                            K0
+meta          | CHAPTER 5. FINITE ELEMENT MODELS                                                         151
 blank         | 
               | 
 text          | When cyclic degradation is ignored, this model unloads with the initial loading stiffness
@@ -8422,7 +8422,7 @@ meta          | CHAPTER 5. FINITE ELEMENT MODELS                               
 blank         | 
 text          | produce walls with initial racking stiffnesses similar to those observed in test walls for all
               | cases studied.
-meta          | CHAPTER 6
+title         | CHAPTER 6
 blank         | 
 title         | Design of light-frame strength- and
               | stiffness-enhanced structures
