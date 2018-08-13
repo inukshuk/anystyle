@@ -2974,8 +2974,8 @@ text          | In the tests described previously, the fasteners were located at
               | fastener tests. All fastener edge specimens were tested with the CUREE-Caltech loading
               | protocol (Figure 3.3). Both enhanced screw fasteners and 41 mm coarse threaded screws
               | were studied, though the coarse threaded screws were only tested with an edge spacing of
-meta          | 16 mm.
-              | CHAPTER 3. ENHANCED GYPSUM AND STUCCO COMPONENT TESTS                                45
+              | 16 mm.
+meta          | CHAPTER 3. ENHANCED GYPSUM AND STUCCO COMPONENT TESTS                                45
 blank         | 
               | 
               | 
@@ -17822,8 +17822,8 @@ text          |                        0                                        
 meta          | APPENDIX A. ENHANCED GYPSUM AND STUCCO COMPONENT TEST DATA 474
 blank         | 
               | 
-meta          |                                                                                                                  5000
-text          |                       25
+text          |                                                                                                                  5000
+              |                       25
               |                                                                                                                  4500
 blank         | 
               | 

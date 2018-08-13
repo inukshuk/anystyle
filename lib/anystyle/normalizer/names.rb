@@ -37,7 +37,7 @@ module AnyStyle
       end
 
       def repeater?(value)
-        value =~ /^[\p{Pd}_*][\p{Pd}_* ]+(,|:|\.|$)/
+        value =~ /^([\p{Pd}_*][\p{Pd}_* ]+|\p{Co})(,|:|\.|$)/
       end
 
       def strip(value)

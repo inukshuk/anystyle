@@ -414,8 +414,8 @@ blank         |
               | 
               | 
 meta          |                                                2
-text          |                         1.2 Mega Design Communities and Design Organization Model
-              |                         Mega-Systems are designed by Mega-Organizations that have tens of thousands of
+title         |                         1.2 Mega Design Communities and Design Organization Model
+text          |                         Mega-Systems are designed by Mega-Organizations that have tens of thousands of
               |                         engineers spread widely across a large geographic area. Organizations are treated here as
               |                         evolutionary computing organisms that evolve as they compute. An abstract
               |                         organizational network model is developed in Section 2.0 as summarized in Figure 1-2.
@@ -3860,8 +3860,8 @@ text          | This dynamic perspective implies that design communities can, a
               | variables will not improve the evolutionary adaptation rate.
 blank         | 
 title         | 6.3 Government Aerospace, Low-Price Procurement, and
-text          |       Overhead Rates
-              | The stability of any implemented improvements is somewhat problematic given the
+              |       Overhead Rates
+text          | The stability of any implemented improvements is somewhat problematic given the
               | evolving environment, but especially given the counter-acting efforts of government
               | acquisition regulations and nominal management tendencies.
 blank         | 

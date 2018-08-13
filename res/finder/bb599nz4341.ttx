@@ -2551,8 +2551,8 @@ blank         |
 title         | Additional material to Chapter 3
 blank         | 
 title         | B.1      Estimation without acquisition prices
-text          |                                r
-              | In case the pricing function P̂jk cannot be estimated in the first state because of data
+              |                                r
+text          | In case the pricing function P̂jk cannot be estimated in the first state because of data
               | constraint, one could employ a bargaining model for infer it. Suppose one employs
               | a parametrization P̂ (ω|θP ). For an initial value of parameters θP0 one could compute
               | a surplus from acquisition of the product j by an owner k using simulated V̂kt and

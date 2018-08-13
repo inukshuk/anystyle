@@ -27,10 +27,16 @@ module AnyStyle
         case chars.lstrip
         when /\.\s*\.\s*\.\s*\.|……+/, /\p{L}\s{5,}\d+$/
           :toc
-        when /^\p{Pd}?\d+\p{Pd}?$/
-          :num
-        when /^(\w+\s)?(Table|Fig(ure|\.))/
+        when /^(\p{Lu}\.?)\s*(\d+\.)+\s+\p{L}+/
+          :title
+        when /^(\w+\s)?(tab(le|elle|\.)|fig(ure|\.))/i
           :cap
+        when /^\p{Pd}?\d+\p{Pd}?$/, /^[ivx]+$/i
+          :num
+        when /copyright|©|rights reserved/i
+          :copyright
+        when /https?:\/\//i
+          :http
         else
           :none
         end

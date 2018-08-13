@@ -149,7 +149,7 @@ module AnyStyle
             is_ref_sect = !head.find { |tk| tk.value =~ REFSECT }.nil?
 
             # Skip sections with few ref lines!
-            unless !is_ref_sect || rc < 6 || (rc.to_f / tc) < 0.2
+            if is_ref_sect || rc > 10 || (rc.to_f / tc) > 0.2
               Refs.normalize! body, max_win_size: is_ref_sect ? 6 : 2
               refs.concat Refs.parse(body).to_a
             end

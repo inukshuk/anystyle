@@ -1484,9 +1484,9 @@ meta          | CHAPTER 2. AN ELECTROLYTE MODEL                                
 blank         | 
               | 
               | 
-text          | 2.5.2     Keratocyte and collagen electrolyte volume exclusion
+title         | 2.5.2     Keratocyte and collagen electrolyte volume exclusion
               |           effects
-              | Predicted electrostatic swelling pressure component Pel , given by equation (2.22), is
+text          | Predicted electrostatic swelling pressure component Pel , given by equation (2.22), is
               | plotted against volume dilation J in figure 2.4a for three cases: no volume exclusion,
               | only collagen volume exclusion, and collagen and keratocyte volume exclusion. The
               | volume exclusion effects arising from these two stromal components are important for
