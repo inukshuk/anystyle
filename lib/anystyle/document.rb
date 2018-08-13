@@ -17,7 +17,7 @@ module AnyStyle
         })
       end
 
-      def open(path, format: File.extname(path), tagged: false, layout: true, **opts)
+      def open(path, format: File.extname(path), tagged: false, **opts)
         raise ArgumentError,
           "cannot open tainted path: '#{path}'" if path.tainted?
         raise ArgumentError,
@@ -29,7 +29,7 @@ module AnyStyle
         when '.pdf'
           meta = pdf_meta path if opts[:parse_meta]
           info = pdf_info path if opts[:parse_info]
-          input = pdf_to_text path, layout: layout
+          input = pdf_to_text path, **opts
         when '.ttx'
           tagged = true
           input = File.read(path, encoding: 'utf-8')

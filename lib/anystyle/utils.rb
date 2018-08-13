@@ -56,10 +56,10 @@ module AnyStyle
   module PDFUtils
     module_function
 
-    def pdf_to_text(path, layout: true)
-      text = %x{pdftotext #{layout ? ' -layout' : ''} -eol unix -enc utf8 -q "#{path}" -}
+    def pdf_to_text(path, **opts)
+      text = %x{pdftotext #{pdf_opts(**opts).join(' ')} "#{path}" -}
       raise "pdftotext failed with error code #{$?.exitstatus}" unless $?.success?
-      text.force_encoding('UTF-8')
+      text.force_encoding(opts[:encoding] || 'UTF-8')
     end
 
     def pdf_info(path)
@@ -70,6 +70,43 @@ module AnyStyle
 
     def pdf_meta(path)
       %x{pdfinfo -meta -isodates "#{path}"}
+    end
+
+    def pdf_page_size(path)
+      pdf_info(path)['Page size'].scan(/\d+/)[0, 2].map(&:to_i)
+    end
+
+    private
+
+    def pdf_opts(path, layout: true, encoding: 'UTF-8', **opts)
+      [
+        layout ? '-layout' : '',
+        opts[:crop] ? pdf_crop(path, opts[:crop]) : '',
+        '-eol unix',
+        "-enc #{encoding}",
+        '-q'
+      ]
+    end
+
+    def pdf_crop(path, args)
+      (x, y, w, h) = case args.length
+        when 1
+          [args[0], args[0], -args[0], -args[0]]
+        when 2
+          [args[0], args[1], -args[0], -args[1]]
+        when 4
+          args
+        else
+          raise "invalid crop option: #{args}"
+        end
+
+      if w < 0 || h < 0
+        (width, height) = pdf_page_size(path)
+        w = width - x + w if w < 0
+        h = height - y + h if h < 0
+      end
+
+      "-x #{x} -y #{y} -W #{w} -H #{h}"
     end
   end
 
