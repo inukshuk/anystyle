@@ -3,20 +3,23 @@ module AnyStyle
     extend StringUtils
 
     class << self
-      def parse(lines)
+      def parse(lines, document)
         pages, current, width = [], [], 0
 
         lines.each do |line|
+          chars = display_chars(line.value).rstrip
+          document.line_counts[chars] += 1
+
           if page_break?(line.value)
             unless current.empty?
               pages << new(current, width: width)
             end
 
             current = [line]
-            width = display_width(line.value)
+            width = chars.length
           else
             current << line
-            width = [width, display_width(line.value)].max
+            width = [width, chars.length].max
           end
         end
 

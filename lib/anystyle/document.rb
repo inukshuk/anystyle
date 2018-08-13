@@ -50,8 +50,12 @@ module AnyStyle
     attr_accessor :meta, :info, :path, :pages, :tokens
     alias_method :lines, :tokens
 
+    def line_counts
+      @line_counts ||= Hash.new(0)
+    end
+
     def pages
-      @pages ||= Page.parse(lines)
+      @pages ||= Page.parse(lines, self)
     end
 
     def each

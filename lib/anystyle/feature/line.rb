@@ -1,7 +1,7 @@
 module AnyStyle
   class Feature
     class Line < Feature
-      def observe(token, page:, **opts)
+      def observe(token, page:, seq:, **opts)
         chars = display_chars(token).rstrip
 
         lttrs = count(chars, /\p{L}/)
@@ -18,13 +18,14 @@ module AnyStyle
           ratio(white, chars.length),
           ratio(punct, chars.length),
           ratio(width, page.width),
-          classify(chars)
+          classify(chars),
+          ratio(seq.line_counts[chars], seq.pages.length)
         ]
       end
 
       def classify(chars)
-        case chars.strip
-        when /\.\s*\.\s*\.\s*\.|……+/
+        case chars.lstrip
+        when /\.\s*\.\s*\.\s*\.|……+/, /\p{L}\s{5,}\d+$/
           :toc
         when /^\p{Pd}?\d+\p{Pd}?$/
           :num
