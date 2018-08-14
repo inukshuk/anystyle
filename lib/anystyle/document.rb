@@ -54,6 +54,10 @@ module AnyStyle
       @line_counts ||= Hash.new(0)
     end
 
+    def nnum_counts
+      @nnum_counts ||= Hash.new(0)
+    end
+
     def pages
       @pages ||= Page.parse(lines, self)
     end
@@ -166,10 +170,10 @@ module AnyStyle
       each_section.map do |(head, body)|
         {
           title: head.map { |tk|
-            display_chars(tk.value).strip.unicode_normalize
+            display_chars(tk.value).lstrip.unicode_normalize
           }.join(spacer),
           text: body.map { |tk|
-            display_chars(tk.value).rstrip.unicode_normalize
+            display_chars(tk.value).unicode_normalize
           }.join(delimiter)
         }
       end

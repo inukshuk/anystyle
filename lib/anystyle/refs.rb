@@ -1,5 +1,7 @@
 module AnyStyle
   class Refs
+    include StringUtils
+
     class << self
       def parse(lines, **opts)
         lines.inject(new(**opts)) do |refs, line|
@@ -155,8 +157,8 @@ module AnyStyle
     end
 
     def strip(string)
-      string = StringUtils.display_chars(string)
-      [string.strip, indent_depth(string)]
+      string = display_chars(string)
+      [string.lstrip, indent_depth(string)]
     end
 
     def indent_depth(string)

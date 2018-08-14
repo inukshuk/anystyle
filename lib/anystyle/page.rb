@@ -7,8 +7,9 @@ module AnyStyle
         pages, current, width = [], [], 0
 
         lines.each do |line|
-          chars = display_chars(line.value).rstrip
+          chars = display_chars(line.value)
           document.line_counts[chars] += 1
+          document.nnum_counts[nnum(chars)] += 1
 
           if page_break?(line.value)
             unless current.empty?

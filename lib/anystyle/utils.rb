@@ -25,18 +25,23 @@ module AnyStyle
       scrub(transliterate(string)).downcase
     end
 
+    def nnum(string, symbol = '#')
+      string.unicode_normalize.gsub(/\d/, symbol)
+    end
+
     def page_break?(string)
       string =~ /\f/
     end
 
     def display_width(string)
-      display_chars(string).rstrip.length
+      display_chars(string).length
     end
 
     def display_chars(string)
       string
         .gsub(/\p{Mn}|\p{Me}|\p{Cc}/, '')
         .gsub(/\p{Zs}/, ' ')
+        .rstrip
     end
 
     def count(string, pattern)
@@ -44,7 +49,7 @@ module AnyStyle
     end
 
     def indent(token)
-      display_chars(token).rstrip[/^(\s*)/].length
+      display_chars(token)[/^(\s*)/].length
     end
 
     def strip_html(string)

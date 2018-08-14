@@ -2,7 +2,7 @@ module AnyStyle
   class Feature
     class Line < Feature
       def observe(token, page:, seq:, **opts)
-        chars = display_chars(token).rstrip
+        chars = display_chars(token)
 
         lttrs = count(chars, /\p{L}/)
         upper = count(chars, /\p{Lu}/)
@@ -19,7 +19,8 @@ module AnyStyle
           ratio(punct, chars.length),
           ratio(width, page.width),
           classify(chars),
-          ratio(seq.line_counts[chars], seq.pages.length)
+          page_ratio(seq.line_counts[chars], seq.pages.length),
+          page_ratio(seq.nnum_counts[nnum(chars)], seq.pages.length)
         ]
       end
 
@@ -40,6 +41,11 @@ module AnyStyle
         else
           :none
         end
+      end
+
+      def page_ratio(a, b)
+        r = a.to_f / b
+        r == 1 ? '=' : r > 1 ? '+' : (r * 10).round
       end
     end
   end
