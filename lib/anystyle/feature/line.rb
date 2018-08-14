@@ -28,6 +28,8 @@ module AnyStyle
         case chars.lstrip
         when /\.\s*\.\s*\.\s*\.|……+/, /\p{L}\s{5,}\d+$/
           :toc
+        when /^[\[\(]?\d+\.?[\]\)]?\s+\p{L}+/
+          :list
         when /^(\p{Lu}\.?)\s*(\d+\.)+\s+\p{L}+/
           :title
         when /^(\w+\s)?(tab(le|elle|\.)|fig(ure|\.))/i

@@ -1,7 +1,7 @@
 module AnyStyle
   class Document < Wapiti::Sequence
 
-    REFSECT = /reference|works|biblio|cite|secondary sources/i
+    REFSECT = /reference|works|biblio|cite|secondary sources|literatur/i
 
     class << self
       include PDFUtils

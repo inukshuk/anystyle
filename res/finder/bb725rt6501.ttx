@@ -4442,7 +4442,7 @@ ref           | Paglieri, S. N., N. K. Pal, M. D. Dolan, S.-M. Kim, W.-M. Chien,
               | Chandra, K. M. Hubbard and D. P. Moore (2011). "Hydrogen permeability, thermal
 blank         | 
 meta          |                                                                                     110
-ref           | On-board hydrogen production from natural gas via a metallic Pd-based membrane reactor
+              | On-board hydrogen production from natural gas via a metallic Pd-based membrane reactor
               | Bryce Anzelmo, PhD dissertation
 blank         | 
 ref           | stability and hydrogen embrittlement of Ni–Nb–Zr and Ni–Nb–Ta–Zr amorphous
@@ -8273,12 +8273,12 @@ text          | Over this time, the hydrogen flux decreased by an average of 17%
               | the membrane, which revealed a non-uniform surface as shown in Figure 6.11.
 blank         | 
               | 
-title         |      Before testing
+text          |      Before testing
 blank         | 
               | 
               | 
               | 
-title         |    After testing
+text          |    After testing
 blank         | 
 text          | Figure 6.11 – Ma-2: Pd/PSS composite membrane before and after long-term H2
               | permeation testing.

@@ -14694,9 +14694,9 @@ text          | incurred in light-frame structures exposed to seismic hazards wh
               | structures of differing geometries.
 meta          | Appendix A
 blank         | 
-text          | Enhanced gypsum and stucco
+title         | Enhanced gypsum and stucco
               | component and wall test data
-              | In Section 3.1, a series of experimental tests for light-frame fasteners and connections
+text          | In Section 3.1, a series of experimental tests for light-frame fasteners and connections
               | were discussed. While the test results cited were representative of all performed, the data
               | from each test was not presented explicitly for brevity. For some experiments, parameters
               | such as the peak strength and stiffness were noted, but the force-displacement behavior

@@ -5415,7 +5415,7 @@ blank         |
               | 
 text          | simplification. The effect of solute diffusivity on contact-lens-induced corneal swelling
               | will be investigated in section 7.4.3.
-blank         | 
+text          | 
 title         | Initial displacement caused by the IOP
 blank         | 
 text          | Fringe plot of the initial displacement, obtained by finite element solution of equa-

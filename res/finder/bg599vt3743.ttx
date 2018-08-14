@@ -5145,7 +5145,7 @@ text          | Smyth et al., 2001). Others have taken the opposing view that tu
               | Froude numbers would tend to converge.
 blank         | 
               | 
-title         | What determines the turbulent Froude number?
+text          | What determines the turbulent Froude number?
 blank         | 
 text          | From figure 5.10, it appears that the turbulent Froude number is O(1) within the
               | turbulent patch resulting from wave breaking. It is reasonable that an internal wave

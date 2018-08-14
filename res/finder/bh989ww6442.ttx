@@ -6886,8 +6886,8 @@ text          | This relations also ensure (4.35) and (4.63) of Propositions 4.3
 blank         | 
 text          |                                        Φ∂ = Φ         Φλ = Ψ,                                (4.147)
 blank         | 
-meta          | the minimum-residual sensitivity and adjoint reduced-order models for the LSPG projection follow
-              | CHAPTER 4. PROJECTION-BASED MODEL REDUCTION                                                       115
+text          | the minimum-residual sensitivity and adjoint reduced-order models for the LSPG projection follow
+meta          | CHAPTER 4. PROJECTION-BASED MODEL REDUCTION                                                       115
 blank         | 
               | 
               | 
@@ -12639,8 +12639,8 @@ text          | Thus, the adjoint computation requires the solution of one linea
               | transpose of the Jacobian matrix, regardless of kµ .
 blank         | 
               | 
-text          | C.1.2     Inner Layer of Reduction: Projection-Based Model Reduction
-              | While the first layer of reduction reduces the number of optimization variables, the large cost as-
+title         | C.1.2     Inner Layer of Reduction: Projection-Based Model Reduction
+text          | While the first layer of reduction reduces the number of optimization variables, the large cost as-
               | sociated with solving the PDE for any µ ∈ A(µ̄, Υ) remains since the dimensionality of the state
               | space, i.e., number of equations and unknowns, is Nu  1. The second layer of reduction aims
               | to address this source computational expense through the application of projection-based model
@@ -13492,8 +13492,8 @@ blank         |                                                                 
 text          |               (n)           (n)           (n)                (n)            (n)
               |             Ri (u(n−1) , k1 , . . . , ki , µ) = M ki               − ∆tn r ui , µ, tn−1 + ci ∆tn = 0
 blank         | 
-meta          | for n = 1, . . . , n and i = 1, . . . , s. Differentiation of these expressions with respect to µ gives rise to
-              | APPENDIX D. UNSTEADY, PERIODIC PDE-CONSTRAINED OPTIMIZATION                                                      246
+text          | for n = 1, . . . , n and i = 1, . . . , s. Differentiation of these expressions with respect to µ gives rise to
+meta          | APPENDIX D. UNSTEADY, PERIODIC PDE-CONSTRAINED OPTIMIZATION                                                      246
 blank         | 
               | 
               | 
@@ -15499,8 +15499,8 @@ blank         |
               | 
               | 
 title         | D.4.3        Generalized Reduced-Gradient Method for PDE Optimization with
-text          |              Time-Periodicity Constraints
-              | Consider the fully discrete time-dependent PDE-constrained optimization problem
+              |              Time-Periodicity Constraints
+text          | Consider the fully discrete time-dependent PDE-constrained optimization problem
 blank         | 
 text          |                                                                                      (1)
               |                              minimize            F (u(0) , . . . , u(Nt ) , k1 , . . . , ks(Nt ) , µ)
