@@ -1,178 +1,181 @@
-- a: 'Anderson, Benedict R. Imagined Communities: Reflections on the Origin and Spread'
-  b: 'of Nationalism. Rev. ed. London and New York: Verso, 1991.'
-  delta: 0
-  indent: 2
-  prev-join: false
-  join: true
-- a: 'Baepler, Paul Michel. White Slaves, African Masters: An Anthology of American'
-  b: 'Barbary Captivity. Chicago: U of Chicago P, 1999.'
-  delta: 0
-  indent: 2
-  prev-join: false
-  join: true
-- a: 'O’Callaghan, Sean. The Slave Trade Today. New York: Crown Publishers, 1962.'
-  b: 'Reiss, Timothy J. “Mapping Identities: Literature, Nationalism, Colonialism”.'
+- a: "Nagano, S., T. Kitajima, K. Yoshida, Y. Kazao, Y. Kabata, D. Murata and K. Nagakura (2002). Development of world's largest hydrogen-cooled turbine generator."
+  b: "Power Engineering Society Summer Meeting, 2002 IEEE, IEEE."
   delta: 0
   indent: 0
-  prev-join: false
-  join: false
-- a: 'Hertel, J., 2002. Functional Anatomy, Pathomechanics, and Pathophysiology of Lateral'
-  b: 'Ankle Instability. J. Athl. Train. 37, 364–375.'
-  delta: 2
-  indent: 5
-  prev-join: false
-  join: true
-- a: "Vaes, P., Duquet, W., Van Gheluwe, B., 2002. Peroneal Reaction Times and Eversion Motor Response in Healthy and Unstable Ankles. J. Athl. Train. 37, 475–480."
-  b: "van der Wees, P.J., Lenssen, A.F., Hendriks, E.J.M., Stomp, D.J., Dekker, J., de Bie, R. a,"
-  delta: 0
-  indent: -4
-  prev-join: true
-  join: false
-- a: "35.   Masue-Slowey Y, Kocar BD, Jofre SAB, Mayer KU, & Fendorf S (2011)"
-  b: "Transport Implications Resulting from Internal Redistribution of Arsenic and Iron"
-  delta: 0
-  indent: 6
-  prev-join: false
-  join: true
-- a: "20. Tokunaga, T.; Wan, J.; Hazen, T.; Schwartz, E.; Firestone, M.; Sutton, S.;"
-  b: "Newville, M.; Olson, K.; Lanzirotti, A.; Rao, W. Distribution of chromium"
-  delta: 0
-  indent: 5
-  prev-join: false
-  join: true
-- a: "20. Tokunaga, T.; Wan, J.; Hazen, T.; Schwartz, E.; Firestone, M.; Sutton, S.; Newville, M.; Olson, K.; Lanzirotti, A.; Rao, W. Distribution of chromium"
-  b: "contamination and microbial activity in soil aggregates. J. Environ. Qual. 2003, 32"
-  delta: 2
-  indent: 1
-  prev-join: true
-  join: true
-- a: "22.   Fischer, T. B.; Heaney, P. J.; Jang, J. H.; Ross, D. E.; Brantley, S. L.; Post, J. E.;"
-  b: "Tien, M. Continuous time-resolved X-ray diffraction of the biocatalyzed reduction"
-  delta: 0
-  indent: 6
-  prev-join: false
-  join: true
-- a: "23.   Ahmed, K. M.; Bhattacharya, P.; Hasan, M. A.; Akhter, S. H.; Alam, S. M. M.;"
-  b: "Bhuyian, M. A. H.; Imam, M. B.; Khan, A. A.; Sracek, O. Arsenic enrichment in"
-  delta: 0
-  indent: 6
-  prev-join: false
-  join: true
-- a: "17.   Jari Oksanen FGB, Roeland Kindt, Pierre Legendre, R. B. O'Hara GLS, Peter"
-  b: "Solymos, M. Henry H. Stevens, & Wagner aH (2011) Vegan: Community"
-  delta: 0
-  indent: 6
-  prev-join: false
   join: true
   pending: true
-- a: "17.   Jari Oksanen FGB, Roeland Kindt, Pierre Legendre, R. B. O'Hara GLS, Peter Solymos, M. Henry H. Stevens, & Wagner aH (2011) Vegan: Community"
-  b: "Ecology Package), R package version 1.17-11."
+- a: 'Bhatia, S. K. and A. L. Myers (2006). "Optimum conditions for adsorptive storage."'
+  b: 'Langmuir 22(4): 1688-1700.'
   delta: 0
   indent: 0
-  prev-join: true
   join: true
-- a: "4.   Masue-Slowey Y, Kocar BD, Jofre SAB, Mayer KU, & Fendorf S (2011)"
-  b: "Transport Implications Resulting from Internal Redistribution of Arsenic and Iron"
+- a: 'Wright, S.J., K. Kitajima, N.J.B. Kraft, P.B. Reich4, I.J. Wright, D.E. Bunker, R. Condit, J.W. Dalling, S.J. Davies, S. Díaz, B.M.J. Engelbrecht, K.E. Harms, S.P. Hubbell, C.O. Marks, Maria C. Ruiz-Jaen, C.M. Salvador and A.E. Zanne. 2010.'
+  b: 'Functional traits and the growth-mortality tradeoff in tropical trees. In press.'
   delta: 0
-  indent: 5
-  prev-join: false
+  indent: 8
   join: true
-- a: "(1970): “Estimating Cost Function Parameters without Using Cost Data:"
-  b: "Illustrated Methodology,” Econometrica, 38(2), 256–75."
+- a: 'Blinder, Alan S, Charles Goodhart, Philipp Hildebrand and David Lipton. 2001.'
+  b: 'How do central banks talk? Number 3 in “Geneva Reports on the World Economy”'
   delta: 0
-  indent: -7
-  prev-join: false
+  indent: 2
   join: true
-- a: "Atsonios, K., K. D. Panopoulos, A. Doukelis, A. Koumanakos and E. Kakaras (2012)."
-  b: '"Exergy analysis of a hydrogen fired combined cycle with natural gas reforming and'
+- a: 'Harms, K. E., S. J. Wright, O. Calderon, A. Hernandez, and E.A. Herre. 2000.'
+  b: 'Pervasive density-dependent recruitment enhances seedling diversity in a'
   delta: 0
+  indent: 8
+  join: true
+- a: 'Federal Reserve System, Board of Governors. 2008. “Press Release.”. URL: http://www.federalreserve.gov/monetarypolicy/20080919a.htm'
+  b: 'Federal Reserve System, Board of Governors. 2012a. “Asset-Backed Commercial'
+  delta: 1
   indent: 0
-  prev-join: false
-  join: true
-- a: 'Atsonios, K., K. D. Panopoulos, A. Doukelis, A. Koumanakos and E. Kakaras (2012). "Exergy analysis of a hydrogen fired combined cycle with natural gas reforming and'
-  b: 'membrane assisted shift reactors for CO2 capture." Energy Conversion and'
-  delta: 0
-  indent: 0
-  prev-join: true
-  join: true
-- a: 'Atsonios, K., K. D. Panopoulos, A. Doukelis, A. Koumanakos and E. Kakaras (2012). "Exergy analysis of a hydrogen fired combined cycle with natural gas reforming and membrane assisted shift reactors for CO2 capture." Energy Conversion and'
-  b: 'Management 60: 196-203.'
-  delta: 0
-  indent: 0
-  prev-join: true
-  join: true
+  join: false
 - a: 'Braun, F., J. B. Miller, A. J. Gellman, A. M. Tarditi, B. Fleutot, P. Kondratyuk and L. M. Cornaglia (2012). "PdAgAu alloy with high resistance to corrosion by H2S."'
   b: 'International Journal of Hydrogen Energy 37(23): 18547-18555.'
   delta: 0
   indent: 0
-  prev-join: true
-  join: true
-  pending: true
-- a: 'Brunetti, A., G. Barbieri and E. Drioli (2011). Membrane reactors in hydrogen production. Membrane Engineering for the Treatment of Gases, Volume 2: Gasseparation Problems Combined with Membrane Reactors. E. Drioli and G. Barbieri.'
-  b: 'Cambridge, UK, The Royal Society of Chemistry.'
-  delta: 0
-  indent: 0
-  prev-join: true
   join: true
 - a: 'Edenhofer, O., R. Pichs-Madruga, Y. Sokona, E. Farahani, S. Kadner and K. Seyboth (2014). "IPCC, 2014: Climate Change 2014: Mitigation of Climate Change.'
   b: 'Contribution of Working Group III to the Fifth Assessment Report of the'
   delta: 0
   indent: 0
-  prev-join: true
   join: true
-  pending: true
-- a: 'Wise, E. M. (1968). "Palladium. Recovery, Properties, and Uses." ACADEMIC'
-  b: 'PRESS, INC, 111 FIFTH AVE, NEW YORK, N Y 1968, 195 P.'
+- a: "Link, Arthur Stanley. 1954. Woodrow Wilson and the Progressive Era, 1910-1917."
+  b: "New American Nation Series. New York: Harper."
   delta: 0
-  indent: 0
-  prev-join: true
-  join: true
-  pending: true
-- a: '7. Churchman, L. S., Okten, Z., Rock, R. S., Dawson, J. F., and Spudich, J. A. (2005).'
-  b: 'Single molecule high-resolution colocalization of Cy3 and Cy5 attached to'
-  delta: 1
-  indent: 0
-  prev-join: 0
+  indent: 2
   join: true
 - a: '10. Efron, B., and Tibshirani, R. J. (1994). An Introduction to the Bootstrap. Chapman &'
   b: 'Hall, New York. Finer, J. T., Simmons, R. M., and Spudich, J. A. (1994). Single myosin'
   delta: 1
   indent: 0
-  prev-join: 0
+  join: true
+- a: 'Brunetti, A., G. Barbieri and E. Drioli (2011). Membrane reactors in hydrogen production. Membrane Engineering for the Treatment of Gases, Volume 2: Gasseparation Problems Combined with Membrane Reactors. E. Drioli and G. Barbieri.'
+  b: 'Cambridge, UK, The Royal Society of Chemistry.'
+  delta: 0
+  indent: 0
+  join: true
+- a: 'Anderson, Benedict R. Imagined Communities: Reflections on the Origin and Spread'
+  b: 'of Nationalism. Rev. ed. London and New York: Verso, 1991.'
+  delta: 0
+  indent: 2
+  join: true
+- a: 'Baepler, Paul Michel. White Slaves, African Masters: An Anthology of American'
+  b: 'Barbary Captivity. Chicago: U of Chicago P, 1999.'
+  delta: 0
+  indent: 2
+  join: true
+- a: 'O’Callaghan, Sean. The Slave Trade Today. New York: Crown Publishers, 1962.'
+  b: 'Reiss, Timothy J. “Mapping Identities: Literature, Nationalism, Colonialism”.'
+  delta: 0
+  indent: 0
+  join: false
+- a: 'Hertel, J., 2002. Functional Anatomy, Pathomechanics, and Pathophysiology of Lateral'
+  b: 'Ankle Instability. J. Athl. Train. 37, 364–375.'
+  delta: 2
+  indent: 5
+  join: true
+- a: "Vaes, P., Duquet, W., Van Gheluwe, B., 2002. Peroneal Reaction Times and Eversion Motor Response in Healthy and Unstable Ankles. J. Athl. Train. 37, 475–480."
+  b: "van der Wees, P.J., Lenssen, A.F., Hendriks, E.J.M., Stomp, D.J., Dekker, J., de Bie, R. a,"
+  delta: 0
+  indent: -4
+  join: false
+- a: "35.   Masue-Slowey Y, Kocar BD, Jofre SAB, Mayer KU, & Fendorf S (2011)"
+  b: "Transport Implications Resulting from Internal Redistribution of Arsenic and Iron"
+  delta: 0
+  indent: 6
+  join: true
+- a: "20. Tokunaga, T.; Wan, J.; Hazen, T.; Schwartz, E.; Firestone, M.; Sutton, S.;"
+  b: "Newville, M.; Olson, K.; Lanzirotti, A.; Rao, W. Distribution of chromium"
+  delta: 0
+  indent: 5
+  join: true
+- a: "20. Tokunaga, T.; Wan, J.; Hazen, T.; Schwartz, E.; Firestone, M.; Sutton, S.; Newville, M.; Olson, K.; Lanzirotti, A.; Rao, W. Distribution of chromium"
+  b: "contamination and microbial activity in soil aggregates. J. Environ. Qual. 2003, 32"
+  delta: 2
+  indent: 1
+  join: true
+- a: "22.   Fischer, T. B.; Heaney, P. J.; Jang, J. H.; Ross, D. E.; Brantley, S. L.; Post, J. E.;"
+  b: "Tien, M. Continuous time-resolved X-ray diffraction of the biocatalyzed reduction"
+  delta: 0
+  indent: 6
+  join: true
+- a: "23.   Ahmed, K. M.; Bhattacharya, P.; Hasan, M. A.; Akhter, S. H.; Alam, S. M. M.;"
+  b: "Bhuyian, M. A. H.; Imam, M. B.; Khan, A. A.; Sracek, O. Arsenic enrichment in"
+  delta: 0
+  indent: 6
+  join: true
+- a: "17.   Jari Oksanen FGB, Roeland Kindt, Pierre Legendre, R. B. O'Hara GLS, Peter"
+  b: "Solymos, M. Henry H. Stevens, & Wagner aH (2011) Vegan: Community"
+  delta: 0
+  indent: 6
+  join: true
+- a: "4.   Masue-Slowey Y, Kocar BD, Jofre SAB, Mayer KU, & Fendorf S (2011)"
+  b: "Transport Implications Resulting from Internal Redistribution of Arsenic and Iron"
+  delta: 0
+  indent: 5
+  join: true
+- a: "(1970): “Estimating Cost Function Parameters without Using Cost Data:"
+  b: "Illustrated Methodology,” Econometrica, 38(2), 256–75."
+  delta: 0
+  indent: -7
+  join: true
+- a: "Atsonios, K., K. D. Panopoulos, A. Doukelis, A. Koumanakos and E. Kakaras (2012)."
+  b: '"Exergy analysis of a hydrogen fired combined cycle with natural gas reforming and'
+  delta: 0
+  indent: 0
+  join: true
+- a: 'Atsonios, K., K. D. Panopoulos, A. Doukelis, A. Koumanakos and E. Kakaras (2012). "Exergy analysis of a hydrogen fired combined cycle with natural gas reforming and'
+  b: 'membrane assisted shift reactors for CO2 capture." Energy Conversion and'
+  delta: 0
+  indent: 0
+  join: true
+- a: 'Atsonios, K., K. D. Panopoulos, A. Doukelis, A. Koumanakos and E. Kakaras (2012). "Exergy analysis of a hydrogen fired combined cycle with natural gas reforming and membrane assisted shift reactors for CO2 capture." Energy Conversion and'
+  b: 'Management 60: 196-203.'
+  delta: 0
+  indent: 0
+  join: true
+- a: 'Wise, E. M. (1968). "Palladium. Recovery, Properties, and Uses." ACADEMIC'
+  b: 'PRESS, INC, 111 FIFTH AVE, NEW YORK, N Y 1968, 195 P.'
+  delta: 0
+  indent: 0
+  join: true
+- a: '7. Churchman, L. S., Okten, Z., Rock, R. S., Dawson, J. F., and Spudich, J. A. (2005).'
+  b: 'Single molecule high-resolution colocalization of Cy3 and Cy5 attached to'
+  delta: 1
+  indent: 0
   join: true
 - a: '13. Guilford, W. H., Dupuis, D. E., Kennedy, G., Wu, J., Patlak, J. B., and Warshaw, D.'
   b: 'M. (1997). Smooth muscle and skeletal muscle myosins produce similar unitary forces'
   delta: 1
   indent: 0
-  prev-join: 0
   join: true
 - a: '15. Hohng, S., Zhou, R., Nahas, M. K., Yu, J., Schulten, K., Lilley, D. M., and Ha, T.'
   b: '(2007). Fluorescence-force spectroscopy maps two-dimensional reaction landscape of the'
   delta: 1
   indent: 0
-  prev-join: 0
   join: true
 - a: '16. Huisstede, J. H. G., van Rooijen, B. D., van der Werf, K. O., Bennink, M. L., and Subramaniam, V. (2006). Dependence of silicon position-detector bandwidth on'
   b: 'wavelength, power, and bias. Opt. Lett. 31, 610–612. Huxley, H. E. (1969). The'
   delta: 1
   indent: 0
-  prev-join: true
   join: true
 - a: '18. Kad, N. M., Trybus, K. M., and Warshaw, D. M. (2008). Load and Pi control flux'
   b: 'through the branched kinetic cycle of myosin V. J. Biol. Chem. 283, 17477–17484. Kron,'
   delta: 1
   indent: 0
-  prev-join: 0
   join: true
 - a: '30. Nishikawa, S., Komori, T., Ariga, T., Okada, T., Morimatsu, M., Ishii, Y., and Yanagida, T. (2007). Imaging and nanomanipulation of an actomyosin motor. In'
   b: '‘‘Single-Molecule echniques: A Laboratory Manual,’’ (P. R. Selvin and . Ha, eds.), pp.'
   delta: 1
   indent: 0
-  prev-join: true
   join: true
 - a: '34. Pralle, A., Prummer, M., Florin, E. L., Stelzer, E. H., and Horber, J. K. (1999).'
   b: 'Threedimensional high-resolution particle tracking for optical tweezers by forward'
   delta: 1
   indent: 0
-  prev-join: true
+  join: true
+- a: 'Acemoglu, Daron, Simon Johnson, Amir Kermani, James Kwak and Todd Mitton.'
+  b: '2013. The value of connections in turbulent times: Evidence from the United'
+  delta: 0
+  indent: 2
   join: true

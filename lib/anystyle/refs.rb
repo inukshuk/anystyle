@@ -86,15 +86,16 @@ module AnyStyle
     end
 
     def join?(a, b, indent = 0, delta = @delta)
-      [
-        0.75 * indent_score(indent),
-        0.75 * delta_score(delta),
-        0.75 * years_score(a, b),
-        1.0  * terminal_score(a),
-        1.0  * initial_score(a, b),
-        0.75 * length_score(a, b),
-        0.75 * pages_score(a, b)
-      ].reduce(&:+) >= 1
+      score = [
+        indent_score(indent),
+        delta_score(delta),
+        years_score(a, b),
+        terminal_score(a),
+        initial_score(a, b),
+        length_score(a, b),
+        pages_score(a, b)
+      ]
+      score.reduce(&:+) >= 1
     end
 
     def indent_score(indent)
@@ -117,14 +118,14 @@ module AnyStyle
     end
 
     def years_score(a, b)
-      if a.match(/(1[4-9]|2[01])\d\d/)
-        if b.match(/(1[4-9]|2[01])\d\d/)
+      if match_year?(a)
+        if match_year?(b)
           -1
         else
-          if a.match(/(1[4-9]|2[01])\d\d\.$/)
-            -0.75
+          if a.match(/, (1[4-9]|2[01])\d\d[a-z]?\.$/)
+            -0.5
           else
-            0.75
+            1
           end
         end
       else
@@ -132,23 +133,35 @@ module AnyStyle
       end
     end
 
+    def match_year?(string)
+      !!string.match(/\b(1[4-9]|2[01])\d\d[a-z]?\b/)
+    end
+
     def pages_score(a, b)
-      if match_pages?(b) && !match_pages?(a)
-        1
+      if match_pages?(a)
+        -0.25
       else
-        0
+        if match_pages?(b)
+          1
+        else
+          0
+        end
       end
     end
 
     def match_pages?(string)
-      !!string.match(/\d+\p{Pd}\d+/)
+      m = string.match(/(\d+)\p{Pd}(\d+)|\bpp?\.|\d+\(\d+\)/)
+      return false if m.nil?
+      return false if m[1] && match_year?(m[1]) && match_year?(m[2])
+      return true
     end
-
 
     def terminal_score(string)
       case string
-      when /[,;:&\p{Pd}]$/
-        1.5
+      when /https?:\/\/\w+/i
+        -1
+      when /[,;:&\p{Pd}]$/, /(et al|pp)\.$/
+        2
       when /\((1[4-9]|2[01])\d\d\)\.?$/
         0.5
       when /(\p{^Lu}\.|\])$/
@@ -168,7 +181,11 @@ module AnyStyle
         1
       when b.match(/^\[\w+\]/)
         -1
-      when b.match(/^\d+\.\s+\p{Lu}/)
+      when b.match(/^\((1[4-9]|2[01])\d\d\)/) && !a.match(/(\p{Lu}|al|others)\.$/)
+        -1
+      when b.match(/^\p{Lu}\p{Ll}+,\s\p{L}/) && !a.match(/\p{L}$/)
+        -0.5
+      when b.match(/^\d{1,3}\.\s+\p{Lu}/)
         -0.5
       else
         0
@@ -177,8 +194,17 @@ module AnyStyle
 
     def length_score(a, b)
       case
-      when b.length < a.length && b.length < 50
-        1
+      when b.length < a.length
+        case
+        when b.length < 10
+          2
+        when b.length < 25
+          1
+        when b.length < 50
+          0.75
+        else
+          0
+        end
       when (b.length - a.length) > 12
         -0.5
       else
