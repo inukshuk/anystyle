@@ -128,3 +128,51 @@
   prev-join: true
   join: true
   pending: true
+- a: '7. Churchman, L. S., Okten, Z., Rock, R. S., Dawson, J. F., and Spudich, J. A. (2005).'
+  b: 'Single molecule high-resolution colocalization of Cy3 and Cy5 attached to'
+  delta: 1
+  indent: 0
+  prev-join: 0
+  join: true
+- a: '10. Efron, B., and Tibshirani, R. J. (1994). An Introduction to the Bootstrap. Chapman &'
+  b: 'Hall, New York. Finer, J. T., Simmons, R. M., and Spudich, J. A. (1994). Single myosin'
+  delta: 1
+  indent: 0
+  prev-join: 0
+  join: true
+- a: '13. Guilford, W. H., Dupuis, D. E., Kennedy, G., Wu, J., Patlak, J. B., and Warshaw, D.'
+  b: 'M. (1997). Smooth muscle and skeletal muscle myosins produce similar unitary forces'
+  delta: 1
+  indent: 0
+  prev-join: 0
+  join: true
+- a: '15. Hohng, S., Zhou, R., Nahas, M. K., Yu, J., Schulten, K., Lilley, D. M., and Ha, T.'
+  b: '(2007). Fluorescence-force spectroscopy maps two-dimensional reaction landscape of the'
+  delta: 1
+  indent: 0
+  prev-join: 0
+  join: true
+- a: '16. Huisstede, J. H. G., van Rooijen, B. D., van der Werf, K. O., Bennink, M. L., and Subramaniam, V. (2006). Dependence of silicon position-detector bandwidth on'
+  b: 'wavelength, power, and bias. Opt. Lett. 31, 610–612. Huxley, H. E. (1969). The'
+  delta: 1
+  indent: 0
+  prev-join: true
+  join: true
+- a: '18. Kad, N. M., Trybus, K. M., and Warshaw, D. M. (2008). Load and Pi control flux'
+  b: 'through the branched kinetic cycle of myosin V. J. Biol. Chem. 283, 17477–17484. Kron,'
+  delta: 1
+  indent: 0
+  prev-join: 0
+  join: true
+- a: '30. Nishikawa, S., Komori, T., Ariga, T., Okada, T., Morimatsu, M., Ishii, Y., and Yanagida, T. (2007). Imaging and nanomanipulation of an actomyosin motor. In'
+  b: '‘‘Single-Molecule echniques: A Laboratory Manual,’’ (P. R. Selvin and . Ha, eds.), pp.'
+  delta: 1
+  indent: 0
+  prev-join: true
+  join: true
+- a: '34. Pralle, A., Prummer, M., Florin, E. L., Stelzer, E. H., and Horber, J. K. (1999).'
+  b: 'Threedimensional high-resolution particle tracking for optical tweezers by forward'
+  delta: 1
+  indent: 0
+  prev-join: true
+  join: true

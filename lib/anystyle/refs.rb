@@ -87,53 +87,103 @@ module AnyStyle
 
     def join?(a, b, indent = 0, delta = @delta)
       [
-        indent_score(indent),
-        delta_score(delta),
-        years_score(a, b),
-        terminal_score(a),
-        initial_score(a, b),
-        length_score(a, b),
-        pages_score(a, b)
-      ].reduce(&:+) > 1
+        0.75 * indent_score(indent),
+        0.75 * delta_score(delta),
+        0.75 * years_score(a, b),
+        1.0  * terminal_score(a),
+        1.0  * initial_score(a, b),
+        0.75 * length_score(a, b),
+        0.75 * pages_score(a, b)
+      ].reduce(&:+) >= 1
     end
 
-    def indent_score(idt)
-      (idt > 0) ? 1 : (idt < 0) ? -1 : 0
+    def indent_score(indent)
+      case
+      when indent > 0 then 1
+      when indent < 0 then -1
+      else
+        0
+      end
     end
 
-    def delta_score(dta)
-      (dta == 0) ? 1 : (dta > 5) ? -1 : 0
+    def delta_score(delta = @delta)
+      case delta
+      when 0 then 1
+      when 1 then 0.5
+      when 2 then 0
+      else
+        delta > 5 ? -1 : -0.5
+      end
     end
 
     def years_score(a, b)
-      return -1 if match_year?(a) && match_year?(b)
-      return  1
+      if a.match(/(1[4-9]|2[01])\d\d/)
+        if b.match(/(1[4-9]|2[01])\d\d/)
+          -1
+        else
+          if a.match(/(1[4-9]|2[01])\d\d\.$/)
+            -0.75
+          else
+            0.75
+          end
+        end
+      else
+        1
+      end
     end
 
     def pages_score(a, b)
-      return 1 if match_pages?(b) && !match_pages?(a)
-      return 0
+      if match_pages?(b) && !match_pages?(a)
+        1
+      else
+        0
+      end
     end
 
-    def terminal_score(a)
-      return -1 if a.match(/(\p{^Lu}\.|\])$/)
-      return  1 if a.match(/[,;:&\p{Pd}]$/)
-      return  0
+    def match_pages?(string)
+      !!string.match(/\d+\p{Pd}\d+/)
+    end
+
+
+    def terminal_score(string)
+      case string
+      when /[,;:&\p{Pd}]$/
+        1.5
+      when /\((1[4-9]|2[01])\d\d\)\.?$/
+        0.5
+      when /(\p{^Lu}\.|\])$/
+        -1
+      else
+        0
+      end
     end
 
     def initial_score(a, b)
-      return  1 if b.match(/^\p{Ll}/) && !b.match(/^(de|v[oa]n)\b/)
-      return  1 if a.match(/\p{L}$/) && b.match(/^\p{L}/)
-      return  1 if b.match(/^["']/)
-      return -1 if b.match(/^\[\d/)
-      #return -1 if b.match(/^(\p{Pd}\p{Pd}|\p{Lu}\p{Ll}+, \p{Lu}\p{Ll}*[\.;])/)
-      return  0
+      case
+      when b.match(/^\p{Ll}/) && !b.match(/^(de|v[oa]n)\b/)
+        1.5
+      when a.match(/\p{L}$/) && b.match(/^\p{L}/)
+        1
+      when b.match(/^["'”„’‚´«「『‘“`»]/), b.match(/^url|http/i)
+        1
+      when b.match(/^\[\w+\]/)
+        -1
+      when b.match(/^\d+\.\s+\p{Lu}/)
+        -0.5
+      else
+        0
+      end
     end
 
     def length_score(a, b)
-      return  1 if b.length < a.length && b.length < 50
-      return -1 if (b.length - a.length) > 12
-      return  0
+      case
+      when b.length < a.length && b.length < 50
+        1
+      when (b.length - a.length) > 12
+        -0.5
+      else
+        0
+      end
     end
 
     def join(a, b)
@@ -146,14 +196,6 @@ module AnyStyle
       else
         "#{a} #{b}"
       end
-    end
-
-    def match_year?(string)
-      !!string.match(/(1[4-9]|2[01])\d\d/)
-    end
-
-    def match_pages?(string)
-      !!string.match(/\d+\p{Pd}\d+/)
     end
 
     def strip(string)
