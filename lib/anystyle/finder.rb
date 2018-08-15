@@ -63,18 +63,18 @@ module AnyStyle
       dataset.map { |doc| doc.references(**opts) }
     end
 
-    def label(input, layout: true, **opts)
-      dataset = prepare(input, layout: layout, **opts)
+    def label(input, layout: true, crop: false, **opts)
+      dataset = prepare(input, layout: layout, crop: crop, **opts)
       output = model.label(dataset, **opts)
       Wapiti::Dataset.new(dataset.map.with_index { |doc, idx|
         doc.label(output[idx])
       })
     end
 
-    def prepare(input, layout: true, **opts)
+    def prepare(input, layout: true, crop: false, **opts)
       case input
       when String
-        super(Document.open(input, layout: layout, **opts), **opts)
+        super(Document.open(input, layout: layout, crop: false, **opts), **opts)
       when Array
         super(Wapiti::Dataset.new(input.map { |f| Document.open(f, **opts) }), **opts)
       else

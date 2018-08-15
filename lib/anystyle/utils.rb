@@ -62,7 +62,7 @@ module AnyStyle
     module_function
 
     def pdf_to_text(path, **opts)
-      text = %x{pdftotext #{pdf_opts(**opts).join(' ')} "#{path}" -}
+      text = %x{pdftotext #{pdf_opts(path, **opts).join(' ')} "#{path}" -}
       raise "pdftotext failed with error code #{$?.exitstatus}" unless $?.success?
       text.force_encoding(opts[:encoding] || 'UTF-8')
     end
