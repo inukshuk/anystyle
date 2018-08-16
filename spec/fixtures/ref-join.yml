@@ -1,3 +1,13 @@
+- a: '7. Churchman, L. S., Okten, Z., Rock, R. S., Dawson, J. F., and Spudich, J. A. (2005). Single molecule high-resolution colocalization of Cy3 and Cy5 attached to macromolecules measures intramolecular distances through time. Proc. Natl. Acad. Sci.'
+  b: 'USA 102, 1419–1423.'
+  delta: 1
+  indent: 0
+  join: true
+- a: '6.    Noji, H., Yasuda, R., Yoshida, M. & Jr, K. K. Direct observation of the rotation of F1-ATPase. Nature 386, 299 (1997).'
+  b: '7.    Spudich, J. A. The myosin swinging cross-bridge model. Nat. Mol. cell Biol. 2,'
+  delta: 1
+  indent: 0
+  join: false
 - a: "Nagano, S., T. Kitajima, K. Yoshida, Y. Kazao, Y. Kabata, D. Murata and K. Nagakura (2002). Development of world's largest hydrogen-cooled turbine generator."
   b: "Power Engineering Society Summer Meeting, 2002 IEEE, IEEE."
   delta: 0

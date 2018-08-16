@@ -111,18 +111,18 @@ module AnyStyle
       case delta
       when 0 then 1
       when 1 then 0.5
-      when 2 then 0
+      when 2, 3 then 0
       else
-        delta > 5 ? -1 : -0.5
+        delta > 6 ? -1 : -0.5
       end
     end
 
     def years_score(a, b)
       if match_year?(a)
-        if match_year?(b)
+        if b.length > 35 && match_year?(b)
           -1
         else
-          if a.match(/, (1[4-9]|2[01])\d\d[a-z]?\.$/)
+          if a.match(/[\d,] (1[4-9]|2[01])\d\d[a-z]?\.$/)
             -0.5
           else
             1
@@ -163,7 +163,7 @@ module AnyStyle
       when /[,;:&\p{Pd}]$/, /(et al|pp)\.$/
         2
       when /\((1[4-9]|2[01])\d\d\)\.?$/
-        0.5
+        0
       when /(\p{^Lu}\.|\])$/
         -1
       else
@@ -173,23 +173,31 @@ module AnyStyle
 
     def initial_score(a, b)
       case
-      when b.match(/^\p{Ll}/) && !b.match(/^(de|v[oa]n)\b/)
+      when b.match(/^\p{Ll}/) && !b.match(/^(de|v[oa]n|v\.)\s/)
         1.5
       when a.match(/\p{L}$/) && b.match(/^\p{L}/)
         1
       when b.match(/^["'”„’‚´«「『‘“`»]/), b.match(/^url|http/i)
         1
-      when b.match(/^\[\w+\]/)
-        -1
+      when b.match(/^([\p{Pd}_*][\p{Pd}_* ]+|\p{Co})/)
+        -1.5
       when b.match(/^\((1[4-9]|2[01])\d\d\)/) && !a.match(/(\p{Lu}|al|others)\.$/)
         -1
       when b.match(/^\p{Lu}\p{Ll}+,\s\p{L}/) && !a.match(/\p{L}$/)
         -0.5
-      when b.match(/^\d{1,3}\.\s+\p{Lu}/)
-        -0.5
+      when match_list?(b)
+        if match_list?(a)
+          -1.5
+        else
+          -0.75
+        end
       else
         0
       end
+    end
+
+    def match_list?(string)
+      string.match(/^(\d{1,3}\.\s+\p{L}|\[\p{Alnum}+\])/)
     end
 
     def length_score(a, b)
