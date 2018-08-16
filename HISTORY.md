@@ -1,3 +1,12 @@
+1.2.0 / 2018-08-16
+==================
+* Added check and train commands to CLI.
+* Added --no-solo and --crop flags to find command.
+* Added reference block normalizer.
+* Added script detection normalizer.
+* Improved Finder reference line joining.
+* Improved Finder model; training sets.
+
 1.1.0 / 2018-07-11
 ==================
 * Improved Parser model; training sets.
