@@ -1,7 +1,7 @@
 module AnyStyle
   class Document < Wapiti::Sequence
 
-    REFSECT = /reference|works|biblio|cite|secondary sources|literatur/i
+    REFSECT = /references|referenzen|cited|bibliogra|secondary sources|literatur/i
 
     class << self
       include PDFUtils
@@ -153,7 +153,7 @@ module AnyStyle
             is_ref_sect = !head.find { |tk| tk.value =~ REFSECT }.nil?
 
             # Skip sections with few ref lines!
-            if is_ref_sect || rc > 10 || (rc.to_f / tc) > 0.2
+            if is_ref_sect || include_references?(rc, tc)
               Refs.normalize! body, max_win_size: is_ref_sect ? 6 : 2
               refs.concat Refs.parse(body).to_a
             end
@@ -164,6 +164,10 @@ module AnyStyle
       else
         Refs.parse(lines).to_a
       end
+    end
+
+    def include_references?(rc, tc)
+      rc > 10 || (rc + tc) > 20 && (rc.to_f / tc) > 0.2
     end
 
     def sections(delimiter: "\n", spacer: ' ', **opts)
