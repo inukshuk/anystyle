@@ -1,4 +1,4 @@
-1.2.0 / 2018-08-16
+1.2.1 / 2018-08-17
 ==================
 * Added check and train commands to CLI.
 * Added --no-solo and --crop flags to find command.
