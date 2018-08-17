@@ -74,7 +74,7 @@ module AnyStyle
     def prepare(input, layout: true, crop: false, **opts)
       case input
       when String
-        super(Document.open(input, layout: layout, crop: false, **opts), **opts)
+        super(Document.open(input, layout: layout, crop: crop, **opts), **opts)
       when Array
         super(Wapiti::Dataset.new(input.map { |f| Document.open(f, **opts) }), **opts)
       else
