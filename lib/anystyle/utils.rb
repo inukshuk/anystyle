@@ -69,13 +69,13 @@ module AnyStyle
     end
 
     def pdf_info(path)
-      Hash[%x{pdfinfo -isodates "#{path}"}.split("\n").map { |ln|
+      Hash[%x{pdfinfo "#{path}"}.split("\n").map { |ln|
         ln.split(/:\s+/, 2)
       }]
     end
 
     def pdf_meta(path)
-      %x{pdfinfo -meta -isodates "#{path}"}
+      %x{pdfinfo -meta "#{path}"}
     end
 
     def pdf_page_size(path)
