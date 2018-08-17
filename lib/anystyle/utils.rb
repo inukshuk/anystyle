@@ -39,6 +39,7 @@ module AnyStyle
 
     def display_chars(string)
       string
+        .gsub(/\t/, '    ')
         .gsub(/\p{Mn}|\p{Me}|\p{Cc}/, '')
         .gsub(/\p{Zs}/, ' ')
         .rstrip
