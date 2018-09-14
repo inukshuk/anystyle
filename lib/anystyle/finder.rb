@@ -8,7 +8,10 @@ module AnyStyle
       compact: true,
       threads: 4,
       format: :references,
-      training_data: Dir[File.join(RES, 'finder', '*.ttx')].map(&:untaint)
+      training_data: Dir[File.join(RES, 'finder', '*.ttx')].map(&:untaint),
+      layout: true,
+      pdftotext: 'pdftotext',
+      pdfinfo: 'pdfinfo'
     }
 
     def initialize(options = {})
@@ -71,12 +74,18 @@ module AnyStyle
       })
     end
 
-    def prepare(input, layout: true, crop: false, **opts)
+    def prepare(input,
+                layout: options[:layout],
+                crop: false,
+                pdftotext: options[:pdftotext],
+                pdfinfo: options[:pdfinfo],
+                **opts)
+      doc_opts = { layout: layout, crop: crop, pdftotext: pdftotext, pdfinfo: pdfinfo, **opts }
       case input
       when String
-        super(Document.open(input, layout: layout, crop: crop, **opts), **opts)
+        super(Document.open(input, **doc_opts), **opts)
       when Array
-        super(Wapiti::Dataset.new(input.map { |f| Document.open(f, **opts) }), **opts)
+        super(Wapiti::Dataset.new(input.map { |f| Document.open(f, **doc_opts) }), **opts)
       else
         super(input, **opts)
       end

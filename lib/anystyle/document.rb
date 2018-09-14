@@ -27,8 +27,8 @@ module AnyStyle
 
         case format.downcase
         when '.pdf'
-          meta = pdf_meta path if opts[:parse_meta]
-          info = pdf_info path if opts[:parse_info]
+          meta = pdf_meta path, **opts if opts[:parse_meta]
+          info = pdf_info path, **opts if opts[:parse_info]
           input = pdf_to_text path, **opts
         when '.ttx'
           tagged = true
