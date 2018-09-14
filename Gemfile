@@ -10,6 +10,8 @@ group :development, :test do
   gem 'rspec', '~>3.0'
   gem 'language_detector', github: 'feedbackmine/language_detector'
   gem 'unicode-scripts'
+  gem 'edtf'
+  gem 'citeproc'
 end
 
 group :coverage do

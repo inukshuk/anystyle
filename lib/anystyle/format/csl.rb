@@ -3,6 +3,7 @@ module AnyStyle
     module CSL
       def format_csl(dataset, **opts)
         format_hash(dataset).map do |hash|
+          dates_to_citeproc(hash, **opts) if hash.key?(:date)
           flatten_values hash, skip: Normalizer::Names.keys
 
           rename_value hash, :pages, :page
@@ -23,6 +24,22 @@ module AnyStyle
       end
 
       alias_method :format_citeproc, :format_csl
+
+      def dates_to_citeproc(hash, date_format: 'edtf', **opts)
+        date, = *hash.delete(:date)
+
+        case date_format.to_s
+        when 'citeproc'
+          hash[:issued] = begin
+            require 'citeproc'
+            ::CiteProc::Date.parse!(date.tr('X~', 'u?')).to_citeproc.symbolize_keys
+          rescue
+            date
+          end
+        else
+          hash[:issued] = date
+        end
+      end
     end
   end
 end
