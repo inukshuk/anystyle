@@ -221,7 +221,7 @@ module AnyStyle
     end
 
     def join(a, b)
-      if a.end_with? '-'
+      if a =~ /\p{Pd}$/
         if a =~ /\p{Ll}-$/ && b =~ /^\p{Ll}/
           "#{a[0...-1]}#{b}"
         else
