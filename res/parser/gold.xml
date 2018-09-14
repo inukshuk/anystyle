@@ -1,12 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset>
   <sequence>
+    <citation-number>[2]</citation-number>
+    <author>S. Y. Patel, L. Ding, M. R. Brown, L. Lantz, T. Gay, S. Cohen, L. A. Martyak, B. Kubak, and S. M. Holland.</author>
+    <title>Anti-ifn-gamma autoantibodies in disseminated nontuberculous mycobacterial infections.</title>
+    <journal>Journal of immunology,</journal>
+    <volume>175(7):4769–76,</volume>
+    <date>2005.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[13]</citation-number>
+    <author>J. V. Price, S. Tangsombatvisit, G. Xu, J. Yu, D. Levy, E. C. Baechler, O. Gozani, M. Varma, P. J. Utz, and C. L. Liu.</author>
+    <title>On silico peptide microarrays for high-resolution mapping of antibody epitopes and diverse protein-protein interactions.</title>
+    <journal>Nature medicine,</journal>
+    <volume>18(9):1434–40,</volume>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[14]</citation-number>
+    <author>W. Hueber, B. A. Kidd, B. H. Tomooka, B. J. Lee, B. Bruce, J. F. Fries, G. Sonderstrup, P. Monach, J. W. Drijfhout, W. J. van Venrooij, P. J. Utz, M. C. Genovese, and W. H. Robinson.</author>
+    <title>Antigen microarray profiling of autoantibodies in rheumatoid arthritis.</title>
+    <journal>Arthritis and rheumatism,</journal>
+    <volume>52(9):2645–55,</volume>
+    <date>2005.</date>
+  </sequence>
+  <sequence>
+    <citation-number>95.</citation-number>
+    <author>Zhou, W.; Vavro, J.; Guthy, C.; Winey, K. I.; Fischer, J. E.; Ericson, L. M.; Ramesh, S.; Saini, R.; Davis, V. A.; Kittrell, C.; Pasquali, M.; Hauge, R. H.; Smalley, R. E.,</author>
+    <title>Single wall carbon nanotube fibers extruded from super-acid suspensions: Preferred orientation, electrical, and thermal transport.</title>
+    <journal>Journal of Applied Physics</journal>
+    <date>2004,</date>
+    <volume>95, (2),</volume>
+    <pages>649-655.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>59.</citation-number>
+    <author>Wu, H.; Hu, L. B.; Rowell, M. W.; Kong, D. S.; Cha, J. J.; McDonough, J. R.; Zhu, J.; Yang, Y. A.; McGehee, M. D.; Cui, Y.,</author>
+    <title>Electrospun Metal Nanofiber Webs as High-Performance Transparent Electrode.</title>
+    <journal>Nano Letters</journal>
+    <volume>10, (10),</volume>
+    <pages>4242-4248.</pages>
+  </sequence>
+  <sequence>
     <citation-number>[6]</citation-number>
     <author>E. Yablonovitch, G. D. Cody,</author>
     <journal>IEEE Trans. Electr. Dev.</journal>
     <date>1982,</date>
     <volume>29,</volume>
     <pages>300.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>98.</citation-number>
+    <author>Fischer, J. E.; Dai, H.; Thess, A.; Lee, R.; Hanjani, N. M.; Dehaas, D. L.; Smalley, R. E.,</author>
+    <title>Metallic resistivity in crystalline ropes of single-wall carbon nanotubes.</title>
+    <journal>Physical Review B</journal>
+    <date>1997,</date>
+    <volume>55, (8),</volume>
+    <pages>R4921-R4924.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>99.</citation-number>
+    <author>Chandra, B.; Afzali, A.; Khare, N.; El-Ashry, M. M.; Tulevski, G. S.,</author>
+    <title>Stable Charge-Transfer Doping of Transparent Single-Walled Carbon Nanotube Films.</title>
+    <journal>Chemistry of Materials</journal>
+    <volume>22, (18),</volume>
+    <pages>5179-5183.</pages>
   </sequence>
   <sequence>
     <citation-number>[1]</citation-number>
@@ -25,6 +83,33 @@
     <pages>711.</pages>
   </sequence>
   <sequence>
+    <citation-number>104.</citation-number>
+    <author>Stahl, H.; Appenzeller, J.; Martel, R.; Avouris, P.; Lengeler, B.,</author>
+    <title>Intertube coupling in ropes of single-wall carbon nanotubes.</title>
+    <journal>Physical Review Letters</journal>
+    <date>2000,</date>
+    <volume>85, (24),</volume>
+    <pages>5186-5189.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>105.</citation-number>
+    <author>Jackson, R. K.; Munro, A.; Nebesny, K.; Armstrong, N.; Graham, S.,</author>
+    <title>Evaluation of Transparent Carbon Nanotube Networks of Homogeneous Electronic Type.</title>
+    <journal>Acs Nano</journal>
+    <date>2010,</date>
+    <volume>4, (3),</volume>
+    <pages>1377-1384.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>102.</citation-number>
+    <author>Yoon, Y. G.; Mazzoni, M. S. C.; Choi, H. J.; Ihm, J.; Louie, S. G.,</author>
+    <title>Structural deformation and intertube conductance of crossed carbon nanotube junctions.</title>
+    <journal>Physical Review Letters</journal>
+    <date>2001,</date>
+    <volume>86, (4),</volume>
+    <pages>688-691.</pages>
+  </sequence>
+  <sequence>
     <citation-number>[2]</citation-number>
     <author>R. H. Bube,</author>
     <title>Photovoltaic Materials,</title>
@@ -38,6 +123,84 @@
     <date>1987,</date>
     <volume>62,</volume>
     <pages>243.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>85.</citation-number>
+    <author>Soriano, P.,</author>
+    <title>Generalized lacZ expression with the ROSA26 Cre reporter strain.</title>
+    <journal>Nat Genet,</journal>
+    <date>1999.</date>
+    <volume>21(1):</volume>
+    <pages>p. 70-1.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>117.</citation-number>
+    <author>Eccles, J.C., M. Ito, and J. Szentagothai,</author>
+    <title>The cerebellum as a neuronal machine.</title>
+    <date>1967:</date>
+    <publisher>Springer-Verlag</publisher>
+    <location>Berlin.</location>
+  </sequence>
+  <sequence>
+    <citation-number>139.</citation-number>
+    <author>Siemering, K.R., et al.,</author>
+    <title>Mutations that suppress the thermosensitivity of green fluorescent protein.</title>
+    <journal>Curr Biol,</journal>
+    <date>1996.</date>
+    <volume>6(12):</volume>
+    <pages>p. 1653-63.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>146.</citation-number>
+    <author>Bi, W., et al.,</author>
+    <title>Mutations of RAI1, a PHD-containing protein, in nondeletion patients with Smith-Magenis syndrome.</title>
+    <journal>Hum Genet,</journal>
+    <date>2004.</date>
+    <volume>115(6):</volume>
+    <pages>p. 515-24.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>147.</citation-number>
+    <author>Slager, R.E., et al.,</author>
+    <title>Mutations in RAI1 associated with Smith-Magenis syndrome.</title>
+    <journal>Nat Genet,</journal>
+    <date>2003.</date>
+    <volume>33(4):</volume>
+    <pages>p. 466-8.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>1.</citation-number>
+    <author>Cajal, S.R.,</author>
+    <title>Histology of the nervous system.</title>
+    <date>1995:</date>
+    <publisher>Oxfor University Press.</publisher>
+  </sequence>
+  <sequence>
+    <citation-number>2.</citation-number>
+    <author>Magrassi, L., D. Purves, and J.W. Lichtman,</author>
+    <title>Fluorescent probes that stain living nerve terminals.</title>
+    <journal>J Neurosci,</journal>
+    <date>1987.</date>
+    <volume>7(4):</volume>
+    <pages>p. 1207-14.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>3.</citation-number>
+    <author>Gimlich, R.L. and J. Braun,</author>
+    <title>Improved fluorescent compounds for tracing cell lineage.</title>
+    <journal>Dev Biol,</journal>
+    <date>1985.</date>
+    <volume>109(2):</volume>
+    <pages>p. 509-14.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>4.</citation-number>
+    <author>Katz, L.C., A. Burkhalter, and W.J. Dreyer,</author>
+    <title>Fluorescent latex microspheres as a retrograde neuronal marker for in vivo and in vitro studies of visual cortex.</title>
+    <journal>Nature,</journal>
+    <date>1984.</date>
+    <volume>310(5977):</volume>
+    <pages>p. 498-500.</pages>
   </sequence>
   <sequence>
     <citation-number>[3]</citation-number>
@@ -8424,12 +8587,6 @@
     <url>http://www.glhv.org.au/sites/www.glhv.org.au/files/2017-06/GLHV%20Audit%20Tool%202016_V2.pdf</url>
   </sequence>
   <sequence>
-    <author>Nicolas Schöffer,</author>
-    <title>La Ville Cybernétique,</title>
-    <publisher>Editions Tchou,</publisher>
-    <date>1969</date>
-  </sequence>
-  <sequence>
     <author>Vali, Ferenc A.,</author>
     <title>The Turkish Straits and NATO,</title>
     <location>California,</location>
@@ -9517,16 +9674,6 @@
     <pages>p. 117-120.</pages>
   </sequence>
   <sequence>
-    <author>Thomson, Rodney M.</author>
-    <date>1978.</date>
-    <title>The Scriptorium of William of Malmsbury.</title>
-    <editor>In M. B. Parkes and Andrew G. Watson (eds.), </editor>
-    <container-title>Medieval Scribes, Manuscripts and Libraries: Essays Presented to N. R. Ker.</container-title>
-    <location>London:</location>
-    <publisher>Scolar Press,</publisher>
-    <pages>117–142.</pages>
-  </sequence>
-  <sequence>
     <author>Janik J.:</author>
     <title>Bezpłatne akcje pracownicze.</title>
     <journal>„Gazeta Bankowa"</journal>
@@ -9861,15 +10008,6 @@
     <note>[PMID: 23887981 / PMCID: PMC3862207].</note>
   </sequence>
   <sequence>
-    <title>Central European university literature in the late middle ages.</title>
-    <container-title>In: Rediscover: final conference proceedings: Prague 15th September 2010.</container-title>
-    <location>Prague:</location>
-    <publisher>National Library of the Czech Republic,</publisher>
-    <date>2010,</date>
-    <pages>s. 33–43.</pages>
-    <isbn>ISBN 978-80-7050-587-8.</isbn>
-  </sequence>
-  <sequence>
     <author>Thoufeeq, M. H., &amp; Perry, M. J.</author>
     <date>(2007).</date>
     <title>Castleman's disease in a patient with celiac disease.</title>
@@ -9893,13 +10031,6 @@
     <journal>Congrès archéologique de la France</journal>
     <volume>90</volume>
     <pages>108-117</pages>
-  </sequence>
-  <sequence>
-    <author>Timperlake, J.</author>
-    <date>1877</date>
-    <title>Illustrated Toronto, Past and Present: Being an Historical And Descriptive Guide-Book Comprising Its Architecture, Manufacture, Trade, Its Social, Literary, Scientific and Charitable Institutions, Its Churches, Schools and Colleges, and Other Principal Points Of Interest to the Visitor And Resident; Together With a Key to the Publisher's Bird's-Eye View of the City.</title>
-    <publisher>P.A. Gross,</publisher>
-    <location>Toronto.</location>
   </sequence>
   <sequence>
     <author>Levy, H.; Lessman, F.</author>
