@@ -9,11 +9,15 @@ module AnyStyle
           case alpha
           when /^ed(s|itors?|ited?|iteurs?)?$/i,
                /^(hg|hrsg|herausgeber)$/i,
-               /^(compilador)$/i
+               /^(compilador)$/i,
+               /編/
             :editor
+          when /著|撰/,
+            :author
           when /^trans(l(ated|ators?|ation))?$/i,
                /^übers(etz(t|ung))?$/i,
-               /^trad(uction|ucteurs?|uit)?$/i
+               /^trad(uction|ucteurs?|uit)?$/i,
+               /譯/
             :translator
           when /^(dissertation|thesis)$/i
             :thesis
@@ -21,7 +25,7 @@ module AnyStyle
             :proceedings
           when /^(Journal|Zeitschrift|Quarterly|Magazine?|Times|Rev(iew|vue)?|Bulletin|News|Week|Gazett[ea])/
             :journal
-          when /^in$/i
+          when /^in$/i, /收入/
             :in
           when /^([AaUu]nd|y|e)$/
             :and
@@ -38,7 +42,8 @@ module AnyStyle
             :edition
           when /^(nd|date|spring|s[uo]mmer|autumn|fall|winter|frühling|herbst)$/i,
                /^(jan(uary?)?|feb(ruary?)?|mar(ch|z)?|apr(il)?|ma[yi]|jun[ei]?)$/,
-               /^(jul[yi]?|aug(ust)?|sep(tember)?|o[ck]t(ober)?|nov(ember)?|de[cz](ember)?)$/i
+               /^(jul[yi]?|aug(ust)?|sep(tember)?|o[ck]t(ober)?|nov(ember)?|de[cz](ember)?)$/i,
+               /年/
             :date
           when /^(pmid|pmcid|arxiv|doi|url)/i
             :locator

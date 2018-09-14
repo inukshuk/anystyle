@@ -30,7 +30,7 @@ module AnyStyle
             begin
               parse(strip(value))
             rescue
-              [{ literal: value }]
+              [{ literal: value.strip }]
             end
           end
         end

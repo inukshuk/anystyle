@@ -100,7 +100,7 @@ module AnyStyle
       compact: true,
       threads: 4,
       separator: /(?:\r?\n)+/,
-      delimiter: /\s+/,
+      delimiter: /\s+|([\uFF01-\uFF64]|。|、)/,
       format: :hash,
       training_data: File.join(RES, 'parser', 'core.xml')
     }

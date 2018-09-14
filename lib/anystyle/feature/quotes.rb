@@ -3,13 +3,13 @@ module AnyStyle
     class Quotes < Feature
       def observe(token, **opts)
         case token
-        when /^[^"'”„’‚´«「『‘“`»」』]+$/
+        when /^[^"'”„’‚´«「『〈《‘“`»」』〉》]+$/
           :none
-        when /^["'”„’‚´«「『‘“`»].*["'”„’‚´«‘“`»」』][,;:\p{Pd}!\?\.]?$/
+        when /^["'”„’‚´«「『〈《‘“`»].*["'”„’‚´«‘“`»」』〉》][,;:\p{Pd}!\?\.]?$/
           :'quote-unquote'
-        when /^["'”„’‚´«「『‘“`»]/
+        when /^["'”„’‚´«「『‘〈《“`»]/
           :quote
-        when /["'”„’‚´«‘“`»」』][,;:\p{Pd}!\?\.]?$/
+        when /["'”„’‚´«‘“`»」』〉》][,;:\p{Pd}!\?\.]?$/
           :unquote
         else
           :other

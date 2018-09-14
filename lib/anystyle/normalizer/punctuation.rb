@@ -14,8 +14,9 @@ module AnyStyle
 
       def normalize(item, **opts)
         each_value(item) do |_, value|
-          value.gsub!(/[\)\]\.,:;\p{Pd}\p{Z}\p{C}]+$/, '')
-          value.gsub!(/^[\(\[]/, '')
+          value.gsub!(/\s*[\)\]\.,:;\p{Pd}\p{Z}\p{C}。、》〉]+$/, '')
+          value.gsub!(/[,:;》〉]+$/, '')
+          value.gsub!(/^[\(\[《〈]/, '')
         end
       end
     end
