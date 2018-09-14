@@ -12,6 +12,7 @@ group :development, :test do
   gem 'unicode-scripts'
   gem 'edtf'
   gem 'citeproc'
+  gem 'unicode_utils' if RUBY_VERSION < '2.4'
 end
 
 group :coverage do
