@@ -8422,7 +8422,7 @@ meta          | CHAPTER 5. FINITE ELEMENT MODELS                               
 blank         | 
 text          | produce walls with initial racking stiffnesses similar to those observed in test walls for all
               | cases studied.
-title         | CHAPTER 6
+meta          | CHAPTER 6
 blank         | 
 title         | Design of light-frame strength- and
               | stiffness-enhanced structures
