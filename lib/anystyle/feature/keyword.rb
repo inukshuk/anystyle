@@ -45,8 +45,12 @@ module AnyStyle
                /^(jul[yi]?|aug(ust)?|sep(tember)?|o[ck]t(ober)?|nov(ember)?|de[cz](ember)?)$/i,
                /年/
             :date
-          when /^(pmid|pmcid|arxiv|doi|url)/i
+          when /^(doi|url)/i
             :locator
+          when /^(pmid|pmcid)/i
+            :pubmed
+          when /^(arxiv)/i
+            :arxiv
           when /^(retrieved|accessed)$/i
             :accessed
           else
