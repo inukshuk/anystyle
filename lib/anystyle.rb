@@ -28,6 +28,7 @@ require 'anystyle/feature/terminal'
 require 'anystyle/feature/words'
 
 require 'anystyle/normalizer'
+require 'anystyle/normalizer/arxiv'
 require 'anystyle/normalizer/brackets'
 require 'anystyle/normalizer/container'
 require 'anystyle/normalizer/date'
