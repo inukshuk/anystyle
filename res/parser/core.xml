@@ -1258,7 +1258,7 @@
     <author>Quinlan, J. R.</author>
     <date>(1990).</date>
     <title>Learning logical definitions from relations.</title>
-    <container-title>Machine Learning,</container-title>
+    <journal>Machine Learning,</journal>
     <volume>5,</volume>
     <pages>239-266.</pages>
   </sequence>
@@ -4648,7 +4648,7 @@
   </sequence>
   <sequence>
     <author>Hartner, Marcus</author>
-    <note>(forthcoming).</note>
+    <date>(forthcoming).</date>
     <title>“Images of Home: National Stereotypes in Monica Ali’s Brick Lane, Chris Cleave’s The Other Hand and Other Contemporary Fictions of Migration.”</title>
     <editor>Marcus Hartner and Marion Schulte, eds.</editor>
     <container-title>Migration in Context: Literature, Culture &amp; Language.</container-title>
@@ -6051,13 +6051,11 @@
   <sequence>
     <author>Stanger CA, Anglin C, Harwin WS, Romilly DP.</author>
     <title>Devices for assisting manipulation: a summary of user task priorities.</title>
-    <journal>IEEE Trans Rehabil Eng</journal>
-    <genre>[Internet].</genre>
+    <journal>IEEE Trans Rehabil Eng [Internet].</journal>
     <volume>1994;2(4):</volume>
     <pages>256–65.</pages>
     <note>Available from:</note>
-    <url>http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=</url>
-    <pages>340872.</pages>
+    <url>http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=340872.</url>
   </sequence>
   <sequence>
     <author>Dabizha, A. I., Krass, M.S. and Fedynsky,V.V.,</author>
@@ -7138,6 +7136,292 @@
     <publisher>Board of Governors of the Federal Reserve System.</publisher>
   </sequence>
   <sequence>
+    <author>Aristotle.</author>
+    <title>Nicomachean Ethics.</title>
+    <translator>Trans. W. D. Ross.</translator>
+    <source>The Internet Classics Archive.</source>
+    <genre>Web.</genre>
+    <date>25 Mar. 2010.</date>
+  </sequence>
+  <sequence>
+    <author>Benjamin, Walter.</author>
+    <title>Selected Writings:</title>
+    <volume>Volume 1 1913-1926.</volume>
+    <location>Cambridge:</location>
+    <publisher>Belknap Press of Harvard Univ. Press,</publisher>
+    <date>1996.</date>
+    <pages>62-74.</pages>
+  </sequence>
+  <sequence>
+    <author>Eyal, Ophir, Clifford Nass, and Anthony D. Wagner.</author>
+    <title>“Cognitive Control in Media Multitaskers.”</title>
+    <container-title>Proceedings of the National Academy of Science of the United States of America.</container-title>
+    <publisher>Stanford University.</publisher>
+    <genre>Web.</genre>
+    <note>Accessed 3 Mar. 2012.</note>
+  </sequence>
+  <sequence>
+    <author>Hearn, Lafcadio.</author>
+    <title>Kwaidan: Stories and Studies of Strange Things.</title>
+    <publisher>Houghton, Mifflin &amp; Co.:</publisher>
+    <location>Boston &amp; New York,</location>
+    <date>1904.</date>
+  </sequence>
+  <sequence>
+    <author>Ivy, Marilyn.</author>
+    <title>Discourses of the Vanishing: Modernity, Phantasm, Japan.</title>
+    <location>Chicago:</location>
+    <publisher>University of Chicago Press,</publisher>
+    <date>1995.</date>
+  </sequence>
+  <sequence>
+    <author>James, William.</author>
+    <title>Essays in Radical Empiricism.</title>
+    <location>New York:</location>
+    <publisher>Longmans, Green, and co.,</publisher>
+    <date>1912.</date>
+  </sequence>
+  <sequence>
+    <title>Ghost Stories.</title>
+    <editor>Ed. Peter Washington.</editor>
+    <location>New York:</location>
+    <publisher>Alfred A. Knopf,</publisher>
+    <date>2008.</date>
+  </sequence>
+  <sequence>
+    <citation-number>1</citation-number>
+    <author>Suntola, T.</author>
+    <title>"Atomic Layer Epitaxy".</title>
+    <journal>Thin Solid Films</journal>
+    <volume>216,</volume>
+    <pages>84-89,</pages>
+    <date>(1992).</date>
+  </sequence>
+  <sequence>
+    <citation-number>3</citation-number>
+    <author>Kim, H., Detavernier, C., van der Straten, O., Rossnagel, S. M., Kellock, A. J. &amp; Park, D. G.</author>
+    <title>"Robust TaN(x) diffusion barrier for Cu-interconnect technology with subnanometer thickness by metal-organic plasma-enhanced atomic layer deposition".</title>
+    <journal>J. Appl. Phys.</journal>
+    <volume>98,</volume>
+    <date>(2005).</date>
+  </sequence>
+  <sequence>
+    <citation-number>4</citation-number>
+    <author>Ritala, M. &amp; Leskela, M.</author>
+    <title>"Atomic layer epitaxy - a valuable tool for nanotechnology?".</title>
+    <journal>Nanotechnology</journal>
+    <volume>10,</volume>
+    <pages>19-24,</pages>
+    <date>(1999).</date>
+  </sequence>
+  <sequence>
+    <citation-number>13</citation-number>
+    <author>Cartier, E., Stathis, J. H. &amp; Buchanan, D. A.</author>
+    <title>"Passivation and Depassivation of Silicon Dangling Bonds at the Si/Sio2 Interface by Atomic-Hydrogen".</title>
+    <journal>Appl. Phys. Lett.</journal>
+    <volume>63,</volume>
+    <pages>1510-1512,</pages>
+    <date>(1993).</date>
+  </sequence>
+  <sequence>
+    <citation-number>14</citation-number>
+    <author>Bard, A. J. &amp; Faulkner, L. R.</author>
+    <title>"Electrochemical Methods: Fundamentals and Applications".</title>
+    <publisher>(Wiley,</publisher>
+    <date>2000).</date>
+  </sequence>
+  <sequence>
+    <citation-number>15</citation-number>
+    <author>Siu, W. M. &amp; Cobbold, R. S. C.</author>
+    <title>"Basic Properties of the Electrolyte-Sio2-Si System -Physical and Theoretical Aspects".</title>
+    <journal>IEEE Trans. Electron. Dev.</journal>
+    <volume>26,</volume>
+    <pages>1805-1815,</pages>
+    <date>(1979).</date>
+  </sequence>
+  <sequence>
+    <author>______.</author>
+    <title>Quaestiones disputatae “Antequam esset frater.”</title>
+    <volume>3 vols.</volume>
+    <container-title>Bibliotheca Franciscana scholastica medii aevi,</container-title>
+    <volume>vols. 19–21.</volume>
+    <location>Florence,</location>
+    <date>1960.</date>
+  </sequence>
+  <sequence>
+    <author>Augustine.</author>
+    <title>Contra academicos, De beata vita, De ordine, De magistro, De libero arbitrio,</title>
+    <editor>ed. W. M. Green.</editor>
+    <container-title>CCSL</container-title>
+    <volume>29.</volume>
+    <location>Turnhout,</location>
+    <date>1970.</date>
+  </sequence>
+  <sequence>
+    <author>Yorke, Barbara.</author>
+    <title>“Anglo-Saxon Origin Legends.”</title>
+    <container-title>In Myth, Rulership, Church and Charters: Essays in Honour of Nicholas Brooks,</container-title>
+    <editor>ed. Julia Barrow and Andrew Wareham.</editor>
+    <location>Aldershot,</location>
+    <date>2008.</date>
+    <pages>Pp. 15–29.</pages>
+  </sequence>
+  <sequence>
+    <author>Camões, Luís de.</author>
+    <title>Os Lusiadas.</title>
+    <volume>Vols. 4 and 5</volume>
+    <container-title>of Obras completas.</container-title>
+    <editor>Edited by Hernâni Cidade.</editor>
+    <edition>3rd ed.</edition>
+    <location>Lisbon:</location>
+    <publisher>Sá da Costa,</publisher>
+    <date>1968.</date>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <title>Explosion in a Cathedral.</title>
+    <translator>Translated by John Sturrock.</translator>
+    <location>Boston:</location>
+    <publisher>Little, Brown,</publisher>
+    <date>1963.</date>
+  </sequence>
+  <sequence>
+    <author>Hesse, Hermann.</author>
+    <title>Der Steppenwolf.</title>
+    <volume>Vol. 4</volume>
+    <container-title>of Gesammelte Dichtungen.</container-title>
+    <location>Berlin:</location>
+    <publisher>Suhrkamp,</publisher>
+    <date>1958.</date>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <title>Steppenwolf.</title>
+    <translator>Translated by Basil Creighton; revised by Joseph Mileck.</translator>
+    <location>New York:</location>
+    <publisher>Bantam Books,</publisher>
+    <date>1969.</date>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <title>Stephen Hero.</title>
+    <editor>Edited by John J. Slocum and Herbert Cahoon.</editor>
+    <edition>Rev. ed.</edition>
+    <location>London:</location>
+    <publisher>Jonathan Cape,</publisher>
+    <date>1956.</date>
+  </sequence>
+  <sequence>
+    <author>Spengler, Oswald.</author>
+    <title>The Decline of the West.</title>
+    <volume>2 vols. 1:</volume>
+    <container-title>Form and Actuality. 2: Perspectives of World-History.</container-title>
+    <editor>Edited and translated by Charles Francis Atkinson.</editor>
+    <location>New York:</location>
+    <publisher>Alfred A. Knopf,</publisher>
+    <date>1926, 1928.</date>
+  </sequence>
+  <sequence>
+    <author>Eisenstein, S. M.</author>
+    <title>“Literature and Cinema.”</title>
+    <container-title>In Selected Works,</container-title>
+    <volume>vol. 1: Writings, 1922–34,</volume>
+    <editor>edited and translated by Richard Taylor.</editor>
+    <location>Bloomington:</location>
+    <publisher>Indiana University Press,</publisher>
+    <date>1988.</date>
+  </sequence>
+  <sequence>
+    <author>Céline, Louis-Ferdinand (Louis-Ferdinand Destouches).</author>
+    <title>Mort à credit.</title>
+    <edition>13th ed.</edition>
+    <location>Paris:</location>
+    <publisher>Gallimard,</publisher>
+    <date>1952.</date>
+  </sequence>
+  <sequence>
+    <author>Bede, Venerable.</author>
+    <title>The Abbreviated Psalter of the Venerable Bede,</title>
+    <translator>trans. Gerald M. Browne.</translator>
+    <location>Grand Rapids,</location>
+    <date>2002.</date>
+  </sequence>
+  <sequence>
+    <author>______.</author>
+    <title>On Christian Doctrine,</title>
+    <translator>trans. D. W. Robertson, Jr.</translator>
+    <location>Indianapolis,</location>
+    <date>1958.</date>
+  </sequence>
+  <sequence>
+    <author>______.</author>
+    <title>Glossa in quatuor libros sententiarum Petri Lombardi.</title>
+    <journal>Bibliotheca Franciscana scholastica medii aevi,</journal>
+    <volume>vols. 12–15.</volume>
+    <location>Rome,</location>
+    <date>1951.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[134]</citation-number>
+    <author>Cheng Wang, Shiliang Hu, Ho-Seop Kim, Sreekumar R. Nair, Mauricio Breternitz Jr., Zhiwei Ying, and Youfeng Wu.</author>
+    <title>Stardbt: An efficient multi-platform dynamic binary translation system.</title>
+    <editor>In Lynn Choi, Yunheung Paek, and Sangyeun Cho, editors,</editor>
+    <container-title>Asia-Pacific Computer Systems Architecture Conference,</container-title>
+    <volume>volume 4697</volume>
+    <collection-title>of Lecture Notes in Computer Science,</collection-title>
+    <pages>pages 4–15.</pages>
+    <publisher>Springer,</publisher>
+    <date>2007.</date>
+  </sequence>
+  <sequence>
+    <title>Spirits in Culture, History and Mind.</title>
+    <editor>Eds. Jeannette Marie Mageo and Alan Howard.</editor>
+    <location>London:</location>
+    <publisher>Routledge,</publisher>
+    <date>1996.</date>
+  </sequence>
+  <sequence>
+    <title>“Metaphor.”</title>
+    <container-title>Oxford English Dictionary.</container-title>
+    <publisher>Oxford University Press,</publisher>
+    <date>1992.</date>
+    <genre>Web.</genre>
+    <note>Accessed 29 Nov. 2011.</note>
+  </sequence>
+  <sequence>
+    <author>Grady, Joseph.</author>
+    <title>Foundations of Meaning: Primary Metaphors and Primary Scenes.</title>
+    <genre>Diss.</genre>
+    <publisher>University of California,</publisher>
+    <location>Berkeley,</location>
+    <medium>Print.</medium>
+  </sequence>
+  <sequence>
+    <title>James Stratchey.</title>
+    <location>London:</location>
+    <publisher>Hogarth Press Institute of Psycho-Analysis,</publisher>
+    <date>cop. 1957.</date>
+    <pages>237-258.</pages>
+  </sequence>
+  <sequence>
+    <author>Gumbrecht, Hans Ulrich.</author>
+    <title>“How I think (and Write) about What We Feel When We Read (Literature).”</title>
+    <container-title>Division of Literatures, Cultures and Languages Homepage.</container-title>
+    <publisher>Stanford University,</publisher>
+    <date>2011.</date>
+    <genre>Web.</genre>
+    <note>Accessed 23 Nov. 2011.</note>
+  </sequence>
+  <sequence>
+    <author>Abraham, Nicolas.</author>
+    <title>“Notes on the Phantom: A Complement to Freud’s Metapsychology.”</title>
+    <translator>Trans. Nicholas Rand.</translator>
+    <journal>Critical Inquiry</journal>
+    <volume>13.2</volume>
+    <date>(1989):</date>
+    <pages>287-292.</pages>
+  </sequence>
+  <sequence>
     <author>Andrews, Victor L.</author>
     <title>"Captive Finance Companies,"</title>
     <journal>Harvard Business Review,</journal>
@@ -7621,7 +7905,7 @@
   <sequence>
     <author>__________ .</author>
     <title>The Evolution of Corporate Planning.</title>
-    <journal>Stanford Research Institute Long-Range Planning Report</journal>
+    <genre>Stanford Research Institute Long-Range Planning Report</genre>
     <volume>No. 329.</volume>
     <location>Menlo Park, California:</location>
     <publisher>Stanford Research Institute,</publisher>
@@ -7630,11 +7914,62 @@
   <sequence>
     <author>Cleland, David Ira.</author>
     <title>The Origin and Development of a Philosophy of Long-Range Planning in American Business.</title>
-    <journal>United States Research and Development Report</journal>
-    <volume>AD 807 258.</volume>
+    <genre>United States Research and Development Report AD 807 258.</genre>
     <location>Alexandria, Virginia:</location>
     <publisher>Deiense Documentation Center.</publisher>
     <date>1967.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[63]</citation-number>
+    <author>F. Bianco,</author>
+    <title>“Second order nonlinear optical phenomena in strained silicon waveguides,”</title>
+    <genre>Ph.D. thesis</genre>
+    <date>(2013).</date>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <date>1807.</date>
+    <title>The geography and antiquities of Ithaca.</title>
+    <location>London:</location>
+    <publisher>Printed by J. Wright for Longman, Hurst, Rees, and Orme.</publisher>
+  </sequence>
+  <sequence>
+    <author>Cissé B, Sokhna C, Boulanger D, Milet J, Bâ el H, Richardson K, Hallett R,Sutherland C, Simondon K, Simondon F, Alexander N, Gaye O, Targett G,Lines J, Greenwood B, Trape JF:</author>
+    <title>Seasonal intermittent preventive treatment with artesunate and sulfadoxine-pyrimethamine for prevention of malaria in Senegalese children: a randomized, placebocontrolled,double-blind trial.</title>
+    <journal>Lancet</journal>
+    <date>2006,</date>
+    <volume>367:</volume>
+    <pages>659-667.</pages>
+  </sequence>
+  <sequence>
+    <editor>Bossy, J. (ed.)</editor>
+    <title>Disputes and Settlements: Law and Human Relations in the West.</title>
+    <location>Cambridge,</location>
+    <date>1983.</date>
+  </sequence>
+  <sequence>
+    <author>BRUECK L.,</author>
+    <title>“Good Dalits and Bad Brahmins: Melodramatic Realism in Dalit Short Stories”,</title>
+    <journal>in South Asia Research,</journal>
+    <volume>30, 2</volume>
+    <date>(2010),</date>
+    <pages>pp. 125-144.</pages>
+  </sequence>
+  <sequence>
+    <author>Mason, R. Hal and John C. McKelvey.</author>
+    <title>The Planning Organization.</title>
+    <genre>Stanford Research Institute Long-Range Planning Report</genre>
+    <volume>No. 133.</volume>
+    <location>Menlo Park, California:</location>
+    <publisher>Stanford Research Institute,</publisher>
+    <date>1962.</date>
+  </sequence>
+  <sequence>
+    <author>Warburg, Paul Moritz.</author>
+    <date>1914.</date>
+    <title>Essays on Banking Reform in the United States.</title>
+    <volume>Vol. 4</volume>
+    <publisher>Academy of Political Science.</publisher>
   </sequence>
   <sequence>
     <author>The Boston Consulting Group.</author>
@@ -8782,8 +9117,7 @@
     <author>Niebauer T.M., Hollander W.J., Faller J.E.</author>
     <title>Absolute gravity inline measuring apparatus incorporating improved V operating features.</title>
     <genre>USA Patent № 5351122,</genre>
-    <note>date of patent</note>
-    <date>Sep.27, 1994.</date>
+    <date>date of patent Sep.27, 1994.</date>
   </sequence>
   <sequence>
     <author>Balsamo, V.; Nguyen, Duy; Ibagon, John; Bailey, Paul; Boyd, Tyler.</author>
@@ -10110,8 +10444,265 @@
     <author>Landau L.D., Lifshitz E.M.,</author>
     <date>1959,</date>
     <title>FluidMechanics,</title>
-    <container-title>Course of Theoretical Physics</container-title>
+    <collection-title>Course of Theoretical Physics</collection-title>
     <volume>Vol. 6.</volume>
+  </sequence>
+  <sequence>
+    <citation-number>117.</citation-number>
+    <author>Eccles, J.C., M. Ito, and J. Szentagothai,</author>
+    <title>The cerebellum as a neuronal machine.</title>
+    <date>1967:</date>
+    <publisher>Springer-Verlag</publisher>
+    <location>Berlin.</location>
+  </sequence>
+  <sequence>
+    <editor>Bell, Skip (ed.),</editor>
+    <title>Servants and Friends: A Biblical Theology of Leadership,</title>
+    <location>Berrien Springs:</location>
+    <publisher>Andrews University Press,</publisher>
+    <date>2014.</date>
+  </sequence>
+  <sequence>
+    <author>Hussain I.; Abu Rizaiza, O.S.; Habib, M.A.; &amp; Ashfq, M.,</author>
+    <date>2008.</date>
+    <title>Revitalizing a Traditional Dryland Water Supply System: The Karzes in Afghanistan, Iran, Pakistan, and the Kingdom of Saudi Arabia.</title>
+    <journal>Water International,</journal>
+    <volume>33:3:</volume>
+    <pages>333.</pages>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <title>Die Wahlverwandtschaften.</title>
+    <editor>Edited by Franz Muncker.</editor>
+    <edition>Jubiläumsausgabe 21.</edition>
+    <location>Stuttgart and Berlin:</location>
+    <publisher>Cotta,</publisher>
+    <date>1809.</date>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <title>Die Aufzeichnungen des Malte Laurids Brigge.</title>
+    <volume>Vol. 6</volume>
+    <container-title>of Sämtliche Werke.</container-title>
+  </sequence>
+  <sequence>
+    <author>Wormald, Patrick.</author>
+    <title>“Bede and Benedict Biscop.”</title>
+    <container-title>In Famulus Christi,</container-title>
+    <editor>ed. Gerald Bonner.</editor>
+    <location>London,</location>
+    <date>1976.</date>
+    <pages>Pp. 3–29.</pages>
+  </sequence>
+  <sequence>
+    <author>______.</author>
+    <title>De doctrina christiana,</title>
+    <editor>ed. Joseph Martin.</editor>
+    <container-title>CCSL</container-title>
+    <volume>32.</volume>
+    <location>Turnhout,</location>
+    <date>1962.</date>
+  </sequence>
+  <sequence>
+    <author>Mas-y-Mas S, Barbon M, Teyssier C, Déméné H, Carvalho JE, Bird L, Lebedev A, Fattori J, Schubert M, Dumas C, Bourguet W, le Maire A</author>
+    <date>(2016)</date>
+    <title>The human mixed lineage leukemia 5 (MLL5), a sequentially and structurally divergent SET domain-containing protein with no intrinsic catalytic activity.</title>
+    <journal>PLoS ONE</journal>
+    <volume>11(11):</volume>
+    <pages>e0165139.</pages>
+  </sequence>
+  <sequence>
+    <author>Taylor, J., &amp; Stanovic, D.</author>
+    <date>(2005).</date>
+    <title>Refugees and regional settlement: balancing priorities.</title>
+    <publisher>Brotherhood of St Laurence,</publisher>
+    <location>Melbourne.</location>
+    <note>Available at</note>
+    <url>http://www.bsl.org.au/pdfs/refugees_and_regional_settlement.pdf</url>
+  </sequence>
+  <sequence>
+    <author>M.T. Kim, H.R. Han, H.J. Song, et al.</author>
+    <title>A community-based, culturally tailored behavioral intervention for Korean Americans with type 2 diabetes</title>
+    <journal>Diabetes Educ.,</journal>
+    <volume>35</volume>
+    <date>(2009),</date>
+    <pages>pp. 986-994</pages>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <title>Der Untergang des Abendlandes.</title>
+    <volume>2 vols.</volume>
+    <container-title>1: Gestalt und Wirklichkeit. 2: Welthistorische Perspektiven.</container-title>
+    <location>Munich:</location>
+    <publisher>C. H. Beck’sche Verlagsbuchhandlung,</publisher>
+    <date>1918, 1922.</date>
+  </sequence>
+  <sequence>
+    <author>Coetzee, A., &amp; Pater, J.</author>
+    <date>(2011).</date>
+    <title>The place of variation in phonological theory.</title>
+    <editor>In J. A. Goldsmith, J. Riggle, &amp; A. C. L. Yu (Eds.),</editor>
+    <container-title>The Handbook of Phonological Theory,</container-title>
+    <edition>2nd Edition</edition>
+    <pages>(p. 401-434).</pages>
+    <location>Malden, MA:</location>
+    <publisher>Blackwell.</publisher>
+  </sequence>
+  <sequence>
+    <citation-number>(43)</citation-number>
+    <author>Boekelheide, N.; Salomón-Ferrer, R.; Miller, T. F.</author>
+    <title>“Dynamics and Dissipation in Enzyme Catalysis.”</title>
+    <journal>Proc. Natl. Acad. Sci. USA</journal>
+    <date>2011,</date>
+    <volume>108,</volume>
+    <pages>16159–16163.</pages>
+  </sequence>
+  <sequence>
+    <author>Holliday, V. T., Kring, D.A., Mayer, J.H. &amp; Goble, R.J.,</author>
+    <title>Age and effects of the Odessa meteorite impact, western Texas, USA.</title>
+    <journal>Geology,</journal>
+    <volume>v. 33, no. 12,</volume>
+    <pages>pp. 945-948.</pages>
+    <date>2005.</date>
+  </sequence>
+  <sequence>
+    <author>Furhmann, T.* &amp; Blikstein, P.</author>
+    <date>(in preparation).</date>
+    <title>Introducing concepts in design and engineering to first grade students.</title>
+    <journal>Journal of Engineering Education</journal>
+  </sequence>
+  <sequence>
+    <author>Janik J.:</author>
+    <title>Bezpłatne akcje pracownicze.</title>
+    <journal>„Gazeta Bankowa"</journal>
+    <date>1997,</date>
+    <volume>nr 29.</volume>
+  </sequence>
+  <sequence>
+    <author>G. Romano,</author>
+    <title>“Gli indesiderabili”. L’Italia e l’immigrazione clandestina ebraica in Palestina 1945-1948,</title>
+    <journal>“La Nuova Storia Contemporanea”,</journal>
+    <volume>4/6</volume>
+    <date>(novembre-dicembre 2000),.</date>
+    <pages>81-96.</pages>
+  </sequence>
+  <sequence>
+    <author>Damer T. Edward,</author>
+    <title>Attacking Faulty Reasoning,</title>
+    <publisher>Wadsworth Publishing Company,</publisher>
+    <location>Belmont, California</location>
+    <date>1980.</date>
+  </sequence>
+  <sequence>
+    <author>———.</author>
+    <title>Point Counter Point.</title>
+    <location>Garden City, N.Y.:</location>
+    <publisher>Doubleday, Doran,</publisher>
+    <date>1928.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[25]</citation-number>
+    <author>M. Kawamura, H. Katsurayama, H. Otsu, K. Yamada, and T. Abe,</author>
+    <title>“Magnetic-Field Configuration Effect on Aerodynamic Heating of a Magnetized Body,”</title>
+    <journal>Journal of Spacecraft and Rockets,</journal>
+    <volume>vol. 49, no. 2,</volume>
+    <date>March-April 2012.</date>
+  </sequence>
+  <sequence>
+    <author>Marx, Karl and Friedrich Engels.</author>
+    <title>The Communist Manifesto: A Modern Edition.</title>
+    <location>New York:</location>
+    <publisher>Verso,</publisher>
+    <date>1998.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[39]</citation-number>
+    <author>N. Vary,</author>
+    <title>“DR# 55: GPS satellite PRN18 anomaly aﬀecting SPS performance,”</title>
+    <publisher>FAA William J. Hughes Technical Center,</publisher>
+    <location>Pomona, New Jersey,</location>
+    <genre>Tech. Rep.,</genre>
+    <date>April 2007.</date>
+  </sequence>
+  <sequence>
+    <author>Anon (probably August Klingemann).</author>
+    <title>Die Nachtwachen des Bonaventura: The Night Watches of Bonaventura.</title>
+    <translator>Translated by Gerald Gillespie.</translator>
+    <location>Edinburgh, U.K.:</location>
+    <publisher>Edinburgh University Press,</publisher>
+    <date>1972.</date>
+  </sequence>
+  <sequence>
+    <citation-number>7</citation-number>
+    <author>Puurunen, R. L.</author>
+    <title>"Growth per cycle in atomic layer deposition: A theoretical model (vol 9, pg 249, 2003)".</title>
+    <journal>Chem. Vapor. Depos.</journal>
+    <volume>10,</volume>
+    <pages>124-124,</pages>
+    <date>(2004).</date>
+  </sequence>
+  <sequence>
+    <author>---.</author>
+    <title>The Interpretation of Dreams.</title>
+    <location>New York,</location>
+    <publisher>Macmillan,</publisher>
+    <date>1913.</date>
+  </sequence>
+  <sequence>
+    <author>Allen, Shanley E. M., &amp; Schröder, Heike.</author>
+    <date>2003.</date>
+    <title>Preferred argument structure in early Inuktitut spontaneous speech data.</title>
+    <editor>In J. W. Du Bois, L. E. Kumpf, &amp; W. J. Ashby (eds.),</editor>
+    <container-title>Preferred argument structure: Grammar as architecture for function</container-title>
+    <pages>(301–338).</pages>
+    <location>Amsterdam:</location>
+    <publisher>John Benjamins.</publisher>
+  </sequence>
+  <sequence>
+    <author>Aksu-Koç, Ayhan, &amp; Slobin, Dan I.</author>
+    <date>1985.</date>
+    <title>The acquisition of Turkish.</title>
+    <editor>In D. I. Slobin (ed.),</editor>
+    <container-title>The crosslinguistic study of language acquisition,</container-title>
+    <volume>vol. I</volume>
+    <pages>(839–878).</pages>
+    <location>Hillsdale, NJ:</location>
+    <publisher>Lawrence Erlbaum.</publisher>
+  </sequence>
+  <sequence>
+    <author>Schopenhauer, Arthur.</author>
+    <title>Die Welt als Wille und Vorstellung.</title>
+    <container-title>In Sämtliche Werke,</container-title>
+    <editor>edited by Paul Deussen,</editor>
+    <volume>vol. 1.</volume>
+    <location>Munich:</location>
+    <publisher>Carl Hanser,</publisher>
+    <date>n.d.</date>
+  </sequence>
+  <sequence>
+    <author>Hume, David.</author>
+    <title>A Treatise of Human Nature [selections].</title>
+    <container-title>In The Age of Enlightenment: The Eighteenth Century Philosophers,</container-title>
+    <editor>edited by Isiah Berlin.</editor>
+    <location>New York:</location>
+    <publisher>New American Library,</publisher>
+    <date>1956.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[76]</citation-number>
+    <author>Micah Hodosh, Peter Young, and Julia Hockenmaier.</author>
+    <title>Framing image description as a ranking task: Data, models and evaluation metrics.</title>
+    <journal>JAIR,</journal>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <author>Cowman, G.A. &amp; Singer, P.C.,</author>
+    <date>1995.</date>
+    <title>Effect of Bromide Ion on Haloacetic Acid Speciation Resulting From Chlorination and Chloramination of Aquatic Humic Substances.</title>
+    <journal>&lt;italic&gt;Environmental Science &amp; Technology&lt;/italic&gt;,</journal>
+    <volume>30:1:</volume>
+    <pages>16.</pages>
+    <url>http://dx.doi.org/10.1021/es9406905.</url>
   </sequence>
   <sequence>
     <citation-number>27.</citation-number>

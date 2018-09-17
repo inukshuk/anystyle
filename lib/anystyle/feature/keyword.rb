@@ -39,6 +39,8 @@ module AnyStyle
             :series
           when /^patent$/i
             :patent
+          when /^report$/i
+            :report
           when /^(edn|edition|expanded|rev(ised)?|p?reprint(ed)?|illustrated)$/i,
             /^editio|aucta$/i
             /^(aufl(age)?|\p{Alpha}*ausg(abe)?)$/i
