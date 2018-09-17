@@ -7,6 +7,7 @@ module AnyStyle
         map_values(item) do |_, value|
           value
             .sub(/^[Ii]n(?::|\s+the)?\s+(\p{^Ll})/, '\1')
+            .sub(/^of\s+/, '')
             .sub(/^收入/, '')
             .sub(/^(\w+ )?presented at (the )?/i, '')
         end

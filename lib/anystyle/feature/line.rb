@@ -32,7 +32,7 @@ module AnyStyle
           :list
         when /^(\p{Lu}\.?)\s*(\d+\.)+\s+\p{L}+/
           :title
-        when /^(\w+\s)?(tab(le|elle|\.)|fig(ure|\.))/i
+        when /^(\w+\s)?(tab(le|elle|\.)|fig(ure|\.)|equation|graph|abb(ildung)?)/i
           :cap
         when /^\p{Pd}?\d+\p{Pd}?$/, /^[ivx]+$/i
           :num

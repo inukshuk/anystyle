@@ -14,11 +14,15 @@ module AnyStyle
         contents
         figures
         introduction
+        kurzfassung
         literatur
         literature
         references
         referenzen
+        secondary
         section
+        sources
+        summary
         tables
         works
       }
