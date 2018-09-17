@@ -462,7 +462,7 @@
     <author>Pagallo, G., &amp; Haussler, D.</author>
     <date>(1990).</date>
     <title>Boolean feature discovery in empirical learning.</title>
-    <container-title>Machine Learning,</container-title>
+    <journal>Machine Learning,</journal>
     <volume>5 (1),</volume>
     <pages>71-99.</pages>
   </sequence>
@@ -813,7 +813,9 @@
     <collection-title>of Lecture Notes in Computer Science,</collection-title>
     <publisher>Springer-Verlag,</publisher>
     <pages>pp. 232-243.</pages>
-    <note>Proceedings of the 23rd ICALP Conference, Paderborn, July 1996.</note>
+    <container-title>Proceedings of the 23rd ICALP Conference,</container-title>
+    <location>Paderborn,</location>
+    <date>July 1996.</date>
   </sequence>
   <sequence>
     <author>Lars Ole Andersen.</author>
@@ -3281,6 +3283,13 @@
     <date>1980.</date>
   </sequence>
   <sequence>
+    <author>Kerber, R.</author>
+    <date>(2007).</date>
+    <title>Cost of data breach at TJX soars to $256 m.</title>
+    <journal>Boston Globe,</journal>
+    <url>http://www. boston.com/business/globe/articles/2007/08/15/cost_of_data_breach_at_tjx_soars_to_256m.</url>
+  </sequence>
+  <sequence>
     <author>O. Shechory and S. Kraus.</author>
     <title>Feasible formation of stable coalitions among autonomous agents in general environments.</title>
     <journal>Computational Intelligence Journal,</journal>
@@ -3457,7 +3466,7 @@
     <author>Lapedes, A., Steeg, E., &amp; Farber, R.</author>
     <date>(1995).</date>
     <title>Use of adaptive networks to evolve highly predictable protein secondary-structure classes.</title>
-    <container-title>Machine Learning,</container-title>
+    <journal>Machine Learning,</journal>
     <volume>21,</volume>
     <pages>103-124.</pages>
   </sequence>
@@ -4606,6 +4615,79 @@
     <url>http://dx.doi.org/10.1371/journal.pbio.1001687.</url>
   </sequence>
   <sequence>
+    <author>Kapr, A.</author>
+    <date>(1995).</date>
+    <title>Johann Gutenberg</title>
+    <translator>(translated by Douglas Martin).</translator>
+    <location>New York:</location>
+    <publisher>Scholar Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>H Johansson, P Sjolander, M Djupsjobacka, M Bergenheim and J Pedersen:</author>
+    <title>Pathophysiological mechanisms behind work-related muscle pain syndromes.</title>
+    <journal>Am J Ind Med</journal>
+    <volume>(Suppl 1),</volume>
+    <pages>104–106</pages>
+    <date>(1999)</date>
+  </sequence>
+  <sequence>
+    <author>Kefi (N.),</author>
+    <title>Le château de Mâlain pendant la Ligue (1589-1595): l'apport des textes et de l'archéologie,</title>
+    <container-title>In : Mouillebouche</container-title>
+    <date>2010,</date>
+    <pages>p.111-145.</pages>
+  </sequence>
+  <sequence>
+    <author>I. Karnadi, A.A. Iskandar, M.O. Tjia,</author>
+    <title>Analysis of Ag-Superlens Performances using Spatial Convolution Formulation,</title>
+    <journal>J. Opt. Soc. Am.</journal>
+    <volume>A27</volume>
+    <date>(2010)</date>
+    <pages>268</pages>
+    <url>(http://dx.doi.org/10.1364/JOSAA.27.000268).</url>
+  </sequence>
+  <sequence>
+    <author>Hartner, Marcus</author>
+    <note>(forthcoming).</note>
+    <title>“Images of Home: National Stereotypes in Monica Ali’s Brick Lane, Chris Cleave’s The Other Hand and Other Contemporary Fictions of Migration.”</title>
+    <editor>Marcus Hartner and Marion Schulte, eds.</editor>
+    <container-title>Migration in Context: Literature, Culture &amp; Language.</container-title>
+    <location>Bielefeld:</location>
+    <publisher>Aisthesis.</publisher>
+  </sequence>
+  <sequence>
+    <author>Linnaeus, C.</author>
+    <date>(1744).</date>
+    <title>Systema naturae: In quo proponuntur Naturae regna tria secundur Classes, ordines, genera &amp; species.</title>
+    <edition>Editio quarta ab Auctore emendaa &amp; aucta.</edition>
+    <location>Parisiis:</location>
+    <publisher>Michaelis-Antonii David.</publisher>
+  </sequence>
+  <sequence>
+    <author>ADAM, Véronique,</author>
+    <title>« Formes et reflets du songe chez Tristan L’Hermite »,</title>
+    <journal>Cahiers Tristan L’Hermite,</journal>
+    <volume>22,</volume>
+    <date>2000,</date>
+    <pages>p. 47-61.</pages>
+  </sequence>
+  <sequence>
+    <author>Jain, Narendra,</author>
+    <date>1986,</date>
+    <title>‘A New Approach to International Relations’,</title>
+    <editor>in D.R. Goyal, ed,</editor>
+    <container-title>Non-Alignment: Concepts and Concerns</container-title>
+    <location>(Delhi:</location>
+    <publisher>Ajanta Publications)</publisher>
+  </sequence>
+  <sequence>
+    <author>Zetter, K.</author>
+    <date>(2015, Aug 6).</date>
+    <title>Researchers hacked a Model S, but Tesla’s already released a patch.</title>
+    <note>Retrieved from</note>
+    <url>http://www.wired.com/2015/08/researchers-hacked-model-s-teslas-already/</url>
+  </sequence>
+  <sequence>
     <author>Fenner M</author>
     <date>(2013)</date>
     <title>Letter from the Guest Content Editor: Altmetrics Have Come of Age.</title>
@@ -5009,7 +5091,7 @@
     <genre>television program,</genre>
     <publisher>Australian Broadcasting Corporation,</publisher>
     <location>Sydney,</location>
-    <note>4 October.</note>
+    <date>4 October.</date>
   </sequence>
   <sequence>
     <title>Chains = Cantene/Titanus</title>
@@ -5257,6 +5339,14 @@
     <date>March 25, 2005.</date>
   </sequence>
   <sequence>
+    <author>Adolf Hitler,</author>
+    <title>Mein Kampf,</title>
+    <translator>trans. James Vincent Murphy</translator>
+    <location>(London:</location>
+    <publisher>Hurst and Blackett,</publisher>
+    <date>1938),</date>
+  </sequence>
+  <sequence>
     <author>Bawer, Bruce.</author>
     <title>“Bad Company.” Review of Gain, by Richard Powers.</title>
     <journal>New York Times Book Review,</journal>
@@ -5460,7 +5550,7 @@
     <author>Fariello, E.,</author>
     <title>“Method and Apparatus for Detecting Speech Signals in the Pres- ence of Noise,”</title>
     <date>Jan. 23 1973,</date>
-    <note>US Patent 3,712,959.</note>
+    <genre>US Patent 3,712,959.</genre>
   </sequence>
   <sequence>
     <author>Crossette, Barbara.</author>
@@ -5470,12 +5560,26 @@
     <pages>sec. 4, 1+.</pages>
   </sequence>
   <sequence>
+    <author>M. J. C. Smith,</author>
+    <title>"Wing-Drive Mechanism, Vehicle Employing Same, and Method for Controlling the Wing-Drive Mechanism and Vehicle Employing Same".</title>
+    <genre>USA Patent 6206324,</genre>
+    <date>March 27 2001.</date>
+  </sequence>
+  <sequence>
     <author>Devlin, H.</author>
     <date>(2010, January 28).</date>
     <title>Neuron breakthrough offers hope on Alzheimer’s and Parkinson’s.</title>
     <journal>The Times.</journal>
     <note>Retrieved from</note>
     <url>http://www.timesonline.co.uk/tol/news/science/medicine/article7005401.ece</url>
+  </sequence>
+  <sequence>
+    <author>Ratzsch, Del.</author>
+    <title>Science &amp; Its Limits: The Natural Sciences in Christian Perspective.</title>
+    <edition>2nd ed.</edition>
+    <location>Downers Grove, Ill:</location>
+    <publisher>IVP Academic,</publisher>
+    <date>2000.</date>
   </sequence>
   <sequence>
     <author>Dempsey, K.</author>
@@ -5918,6 +6022,57 @@
     <collection-title>(Patristische Texte und Studien 20).</collection-title>
     <location>Berlin:</location>
     <publisher>Walter de Gruyter</publisher>
+  </sequence>
+  <sequence>
+    <author>Robert Darnton,</author>
+    <title>“Communication Networks,”</title>
+    <container-title>in The Forbidden Best-Sellers of PreRevolutionary France</container-title>
+    <location>(New York:</location>
+    <publisher>Norton,</publisher>
+    <date>1995),</date>
+    <pages>181–97</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[15]</citation-number>
+    <author>Marco Gadola, David Vetturi, Danilo Cambiaghi, and Luca Manzo.</author>
+    <title>A tool for lap time simulation.</title>
+    <journal>SAE Technical Papers,</journal>
+    <volume>(962529):153–157,</volume>
+    <date>1996.</date>
+  </sequence>
+  <sequence>
+    <author>Johnson S. &amp; Prijatel P.,</author>
+    <date>2013.</date>
+    <title>The magazine from cover to cover,</title>
+    <location>New York:</location>
+    <publisher>Oxford University Press.</publisher>
+    <note>[CUL/GBR]</note>
+  </sequence>
+  <sequence>
+    <author>Stanger CA, Anglin C, Harwin WS, Romilly DP.</author>
+    <title>Devices for assisting manipulation: a summary of user task priorities.</title>
+    <journal>IEEE Trans Rehabil Eng</journal>
+    <genre>[Internet].</genre>
+    <volume>1994;2(4):</volume>
+    <pages>256–65.</pages>
+    <note>Available from:</note>
+    <url>http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=</url>
+    <pages>340872.</pages>
+  </sequence>
+  <sequence>
+    <author>Dabizha, A. I., Krass, M.S. and Fedynsky,V.V.,</author>
+    <title>The problem of terrestrial meteorite craters (in Russian).</title>
+    <journal>Kosmicheskoe Okruzhenie i Zemlya,</journal>
+    <pages>pp. 61-68.</pages>
+    <date>1977.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[17]</citation-number>
+    <author>Thomas D. Gillespie.</author>
+    <title>Fundamentals of Vehicle Dynamics.</title>
+    <publisher>Society of Automotive Engineers, Inc,</publisher>
+    <date>1992.</date>
+    <note>SAE Order No. R-114.</note>
   </sequence>
   <sequence>
     <author>Candice Nelson,</author>
@@ -7159,14 +7314,6 @@
     <publisher>Éditions du Seuil.</publisher>
   </sequence>
   <sequence>
-    <author>Nixon, David C.</author>
-    <date>2005.</date>
-    <title>The Independent Regulatory Commissioner Database.</title>
-    <genre>Technical report</genre>
-    <publisher>University of Hawaii</publisher>
-    <location>Honolulu, HI: .</location>
-  </sequence>
-  <sequence>
     <author>Palmer, Damon B.</author>
     <date>2010.</date>
     <title>Regulating Finance: Expert Cognitive Frameworks, Adaptive Learning, and Interests in Financial Regulatory Change</title>
@@ -7339,6 +7486,27 @@
     <title>Attention for fine-grained categorization.</title>
     <note>arXiv preprint arXiv:1412.7054,</note>
     <date>2014.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[8]</citation-number>
+    <author>Dean Baskin, Andras Vasy, and Jared Wunsch.</author>
+    <title>Asymptotics of radiation fields in asymptotically Minkowski space.</title>
+    <note>Preprint, arXiv:1212.5141,</note>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[24]</citation-number>
+    <author>Mihalis Dafermos, Gustav Holzegel, and Igor Rodnianski.</author>
+    <title>A scattering theory construction of dynamical vacuum black holes.</title>
+    <note>Preprint, arXiv:1306.5364,</note>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[26]</citation-number>
+    <author>Mihalis Dafermos and Igor Rodnianski.</author>
+    <title>The wave equation on Schwarzschild-de Sitter spacetimes.</title>
+    <note>Preprint, arXiv:0709.2766,</note>
+    <date>2007.</date>
   </sequence>
   <sequence>
     <citation-number>[62]</citation-number>
@@ -7782,6 +7950,43 @@
     <location>(Bremen:</location>
     <publisher>Carl Schünemann Verlag,</publisher>
     <date>1986).</date>
+  </sequence>
+  <sequence>
+    <citation-number>2.</citation-number>
+    <author>Mogensen, M. M., Malik, A., Piel, M., Bouckson-Castaing, V., and Bornens, M.</author>
+    <date>(2000).</date>
+    <title>Microtubule minus-end anchorage at centrosomal and non-centrosomal sites: the role of ninein.</title>
+    <journal>J. Cell. Sci.</journal>
+    <volume>113 ( Pt 17),</volume>
+    <pages>3013–3023.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[3]</citation-number>
+    <author>B. Laub and E. Venkatapathy,</author>
+    <title>“Thermal Protection System Technology and Facility Needs for Demanding Future Planetary Missions,”</title>
+    <container-title>International Workshop on Planetary Probe Atmospheric Entry and Descent Trajectory Analysis and Science,</container-title>
+    <date>October 2003.</date>
+  </sequence>
+  <sequence>
+    <author>Forster, E. M.</author>
+    <title>Howards End.</title>
+    <location>New York:</location>
+    <publisher>Barnes &amp; Noble Classics,</publisher>
+    <date>2003 [1910].</date>
+  </sequence>
+  <sequence>
+    <author>Buci-Glucksmann, Christine,</author>
+    <title>Esthétique de l’éphémère,</title>
+    <location>Paris,</location>
+    <publisher>Éditions Galilée,</publisher>
+    <date>2003.</date>
+  </sequence>
+  <sequence>
+    <author>Katz Jonathan,</author>
+    <title>L'Invention de l'hétérosexualité,</title>
+    <location>Paris,</location>
+    <publisher>EPEL,</publisher>
+    <date>2001 [1996].</date>
   </sequence>
   <sequence>
     <author>Lindau, Paul,</author>
@@ -8365,6 +8570,53 @@
     <publisher>University of Pennsylvania.</publisher>
   </sequence>
   <sequence>
+    <citation-number>[116]</citation-number>
+    <author>Andras Vasy.</author>
+    <title>B- and cusp-analysis.</title>
+    <note>Unpublished lecture notes,</note>
+    <date>2014.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[115]</citation-number>
+    <author>Andras Vasy.</author>
+    <title>Microlocal analysis of asymptotically hyperbolic spaces and high-energy resolvent estimates.</title>
+    <container-title>In Inverse problems and applications: inside out.</container-title>
+    <volume>II, volume 60</volume>
+    <collection-title>of Math. Sci. Res. Inst. Publ.,</collection-title>
+    <pages>pages 487–528.</pages>
+    <publisher>Cambridge Univ. Press,</publisher>
+    <location>Cambridge,</location>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[122]</citation-number>
+    <author>Jared Wunsch.</author>
+    <title>Microlocal analysis and evolution equations: lecture notes from 2008 CMI/ETH summer school.</title>
+    <container-title>In Evolution equations,</container-title>
+    <volume>volume 17</volume>
+    <collection-title>of Clay Math. Proc.,</collection-title>
+    <pages>pages 1–72.</pages>
+    <publisher>Amer. Math. Soc.,</publisher>
+    <location>Providence, RI,</location>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[38]</citation-number>
+    <author>Johannes J. Duistermaat and Lars Hormander.</author>
+    <title>Fourier integral operators. II.</title>
+    <journal>Acta Mathematica,</journal>
+    <volume>128(1):183–269,</volume>
+    <date>1972.</date>
+  </sequence>
+  <sequence>
+    <citation-number>[62]</citation-number>
+    <author>Lars Hormander.</author>
+    <title>Fourier integral operators. I.</title>
+    <journal>Acta mathematica,</journal>
+    <volume>127(1):79–183,</volume>
+    <date>1971.</date>
+  </sequence>
+  <sequence>
     <citation-number>[99]</citation-number>
     <author>Z. Zhang and M. Qiu,</author>
     <title>“Small-volume waveguide-section high Q microcavities in 2D photonic crystal slabs,”</title>
@@ -8440,6 +8692,104 @@
     <publisher>Gallimard,</publisher>
     <collection-title>Coll. Folio Essais,</collection-title>
     <date>2000.</date>
+  </sequence>
+  <sequence>
+    <author>Hankinson, Andrew.</author>
+    <title>"Optical music recognition of the Salzinnes Antiphonal."</title>
+    <container-title>Poster presented at the Medieval and Renaissance Music Conference,</container-title>
+    <location>Certaldo, Italy:</location>
+    <date>July 2013.</date>
+  </sequence>
+  <sequence>
+    <author>R.Q. Wolever, M. Dreusicke, J. Fikkan, et al.</author>
+    <title>Integrative health coaching for patients with type 2 diabetes: a randomized clinical trial</title>
+    <journal>Diabetes Educ.,</journal>
+    <volume>36</volume>
+    <date>(2010),</date>
+    <pages>pp. 629-639</pages>
+  </sequence>
+  <sequence>
+    <author>Carlin, W., A. Glyn, and J. Van Reenen.</author>
+    <title>“Export Market Performance of OECD Countries: An Empirical Examination of the Role of Cost Competitiveness,”</title>
+    <journal>The Economic Journal</journal>
+    <volume>111, 468</volume>
+    <date>(January 2001):</date>
+    <pages>128–162.</pages>
+  </sequence>
+  <sequence>
+    <author>Foster, Catherine P., and Bradley J. Parker</author>
+    <date>2012</date>
+    <title>Introduction: Household Archaeology in the Near East and Beyond.</title>
+    <container-title>In New Perspectives on Household Archaeology.</container-title>
+    <editor>B.J. Parker and C.P. Foster, eds.</editor>
+    <pages>Pp. 1–14.</pages>
+    <location>Winona Lake, Indiana:</location>
+    <publisher>Eisenbrauns.</publisher>
+  </sequence>
+  <sequence>
+    <author>Mace, Myles L.</author>
+    <title>"The President and Corporate Planning."</title>
+    <journal>Harvard Business Review,</journal>
+    <volume>XLIII</volume>
+    <date>(January-February, 1965),</date>
+    <pages>pp. 49-62.</pages>
+  </sequence>
+  <sequence>
+    <author>Risse Thomas,</author>
+    <title>"International Norms and Domestic Change: Arguing and Communicative Behavior in the Human Rights Area",</title>
+    <journal>Politics Society,</journal>
+    <date>1999,</date>
+    <volume>vol. 27, n° 4,</volume>
+    <pages>pp. 529-559.</pages>
+  </sequence>
+  <sequence>
+    <author>Goudie, M. A.,</author>
+    <title>The Elbow area of Saskatchewan.</title>
+    <container-title>Oil in Canada, Technical Section,</container-title>
+    <pages>p 18 - 22,</pages>
+    <date>April 30, 1956. 1956.</date>
+  </sequence>
+  <sequence>
+    <author>Newell, A., J.C. Shaw, and H.A. Simon.</author>
+    <title>"Elements of a Theory of Human Problem Solving."</title>
+    <journal>Psychological Review,</journal>
+    <volume>LXV,</volume>
+    <date>1958,</date>
+    <pages>pp. 151-166.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[13]</citation-number>
+    <author>Paolo Falcone, Francesco Borrelli, Eric Tseng, and Davor Hrovat.</author>
+    <title>On low complexity predictive approaches to control of autonomous vehicles.</title>
+    <editor>In Luigi del Re, Frank Allgower, Luigi Glielmo, Carlos Guardiola, and Ilya Kolmanovsky, editors,</editor>
+    <container-title>Automotive Model Predictive Control,</container-title>
+    <volume>volume 402</volume>
+    <collection-title>of Lecture Notes in Control and Information Sciences,</collection-title>
+    <pages>pages 195–210.</pages>
+    <publisher>Springer</publisher>
+    <location>Berlin / Heidelberg,</location>
+    <date>2010.</date>
+  </sequence>
+  <sequence>
+    <author>Wardle, H.N.</author>
+    <title>"Janus-faced Pipes".</title>
+    <journal>Pennsylvania Archaeologist,</journal>
+    <volume>Vol. 19 (1-2),</volume>
+    <pages>pp. 27-9,</pages>
+    <date>(1949).</date>
+  </sequence>
+  <sequence>
+    <author>Niebauer T.M., Hollander W.J., Faller J.E.</author>
+    <title>Absolute gravity inline measuring apparatus incorporating improved V operating features.</title>
+    <genre>USA Patent № 5351122,</genre>
+    <note>date of patent</note>
+    <date>Sep.27, 1994.</date>
+  </sequence>
+  <sequence>
+    <author>Balsamo, V.; Nguyen, Duy; Ibagon, John; Bailey, Paul; Boyd, Tyler.</author>
+    <title>Heavy Oil Rheology Modifiers for Flow Improvement during Production and Transportation Operations.</title>
+    <genre>Provisional patent PT10607USP1</genre>
+    <date>filed January 2016.</date>
   </sequence>
   <sequence>
     <author>COLLECTIF.</author>
@@ -9205,6 +9555,66 @@
     <note>[hep-th/9711200].</note>
   </sequence>
   <sequence>
+    <author>Nixon, David C.</author>
+    <date>2005.</date>
+    <title>The Independent Regulatory Commissioner Database.</title>
+    <genre>Tech- nical report</genre>
+    <publisher>University of Hawaii</publisher>
+    <location>Honolulu, HI:</location>
+  </sequence>
+  <sequence>
+    <citation-number>[9]</citation-number>
+    <author>C. Patrick, A. G. Martin,</author>
+    <journal>J Appl Phys</journal>
+    <date>1987,</date>
+    <volume>62,</volume>
+    <pages>243.</pages>
+  </sequence>
+  <sequence>
+    <author>Cammaerts, B., Mansell, R., Meng, B.</author>
+    <date>(2013).</date>
+    <title>Copyright &amp; Creation A Case for Promoting Inclusive Online Sharing.</title>
+    <journal>Media Policy Project</journal>
+    <volume>9:</volume>
+    <pages>1-18.</pages>
+    <publisher>The London School of Economics and Political Science.*</publisher>
+    <url>http://www.lse.ac.uk/media@lse/documents/MPP/LSE-MPP-Policy-Brief-9-Copyright-and-Creation.pdf</url>
+  </sequence>
+  <sequence>
+    <author>Galy, E.</author>
+    <date>1875</date>
+    <title>"Divinité panthée, trouvée dans l'Isle, à Périgueux"</title>
+    <journal>Bulletin de la société historique et archéologique du Périgord</journal>
+    <volume>2</volume>
+    <pages>125-134</pages>
+  </sequence>
+  <sequence>
+    <author>INSEE,</author>
+    <date>2009,</date>
+    <title>Le commerce en France,</title>
+    <location>Paris,</location>
+    <publisher>INSEE.</publisher>
+  </sequence>
+  <sequence>
+    <author>Forsé M.,</author>
+    <date>2001,</date>
+    <title>« L’évolution des inégalités des chances sociales et scolaires en France au cours des quinze dernières années »,</title>
+    <editor>In : Boudon R., Bulle N., Cherkaoui M. (sous la dir.),</editor>
+    <container-title>Ecole et société. Les paradoxes de la démocratie,</container-title>
+    <location>Paris,</location>
+    <publisher>PUF.</publisher>
+  </sequence>
+  <sequence>
+    <author>Aleni, G. SJ.</author>
+    <date>(2002).</date>
+    <title>性学觕述 [General Introduction to the Teaching of the Psyche].</title>
+    <editor>In N. Standaert &amp; AD. Dudink (Ed),</editor>
+    <container-title>耶稣会罗马档案馆明清天主教文献 [Chinese Christian texts from the Roman Archives of the Society of Jesus].</container-title>
+    <location>Taipei:</location>
+    <publisher>Ricci Institute.</publisher>
+    <note>(Original work published 1646)</note>
+  </sequence>
+  <sequence>
     <citation-number>[3]</citation-number>
     <author>S. S. Gubser, I. R. Klebanov, A. M. Polyakov,</author>
     <journal>Phys. Lett.</journal>
@@ -9237,7 +9647,7 @@
     <volume>83,</volume>
     <pages>3370</pages>
     <date>(1999)</date>
-    <doi>[arXiv:hepph/9905221].</doi>
+    <note>[arXiv:hepph/9905221].</note>
   </sequence>
   <sequence>
     <citation-number>[18]</citation-number>
@@ -9448,6 +9858,61 @@
     <date>1999.</date>
   </sequence>
   <sequence>
+    <author>Horal J:</author>
+    <title>The clinical appearance of low back disorders in the city of Gothenburg, Sweden. Comparisons of incapacitated probands with matched controls.</title>
+    <journal>Acta Orthop Scand Suppl</journal>
+    <date>1969,</date>
+    <volume>118:</volume>
+    <pages>1–109.</pages>
+  </sequence>
+  <sequence>
+    <author>• Devaney, Johanna, Jason Hockman, Jon Wild, Peter Schubert, Ichiro Fujinaga.</author>
+    <title>Diatonic Semitone Tuning in Two-Part Singing.</title>
+    <container-title>In Conference Program of the Society of Music Perception and Cognition Conference,</container-title>
+    <volume>43.</volume>
+    <location>Toronto, ON,</location>
+    <date>2013.</date>
+  </sequence>
+  <sequence>
+    <author>Thomasset, E.</author>
+    <date>(2008, May).</date>
+    <title>Politiques contemporaines du traumatisme.</title>
+    <container-title>Paper presented at Journée de Paroles sans Frontière,</container-title>
+    <location>Paris, France.</location>
+  </sequence>
+  <sequence>
+    <author>Arnaud, K.A.,</author>
+    <date>1996,</date>
+    <container-title>in Astronomical Data Analysis Software and Systems V,</container-title>
+    <editor>eds. Jacoby G. and Barnes J., ASP Conf.</editor>
+    <volume>Series volume 101,</volume>
+    <pages>p17</pages>
+  </sequence>
+  <sequence>
+    <author>Courtin D., Milet J., Sabbagh A., Massaro J.D., Castelli E.C., Jamonneau V., Bucheton B., Sese C., Favier B., Rouas-Freiss N., Moreau P., Donadi E.A., Garcia A.,</author>
+    <date>2013.</date>
+    <title>HLA-G 30 UTR-2 haplotype is associated with Human African trypanosomiasis susceptibility.</title>
+    <journal>Infection, Genetics and Evolution</journal>
+    <volume>17,</volume>
+    <pages>1–7.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>56.</citation-number>
+    <author>Boyles RE, Flynn TW, Whitman JM.</author>
+    <title>Manipulation following regional interscalene anesthetic block for shoulder adhesive capsulitis A case series.</title>
+    <journal>Man Ther.</journal>
+    <date>May 2005</date>
+    <volume>10(2)</volume>
+    <pages>164-171.</pages>
+  </sequence>
+  <sequence>
+    <author>Dias F.C., Castelli E.C., Collares C.V., Moreau P., and Donadi E.,</author>
+    <date>2015.</date>
+    <title>The role of HLA-G molecule and HLA-G gene polymorphisms in tumors, viral hepatitis, and parasitic diseases.</title>
+    <journal>Frontiers in Immunology</journal>
+    <doi>doi: 10.3389/fimmu.</doi>
+  </sequence>
+  <sequence>
     <citation-number>[12]</citation-number>
     <author>W. H. Robinson, C. DiGennaro, W. Hueber, B. B. Haab, M. Kamachi, E. J. Dean, S. Fournel, D. Fong, M. C. Genovese, H. E. de Vegvar, K. Skriner, D. L. Hirschberg, R. I. Morris, S. Muller, G. J. Pruijn, W. J. van Venrooij, J. S. Smolen, P. O. Brown, L. Steinman, and P. J. Utz.</author>
     <title>Autoantigen microarrays for multiplex characterization of autoantibody responses.</title>
@@ -9561,5 +10026,132 @@
     <date>1974:</date>
     <publisher>Springer-Verlag</publisher>
     <location>Berlin.</location>
+  </sequence>
+  <sequence>
+    <author>Ascasibar Y., Markevitch M.,</author>
+    <date>2006,</date>
+    <journal>ApJ,</journal>
+    <volume>650,</volume>
+    <pages>102</pages>
+  </sequence>
+  <sequence>
+    <author>Balucinska-Church M., McCammon D.,</author>
+    <date>1992,</date>
+    <journal>ApJ,</journal>
+    <volume>400,</volume>
+    <pages>699</pages>
+  </sequence>
+  <sequence>
+    <author>Boschin W., Girardi M., Barrena R., Biviano A., Feretti L., Ramella M.,</author>
+    <date>2004,</date>
+    <journal>A&amp;A,</journal>
+    <volume>416,</volume>
+    <pages>839</pages>
+  </sequence>
+  <sequence>
+    <author>Durret F., Kaastra J.S., Nevalainen J., Ohashi T., Werner N.,</author>
+    <date>2008,</date>
+    <journal>SSRv,</journal>
+    <volume>134,</volume>
+    <pages>51</pages>
+  </sequence>
+  <sequence>
+    <author>Giovannini G., Feretti L.,</author>
+    <date>2002,</date>
+    <container-title>in ‘Merging Processes of Galaxy Clusters’,</container-title>
+    <editor>eds. Feretti L., Gioia I.M., Giovannini G., ASSL, Kluwer,</editor>
+    <pages>p. 197</pages>
+  </sequence>
+  <sequence>
+    <author>Gitti M., McNamara B.R., Nulsen P.E.J., Wise M.W.,</author>
+    <date>2007,</date>
+    <journal>ApJ,</journal>
+    <volume>660,</volume>
+    <pages>1118</pages>
+  </sequence>
+  <sequence>
+    <author>Belsole E. et al.</author>
+    <date>2001,</date>
+    <journal>A&amp;A,</journal>
+    <volume>365L,</volume>
+    <pages>188</pages>
+  </sequence>
+  <sequence>
+    <author>Kempner J.C., David L.P.,</author>
+    <date>2004a,</date>
+    <journal>ApJ,</journal>
+    <volume>607,</volume>
+    <pages>200</pages>
+  </sequence>
+  <sequence>
+    <author>Kempner J.C., David L.P.,</author>
+    <date>2004b,</date>
+    <journal>MNRAS,</journal>
+    <volume>349,</volume>
+    <pages>385</pages>
+  </sequence>
+  <sequence>
+    <author>Komatsu E. et al.</author>
+    <date>2001,</date>
+    <journal>PASJ,</journal>
+    <volume>53,</volume>
+    <pages>57</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[41]</citation-number>
+    <author>D. Last,</author>
+    <title>“GNSS: The present imperfect,”</title>
+    <journal>Inside GNSS,</journal>
+    <volume>vol. 5, no. 3,</volume>
+    <pages>pp. 60–64,</pages>
+    <date>May 2010.</date>
+  </sequence>
+  <sequence>
+    <author>Landau L.D., Lifshitz E.M.,</author>
+    <date>1959,</date>
+    <title>FluidMechanics,</title>
+    <container-title>Course of Theoretical Physics</container-title>
+    <volume>Vol. 6.</volume>
+  </sequence>
+  <sequence>
+    <citation-number>27.</citation-number>
+    <author>Vieira, O. V., Gaus, K., Verkade, P., Fullekrug, J., Vaz, W. L. C., and Simons, K.</author>
+    <date>(2006).</date>
+    <title>FAPP2, cilium formation, and compartmentalization of the apical membrane in polarized Madin–Darby canine kidney (MDCK) cells.</title>
+    <container-title>Proceedings of the national academy of Sciences</container-title>
+    <volume>103,</volume>
+    <pages>18556.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[24]</citation-number>
+    <author>A. Gulhan, B. Esser, U. Koch, F. Siebe, J. Riehmer, D. Giordano, and D. Konigorski,</author>
+    <title>“Experimental Verification of Heat-Flux Mitigation by Electromagnetic Fields in Partially-Ionized-Argon Flows,”</title>
+    <journal>Jounal of Spacecraft and Rockets.</journal>
+  </sequence>
+  <sequence>
+    <citation-number>16.</citation-number>
+    <author>Knödler, A., Feng, S., Zhang, J., Zhang, X., Das, A., Peränen, J., and Guo, W.</author>
+    <date>(2010).</date>
+    <title>Coordination of Rab8 and Rab11 in primary ciliogenesis.</title>
+    <container-title>Proceedings of the national academy of Sciences</container-title>
+    <volume>107,</volume>
+    <pages>6346–6351.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>17.</citation-number>
+    <author>Westlake, C. J., Baye, L. M., Nachury, M. V., Wright, K. J., Ervin, K. E., Phu, L., Chalouni, C., Beck, J. S., Kirkpatrick, D. S., Slusarski, D. C., et al.</author>
+    <date>(2011).</date>
+    <title>Primary cilia membrane assembly is initiated by Rab11 and transport protein particle II (TRAPPII) complex-dependent trafficking of Rabin8 to the centrosome.</title>
+    <container-title>Proceedings of the national academy of Sciences</container-title>
+    <volume>108,</volume>
+    <pages>2759–2764.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[11]</citation-number>
+    <author>Jennifer N. Dang.</author>
+    <title>Statistical analysis of the effectiveness of electronic stability control (esc) systems final report.</title>
+    <genre>Technical report,</genre>
+    <publisher>NHTSA,</publisher>
+    <date>July 2007.</date>
   </sequence>
 </dataset>
