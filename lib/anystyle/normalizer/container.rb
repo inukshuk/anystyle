@@ -8,6 +8,7 @@ module AnyStyle
           value
             .sub(/^[Ii]n(?::|\s+the)?\s+(\p{^Ll})/, '\1')
             .sub(/^收入/, '')
+            .sub(/^(\w+ )?presented at (the )?/i, '')
         end
       end
     end

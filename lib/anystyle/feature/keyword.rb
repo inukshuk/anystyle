@@ -33,11 +33,14 @@ module AnyStyle
             :etal
           when /^(pp?|pages?|S(eiten?)?|ff?)$/
             :page
-          when /^(vol(ume)?s?|iss(ue)?|n[or]?|number|fasc(icle|icule)?)$/i
+          when /^(vol(ume)?s?|iss(ue)?|n[or]?|number|fasc(icle|icule)?|suppl(ement)?)$/i
             :volume
           when /^(ser(ies?)?|reihe|[ck]oll(e[ck]tion))$/i
             :series
+          when /^patent$/i
+            :patent
           when /^(edn|edition|expanded|rev(ised)?|p?reprint(ed)?|illustrated)$/i,
+            /^editio|aucta$/i
             /^(aufl(age)?|\p{Alpha}*ausg(abe)?)$/i
             :edition
           when /^(nd|date|spring|s[uo]mmer|autumn|fall|winter|frühling|herbst)$/i,
@@ -51,8 +54,10 @@ module AnyStyle
             :pubmed
           when /^(arxiv)/i
             :arxiv
-          when /^(retrieved|accessed)$/i
+          when /^(retrieved|retirado|accessed)$/i
             :accessed
+          when /^[ILXVMCD]{2,}$/
+            :roman
           else
             :none
           end

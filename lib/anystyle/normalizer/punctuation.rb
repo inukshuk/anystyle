@@ -17,6 +17,7 @@ module AnyStyle
           value.gsub!(/\s*[\)\]\.,:;\p{Pd}\p{Z}\p{C}。、》〉]+$/, '')
           value.gsub!(/[,:;》〉]+$/, '')
           value.gsub!(/^[\(\[《〈]/, '')
+          value.gsub!(/<\/?(italic|bold)>/, '')
         end
       end
     end
