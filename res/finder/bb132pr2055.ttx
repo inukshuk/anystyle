@@ -6106,8 +6106,8 @@ meta          | CHAPTER 5. CONCLUSION   192
 blank         | 
               | 
               | 
-meta          | policy.
-              | CHAPTER 5. CONCLUSION                                                                                                                                     193
+text          | policy.
+meta          | CHAPTER 5. CONCLUSION                                                                                                                                     193
 blank         | 
               | 
               | 
@@ -6141,7 +6141,7 @@ blank         |
               | 
               | 
 text          |  Figure 5.2: The Effect of Quantitative Easing on the 2012 Presidential Election
-meta          | Bibliography
+title         | Bibliography
 blank         | 
 ref           | Abrams, Burton A and Plamen Iossifov. 2006. “Does the Fed contribute to a political
               |  business cycle?” Public Choice 129(3-4):249–262.

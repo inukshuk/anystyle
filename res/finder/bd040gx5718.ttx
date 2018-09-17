@@ -1502,7 +1502,7 @@ blank         |
               | 
               | 
 meta          |                                              21
-title         |                                                                System
+text          |                                                                System
 blank         | 
               | 
 text          |                                     {
@@ -3374,8 +3374,8 @@ blank         |
               | 
 meta          |                                              72
 text          |    (6) LOB -> product development -> PROG
-meta          |                2 + 3 + 5 = 10
-text          | This implies there are some impediments to transition new technologies into qualified
+              |                2 + 3 + 5 = 10
+              | This implies there are some impediments to transition new technologies into qualified
               | products for the new mega-systems.
 blank         | 
               | 

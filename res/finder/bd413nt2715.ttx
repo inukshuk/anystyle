@@ -4880,23 +4880,23 @@ blank         |
               | 
               | 
 meta          |                                          99
-title         | High self-reliance condition
+text          | High self-reliance condition
 blank         | 
               | 
               | 
               | 
-title         | Low self-reliance condition
+text          | Low self-reliance condition
 blank         | 
               | 
               | 
               | 
 meta          |                                100
-title         | High dominance condition
+text          | High dominance condition
 blank         | 
               | 
               | 
               | 
-title         | Low dominance condition
+text          | Low dominance condition
 blank         | 
               | 
               | 
@@ -4910,19 +4910,19 @@ text          | the type of agency that the male and female job applicants displ
 blank         | 
 text          | following materials were used to in the female/self-reliance condition.
 blank         | 
-title         | Cover letter
+text          | Cover letter
 blank         | 
               | 
               | 
               | 
 meta          |                                           102
-title         | Resume
+text          | Resume
 blank         | 
               | 
               | 
               | 
 meta          |          103
-title         | Letter of recommendation
+text          | Letter of recommendation
 blank         | 
               | 
               | 

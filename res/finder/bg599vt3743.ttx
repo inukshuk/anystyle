@@ -2384,8 +2384,8 @@ text          | the stratifying scalar, and thus we are interested in whether th
               | 80% of the density variation. The sensitivity of the results to this definition was less
               | than measurement uncertainty (Rig ±0.1 within the interface, Rig ±1−10 elsewhere).
               |       The profiles shown in figure 3.9(a) show that the magnitude of the stratification,
-              |   2
-              | N , stays approximately constant over the wave period, while the magnitude of the
+meta          |   2
+text          | N , stays approximately constant over the wave period, while the magnitude of the
               | shear, (du/dz)2 , varies significantly, with peak values at the wave crest (figure 3.9(a),
               | image (iv)) and trough (figure 3.9(a), image (ii)). These observations are typical
               | of the shoaling waves observed. In figure 3.9(b), patches of low Rig occur in the
