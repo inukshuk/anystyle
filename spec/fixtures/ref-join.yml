@@ -1,19 +1,69 @@
-- a: '7. Churchman, L. S., Okten, Z., Rock, R. S., Dawson, J. F., and Spudich, J. A. (2005). Single molecule high-resolution colocalization of Cy3 and Cy5 attached to macromolecules measures intramolecular distances through time. Proc. Natl. Acad. Sci.'
-  b: 'USA 102, 1419–1423.'
-  delta: 1
-  indent: 0
-  join: true
-- a: '6.    Noji, H., Yasuda, R., Yoshida, M. & Jr, K. K. Direct observation of the rotation of F1-ATPase. Nature 386, 299 (1997).'
-  b: '7.    Spudich, J. A. The myosin swinging cross-bridge model. Nat. Mol. cell Biol. 2,'
-  delta: 1
-  indent: 0
-  join: false
 - a: "Nagano, S., T. Kitajima, K. Yoshida, Y. Kazao, Y. Kabata, D. Murata and K. Nagakura (2002). Development of world's largest hydrogen-cooled turbine generator."
   b: "Power Engineering Society Summer Meeting, 2002 IEEE, IEEE."
   delta: 0
   indent: 0
   join: true
   pending: true
+- a: 'Badea, L., Herlea, V., Dima, S.O., Dumitrascu, T., and Popescu, I. (2008). Combined gene expression analysis of whole-tissue and microdissected pancreatic ductal adenocarcinoma identifies genes specifically overexpressed in tumor epithelia.'
+  b: 'Hepatogastroenterology 55, 2016-2027.'
+  delta: 1
+  indent: 0
+  join: true
+- a: 'Hou, J., Aerts, J., den Hamer, B., van Ijcken, W., den Bakker, M., Riegman, P., van der Leest, C., van der Spek, P., Foekens, J.A., Hoogsteden, H.C., et al. (2010). Gene expression-based classification of non-small cell lung carcinomas and survival prediction. PLoS One 5, e10312.'
+  b: 'Howlader N, N.A., Krapcho M, Neyman N, Aminou R, Altekruse SF, Kosary CL, Ruhl J,'
+  delta: 0
+  indent: 0
+  join: false
+- a: '13   Cartier, E., Stathis, J. H. & Buchanan, D. A. "Passivation and Depassivation of Silicon Dangling Bonds at the Si/Sio2 Interface by Atomic-Hydrogen". Appl. Phys. Lett. 63, 1510-1512, (1993).'
+  b: '14   Bard, A. J. & Faulkner, L. R. "Electrochemical Methods: Fundamentals and'
+  delta: 1
+  indent: 0
+  join: false
+- a: '7. Churchman, L. S., Okten, Z., Rock, R. S., Dawson, J. F., and Spudich, J. A. (2005). Single molecule high-resolution colocalization of Cy3 and Cy5 attached to macromolecules measures intramolecular distances through time. Proc. Natl. Acad. Sci.'
+  b: 'USA 102, 1419–1423.'
+  delta: 1
+  indent: 0
+  join: true
+- a: 'Campbell, Bernard, ed. Sexual Selection and the Descent of Man 1871–1971.'
+  b: 'Chicago: Aldine Publishing Company, 1972.'
+  delta: 1
+  indent: 2
+  join: true
+- a: 'Blasi P., Colafrancesco S., 1999, APh, 12, 169'
+  b: 'Blasi P., 2000, ApJ, 532L, 9'
+  delta: 1
+  indent: 0
+  join: false
+- a: 'Markevitch M., Vikhlinin A., 2007, PhR, 443, 1'
+  b: 'Marshall H.L., Miller B.P., Davis D.S., Perlman E.S., Wise M., Canizares C.R. & Harris'
+  delta: 0
+  indent: 0
+  join: false
+- a: 'Brown, Susan L. “Family Structure and Child Well-Being: The Significance of Parental Contribution.” Journal of Marriage and the Family 66 (2004).'
+  b: 'Brown, Susan L., and Alan Booth. “Cohabiting Versus Marriage: A Comparison of'
+  delta: 1
+  indent: 0
+  join: false
+- a: 'Conger, R. D., K. J. Conger, G. H. Elder, F. O. Lorenz, R. L. Simons, and L. B. Whitbeck. “A Family Process Model of Economic Hardship and Adjustment of Early Adolescent Boys.” Child Development 63 (1992).'
+  b: 'Conger, R. D., G. R. Patterson, and X. Ge. “It Takes Two to Replicate: A Mediational'
+  delta: 1
+  indent: 0
+  join: false
+- a: '———. “What Is the Point of Equality?” Ethics 109 (1999).'
+  b: 'Anderson, Stephen C., and Michael L. Lauderdale. “Characteristics of Abusive'
+  delta: 1
+  indent: 0
+  join: false
+- a: 'Anderson, Stephen C., and Michael L. Lauderdale. “Characteristics of Abusive Parents: A Look at Self-Esteem.” Child Abuse and Neglect 6 (1982).'
+  b: 'Anthony, E. James, and Bertram J. Cohler. The Invulnerable Child. New York: The'
+  delta: 1
+  indent: 0
+  join: false
+- a: '6.    Noji, H., Yasuda, R., Yoshida, M. & Jr, K. K. Direct observation of the rotation of F1-ATPase. Nature 386, 299 (1997).'
+  b: '7.    Spudich, J. A. The myosin swinging cross-bridge model. Nat. Mol. cell Biol. 2,'
+  delta: 1
+  indent: 0
+  join: false
 - a: 'Bhatia, S. K. and A. L. Myers (2006). "Optimum conditions for adsorptive storage."'
   b: 'Langmuir 22(4): 1688-1700.'
   delta: 0

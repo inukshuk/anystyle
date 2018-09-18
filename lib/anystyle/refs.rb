@@ -90,7 +90,7 @@ module AnyStyle
         indent_score(indent),
         delta_score(delta),
         years_score(a, b),
-        terminal_score(a),
+        terminal_score(a, b),
         initial_score(a, b),
         length_score(a, b),
         pages_score(a, b)
@@ -100,7 +100,7 @@ module AnyStyle
 
     def indent_score(indent)
       case
-      when indent > 0 then 1
+      when indent > 0 then 1.25
       when indent < 0 then -1
       else
         0
@@ -119,10 +119,19 @@ module AnyStyle
 
     def years_score(a, b)
       if match_year?(a)
-        if b.length > 35 && match_year?(b)
-          -1
+        if match_year?(b)
+          case
+          when b.length < 18
+            1
+          when b.length < 25
+            0.5
+          when b.length > 60
+            -0.75
+          else
+            0
+          end
         else
-          if a.match(/[\d,] (1[4-9]|2[01])\d\d[a-z]?\.$/)
+          if a.match(/[\d,] \(?(1[4-9]|2[01])\d\d[a-z]?\)?\.$/)
             -0.5
           else
             1
@@ -138,10 +147,10 @@ module AnyStyle
     end
 
     def pages_score(a, b)
-      if match_pages?(a)
+      if match_pages?(a, true)
         -0.25
       else
-        if match_pages?(b)
+        if match_pages?(b, false)
           1
         else
           0
@@ -149,23 +158,25 @@ module AnyStyle
       end
     end
 
-    def match_pages?(string)
+    def match_pages?(string, not_years = true)
       m = string.match(/(\d+)\p{Pd}(\d+)|\bpp?\.|\d+\(\d+\)/)
       return false if m.nil?
-      return false if m[1] && match_year?(m[1]) && match_year?(m[2])
+      return false if not_years && m[1] && match_year?(m[1]) && match_year?(m[2])
       return true
     end
 
-    def terminal_score(string)
-      case string
-      when /https?:\/\/\w+/i
-        -1
-      when /[,;:&\p{Pd}]$/, /(et al|pp)\.$/
+    def terminal_score(a, b)
+      case
+      when a.match(/https?:\/\/\w+/i)
+        -0.25
+      when a.match(/[,;:&\p{Pd}]$/), a.match(/\s(et al|pp|pg)\.$/)
         2
-      when /\((1[4-9]|2[01])\d\d\)\.?$/
+      when a.match(/\((1[4-9]|2[01])\d\d\)\.?$/)
         0
-      when /(\p{^Lu}\.|\])$/
+      when a.match(/(\p{^Lu}\.|\])$/)
         -1
+      when a.match(/\d$/) && b.match(/^\p{Lu}/)
+        -0.25
       else
         0
       end
@@ -177,13 +188,15 @@ module AnyStyle
         1.5
       when a.match(/\p{L}$/) && b.match(/^\p{L}/)
         1
-      when b.match(/^["'”„’‚´«「『‘“`»]/), b.match(/^url|http/i)
+      when b.match(/^["'”„’‚´«「『‘“`»]/)
         1
+      when b.match(/^(url|doi|isbn|vol)\b/i)
+        1.5
       when b.match(/^([\p{Pd}_*][\p{Pd}_* ]+|\p{Co})/)
         -1.5
       when b.match(/^\((1[4-9]|2[01])\d\d\)/) && !a.match(/(\p{Lu}|al|others)\.$/)
         -1
-      when b.match(/^\p{Lu}\p{Ll}+,\s\p{L}/) && !a.match(/\p{L}$/)
+      when b.match(/^\p{Lu}\p{Ll}+,?\s\p{Lu}/) && !a.match(/\p{L}$/)
         -0.5
       when match_list?(b)
         if match_list?(a)
@@ -191,13 +204,15 @@ module AnyStyle
         else
           -0.75
         end
+      when b.match(/^\p{L}+:/), b.match(/^\p{L}+ \d/)
+        0.5
       else
         0
       end
     end
 
     def match_list?(string)
-      string.match(/^(\d{1,3}\.\s+\p{L}|\[\p{Alnum}+\])/)
+      string.match(/^(\d{1,3}(\.\s+|\s{2,})\p{L}|\[\p{Alnum}+\])/)
     end
 
     def length_score(a, b)
@@ -205,8 +220,14 @@ module AnyStyle
       when b.length < a.length
         case
         when b.length < 10
+          2.5
+        when b.length < 15
           2
+        when b.length < 20
+          1.75
         when b.length < 25
+          1.5
+        when b.length < 30
           1
         when b.length < 50
           0.75
