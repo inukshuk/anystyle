@@ -1,3 +1,11 @@
+1.3.0 / 2018-09-18
+==================
+* Updated and improved normalizers and CSL format.
+* Improved Chinese reference tokenization.
+* Added option to customizee pdftotext path.
+* Improved Finder reference line joining.
+* Improved Finder model; training sets.
+* Improved Parser model; training sets.
 1.2.1 / 2018-08-17
 ==================
 * Added check and train commands to CLI.
