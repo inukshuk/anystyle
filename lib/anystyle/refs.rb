@@ -196,7 +196,7 @@ module AnyStyle
         -1.5
       when b.match(/^\((1[4-9]|2[01])\d\d\)/) && !a.match(/(\p{Lu}|al|others)\.$/)
         -1
-      when b.match(/^\p{Lu}\p{Ll}+,?\s\p{Lu}/) && !a.match(/\p{L}$/)
+      when b.match(/^\p{Lu}[\p{Ll}-]+,?\s\p{Lu}/) && !a.match(/\p{L}$/)
         -0.5
       when match_list?(b)
         if match_list?(a)
