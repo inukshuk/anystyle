@@ -6,6 +6,7 @@ module AnyStyle
       ({
         '14(2):' => { volume: ['14'], issue: ['2'] },
         'vol. 14' => { volume: ['14'] },
+        '(Vol. 14).' => { volume: ['14'] },
         '34:' => { volume: ['34'] },
         '45(02):' => { volume: ['45'], issue: ['02'] },
         '31(3/4):' => { volume: ['31'], issue: ['3/4'] },

@@ -38,7 +38,7 @@ module AnyStyle
               .sub(/<\/?(italic|i|strong|b|span|div)>/, '')
               .sub(/^[\p{P}\s]+/, '')
               .sub(/^[Vv]ol(ume)?[\p{P}\s]+/, '')
-              .sub(/\p{P}$/, '')
+              .sub(/[\p{P}\p{Z}\p{C}]+$/, '')
           end
         end
       end
