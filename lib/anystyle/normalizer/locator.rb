@@ -11,7 +11,7 @@ module AnyStyle
           when :isbn
             value[/[\d-]+/]
           when :url
-            doi = doi_extract(value)
+            doi = doi_extract(value) if value =~ /doi\.org\//i
             append item, :doi, doi unless doi.nil?
             URI.extract(value)
           when :doi
@@ -24,7 +24,7 @@ module AnyStyle
     end
 
     def doi_extract(value)
-      value[/10\.(\d{4,9}\/[-._;()\/:A-Z0-9]+|1002\/\S+)/i]
+      value[/10(\.(\d{4,9}\/[-._;()\/:A-Z0-9]+|1002\/\S+)|\/\p{Alnum}{3,})/i]
     end
   end
 end
