@@ -1,3 +1,8 @@
+1.3.3 / 2019-01-10
+==================
+* Improved support of German-language journal conventions (@a-fent)
+* Updated parser model.
+
 1.3.0 / 2018-09-18
 ==================
 * Updated and improved normalizers and CSL format.
@@ -6,6 +11,7 @@
 * Improved Finder reference line joining.
 * Improved Finder model; training sets.
 * Improved Parser model; training sets.
+
 1.2.1 / 2018-08-17
 ==================
 * Added check and train commands to CLI.
