@@ -44,14 +44,19 @@ module AnyStyle
         'Vol. LXVI(6),' => { volume: ['LXVI'], issue: ['6'] },
         'vol. XXXI, nº 2,' => { volume: ['XXXI'], issue: ['2'] },
         'XXXVI/1-2,' => { volume: ['XXXVI'], issue: ['1-2'] },
-        'vol. CLXXXIII, fasc. 603,' => { volume: ['CLXXXIII'], issue: ['603'] }
+        'vol. CLXXXIII, fasc. 603,' => { volume: ['CLXXXIII'], issue: ['603'] },
+        '22. Jg. Heft 3,' => { volume: ['22'], issue: ['3'] },
+        '19.Jg. H.3,' => { volume: ['19'], issue: ['3'] },
+        'Jg. 37:' => { volume: ['37'] }
+        
         # 47ème année, n°1,
         # Isuue 140,
         # 40 (4), art. no. 5446343,
         # 129, 4, Pt. 2:
 
       }).each do |(a, b)|
-        expect(n.normalize(volume: [a])).to include(b)
+        expect(n.normalize(volume: [a])).to include(b),
+                                            -> { "'#{a}' should normalise to #{b}, got: " + n.normalize(volume: [a]).to_s }
       end
     end
 
@@ -63,8 +68,11 @@ module AnyStyle
       ({
         '17(1)73-84.' => { volume: ['17'], issue: ['1'], pages: ['73-84'] },
         '51:197-204' => { volume: ['51'], pages: ['197-204'] }
+        # '22(3):pp.87-106' => { volume: ['22'], issue: ['3'], pages: ['87-106'] },
+        # '35:S42-S45' => { volume: ['35'], pages: ['42-45'] }
       }).each do |(a, b)|
-        expect(n.normalize(volume: [a])).to include(b)
+        expect(n.normalize(volume: [a])).to include(b),
+                                            ->{ "'#{a}' should normalise to #{b}, got: " + n.normalize(volume: [a]).to_s }
       end
     end
 
@@ -75,9 +83,12 @@ module AnyStyle
           '2008;2(3):' => { volume: ['2'], issue: ['3'], date: ['2008'] },
           '2009;22' => { volume: ['22'], date: ['2009'] },
           '321(9859)' => { volume: ['321'], issue: ['9859'] },
-          '494-495(2014):' => { volume: ['494-495'], date: ['2014'] }
+          '494-495(2014):' => { volume: ['494-495'], date: ['2014'] },
+          '19 Jg., Heft 2/2011,' => { volume: ['19'], issue: ['2'], date: ['2011'] },
+          'Jg. 51, Heft 3/2000,' => { volume: ['51'], issue: ['3'], date: ['2000'] }
         }).each do |(a, b)|
-          expect(n.normalize(volume: [a])).to include(b)
+          expect(n.normalize(volume: [a])).to include(b),
+                                              ->{ "'#{a}' should normalise to #{b}, got: " + n.normalize(volume: [a]).to_s }
         end
       end
     end
