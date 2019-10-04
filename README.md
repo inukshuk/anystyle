@@ -52,12 +52,12 @@ Alternatively, you can create your own `AnyStyle::Parser` or
 
 Web Application and Web Service
 -------------------------------
-AnyStyle is available as a web-application and service at
-[anystyle.io](https://anystyle.io).
-
-Please note that the web service is currently based on the legacy
-[0.x branch](https://github.com/inukshuk/anystyle/tree/0.x).
-
+The web interface for AnyStyle, previously at [anystyle.io](https://anystyle.io),
+is currently down indefintely for maintenance. The plan is to update the website to
+use version 1.0 of the parser (which produces much better results than the legacy
+version that was powering the website), but there is no clear timetable for when
+this will happen. (If you know Ruby on Rails and would like to help bring back a popular
+web service, please get in touch!)
 
 Training
 --------
