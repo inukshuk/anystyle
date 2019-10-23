@@ -33,7 +33,7 @@ module AnyStyle
             :etal
           when /^(pp?|pages?|S(eiten?)?|ff?)$/
             :page
-          when /^(vol(ume)?s?|iss(ue)?|n[or]?|number|fasc(icle|icule)?|suppl(ement)|j(ahrgan)g|heft?)$/i
+          when /^(vol(ume)?s?|iss(ue)?|n[or]?|number|fasc(icle|icule)?|suppl(ement)?|j(ahrgan)?g|heft)$/i
             :volume
           when /^(ser(ies?)?|reihe|[ck]oll(e[ck]tion))$/i
             :series
