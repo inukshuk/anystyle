@@ -7497,7 +7497,7 @@
     <container-title>Issues in Bantu Tonology,</container-title>
     <pages>37-82.</pages>
     <location>Cologne:</location>
-    <publisher>Rüdiger Köppe Verlag.</publisher>
+    <publisher>Rüdiger Köppe Verlag.</publisher>
   </sequence>
   <sequence>
     <author>HOGGART, Richard.</author>
@@ -8402,7 +8402,7 @@
     <author>Christov-Bakargiev, Carolyn,</author>
     <title>William Kentridge</title>
     <location>(Brussels:</location>
-    <publisher>Société des Expositions du Palais des Beaux-Arts de Bruxelles,</publisher>
+    <publisher>Société des Expositions du Palais des Beaux-Arts de Bruxelles,</publisher>
     <date>1998).</date>
   </sequence>
   <sequence>
@@ -8444,14 +8444,14 @@
   </sequence>
   <sequence>
     <author>Debussy, Claude,</author>
-    <title>Pelléas et Mélisande</title>
+    <title>Pelléas et Mélisande</title>
     <location>(New York, NY:</location>
     <publisher>Dover,</publisher>
     <date>1985).</date>
   </sequence>
   <sequence>
     <editor>Csampai, Attila, and Dietmar Holland (eds.),</editor>
-    <title>Tannhäuser: Texte, Materialien, Kommentare</title>
+    <title>Tannhäuser: Texte, Materialien, Kommentare</title>
     <location>(Hamburg:</location>
     <publisher>Rowohlt,</publisher>
     <date>1986).</date>
@@ -8501,7 +8501,7 @@
   </sequence>
   <sequence>
     <author>Messiaen, Olivier,</author>
-    <title>Saint François d’Assise,</title>
+    <title>Saint François d’Assise,</title>
     <volume>8 vols.</volume>
     <location>(Paris:</location>
     <publisher>Alphonse Leduc,</publisher>
@@ -8513,7 +8513,7 @@
     <editor>Eike Middell (ed.),</editor>
     <volume>2 vols.</volume>
     <location>(Bremen:</location>
-    <publisher>Carl Schünemann Verlag,</publisher>
+    <publisher>Carl Schünemann Verlag,</publisher>
     <date>1986).</date>
   </sequence>
   <sequence>
@@ -8555,7 +8555,7 @@
   </sequence>
   <sequence>
     <author>Lindau, Paul,</author>
-    <title>“The ‘Tannhäuser’ Scandal in March 1861,”</title>
+    <title>“The ‘Tannhäuser’ Scandal in March 1861,”</title>
     <translator>Daphne Ellis (trans.),</translator>
     <journal>Wagner,</journal>
     <volume>24</volume>
@@ -8592,7 +8592,7 @@
   </sequence>
   <sequence>
     <author>Baudelaire, Charles,</author>
-    <title>Oeuvres complètes,</title>
+    <title>Oeuvres complètes,</title>
     <editor>Y.-G. Le Dantec (ed.)</editor>
     <location>(Paris:</location>
     <publisher>Gallimard,</publisher>
@@ -8648,7 +8648,7 @@
   </sequence>
   <sequence>
     <author>Herder, Johann Gottfried,</author>
-    <title>Die kritischen Wälder der Ästhetik,</title>
+    <title>Die kritischen Wälder der Ästhetik,</title>
     <editor>in Martin Bollacher (ed.),</editor>
     <container-title>Werke,</container-title>
     <volume>10 vols.</volume>
@@ -8657,7 +8657,7 @@
     <date>1985–2000),</date>
     <volume>vol. ii</volume>
     <date>(1993),</date>
-    <container-title>Schriften zur Ästhetik und Literatur,</container-title>
+    <container-title>Schriften zur Ästhetik und Literatur,</container-title>
     <editor>ed. Gunter E. Grimm,</editor>
     <pages>pp. 9–442.</pages>
   </sequence>
@@ -8764,9 +8764,9 @@
   </sequence>
   <sequence>
     <author>Kubik, Reinhold,</author>
-    <title>Händels Rinaldo: Geschichte, Werk, Wirkung</title>
+    <title>Händels Rinaldo: Geschichte, Werk, Wirkung</title>
     <location>(Neuhausen-Stuttgart:</location>
-    <publisher>Hänssler-Verlag,</publisher>
+    <publisher>Hänssler-Verlag,</publisher>
     <date>1982).</date>
   </sequence>
   <sequence>
@@ -10365,7 +10365,7 @@
   </sequence>
   <sequence>
     <citation-number>[103]</citation-number>
-    <author>Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner.</author>
+    <author>Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner.</author>
     <title>Gradient-based learning applied to document recognition.</title>
     <container-title>Proceedings of the IEEE,</container-title>
     <volume>86(11):2278–2324,</volume>
@@ -11528,5 +11528,21 @@
     <title>"Sentiment Classification for Indonesian Message in Social Media",</title>
     <container-title>International Conference on Cloud Computing and Social Networking,</container-title>
     <date>26-27 April 2012</date>
+  </sequence>
+  <sequence>
+    <author>COARELLI F.,</author> 
+    <date>1976,</date>
+    <title>"Cinque frammenti di una tomba dipinta dall'Esquilino (Arieti)",</title>
+    <container-title>in Affreschi romani dalle raccolte dell'Antiquarium comunale,</container-title>
+    <location>Roma:</location>
+    <pages>22-28.</pages>
+  </sequence>
+  <sequence>
+    <author>COTTA RAMOSINO L.,</author>
+    <date>1999,</date>
+    <title>"Il supplizio della croce in Silio Italico: PUN. I 169-181 e VI 539-544",</title>
+    <journal>in Aevum</journal>
+    <volume>73:</volume>
+    <pages>93-105.</pages>
   </sequence>
 </dataset>
