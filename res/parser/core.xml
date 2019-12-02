@@ -11529,4 +11529,62 @@
     <container-title>International Conference on Cloud Computing and Social Networking,</container-title>
     <date>26-27 April 2012</date>
   </sequence>
+  <sequence>
+    <author>U.S. Department of Veterans Affairs.</author>
+    <date>(n.d.).</date>
+    <title>The Veteran population projection model 2014 (VetPop2014).</title>
+    <location>Washington, DC.</location>
+    <note>Retrieved from</note>
+    <url>http://www.va.gov/vetdata/Veteran_Population.asp</url>
+  </sequence>
+  <sequence>
+    <author>COARELLI F.,</author>
+    <date>1976,</date>
+    <title>"Cinque frammenti di una tomba dipinta dall'Esquilino (Arieti)",</title>
+    <container-title>in Affreschi romani dalle raccolte dell'Antiquarium comunale,</container-title>
+    <location>Roma:</location>
+    <pages>22-28.</pages>
+  </sequence>
+  <sequence>
+    <author>COTTA RAMOSINO L.,</author>
+    <date>1999,</date>
+    <title>"Il supplizio della croce in Silio Italico: PUN. I 169-181 e VI 539-544",</title>
+    <journal>in Aevum</journal>
+    <volume>73:</volume>
+    <pages>93-105.</pages>
+  </sequence>
+  <sequence>
+    <author>ALTOMARE L.,</author>
+    <date>2015,</date>
+    <title>“La necropoli di Paladino ovest ad Amendolara: analisi di una comunità enotria di epoca coloniale”,</title>
+    <editor>in P. B ROCATO (a cura di),</editor>
+    <container-title>Note di archeologia calabrese,</container-title>
+    <location>Cosenza:</location>
+    <pages>107-144.</pages>
+  </sequence>
+  <sequence>
+    <author>MITTICA G., KINDBERG JACOBSEN J.,</author>
+    <date>2018:</date>
+    <title>“Recenti ricerche nel santuario di Timpone della Motta a Francavilla Marittima”,</title>
+    <editor>in C. M ALACRINO , M. P AOLETTI , D. C OSTANZO (a cura di),</editor>
+    <container-title>Tanino de Santis. Una vita per la Magna Grecia, Catalogo della mostra,</container-title>
+    <location>Reggio Calabria:</location>
+    <pages>131-138.</pages>
+  </sequence>
+  <sequence>
+    <citation-number>[1]</citation-number>
+    <author>R. E. I. Schropp, M. Zeman,</author>
+    <title>Amorphous and Microcrystalline Silicon Solar Cells: Modeling, Materials, and Device Technology,</title>
+    <publisher>Kluwer Academic Publishers,</publisher>
+    <location>Boston MA</location>
+    <date>1998.</date>
+  </sequence>
+  <sequence>
+    <author>FURTWÄNGLER A.,</author>
+    <date>2002,</date>
+    <title>“Monnaies Grecques en Gaule: nouvelles trouvailles (6ème-5ème s. av. J.-C.)”,</title>
+    <container-title>in La monetazione dei Focei in Occidente, Atti dell’XI Convegno del CISN (Napoli 1996),</container-title>
+    <location>Roma:</location>
+    <pages>93-111.</pages>
+  </sequence>
 </dataset>

@@ -646,14 +646,6 @@
     <date>1984.</date>
   </sequence>
   <sequence>
-    <author>U.S. Department of Veterans Affairs.</author>
-    <date>(n.d.).</date>
-    <title>The Veteran population projection model 2014 (VetPop2014).</title>
-    <location>Washington, DC.</location>
-    <note>Retrieved from</note>
-    <url>http://www.va.gov/vetdata/Veteran_Population.asp</url>
-  </sequence>
-  <sequence>
     <author>Janhäll S., Andreae M. O., Pöschl U.,</author>
     <title>« Biomass burning aerosol emissions from vegetation fires: particle number and mass emission factors and size distributions »,</title>
     <journal>Atmospheric Chemistry and Physic,</journal>
@@ -762,14 +754,6 @@
     <journal>Chemistry of Materials</journal>
     <volume>22, (18),</volume>
     <pages>5179-5183.</pages>
-  </sequence>
-  <sequence>
-    <citation-number>[1]</citation-number>
-    <author>R. E. I. Schropp, M. Zeman,</author>
-    <title>Amorphous and Microcrystalline Silicon Solar Cells: Modeling, Materials, and Device Technology,</title>
-    <publisher>Kluwer Academic Publishers,</publisher>
-    <location>Boston MA</location>
-    <date>1998.</date>
   </sequence>
   <sequence>
     <citation-number>[7]</citation-number>
@@ -13165,5 +13149,13 @@
     <journal>Zeitschrift für Inklusion. Gemeinsam leben.</journal>
     <volume>22. Jg. Heft 3,</volume>
     <pages>143 f.</pages>
+  </sequence>
+  <sequence>
+    <author>FERRANTI L., SANTORO E., MAZZELLA M.E., MONACO C., MORELLI D.,</author>
+    <date>2009,</date>
+    <title>“Active Transpression in the Northern Calabria Apennines, Southern Italy”,</title>
+    <journal>in Tectonophysics</journal>
+    <volume>476:</volume>
+    <pages>226-251</pages>
   </sequence>
 </dataset>
