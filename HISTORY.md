@@ -1,3 +1,7 @@
+1.3.6 / 2019-12-02
+==================
+* Updated parser model.
+
 1.3.3 / 2019-01-10
 ==================
 * Improved support of German-language journal conventions (@a-fent)
