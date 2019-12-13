@@ -11587,4 +11587,26 @@
     <location>Roma:</location>
     <pages>93-111.</pages>
   </sequence>
+  <sequence>
+    <author>Turing, Alan,</author>
+    <title>Computing Machinery and Intelligence,</title>
+    <journal>Mind</journal>
+    <volume>59,</volume>
+    <pages>pp 433–460</pages>
+    <date>(1950)</date>
+  </sequence>
+  <sequence>
+    <title>« Globalization, Power and Survival : an Anthropological Perspective »,</title>
+    <journal>Anthropological Quarterly,</journal>
+    <volume>vol 79-3,</volume>
+    <date>2006,</date>
+    <pages>pp.483-508</pages>
+  </sequence>
+  <sequence>
+    <author>Pugin, Laurent.</author>
+    <title>"Music Notation in Web-Browsers for Computational Musicological Applications."</title>
+    <container-title>Empirical Approaches to Music Theory and Musicology session at the American Musicological Society Annual Meeting.</container-title>
+    <location>Milwaukee,</location>
+    <date>November 2014.</date>
+  </sequence>
 </dataset>
