@@ -115,7 +115,9 @@ module AnyStyle
         Feature::Affix.new(size: 2, suffix: true),
         Feature::Caps.new,
         Feature::Number.new,
-        Feature::Dictionary.new(dictionary: options[:dictionary] || Dictionary.instance),
+        Feature::Dictionary.new(
+          dictionary: self.options[:dictionary] || Dictionary.instance
+        ),
         Feature::Keyword.new,
         Feature::Position.new,
         Feature::Punctuation.new,
