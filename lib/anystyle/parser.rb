@@ -15,7 +15,7 @@ module AnyStyle
       end
     end
 
-    attr_reader :model, :options, :features, :normalizers
+    attr_reader :model, :options, :features, :normalizers, :mtime
 
     def initialize(options = {})
       @options = self.class.defaults.merge(options)
@@ -26,12 +26,22 @@ module AnyStyle
       unless file.nil?
         @model = Wapiti.load(file)
         @model.options.update_attributes options
+        @mtime = File.mtime(file)
       else
         @model = Wapiti::Model.new(options.reject { |k,_| k == :model })
         @model.path = options[:model]
+        @mtime = Time.now
       end
 
       self
+    end
+
+    def reload
+      load_model(model.path)
+    end
+
+    def stale?
+      File.exist?(model.path) && File.mtime(mode.path) > mtime
     end
 
     def label(input, **opts)
