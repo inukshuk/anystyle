@@ -11609,4 +11609,122 @@
     <location>Milwaukee,</location>
     <date>November 2014.</date>
   </sequence>
+  <sequence>
+    <author>Devitt, T.</author>
+    <date>(2001, August 2).</date>
+    <title>Lightning injures four at music festival.</title>
+    <container-title>The Why? Files.</container-title>
+    <note>Retrieved January 23, 2002, from</note>
+    <url>http://whyfiles.org/137lightning/index.html</url>
+  </sequence>
+  <sequence>
+    <author>Devitt, Terry.</author>
+    <title>"Lightning injures four at music festival."</title>
+    <container-title>The Why? Files.</container-title>
+    <date>2 Aug. 2001.</date>
+    <note>23 Jan. 2002</note>
+    <url>&lt;http://whyfiles.org/137lightning/index.html&gt;.</url>
+  </sequence>
+  <sequence>
+    <author>Dove, R.</author>
+    <date>(1998).</date>
+    <title>Lady freedom among us.</title>
+    <container-title>The Electronic Text Center.</container-title>
+    <note>Retrieved June 19, 1998, from Alderman Library, University of Virginia website:</note>
+    <url>http://etext.lib.virginia.edu/subjects/afam.html</url>
+  </sequence>
+  <sequence>
+    <author>Dove, Rita.</author>
+    <title>"Lady Freedom among Us."</title>
+    <container-title>The Electronic Text Center.</container-title>
+    <editor>Ed. David Seaman.</editor>
+    <date>1998.</date>
+    <publisher>Alderman Lib., U of Virginia.</publisher>
+    <date>19 June 1998</date>
+    <url>&lt;http://etext.lib.virginia.edu /subjects/afam.html&gt;.</url>
+  </sequence>
+  <sequence>
+    <author>Kalette, Denise.</author>
+    <title>"California Town Counts Down to Big Quake."</title>
+    <journal>USA Today</journal>
+    <volume>9</volume>
+    <date>21 July 1986:</date>
+    <note>sec. A: 1.</note>
+  </sequence>
+  <sequence>
+    <author>Kanfer, Stefan.</author>
+    <title>"Heard Any Good Books Lately?"</title>
+    <journal>Time</journal>
+    <volume>113</volume>
+    <date>21 July 1986:</date>
+    <pages>71-72.</pages>
+  </sequence>
+  <sequence>
+    <author>Lancashire, Ian.</author>
+    <medium>Homepage.</medium>
+    <date>28 Mar. 2002.</date>
+    <note>15 May 2002</note>
+    <url>&lt;http://www.chass.utoronto.ca:8080 /~ian/&gt;.</url>
+  </sequence>
+  <sequence>
+    <author>Levy, Steven.</author>
+    <title>"Great Minds, Great Ideas."</title>
+    <journal>Newsweek</journal>
+    <date>27 May 2002.</date>
+    <note>10 June 2002</note>
+    <url>&lt;http://www.msnbc.com /news/754336.asp&gt;.</url>
+  </sequence>
+  <sequence>
+    <author>Pettingill, O. S., Jr.</author>
+    <date>(1980).</date>
+    <title>Falcon and Falconry.</title>
+    <container-title>World book encyclopedia.</container-title>
+    <pages>(pp. 150-155).</pages>
+    <location>Chicago:</location>
+    <publisher>World Book.</publisher>
+  </sequence>
+  <sequence>
+    <author>Pettingill, Olin Sewall, Jr.</author>
+    <title>"Falcon and Falconry."</title>
+    <container-title>World Book Encyclopedia.</container-title>
+    <date>1980.</date>
+  </sequence>
+  <sequence>
+    <author>Tobias, R.</author>
+    <date>(1991).</date>
+    <title>Thurber, James.</title>
+    <container-title>Encyclopedia americana.</container-title>
+    <pages>(p. 600).</pages>
+    <location>New York:</location>
+    <publisher>Scholastic Library Publishing.</publisher>
+  </sequence>
+  <sequence>
+    <author>Tobias, Richard.</author>
+    <title>"Thurber, James."</title>
+    <container-title>Encyclopedia Americana.</container-title>
+    <date>1991</date>
+    <edition>ed.</edition>
+  </sequence>
+  <sequence>
+    <author>Trillin, Calvin.</author>
+    <title>"Culture Shopping."</title>
+    <journal>New Yorker</journal>
+    <date>15 Feb. 1993:</date>
+    <pages>48-51.</pages>
+  </sequence>
+  <sequence>
+    <editor>Levinson, David, and Melvin M. Ember, eds.</editor>
+    <title>Encyclopedia of Cultural Anthropology.</title>
+    <volume>4 vols.</volume>
+    <location>New York:</location>
+    <publisher>Henry Holt,</publisher>
+    <date>1996.</date>
+    <medium>Print.</medium>
+  </sequence>
+  <sequence>
+    <title>"Azimuthal Equidistant Projection."</title>
+    <container-title>Merriam-Webster's Collegiate Dictionary.</container-title>
+    <edition>10th ed.</edition>
+    <date>1993.</date>
+  </sequence>
 </dataset>
