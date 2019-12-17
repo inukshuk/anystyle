@@ -41,7 +41,7 @@ module AnyStyle
     end
 
     def stale?
-      File.exist?(model.path) && File.mtime(mode.path) > mtime
+      File.exist?(model.path) && File.mtime(model.path) > mtime
     end
 
     def label(input, **opts)
