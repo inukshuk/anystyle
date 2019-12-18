@@ -10,7 +10,7 @@ matrix:
   - rvm: 2.4
     env: WITH_COVERALLS=false
 before_install:
-  - gem update --system
+  #- gem update --system
 install:
   - if [[ $WITH_COVERALLS = "true" ]]; then
       bundle install --without debug extra profile;
