@@ -50,14 +50,12 @@ Alternatively, you can create your own `AnyStyle::Parser` or
 `AnyStyle::Finder` with custom options.
 
 
-Web Application and Web Service
--------------------------------
-The web interface for AnyStyle, previously at [anystyle.io](https://anystyle.io),
-is currently down indefintely for maintenance. The plan is to update the website to
-use version 1.0 of the parser (which produces much better results than the legacy
-version that was powering the website), but there is no clear timetable for when
-this will happen. (If you know Ruby on Rails and would like to help bring back a popular
-web service, please get in touch!)
+Using the AnyStyle Web App
+--------------------------
+AnyStyle is available as web application at [anystyle.io](https://anystyle.io).
+
+The web application [is open source](https://github.com/inukshuk/anystyle.io)
+and you can also host yourself!
 
 Training
 --------
@@ -159,7 +157,7 @@ example, fix the bug and submit a pull request.
 
 License
 -------
-Copyright 2011-2018 Sylvester Keil. All rights reserved.
+Copyright 2011-2020 Sylvester Keil. All rights reserved.
 
 AnyStyle is distributed under a BSD-style license.
 See LICENSE for details.
