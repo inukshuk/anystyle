@@ -160,10 +160,10 @@ Credits
 AnyStyle is a volunteer effort and we encourage you
 to join us! Over the years our main contributors have been:
 
-* Alex Fenton (@a-fent)
-* Sylvester Keil (@inukshuk)
-* Johannes Krtek (@flachware)
-* Ilja Srna (@namyra)
+* [Alex Fenton](https://github.com/a-fent)
+* [Sylvester Keil](https://github.com/inukshuk)
+* [Johannes Krtek](https://github.com/flachware)
+* [Ilja Srna](https://github.com/namyra)
 
 License
 -------
