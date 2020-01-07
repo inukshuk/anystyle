@@ -19,7 +19,9 @@ module AnyStyle
       ensure
         if empty?
           populate!
-          ::Marshal.dump(db, File.open(options[:path], 'wb'))
+          if File.writable?(options[:path])
+            ::Marshal.dump(db, File.open(options[:path], 'wb'))
+          end
         end
       end
     end
