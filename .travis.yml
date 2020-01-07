@@ -3,8 +3,10 @@ sudo: false
 cache: bundler
 matrix:
   include:
-  - rvm: 2.6
+  - rvm: 2.7
     env: WITH_COVERALLS=true
+  - rvm: 2.6
+    env: WITH_COVERALLS=false
   - rvm: 2.5
     env: WITH_COVERALLS=false
   - rvm: 2.4
