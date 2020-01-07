@@ -151,9 +151,19 @@ You can check out a copy of the latest code using Git:
     $ git clone https://github.com/inukshuk/anystyle.git
 
 If you've found a bug or have a question, please open an issue on the
-[AnyStyle issue tracker](http://github.com/inukshuk/anystyle/issues).
+[AnyStyle issue tracker](https://github.com/inukshuk/anystyle/issues).
 Or, for extra credit, clone the AnyStyle repository, write a failing
 example, fix the bug and submit a pull request.
+
+Credits
+-------
+AnyStyle is a volunteer effort and we encourage you
+to join us! Over the years our main contributors have been:
+
+* Alex Fenton (@a-fent)
+* Sylvester Keil (@inukshuk)
+* Johannes Krtek (@flachware)
+* Ilja Srna (@namyra)
 
 License
 -------
