@@ -7,7 +7,7 @@ module AnyStyle
         'Preprint, arXiv:1402.7034,' => { arxiv: ['1402.7034'] },
         '[arXiv:hepph/9905221].' => { arxiv: ['hepph/9905221'] }
       }).each do |(a, b)|
-        expect(n.normalize(note: [a])).to include(b)
+        expect(n.normalize({ note: [a] })).to include(b)
       end
     end
   end

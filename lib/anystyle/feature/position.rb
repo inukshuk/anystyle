@@ -4,7 +4,7 @@ module AnyStyle
       attr_reader :idx, :seq
 
       def initialize(idx: :idx, seq: :seq, **opts)
-        super(opts)
+        super(**opts)
         @idx, @seq = idx, seq
       end
 

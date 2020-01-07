@@ -10,7 +10,7 @@ module AnyStyle
         'doi:10.1002/mpr.33.' => { doi: ['10.1002/mpr.33.'] },
         'https://doi.org/10.1000/182' => { doi: ['10.1000/182'] }
       }).each do |(a, b)|
-        expect(n.normalize(doi: [a])).to include(b)
+        expect(n.normalize({ doi: [a] })).to include(b)
       end
     end
 
@@ -19,7 +19,7 @@ module AnyStyle
         'https://doi.org/10/aabbe' => { doi: ['10/aabbe'] },
         'https://doi.org/10.1000/182' => { doi: ['10.1000/182'] }
       }).each do |(a, b)|
-        expect(n.normalize(url: [a])).to include(b)
+        expect(n.normalize({ url: [a] })).to include(b)
       end
     end
   end

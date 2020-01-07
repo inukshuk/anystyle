@@ -87,12 +87,12 @@ module AnyStyle
         expand Wapiti::Dataset.new([input])
       when String
         if !input.tainted? && input.length < 1024 && File.exists?(input)
-          expand Wapiti::Dataset.open(input, opts)
+          expand Wapiti::Dataset.open(input, **opts)
         else
-          expand Wapiti::Dataset.parse(input, opts)
+          expand Wapiti::Dataset.parse(input, **opts)
         end
       else
-        expand Wapiti::Dataset.parse(input, opts)
+        expand Wapiti::Dataset.parse(input, **opts)
       end
     end
   end
@@ -207,7 +207,7 @@ module AnyStyle
       opts[:separator] ||= options[:separator]
       opts[:delimiter] ||= options[:delimiter]
       input = input.join("\n") if input.is_a?(Array) && input[0].is_a?(String)
-      super(input, opts)
+      super(input, **opts)
     end
   end
 end

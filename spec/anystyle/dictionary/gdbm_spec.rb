@@ -2,6 +2,7 @@ require 'fileutils'
 
 begin
   require 'gdbm'
+  require 'tmpdir'
 
   module AnyStyle
     describe "GDBM Dictionary Adapter" do

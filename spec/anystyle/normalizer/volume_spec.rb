@@ -48,20 +48,22 @@ module AnyStyle
         '22. Jg. Heft 3,' => { volume: ['22'], issue: ['3'] },
         '19.Jg. H.3,' => { volume: ['19'], issue: ['3'] },
         'Jg. 37:' => { volume: ['37'] }
-        
+
         # 47ème année, n°1,
         # Isuue 140,
         # 40 (4), art. no. 5446343,
         # 129, 4, Pt. 2:
 
       }).each do |(a, b)|
-        expect(n.normalize(volume: [a])).to include(b),
-                                            -> { "'#{a}' should normalise to #{b}, got: " + n.normalize(volume: [a]).to_s }
+        expect(n.normalize({ volume: [a] }))
+          .to include(b), -> {
+            "'#{a}' should normalise to #{b}, got: " + n.normalize(volume: [a]).to_s
+          }
       end
     end
 
     it "extracts number of volumes" do
-      expect(n.normalize(volume: ['8 vols.'])).to include(volume: ['8'])
+      expect(n.normalize({ volume: ['8 vols.'] })).to include(volume: ['8'])
     end
 
     it "extracts page numbers" do
@@ -71,8 +73,10 @@ module AnyStyle
         # '22(3):pp.87-106' => { volume: ['22'], issue: ['3'], pages: ['87-106'] },
         # '35:S42-S45' => { volume: ['35'], pages: ['42-45'] }
       }).each do |(a, b)|
-        expect(n.normalize(volume: [a])).to include(b),
-                                            ->{ "'#{a}' should normalise to #{b}, got: " + n.normalize(volume: [a]).to_s }
+        expect(n.normalize({ volume: [a] }))
+          .to include(b), -> {
+          "'#{a}' should normalise to #{b}, got: " + n.normalize(volume: [a]).to_s
+          }
       end
     end
 
@@ -87,8 +91,10 @@ module AnyStyle
           '19 Jg., Heft 2/2011,' => { volume: ['19'], issue: ['2'], date: ['2011'] },
           'Jg. 51, Heft 3/2000,' => { volume: ['51'], issue: ['3'], date: ['2000'] }
         }).each do |(a, b)|
-          expect(n.normalize(volume: [a])).to include(b),
-                                              ->{ "'#{a}' should normalise to #{b}, got: " + n.normalize(volume: [a]).to_s }
+          expect(n.normalize({ volume: [a] }))
+            .to include(b), -> {
+              "'#{a}' should normalise to #{b}, got: " + n.normalize(volume: [a]).to_s
+            }
         end
       end
     end
