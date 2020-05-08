@@ -34,7 +34,7 @@ module AnyStyle
             require 'citeproc'
             ::CiteProc::Date.parse!(date.tr('X~', 'u?')).to_citeproc.symbolize_keys
           rescue
-            date
+            { raw: date }
           end
         else
           hash[:issued] = date
