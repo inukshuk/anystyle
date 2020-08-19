@@ -4,6 +4,7 @@ module AnyStyle
       @keys = [:volume, :pages, :date]
 
       VOLNUM_RX = '(\p{Lu}?\d+|[IVXLCDM]+)'
+
       def normalize(item, **opts)
         map_values(item, [:volume]) do |_, volume|
           volume = StringUtils.strip_html volume
@@ -15,7 +16,7 @@ module AnyStyle
           end
 
           case volume
-          when /(?:^|\s)#{VOLNUM_RX}\s?\(([^)]+)\)(\s?\d+\p{Pd}\d+)?/
+          when /(?:^|\s)#{VOLNUM_RX}\s?\(([^)]+)\)[;:,]?(?:pp?.?)?(\s?\d+\p{Pd}\d+)?/
             volume = $1
             append item, :issue, $2
             append item, :pages, $3.strip unless $3.nil?

@@ -69,8 +69,9 @@ module AnyStyle
     it "extracts page numbers" do
       ({
         '17(1)73-84.' => { volume: ['17'], issue: ['1'], pages: ['73-84'] },
-        '51:197-204' => { volume: ['51'], pages: ['197-204'] }
-        # '22(3):pp.87-106' => { volume: ['22'], issue: ['3'], pages: ['87-106'] },
+        '17(1):73-84.' => { volume: ['17'], issue: ['1'], pages: ['73-84'] },
+        '51:197-204' => { volume: ['51'], pages: ['197-204'] },
+        '22(3):pp.87-106' => { volume: ['22'], issue: ['3'], pages: ['87-106'] },
         # '35:S42-S45' => { volume: ['35'], pages: ['42-45'] }
       }).each do |(a, b)|
         expect(n.normalize({ volume: [a] }))
@@ -94,6 +95,19 @@ module AnyStyle
           expect(n.normalize({ volume: [a] }))
             .to include(b), -> {
               "'#{a}' should normalise to #{b}, got: " + n.normalize(volume: [a]).to_s
+            }
+        end
+      end
+
+      it "extracts page numbers" do
+        ({
+          '2019;14(3):153-60.' => {
+            volume: ['14'], issue: ['3'], pages: ['153-60'], date: ['2019']
+          }
+        }).each do |(a, b)|
+          expect(n.normalize({ volume: [a] }))
+            .to include(b), -> {
+            "'#{a}' should normalise to #{b}, got: " + n.normalize(volume: [a]).to_s
             }
         end
       end
