@@ -61,15 +61,15 @@ module AnyStyle
     Parser.instance
   end
 
-  def self.parse(*arguments)
-    parser.parse(*arguments)
+  def self.parse(input, **opts)
+    parser.parse(input, **opts)
   end
 
   def self.finder
     Finder.instance
   end
 
-  def self.find(*arguments)
-    finder.find(*arguments)
+  def self.find(input, **opts)
+    finder.find(input, **opts)
   end
 end

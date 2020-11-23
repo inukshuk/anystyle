@@ -6,7 +6,7 @@ module AnyStyle
       attr_reader :defaults, :formats
 
       def load(path)
-        new :model => path
+        new model: path
       end
 
       # Returns a default parser instance
@@ -28,7 +28,7 @@ module AnyStyle
         @model.options.update_attributes options
         @mtime = File.mtime(file)
       else
-        @model = Wapiti::Model.new(options.reject { |k,_| k == :model })
+        @model = Wapiti::Model.new(options.reject { |k, _| k == :model })
         @model.path = options[:model]
         @mtime = Time.now
       end
