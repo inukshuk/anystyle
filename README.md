@@ -57,6 +57,9 @@ AnyStyle is available as web application at [anystyle.io](https://anystyle.io).
 The web application [is open source](https://github.com/inukshuk/anystyle.io)
 and you can also host yourself!
 
+Improving results for your data
+=================================
+
 Training
 --------
 You can train custom Finder and Parser models. To do this, you need
@@ -105,6 +108,47 @@ When working with training data, it is a good idea to use the
 `Wapiti::Dataset` API in Ruby: it supports all the standard set
 operators and makes it very easy to combine or compare data sets.
 
+Natural Languages used in AnyStyle
+----------------------------------
+
+As mentioned above, the
+[core](https://github.com/inukshuk/anystyle/blob/master/res/parser/core.xml)
+dataset contains the manually marked-up references that are used as the
+basis for the default AnyStyle parsing model. If the references you are
+trying to parse include many non-English documents, the distribution of
+natural languages in this corpus is relevant (detected using [cld](https://github.com/jtoy/cld)).
+
+| Language                | n   |
+|-------------------------|-----|
+| ENGLISH                 | 965 |
+| FRENCH                  | 54  |
+| GERMAN                  | 26  |
+| ITALIAN                 | 11  |
+| Others                  | 9   |
+|                         |     |
+| Not reliably determined | 449 |
+| (but mainly English)    |     |
+
+(These data are based on AnyStyle version 1.3.13) 
+
+There is a strong prevalence of English-language documents with the
+conventions used in English-language bibliographies, with some
+representation of other European languages. The languages used reflect
+those used in scientific publishing as well as the maintainers'
+competencies. If you are working with many documents in languages other
+than English, you might consider training the model with some examples
+in the relevant languages.
+
+AnyStyle should work with references written in any Latin script
+(including most European languages, languages such as Indonesian and
+Malaysian, as well as romanised Arabic, Chinese and Japanese). It should
+also support languages written with non-Latin alphabets (such as
+Russian), although no examples of these appear in the default training
+sets. Languages written in syllabaries or complex symbols which do not
+use white space to separate tokens are not compatible with AnyStyle's
+approach: this includes Chinese, Japanese, Arabic as well as many Indian
+languages. 
+
 Dictionary Adapters
 -------------------
 During the statistical analysis of reference strings, AnyStyle relies
@@ -142,6 +186,8 @@ and configure AnyStyle to use the Redis adapter:
     AnyStyle::Dictionary::Redis.defaults[:host] = 'localhost'
     AnyStyle::Dictionary::Redis.defaults[:port] = 6379
 
+About AnyStyle
+==============
 Contributing
 ------------
 The AnyStyle source code is
