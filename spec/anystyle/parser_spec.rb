@@ -119,5 +119,12 @@ module AnyStyle
         end
       end
     end
+    describe "Inheritance" do
+      class ParserSubclass < AnyStyle::Parser
+      end
+      it 'Subclass can be initialized without own @defaults' do
+        expect { ParserSubclass.new }.not_to raise_error
+      end
+    end
   end
 end

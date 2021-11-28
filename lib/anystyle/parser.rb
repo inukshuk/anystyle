@@ -18,7 +18,8 @@ module AnyStyle
     attr_reader :model, :options, :features, :normalizers, :mtime
 
     def initialize(options = {})
-      @options = self.class.defaults.merge(options)
+      def_opts = self.class.defaults || Parser.defaults
+      @options = def_opts.merge(options)
       load_model
     end
 
