@@ -22,5 +22,16 @@ module AnyStyle
         expect(n.normalize({ url: [a] })).to include(b)
       end
     end
+
+    it "extracts valid URLs" do
+      ({
+        'https://www.example.com/a1' => { url: ['https://www.example.com/a1'] },
+        'www.example.com/a1' => { url: ['www.example.com/a1'] },
+        'Foo bar http://example.org baz.' => { url: ['http://example.org'] },
+        'Foo bar http://example.org baz. https://example.com/x' => { url: ['http://example.org', 'https://example.com/x'] }
+      }).each do |(a, b)|
+        expect(n.normalize({ url: [a] })).to include(b)
+      end
+    end
   end
 end

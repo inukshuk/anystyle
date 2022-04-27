@@ -13,7 +13,12 @@ module AnyStyle
           when :url
             doi = doi_extract(value) if value =~ /doi\.org\//i
             append item, :doi, doi unless doi.nil?
-            URI.extract(value)
+            urls = URI.extract(value, %w(http https ftp ftps))
+            if urls.empty?
+              value
+            else
+              urls
+            end
           when :doi
             doi_extract(value) || value
           else
