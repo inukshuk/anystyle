@@ -19,9 +19,9 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.2'
 
-  s.add_runtime_dependency('bibtex-ruby', '~>5.1')
+  s.add_runtime_dependency('bibtex-ruby', '~>6.0')
   s.add_runtime_dependency('anystyle-data', '~>1.2')
-  s.add_runtime_dependency('wapiti', '~>1.0', '>=1.0.2')
+  s.add_runtime_dependency('wapiti', '~>2.0')
   s.add_runtime_dependency('namae', '~>1.0')
 
   s.files =
