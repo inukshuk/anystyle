@@ -1,0 +1,37 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="dataset">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sequence" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:choice maxOccurs="unbounded" minOccurs="0">
+              <xs:element type="xs:string" name="author"/>
+              <xs:element type="xs:string" name="date"/>
+              <xs:element type="xs:string" name="title"/>
+              <xs:element type="xs:string" name="editor"/>
+              <xs:element type="xs:string" name="location"/>
+              <xs:element type="xs:string" name="container-title"/>
+              <xs:element type="xs:string" name="volume"/>
+              <xs:element type="xs:string" name="pages"/>
+              <xs:element type="xs:string" name="publisher"/>
+              <xs:element type="xs:string" name="note"/>
+              <xs:element type="xs:string" name="url"/>
+              <xs:element type="xs:string" name="citation-number"/>
+              <xs:element type="xs:string" name="journal"/>
+              <xs:element type="xs:string" name="genre"/>
+              <xs:element type="xs:string" name="collection-title"/>
+              <xs:element type="xs:string" name="edition"/>
+              <xs:element type="xs:string" name="source"/>
+              <xs:element type="xs:string" name="translator"/>
+              <xs:element type="xs:string" name="isbn"/>
+              <xs:element type="xs:string" name="doi"/>
+              <xs:element type="xs:string" name="director"/>
+              <xs:element type="xs:string" name="medium"/>
+              <xs:element type="xs:string" name="producer"/>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
