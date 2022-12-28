@@ -63,21 +63,18 @@ module AnyStyle
     module_function
 
     def pdf_to_text(path, pdftotext: 'pdftotext', **opts)
-      raise "pdftotext is tainted" if pdftotext.tainted?
       text = %x{#{pdftotext} #{pdf_opts(path, **opts).join(' ')} "#{path}" -}
       raise "pdftotext failed with error code #{$?.exitstatus}" unless $?.success?
       text.force_encoding(opts[:encoding] || 'UTF-8')
     end
 
     def pdf_info(path, pdfinfo: 'pdfinfo', **opts)
-      raise "pdfinfo is tainted" if pdfinfo.tainted?
       Hash[%x{#{pdfinfo} "#{path}"}.split("\n").map { |ln|
         ln.split(/:\s+/, 2)
       }]
     end
 
     def pdf_info(path, pdfinfo: 'pdfinfo', **opts)
-      raise "pdfinfo is tainted" if pdfinfo.tainted?
       %x{#{pdfinfo} -meta "#{path}"}
     end
 

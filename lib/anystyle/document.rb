@@ -19,8 +19,6 @@ module AnyStyle
 
       def open(path, format: File.extname(path), tagged: false, **opts)
         raise ArgumentError,
-          "cannot open tainted path: '#{path}'" if path.tainted?
-        raise ArgumentError,
           "document not found: '#{path}'" unless File.exist?(path)
 
         path = File.absolute_path(path)

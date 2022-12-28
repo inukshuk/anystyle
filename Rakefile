@@ -90,14 +90,14 @@ task :check, :model do |t, args|
     Dir['./res/finder/*.ttx'].sort.each do |ttx|
       print 'Checking %.25s' % "#{File.basename(ttx)}....................."
       start = Time.now
-      stats = AnyStyle.finder.check ttx.untaint
+      stats = AnyStyle.finder.check ttx
       report stats, Time.now - start
     end
   else
     Dir['./res/parser/*.xml'].sort.each do |xml|
       print 'Checking %.25s' % "#{File.basename(xml)}....................."
       start = Time.now
-      stats = AnyStyle.parser.check xml.untaint
+      stats = AnyStyle.parser.check xml
       report stats, Time.now - start
     end
   end
@@ -106,11 +106,11 @@ end
 desc "Save delta of a tagged dataset with itself"
 task :delta, :input do |t, args|
   require 'anystyle'
-  input = args[:input].untaint
+  input = args[:input]
   if File.directory?(input)
     files = Dir.entries(input)
       .reject { |f| f.start_with?('.') }
-      .map { |f| File.join(input, f).untaint }
+      .map { |f| File.join(input, f) }
   else
     files = [input]
   end
@@ -141,7 +141,7 @@ end
 desc "Find references in document"
 task :find, :input do |t, args|
   require 'anystyle'
-  file = args[:input].untaint
+  file = args[:input]
   refs = AnyStyle.finder.find(file, format: :references)[0]
   break unless refs.length > 0
   output = AnyStyle.parser.label refs.join("\n")

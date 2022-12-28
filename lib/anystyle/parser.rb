@@ -87,7 +87,7 @@ module AnyStyle
       when Wapiti::Sequence
         expand Wapiti::Dataset.new([input])
       when String
-        if !input.tainted? && input.length < 1024 && File.exists?(input)
+        if input.length < 1024 && File.exists?(input)
           expand Wapiti::Dataset.open(input, **opts)
         else
           expand Wapiti::Dataset.parse(input, **opts)
