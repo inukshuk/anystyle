@@ -11,12 +11,12 @@ $:.unshift(File.join(File.dirname(__FILE__), '../lib'))
 require 'anystyle'
 
 src = ARGV[0]
-dst = "#{(ARGV[1] || '.')}".untaint
+dst = "#{(ARGV[1] || '.')}"
 
 if File.directory?(src)
-  src = Dir["#{src}/*.{txt,ttx,pdf}"].map(&:untaint)
+  src = Dir["#{src}/*.{txt,ttx,pdf}"]
 else
-  src = [src.dup.untaint]
+  src = [src.dup]
 end
 
 src.each do |input|

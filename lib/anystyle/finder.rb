@@ -8,7 +8,7 @@ module AnyStyle
       compact: true,
       threads: 4,
       format: :references,
-      training_data: Dir[File.join(RES, 'finder', '*.ttx')].map(&:untaint),
+      training_data: Dir[File.join(RES, 'finder', '*.ttx')],
       layout: true,
       pdftotext: 'pdftotext',
       pdfinfo: 'pdfinfo'
