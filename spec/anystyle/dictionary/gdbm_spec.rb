@@ -27,7 +27,7 @@ begin
 
       it "can be opened" do
         expect { dict.open }.to change { dict.open? }
-        expect(File.exists?(dict.options[:path])).to be true
+        expect(File.exist?(dict.options[:path])).to be true
       end
     end
   end
