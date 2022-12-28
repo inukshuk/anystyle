@@ -10,7 +10,7 @@ module AnyStyle
       end
 
       def open
-        if File.exists?(options[:path])
+        if File.exist?(options[:path])
           @db = ::Marshal.load(File.open(options[:path]))
         else
           @db = {}
