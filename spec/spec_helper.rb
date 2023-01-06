@@ -56,7 +56,10 @@ module Resources
   PATH = File.expand_path('../../res', __FILE__)
 
   def resource(name = 'parser/core.xml', format: 'hash', **opts)
-    AnyStyle::Parser.new.parse File.join(PATH, name), format: format, **opts
+    AnyStyle::Parser.new.parse(
+      Wapiti::Dataset.open(File.join(PATH, name)),
+      format: format, **opts
+    )
   end
 end
 
