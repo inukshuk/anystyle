@@ -1,3 +1,9 @@
+1.4.0 / 2023-01-06
+==================
+* Removed deprectate string taint checking (@bbonamin).
+* `AnyStyle::Parser#parse` will no longer automatically open local files.
+  Please call `Wapiti::Dataset.open` explicitly if you relied on this.
+
 1.3.6 / 2019-12-02
 ==================
 * Updated parser model.
