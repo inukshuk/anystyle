@@ -213,7 +213,7 @@ to join us! Over the years our main contributors have been:
 
 License
 -------
-Copyright 2011-2020 Sylvester Keil. All rights reserved.
+Copyright 2011-2023 Sylvester Keil. All rights reserved.
 
 AnyStyle is distributed under a BSD-style license.
 See LICENSE for details.
