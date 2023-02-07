@@ -10,7 +10,7 @@ module AnyStyle
         current_label = ''
         new(string.split(delimiter).map { |line|
           if tagged
-            label, line = line.split(/\s*\| /, 2)
+            label, line = line.split(/\s*\|( |$)/, 2)
             current_label = label unless label.empty?
           end
           Wapiti::Token.new line, label: current_label.to_s
