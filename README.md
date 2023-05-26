@@ -4,7 +4,7 @@ AnyStyle
 [![Coverage Status](https://coveralls.io/repos/github/inukshuk/anystyle/badge.svg?branch=master)](https://coveralls.io/github/inukshuk/anystyle?branch=master)
 
 AnyStyle is a fast and smart parser of bibliographic references.
-Originally inspired by [ParsCit][] and [FreeCite][],
+Originally inspired by [parsCit][] and [FreeCite][],
 AnyStyle uses machine learning algorithms
 and aims to make it easy to train models
 with data that's relevant to you.
@@ -61,7 +61,7 @@ and you're welcome to host your own instance!
 [anystyle-cli]: https://github.com/inukshuk/anystyle-cli
 [anystyle.io]: https://anystyle.io
 [open source]: https://github.com/inukshuk/anystyle.io
-[ParcCit]: http://aye.comp.nus.edu.sg/parsCit/
+[parsCit]: http://aye.comp.nus.edu.sg/parsCit/
 [FreeCite]: http://freecite.library.brown.edu/
 
 
