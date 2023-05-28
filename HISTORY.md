@@ -1,6 +1,6 @@
 1.4.0 / 2023-01-06
 ==================
-* Removed deprectate string taint checking (@bbonamin).
+* Removed deprecated string taint checking (@bbonamin).
 * `AnyStyle::Parser#parse` will no longer automatically open local files.
   Please call `Wapiti::Dataset.open` explicitly if you relied on this.
 
@@ -17,7 +17,7 @@
 ==================
 * Updated and improved normalizers and CSL format.
 * Improved Chinese reference tokenization.
-* Added option to customizee pdftotext path.
+* Added option to customize pdftotext path.
 * Improved Finder reference line joining.
 * Improved Finder model; training sets.
 * Improved Parser model; training sets.
@@ -41,15 +41,15 @@
 
 1.0.1 / 2018-06-06
 ==================
-* Initial 1.0 release! This release is not backwards compatible to the
-  0.x branch. The new release uses the `AnyStyle` module and can be
-  installed using the `anystyle` Gem. The 0.x branch used the `Anystyle`
-  module and can still be installed using the `anystyle-parser` Gem but
-  will not be maintained any longer.
-* Includes vastly improved parser model and training sets.
-* Based on updated `wapiti-ruby` which builds on Linux, macOS, and
-  Windows platforms (thanks @a-fent and @WouterJeuris).
-* Flexible normalizer architecture (normalizers can be skipped individually).
+* Initial 1.0 release!
+    This release isn't backwards compatible to the 0.x branch.
+    The new release uses the `AnyStyle` module via the `anystyle` Gem.
+    The old 0.x branch used the `Anystyle` module via the`anystyle-parser` Gem
+    but isn't maintained any longer.
+* Includes improved parser model and training sets.
+* Based on updated `wapiti-ruby` which builds on Linux, macOS, and Windows platforms
+    (thanks @a-fent and @WouterJeuris).
+* Flexible normalizer architecture (you can skip individual normalizers).
 * Improved feature architecture.
 * Improved input/output via Wapiti::Dataset.
 * New default dictionary adapter (thanks @a-fent).

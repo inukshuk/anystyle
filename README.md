@@ -123,8 +123,7 @@ and makes it easy to combine or compare data sets.
 
 Natural Languages used in AnyStyle
 ----------------------------------
-As mentioned previously,
-the [core][] data set contains the manually marked-up references
+The [core][] data set contains the manually marked-up references
 which comprise AnyStyle's default parser model.
 If your references include non-English documents,
 the distribution of natural languages in this corpus is relevant.
