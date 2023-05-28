@@ -46,19 +46,11 @@ end if ENV['CI']
 
 task :default => :spec
 
-begin
-  require 'yard'
-  YARD::Rake::YardocTask.new
-rescue LoadError
-  # ignore
-end
-
 desc 'Run an IRB session with AnyStyle loaded'
-task :console, [:script] do |t, args|
+task :console do |t|
   ARGV.clear
   require 'irb'
   require 'anystyle'
-  IRB.conf[:SCRIPT] = args.script
   IRB.start
 end
 
