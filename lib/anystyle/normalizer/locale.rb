@@ -1,13 +1,9 @@
 module AnyStyle
-  maybe_require 'language_detector'
+  maybe_require 'cld'
   maybe_require 'unicode/scripts'
 
   class Normalizer
     class Locale < Normalizer
-      def initialize
-        @ld = LanguageDetector.new if defined?(LanguageDetector)
-      end
-
       def normalize(item, **opts)
         sample = item.values_at(
           :title,
@@ -24,14 +20,14 @@ module AnyStyle
         language = detect_language(sample)
         scripts = detect_scripts(sample)
 
-        item[:language] ||= language unless language.nil?
+        item[:language] ||= language[:code] unless language.nil?
         item[:scripts] ||= scripts unless scripts.nil?
         item
       end
     end
 
     def detect_language(string)
-      @ld.detect(string) unless @ld.nil?
+      ::CLD.detect_language(string) if defined?(::CLD)
     end
 
     def detect_scripts(string)
