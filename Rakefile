@@ -36,14 +36,6 @@ RSpec::Core::RakeTask.new(:spec) do |spec|
   spec.pattern = FileList['spec/**/*_spec.rb']
 end
 
-begin
-  require 'coveralls/rake/task'
-  Coveralls::RakeTask.new
-  task :test_with_coveralls => [:spec, 'coveralls:push']
-rescue LoadError
-  # ignore
-end if ENV['CI']
-
 task :default => :spec
 
 desc 'Run an IRB session with AnyStyle loaded'
