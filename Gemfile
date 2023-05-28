@@ -10,6 +10,7 @@ end
 
 group :coverage do
   gem 'simplecov', require: false
+  gem 'simplecov-lcov', require: false
 end
 
 group :debug do
