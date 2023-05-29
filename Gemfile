@@ -30,5 +30,5 @@ group :extra do
   gem 'bibtex-ruby'
   gem 'citeproc'
   gem 'unicode-scripts'
-  gem 'cld'
+  gem 'cld3'
 end
