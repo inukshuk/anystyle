@@ -1,3 +1,4 @@
+# coding: utf-8
 module AnyStyle
   class Feature
     class Keyword < Feature
@@ -12,7 +13,7 @@ module AnyStyle
                /^(compilador)$/i,
                /編/
             :editor
-          when /著|撰/,
+          when /著|撰/
             :author
           when /^trans(l(ated|ators?|ation))?$/i,
                /^übers(etz(t|ung))?$/i,
