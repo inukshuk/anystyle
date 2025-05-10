@@ -96,8 +96,9 @@ module AnyStyle
   class Parser < ParserCore
     include Format::BibTeX
     include Format::CSL
+    include Format::RIS
 
-    @formats = [:bibtex, :citeproc, :csl, :hash, :wapiti]
+    @formats = [:bibtex, :citeproc, :csl, :hash, :wapiti, :ris]
 
     @defaults = {
       model: File.join(SUPPORT, 'parser.mod'),
@@ -190,7 +191,7 @@ module AnyStyle
       case format.to_sym
       when :wapiti
         label(input, **opts)
-      when :hash, :bibtex, :citeproc, :csl
+      when :hash, :bibtex, :citeproc, :csl, :ris
         formatter = "format_#{format}".to_sym
         send(formatter, label(input, **opts), **opts)
       else
