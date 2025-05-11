@@ -23,7 +23,7 @@ group :profile do
 end
 
 group :extra do
-	gem 'lmdb'
+	gem 'lmdb', platforms: :mri
   gem 'redis'
   gem 'redis-namespace'
   gem 'edtf'
