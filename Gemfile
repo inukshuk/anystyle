@@ -6,6 +6,7 @@ group :development, :test do
   #gem 'wapiti', github: 'inukshuk/wapiti-ruby'
   gem 'rake'
   gem 'rspec'
+  gem 'yaml'
 end
 
 group :coverage do
