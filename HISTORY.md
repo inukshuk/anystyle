@@ -1,3 +1,7 @@
+1.6.0 / 2025-05-11
+==================
+* Added RIS output format (@ColorBlindHobbiest).
+
 1.4.0 / 2023-01-06
 ==================
 * Removed deprecated string taint checking (@bbonamin).
