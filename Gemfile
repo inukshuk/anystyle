@@ -1,7 +1,4 @@
 source 'https://rubygems.org'
-
-gem 'anystyle-cli', git: 'https://github.com/ColourBlindHobbiest/anystyle-cli.git'
-
 gemspec
 
 group :development, :test do
